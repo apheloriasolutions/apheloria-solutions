@@ -111,6 +111,34 @@ LED, Mantenimiento, Régimen de funcionamiento, Ajuste del ángulo, Tecnología,
 incluye también 3 errores de parseo corregidos de paso (potencias con coma decimal mal leídas en
 `OPANABAX344KD` y `0PHEIPAS41W...KD`; un `Voltaje` duplicado/erróneo en `00CAPGL488W30`).
 
+**Replanteamiento 2026-09-24 — la tabla sale del PDF, no del Excel.** El Excel maestro NO tiene la
+tabla de características: solo el código, una descripción de una línea y referencias de proveedor
+(estas **nunca se publican**). Por eso las fichas salían con 4 filas en vez de las ~20 del PDF. Ahora:
+
+- `scripts/fichas/extraer_tabla.py` lee la tabla del PDF **por coordenadas**: las bandas beige
+  alternas de la columna izquierda marcan la rejilla exacta de filas (incluidas las más altas, con
+  etiqueta de varias líneas), y dentro de cada fila es etiqueta lo que empieza en el margen
+  izquierdo. `extract_tables()` y el texto plano no sirven (la tabla no tiene líneas). Si una ficha
+  no sigue la plantilla o está escaneada, se lista aparte: **nunca se inventan datos**.
+- `scripts/fichas/leer_excel.py` solo aporta qué códigos son el mismo producto, los mA y las
+  opciones múltiples.
+- `scripts/fichas/construir_productos.py` genera **una ficha por producto real, no por código**:
+  los códigos que son el mismo producto con distinta potencia/K/mA/acabado (p. ej. los 21 del ZEN)
+  se fusionan en una sola tabla y los valores que cambian van separados por `" | "`
+  (`7W | 12W | 20W...`, `2700K | 3000K | 4000K`, `160 mA | 350 mA...`). Debajo quedan todos sus PDF
+  para descargar, cada uno etiquetado con lo que lo distingue ("20W · 3000K · 350 mA").
+- `scripts/fichas/generar_json.py` escribe `data/productos.json` con una estructura única
+  (`id, nombre, categoria, familia, refs[], specs[], imagenes[], descargas[], generada`) + el
+  informe `docs/migracion-fichas/fichas-generadas.md`. **105 fichas generadas** (industrial e
+  interior, 192 refs); exterior y emergencias siguen con la tabla antigua (`generada: false`).
+- `scripts/fichas/generar_revision.py` regenera `revision-productos.html` (herramienta de trabajo,
+  no forma parte del sitio): tabla arriba izquierda, fotos arriba derecha, PDF abajo izquierda.
+- Las erratas de los PDF (`2 ños`, lúmenes en `lm/W`, potencias sin número...) **no se corrigen**:
+  se anotan en `docs/migracion-fichas/erratas-pdf.md` para que las arregle el proveedor.
+- Ojo al ampliar a más categorías: hay códigos publicados que solo están en hojas de familia
+  (SALAS BLANCAS, PANELES, PROYECTORES, TIRAS LED...) y no en las hojas "TODO"; la categoría de
+  esos se recupera de `audit-productos.json`.
+
 **Pendientes antes de la fase 4** (detalle en `matching-resumen.md` e `imagenes-resumen.md`):
 - 92 productos publicados sin match en el Excel + 4 sin referencia asignable (las "Fuentes de
   alimentación") — necesitan specs a mano. Incluye tanto refs "normales" no encontradas como el
