@@ -1,0 +1,203 @@
+<!-- BORRADOR — pendiente de revisión por una gestoría/asesoría legal antes de publicar. Ver conversación de creación para contexto. -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aviso Legal — Apheloria Solutions</title>
+  <meta name="description" content="Aviso legal de Apheloria Solutions, S.L. Datos identificativos, condiciones de uso y propiedad intelectual del sitio web.">
+  <meta property="og:title" content="Aviso Legal — Apheloria Solutions">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_ES">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;1,400&family=Inter:wght@200;300;400&family=Montserrat:wght@100;200&family=Raleway:ital,wght@0,300;0,400;0,600;0,800;1,400&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    :root {
+      --ink: #1a1612;         --ink-rgb: 26, 22, 18;
+      --bg: #FFFFFF;          --bg-rgb: 255, 255, 255;
+      --beige: #F2EDE4;       --beige-rgb: 242, 237, 228;
+      --accent: #b0a898;      --accent-rgb: 176, 168, 152;
+      --accent-soft: #c8bfb0;
+      --accent-text: #857a68;
+      --heading: #6d5f52;
+      --white-rgb: 255, 255, 255;
+      --nav-h: 70px;
+    }
+    html { scroll-behavior: smooth; }
+    body { background: var(--bg); color: var(--ink); font-family: 'Inter', sans-serif; min-height: 100vh; }
+
+    /* NAV (versión simple, sin slides ni JS) */
+    nav {
+      position: sticky; top: 0; z-index: 200;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 0 2.2rem; height: var(--nav-h);
+      background: rgba(var(--white-rgb),0.85);
+      backdrop-filter: blur(18px) saturate(1.6);
+      border-bottom: 1px solid rgba(var(--ink-rgb),0.06);
+    }
+    .nav-brand { display: flex; align-items: center; text-decoration: none; }
+    .nav-brand-text {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.3rem; font-weight: 300; letter-spacing: 0.18em;
+      color: var(--accent); text-transform: uppercase;
+    }
+    .nav-back {
+      font-family: 'Raleway', sans-serif; font-size: 0.68rem; font-weight: 400;
+      letter-spacing: 0.12em; text-transform: uppercase;
+      color: var(--accent-text); text-decoration: none;
+      display: flex; align-items: center; gap: 0.4rem;
+      transition: color 0.2s;
+    }
+    .nav-back:hover { color: var(--ink); }
+
+    /* CONTENIDO LEGAL */
+    main {
+      max-width: 760px; margin: 0 auto;
+      padding: 3.5rem 1.5rem 5rem;
+    }
+    .legal-eyebrow {
+      display: block; font-family: 'Raleway', sans-serif;
+      font-size: 0.62rem; letter-spacing: 0.4em; text-transform: uppercase;
+      color: var(--accent-text); font-weight: 400; margin-bottom: 0.8rem;
+    }
+    h1 {
+      font-family: 'Montserrat', sans-serif; font-weight: 100;
+      font-size: clamp(1.8rem, 4vw, 2.6rem); letter-spacing: 0.06em;
+      text-transform: uppercase; color: var(--heading); line-height: 1.15;
+      margin-bottom: 0.6rem;
+    }
+    .legal-updated {
+      font-family: 'Raleway', sans-serif; font-size: 0.78rem; font-weight: 300;
+      color: var(--accent-text); margin-bottom: 2.8rem;
+    }
+    h2 {
+      font-family: 'Raleway', sans-serif; font-weight: 800;
+      font-size: 1.05rem; letter-spacing: 0.01em;
+      color: var(--ink); text-transform: uppercase;
+      margin: 2.6rem 0 1rem;
+      padding-bottom: 0.6rem;
+      border-bottom: 1px solid rgba(var(--ink-rgb),0.08);
+    }
+    h2:first-of-type { margin-top: 0; }
+    p, li {
+      font-family: 'Raleway', sans-serif; font-weight: 300;
+      font-size: 0.95rem; line-height: 1.85; color: var(--ink);
+    }
+    p { margin-bottom: 1.1rem; }
+    ul, ol { margin: 0 0 1.1rem 1.3rem; }
+    li { margin-bottom: 0.5rem; }
+    strong { font-weight: 600; }
+    a.inline-link { color: var(--accent-text); text-decoration-color: var(--accent); }
+    a.inline-link:hover { color: var(--ink); }
+
+    .legal-datos {
+      display: grid; grid-template-columns: minmax(0, 220px) 1fr;
+      gap: 0.65rem 1.5rem;
+      background: var(--beige); border-radius: 4px;
+      padding: 1.6rem 1.8rem; margin: 0 0 1.8rem;
+    }
+    .legal-datos dt {
+      font-family: 'Raleway', sans-serif; font-size: 0.68rem; font-weight: 600;
+      letter-spacing: 0.06em; text-transform: uppercase; color: var(--accent-text);
+    }
+    .legal-datos dd {
+      font-family: 'Raleway', sans-serif; font-size: 0.9rem; font-weight: 300; color: var(--ink);
+    }
+
+    /* FOOTER (documento normal, no fijo) */
+    footer.site-footer-doc {
+      border-top: 1px solid rgba(var(--ink-rgb),0.08);
+      padding: 2.2rem 1.5rem 2.5rem;
+      text-align: center;
+      font-family: 'Raleway', sans-serif; font-size: 0.68rem; color: var(--accent-text);
+    }
+    footer.site-footer-doc .footer-links { margin-top: 0.6rem; display: flex; gap: 0.6rem; justify-content: center; flex-wrap: wrap; }
+    footer.site-footer-doc a { color: var(--accent-text); text-decoration: none; }
+    footer.site-footer-doc a:hover { color: var(--ink); text-decoration: underline; text-decoration-color: var(--accent); }
+    footer.site-footer-doc .footer-sep { color: var(--accent-soft); }
+
+    @media (max-width: 640px) {
+      nav { padding: 0 1.2rem; }
+      .legal-datos { grid-template-columns: 1fr; padding: 1.3rem 1.4rem; }
+      main { padding: 2.5rem 1.2rem 3.5rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a class="nav-brand" href="index.html"><span class="nav-brand-text">Apheloria Solutions</span></a>
+    <a class="nav-back" href="index.html">← Volver a la web</a>
+  </nav>
+
+  <main>
+    <span class="legal-eyebrow">Legal</span>
+    <h1>Aviso Legal</h1>
+    <p class="legal-updated">Última actualización: agosto de 2026</p>
+
+    <h2>1. Datos identificativos</h2>
+    <p>En cumplimiento del deber de información recogido en el artículo 10 de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y de Comercio Electrónico (LSSI-CE), se exponen a continuación los datos identificativos del titular de este sitio web:</p>
+    <dl class="legal-datos">
+      <dt>Razón social</dt><dd>Apheloria Solutions, S.L.</dd>
+      <dt>Nombre comercial</dt><dd>Apheloria Solutions</dd>
+      <dt>NIF</dt><dd>B25952276</dd>
+      <dt>Domicilio social</dt><dd>Avda. Emilio Arrieta, 8, puerta 36. 28706 San Sebastián de los Reyes (Madrid)</dd>
+      <dt>Datos registrales</dt><dd>Registro Mercantil de Madrid, Hoja M-876258, Sección 8, Inscripción 1.ª, EUID ES28065.082441225</dd>
+      <dt>Administradora única</dt><dd>Elena Quesada Morillo</dd>
+      <dt>Actividad</dt><dd>Suministro y comercialización de material eléctrico e iluminación técnica</dd>
+      <dt>Email de contacto</dt><dd><a class="inline-link" href="mailto:info@apheloria.es">info@apheloria.es</a></dd>
+      <dt>Teléfono</dt><dd>645 085 743</dd>
+    </dl>
+    <p>(en adelante, «Apheloria Solutions» o «el prestador»).</p>
+
+    <h2>2. Objeto y ámbito de aplicación</h2>
+    <p>El presente Aviso Legal regula el acceso y uso del sitio web <strong>apheloria.es</strong> (en adelante, «el sitio web»), que Apheloria Solutions pone a disposición de los usuarios de Internet con carácter informativo, como escaparate de sus productos y proyectos de iluminación técnica y material eléctrico. El sitio web no constituye una plataforma de comercio electrónico: no permite la compra ni contratación de productos en línea, sirviendo el catálogo publicado con fines exclusivamente informativos.</p>
+    <p>La navegación por el sitio web atribuye la condición de usuario e implica la aceptación plena de todas las condiciones incluidas en este Aviso Legal. Si no está de acuerdo con ellas, debe abstenerse de utilizar el sitio web.</p>
+
+    <h2>3. Condiciones de acceso y uso</h2>
+    <p>El acceso al sitio web es gratuito y no requiere registro previo. El usuario se compromete a hacer un uso adecuado y lícito del sitio web, de conformidad con la legislación aplicable, el presente Aviso Legal, la moral y las buenas costumbres generalmente aceptadas y el orden público, absteniéndose de:</p>
+    <ul>
+      <li>Utilizar el sitio web de forma que pueda ocasionar daños, sobrecargas, o impedir su normal funcionamiento.</li>
+      <li>Introducir o difundir virus informáticos o cualquier otro sistema físico o lógico que sea susceptible de provocar daños en los sistemas del prestador o de terceros.</li>
+      <li>Intentar acceder, utilizar y/o manipular los datos del prestador, terceros proveedores y otros usuarios sin la debida autorización.</li>
+      <li>Reproducir, copiar, distribuir, transformar o modificar los contenidos del sitio web, a menos que se cuente con la autorización del titular de los correspondientes derechos o ello resulte legalmente permitido.</li>
+    </ul>
+
+    <h2>4. Propiedad intelectual e industrial</h2>
+    <p>Todos los contenidos del sitio web, incluyendo a título enunciativo y no limitativo, textos, fotografías, gráficos, imágenes, iconos, tecnología, software, logotipos, marcas y demás contenidos audiovisuales o sonoros, así como su diseño gráfico y códigos fuente (en adelante, «los contenidos»), son propiedad intelectual de Apheloria Solutions o de terceros que han autorizado su uso, sin que puedan entenderse cedidos al usuario ninguno de los derechos de explotación reconocidos por la normativa vigente en materia de propiedad intelectual e industrial sobre los mismos.</p>
+    <p>Las fotografías de proyectos e instalaciones publicadas en el apartado «Proyectos» corresponden a intervenciones realizadas por Apheloria Solutions o por su cliente, y se muestran con fines demostrativos de la actividad de la empresa. Las marcas, nombres comerciales o signos distintivos de terceros que pudieran aparecer en dichas fotografías (por ejemplo, en rótulos o escaparates de los locales) pertenecen a sus respectivos titulares y se muestran únicamente en el contexto de la obra de iluminación realizada, sin que ello implique vinculación, patrocinio o recomendación alguna por parte de dichas marcas hacia Apheloria Solutions.</p>
+    <p>Queda prohibida la reproducción, distribución, comunicación pública y transformación total o parcial de los contenidos del sitio web sin el consentimiento expreso y por escrito de Apheloria Solutions o, en su caso, del titular de los derechos correspondientes.</p>
+
+    <h2>5. Exclusión de responsabilidad</h2>
+    <p>Apheloria Solutions no garantiza la disponibilidad y continuidad ininterrumpida del sitio web, ni la ausencia de errores en sus contenidos, si bien pondrá los medios razonables a su alcance para evitarlos, subsanarlos o actualizarlos.</p>
+    <p>Tanto el acceso al sitio web como el uso que pueda hacerse de la información contenida en el mismo es de exclusiva responsabilidad de quien lo realiza. Apheloria Solutions no responderá de ninguna consecuencia, daño o perjuicio que pudiera derivarse de dicho acceso o uso.</p>
+    <p>El sitio web puede contener enlaces a sitios web de terceros. Apheloria Solutions no asume ninguna responsabilidad sobre los contenidos, informaciones o servicios que pudieran aparecer en dichos sitios, que tendrán exclusivamente carácter informativo y que en ningún caso implican relación alguna entre Apheloria Solutions y las personas o entidades titulares de tales contenidos.</p>
+
+    <h2>6. Protección de datos personales</h2>
+    <p>Los datos de carácter personal que, en su caso, pudiera facilitar el usuario a través del sitio web serán tratados conforme a lo establecido en nuestra <a class="inline-link" href="politica-privacidad.html">Política de Privacidad</a>, a la que se remite expresamente.</p>
+
+    <h2>7. Legislación aplicable y jurisdicción</h2>
+    <p>Las presentes condiciones se rigen por la legislación española. Para la resolución de cualquier controversia que pudiera derivarse del acceso o uso del sitio web, Apheloria Solutions y el usuario acuerdan someterse a los Juzgados y Tribunales del domicilio social de Apheloria Solutions, salvo que la normativa aplicable en materia de consumidores y usuarios establezca un fuero distinto de carácter imperativo.</p>
+
+    <h2>8. Modificaciones</h2>
+    <p>Apheloria Solutions se reserva el derecho a efectuar, sin previo aviso, las modificaciones que considere oportunas en el sitio web, pudiendo cambiar, suprimir o añadir tanto los contenidos como los servicios que presta, así como la forma en que estos aparezcan presentados o localizados, y a modificar en cualquier momento el presente Aviso Legal.</p>
+  </main>
+
+  <footer class="site-footer-doc">
+    <div>Apheloria Solutions, S.L. · B25952276 · Avda. Emilio Arrieta, 8, puerta 36, 28706 San Sebastián de los Reyes (Madrid)</div>
+    <div class="footer-links">
+      <a href="aviso-legal.html">Aviso legal</a>
+      <span class="footer-sep">·</span>
+      <a href="politica-privacidad.html">Política de privacidad</a>
+      <span class="footer-sep">·</span>
+      <a href="politica-cookies.html">Política de cookies</a>
+      <span class="footer-sep">·</span>
+      <a href="index.html">Volver a la web</a>
+    </div>
+  </footer>
+
+</body>
+</html>

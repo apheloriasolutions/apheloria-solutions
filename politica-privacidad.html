@@ -1,0 +1,223 @@
+<!-- BORRADOR — pendiente de revisión por una gestoría/asesoría legal antes de publicar. Ver conversación de creación para contexto. -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Política de Privacidad — Apheloria Solutions</title>
+  <meta name="description" content="Política de privacidad de Apheloria Solutions, S.L.: responsable, finalidad y derechos sobre el tratamiento de datos personales.">
+  <meta property="og:title" content="Política de Privacidad — Apheloria Solutions">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_ES">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;1,400&family=Inter:wght@200;300;400&family=Montserrat:wght@100;200&family=Raleway:ital,wght@0,300;0,400;0,600;0,800;1,400&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    :root {
+      --ink: #1a1612;         --ink-rgb: 26, 22, 18;
+      --bg: #FFFFFF;          --bg-rgb: 255, 255, 255;
+      --beige: #F2EDE4;       --beige-rgb: 242, 237, 228;
+      --accent: #b0a898;      --accent-rgb: 176, 168, 152;
+      --accent-soft: #c8bfb0;
+      --accent-text: #857a68;
+      --heading: #6d5f52;
+      --white-rgb: 255, 255, 255;
+      --nav-h: 70px;
+    }
+    html { scroll-behavior: smooth; }
+    body { background: var(--bg); color: var(--ink); font-family: 'Inter', sans-serif; min-height: 100vh; }
+
+    nav {
+      position: sticky; top: 0; z-index: 200;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 0 2.2rem; height: var(--nav-h);
+      background: rgba(var(--white-rgb),0.85);
+      backdrop-filter: blur(18px) saturate(1.6);
+      border-bottom: 1px solid rgba(var(--ink-rgb),0.06);
+    }
+    .nav-brand { display: flex; align-items: center; text-decoration: none; }
+    .nav-brand-text {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.3rem; font-weight: 300; letter-spacing: 0.18em;
+      color: var(--accent); text-transform: uppercase;
+    }
+    .nav-back {
+      font-family: 'Raleway', sans-serif; font-size: 0.68rem; font-weight: 400;
+      letter-spacing: 0.12em; text-transform: uppercase;
+      color: var(--accent-text); text-decoration: none;
+      display: flex; align-items: center; gap: 0.4rem;
+      transition: color 0.2s;
+    }
+    .nav-back:hover { color: var(--ink); }
+
+    main {
+      max-width: 760px; margin: 0 auto;
+      padding: 3.5rem 1.5rem 5rem;
+    }
+    .legal-eyebrow {
+      display: block; font-family: 'Raleway', sans-serif;
+      font-size: 0.62rem; letter-spacing: 0.4em; text-transform: uppercase;
+      color: var(--accent-text); font-weight: 400; margin-bottom: 0.8rem;
+    }
+    h1 {
+      font-family: 'Montserrat', sans-serif; font-weight: 100;
+      font-size: clamp(1.8rem, 4vw, 2.6rem); letter-spacing: 0.06em;
+      text-transform: uppercase; color: var(--heading); line-height: 1.15;
+      margin-bottom: 0.6rem;
+    }
+    .legal-updated {
+      font-family: 'Raleway', sans-serif; font-size: 0.78rem; font-weight: 300;
+      color: var(--accent-text); margin-bottom: 2.8rem;
+    }
+    h2 {
+      font-family: 'Raleway', sans-serif; font-weight: 800;
+      font-size: 1.05rem; letter-spacing: 0.01em;
+      color: var(--ink); text-transform: uppercase;
+      margin: 2.6rem 0 1rem;
+      padding-bottom: 0.6rem;
+      border-bottom: 1px solid rgba(var(--ink-rgb),0.08);
+    }
+    h2:first-of-type { margin-top: 0; }
+    h3 {
+      font-family: 'Raleway', sans-serif; font-weight: 600;
+      font-size: 0.92rem; color: var(--heading);
+      margin: 1.6rem 0 0.6rem;
+    }
+    p, li {
+      font-family: 'Raleway', sans-serif; font-weight: 300;
+      font-size: 0.95rem; line-height: 1.85; color: var(--ink);
+    }
+    p { margin-bottom: 1.1rem; }
+    ul, ol { margin: 0 0 1.1rem 1.3rem; }
+    li { margin-bottom: 0.5rem; }
+    strong { font-weight: 600; }
+    a.inline-link { color: var(--accent-text); text-decoration-color: var(--accent); }
+    a.inline-link:hover { color: var(--ink); }
+
+    .legal-datos {
+      display: grid; grid-template-columns: minmax(0, 220px) 1fr;
+      gap: 0.65rem 1.5rem;
+      background: var(--beige); border-radius: 4px;
+      padding: 1.6rem 1.8rem; margin: 0 0 1.8rem;
+    }
+    .legal-datos dt {
+      font-family: 'Raleway', sans-serif; font-size: 0.68rem; font-weight: 600;
+      letter-spacing: 0.06em; text-transform: uppercase; color: var(--accent-text);
+    }
+    .legal-datos dd {
+      font-family: 'Raleway', sans-serif; font-size: 0.9rem; font-weight: 300; color: var(--ink);
+    }
+
+    .notice-box {
+      background: var(--beige); border-left: 3px solid var(--accent);
+      padding: 1.1rem 1.4rem; margin: 0 0 1.6rem; border-radius: 0 4px 4px 0;
+    }
+    .notice-box p:last-child { margin-bottom: 0; }
+
+    footer.site-footer-doc {
+      border-top: 1px solid rgba(var(--ink-rgb),0.08);
+      padding: 2.2rem 1.5rem 2.5rem;
+      text-align: center;
+      font-family: 'Raleway', sans-serif; font-size: 0.68rem; color: var(--accent-text);
+    }
+    footer.site-footer-doc .footer-links { margin-top: 0.6rem; display: flex; gap: 0.6rem; justify-content: center; flex-wrap: wrap; }
+    footer.site-footer-doc a { color: var(--accent-text); text-decoration: none; }
+    footer.site-footer-doc a:hover { color: var(--ink); text-decoration: underline; text-decoration-color: var(--accent); }
+    footer.site-footer-doc .footer-sep { color: var(--accent-soft); }
+
+    @media (max-width: 640px) {
+      nav { padding: 0 1.2rem; }
+      .legal-datos { grid-template-columns: 1fr; padding: 1.3rem 1.4rem; }
+      main { padding: 2.5rem 1.2rem 3.5rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a class="nav-brand" href="index.html"><span class="nav-brand-text">Apheloria Solutions</span></a>
+    <a class="nav-back" href="index.html">← Volver a la web</a>
+  </nav>
+
+  <main>
+    <span class="legal-eyebrow">Legal</span>
+    <h1>Política de Privacidad</h1>
+    <p class="legal-updated">Última actualización: agosto de 2026</p>
+
+    <h2>1. Responsable del tratamiento</h2>
+    <dl class="legal-datos">
+      <dt>Razón social</dt><dd>Apheloria Solutions, S.L.</dd>
+      <dt>NIF</dt><dd>B25952276</dd>
+      <dt>Domicilio social</dt><dd>Avda. Emilio Arrieta, 8, puerta 36. 28706 San Sebastián de los Reyes (Madrid)</dd>
+      <dt>Email de contacto</dt><dd><a class="inline-link" href="mailto:info@apheloria.es">info@apheloria.es</a></dd>
+      <dt>Delegado de Protección de Datos</dt><dd>No resulta obligatorio el nombramiento de un Delegado de Protección de Datos conforme al artículo 34 de la LOPDGDD, dado el tamaño y la actividad de la empresa. Cualquier consulta sobre protección de datos puede dirigirse al email de contacto anterior.</dd>
+    </dl>
+
+    <h2>2. Qué datos personales tratamos y cómo se recogen</h2>
+    <p>El sitio web de Apheloria Solutions no dispone de registro de usuarios, área de cliente ni carrito de compra: es un sitio informativo alojado como página estática (GitHub Pages), sin base de datos ni servidor propio de backend.</p>
+    <p>El único punto en el que un visitante puede facilitar datos personales es el <strong>formulario de contacto</strong>. Al enviarlo, los datos introducidos (nombre, email, asunto y mensaje) se remiten mediante una conexión segura a <strong>Web3Forms</strong>, un proveedor externo que actúa como intermediario técnico y que reenvía el mensaje por email a nuestra dirección <a class="inline-link" href="mailto:info@apheloria.es">info@apheloria.es</a>. Web3Forms no se utiliza para ningún otro fin (no hay newsletter, ni publicidad, ni perfilado): su única función es la entrega del correo.</p>
+    <p>Los datos que, en consecuencia, podemos llegar a tratar son los que el propio usuario decida incluir en ese correo: habitualmente nombre y dirección de email, y cualquier otra información que añada en el cuerpo del mensaje.</p>
+
+    <h2>3. Finalidad del tratamiento</h2>
+    <p>Los datos recibidos a través del correo de contacto se utilizan exclusivamente para:</p>
+    <ul>
+      <li>Atender y responder a las consultas, solicitudes de información o presupuestos que el usuario nos remita.</li>
+      <li>Gestionar, en su caso, la relación comercial que pudiera derivarse de dicha consulta.</li>
+    </ul>
+    <p>No se utilizan los datos para elaborar perfiles, ni se toman decisiones automatizadas basadas en ellos.</p>
+
+    <h2>4. Legitimación</h2>
+    <p>La base legal para el tratamiento de los datos es el <strong>consentimiento del interesado</strong> (artículo 6.1.a del Reglamento General de Protección de Datos), manifestado de forma inequívoca al redactar y enviar voluntariamente el correo de contacto.</p>
+
+    <h2>5. Plazo de conservación</h2>
+    <p>Los datos se conservarán durante el tiempo necesario para atender la consulta o gestionar la relación comercial derivada de la misma. En todo caso, cuando proceda conservar la correspondencia por motivos de documentación mercantil o fiscal, se conservará durante el plazo legalmente exigido (con carácter general, 6 años conforme al artículo 30 del Código de Comercio).</p>
+
+    <h2>6. Destinatarios y encargados de tratamiento</h2>
+    <p>Apheloria Solutions no cede ni comunica los datos personales a terceros, salvo obligación legal. No obstante, para el funcionamiento técnico del sitio web se utilizan los siguientes proveedores externos:</p>
+    <ul>
+      <li><strong>GitHub Pages</strong> (GitHub, Inc.), como proveedor de alojamiento (hosting) del sitio web estático. Este proveedor únicamente sirve los archivos del sitio y no tiene acceso al contenido del formulario de contacto. El alojamiento puede implicar una transferencia internacional de datos técnicos (como la dirección IP del visitante al cargar la página) a servidores situados en Estados Unidos, acogida a los mecanismos de transferencia internacional previstos en el RGPD.</li>
+      <li><strong>Web3Forms</strong>, como encargado del tratamiento para la gestión técnica del formulario de contacto: recibe los datos introducidos por el usuario y los reenvía por email a info@apheloria.es, sin almacenarlos con otra finalidad. Esto puede implicar una transferencia internacional de datos, acogida a los mecanismos de transferencia internacional previstos en el RGPD.</li>
+      <li><strong>Google Fonts</strong> (Google Ireland Limited), utilizado para cargar las tipografías del sitio. La carga de estas tipografías puede implicar la comunicación de la dirección IP del visitante a los servidores de Google en el momento de visualizar la página.</li>
+    </ul>
+
+    <div class="notice-box">
+      <p><strong>Herramientas de analítica:</strong> a fecha de esta política, el sitio web no utiliza cookies ni herramientas de analítica o medición de audiencia (como Google Analytics). Está previsto incorporar este tipo de herramientas en un futuro próximo; cuando se active, se solicitará el consentimiento previo del usuario mediante un panel de configuración de cookies, se informará de las herramientas concretas utilizadas y sus finalidades, y se actualizará esta Política de Privacidad y la <a class="inline-link" href="politica-cookies.html">Política de Cookies</a> en consecuencia.</p>
+    </div>
+
+    <h2>7. Derechos de las personas interesadas</h2>
+    <p>Cualquier persona tiene derecho a obtener confirmación sobre si en Apheloria Solutions estamos tratando datos personales que le conciernan. En concreto, puede ejercer los siguientes derechos:</p>
+    <ul>
+      <li><strong>Acceso:</strong> conocer qué datos personales tratamos.</li>
+      <li><strong>Rectificación:</strong> solicitar la corrección de datos inexactos.</li>
+      <li><strong>Supresión:</strong> solicitar la eliminación de sus datos.</li>
+      <li><strong>Oposición:</strong> oponerse al tratamiento de sus datos.</li>
+      <li><strong>Limitación del tratamiento:</strong> solicitar que se limite el uso de sus datos en determinadas circunstancias.</li>
+      <li><strong>Portabilidad:</strong> recibir sus datos en un formato estructurado, de uso común y lectura mecánica.</li>
+    </ul>
+    <p>Puede ejercer estos derechos dirigiéndose por email a <a class="inline-link" href="mailto:info@apheloria.es">info@apheloria.es</a>, indicando el derecho que desea ejercer y adjuntando copia de su DNI u otro documento identificativo equivalente.</p>
+    <p>Asimismo, si considera que el tratamiento de sus datos no se ajusta a la normativa vigente, tiene derecho a presentar una reclamación ante la <a class="inline-link" href="https://www.aepd.es" target="_blank" rel="noopener">Agencia Española de Protección de Datos (AEPD)</a>.</p>
+
+    <h2>8. Medidas de seguridad</h2>
+    <p>Apheloria Solutions aplica las medidas técnicas y organizativas razonables a su alcance para garantizar un nivel de seguridad adecuado al riesgo del tratamiento descrito, en particular dado que el sitio web no almacena datos personales en servidores propios.</p>
+
+    <h2>9. Cambios en esta política</h2>
+    <p>Esta Política de Privacidad puede ser modificada para adaptarla a novedades legislativas, jurisprudenciales o a cambios en la forma en que tratamos los datos personales (por ejemplo, al incorporar herramientas de analítica). Se recomienda revisar esta página periódicamente. La fecha de última actualización figura al inicio del documento.</p>
+  </main>
+
+  <footer class="site-footer-doc">
+    <div>Apheloria Solutions, S.L. · B25952276 · Avda. Emilio Arrieta, 8, puerta 36, 28706 San Sebastián de los Reyes (Madrid)</div>
+    <div class="footer-links">
+      <a href="aviso-legal.html">Aviso legal</a>
+      <span class="footer-sep">·</span>
+      <a href="politica-privacidad.html">Política de privacidad</a>
+      <span class="footer-sep">·</span>
+      <a href="politica-cookies.html">Política de cookies</a>
+      <span class="footer-sep">·</span>
+      <a href="index.html">Volver a la web</a>
+    </div>
+  </footer>
+
+</body>
+</html>

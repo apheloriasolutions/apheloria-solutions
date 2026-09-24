@@ -1,0 +1,213 @@
+<!-- BORRADOR — pendiente de revisión por una gestoría/asesoría legal antes de publicar. Ver conversación de creación para contexto. -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Política de Cookies — Apheloria Solutions</title>
+  <meta name="description" content="Política de cookies de Apheloria Solutions, S.L.: qué cookies utiliza actualmente el sitio web y cómo se actualizará esta política si se incorpora analítica.">
+  <meta property="og:title" content="Política de Cookies — Apheloria Solutions">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_ES">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;1,400&family=Inter:wght@200;300;400&family=Montserrat:wght@100;200&family=Raleway:ital,wght@0,300;0,400;0,600;0,800;1,400&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    :root {
+      --ink: #1a1612;         --ink-rgb: 26, 22, 18;
+      --bg: #FFFFFF;          --bg-rgb: 255, 255, 255;
+      --beige: #F2EDE4;       --beige-rgb: 242, 237, 228;
+      --accent: #b0a898;      --accent-rgb: 176, 168, 152;
+      --accent-soft: #c8bfb0;
+      --accent-text: #857a68;
+      --heading: #6d5f52;
+      --white-rgb: 255, 255, 255;
+      --nav-h: 70px;
+    }
+    html { scroll-behavior: smooth; }
+    body { background: var(--bg); color: var(--ink); font-family: 'Inter', sans-serif; min-height: 100vh; }
+
+    nav {
+      position: sticky; top: 0; z-index: 200;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 0 2.2rem; height: var(--nav-h);
+      background: rgba(var(--white-rgb),0.85);
+      backdrop-filter: blur(18px) saturate(1.6);
+      border-bottom: 1px solid rgba(var(--ink-rgb),0.06);
+    }
+    .nav-brand { display: flex; align-items: center; text-decoration: none; }
+    .nav-brand-text {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.3rem; font-weight: 300; letter-spacing: 0.18em;
+      color: var(--accent); text-transform: uppercase;
+    }
+    .nav-back {
+      font-family: 'Raleway', sans-serif; font-size: 0.68rem; font-weight: 400;
+      letter-spacing: 0.12em; text-transform: uppercase;
+      color: var(--accent-text); text-decoration: none;
+      display: flex; align-items: center; gap: 0.4rem;
+      transition: color 0.2s;
+    }
+    .nav-back:hover { color: var(--ink); }
+
+    main {
+      max-width: 760px; margin: 0 auto;
+      padding: 3.5rem 1.5rem 5rem;
+    }
+    .legal-eyebrow {
+      display: block; font-family: 'Raleway', sans-serif;
+      font-size: 0.62rem; letter-spacing: 0.4em; text-transform: uppercase;
+      color: var(--accent-text); font-weight: 400; margin-bottom: 0.8rem;
+    }
+    h1 {
+      font-family: 'Montserrat', sans-serif; font-weight: 100;
+      font-size: clamp(1.8rem, 4vw, 2.6rem); letter-spacing: 0.06em;
+      text-transform: uppercase; color: var(--heading); line-height: 1.15;
+      margin-bottom: 0.6rem;
+    }
+    .legal-updated {
+      font-family: 'Raleway', sans-serif; font-size: 0.78rem; font-weight: 300;
+      color: var(--accent-text); margin-bottom: 2.8rem;
+    }
+    h2 {
+      font-family: 'Raleway', sans-serif; font-weight: 800;
+      font-size: 1.05rem; letter-spacing: 0.01em;
+      color: var(--ink); text-transform: uppercase;
+      margin: 2.6rem 0 1rem;
+      padding-bottom: 0.6rem;
+      border-bottom: 1px solid rgba(var(--ink-rgb),0.08);
+    }
+    h2:first-of-type { margin-top: 0; }
+    p, li {
+      font-family: 'Raleway', sans-serif; font-weight: 300;
+      font-size: 0.95rem; line-height: 1.85; color: var(--ink);
+    }
+    p { margin-bottom: 1.1rem; }
+    ul, ol { margin: 0 0 1.1rem 1.3rem; }
+    li { margin-bottom: 0.5rem; }
+    strong { font-weight: 600; }
+    a.inline-link { color: var(--accent-text); text-decoration-color: var(--accent); }
+    a.inline-link:hover { color: var(--ink); }
+
+    .status-box {
+      display: flex; align-items: flex-start; gap: 0.9rem;
+      background: var(--beige); border-radius: 4px;
+      padding: 1.4rem 1.6rem; margin: 0 0 1.8rem;
+    }
+    .status-dot {
+      flex-shrink: 0; width: 0.6rem; height: 0.6rem; border-radius: 50%;
+      background: #6d8f6d; margin-top: 0.4rem;
+    }
+    .status-box p { margin-bottom: 0; }
+
+    .notice-box {
+      background: var(--beige); border-left: 3px solid var(--accent);
+      padding: 1.1rem 1.4rem; margin: 0 0 1.6rem; border-radius: 0 4px 4px 0;
+    }
+    .notice-box p:last-child { margin-bottom: 0; }
+
+    table.cookie-table {
+      width: 100%; border-collapse: collapse; margin: 0 0 1.6rem;
+      font-family: 'Raleway', sans-serif; font-size: 0.85rem;
+    }
+    table.cookie-table th, table.cookie-table td {
+      text-align: left; padding: 0.7rem 0.8rem;
+      border-bottom: 1px solid rgba(var(--ink-rgb),0.08);
+      font-weight: 300; color: var(--ink);
+    }
+    table.cookie-table th {
+      font-weight: 600; color: var(--accent-text);
+      text-transform: uppercase; font-size: 0.68rem; letter-spacing: 0.04em;
+    }
+
+    footer.site-footer-doc {
+      border-top: 1px solid rgba(var(--ink-rgb),0.08);
+      padding: 2.2rem 1.5rem 2.5rem;
+      text-align: center;
+      font-family: 'Raleway', sans-serif; font-size: 0.68rem; color: var(--accent-text);
+    }
+    footer.site-footer-doc .footer-links { margin-top: 0.6rem; display: flex; gap: 0.6rem; justify-content: center; flex-wrap: wrap; }
+    footer.site-footer-doc a { color: var(--accent-text); text-decoration: none; }
+    footer.site-footer-doc a:hover { color: var(--ink); text-decoration: underline; text-decoration-color: var(--accent); }
+    footer.site-footer-doc .footer-sep { color: var(--accent-soft); }
+
+    @media (max-width: 640px) {
+      nav { padding: 0 1.2rem; }
+      main { padding: 2.5rem 1.2rem 3.5rem; }
+      table.cookie-table { display: block; overflow-x: auto; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a class="nav-brand" href="index.html"><span class="nav-brand-text">Apheloria Solutions</span></a>
+    <a class="nav-back" href="index.html">← Volver a la web</a>
+  </nav>
+
+  <main>
+    <span class="legal-eyebrow">Legal</span>
+    <h1>Política de Cookies</h1>
+    <p class="legal-updated">Última actualización: agosto de 2026</p>
+
+    <div class="status-box">
+      <span class="status-dot" aria-hidden="true"></span>
+      <p><strong>Estado actual: este sitio web no utiliza cookies.</strong> No se instala ninguna cookie propia ni de terceros, ni herramientas de analítica, publicidad o personalización (como Google Analytics). No es necesario un banner de consentimiento porque, a día de hoy, no se recoge ningún dato a través de cookies.</p>
+    </div>
+
+    <h2>1. ¿Qué son las cookies?</h2>
+    <p>Las cookies son pequeños archivos de texto que un sitio web puede instalar en el navegador o dispositivo del usuario cuando lo visita, y que permiten, entre otras cosas, almacenar y recuperar información sobre los hábitos de navegación o sobre el propio dispositivo.</p>
+
+    <h2>2. Cookies utilizadas actualmente en este sitio</h2>
+    <p>Este sitio web, alojado como página estática en GitHub Pages, no instala cookies propias. Es posible que el propio proveedor de alojamiento (GitHub, Inc.) utilice, a nivel de infraestructura, alguna cookie técnica estrictamente necesaria para el funcionamiento del servicio; Apheloria Solutions no configura ni controla dichas cookies, y en ningún caso se emplean con fines de analítica, publicidad o elaboración de perfiles.</p>
+    <table class="cookie-table">
+      <thead>
+        <tr><th>Tipo de cookie</th><th>¿Se utiliza?</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Técnicas / necesarias</td><td>No, salvo posibles cookies técnicas de la infraestructura de hosting, ajenas a Apheloria Solutions</td></tr>
+        <tr><td>Analítica / medición</td><td>No</td></tr>
+        <tr><td>Publicidad / personalización</td><td>No</td></tr>
+        <tr><td>Redes sociales</td><td>No</td></tr>
+      </tbody>
+    </table>
+
+    <div class="notice-box">
+      <p><strong>Próxima incorporación de analítica:</strong> Apheloria Solutions tiene previsto incorporar herramientas de analítica web en un futuro próximo para conocer el uso que se hace del sitio. Cuando esto ocurra:</p>
+      <ul style="margin-top: 0.8rem;">
+        <li>Antes de instalar cualquier cookie no estrictamente necesaria, se mostrará un panel de configuración de cookies para que el usuario pueda aceptarlas, rechazarlas o configurarlas de forma granular, conforme al artículo 22.2 de la LSSI-CE y la Guía sobre el uso de cookies de la AEPD.</li>
+        <li>Esta Política de Cookies se actualizará detallando cada cookie utilizada: nombre, finalidad, titular (propia o de terceros) y duración.</li>
+        <li>La <a class="inline-link" href="politica-privacidad.html">Política de Privacidad</a> se actualizará igualmente para reflejar el nuevo tratamiento de datos.</li>
+      </ul>
+    </div>
+
+    <h2>3. Cómo gestionar las cookies desde el navegador</h2>
+    <p>Aunque este sitio no instala cookies propias, el usuario puede en cualquier momento revisar, bloquear o eliminar las cookies que pudiera tener almacenadas de cualquier sitio web (incluidas las técnicas de terceros mencionadas en el punto 2) a través de la configuración de su navegador:</p>
+    <ul>
+      <li><a class="inline-link" href="https://support.google.com/chrome/answer/95647" target="_blank" rel="noopener">Google Chrome</a></li>
+      <li><a class="inline-link" href="https://support.mozilla.org/es/kb/Borrar%20cookies" target="_blank" rel="noopener">Mozilla Firefox</a></li>
+      <li><a class="inline-link" href="https://support.apple.com/es-es/guide/safari/sfri11471/mac" target="_blank" rel="noopener">Safari</a></li>
+      <li><a class="inline-link" href="https://support.microsoft.com/es-es/microsoft-edge" target="_blank" rel="noopener">Microsoft Edge</a></li>
+    </ul>
+
+    <h2>4. Actualizaciones de esta política</h2>
+    <p>Esta Política de Cookies se revisará y actualizará cada vez que se modifique la forma en que este sitio web utiliza cookies o tecnologías similares. La fecha de la última actualización figura al inicio del documento.</p>
+  </main>
+
+  <footer class="site-footer-doc">
+    <div>Apheloria Solutions, S.L. · B25952276 · Avda. Emilio Arrieta, 8, puerta 36, 28706 San Sebastián de los Reyes (Madrid)</div>
+    <div class="footer-links">
+      <a href="aviso-legal.html">Aviso legal</a>
+      <span class="footer-sep">·</span>
+      <a href="politica-privacidad.html">Política de privacidad</a>
+      <span class="footer-sep">·</span>
+      <a href="politica-cookies.html">Política de cookies</a>
+      <span class="footer-sep">·</span>
+      <a href="index.html">Volver a la web</a>
+    </div>
+  </footer>
+
+</body>
+</html>

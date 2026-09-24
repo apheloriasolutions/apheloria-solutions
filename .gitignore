@@ -1,0 +1,10 @@
+.DS_Store
+**/.DS_Store
+.claude/settings.local.json
+
+# Material fuente interno: lleva referencias de proveedor, no debe publicarse
+# (el patrón con * evita problemas con la Ó en macOS)
+C*DIGOS GENERALES.xlsx
+
+# Archivos temporales de Office (se crean al tener un Excel abierto)
+~$*
