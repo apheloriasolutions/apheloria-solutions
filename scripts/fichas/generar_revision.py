@@ -3,8 +3,13 @@ Genera revision-productos.html: herramienta de trabajo para revisar las fichas a
 al sitio. No forma parte de la web. Los datos van incrustados en el propio archivo, así que se abre
 haciendo doble clic (sin servidor).
 
+Navegación en tres niveles, como la sección Productos del sitio:
+    1. secciones de la columna C del Excel (Campanas, Estancas, Paneles, Proyectores...)
+    2. gamas dentro de cada sección (ALFA, CAM, SOL...); las fichas sin gama van sueltas
+    3. la ficha
+
 Maquetación de la ficha, según lo acordado:
-    arriba izquierda -> tabla resumen        arriba derecha -> fotos
+    arriba izquierda -> fotos (la luminaria primero)   arriba derecha -> tabla resumen
     abajo izquierda  -> PDF para descargar
 
 Uso:  python generar_revision.py
@@ -53,6 +58,14 @@ PLANTILLA = r'''<!DOCTYPE html>
     border-radius:999px;border:1px solid rgba(var(--ink-rgb),0.14);background:#fff;color:var(--ink);
     outline:none;min-width:230px;margin-left:auto;}
   .rv-count{font-family:'Raleway',sans-serif;font-size:0.7rem;color:var(--accent-text);white-space:nowrap;}
+  .rv-crumbs{display:flex;align-items:center;gap:0.5rem;flex-wrap:wrap;padding:0.9rem 2.2rem 0;
+    max-width:1800px;margin:0 auto;font-family:'Raleway',sans-serif;font-size:0.68rem;
+    letter-spacing:0.16em;text-transform:uppercase;color:var(--accent-text);}
+  .rv-crumb{background:none;border:none;padding:0;font:inherit;color:inherit;letter-spacing:inherit;
+    cursor:pointer;text-decoration:none;}
+  .rv-crumb:hover{color:var(--ink);text-decoration:underline;text-underline-offset:0.25em;}
+  .rv-crumb-sep{color:var(--accent-soft);}
+  .rv-crumb-actual{color:var(--ink);}
   main.rv-main{padding:1.8rem 2.2rem 4rem;max-width:1800px;margin:0 auto;}
   .rv-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1.4rem;}
   .rv-card{background:#fff;cursor:pointer;display:flex;flex-direction:column;position:relative;overflow:hidden;
@@ -96,8 +109,8 @@ PLANTILLA = r'''<!DOCTYPE html>
     letter-spacing:0.04em;margin-top:0.5rem;}
 
   /* tabla arriba izq · fotos arriba dcha · descargas abajo izq */
-  .pd-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,42%);
-    grid-template-areas:"tabla fotos" "descargas fotos";gap:2.4rem 3rem;align-items:start;
+  .pd-grid{display:grid;grid-template-columns:minmax(0,42%) minmax(0,1fr);
+    grid-template-areas:"fotos tabla" "descargas tabla";gap:2.4rem 3rem;align-items:start;
     max-width:1800px;margin:0 auto;padding:1.8rem 2.5rem 3.5rem;}
   .pd-tabla{grid-area:tabla;}
   .pd-fotos{grid-area:fotos;position:sticky;top:1.5rem;display:flex;flex-direction:column;gap:0.9rem;}
@@ -138,6 +151,7 @@ PLANTILLA = r'''<!DOCTYPE html>
     .pd-hero{padding:1.8rem 1.5rem 0;}
     .pd-grid{grid-template-columns:1fr;grid-template-areas:"fotos" "tabla" "descargas";gap:1.8rem;
       padding:1.6rem 1.5rem 2.5rem;}
+    .rv-crumbs{padding:0.8rem 1.3rem;}
     .pd-fotos{position:static;}
     .pd-main-wrap{aspect-ratio:4/3;width:min(100%,44vh);}
   }
@@ -155,6 +169,7 @@ PLANTILLA = r'''<!DOCTYPE html>
   </div>
 </header>
 
+<nav class="rv-crumbs" id="rvCrumbs"></nav>
 <main class="rv-main"><div class="rv-grid" id="rvGrid"></div></main>
 
 <div class="rv-overlay" id="rvOverlay">
@@ -165,14 +180,14 @@ PLANTILLA = r'''<!DOCTYPE html>
     <div class="pd-refs" id="pdRefs"></div>
   </div>
   <div class="pd-grid">
+    <div class="pd-fotos">
+      <div class="pd-main-wrap"><img id="pdMainImg" src="" alt=""></div>
+      <div class="pd-thumbs" id="pdThumbs"></div>
+    </div>
     <div class="pd-tabla">
       <div id="pdAviso"></div>
       <span class="pd-label">Características técnicas</span>
       <table class="pd-specs"><tbody id="pdSpecs"></tbody></table>
-    </div>
-    <div class="pd-fotos">
-      <div class="pd-main-wrap"><img id="pdMainImg" src="" alt=""></div>
-      <div class="pd-thumbs" id="pdThumbs"></div>
     </div>
     <div class="pd-descargas">
       <span class="pd-label" id="pdDescargasLabel">Fichas técnicas en PDF</span>
@@ -187,39 +202,149 @@ const CAT = __CATS__;
 
 const el = (t, c, txt) => { const n = document.createElement(t); if (c) n.className = c; if (txt != null) n.textContent = txt; return n; };
 const rutaPdf = p => p.split('/').map(encodeURIComponent).join('/');
+const claveSec = f => f.categoria + '||' + f.seccion;
 
-function pintarGrid(cat, term){
-  const grid = document.getElementById('rvGrid');
-  grid.innerHTML = '';
-  term = (term || '').trim().toLowerCase();
-  let n = 0;
-  FICHAS.forEach((f, i) => {
-    if (cat !== 'all' && f.categoria !== cat) return;
-    if (term && !(f.nombre.toLowerCase().includes(term) || f.refs.join(' ').toLowerCase().includes(term))) return;
-    n++;
-    const nf = f.imagenes.length;
-    const card = el('div', 'rv-card');
-    card.innerHTML = `
-      <div class="rv-card-img-wrap">
-        ${f.imagenes[0] ? `<img src="${f.imagenes[0]}" alt="">` : ''}
-        <span class="rv-badge ${nf === 0 ? 'is-warn' : nf === 1 ? 'is-caution' : ''}">${nf} foto${nf === 1 ? '' : 's'}</span>
-        ${f.refs.length > 1 ? `<span class="rv-refs-badge">${f.refs.length} códigos</span>` : ''}
-        ${f.generada ? '' : '<span class="rv-pend">tabla antigua</span>'}
-      </div>
-      <div class="rv-card-body">
-        <span class="rv-card-eyebrow">${CAT[f.categoria] || f.categoria} · ${f.familia}</span>
-        <span class="rv-card-name">${f.nombre}</span>
-        <span class="rv-card-meta">${f.specs.length} filas · ${f.descargas.length} PDF</span>
-      </div>`;
-    card.addEventListener('click', () => abrir(i));
-    grid.appendChild(card);
+let catActual = 'all', termino = '', sel = { seccion: null, gama: null };
+
+const visibles = () => FICHAS.filter(f => catActual === 'all' || f.categoria === catActual);
+const deSeccion = k => FICHAS.filter(f => claveSec(f) === k);
+const deGama = (k, g) => deSeccion(k).filter(f => (f.gama || '\u0000' + f.id) === g);
+const portada = fs => { const f = fs.find(x => x.imagenes.length); return f ? f.imagenes[0] : ''; };
+
+// ── migas ──
+function migas(partes){
+  const c = document.getElementById('rvCrumbs');
+  c.innerHTML = '';
+  partes.forEach((p, i) => {
+    if (i) c.appendChild(el('span', 'rv-crumb-sep', '/'));
+    if (p.accion){
+      const b = el('button', 'rv-crumb', p.t);
+      b.type = 'button';
+      b.addEventListener('click', p.accion);
+      c.appendChild(b);
+    } else {
+      c.appendChild(el('span', 'rv-crumb-actual', p.t));
+    }
   });
-  document.getElementById('rvCount').textContent = n + ' de ' + FICHAS.length + ' fichas';
 }
 
-function abrir(i){
-  const f = FICHAS[i];
-  document.getElementById('pdEyebrow').textContent = (CAT[f.categoria] || f.categoria) + ' · ' + f.familia;
+// ── tarjetas ──
+function tarjeta({ img, eyebrow, nombre, meta, badge, badgeClase, esquina, pendiente, onClick }){
+  const card = el('div', 'rv-card');
+  card.innerHTML = `
+    <div class="rv-card-img-wrap">
+      ${img ? `<img src="${img}" alt="">` : ''}
+      ${badge ? `<span class="rv-badge ${badgeClase || ''}">${badge}</span>` : ''}
+      ${esquina ? `<span class="rv-refs-badge">${esquina}</span>` : ''}
+      ${pendiente ? '<span class="rv-pend">tabla antigua</span>' : ''}
+    </div>
+    <div class="rv-card-body">
+      <span class="rv-card-eyebrow">${eyebrow}</span>
+      <span class="rv-card-name">${nombre}</span>
+      <span class="rv-card-meta">${meta}</span>
+    </div>`;
+  card.addEventListener('click', onClick);
+  return card;
+}
+
+function pintarSecciones(){
+  const grid = document.getElementById('rvGrid');
+  const claves = [];
+  visibles().forEach(f => { if (!claves.includes(claveSec(f))) claves.push(claveSec(f)); });
+  claves.sort((a, b) => a.localeCompare(b, 'es'));
+  claves.forEach(k => {
+    const fs = deSeccion(k).filter(f => catActual === 'all' || f.categoria === catActual);
+    const gamas = new Set(fs.map(f => f.gama).filter(Boolean));
+    grid.appendChild(tarjeta({
+      img: portada(fs),
+      eyebrow: CAT[fs[0].categoria] || fs[0].categoria,
+      nombre: fs[0].seccion,
+      meta: fs.length + ' ficha' + (fs.length === 1 ? '' : 's') +
+            (gamas.size ? ' \u00b7 ' + gamas.size + ' gama' + (gamas.size === 1 ? '' : 's') : ''),
+      esquina: fs.some(f => !f.generada) ? null : null,
+      pendiente: fs.every(f => !f.generada),
+      onClick: () => { sel = { seccion: k, gama: null }; pintar(); }
+    }));
+  });
+  document.getElementById('rvCount').textContent = claves.length + ' secciones';
+  migas([{ t: 'Todas las secciones' }]);
+}
+
+function pintarGamas(){
+  const grid = document.getElementById('rvGrid');
+  const fs = deSeccion(sel.seccion);
+  const grupos = [];
+  fs.forEach(f => {
+    const g = f.gama || '\u0000' + f.id;                 // sin gama: la ficha va suelta
+    if (!grupos.some(x => x.g === g)) grupos.push({ g, gama: f.gama });
+  });
+  grupos.sort((a, b) => (a.gama ? 0 : 1) - (b.gama ? 0 : 1) || String(a.g).localeCompare(String(b.g), 'es'));
+  grupos.forEach(({ g, gama }) => {
+    const sub = deGama(sel.seccion, g);
+    grid.appendChild(tarjeta({
+      img: portada(sub),
+      eyebrow: gama ? 'Gama' : sub[0].familia,
+      nombre: gama || sub[0].nombre,
+      meta: gama ? sub.length + ' ficha' + (sub.length === 1 ? '' : 's')
+                 : sub[0].specs.length + ' filas \u00b7 ' + sub[0].descargas.length + ' PDF',
+      badge: gama ? null : sub[0].imagenes.length + ' fotos',
+      badgeClase: gama ? '' : (sub[0].imagenes.length <= 1 ? 'is-caution' : ''),
+      esquina: sub[0].refs.length > 1 && !gama ? sub[0].refs.length + ' códigos' : null,
+      pendiente: sub.every(f => !f.generada),
+      onClick: () => {
+        if (!gama && sub.length === 1) return abrirFicha(sub[0]);
+        sel.gama = g;
+        if (deGama(sel.seccion, g).length === 1) return abrirFicha(sub[0]);
+        pintar();
+      }
+    }));
+  });
+  document.getElementById('rvCount').textContent = fs.length + ' fichas';
+  migas([
+    { t: 'Todas las secciones', accion: () => { sel = { seccion: null, gama: null }; pintar(); } },
+    { t: fs[0].seccion }
+  ]);
+}
+
+function pintarFichas(lista, contexto){
+  const grid = document.getElementById('rvGrid');
+  lista.forEach(f => grid.appendChild(tarjeta({
+    img: f.imagenes[0],
+    eyebrow: (CAT[f.categoria] || f.categoria) + ' \u00b7 ' + f.seccion,
+    nombre: f.nombre,
+    meta: f.specs.length + ' filas \u00b7 ' + f.descargas.length + ' PDF',
+    badge: f.imagenes.length + ' foto' + (f.imagenes.length === 1 ? '' : 's'),
+    badgeClase: f.imagenes.length === 0 ? 'is-warn' : f.imagenes.length === 1 ? 'is-caution' : '',
+    esquina: f.refs.length > 1 ? f.refs.length + ' códigos' : null,
+    pendiente: !f.generada,
+    onClick: () => abrirFicha(f)
+  })));
+  document.getElementById('rvCount').textContent = lista.length + ' ficha' + (lista.length === 1 ? '' : 's');
+  migas(contexto || [{ t: 'Resultados' }]);
+}
+
+function pintar(){
+  document.getElementById('rvGrid').innerHTML = '';
+  const term = termino.trim().toLowerCase();
+  if (term){
+    const lista = visibles().filter(f => f.nombre.toLowerCase().includes(term) ||
+                                         f.refs.join(' ').toLowerCase().includes(term));
+    return pintarFichas(lista, [{ t: 'Buscando: ' + term }]);
+  }
+  if (!sel.seccion) return pintarSecciones();
+  if (!sel.gama)    return pintarGamas();
+  const sub = deGama(sel.seccion, sel.gama);
+  pintarFichas(sub, [
+    { t: 'Todas las secciones', accion: () => { sel = { seccion: null, gama: null }; pintar(); } },
+    { t: sub[0].seccion, accion: () => { sel.gama = null; pintar(); } },
+    { t: sub[0].gama || sub[0].nombre }
+  ]);
+}
+
+// ── ficha ──
+function abrirFicha(f){
+  document.getElementById('pdEyebrow').textContent =
+    (CAT[f.categoria] || f.categoria) + ' \u00b7 ' + f.seccion + (f.gama ? ' \u00b7 ' + f.gama : '');
   document.getElementById('pdTitle').textContent = f.nombre;
   document.getElementById('pdRefs').textContent = f.refs.length === 1
     ? 'Ref. ' + f.refs[0]
@@ -261,7 +386,7 @@ function abrir(i){
   });
 
   document.getElementById('pdDescargasLabel').textContent =
-    f.descargas.length === 1 ? 'Ficha técnica en PDF' : `Fichas técnicas en PDF (${f.descargas.length})`;
+    f.descargas.length === 1 ? 'Ficha técnica en PDF' : 'Fichas técnicas en PDF (' + f.descargas.length + ')';
   const dl = document.getElementById('pdDescargas');
   dl.innerHTML = '';
   f.descargas.forEach(d => {
@@ -271,7 +396,7 @@ function abrir(i){
     info.appendChild(el('span', 'pd-dl-titulo', d.titulo));
     info.appendChild(el('span', 'pd-dl-ref', 'Ref. ' + d.ref));
     a.appendChild(info);
-    a.appendChild(el('span', 'pd-dl-icono', 'PDF ↓'));
+    a.appendChild(el('span', 'pd-dl-icono', 'PDF \u2193'));
     dl.appendChild(a);
   });
 
@@ -287,21 +412,21 @@ function cerrar(){
 document.getElementById('rvBack').addEventListener('click', cerrar);
 document.addEventListener('keydown', e => { if (e.key === 'Escape') cerrar(); });
 
+// ── filtros de categoría y buscador ──
 const cats = ['all', ...new Set(FICHAS.map(f => f.categoria))];
 const wrap = document.getElementById('rvFilters');
-let actual = 'all';
 cats.forEach(c => {
   const b = el('button', 'rv-filter-btn' + (c === 'all' ? ' active' : ''), c === 'all' ? 'Todas' : (CAT[c] || c));
   b.addEventListener('click', () => {
-    actual = c;
+    catActual = c; sel = { seccion: null, gama: null };
     wrap.querySelectorAll('.rv-filter-btn').forEach(x => x.classList.remove('active'));
     b.classList.add('active');
-    pintarGrid(actual, document.getElementById('rvSearch').value);
+    pintar();
   });
   wrap.appendChild(b);
 });
-document.getElementById('rvSearch').addEventListener('input', e => pintarGrid(actual, e.target.value));
-pintarGrid('all', '');
+document.getElementById('rvSearch').addEventListener('input', e => { termino = e.target.value; pintar(); });
+pintar();
 </script>
 </body>
 </html>

@@ -131,8 +131,16 @@ tabla de características: solo el código, una descripción de una línea y ref
   (`id, nombre, categoria, familia, refs[], specs[], imagenes[], descargas[], generada`) + el
   informe `docs/migracion-fichas/fichas-generadas.md`. **105 fichas generadas** (industrial e
   interior, 192 refs); exterior y emergencias siguen con la tabla antigua (`generada: false`).
+- `scripts/fichas/generar_fotos.py` regenera `images/productos/<ref>/` con las fotos identificadas
+  por su papel: **`luminaria.jpg`** (la del producto, es la que se ve primero), `ambiente.jpg` y
+  `medidas.jpg`. La curva fotométrica ya no se guarda (es un diagrama, no una foto). Ojo: hay que
+  aplicar a mano la `/SMask` del PDF o las zonas transparentes salen negras.
 - `scripts/fichas/generar_revision.py` regenera `revision-productos.html` (herramienta de trabajo,
-  no forma parte del sitio): tabla arriba izquierda, fotos arriba derecha, PDF abajo izquierda.
+  no forma parte del sitio) con **navegación en tres niveles**, como la sección Productos del sitio:
+  1) secciones de la **columna C** de las hojas TODO (Campanas, Estancas, Paneles, Proyectores,
+  Pantallas salas blancas, Farolas / Empotrados, Adosados, Tiras led...), 2) **gamas** dentro de
+  cada sección (ALFA, CAM, SOL, ZEN, NEX...; las fichas cuyo Excel no nombra gama se navegan
+  sueltas), 3) la ficha: fotos arriba izquierda, tabla arriba derecha, PDF abajo izquierda.
 - Las erratas de los PDF (`2 ños`, lúmenes en `lm/W`, potencias sin número...) **no se corrigen**:
   se anotan en `docs/migracion-fichas/erratas-pdf.md` para que las arregle el proveedor.
 - Ojo al ampliar a más categorías: hay códigos publicados que solo están en hojas de familia

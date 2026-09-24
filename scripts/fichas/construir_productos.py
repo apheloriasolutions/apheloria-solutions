@@ -63,24 +63,63 @@ def nombre_producto(descripciones):
 
 
 def codigos_por_categoria(ruta_excel):
-    """Qué códigos son de industrial y cuáles de interior.
+    """Devuelve {código: (categoria, sección)}.
 
-    Base: las hojas INDUSTRIAL TODO e INTERIORES TODO. Pero hay productos publicados en la web cuyo
-    código solo aparece en una hoja de familia (SALAS BLANCAS, PANELES, PROYECTORES, TIRAS LED...) y
-    no en las hojas TODO; esos se recuperan de la auditoría de la web, que ya dice su categoría.
+    La sección es el encabezado en mayúsculas de la columna C de las hojas TODO (CAMPANAS, ESTANCAS,
+    PANELES, PROYECTORES, PANTALLAS SALAS BLANCAS, FAROLAS / EMPOTRADOS, ADOSADOS, TIRAS LED...):
+    es el primer nivel de navegación. Hay productos publicados cuyo código solo está en una hoja de
+    familia y no en las TODO; su categoría se recupera de la auditoría de la web y se quedan sin
+    sección (van a parar a "Otros").
     """
     wb = openpyxl.load_workbook(ruta_excel, data_only=True)
     cat = {}
-    for hoja, _celdas, desc in filas(wb):
-        if hoja in CATEGORIAS:
-            cat.setdefault(norm(desc.split()[0]), CATEGORIAS[hoja])
+    for hoja, categoria in CATEGORIAS.items():
+        ws = wb[hoja]
+        seccion = None
+        for fila in ws.iter_rows(min_row=1, max_row=ws.max_row, max_col=19):
+            c = fila[2].value if len(fila) > 2 else None                    # columna C
+            if isinstance(c, str) and len(c.strip()) >= 5 and c.strip() == c.strip().upper() \
+                    and not any(ch.isdigit() for ch in c) and c.strip() != 'CÓDIGOS':
+                seccion = c.strip()
+            desc = next((v.value for v in fila if isinstance(v.value, str) and len(v.value) > 20), None)
+            if desc:
+                cat.setdefault(norm(desc.split()[0]), (categoria, seccion))
 
     auditoria = os.path.join(RAIZ, 'docs', 'migracion-fichas', 'audit-productos.json')
     if os.path.exists(auditoria):
         for p in json.load(open(auditoria, encoding='utf-8')):
             if p.get('ref') and p.get('categoria') in CATEGORIAS.values():
-                cat.setdefault(norm(p['ref']), p['categoria'])
+                cat.setdefault(norm(p['ref']), (p['categoria'], None))
     return cat
+
+
+GAMA_STOP = set('''LED IP IK UGR CRI CCT DALI ON OFF ON-OFF PWM PUSH DIM DIP SWITCH TRIAC CASAMBI
+BLUETOOTH AC DC SMD COB RGB NO PERMANENTE HZ XXX XXXX SV0 CÓDIGOS MULTI
+NEGRO BLANCO GRIS DORADO PLATA CROMO ORO INOXIDABLE
+PANEL PANTALLA CAMPANA FAROLA DOWNLIGHT DOWLIGHT PERFIL TIRA LUMINARIA LUMINARIAS PROYECTOR FOCO
+PLAFÓN PLAFON APLIQUE EMPOTRAR EMPOTRABLE EMPOTRADO SUPERFICIE ADOSABLE ADOSADO SUSPENDER
+CIRCULAR CUADRADO RECESADO ORIENTABLE FIJO SLIM RETRO'''.split())
+
+
+def gama_de(descripciones):
+    """Gama comercial (ALFA, CAM, SOL, ZEN, NEX...): segundo nivel de navegación.
+
+    Se busca primero tras "mod."; si no, la primera palabra en mayúsculas que no sea una unidad ni
+    una sigla técnica. Devuelve None cuando el Excel no nombra ninguna gama (p. ej. las pantallas
+    estancas, que se distinguen solo por longitud); esas fichas se navegan por sí mismas.
+    """
+    for desc in descripciones:
+        m = re.search(r'\bmod\.?\s+([A-Za-zÁÉÍÓÚ][A-Za-z0-9]*)', desc)
+        if m:
+            g = re.sub(r'\d+$', '', m.group(1).upper())
+            if len(g) >= 2 and g not in GAMA_STOP:
+                return g
+    for desc in descripciones:
+        for tok in re.findall(r'\b[A-ZÁÉÍÓÚ][A-ZÁÉÍÓÚ]+(?:-[A-ZÁÉÍÓÚ]+)?\b', desc.split(None, 1)[-1]):
+            g = re.sub(r'\d+$', '', tok)
+            if len(g) >= 3 and g not in GAMA_STOP:
+                return g
+    return None
 
 
 # ── PDFs del repo ──
@@ -150,13 +189,18 @@ def fila_ma(tabla, prods):
 
 
 # ── imágenes y descargas ──
+ROLES = ('luminaria.jpg', 'ambiente.jpg', 'medidas.jpg')   # la foto del producto va siempre primero
+
+
 def imagenes_de(refs):
     vistas, salida = set(), []
     for ref in refs:
         carpeta = os.path.join(RAIZ, 'images', 'productos', ref)
         if not os.path.isdir(carpeta):
             continue
-        for f in sorted(os.listdir(carpeta)):
+        ficheros = os.listdir(carpeta)
+        orden = [f for f in ROLES if f in ficheros] or sorted(ficheros)   # si no hay roles, lo que haya
+        for f in orden:
             if not f.lower().endswith(('.jpg', '.jpeg', '.png')):
                 continue
             ruta = os.path.join(carpeta, f)
@@ -185,10 +229,10 @@ def construir(ruta_excel):
     for p in productos:
         c = cat.get(norm(p['codigo']))
         if c:
-            grupos[(c, modelo(p['descripcion']))].append(p)
+            grupos[(c[0], c[1], modelo(p['descripcion']))].append(p)
 
     fichas, incidencias = [], {'sin_pdf': [], 'pdf_ilegible': [], 'pdf_ambiguo': []}
-    for (categoria, clave), prods in grupos.items():
+    for (categoria, seccion, clave), prods in grupos.items():
         tablas, descargas = [], []
         for p in sorted(prods, key=lambda p: (p['opciones']['potencias'] or ['0'])[0].zfill(4)):
             rutas = pdfs_de(idx_pdfs, p['codigo'])
@@ -212,6 +256,8 @@ def construir(ruta_excel):
             'id': re.sub(r'[^a-z0-9]+', '-', sin_tildes(nombre_producto([p['descripcion'] for p in prods])).lower()).strip('-'),
             'nombre': nombre_producto([p['descripcion'] for p in prods]),
             'categoria': categoria,
+            'seccion': (seccion or 'OTROS').capitalize() if seccion else 'Otros',
+            'gama': gama_de([p['descripcion'] for p in prods]),
             'familia': Counter(p['familia'] for p in prods).most_common(1)[0][0],
             'refs': refs,
             'specs': fila_ma(fusionar(tablas), prods),

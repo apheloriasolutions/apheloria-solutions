@@ -19,10 +19,17 @@ COL_X = 330        # divide la columna izquierda (tabla, ambiente) de la derecha
 CABECERA_Y = 165   # por encima de esta altura solo está el logo de cabecera
 
 def a_pil(doc, xref):
-    pix = fitz.Pixmap(doc, xref)
-    if pix.n - pix.alpha >= 4: pix = fitz.Pixmap(fitz.csRGB, pix)
-    im = Image.open(io.BytesIO(pix.tobytes("png"))).convert("RGBA")
-    return Image.alpha_composite(Image.new("RGBA", im.size, "white"), im).convert("RGB")  # transparencia -> blanco
+    """Imagen incrustada -> PIL sobre blanco. Hay que aplicar a mano la /SMask del PDF (la máscara de
+    transparencia va como una imagen aparte); si no, las zonas transparentes salen NEGRAS."""
+    info = doc.extract_image(xref)
+    im = Image.open(io.BytesIO(info["image"]))
+    if info.get("smask"):
+        mascara = Image.open(io.BytesIO(doc.extract_image(info["smask"])["image"])).convert("L")
+        im = im.convert("RGB")
+        im.putalpha(mascara if mascara.size == im.size else mascara.resize(im.size))
+    if im.mode in ("RGBA", "LA", "P"):
+        im = Image.alpha_composite(Image.new("RGBA", im.size, "white"), im.convert("RGBA"))
+    return im.convert("RGB")
 
 def clasificar(ruta):
     doc = fitz.open(ruta); p = doc[0]; avisos = []
@@ -36,7 +43,7 @@ def clasificar(ruta):
     izq = [i for i in imgs if cx(i) < COL_X]
     der = sorted([i for i in imgs if cx(i) >= COL_X], key=lambda i: i['bbox'].y0)
     roles = {}
-    if izq: roles['ambiente'] = [max(izq, key=lambda i: i['bbox'].get_area())]
+    if izq: roles['ambiente'] = [max(izq, key=lambda i: abs(i['bbox']))]   # abs(Rect) = área (PyMuPDF 1.26)
     else: avisos.append('sin foto de ambiente')
     if len(der) < 3:
         avisos.append(f'columna derecha con {len(der)} imágenes (esperaba luminaria + medidas + curva): revisar a mano')

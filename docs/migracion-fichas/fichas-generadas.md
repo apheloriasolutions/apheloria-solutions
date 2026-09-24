@@ -5,7 +5,7 @@ distinta potencia, temperatura de color, mA o acabado se fusionan en una sola ta
 valores que cambian entre ellos van separados por " | ". La tabla sale **del PDF**; el Excel
 solo aporta la corriente en mA y qué códigos son el mismo producto.
 
-- **105 fichas generadas** a partir de 168 códigos (57 industrial, 48 interior).
+- **106 fichas generadas** a partir de 167 códigos (57 industrial, 49 interior).
 - 20 fichas de las demás categorías siguen con los datos antiguos (`"generada": false`), pendientes de aplicarles el mismo criterio.
 
 ## Códigos del Excel sin PDF en el repo
@@ -162,81 +162,81 @@ Se ha usado el primero. Conviene comprobar cuál es el bueno.
 |---|---|---|---|---|---|
 | industrial | CAMPANAS | Campana grandes alturas para suspender ALFA 150 1-10V IP65 negro | 2 | 21 | 3 |
 | industrial | CAMPANAS | Campana grandes alturas para suspender ALFA regulable 1-10V con switch selector de potencia IP65 negro | 1 | 21 | 3 |
-| industrial | CAMPANAS | Campana grandes alturas para suspender CAM 1-10V IP65 negro | 2 | 21 | 1 |
+| industrial | CAMPANAS | Campana grandes alturas para suspender CAM 1-10V IP65 negro | 2 | 21 | 4 |
 | industrial | CAMPANAS | Campana para suspender ALFA 300 1-10V IP65 negro | 2 | 21 | 3 |
 | industrial | CAMPANAS | Campana para suspender ALFA200 1-10V IP65 negro | 2 | 21 | 3 |
-| industrial | CAMPANAS | Campana para suspender SOL 1-10V IP65 negro (60-80-100 W) | 1 | 21 | 1 |
+| industrial | CAMPANAS | Campana para suspender SOL 1-10V IP65 negro (60-80-100 W) | 1 | 21 | 3 |
 | industrial | CAMPANAS | Campana para suspender SOL 1-10V IP65 negro (60-80-100 W) | 1 | 21 | 3 |
 | industrial | CAMPANAS | OOCAMP100W4KA | 1 | 21 | 3 |
 | industrial | ESTANCAS | Estanca LED Integrado 1175mm IP65 IP65 IK08 | 1 | 21 | 3 |
-| industrial | ESTANCAS | Pantalla LED estanca 1200mm IP65  /W | 1 | 21 | 2 |
-| industrial | ESTANCAS | Pantalla LED estanca 1200mm IP66 IK08m DALÍ2 | 1 | 21 | 2 |
-| industrial | ESTANCAS | Pantalla LED estanca 1500mm IP65 IK08 | 1 | 21 | 2 |
-| industrial | ESTANCAS | Pantalla LED estanca 1500mm IP66 IK08m DALÍ2 | 1 | 21 | 2 |
-| industrial | ESTANCAS | Pantalla estanca LED IP66 IK08 1200mm | 2 | 21 | 3 |
-| industrial | ESTANCAS | Pantalla estanca LED IP66 IK08 1600mm | 2 | 21 | 3 |
-| industrial | ESTANCAS | Pantalla estanca LED IP66 IK08 600mm | 4 | 21 | 1 |
-| industrial | ESTANCAS | luminaria LED estanca SLE T LED 1200mm IP66 | 2 | 22 | 2 |
+| industrial | ESTANCAS | Pantalla LED estanca 1200mm IP65  /W | 1 | 21 | 3 |
+| industrial | ESTANCAS | Pantalla LED estanca 1200mm IP66 IK08m DALÍ2 | 1 | 21 | 3 |
+| industrial | ESTANCAS | Pantalla LED estanca 1500mm IP65 IK08 | 1 | 21 | 3 |
+| industrial | ESTANCAS | Pantalla LED estanca 1500mm IP66 IK08m DALÍ2 | 1 | 21 | 3 |
+| industrial | ESTANCAS | Pantalla estanca LED IP66 IK08 1200mm | 2 | 21 | 4 |
+| industrial | ESTANCAS | Pantalla estanca LED IP66 IK08 1600mm | 2 | 21 | 4 |
+| industrial | ESTANCAS | Pantalla estanca LED IP66 IK08 600mm | 4 | 21 | 3 |
+| industrial | ESTANCAS | luminaria LED estanca SLE T LED 1200mm IP66 | 2 | 22 | 3 |
 | industrial | FAROLAS | Farola Led LI IP65 IK08 regulable X 0-10V | 3 | 21 | 5 |
-| industrial | FAROLAS | Farola Led MN IP65 IK08 | 1 | 21 | 2 |
+| industrial | FAROLAS | Farola Led MN IP65 IK08 | 1 | 21 | 3 |
 | industrial | FAROLAS | Farola Led SOLAR HIBRÍDA IP65 IK08 regulable x regulable | 1 | 22 | 3 |
 | industrial | FAROLAS | Farola Led SOLAR IP65 IK08 regulable x regulable | 1 | 22 | 3 |
 | industrial | FAROLAS | Farola Led ST IP65 IK08 regulable x 0-10V | 1 | 21 | 3 |
 | industrial | FAROLAS | Farola Led ST IP65 IK08 regulable x 1-10V | 2 | 21 | 3 |
 | industrial | FAROLAS | Farola Led VA IP65 IK08 | 1 | 21 | 3 |
 | industrial | FAROLAS | Luminaria farol modelo Villa acero acabado pintado al horno negro IP20 | 1 | 21 | 2 |
-| industrial | PANELES | Luminaria LINC LED luz indirecta 600 X 600 X130mm | 1 | 22 | 2 |
-| industrial | PANELES | Luminaria LINC LED luz indirecta 600 X 600 X130mm DALI | 1 | 22 | 2 |
-| industrial | PANELES | PANEL LED 595X595mm IP40 UGR19 | 1 | 21 | 2 |
-| industrial | PANELES | Panel LED AQUA IP65 60X60 UGR19 No fliker | 1 | 21 | 2 |
-| industrial | PANELES | Panel LED BURO 120X30 UGR17 No fliker IP40 | 1 | 21 | 2 |
-| industrial | PANELES | Panel LED BURO 60X60 UGR17 No fliker IP40 | 1 | 21 | 2 |
-| industrial | PANELES | Panel LED HI 60X60 UGR19 No fliker IP40 | 1 | 21 | 2 |
-| industrial | PANELES | Panel LED HI UGR19 No fliker IP40 | 1 | 21 | 2 |
-| industrial | PANELES | Panel LED Slim 60X60  UGR19 DALI | 1 | 21 | 2 |
-| industrial | PANELES | Panel LED TRI 60X60 UGR19 No fliker | 1 | 21 | 2 |
-| industrial | PANELES | Panel de LED Slim 600X600  UGR19 | 1 | 21 | 2 |
-| industrial | PANELES | Panel empotrable SLI L LED 2x17W 597x597m IP20 DALI | 1 | 22 | 1 |
-| industrial | PANELES | Pantalla Eco ABAX Dali 2C W UGR 19 difusor microprisma blanco L80B10 | 1 | 21 | 2 |
-| industrial | PANELES | Pantalla empotrable 1 calle 1X24W 1197x297mm IP40 Blanco | 1 | 21 | 1 |
-| industrial | PANELES | Pantalla empotrable 2 calleS 2x12W 597x597mm IP40 Blanco | 2 | 21 | 2 |
-| industrial | PANELES | Pantalla empotrable 2 calleS 2x24W 1197x297mm IP40 DALI blanco | 1 | 21 | 2 |
-| industrial | PANELES | Pantalla empotrable 2 calleS 2x24W 1197x297mm IP40 blanco | 1 | 21 | 2 |
-| industrial | PROYECTORES | Proyector CAP GOLD para carril magnetico 48V 8V | 1 | 21 | 1 |
+| industrial | PANELES | Luminaria LINC LED luz indirecta 600 X 600 X130mm | 1 | 22 | 3 |
+| industrial | PANELES | Luminaria LINC LED luz indirecta 600 X 600 X130mm DALI | 1 | 22 | 3 |
+| industrial | PANELES | PANEL LED 595X595mm IP40 UGR19 | 1 | 21 | 3 |
+| industrial | PANELES | Panel LED AQUA IP65 60X60 UGR19 No fliker | 1 | 21 | 3 |
+| industrial | PANELES | Panel LED BURO 120X30 UGR17 No fliker IP40 | 1 | 21 | 3 |
+| industrial | PANELES | Panel LED BURO 60X60 UGR17 No fliker IP40 | 1 | 21 | 3 |
+| industrial | PANELES | Panel LED HI 60X60 UGR19 No fliker IP40 | 1 | 21 | 3 |
+| industrial | PANELES | Panel LED HI UGR19 No fliker IP40 | 1 | 21 | 3 |
+| industrial | PANELES | Panel LED Slim 60X60  UGR19 DALI | 1 | 21 | 3 |
+| industrial | PANELES | Panel LED TRI 60X60 UGR19 No fliker | 1 | 21 | 3 |
+| industrial | PANELES | Panel de LED Slim 600X600  UGR19 | 1 | 21 | 3 |
+| industrial | PANELES | Panel empotrable SLI L LED 2x17W 597x597m IP20 DALI | 1 | 22 | 3 |
+| industrial | PANELES | Pantalla Eco ABAX Dali 2C W UGR 19 difusor microprisma blanco L80B10 | 1 | 21 | 3 |
+| industrial | PANELES | Pantalla empotrable 1 calle 1X24W 1197x297mm IP40 Blanco | 1 | 21 | 3 |
+| industrial | PANELES | Pantalla empotrable 2 calleS 2x12W 597x597mm IP40 Blanco | 2 | 21 | 4 |
+| industrial | PANELES | Pantalla empotrable 2 calleS 2x24W 1197x297mm IP40 DALI blanco | 1 | 21 | 3 |
+| industrial | PANELES | Pantalla empotrable 2 calleS 2x24W 1197x297mm IP40 blanco | 1 | 21 | 3 |
+| industrial | PROYECTORES | Proyector CAP GOLD para carril magnetico 48V 8V | 1 | 21 | 3 |
 | industrial | PROYECTORES | Proyector CAP LED 3470ll blanco | 1 | 21 | 3 |
-| industrial | PROYECTORES | Proyector CAP LED blanco | 4 | 21 | 3 |
-| industrial | PROYECTORES | Proyector CAP LED negro | 3 | 21 | 3 |
-| industrial | SALAS BLANCAS | Pantalla hospitalaria IP65 adosable 1235x335mm para ambientes estériles ON OFF | 1 | 21 | 2 |
-| industrial | SALAS BLANCAS | Pantalla hospitalaria IP65 empotrable 1235x335W para ambientes estériles DALI 2 | 1 | 21 | 2 |
-| industrial | SALAS BLANCAS | Pantalla hospitalaria IP65 empotrable 1235x335mm para ambientes estériles DALI2 | 1 | 21 | 2 |
-| industrial | SALAS BLANCAS | Pantalla hospitalaria IP65 empotrable 1235x335mm para ambientes estériles ON OFF | 2 | 21 | 2 |
-| industrial | SALAS BLANCAS | Pantalla hospitalaria IP65 empotrable 635 x 635mm para ambientes estériles DALI 2 | 2 | 21 | 2 |
-| industrial | SALAS BLANCAS | Pantalla hospitalaria IP65 empotrable 635x635mm para ambientes estériles ON OFF | 2 | 21 | 2 |
-| industrial | SALAS BLANCAS | Pantalla hospitalaria empotrable 600 x 600mm IP65 DALI | 1 | 22 | 2 |
-| industrial | SALAS BLANCAS | Pantalla hospitalaria empotrable Clean Regular 4x15W 635x635mm IP65 DALI | 1 | 21 | 2 |
-| industrial | SALAS BLANCAS | Pantalla hospitalaria empotrable IC(intelligent colors) IP65 1160 x 335mm DALI | 1 | 22 | 2 |
+| industrial | PROYECTORES | Proyector CAP LED blanco | 4 | 21 | 5 |
+| industrial | PROYECTORES | Proyector CAP LED negro | 3 | 21 | 5 |
+| industrial | SALAS BLANCAS | Pantalla hospitalaria IP65 adosable 1235x335mm para ambientes estériles ON OFF | 1 | 21 | 3 |
+| industrial | SALAS BLANCAS | Pantalla hospitalaria IP65 empotrable 1235x335W para ambientes estériles DALI 2 | 1 | 21 | 3 |
+| industrial | SALAS BLANCAS | Pantalla hospitalaria IP65 empotrable 1235x335mm para ambientes estériles DALI2 | 1 | 21 | 3 |
+| industrial | SALAS BLANCAS | Pantalla hospitalaria IP65 empotrable 1235x335mm para ambientes estériles ON OFF | 2 | 21 | 3 |
+| industrial | SALAS BLANCAS | Pantalla hospitalaria IP65 empotrable 635 x 635mm para ambientes estériles DALI 2 | 2 | 21 | 3 |
+| industrial | SALAS BLANCAS | Pantalla hospitalaria IP65 empotrable 635x635mm para ambientes estériles ON OFF | 2 | 21 | 3 |
+| industrial | SALAS BLANCAS | Pantalla hospitalaria empotrable 600 x 600mm IP65 DALI | 1 | 22 | 3 |
+| industrial | SALAS BLANCAS | Pantalla hospitalaria empotrable Clean Regular 4x15W 635x635mm IP65 DALI | 1 | 21 | 3 |
+| industrial | SALAS BLANCAS | Pantalla hospitalaria empotrable IC(intelligent colors) IP65 1160 x 335mm DALI | 1 | 22 | 3 |
 | industrial | SALAS BLANCAS | Pantalla hospitalaría empotrable IP65 acceso superior DALI2 600x600mm | 2 | 21 | 3 |
 | industrial | SALAS BLANCAS | Pantalla hospitalaría empotrable IP65 acceso superior DALI2 630x630mm | 2 | 21 | 3 |
-| interior | ADOSADOS | LEDWALLCIRC 30-40 IP45 Aplique para montaje en pared o techo Con emergencia 3H | 1 | 21 | 2 |
-| interior | ADOSADOS | LEDWALLCIRC 30-40 IP65 Aplique para montaje en pared o techo ON OFF | 1 | 21 | 0 |
-| interior | ADOSADOS | LEDWALLCIRC 30-40 IP65 Aplique para montaje en pared o techo con detección de movimiento y luz diurna | 1 | 19 | 0 |
+| interior | ADOSADOS | LEDWALLCIRC 30-40 IP45 Aplique para montaje en pared o techo Con emergencia 3H | 1 | 21 | 3 |
+| interior | ADOSADOS | LEDWALLCIRC 30-40 IP65 Aplique para montaje en pared o techo ON OFF | 1 | 21 | 3 |
+| interior | ADOSADOS | LEDWALLCIRC 30-40 IP65 Aplique para montaje en pared o techo con detección de movimiento y luz diurna | 1 | 19 | 3 |
 | interior | ADOSADOS | Plafón Led superficie IP65 | 1 | 21 | 3 |
-| interior | DOWN.ADOSABLES | Downlight superficie cuerpo aluminio IP65 NEGRO | 1 | 19 | 2 |
-| interior | DOWN.EMPOT. | ARCA IP65 DOWLIGHT EMPOTRAR CIRCULAR BLANCO | 1 | 21 | 2 |
+| interior | DOWN.ADOSABLES | Downlight superficie cuerpo aluminio IP65 NEGRO | 1 | 19 | 3 |
+| interior | DOWN.EMPOT. | ARCA IP65 DOWLIGHT EMPOTRAR CIRCULAR BLANCO | 1 | 21 | 3 |
 | interior | DOWN.EMPOT. | Downlight LED empotrable DIA IP44 blanco | 1 | 21 | 3 |
-| interior | DOWN.EMPOT. | Downlight empotrable circular Cob Led IP44 blanco | 2 | 22 | 3 |
+| interior | DOWN.EMPOT. | Downlight empotrable circular Cob Led IP44 blanco | 2 | 22 | 4 |
 | interior | DOWN.EMPOT. | Downlight empotrable recesado MIN IP65 | 2 | 21 | 4 |
-| interior | DOWN.EMPOT. | Downlight empotrado fijo NEX | 16 | 20 | 10 |
+| interior | DOWN.EMPOT. | Downlight empotrado fijo NEX | 16 | 20 | 8 |
 | interior | DOWN.EMPOT. | Downlight empotrado fijo ZEN | 21 | 22 | 10 |
-| interior | DOWN.EMPOT. | Downlight empotrado orientable NIX LED m negro | 1 | 21 | 4 |
+| interior | DOWN.EMPOT. | Downlight empotrado orientable NIX LED m negro | 1 | 21 | 3 |
 | interior | DOWN.EMPOT. | Downlight trimless BIO UGR 10 DALI | 1 | 20 | 3 |
 | interior | DOWN.EMPOT. | Downlight trimless BIO UGR 10 ON OFF | 1 | 20 | 3 |
 | interior | DOWN.EMPOT. | Foco empotrado MOTA spot gold 10W | 1 | 21 | 3 |
 | interior | DOWN.EMPOT. | Luminaria tipo cardan simple CAR blanco | 1 | 22 | 3 |
-| interior | GOLDRETRO | Luminaria suspendida VENICE RETRO GOLD | 2 | 21 | 2 |
+| interior | GOLDRETRO | Luminaria suspendida VENICE RETRO GOLD | 1 | 21 | 3 |
 | interior | PEMP | Perfil de aluminio A1 para empotrar 17 X 13,5H X 2000mm difusor opal color aluminio IP20 | 1 | 9 | 2 |
 | interior | PEMP | Perfil de aluminio A10 para empotrar 30 X 9H X 2000mm difusor opal color aluminio IP20 | 1 | 9 | 2 |
-| interior | PEMP | Perfil de aluminio A11 para empotrar 30 X 11H X 2000mm difusor opal color aluminio IP20 | 1 | 9 | 4 |
+| interior | PEMP | Perfil de aluminio A11 para empotrar 30 X 11H X 2000mm difusor opal color aluminio IP20 | 1 | 9 | 2 |
 | interior | PEMP | Perfil de aluminio A12 para empotrar 30 X 21H X 2000mm difusor opal color aluminio IP20 | 1 | 9 | 2 |
 | interior | PEMP | Perfil de aluminio A13 para empotrar 41 X 10,5H X 2000mm difusor opal color aluminio IP20 | 1 | 9 | 2 |
 | interior | PEMP | Perfil de aluminio A14 para empotrar 43 X 19H X 2000mm difusor opal color aluminio IP20 | 1 | 9 | 2 |
@@ -244,12 +244,12 @@ Se ha usado el primero. Conviene comprobar cuál es el bueno.
 | interior | PEMP | Perfil de aluminio A16 para empotrar 62 X 31H X 2000mm difusor opal color aluminio IP20 | 1 | 7 | 2 |
 | interior | PEMP | Perfil de aluminio A2 para empotrar 17,5 X 10H X 2000mm difusor opal color aluminio IP20 | 1 | 9 | 2 |
 | interior | PEMP | Perfil de aluminio A3 para empotrar 22 X 14,5H X 2000mm difusor opal color aluminio IP20 | 1 | 9 | 2 |
-| interior | PEMP | Perfil de aluminio A4 para empotrar 24 X 14,5H X 2000mm difusor opal color aluminio IP20 | 1 | 10 | 4 |
-| interior | PEMP | Perfil de aluminio A4 para empotrar 24 X 14,5H X 2000mm difusor opal color blanco IP20 | 1 | 10 | 4 |
-| interior | PEMP | Perfil de aluminio A4 para empotrar 24 X 14,5H X 2000mm difusor opal color negro IP20 | 1 | 10 | 4 |
-| interior | PEMP | Perfil de aluminio A5 para empotrar 4,7 X 7H X 2000mm difusor opal color aluminio IP20 | 1 | 9 | 4 |
-| interior | PEMP | Perfil de aluminio A5 para empotrar 4,7 X 7H X 2000mm difusor opal color blanco IP20 | 1 | 9 | 4 |
-| interior | PEMP | Perfil de aluminio A5 para empotrar 4,7 X 7H X 2000mm difusor opal color negro IP20 | 1 | 9 | 4 |
+| interior | PEMP | Perfil de aluminio A4 para empotrar 24 X 14,5H X 2000mm difusor opal color aluminio IP20 | 1 | 10 | 2 |
+| interior | PEMP | Perfil de aluminio A4 para empotrar 24 X 14,5H X 2000mm difusor opal color blanco IP20 | 1 | 10 | 2 |
+| interior | PEMP | Perfil de aluminio A4 para empotrar 24 X 14,5H X 2000mm difusor opal color negro IP20 | 1 | 10 | 2 |
+| interior | PEMP | Perfil de aluminio A5 para empotrar 4,7 X 7H X 2000mm difusor opal color aluminio IP20 | 1 | 9 | 2 |
+| interior | PEMP | Perfil de aluminio A5 para empotrar 4,7 X 7H X 2000mm difusor opal color blanco IP20 | 1 | 9 | 2 |
+| interior | PEMP | Perfil de aluminio A5 para empotrar 4,7 X 7H X 2000mm difusor opal color negro IP20 | 1 | 9 | 2 |
 | interior | PEMP | Perfil de aluminio A6 para empotrar 25 X 19H X 2000mm difusor opal color aluminio IP20 | 1 | 9 | 2 |
 | interior | PEMP | Perfil de aluminio A7 para empotrar 27 X 15H X 2000mm difusor opal color aluminio IP20 | 1 | 9 | 2 |
 | interior | PEMP | Perfil de aluminio A8 para empotrar 28 X 10H X 2000mm difusor opal color aluminio IP20 | 1 | 9 | 2 |
@@ -258,10 +258,11 @@ Se ha usado el primero. Conviene comprobar cuál es el bueno.
 | interior | PROYECTORES | Proyector CAP LED negro | 1 | 21 | 3 |
 | interior | PSUP. | Perfil de aluminio B12 de superficie 23,5 X 22H X 2000mm difusor opal color aluminio IP20 | 1 | 9 | 2 |
 | interior | PSUP. | Perfil de aluminio B13 de superficie 30 X 11H X 2000mm difusor opal color aluminio IP20 | 1 | 9 | 2 |
-| interior | TIRAS LED | Tira de Led flexible 24V A monocolor x mt SMD2835 IP65 | 1 | 21 | 2 |
-| interior | TIRAS LED | Tira de Led flexible 24V C monocolor x mt SMD2835 IP65 | 1 | 21 | 2 |
-| interior | TIRAS LED | Tira de Led flexible 24v A monocolor x mt SMD2835 IP20 | 2 | 21 | 4 |
-| interior | TIRAS LED | Tira de Led flexible 24v A monocolor x mt SMD2835 IP65 | 1 | 21 | 2 |
+| interior | TIRAS LED | Tira de Led flexible 24V A monocolor x mt SMD2835 IP65 | 1 | 21 | 3 |
+| interior | TIRAS LED | Tira de Led flexible 24V C monocolor x mt SMD2835 IP65 | 1 | 21 | 3 |
+| interior | TIRAS LED | Tira de Led flexible 24v A monocolor x mt SMD2835 IP20 | 1 | 21 | 3 |
+| interior | TIRAS LED | Tira de Led flexible 24v A monocolor x mt SMD2835 IP20 | 1 | 21 | 3 |
+| interior | TIRAS LED | Tira de Led flexible 24v A monocolor x mt SMD2835 IP65 | 1 | 21 | 3 |
 | interior | TIRAS LED | Tira flexible TIP COB LED 24V monocolor x mt IP20 | 1 | 21 | 3 |
 | interior | TIRAS LED | Tira flexible TIP COB LED corte libre 24V monocolor x mt IP20 | 1 | 21 | 3 |
 | interior | TIRAS LED | Tira flexible TIP COB LED corte libre 24V monocolor x mt IP65 | 1 | 21 | 3 |

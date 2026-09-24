@@ -34,16 +34,21 @@ def convertir_antiguas(ruta_json):
         if e.get('categoria') in REHECHAS:
             continue
         if 'tipo' not in e:                       # ya estaba convertida (al regenerar): se mantiene
+            e['imagenes'] = imagenes_de(e['refs'])    # ...pero las fotos se recalculan por si cambiaron
+            e.setdefault('seccion', e.get('familia', 'Otros'))
+            e.setdefault('gama', None)
             salida.append(e)
             continue
         if e['tipo'] == 'producto':
             salida.append({'id': slug(e['nombre'] + '-' + e['ref']), 'nombre': e['nombre'],
-                           'categoria': e['categoria'], 'familia': e['subfamilia'], 'refs': [e['ref']],
-                           'specs': e['specs'], 'imagenes': e.get('imagenes', []),
+                           'categoria': e['categoria'], 'seccion': e['subfamilia'], 'gama': None,
+                           'familia': e['subfamilia'], 'refs': [e['ref']],
+                           'specs': e['specs'], 'imagenes': imagenes_de([e['ref']]),
                            'descargas': [{'ref': e['ref'], 'titulo': e['ref'], 'pdf': e['pdf_path']}],
                            'generada': False})
         else:
             salida.append({'id': e['grupo_id'], 'nombre': e['nombre'], 'categoria': e['categoria'],
+                           'seccion': e['subfamilia'], 'gama': None,
                            'familia': e['subfamilia'], 'refs': [v['ref'] for v in e['variantes']],
                            'specs': [{'etiqueta': s['etiqueta'], 'valor': SEP.join(s['valores'])}
                                      for s in e['specs_resumen']],

@@ -3,6 +3,8 @@
   "id": "campana-grandes-alturas-para-suspender-alfa-150-1-10v-ip65-negro",
   "nombre": "Campana grandes alturas para suspender ALFA 150 1-10V IP65 negro",
   "categoria": "industrial",
+  "seccion": "Campanas",
+  "gama": "ALFA",
   "familia": "CAMPANAS",
   "refs": [
    "OOCAMP150W4KA",
@@ -95,9 +97,9 @@
    }
   ],
   "imagenes": [
-   "images/productos/OOCAMP150W4KA/01.jpg",
-   "images/productos/OOCAMP150W4KA/02.jpg",
-   "images/productos/OOCAMP150W4KA/03.jpg"
+   "images/productos/OOCAMP150W4KA/luminaria.jpg",
+   "images/productos/OOCAMP150W4KA/ambiente.jpg",
+   "images/productos/OOCAMP150W4KA/medidas.jpg"
   ],
   "descargas": [
    {
@@ -117,6 +119,8 @@
   "id": "campana-grandes-alturas-para-suspender-alfa-regulable-1-10v-con-switch-selector-de-potencia-ip65-negro",
   "nombre": "Campana grandes alturas para suspender ALFA regulable 1-10V con switch selector de potencia IP65 negro",
   "categoria": "industrial",
+  "seccion": "Campanas",
+  "gama": "ALFA",
   "familia": "CAMPANAS",
   "refs": [
    "OOCAMP100W5KA"
@@ -208,9 +212,9 @@
    }
   ],
   "imagenes": [
-   "images/productos/OOCAMP100W5KA/01.jpg",
-   "images/productos/OOCAMP100W5KA/02.jpg",
-   "images/productos/OOCAMP100W5KA/03.jpg"
+   "images/productos/OOCAMP100W5KA/luminaria.jpg",
+   "images/productos/OOCAMP100W5KA/ambiente.jpg",
+   "images/productos/OOCAMP100W5KA/medidas.jpg"
   ],
   "descargas": [
    {
@@ -225,6 +229,8 @@
   "id": "campana-grandes-alturas-para-suspender-cam-1-10v-ip65-negro",
   "nombre": "Campana grandes alturas para suspender CAM 1-10V IP65 negro",
   "categoria": "industrial",
+  "seccion": "Campanas",
+  "gama": "CAM",
   "familia": "CAMPANAS",
   "refs": [
    "OOCAMP120W5KB",
@@ -317,7 +323,10 @@
    }
   ],
   "imagenes": [
-   "images/productos/OOCAMP120W5KB/01.jpg"
+   "images/productos/OOCAMP120W5KB/luminaria.jpg",
+   "images/productos/OOCAMP120W5KB/ambiente.jpg",
+   "images/productos/OOCAMP120W5KB/medidas.jpg",
+   "images/productos/OOCAMP200W5KB/medidas.jpg"
   ],
   "descargas": [
    {
@@ -337,6 +346,8 @@
   "id": "campana-para-suspender-alfa-300-1-10v-ip65-negro",
   "nombre": "Campana para suspender ALFA 300 1-10V IP65 negro",
   "categoria": "industrial",
+  "seccion": "Campanas",
+  "gama": "ALFA",
   "familia": "CAMPANAS",
   "refs": [
    "OOCAMP300W4KA",
@@ -429,9 +440,9 @@
    }
   ],
   "imagenes": [
-   "images/productos/OOCAMP300W4KA/01.jpg",
-   "images/productos/OOCAMP300W4KA/02.jpg",
-   "images/productos/OOCAMP300W4KA/03.jpg"
+   "images/productos/OOCAMP300W4KA/luminaria.jpg",
+   "images/productos/OOCAMP300W4KA/ambiente.jpg",
+   "images/productos/OOCAMP300W4KA/medidas.jpg"
   ],
   "descargas": [
    {
@@ -451,6 +462,8 @@
   "id": "campana-para-suspender-alfa200-1-10v-ip65-negro",
   "nombre": "Campana para suspender ALFA200 1-10V IP65 negro",
   "categoria": "industrial",
+  "seccion": "Campanas",
+  "gama": "ALFA",
   "familia": "CAMPANAS",
   "refs": [
    "OOCAMP200W4KA",
@@ -543,9 +556,9 @@
    }
   ],
   "imagenes": [
-   "images/productos/OOCAMP200W4KA/01.jpg",
-   "images/productos/OOCAMP200W4KA/02.jpg",
-   "images/productos/OOCAMP200W4KA/03.jpg"
+   "images/productos/OOCAMP200W4KA/luminaria.jpg",
+   "images/productos/OOCAMP200W4KA/ambiente.jpg",
+   "images/productos/OOCAMP200W4KA/medidas.jpg"
   ],
   "descargas": [
    {
@@ -565,6 +578,8 @@
   "id": "campana-para-suspender-sol-1-10v-ip65-negro-60-80-100-w",
   "nombre": "Campana para suspender SOL 1-10V IP65 negro (60-80-100 W)",
   "categoria": "industrial",
+  "seccion": "Campanas",
+  "gama": "SOL",
   "familia": "CAMPANAS",
   "refs": [
    "OOCAMP100W5KS"
@@ -656,7 +671,9 @@
    }
   ],
   "imagenes": [
-   "images/productos/OOCAMP100W5KS/01.jpg"
+   "images/productos/OOCAMP100W5KS/luminaria.jpg",
+   "images/productos/OOCAMP100W5KS/ambiente.jpg",
+   "images/productos/OOCAMP100W5KS/medidas.jpg"
   ],
   "descargas": [
    {
@@ -671,6 +688,8 @@
   "id": "campana-para-suspender-sol-1-10v-ip65-negro-60-80-100-w",
   "nombre": "Campana para suspender SOL 1-10V IP65 negro (60-80-100 W)",
   "categoria": "industrial",
+  "seccion": "Campanas",
+  "gama": "SOL",
   "familia": "CAMPANAS",
   "refs": [
    "OOCAMP200W5KS"
@@ -762,9 +781,9 @@
    }
   ],
   "imagenes": [
-   "images/productos/OOCAMP200W5KS/01.jpg",
-   "images/productos/OOCAMP200W5KS/02.jpg",
-   "images/productos/OOCAMP200W5KS/03.jpg"
+   "images/productos/OOCAMP200W5KS/luminaria.jpg",
+   "images/productos/OOCAMP200W5KS/ambiente.jpg",
+   "images/productos/OOCAMP200W5KS/medidas.jpg"
   ],
   "descargas": [
    {
@@ -779,6 +798,8 @@
   "id": "oocamp100w4ka",
   "nombre": "OOCAMP100W4KA",
   "categoria": "industrial",
+  "seccion": "Campanas",
+  "gama": null,
   "familia": "CAMPANAS",
   "refs": [
    "OOCAMP100W4KA"
@@ -870,9 +891,9 @@
    }
   ],
   "imagenes": [
-   "images/productos/OOCAMP100W4KA/01.jpg",
-   "images/productos/OOCAMP100W4KA/02.jpg",
-   "images/productos/OOCAMP100W4KA/03.jpg"
+   "images/productos/OOCAMP100W4KA/luminaria.jpg",
+   "images/productos/OOCAMP100W4KA/ambiente.jpg",
+   "images/productos/OOCAMP100W4KA/medidas.jpg"
   ],
   "descargas": [
    {
@@ -887,6 +908,8 @@
   "id": "estanca-led-integrado-1175mm-ip65-ip65-ik08",
   "nombre": "Estanca LED Integrado 1175mm IP65 IP65 IK08",
   "categoria": "industrial",
+  "seccion": "Estancas",
+  "gama": null,
   "familia": "ESTANCAS",
   "refs": [
    "0031413540"
@@ -978,9 +1001,9 @@
    }
   ],
   "imagenes": [
-   "images/productos/0031413540/01.jpg",
-   "images/productos/0031413540/02.jpg",
-   "images/productos/0031413540/03.jpg"
+   "images/productos/0031413540/luminaria.jpg",
+   "images/productos/0031413540/ambiente.jpg",
+   "images/productos/0031413540/medidas.jpg"
   ],
   "descargas": [
    {
@@ -995,6 +1018,8 @@
   "id": "pantalla-led-estanca-1200mm-ip65-w",
   "nombre": "Pantalla LED estanca 1200mm IP65  /W",
   "categoria": "industrial",
+  "seccion": "Estancas",
+  "gama": null,
   "familia": "ESTANCAS",
   "refs": [
    "00PAN18-36W4K"
@@ -1086,8 +1111,9 @@
    }
   ],
   "imagenes": [
-   "images/productos/00PAN18-36W4K/01.jpg",
-   "images/productos/00PAN18-36W4K/02.jpg"
+   "images/productos/00PAN18-36W4K/luminaria.jpg",
+   "images/productos/00PAN18-36W4K/ambiente.jpg",
+   "images/productos/00PAN18-36W4K/medidas.jpg"
   ],
   "descargas": [
    {
@@ -1102,6 +1128,8 @@
   "id": "pantalla-led-estanca-1200mm-ip66-ik08m-dali2",
   "nombre": "Pantalla LED estanca 1200mm IP66 IK08m DALÍ2",
   "categoria": "industrial",
+  "seccion": "Estancas",
+  "gama": null,
   "familia": "ESTANCAS",
   "refs": [
    "00PANST36W4KD"
@@ -1193,8 +1221,9 @@
    }
   ],
   "imagenes": [
-   "images/productos/00PANST36W4KD/01.jpg",
-   "images/productos/00PANST36W4KD/02.jpg"
+   "images/productos/00PANST36W4KD/luminaria.jpg",
+   "images/productos/00PANST36W4KD/ambiente.jpg",
+   "images/productos/00PANST36W4KD/medidas.jpg"
   ],
   "descargas": [
    {
@@ -1209,6 +1238,8 @@
   "id": "pantalla-led-estanca-1500mm-ip65-ik08",
   "nombre": "Pantalla LED estanca 1500mm IP65 IK08",
   "categoria": "industrial",
+  "seccion": "Estancas",
+  "gama": null,
   "familia": "ESTANCAS",
   "refs": [
    "00PAN36-50W4K"
@@ -1300,8 +1331,9 @@
    }
   ],
   "imagenes": [
-   "images/productos/00PAN36-50W4K/01.jpg",
-   "images/productos/00PAN36-50W4K/02.jpg"
+   "images/productos/00PAN36-50W4K/luminaria.jpg",
+   "images/productos/00PAN36-50W4K/ambiente.jpg",
+   "images/productos/00PAN36-50W4K/medidas.jpg"
   ],
   "descargas": [
    {
@@ -1316,6 +1348,8 @@
   "id": "pantalla-led-estanca-1500mm-ip66-ik08m-dali2",
   "nombre": "Pantalla LED estanca 1500mm IP66 IK08m DALÍ2",
   "categoria": "industrial",
+  "seccion": "Estancas",
+  "gama": null,
   "familia": "ESTANCAS",
   "refs": [
    "00PANST44W4KD"
@@ -1407,8 +1441,9 @@
    }
   ],
   "imagenes": [
-   "images/productos/00PANST44W4KD/01.jpg",
-   "images/productos/00PANST44W4KD/02.jpg"
+   "images/productos/00PANST44W4KD/luminaria.jpg",
+   "images/productos/00PANST44W4KD/ambiente.jpg",
+   "images/productos/00PANST44W4KD/medidas.jpg"
   ],
   "descargas": [
    {
@@ -1423,6 +1458,8 @@
   "id": "pantalla-estanca-led-ip66-ik08-1200mm",
   "nombre": "Pantalla estanca LED IP66 IK08 1200mm",
   "categoria": "industrial",
+  "seccion": "Estancas",
+  "gama": null,
   "familia": "ESTANCAS",
   "refs": [
    "00PANEST19W4K",
@@ -1515,9 +1552,10 @@
    }
   ],
   "imagenes": [
-   "images/productos/00PANEST19W4K/01.jpg",
-   "images/productos/00PANEST19W4K/02.jpg",
-   "images/productos/00PANEST30W4K/02.jpg"
+   "images/productos/00PANEST19W4K/luminaria.jpg",
+   "images/productos/00PANEST19W4K/ambiente.jpg",
+   "images/productos/00PANEST19W4K/medidas.jpg",
+   "images/productos/00PANEST30W4K/medidas.jpg"
   ],
   "descargas": [
    {
@@ -1537,6 +1575,8 @@
   "id": "pantalla-estanca-led-ip66-ik08-1600mm",
   "nombre": "Pantalla estanca LED IP66 IK08 1600mm",
   "categoria": "industrial",
+  "seccion": "Estancas",
+  "gama": null,
   "familia": "ESTANCAS",
   "refs": [
    "00PANE30W4K16",
@@ -1629,9 +1669,10 @@
    }
   ],
   "imagenes": [
-   "images/productos/00PANE30W4K16/01.jpg",
-   "images/productos/00PANE30W4K16/02.jpg",
-   "images/productos/00PANEST45W4K/02.jpg"
+   "images/productos/00PANE30W4K16/luminaria.jpg",
+   "images/productos/00PANE30W4K16/ambiente.jpg",
+   "images/productos/00PANE30W4K16/medidas.jpg",
+   "images/productos/00PANEST45W4K/medidas.jpg"
   ],
   "descargas": [
    {
@@ -1651,6 +1692,8 @@
   "id": "pantalla-estanca-led-ip66-ik08-600mm",
   "nombre": "Pantalla estanca LED IP66 IK08 600mm",
   "categoria": "industrial",
+  "seccion": "Estancas",
+  "gama": null,
   "familia": "ESTANCAS",
   "refs": [
    "00PAES12W4K60",
@@ -1745,7 +1788,9 @@
    }
   ],
   "imagenes": [
-   "images/productos/00PAES12W4K60/01.jpg"
+   "images/productos/00PAES12W4K60/luminaria.jpg",
+   "images/productos/00PAES12W4K60/ambiente.jpg",
+   "images/productos/00PAES12W4K60/medidas.jpg"
   ],
   "descargas": [
    {
@@ -1775,6 +1820,8 @@
   "id": "luminaria-led-estanca-sle-t-led-1200mm-ip66",
   "nombre": "luminaria LED estanca SLE T LED 1200mm IP66",
   "categoria": "industrial",
+  "seccion": "Estancas",
+  "gama": "SLE-T",
   "familia": "ESTANCAS",
   "refs": [
    "0030512440",
@@ -1871,8 +1918,9 @@
    }
   ],
   "imagenes": [
-   "images/productos/0030512440/01.jpg",
-   "images/productos/0030512440/02.jpg"
+   "images/productos/0030512440/luminaria.jpg",
+   "images/productos/0030512440/ambiente.jpg",
+   "images/productos/0030512440/medidas.jpg"
   ],
   "descargas": [
    {
@@ -1887,6 +1935,8 @@
   "id": "farola-led-li-ip65-ik08-regulable-x-0-10v",
   "nombre": "Farola Led LI IP65 IK08 regulable X 0-10V",
   "categoria": "industrial",
+  "seccion": "Farolas",
+  "gama": null,
   "familia": "FAROLAS",
   "refs": [
    "00FALI30WXXXK",
@@ -1980,11 +2030,11 @@
    }
   ],
   "imagenes": [
-   "images/productos/00FALI30WXXXK/01.jpg",
-   "images/productos/00FALI30WXXXK/02.jpg",
-   "images/productos/00FALI30WXXXK/03.jpg",
-   "images/productos/00FALI60WXXXK/03.jpg",
-   "images/productos/00FALI90WXXXK/03.jpg"
+   "images/productos/00FALI30WXXXK/luminaria.jpg",
+   "images/productos/00FALI30WXXXK/ambiente.jpg",
+   "images/productos/00FALI30WXXXK/medidas.jpg",
+   "images/productos/00FALI60WXXXK/medidas.jpg",
+   "images/productos/00FALI90WXXXK/medidas.jpg"
   ],
   "descargas": [
    {
@@ -2009,6 +2059,8 @@
   "id": "farola-led-mn-ip65-ik08",
   "nombre": "Farola Led MN IP65 IK08",
   "categoria": "industrial",
+  "seccion": "Farolas",
+  "gama": null,
   "familia": "FAROLAS",
   "refs": [
    "0FAMN100WXXK"
@@ -2100,8 +2152,9 @@
    }
   ],
   "imagenes": [
-   "images/productos/0FAMN100WXXK/01.jpg",
-   "images/productos/0FAMN100WXXK/02.jpg"
+   "images/productos/0FAMN100WXXK/luminaria.jpg",
+   "images/productos/0FAMN100WXXK/ambiente.jpg",
+   "images/productos/0FAMN100WXXK/medidas.jpg"
   ],
   "descargas": [
    {
@@ -2116,6 +2169,8 @@
   "id": "farola-led-solar-hibrida-ip65-ik08-regulable-x-regulable",
   "nombre": "Farola Led SOLAR HIBRÍDA IP65 IK08 regulable x regulable",
   "categoria": "industrial",
+  "seccion": "Farolas",
+  "gama": "SOLAR",
   "familia": "FAROLAS",
   "refs": [
    "00FASOH20WCCT"
@@ -2211,9 +2266,9 @@
    }
   ],
   "imagenes": [
-   "images/productos/00FASOH20WCCT/01.jpg",
-   "images/productos/00FASOH20WCCT/02.jpg",
-   "images/productos/00FASOH20WCCT/03.jpg"
+   "images/productos/00FASOH20WCCT/luminaria.jpg",
+   "images/productos/00FASOH20WCCT/ambiente.jpg",
+   "images/productos/00FASOH20WCCT/medidas.jpg"
   ],
   "descargas": [
    {
@@ -2228,6 +2283,8 @@
   "id": "farola-led-solar-ip65-ik08-regulable-x-regulable",
   "nombre": "Farola Led SOLAR IP65 IK08 regulable x regulable",
   "categoria": "industrial",
+  "seccion": "Farolas",
+  "gama": "SOLAR",
   "familia": "FAROLAS",
   "refs": [
    "00FASOH16WCCT"
@@ -2323,9 +2380,9 @@
    }
   ],
   "imagenes": [
-   "images/productos/00FASOH16WCCT/01.jpg",
-   "images/productos/00FASOH16WCCT/02.jpg",
-   "images/productos/00FASOH16WCCT/03.jpg"
+   "images/productos/00FASOH16WCCT/luminaria.jpg",
+   "images/productos/00FASOH16WCCT/ambiente.jpg",
+   "images/productos/00FASOH16WCCT/medidas.jpg"
   ],
   "descargas": [
    {
@@ -2340,6 +2397,8 @@
   "id": "farola-led-st-ip65-ik08-regulable-x-0-10v",
   "nombre": "Farola Led ST IP65 IK08 regulable x 0-10V",
   "categoria": "industrial",
+  "seccion": "Farolas",
+  "gama": null,
   "familia": "FAROLAS",
   "refs": [
    "00FAST30WXXXK"
@@ -2431,9 +2490,9 @@
    }
   ],
   "imagenes": [
-   "images/productos/00FAST30WXXXK/01.jpg",
-   "images/productos/00FAST30WXXXK/02.jpg",
-   "images/productos/00FAST30WXXXK/03.jpg"
+   "images/productos/00FAST30WXXXK/luminaria.jpg",
+   "images/productos/00FAST30WXXXK/ambiente.jpg",
+   "images/productos/00FAST30WXXXK/medidas.jpg"
   ],
   "descargas": [
    {
@@ -2448,6 +2507,8 @@
   "id": "farola-led-st-ip65-ik08-regulable-x-1-10v",
   "nombre": "Farola Led ST IP65 IK08 regulable x 1-10V",
   "categoria": "industrial",
+  "seccion": "Farolas",
+  "gama": null,
   "familia": "FAROLAS",
   "refs": [
    "00FAST60WXXXK",
@@ -2540,9 +2601,9 @@
    }
   ],
   "imagenes": [
-   "images/productos/00FAST60WXXXK/01.jpg",
-   "images/productos/00FAST60WXXXK/02.jpg",
-   "images/productos/00FAST60WXXXK/03.jpg"
+   "images/productos/00FAST60WXXXK/luminaria.jpg",
+   "images/productos/00FAST60WXXXK/ambiente.jpg",
+   "images/productos/00FAST60WXXXK/medidas.jpg"
   ],
   "descargas": [
    {
@@ -2562,6 +2623,8 @@
   "id": "farola-led-va-ip65-ik08",
   "nombre": "Farola Led VA IP65 IK08",
   "categoria": "industrial",
+  "seccion": "Farolas",
+  "gama": null,
   "familia": "FAROLAS",
   "refs": [
    "00FAVA60WXXXK"
@@ -2653,9 +2716,9 @@
    }
   ],
   "imagenes": [
-   "images/productos/00FAVA60WXXXK/01.jpg",
-   "images/productos/00FAVA60WXXXK/02.jpg",
-   "images/productos/00FAVA60WXXXK/03.jpg"
+   "images/productos/00FAVA60WXXXK/luminaria.jpg",
+   "images/productos/00FAVA60WXXXK/ambiente.jpg",
+   "images/productos/00FAVA60WXXXK/medidas.jpg"
   ],
   "descargas": [
    {
@@ -2670,6 +2733,8 @@
   "id": "luminaria-farol-modelo-villa-acero-acabado-pintado-al-horno-negro-ip20",
   "nombre": "Luminaria farol modelo Villa acero acabado pintado al horno negro IP20",
   "categoria": "industrial",
+  "seccion": "Farolas",
+  "gama": null,
   "familia": "FAROLAS",
   "refs": [
    "00FAROLVILLAN"
@@ -2761,8 +2826,8 @@
    }
   ],
   "imagenes": [
-   "images/productos/00FAROLVILLAN/01.jpg",
-   "images/productos/00FAROLVILLAN/02.jpg"
+   "images/productos/00FAROLVILLAN/luminaria.jpg",
+   "images/productos/00FAROLVILLAN/medidas.jpg"
   ],
   "descargas": [
    {
@@ -2777,6 +2842,8 @@
   "id": "luminaria-linc-led-luz-indirecta-600-x-600-x130mm",
   "nombre": "Luminaria LINC LED luz indirecta 600 X 600 X130mm",
   "categoria": "industrial",
+  "seccion": "Otros",
+  "gama": "LINC",
   "familia": "PANELES",
   "refs": [
    "00LINC3160040"
@@ -2872,8 +2939,9 @@
    }
   ],
   "imagenes": [
-   "images/productos/00LINC3160040/01.jpg",
-   "images/productos/00LINC3160040/02.jpg"
+   "images/productos/00LINC3160040/luminaria.jpg",
+   "images/productos/00LINC3160040/ambiente.jpg",
+   "images/productos/00LINC3160040/medidas.jpg"
   ],
   "descargas": [
    {
@@ -2888,6 +2956,8 @@
   "id": "luminaria-linc-led-luz-indirecta-600-x-600-x130mm-dali",
   "nombre": "Luminaria LINC LED luz indirecta 600 X 600 X130mm DALI",
   "categoria": "industrial",
+  "seccion": "Otros",
+  "gama": "LINC",
   "familia": "PANELES",
   "refs": [
    "0LINC3160040D"
@@ -2983,8 +3053,9 @@
    }
   ],
   "imagenes": [
-   "images/productos/0LINC3160040D/01.jpg",
-   "images/productos/0LINC3160040D/02.jpg"
+   "images/productos/0LINC3160040D/luminaria.jpg",
+   "images/productos/0LINC3160040D/ambiente.jpg",
+   "images/productos/0LINC3160040D/medidas.jpg"
   ],
   "descargas": [
    {
@@ -2999,6 +3070,8 @@
   "id": "panel-led-595x595mm-ip40-ugr19",
   "nombre": "PANEL LED 595X595mm IP40 UGR19",
   "categoria": "industrial",
+  "seccion": "Paneles",
+  "gama": null,
   "familia": "PANELES",
   "refs": [
    "00PANEL42W45K"
@@ -3090,8 +3163,9 @@
    }
   ],
   "imagenes": [
-   "images/productos/00PANEL42W45K/01.jpg",
-   "images/productos/00PANEL42W45K/02.jpg"
+   "images/productos/00PANEL42W45K/luminaria.jpg",
+   "images/productos/00PANEL42W45K/ambiente.jpg",
+   "images/productos/00PANEL42W45K/medidas.jpg"
   ],
   "descargas": [
    {
@@ -3106,6 +3180,8 @@
   "id": "panel-led-aqua-ip65-60x60-ugr19-no-fliker",
   "nombre": "Panel LED AQUA IP65 60X60 UGR19 No fliker",
   "categoria": "industrial",
+  "seccion": "Paneles",
+  "gama": "AQUA",
   "familia": "PANELES",
   "refs": [
    "00PANEL40W60K"
@@ -3197,8 +3273,9 @@
    }
   ],
   "imagenes": [
-   "images/productos/00PANEL40W60K/01.jpg",
-   "images/productos/00PANEL40W60K/02.jpg"
+   "images/productos/00PANEL40W60K/luminaria.jpg",
+   "images/productos/00PANEL40W60K/ambiente.jpg",
+   "images/productos/00PANEL40W60K/medidas.jpg"
   ],
   "descargas": [
    {
@@ -3213,6 +3290,8 @@
   "id": "panel-led-buro-120x30-ugr17-no-fliker-ip40",
   "nombre": "Panel LED BURO 120X30 UGR17 No fliker IP40",
   "categoria": "industrial",
+  "seccion": "Paneles",
+  "gama": "BURO",
   "familia": "PANELES",
   "refs": [
    "00PANER42W3CCT"
@@ -3304,8 +3383,9 @@
    }
   ],
   "imagenes": [
-   "images/productos/00PANER42W3CCT/01.jpg",
-   "images/productos/00PANER42W3CCT/02.jpg"
+   "images/productos/00PANER42W3CCT/luminaria.jpg",
+   "images/productos/00PANER42W3CCT/ambiente.jpg",
+   "images/productos/00PANER42W3CCT/medidas.jpg"
   ],
   "descargas": [
    {
@@ -3320,6 +3400,8 @@
   "id": "panel-led-buro-60x60-ugr17-no-fliker-ip40",
   "nombre": "Panel LED BURO 60X60 UGR17 No fliker IP40",
   "categoria": "industrial",
+  "seccion": "Paneles",
+  "gama": "BURO",
   "familia": "PANELES",
   "refs": [
    "00PANEL42WXXX"
@@ -3411,8 +3493,9 @@
    }
   ],
   "imagenes": [
-   "images/productos/00PANEL42WXXX/01.jpg",
-   "images/productos/00PANEL42WXXX/02.jpg"
+   "images/productos/00PANEL42WXXX/luminaria.jpg",
+   "images/productos/00PANEL42WXXX/ambiente.jpg",
+   "images/productos/00PANEL42WXXX/medidas.jpg"
   ],
   "descargas": [
    {
@@ -3427,6 +3510,8 @@
   "id": "panel-led-hi-60x60-ugr19-no-fliker-ip40",
   "nombre": "Panel LED HI 60X60 UGR19 No fliker IP40",
   "categoria": "industrial",
+  "seccion": "Paneles",
+  "gama": null,
   "familia": "PANELES",
   "refs": [
    "00PANEL25WXXX"
@@ -3518,8 +3603,9 @@
    }
   ],
   "imagenes": [
-   "images/productos/00PANEL25WXXX/01.jpg",
-   "images/productos/00PANEL25WXXX/02.jpg"
+   "images/productos/00PANEL25WXXX/luminaria.jpg",
+   "images/productos/00PANEL25WXXX/ambiente.jpg",
+   "images/productos/00PANEL25WXXX/medidas.jpg"
   ],
   "descargas": [
    {
@@ -3534,6 +3620,8 @@
   "id": "panel-led-hi-ugr19-no-fliker-ip40",
   "nombre": "Panel LED HI UGR19 No fliker IP40",
   "categoria": "industrial",
+  "seccion": "Paneles",
+  "gama": null,
   "familia": "PANELES",
   "refs": [
    "00PANEL25W40K"
@@ -3625,8 +3713,9 @@
    }
   ],
   "imagenes": [
-   "images/productos/00PANEL25W40K/01.jpg",
-   "images/productos/00PANEL25W40K/02.jpg"
+   "images/productos/00PANEL25W40K/luminaria.jpg",
+   "images/productos/00PANEL25W40K/ambiente.jpg",
+   "images/productos/00PANEL25W40K/medidas.jpg"
   ],
   "descargas": [
    {
@@ -3641,6 +3730,8 @@
   "id": "panel-led-slim-60x60-ugr19-dali",
   "nombre": "Panel LED Slim 60X60  UGR19 DALI",
   "categoria": "industrial",
+  "seccion": "Paneles",
+  "gama": null,
   "familia": "PANELES",
   "refs": [
    "00PANEL34W4KD"
@@ -3732,8 +3823,9 @@
    }
   ],
   "imagenes": [
-   "images/productos/00PANEL34W4KD/01.jpg",
-   "images/productos/00PANEL34W4KD/02.jpg"
+   "images/productos/00PANEL34W4KD/luminaria.jpg",
+   "images/productos/00PANEL34W4KD/ambiente.jpg",
+   "images/productos/00PANEL34W4KD/medidas.jpg"
   ],
   "descargas": [
    {
@@ -3748,6 +3840,8 @@
   "id": "panel-led-tri-60x60-ugr19-no-fliker",
   "nombre": "Panel LED TRI 60X60 UGR19 No fliker",
   "categoria": "industrial",
+  "seccion": "Paneles",
+  "gama": "TRI",
   "familia": "PANELES",
   "refs": [
    "00PANEL60WXXX"
@@ -3839,8 +3933,9 @@
    }
   ],
   "imagenes": [
-   "images/productos/00PANEL60WXXX/01.jpg",
-   "images/productos/00PANEL60WXXX/02.jpg"
+   "images/productos/00PANEL60WXXX/luminaria.jpg",
+   "images/productos/00PANEL60WXXX/ambiente.jpg",
+   "images/productos/00PANEL60WXXX/medidas.jpg"
   ],
   "descargas": [
    {
@@ -3855,6 +3950,8 @@
   "id": "panel-de-led-slim-600x600-ugr19",
   "nombre": "Panel de LED Slim 600X600  UGR19",
   "categoria": "industrial",
+  "seccion": "Paneles",
+  "gama": null,
   "familia": "PANELES",
   "refs": [
    "00PANEL23344K"
@@ -3946,8 +4043,9 @@
    }
   ],
   "imagenes": [
-   "images/productos/00PANEL23344K/01.jpg",
-   "images/productos/00PANEL23344K/02.jpg"
+   "images/productos/00PANEL23344K/luminaria.jpg",
+   "images/productos/00PANEL23344K/ambiente.jpg",
+   "images/productos/00PANEL23344K/medidas.jpg"
   ],
   "descargas": [
    {
@@ -3962,6 +4060,8 @@
   "id": "panel-empotrable-sli-l-led-2x17w-597x597m-ip20-dali",
   "nombre": "Panel empotrable SLI L LED 2x17W 597x597m IP20 DALI",
   "categoria": "industrial",
+  "seccion": "Paneles",
+  "gama": "SLI-L",
   "familia": "PANELES",
   "refs": [
    "00PSLI21740KB"
@@ -4057,7 +4157,9 @@
    }
   ],
   "imagenes": [
-   "images/productos/00PSLI21740KB/01.jpg"
+   "images/productos/00PSLI21740KB/luminaria.jpg",
+   "images/productos/00PSLI21740KB/ambiente.jpg",
+   "images/productos/00PSLI21740KB/medidas.jpg"
   ],
   "descargas": [
    {
@@ -4072,6 +4174,8 @@
   "id": "pantalla-eco-abax-dali-2c-w-ugr-19-difusor-microprisma-blanco-l80b10",
   "nombre": "Pantalla Eco ABAX Dali 2C W UGR 19 difusor microprisma blanco L80B10",
   "categoria": "industrial",
+  "seccion": "Paneles",
+  "gama": "ABAX",
   "familia": "PANELES",
   "refs": [
    "OPANABAX344KD"
@@ -4163,8 +4267,9 @@
    }
   ],
   "imagenes": [
-   "images/productos/OPANABAX344KD/01.jpg",
-   "images/productos/OPANABAX344KD/02.jpg"
+   "images/productos/OPANABAX344KD/luminaria.jpg",
+   "images/productos/OPANABAX344KD/ambiente.jpg",
+   "images/productos/OPANABAX344KD/medidas.jpg"
   ],
   "descargas": [
    {
@@ -4179,6 +4284,8 @@
   "id": "pantalla-empotrable-1-calle-1x24w-1197x297mm-ip40-blanco",
   "nombre": "Pantalla empotrable 1 calle 1X24W 1197x297mm IP40 Blanco",
   "categoria": "industrial",
+  "seccion": "Paneles",
+  "gama": null,
   "familia": "PANELES",
   "refs": [
    "0PE1C24W4KIP4"
@@ -4270,7 +4377,9 @@
    }
   ],
   "imagenes": [
-   "images/productos/0PE1C24W4KIP4/01.jpg"
+   "images/productos/0PE1C24W4KIP4/luminaria.jpg",
+   "images/productos/0PE1C24W4KIP4/ambiente.jpg",
+   "images/productos/0PE1C24W4KIP4/medidas.jpg"
   ],
   "descargas": [
    {
@@ -4285,6 +4394,8 @@
   "id": "pantalla-empotrable-2-calles-2x12w-597x597mm-ip40-blanco",
   "nombre": "Pantalla empotrable 2 calleS 2x12W 597x597mm IP40 Blanco",
   "categoria": "industrial",
+  "seccion": "Paneles",
+  "gama": null,
   "familia": "PANELES",
   "refs": [
    "0PE2C24W4KIP4",
@@ -4377,8 +4488,10 @@
    }
   ],
   "imagenes": [
-   "images/productos/0PE2C24W4KIP4/01.jpg",
-   "images/productos/0PE2C24W4KIP4/02.jpg"
+   "images/productos/0PE2C24W4KIP4/luminaria.jpg",
+   "images/productos/0PE2C24W4KIP4/ambiente.jpg",
+   "images/productos/0PE2C24W4KIP4/medidas.jpg",
+   "images/productos/0PE2C34W4KIP4/medidas.jpg"
   ],
   "descargas": [
    {
@@ -4398,6 +4511,8 @@
   "id": "pantalla-empotrable-2-calles-2x24w-1197x297mm-ip40-dali-blanco",
   "nombre": "Pantalla empotrable 2 calleS 2x24W 1197x297mm IP40 DALI blanco",
   "categoria": "industrial",
+  "seccion": "Otros",
+  "gama": null,
   "familia": "PANELES",
   "refs": [
    "0PE2C48W4KIPD"
@@ -4489,8 +4604,9 @@
    }
   ],
   "imagenes": [
-   "images/productos/0PE2C48W4KIPD/01.jpg",
-   "images/productos/0PE2C48W4KIPD/02.jpg"
+   "images/productos/0PE2C48W4KIPD/luminaria.jpg",
+   "images/productos/0PE2C48W4KIPD/ambiente.jpg",
+   "images/productos/0PE2C48W4KIPD/medidas.jpg"
   ],
   "descargas": [
    {
@@ -4505,6 +4621,8 @@
   "id": "pantalla-empotrable-2-calles-2x24w-1197x297mm-ip40-blanco",
   "nombre": "Pantalla empotrable 2 calleS 2x24W 1197x297mm IP40 blanco",
   "categoria": "industrial",
+  "seccion": "Paneles",
+  "gama": null,
   "familia": "PANELES",
   "refs": [
    "0PE2C48W4KIP4"
@@ -4596,8 +4714,9 @@
    }
   ],
   "imagenes": [
-   "images/productos/0PE2C48W4KIP4/01.jpg",
-   "images/productos/0PE2C48W4KIP4/02.jpg"
+   "images/productos/0PE2C48W4KIP4/luminaria.jpg",
+   "images/productos/0PE2C48W4KIP4/ambiente.jpg",
+   "images/productos/0PE2C48W4KIP4/medidas.jpg"
   ],
   "descargas": [
    {
@@ -4612,6 +4731,8 @@
   "id": "proyector-cap-gold-para-carril-magnetico-48v-8v",
   "nombre": "Proyector CAP GOLD para carril magnetico 48V 8V",
   "categoria": "industrial",
+  "seccion": "Proyectores",
+  "gama": "CAP",
   "familia": "PROYECTORES",
   "refs": [
    "00CAPGL488W30"
@@ -4703,7 +4824,9 @@
    }
   ],
   "imagenes": [
-   "images/productos/00CAPGL488W30/01.jpg"
+   "images/productos/00CAPGL488W30/luminaria.jpg",
+   "images/productos/00CAPGL488W30/ambiente.jpg",
+   "images/productos/00CAPGL488W30/medidas.jpg"
   ],
   "descargas": [
    {
@@ -4718,6 +4841,8 @@
   "id": "proyector-cap-led-3470ll-blanco",
   "nombre": "Proyector CAP LED 3470ll blanco",
   "categoria": "industrial",
+  "seccion": "Proyectores",
+  "gama": "CAP",
   "familia": "PROYECTORES",
   "refs": [
    "00PROCA30W40B"
@@ -4809,9 +4934,9 @@
    }
   ],
   "imagenes": [
-   "images/productos/00PROCA30W40B/01.jpg",
-   "images/productos/00PROCA30W40B/02.jpg",
-   "images/productos/00PROCA30W40B/03.jpg"
+   "images/productos/00PROCA30W40B/luminaria.jpg",
+   "images/productos/00PROCA30W40B/ambiente.jpg",
+   "images/productos/00PROCA30W40B/medidas.jpg"
   ],
   "descargas": [
    {
@@ -4826,6 +4951,8 @@
   "id": "proyector-cap-led-blanco",
   "nombre": "Proyector CAP LED blanco",
   "categoria": "industrial",
+  "seccion": "Proyectores",
+  "gama": "CAP",
   "familia": "PROYECTORES",
   "refs": [
    "00PROCA10W30B",
@@ -4920,9 +5047,11 @@
    }
   ],
   "imagenes": [
-   "images/productos/00PROCA10W30B/01.jpg",
-   "images/productos/00PROCA10W30B/02.jpg",
-   "images/productos/00PROCA10W30B/03.jpg"
+   "images/productos/00PROCA10W30B/luminaria.jpg",
+   "images/productos/00PROCA10W30B/ambiente.jpg",
+   "images/productos/00PROCA10W30B/medidas.jpg",
+   "images/productos/00PROCA20W30B/medidas.jpg",
+   "images/productos/00PROCA30W30B/medidas.jpg"
   ],
   "descargas": [
    {
@@ -4952,6 +5081,8 @@
   "id": "proyector-cap-led-negro",
   "nombre": "Proyector CAP LED negro",
   "categoria": "industrial",
+  "seccion": "Proyectores",
+  "gama": "CAP",
   "familia": "PROYECTORES",
   "refs": [
    "00PROCA20W30N",
@@ -5045,9 +5176,11 @@
    }
   ],
   "imagenes": [
-   "images/productos/00PROCA20W30N/01.jpg",
-   "images/productos/00PROCA20W30N/02.jpg",
-   "images/productos/00PROCA20W30N/03.jpg"
+   "images/productos/00PROCA20W30N/luminaria.jpg",
+   "images/productos/00PROCA20W30N/ambiente.jpg",
+   "images/productos/00PROCA20W30N/medidas.jpg",
+   "images/productos/00PROCA30W30N/medidas.jpg",
+   "images/productos/00PROCA30W40N/medidas.jpg"
   ],
   "descargas": [
    {
@@ -5072,6 +5205,8 @@
   "id": "pantalla-hospitalaria-ip65-adosable-1235x335mm-para-ambientes-esteriles-on-off",
   "nombre": "Pantalla hospitalaria IP65 adosable 1235x335mm para ambientes estériles ON OFF",
   "categoria": "industrial",
+  "seccion": "Pantallas salas blancas",
+  "gama": null,
   "familia": "SALAS BLANCAS",
   "refs": [
    "00PHIPA45W40K"
@@ -5163,8 +5298,9 @@
    }
   ],
   "imagenes": [
-   "images/productos/00PHIPA45W40K/01.jpg",
-   "images/productos/00PHIPA45W40K/02.jpg"
+   "images/productos/00PHIPA45W40K/luminaria.jpg",
+   "images/productos/00PHIPA45W40K/ambiente.jpg",
+   "images/productos/00PHIPA45W40K/medidas.jpg"
   ],
   "descargas": [
    {
@@ -5179,6 +5315,8 @@
   "id": "pantalla-hospitalaria-ip65-empotrable-1235x335w-para-ambientes-esteriles-dali-2",
   "nombre": "Pantalla hospitalaria IP65 empotrable 1235x335W para ambientes estériles DALI 2",
   "categoria": "industrial",
+  "seccion": "Otros",
+  "gama": null,
   "familia": "SALAS BLANCAS",
   "refs": [
    "0PHIPE45W30KD"
@@ -5270,8 +5408,9 @@
    }
   ],
   "imagenes": [
-   "images/productos/0PHIPE45W30KD/01.jpg",
-   "images/productos/0PHIPE45W30KD/02.jpg"
+   "images/productos/0PHIPE45W30KD/luminaria.jpg",
+   "images/productos/0PHIPE45W30KD/ambiente.jpg",
+   "images/productos/0PHIPE45W30KD/medidas.jpg"
   ],
   "descargas": [
    {
@@ -5286,6 +5425,8 @@
   "id": "pantalla-hospitalaria-ip65-empotrable-1235x335mm-para-ambientes-esteriles-dali2",
   "nombre": "Pantalla hospitalaria IP65 empotrable 1235x335mm para ambientes estériles DALI2",
   "categoria": "industrial",
+  "seccion": "Pantallas salas blancas",
+  "gama": null,
   "familia": "SALAS BLANCAS",
   "refs": [
    "0PHIPE45W40KD"
@@ -5377,8 +5518,9 @@
    }
   ],
   "imagenes": [
-   "images/productos/0PHIPE45W40KD/01.jpg",
-   "images/productos/0PHIPE45W40KD/02.jpg"
+   "images/productos/0PHIPE45W40KD/luminaria.jpg",
+   "images/productos/0PHIPE45W40KD/ambiente.jpg",
+   "images/productos/0PHIPE45W40KD/medidas.jpg"
   ],
   "descargas": [
    {
@@ -5393,6 +5535,8 @@
   "id": "pantalla-hospitalaria-ip65-empotrable-1235x335mm-para-ambientes-esteriles-on-off",
   "nombre": "Pantalla hospitalaria IP65 empotrable 1235x335mm para ambientes estériles ON OFF",
   "categoria": "industrial",
+  "seccion": "Otros",
+  "gama": null,
   "familia": "SALAS BLANCAS",
   "refs": [
    "00PHIPE45W30K",
@@ -5485,8 +5629,9 @@
    }
   ],
   "imagenes": [
-   "images/productos/00PHIPE45W30K/01.jpg",
-   "images/productos/00PHIPE45W30K/02.jpg"
+   "images/productos/00PHIPE45W30K/luminaria.jpg",
+   "images/productos/00PHIPE45W30K/ambiente.jpg",
+   "images/productos/00PHIPE45W30K/medidas.jpg"
   ],
   "descargas": [
    {
@@ -5506,6 +5651,8 @@
   "id": "pantalla-hospitalaria-ip65-empotrable-635-x-635mm-para-ambientes-esteriles-dali-2",
   "nombre": "Pantalla hospitalaria IP65 empotrable 635 x 635mm para ambientes estériles DALI 2",
   "categoria": "industrial",
+  "seccion": "Otros",
+  "gama": null,
   "familia": "SALAS BLANCAS",
   "refs": [
    "0PHIP6E45W3KD",
@@ -5598,8 +5745,9 @@
    }
   ],
   "imagenes": [
-   "images/productos/0PHIP6E45W3KD/01.jpg",
-   "images/productos/0PHIP6E45W3KD/02.jpg"
+   "images/productos/0PHIP6E45W3KD/luminaria.jpg",
+   "images/productos/0PHIP6E45W3KD/ambiente.jpg",
+   "images/productos/0PHIP6E45W3KD/medidas.jpg"
   ],
   "descargas": [
    {
@@ -5619,6 +5767,8 @@
   "id": "pantalla-hospitalaria-ip65-empotrable-635x635mm-para-ambientes-esteriles-on-off",
   "nombre": "Pantalla hospitalaria IP65 empotrable 635x635mm para ambientes estériles ON OFF",
   "categoria": "industrial",
+  "seccion": "Otros",
+  "gama": null,
   "familia": "SALAS BLANCAS",
   "refs": [
    "0PHIP6E45W30K",
@@ -5711,8 +5861,9 @@
    }
   ],
   "imagenes": [
-   "images/productos/0PHIP6E45W30K/01.jpg",
-   "images/productos/0PHIP6E45W30K/02.jpg"
+   "images/productos/0PHIP6E45W30K/luminaria.jpg",
+   "images/productos/0PHIP6E45W30K/ambiente.jpg",
+   "images/productos/0PHIP6E45W30K/medidas.jpg"
   ],
   "descargas": [
    {
@@ -5732,6 +5883,8 @@
   "id": "pantalla-hospitalaria-empotrable-600-x-600mm-ip65-dali",
   "nombre": "Pantalla hospitalaria empotrable 600 x 600mm IP65 DALI",
   "categoria": "industrial",
+  "seccion": "Otros",
+  "gama": null,
   "familia": "SALAS BLANCAS",
   "refs": [
    "0PHE45W4KIP6D"
@@ -5827,8 +5980,9 @@
    }
   ],
   "imagenes": [
-   "images/productos/0PHE45W4KIP6D/01.jpg",
-   "images/productos/0PHE45W4KIP6D/02.jpg"
+   "images/productos/0PHE45W4KIP6D/luminaria.jpg",
+   "images/productos/0PHE45W4KIP6D/ambiente.jpg",
+   "images/productos/0PHE45W4KIP6D/medidas.jpg"
   ],
   "descargas": [
    {
@@ -5843,6 +5997,8 @@
   "id": "pantalla-hospitalaria-empotrable-clean-regular-4x15w-635x635mm-ip65-dali",
   "nombre": "Pantalla hospitalaria empotrable Clean Regular 4x15W 635x635mm IP65 DALI",
   "categoria": "industrial",
+  "seccion": "Otros",
+  "gama": null,
   "familia": "SALAS BLANCAS",
   "refs": [
    "0PHE60W4KIP6D"
@@ -5934,8 +6090,9 @@
    }
   ],
   "imagenes": [
-   "images/productos/0PHE60W4KIP6D/01.jpg",
-   "images/productos/0PHE60W4KIP6D/02.jpg"
+   "images/productos/0PHE60W4KIP6D/luminaria.jpg",
+   "images/productos/0PHE60W4KIP6D/ambiente.jpg",
+   "images/productos/0PHE60W4KIP6D/medidas.jpg"
   ],
   "descargas": [
    {
@@ -5950,6 +6107,8 @@
   "id": "pantalla-hospitalaria-empotrable-ic-intelligent-colors-ip65-1160-x-335mm-dali",
   "nombre": "Pantalla hospitalaria empotrable IC(intelligent colors) IP65 1160 x 335mm DALI",
   "categoria": "industrial",
+  "seccion": "Otros",
+  "gama": null,
   "familia": "SALAS BLANCAS",
   "refs": [
    "0PHE36WICIP1D"
@@ -6045,8 +6204,9 @@
    }
   ],
   "imagenes": [
-   "images/productos/0PHE36WICIP1D/01.jpg",
-   "images/productos/0PHE36WICIP1D/02.jpg"
+   "images/productos/0PHE36WICIP1D/luminaria.jpg",
+   "images/productos/0PHE36WICIP1D/ambiente.jpg",
+   "images/productos/0PHE36WICIP1D/medidas.jpg"
   ],
   "descargas": [
    {
@@ -6061,6 +6221,8 @@
   "id": "pantalla-hospitalaria-empotrable-ip65-acceso-superior-dali2-600x600mm",
   "nombre": "Pantalla hospitalaría empotrable IP65 acceso superior DALI2 600x600mm",
   "categoria": "industrial",
+  "seccion": "Pantallas salas blancas",
+  "gama": null,
   "familia": "SALAS BLANCAS",
   "refs": [
    "0PHEIPAS41W40KD",
@@ -6153,9 +6315,9 @@
    }
   ],
   "imagenes": [
-   "images/productos/0PHEIPAS41W40KD/01.jpg",
-   "images/productos/0PHEIPAS41W40KD/02.jpg",
-   "images/productos/0PHEIPAS41W40KD/03.jpg"
+   "images/productos/0PHEIPAS41W40KD/luminaria.jpg",
+   "images/productos/0PHEIPAS41W40KD/ambiente.jpg",
+   "images/productos/0PHEIPAS41W40KD/medidas.jpg"
   ],
   "descargas": [
    {
@@ -6175,6 +6337,8 @@
   "id": "pantalla-hospitalaria-empotrable-ip65-acceso-superior-dali2-630x630mm",
   "nombre": "Pantalla hospitalaría empotrable IP65 acceso superior DALI2 630x630mm",
   "categoria": "industrial",
+  "seccion": "Pantallas salas blancas",
+  "gama": null,
   "familia": "SALAS BLANCAS",
   "refs": [
    "0PHEIPAS65W40KD",
@@ -6267,9 +6431,9 @@
    }
   ],
   "imagenes": [
-   "images/productos/0PHEIPAS65W40KD/01.jpg",
-   "images/productos/0PHEIPAS65W40KD/02.jpg",
-   "images/productos/0PHEIPAS65W40KD/03.jpg"
+   "images/productos/0PHEIPAS65W40KD/luminaria.jpg",
+   "images/productos/0PHEIPAS65W40KD/ambiente.jpg",
+   "images/productos/0PHEIPAS65W40KD/medidas.jpg"
   ],
   "descargas": [
    {
@@ -6289,6 +6453,8 @@
   "id": "ledwallcirc-30-40-ip45-aplique-para-montaje-en-pared-o-techo-con-emergencia-3h",
   "nombre": "LEDWALLCIRC 30-40 IP45 Aplique para montaje en pared o techo Con emergencia 3H",
   "categoria": "interior",
+  "seccion": "Adosados",
+  "gama": null,
   "familia": "ADOSADOS",
   "refs": [
    "00PLAF22CCTIP"
@@ -6380,8 +6546,9 @@
    }
   ],
   "imagenes": [
-   "images/productos/00PLAF22CCTIP/01.jpg",
-   "images/productos/00PLAF22CCTIP/02.jpg"
+   "images/productos/00PLAF22CCTIP/luminaria.jpg",
+   "images/productos/00PLAF22CCTIP/ambiente.jpg",
+   "images/productos/00PLAF22CCTIP/medidas.jpg"
   ],
   "descargas": [
    {
@@ -6396,6 +6563,8 @@
   "id": "ledwallcirc-30-40-ip65-aplique-para-montaje-en-pared-o-techo-on-off",
   "nombre": "LEDWALLCIRC 30-40 IP65 Aplique para montaje en pared o techo ON OFF",
   "categoria": "interior",
+  "seccion": "Adosados",
+  "gama": null,
   "familia": "ADOSADOS",
   "refs": [
    "APAPOT"
@@ -6486,7 +6655,11 @@
     "valor": ""
    }
   ],
-  "imagenes": [],
+  "imagenes": [
+   "images/productos/APAPOT/luminaria.jpg",
+   "images/productos/APAPOT/ambiente.jpg",
+   "images/productos/APAPOT/medidas.jpg"
+  ],
   "descargas": [
    {
     "ref": "APAPOT",
@@ -6500,6 +6673,8 @@
   "id": "ledwallcirc-30-40-ip65-aplique-para-montaje-en-pared-o-techo-con-deteccion-de-movimiento-y-luz-diurna",
   "nombre": "LEDWALLCIRC 30-40 IP65 Aplique para montaje en pared o techo con detección de movimiento y luz diurna",
   "categoria": "interior",
+  "seccion": "Adosados",
+  "gama": null,
   "familia": "ADOSADOS",
   "refs": [
    "APAPOT-DMLD"
@@ -6582,7 +6757,11 @@
     "valor": ""
    }
   ],
-  "imagenes": [],
+  "imagenes": [
+   "images/productos/APAPOT-DMLD/luminaria.jpg",
+   "images/productos/APAPOT-DMLD/ambiente.jpg",
+   "images/productos/APAPOT-DMLD/medidas.jpg"
+  ],
   "descargas": [
    {
     "ref": "APAPOT-DMLD",
@@ -6596,6 +6775,8 @@
   "id": "plafon-led-superficie-ip65",
   "nombre": "Plafón Led superficie IP65",
   "categoria": "interior",
+  "seccion": "Adosados",
+  "gama": null,
   "familia": "ADOSADOS",
   "refs": [
    "00PLAFIP6512W"
@@ -6687,9 +6868,9 @@
    }
   ],
   "imagenes": [
-   "images/productos/00PLAFIP6512W/01.jpg",
-   "images/productos/00PLAFIP6512W/02.jpg",
-   "images/productos/00PLAFIP6512W/03.jpg"
+   "images/productos/00PLAFIP6512W/luminaria.jpg",
+   "images/productos/00PLAFIP6512W/ambiente.jpg",
+   "images/productos/00PLAFIP6512W/medidas.jpg"
   ],
   "descargas": [
    {
@@ -6704,6 +6885,8 @@
   "id": "downlight-superficie-cuerpo-aluminio-ip65-negro",
   "nombre": "Downlight superficie cuerpo aluminio IP65 NEGRO",
   "categoria": "interior",
+  "seccion": "Adosados",
+  "gama": null,
   "familia": "DOWN.ADOSABLES",
   "refs": [
    "00DOWSUP303IP"
@@ -6787,8 +6970,9 @@
    }
   ],
   "imagenes": [
-   "images/productos/00DOWSUP303IP/01.jpg",
-   "images/productos/00DOWSUP303IP/02.jpg"
+   "images/productos/00DOWSUP303IP/luminaria.jpg",
+   "images/productos/00DOWSUP303IP/ambiente.jpg",
+   "images/productos/00DOWSUP303IP/medidas.jpg"
   ],
   "descargas": [
    {
@@ -6803,6 +6987,8 @@
   "id": "arca-ip65-dowlight-empotrar-circular-blanco",
   "nombre": "ARCA IP65 DOWLIGHT EMPOTRAR CIRCULAR BLANCO",
   "categoria": "interior",
+  "seccion": "Empotrados",
+  "gama": "ARCA",
   "familia": "DOWN.EMPOT.",
   "refs": [
    "00DOWN6WIP654"
@@ -6894,8 +7080,9 @@
    }
   ],
   "imagenes": [
-   "images/productos/00DOWN6WIP654/01.jpg",
-   "images/productos/00DOWN6WIP654/02.jpg"
+   "images/productos/00DOWN6WIP654/luminaria.jpg",
+   "images/productos/00DOWN6WIP654/ambiente.jpg",
+   "images/productos/00DOWN6WIP654/medidas.jpg"
   ],
   "descargas": [
    {
@@ -6910,6 +7097,8 @@
   "id": "downlight-led-empotrable-dia-ip44-blanco",
   "nombre": "Downlight LED empotrable DIA IP44 blanco",
   "categoria": "interior",
+  "seccion": "Empotrados",
+  "gama": "DIA",
   "familia": "DOWN.EMPOT.",
   "refs": [
    "00DOWDALI254K"
@@ -7001,9 +7190,9 @@
    }
   ],
   "imagenes": [
-   "images/productos/00DOWDALI254K/01.jpg",
-   "images/productos/00DOWDALI254K/02.jpg",
-   "images/productos/00DOWDALI254K/03.jpg"
+   "images/productos/00DOWDALI254K/luminaria.jpg",
+   "images/productos/00DOWDALI254K/ambiente.jpg",
+   "images/productos/00DOWDALI254K/medidas.jpg"
   ],
   "descargas": [
    {
@@ -7018,6 +7207,8 @@
   "id": "downlight-empotrable-circular-cob-led-ip44-blanco",
   "nombre": "Downlight empotrable circular Cob Led IP44 blanco",
   "categoria": "interior",
+  "seccion": "Empotrados",
+  "gama": null,
   "familia": "DOWN.EMPOT.",
   "refs": [
    "0DLROM10W3CCT",
@@ -7114,9 +7305,10 @@
    }
   ],
   "imagenes": [
-   "images/productos/0DLROM10W3CCT/01.jpg",
-   "images/productos/0DLROM10W3CCT/02.jpg",
-   "images/productos/0DLROM20W3CCT/02.jpg"
+   "images/productos/0DLROM10W3CCT/luminaria.jpg",
+   "images/productos/0DLROM10W3CCT/ambiente.jpg",
+   "images/productos/0DLROM10W3CCT/medidas.jpg",
+   "images/productos/0DLROM20W3CCT/medidas.jpg"
   ],
   "descargas": [
    {
@@ -7136,6 +7328,8 @@
   "id": "downlight-empotrable-recesado-min-ip65",
   "nombre": "Downlight empotrable recesado MIN IP65",
   "categoria": "interior",
+  "seccion": "Empotrados",
+  "gama": "MIN",
   "familia": "DOWN.EMPOT.",
   "refs": [
    "00DOMIN1OWB",
@@ -7228,10 +7422,10 @@
    }
   ],
   "imagenes": [
-   "images/productos/00DOMIN1OWB/01.jpg",
-   "images/productos/00DOMIN1OWB/02.jpg",
-   "images/productos/00DOMIN1OWB/03.jpg",
-   "images/productos/00DOMIN12WB/03.jpg"
+   "images/productos/00DOMIN1OWB/luminaria.jpg",
+   "images/productos/00DOMIN1OWB/ambiente.jpg",
+   "images/productos/00DOMIN1OWB/medidas.jpg",
+   "images/productos/00DOMIN12WB/medidas.jpg"
   ],
   "descargas": [
    {
@@ -7251,6 +7445,8 @@
   "id": "downlight-empotrado-fijo-nex",
   "nombre": "Downlight empotrado fijo NEX",
   "categoria": "interior",
+  "seccion": "Empotrados",
+  "gama": "NEX",
   "familia": "DOWN.EMPOT.",
   "refs": [
    "0DLNEX07W30BB",
@@ -7353,16 +7549,14 @@
    }
   ],
   "imagenes": [
-   "images/productos/0DLNEX07W30BB/01.jpg",
-   "images/productos/0DLNEX07W30BB/02.jpg",
-   "images/productos/0DLNEX07W30BB/03.jpg",
-   "images/productos/0DLNEX07W30BB/04.jpg",
-   "images/productos/0DLNEX07W30BB/05.jpg",
-   "images/productos/0DLNEX20W30BB/05.jpg",
-   "images/productos/0DLNEX25W40BB/01.jpg",
-   "images/productos/0DLNEX25W40BB/05.jpg",
-   "images/productos/0DLNEX25W30BN/01.jpg",
-   "images/productos/0DLNEX25W30BN/05.jpg"
+   "images/productos/0DLNEX07W30BB/luminaria.jpg",
+   "images/productos/0DLNEX07W30BB/ambiente.jpg",
+   "images/productos/0DLNEX07W30BB/medidas.jpg",
+   "images/productos/0DLNEX20W30BB/medidas.jpg",
+   "images/productos/0DLNEX25W40BB/ambiente.jpg",
+   "images/productos/0DLNEX25W40BB/medidas.jpg",
+   "images/productos/0DLNEX25W30BN/ambiente.jpg",
+   "images/productos/0DLNEX25W30BN/medidas.jpg"
   ],
   "descargas": [
    {
@@ -7447,6 +7641,8 @@
   "id": "downlight-empotrado-fijo-zen",
   "nombre": "Downlight empotrado fijo ZEN",
   "categoria": "interior",
+  "seccion": "Empotrados",
+  "gama": "ZEN",
   "familia": "DOWN.EMPOT.",
   "refs": [
    "00DLZEN07W27X",
@@ -7562,16 +7758,16 @@
    }
   ],
   "imagenes": [
-   "images/productos/00DLZEN07W27X/01.jpg",
-   "images/productos/00DLZEN07W27X/02.jpg",
-   "images/productos/00DLZEN07W27X/03.jpg",
-   "images/productos/00DLZEN12W27X/02.jpg",
-   "images/productos/00DLZEN12W27X/03.jpg",
-   "images/productos/00DLZEN20W27X/01.jpg",
-   "images/productos/00DLZEN20W27X/02.jpg",
-   "images/productos/00DLZEN20W27X/03.jpg",
-   "images/productos/00DLZEN25W27X/01.jpg",
-   "images/productos/00DLZEN25W27X/03.jpg"
+   "images/productos/00DLZEN07W27X/luminaria.jpg",
+   "images/productos/00DLZEN07W27X/ambiente.jpg",
+   "images/productos/00DLZEN07W27X/medidas.jpg",
+   "images/productos/00DLZEN12W27X/luminaria.jpg",
+   "images/productos/00DLZEN12W27X/medidas.jpg",
+   "images/productos/00DLZEN20W27X/luminaria.jpg",
+   "images/productos/00DLZEN20W27X/ambiente.jpg",
+   "images/productos/00DLZEN20W27X/medidas.jpg",
+   "images/productos/00DLZEN25W27X/ambiente.jpg",
+   "images/productos/00DLZEN25W27X/medidas.jpg"
   ],
   "descargas": [
    {
@@ -7686,6 +7882,8 @@
   "id": "downlight-empotrado-orientable-nix-led-m-negro",
   "nombre": "Downlight empotrado orientable NIX LED m negro",
   "categoria": "interior",
+  "seccion": "Empotrados",
+  "gama": "NIX",
   "familia": "DOWN.EMPOT.",
   "refs": [
    "00DO40W30N"
@@ -7777,10 +7975,9 @@
    }
   ],
   "imagenes": [
-   "images/productos/00DO40W30N/01.jpg",
-   "images/productos/00DO40W30N/02.jpg",
-   "images/productos/00DO40W30N/03.jpg",
-   "images/productos/00DO40W30N/04.jpg"
+   "images/productos/00DO40W30N/luminaria.jpg",
+   "images/productos/00DO40W30N/ambiente.jpg",
+   "images/productos/00DO40W30N/medidas.jpg"
   ],
   "descargas": [
    {
@@ -7795,6 +7992,8 @@
   "id": "downlight-trimless-bio-ugr-10-dali",
   "nombre": "Downlight trimless BIO UGR 10 DALI",
   "categoria": "interior",
+  "seccion": "Empotrados",
+  "gama": "BIO",
   "familia": "DOWN.EMPOT.",
   "refs": [
    "0DTBIO49W27KD"
@@ -7882,9 +8081,9 @@
    }
   ],
   "imagenes": [
-   "images/productos/0DTBIO49W27KD/01.jpg",
-   "images/productos/0DTBIO49W27KD/02.jpg",
-   "images/productos/0DTBIO49W27KD/03.jpg"
+   "images/productos/0DTBIO49W27KD/luminaria.jpg",
+   "images/productos/0DTBIO49W27KD/ambiente.jpg",
+   "images/productos/0DTBIO49W27KD/medidas.jpg"
   ],
   "descargas": [
    {
@@ -7899,6 +8098,8 @@
   "id": "downlight-trimless-bio-ugr-10-on-off",
   "nombre": "Downlight trimless BIO UGR 10 ON OFF",
   "categoria": "interior",
+  "seccion": "Empotrados",
+  "gama": "BIO",
   "familia": "DOWN.EMPOT.",
   "refs": [
    "00DTBIO49W27K"
@@ -7986,9 +8187,9 @@
    }
   ],
   "imagenes": [
-   "images/productos/00DTBIO49W27K/01.jpg",
-   "images/productos/00DTBIO49W27K/02.jpg",
-   "images/productos/00DTBIO49W27K/03.jpg"
+   "images/productos/00DTBIO49W27K/luminaria.jpg",
+   "images/productos/00DTBIO49W27K/ambiente.jpg",
+   "images/productos/00DTBIO49W27K/medidas.jpg"
   ],
   "descargas": [
    {
@@ -8003,6 +8204,8 @@
   "id": "foco-empotrado-mota-spot-gold-10w",
   "nombre": "Foco empotrado MOTA spot gold 10W",
   "categoria": "interior",
+  "seccion": "Empotrados",
+  "gama": "MOTA",
   "familia": "DOWN.EMPOT.",
   "refs": [
    "00MOTA10WGL3"
@@ -8094,9 +8297,9 @@
    }
   ],
   "imagenes": [
-   "images/productos/00MOTA10WGL3/01.jpg",
-   "images/productos/00MOTA10WGL3/02.jpg",
-   "images/productos/00MOTA10WGL3/03.jpg"
+   "images/productos/00MOTA10WGL3/luminaria.jpg",
+   "images/productos/00MOTA10WGL3/ambiente.jpg",
+   "images/productos/00MOTA10WGL3/medidas.jpg"
   ],
   "descargas": [
    {
@@ -8111,6 +8314,8 @@
   "id": "luminaria-tipo-cardan-simple-car-blanco",
   "nombre": "Luminaria tipo cardan simple CAR blanco",
   "categoria": "interior",
+  "seccion": "Empotrados",
+  "gama": "CAR",
   "familia": "DOWN.EMPOT.",
   "refs": [
    "00CARD20W3KBL"
@@ -8206,9 +8411,9 @@
    }
   ],
   "imagenes": [
-   "images/productos/00CARD20W3KBL/01.jpg",
-   "images/productos/00CARD20W3KBL/02.jpg",
-   "images/productos/00CARD20W3KBL/03.jpg"
+   "images/productos/00CARD20W3KBL/luminaria.jpg",
+   "images/productos/00CARD20W3KBL/ambiente.jpg",
+   "images/productos/00CARD20W3KBL/medidas.jpg"
   ],
   "descargas": [
    {
@@ -8223,10 +8428,11 @@
   "id": "luminaria-suspendida-venice-retro-gold",
   "nombre": "Luminaria suspendida VENICE RETRO GOLD",
   "categoria": "interior",
+  "seccion": "Línea retro gold",
+  "gama": "VENICE",
   "familia": "GOLDRETRO",
   "refs": [
-   "00VENIC8WGOL",
-   "00VENIC8WG30K"
+   "00VENIC8WGOL"
   ],
   "specs": [
    {
@@ -8315,8 +8521,9 @@
    }
   ],
   "imagenes": [
-   "images/productos/00VENIC8WGOL/01.jpg",
-   "images/productos/00VENIC8WGOL/02.jpg"
+   "images/productos/00VENIC8WGOL/luminaria.jpg",
+   "images/productos/00VENIC8WGOL/ambiente.jpg",
+   "images/productos/00VENIC8WGOL/medidas.jpg"
   ],
   "descargas": [
    {
@@ -8331,6 +8538,8 @@
   "id": "perfil-de-aluminio-a1-para-empotrar-17-x-13-5h-x-2000mm-difusor-opal-color-aluminio-ip20",
   "nombre": "Perfil de aluminio A1 para empotrar 17 X 13,5H X 2000mm difusor opal color aluminio IP20",
   "categoria": "interior",
+  "seccion": "Perfiles para tiras led",
+  "gama": null,
   "familia": "PEMP",
   "refs": [
    "00PEFA1E2020"
@@ -8374,8 +8583,8 @@
    }
   ],
   "imagenes": [
-   "images/productos/00PEFA1E2020/01.jpg",
-   "images/productos/00PEFA1E2020/02.jpg"
+   "images/productos/00PEFA1E2020/luminaria.jpg",
+   "images/productos/00PEFA1E2020/ambiente.jpg"
   ],
   "descargas": [
    {
@@ -8390,6 +8599,8 @@
   "id": "perfil-de-aluminio-a10-para-empotrar-30-x-9h-x-2000mm-difusor-opal-color-aluminio-ip20",
   "nombre": "Perfil de aluminio A10 para empotrar 30 X 9H X 2000mm difusor opal color aluminio IP20",
   "categoria": "interior",
+  "seccion": "Perfiles para tiras led",
+  "gama": null,
   "familia": "PEMP",
   "refs": [
    "00PEFA10E2020"
@@ -8433,8 +8644,8 @@
    }
   ],
   "imagenes": [
-   "images/productos/00PEFA10E2020/01.jpg",
-   "images/productos/00PEFA10E2020/02.jpg"
+   "images/productos/00PEFA10E2020/luminaria.jpg",
+   "images/productos/00PEFA10E2020/ambiente.jpg"
   ],
   "descargas": [
    {
@@ -8449,6 +8660,8 @@
   "id": "perfil-de-aluminio-a11-para-empotrar-30-x-11h-x-2000mm-difusor-opal-color-aluminio-ip20",
   "nombre": "Perfil de aluminio A11 para empotrar 30 X 11H X 2000mm difusor opal color aluminio IP20",
   "categoria": "interior",
+  "seccion": "Perfiles para tiras led",
+  "gama": null,
   "familia": "PEMP",
   "refs": [
    "00PEFA11E2020"
@@ -8492,10 +8705,8 @@
    }
   ],
   "imagenes": [
-   "images/productos/00PEFA11E2020/01.jpg",
-   "images/productos/00PEFA11E2020/02.jpg",
-   "images/productos/00PEFA11E2020/03.jpg",
-   "images/productos/00PEFA11E2020/04.jpg"
+   "images/productos/00PEFA11E2020/luminaria.jpg",
+   "images/productos/00PEFA11E2020/ambiente.jpg"
   ],
   "descargas": [
    {
@@ -8510,6 +8721,8 @@
   "id": "perfil-de-aluminio-a12-para-empotrar-30-x-21h-x-2000mm-difusor-opal-color-aluminio-ip20",
   "nombre": "Perfil de aluminio A12 para empotrar 30 X 21H X 2000mm difusor opal color aluminio IP20",
   "categoria": "interior",
+  "seccion": "Perfiles para tiras led",
+  "gama": null,
   "familia": "PEMP",
   "refs": [
    "00PEFA12E2020"
@@ -8553,8 +8766,8 @@
    }
   ],
   "imagenes": [
-   "images/productos/00PEFA12E2020/01.jpg",
-   "images/productos/00PEFA12E2020/02.jpg"
+   "images/productos/00PEFA12E2020/luminaria.jpg",
+   "images/productos/00PEFA12E2020/ambiente.jpg"
   ],
   "descargas": [
    {
@@ -8569,6 +8782,8 @@
   "id": "perfil-de-aluminio-a13-para-empotrar-41-x-10-5h-x-2000mm-difusor-opal-color-aluminio-ip20",
   "nombre": "Perfil de aluminio A13 para empotrar 41 X 10,5H X 2000mm difusor opal color aluminio IP20",
   "categoria": "interior",
+  "seccion": "Perfiles para tiras led",
+  "gama": null,
   "familia": "PEMP",
   "refs": [
    "00PEFA13E2020"
@@ -8612,8 +8827,8 @@
    }
   ],
   "imagenes": [
-   "images/productos/00PEFA13E2020/01.jpg",
-   "images/productos/00PEFA13E2020/02.jpg"
+   "images/productos/00PEFA13E2020/luminaria.jpg",
+   "images/productos/00PEFA13E2020/ambiente.jpg"
   ],
   "descargas": [
    {
@@ -8628,6 +8843,8 @@
   "id": "perfil-de-aluminio-a14-para-empotrar-43-x-19h-x-2000mm-difusor-opal-color-aluminio-ip20",
   "nombre": "Perfil de aluminio A14 para empotrar 43 X 19H X 2000mm difusor opal color aluminio IP20",
   "categoria": "interior",
+  "seccion": "Perfiles para tiras led",
+  "gama": null,
   "familia": "PEMP",
   "refs": [
    "00PEFA14E2020"
@@ -8671,8 +8888,8 @@
    }
   ],
   "imagenes": [
-   "images/productos/00PEFA14E2020/01.jpg",
-   "images/productos/00PEFA14E2020/02.jpg"
+   "images/productos/00PEFA14E2020/luminaria.jpg",
+   "images/productos/00PEFA14E2020/ambiente.jpg"
   ],
   "descargas": [
    {
@@ -8687,6 +8904,8 @@
   "id": "perfil-de-aluminio-a15-para-empotrar-50-x-35h-x-2000mm-difusor-opal-color-aluminio-ip20",
   "nombre": "Perfil de aluminio A15 para empotrar 50 X 35H X 2000mm difusor opal color aluminio IP20",
   "categoria": "interior",
+  "seccion": "Perfiles para tiras led",
+  "gama": null,
   "familia": "PEMP",
   "refs": [
    "00PEFA15E2020"
@@ -8734,8 +8953,8 @@
    }
   ],
   "imagenes": [
-   "images/productos/00PEFA15E2020/01.jpg",
-   "images/productos/00PEFA15E2020/02.jpg"
+   "images/productos/00PEFA15E2020/luminaria.jpg",
+   "images/productos/00PEFA15E2020/ambiente.jpg"
   ],
   "descargas": [
    {
@@ -8750,6 +8969,8 @@
   "id": "perfil-de-aluminio-a16-para-empotrar-62-x-31h-x-2000mm-difusor-opal-color-aluminio-ip20",
   "nombre": "Perfil de aluminio A16 para empotrar 62 X 31H X 2000mm difusor opal color aluminio IP20",
   "categoria": "interior",
+  "seccion": "Perfiles para tiras led",
+  "gama": null,
   "familia": "PEMP",
   "refs": [
    "00PEFA16E2020"
@@ -8785,8 +9006,8 @@
    }
   ],
   "imagenes": [
-   "images/productos/00PEFA16E2020/01.jpg",
-   "images/productos/00PEFA16E2020/02.jpg"
+   "images/productos/00PEFA16E2020/luminaria.jpg",
+   "images/productos/00PEFA16E2020/ambiente.jpg"
   ],
   "descargas": [
    {
@@ -8801,6 +9022,8 @@
   "id": "perfil-de-aluminio-a2-para-empotrar-17-5-x-10h-x-2000mm-difusor-opal-color-aluminio-ip20",
   "nombre": "Perfil de aluminio A2 para empotrar 17,5 X 10H X 2000mm difusor opal color aluminio IP20",
   "categoria": "interior",
+  "seccion": "Perfiles para tiras led",
+  "gama": null,
   "familia": "PEMP",
   "refs": [
    "00PEFA2E2020"
@@ -8844,8 +9067,8 @@
    }
   ],
   "imagenes": [
-   "images/productos/00PEFA2E2020/01.jpg",
-   "images/productos/00PEFA2E2020/02.jpg"
+   "images/productos/00PEFA2E2020/luminaria.jpg",
+   "images/productos/00PEFA2E2020/ambiente.jpg"
   ],
   "descargas": [
    {
@@ -8860,6 +9083,8 @@
   "id": "perfil-de-aluminio-a3-para-empotrar-22-x-14-5h-x-2000mm-difusor-opal-color-aluminio-ip20",
   "nombre": "Perfil de aluminio A3 para empotrar 22 X 14,5H X 2000mm difusor opal color aluminio IP20",
   "categoria": "interior",
+  "seccion": "Perfiles para tiras led",
+  "gama": null,
   "familia": "PEMP",
   "refs": [
    "00PEFA3E2020"
@@ -8903,8 +9128,8 @@
    }
   ],
   "imagenes": [
-   "images/productos/00PEFA3E2020/01.jpg",
-   "images/productos/00PEFA3E2020/02.jpg"
+   "images/productos/00PEFA3E2020/luminaria.jpg",
+   "images/productos/00PEFA3E2020/ambiente.jpg"
   ],
   "descargas": [
    {
@@ -8919,6 +9144,8 @@
   "id": "perfil-de-aluminio-a4-para-empotrar-24-x-14-5h-x-2000mm-difusor-opal-color-aluminio-ip20",
   "nombre": "Perfil de aluminio A4 para empotrar 24 X 14,5H X 2000mm difusor opal color aluminio IP20",
   "categoria": "interior",
+  "seccion": "Perfiles para tiras led",
+  "gama": null,
   "familia": "PEMP",
   "refs": [
    "00PEFA4E2020"
@@ -8966,10 +9193,8 @@
    }
   ],
   "imagenes": [
-   "images/productos/00PEFA4E2020/01.jpg",
-   "images/productos/00PEFA4E2020/02.jpg",
-   "images/productos/00PEFA4E2020/03.jpg",
-   "images/productos/00PEFA4E2020/04.jpg"
+   "images/productos/00PEFA4E2020/luminaria.jpg",
+   "images/productos/00PEFA4E2020/ambiente.jpg"
   ],
   "descargas": [
    {
@@ -8984,6 +9209,8 @@
   "id": "perfil-de-aluminio-a4-para-empotrar-24-x-14-5h-x-2000mm-difusor-opal-color-blanco-ip20",
   "nombre": "Perfil de aluminio A4 para empotrar 24 X 14,5H X 2000mm difusor opal color blanco IP20",
   "categoria": "interior",
+  "seccion": "Perfiles para tiras led",
+  "gama": null,
   "familia": "PEMP",
   "refs": [
    "00PEFA4E2020B"
@@ -9031,10 +9258,8 @@
    }
   ],
   "imagenes": [
-   "images/productos/00PEFA4E2020B/01.jpg",
-   "images/productos/00PEFA4E2020B/02.jpg",
-   "images/productos/00PEFA4E2020B/03.jpg",
-   "images/productos/00PEFA4E2020B/04.jpg"
+   "images/productos/00PEFA4E2020B/luminaria.jpg",
+   "images/productos/00PEFA4E2020B/ambiente.jpg"
   ],
   "descargas": [
    {
@@ -9049,6 +9274,8 @@
   "id": "perfil-de-aluminio-a4-para-empotrar-24-x-14-5h-x-2000mm-difusor-opal-color-negro-ip20",
   "nombre": "Perfil de aluminio A4 para empotrar 24 X 14,5H X 2000mm difusor opal color negro IP20",
   "categoria": "interior",
+  "seccion": "Perfiles para tiras led",
+  "gama": null,
   "familia": "PEMP",
   "refs": [
    "00PEFA4E2020N"
@@ -9096,10 +9323,8 @@
    }
   ],
   "imagenes": [
-   "images/productos/00PEFA4E2020N/01.jpg",
-   "images/productos/00PEFA4E2020N/02.jpg",
-   "images/productos/00PEFA4E2020N/03.jpg",
-   "images/productos/00PEFA4E2020N/04.jpg"
+   "images/productos/00PEFA4E2020N/luminaria.jpg",
+   "images/productos/00PEFA4E2020N/ambiente.jpg"
   ],
   "descargas": [
    {
@@ -9114,6 +9339,8 @@
   "id": "perfil-de-aluminio-a5-para-empotrar-4-7-x-7h-x-2000mm-difusor-opal-color-aluminio-ip20",
   "nombre": "Perfil de aluminio A5 para empotrar 4,7 X 7H X 2000mm difusor opal color aluminio IP20",
   "categoria": "interior",
+  "seccion": "Perfiles para tiras led",
+  "gama": null,
   "familia": "PEMP",
   "refs": [
    "00PEFA5E2020"
@@ -9157,10 +9384,8 @@
    }
   ],
   "imagenes": [
-   "images/productos/00PEFA5E2020/01.jpg",
-   "images/productos/00PEFA5E2020/02.jpg",
-   "images/productos/00PEFA5E2020/03.jpg",
-   "images/productos/00PEFA5E2020/04.jpg"
+   "images/productos/00PEFA5E2020/luminaria.jpg",
+   "images/productos/00PEFA5E2020/ambiente.jpg"
   ],
   "descargas": [
    {
@@ -9175,6 +9400,8 @@
   "id": "perfil-de-aluminio-a5-para-empotrar-4-7-x-7h-x-2000mm-difusor-opal-color-blanco-ip20",
   "nombre": "Perfil de aluminio A5 para empotrar 4,7 X 7H X 2000mm difusor opal color blanco IP20",
   "categoria": "interior",
+  "seccion": "Perfiles para tiras led",
+  "gama": null,
   "familia": "PEMP",
   "refs": [
    "00PEFA5E2020B"
@@ -9218,10 +9445,8 @@
    }
   ],
   "imagenes": [
-   "images/productos/00PEFA5E2020B/01.jpg",
-   "images/productos/00PEFA5E2020B/02.jpg",
-   "images/productos/00PEFA5E2020B/03.jpg",
-   "images/productos/00PEFA5E2020B/04.jpg"
+   "images/productos/00PEFA5E2020B/luminaria.jpg",
+   "images/productos/00PEFA5E2020B/ambiente.jpg"
   ],
   "descargas": [
    {
@@ -9236,6 +9461,8 @@
   "id": "perfil-de-aluminio-a5-para-empotrar-4-7-x-7h-x-2000mm-difusor-opal-color-negro-ip20",
   "nombre": "Perfil de aluminio A5 para empotrar 4,7 X 7H X 2000mm difusor opal color negro IP20",
   "categoria": "interior",
+  "seccion": "Perfiles para tiras led",
+  "gama": null,
   "familia": "PEMP",
   "refs": [
    "00PEFA5E2020N"
@@ -9279,10 +9506,8 @@
    }
   ],
   "imagenes": [
-   "images/productos/00PEFA5E2020N/01.jpg",
-   "images/productos/00PEFA5E2020N/02.jpg",
-   "images/productos/00PEFA5E2020N/03.jpg",
-   "images/productos/00PEFA5E2020N/04.jpg"
+   "images/productos/00PEFA5E2020N/luminaria.jpg",
+   "images/productos/00PEFA5E2020N/ambiente.jpg"
   ],
   "descargas": [
    {
@@ -9297,6 +9522,8 @@
   "id": "perfil-de-aluminio-a6-para-empotrar-25-x-19h-x-2000mm-difusor-opal-color-aluminio-ip20",
   "nombre": "Perfil de aluminio A6 para empotrar 25 X 19H X 2000mm difusor opal color aluminio IP20",
   "categoria": "interior",
+  "seccion": "Perfiles para tiras led",
+  "gama": null,
   "familia": "PEMP",
   "refs": [
    "00PEFA6E2020"
@@ -9340,8 +9567,8 @@
    }
   ],
   "imagenes": [
-   "images/productos/00PEFA6E2020/01.jpg",
-   "images/productos/00PEFA6E2020/02.jpg"
+   "images/productos/00PEFA6E2020/luminaria.jpg",
+   "images/productos/00PEFA6E2020/ambiente.jpg"
   ],
   "descargas": [
    {
@@ -9356,6 +9583,8 @@
   "id": "perfil-de-aluminio-a7-para-empotrar-27-x-15h-x-2000mm-difusor-opal-color-aluminio-ip20",
   "nombre": "Perfil de aluminio A7 para empotrar 27 X 15H X 2000mm difusor opal color aluminio IP20",
   "categoria": "interior",
+  "seccion": "Perfiles para tiras led",
+  "gama": null,
   "familia": "PEMP",
   "refs": [
    "00PEFA7E2020"
@@ -9399,8 +9628,8 @@
    }
   ],
   "imagenes": [
-   "images/productos/00PEFA7E2020/01.jpg",
-   "images/productos/00PEFA7E2020/02.jpg"
+   "images/productos/00PEFA7E2020/luminaria.jpg",
+   "images/productos/00PEFA7E2020/ambiente.jpg"
   ],
   "descargas": [
    {
@@ -9415,6 +9644,8 @@
   "id": "perfil-de-aluminio-a8-para-empotrar-28-x-10h-x-2000mm-difusor-opal-color-aluminio-ip20",
   "nombre": "Perfil de aluminio A8 para empotrar 28 X 10H X 2000mm difusor opal color aluminio IP20",
   "categoria": "interior",
+  "seccion": "Perfiles para tiras led",
+  "gama": null,
   "familia": "PEMP",
   "refs": [
    "00PEFA8E2020"
@@ -9458,8 +9689,8 @@
    }
   ],
   "imagenes": [
-   "images/productos/00PEFA8E2020/01.jpg",
-   "images/productos/00PEFA8E2020/02.jpg"
+   "images/productos/00PEFA8E2020/luminaria.jpg",
+   "images/productos/00PEFA8E2020/ambiente.jpg"
   ],
   "descargas": [
    {
@@ -9474,6 +9705,8 @@
   "id": "perfil-de-aluminio-a9-para-empotrar-28-x-20h-x-2000mm-difusor-opal-color-aluminio-ip20",
   "nombre": "Perfil de aluminio A9 para empotrar 28 X 20H X 2000mm difusor opal color aluminio IP20",
   "categoria": "interior",
+  "seccion": "Perfiles para tiras led",
+  "gama": null,
   "familia": "PEMP",
   "refs": [
    "00PEFA9E2020"
@@ -9517,8 +9750,8 @@
    }
   ],
   "imagenes": [
-   "images/productos/00PEFA9E2020/01.jpg",
-   "images/productos/00PEFA9E2020/02.jpg"
+   "images/productos/00PEFA9E2020/luminaria.jpg",
+   "images/productos/00PEFA9E2020/ambiente.jpg"
   ],
   "descargas": [
    {
@@ -9533,6 +9766,8 @@
   "id": "perfil-flexible-de-acero-inoxidable-15-x-13h-mm-x-20mt",
   "nombre": "Perfil flexible de Acero Inoxidable 15 X 13H mm X 20mt",
   "categoria": "interior",
+  "seccion": "Perfiles para tiras led",
+  "gama": null,
   "familia": "PEMP",
   "refs": [
    "00PERFLEXACER"
@@ -9568,8 +9803,8 @@
    }
   ],
   "imagenes": [
-   "images/productos/00PERFLEXACER/01.jpg",
-   "images/productos/00PERFLEXACER/02.jpg"
+   "images/productos/00PERFLEXACER/luminaria.jpg",
+   "images/productos/00PERFLEXACER/ambiente.jpg"
   ],
   "descargas": [
    {
@@ -9584,6 +9819,8 @@
   "id": "proyector-cap-led-negro",
   "nombre": "Proyector CAP LED negro",
   "categoria": "interior",
+  "seccion": "Otros",
+  "gama": "CAP",
   "familia": "PROYECTORES",
   "refs": [
    "00PROCA20W40N"
@@ -9675,9 +9912,9 @@
    }
   ],
   "imagenes": [
-   "images/productos/00PROCA20W40N/01.jpg",
-   "images/productos/00PROCA20W40N/02.jpg",
-   "images/productos/00PROCA20W40N/03.jpg"
+   "images/productos/00PROCA20W40N/luminaria.jpg",
+   "images/productos/00PROCA20W40N/ambiente.jpg",
+   "images/productos/00PROCA20W40N/medidas.jpg"
   ],
   "descargas": [
    {
@@ -9692,6 +9929,8 @@
   "id": "perfil-de-aluminio-b12-de-superficie-23-5-x-22h-x-2000mm-difusor-opal-color-aluminio-ip20",
   "nombre": "Perfil de aluminio B12 de superficie 23,5 X 22H X 2000mm difusor opal color aluminio IP20",
   "categoria": "interior",
+  "seccion": "Perfiles para tiras led",
+  "gama": null,
   "familia": "PSUP.",
   "refs": [
    "00PEFB12S2020"
@@ -9735,8 +9974,8 @@
    }
   ],
   "imagenes": [
-   "images/productos/00PEFB12S2020/01.jpg",
-   "images/productos/00PEFB12S2020/02.jpg"
+   "images/productos/00PEFB12S2020/luminaria.jpg",
+   "images/productos/00PEFB12S2020/ambiente.jpg"
   ],
   "descargas": [
    {
@@ -9751,6 +9990,8 @@
   "id": "perfil-de-aluminio-b13-de-superficie-30-x-11h-x-2000mm-difusor-opal-color-aluminio-ip20",
   "nombre": "Perfil de aluminio B13 de superficie 30 X 11H X 2000mm difusor opal color aluminio IP20",
   "categoria": "interior",
+  "seccion": "Perfiles para tiras led",
+  "gama": null,
   "familia": "PSUP.",
   "refs": [
    "00PEFB13S2020"
@@ -9794,8 +10035,8 @@
    }
   ],
   "imagenes": [
-   "images/productos/00PEFB13S2020/01.jpg",
-   "images/productos/00PEFB13S2020/02.jpg"
+   "images/productos/00PEFB13S2020/luminaria.jpg",
+   "images/productos/00PEFB13S2020/ambiente.jpg"
   ],
   "descargas": [
    {
@@ -9810,6 +10051,8 @@
   "id": "tira-de-led-flexible-24v-a-monocolor-x-mt-smd2835-ip65",
   "nombre": "Tira de Led flexible 24V A monocolor x mt SMD2835 IP65",
   "categoria": "interior",
+  "seccion": "Tiras led",
+  "gama": null,
   "familia": "TIRAS LED",
   "refs": [
    "00TLIPS9WXXX"
@@ -9901,8 +10144,9 @@
    }
   ],
   "imagenes": [
-   "images/productos/00TLIPS9WXXX/01.jpg",
-   "images/productos/00TLIPS9WXXX/02.jpg"
+   "images/productos/00TLIPS9WXXX/luminaria.jpg",
+   "images/productos/00TLIPS9WXXX/ambiente.jpg",
+   "images/productos/00TLIPS9WXXX/medidas.jpg"
   ],
   "descargas": [
    {
@@ -9917,6 +10161,8 @@
   "id": "tira-de-led-flexible-24v-c-monocolor-x-mt-smd2835-ip65",
   "nombre": "Tira de Led flexible 24V C monocolor x mt SMD2835 IP65",
   "categoria": "interior",
+  "seccion": "Tiras led",
+  "gama": null,
   "familia": "TIRAS LED",
   "refs": [
    "00TLIPS18WXXX"
@@ -10008,8 +10254,9 @@
    }
   ],
   "imagenes": [
-   "images/productos/00TLIPS18WXXX/01.jpg",
-   "images/productos/00TLIPS18WXXX/02.jpg"
+   "images/productos/00TLIPS18WXXX/luminaria.jpg",
+   "images/productos/00TLIPS18WXXX/ambiente.jpg",
+   "images/productos/00TLIPS18WXXX/medidas.jpg"
   ],
   "descargas": [
    {
@@ -10024,27 +10271,28 @@
   "id": "tira-de-led-flexible-24v-a-monocolor-x-mt-smd2835-ip20",
   "nombre": "Tira de Led flexible 24v A monocolor x mt SMD2835 IP20",
   "categoria": "interior",
+  "seccion": "Tiras led",
+  "gama": null,
   "familia": "TIRAS LED",
   "refs": [
-   "00TLEDS9WXXX",
-   "00TLEDS12WXXX"
+   "00TLEDS9WXXX"
   ],
   "specs": [
    {
     "etiqueta": "Potencia W/mt.",
-    "valor": "9W/mt. | 12W/mt."
+    "valor": "9W/mt."
    },
    {
     "etiqueta": "Lúmenes reales: Rollo 5mt.",
-    "valor": "1140 | 4000lm"
+    "valor": "4000lm"
    },
    {
     "etiqueta": "Lúmenes x metro (lm/mt)",
-    "valor": "95 | 800lm"
+    "valor": "800lm"
    },
    {
     "etiqueta": "Temperatura de color",
-    "valor": "2200K-2700K-3000K-4000K- 6000K | 3000K-4000K-6000K"
+    "valor": "3000K-4000K-6000K"
    },
    {
     "etiqueta": "Ángulo Ópticas / Reflector",
@@ -10096,7 +10344,117 @@
    },
    {
     "etiqueta": "Protocolo de regulación",
-    "valor": "Regulable (controlador no incluido) | ON-OFF"
+    "valor": "Regulable (controlador no incluido)"
+   },
+   {
+    "etiqueta": "Regulación opcional",
+    "valor": ""
+   },
+   {
+    "etiqueta": "Colores Opcionales",
+    "valor": ""
+   },
+   {
+    "etiqueta": "Garantía",
+    "valor": "3 años"
+   },
+   {
+    "etiqueta": "- No se aconseja montar más de 10 metros alimentados de manera continua para evitar su mal funcionamiento y caídas de tensión.",
+    "valor": ""
+   }
+  ],
+  "imagenes": [
+   "images/productos/00TLEDS9WXXX/luminaria.jpg",
+   "images/productos/00TLEDS9WXXX/ambiente.jpg",
+   "images/productos/00TLEDS9WXXX/medidas.jpg"
+  ],
+  "descargas": [
+   {
+    "ref": "00TLEDS9WXXX",
+    "titulo": "9W",
+    "pdf": "2 INTERIORES/TIRAS Y PERFILES LED/TIRAS LED/00TLEDS9WXXX-.pdf"
+   }
+  ],
+  "generada": true
+ },
+ {
+  "id": "tira-de-led-flexible-24v-a-monocolor-x-mt-smd2835-ip20",
+  "nombre": "Tira de Led flexible 24v A monocolor x mt SMD2835 IP20",
+  "categoria": "interior",
+  "seccion": "Otros",
+  "gama": null,
+  "familia": "TIRAS LED",
+  "refs": [
+   "00TLEDS12WXXX"
+  ],
+  "specs": [
+   {
+    "etiqueta": "Potencia W/mt.",
+    "valor": "12W/mt."
+   },
+   {
+    "etiqueta": "Lúmenes reales: Rollo 5mt.",
+    "valor": "1140"
+   },
+   {
+    "etiqueta": "Lúmenes x metro (lm/mt)",
+    "valor": "95"
+   },
+   {
+    "etiqueta": "Temperatura de color",
+    "valor": "2200K-2700K-3000K-4000K- 6000K"
+   },
+   {
+    "etiqueta": "Ángulo Ópticas / Reflector",
+    "valor": "120º"
+   },
+   {
+    "etiqueta": "CRI",
+    "valor": "90"
+   },
+   {
+    "etiqueta": "IP",
+    "valor": "20"
+   },
+   {
+    "etiqueta": "IK",
+    "valor": "02"
+   },
+   {
+    "etiqueta": "UGR",
+    "valor": "<=22"
+   },
+   {
+    "etiqueta": "Material de la estructura",
+    "valor": "FPC (cobre y resina)"
+   },
+   {
+    "etiqueta": "Acabado estructura",
+    "valor": ""
+   },
+   {
+    "etiqueta": "Material del recubrimiento",
+    "valor": "Silicona"
+   },
+   {
+    "etiqueta": "Acabado del recubrimiento",
+    "valor": "Transparente"
+   },
+   {
+    "etiqueta": "Driver",
+    "valor": "DC 24V - No incluido"
+   },
+   {
+    "etiqueta": "Clase de aislamiento",
+    "valor": "III"
+   },
+   {
+    "etiqueta": "Voltaje / Frecuencia",
+    "valor": "DC 24 v - 50/60Hz"
+   },
+   {
+    "etiqueta": "Protocolo de regulación",
+    "valor": "ON-OFF"
    },
    {
     "etiqueta": "Regulación opcional:Triac,Dali,bluetooth,Zigbee",
@@ -10116,17 +10474,11 @@
    }
   ],
   "imagenes": [
-   "images/productos/00TLEDS9WXXX/01.jpg",
-   "images/productos/00TLEDS9WXXX/02.jpg",
-   "images/productos/00TLEDS12WXXX/01.jpg",
-   "images/productos/00TLEDS12WXXX/02.jpg"
+   "images/productos/00TLEDS12WXXX/luminaria.jpg",
+   "images/productos/00TLEDS12WXXX/ambiente.jpg",
+   "images/productos/00TLEDS12WXXX/medidas.jpg"
   ],
   "descargas": [
-   {
-    "ref": "00TLEDS9WXXX",
-    "titulo": "9W",
-    "pdf": "2 INTERIORES/TIRAS Y PERFILES LED/TIRAS LED/00TLEDS9WXXX-.pdf"
-   },
    {
     "ref": "00TLEDS12WXXX",
     "titulo": "12W",
@@ -10139,6 +10491,8 @@
   "id": "tira-de-led-flexible-24v-a-monocolor-x-mt-smd2835-ip65",
   "nombre": "Tira de Led flexible 24v A monocolor x mt SMD2835 IP65",
   "categoria": "interior",
+  "seccion": "Tiras led",
+  "gama": null,
   "familia": "TIRAS LED",
   "refs": [
    "00TLIPS12WXXX"
@@ -10230,8 +10584,9 @@
    }
   ],
   "imagenes": [
-   "images/productos/00TLIPS12WXXX/01.jpg",
-   "images/productos/00TLIPS12WXXX/02.jpg"
+   "images/productos/00TLIPS12WXXX/luminaria.jpg",
+   "images/productos/00TLIPS12WXXX/ambiente.jpg",
+   "images/productos/00TLIPS12WXXX/medidas.jpg"
   ],
   "descargas": [
    {
@@ -10246,6 +10601,8 @@
   "id": "tira-flexible-tip-cob-led-24v-monocolor-x-mt-ip20",
   "nombre": "Tira flexible TIP COB LED 24V monocolor x mt IP20",
   "categoria": "interior",
+  "seccion": "Tiras led",
+  "gama": "TIP",
   "familia": "TIRAS LED",
   "refs": [
    "00TLEDC12WXXX"
@@ -10337,9 +10694,9 @@
    }
   ],
   "imagenes": [
-   "images/productos/00TLEDC12WXXX/01.jpg",
-   "images/productos/00TLEDC12WXXX/02.jpg",
-   "images/productos/00TLEDC12WXXX/03.jpg"
+   "images/productos/00TLEDC12WXXX/luminaria.jpg",
+   "images/productos/00TLEDC12WXXX/ambiente.jpg",
+   "images/productos/00TLEDC12WXXX/medidas.jpg"
   ],
   "descargas": [
    {
@@ -10354,6 +10711,8 @@
   "id": "tira-flexible-tip-cob-led-corte-libre-24v-monocolor-x-mt-ip20",
   "nombre": "Tira flexible TIP COB LED corte libre 24V monocolor x mt IP20",
   "categoria": "interior",
+  "seccion": "Tiras led",
+  "gama": "TIP",
   "familia": "TIRAS LED",
   "refs": [
    "00TLEDC13WXXX"
@@ -10445,9 +10804,9 @@
    }
   ],
   "imagenes": [
-   "images/productos/00TLEDC13WXXX/01.jpg",
-   "images/productos/00TLEDC13WXXX/02.jpg",
-   "images/productos/00TLEDC13WXXX/03.jpg"
+   "images/productos/00TLEDC13WXXX/luminaria.jpg",
+   "images/productos/00TLEDC13WXXX/ambiente.jpg",
+   "images/productos/00TLEDC13WXXX/medidas.jpg"
   ],
   "descargas": [
    {
@@ -10462,6 +10821,8 @@
   "id": "tira-flexible-tip-cob-led-corte-libre-24v-monocolor-x-mt-ip65",
   "nombre": "Tira flexible TIP COB LED corte libre 24V monocolor x mt IP65",
   "categoria": "interior",
+  "seccion": "Tiras led",
+  "gama": "TIP",
   "familia": "TIRAS LED",
   "refs": [
    "00TLIPC13WXXX"
@@ -10553,9 +10914,9 @@
    }
   ],
   "imagenes": [
-   "images/productos/00TLIPC13WXXX/01.jpg",
-   "images/productos/00TLIPC13WXXX/02.jpg",
-   "images/productos/00TLIPC13WXXX/03.jpg"
+   "images/productos/00TLIPC13WXXX/luminaria.jpg",
+   "images/productos/00TLIPC13WXXX/ambiente.jpg",
+   "images/productos/00TLIPC13WXXX/medidas.jpg"
   ],
   "descargas": [
    {
@@ -10590,8 +10951,9 @@
    }
   ],
   "imagenes": [
-   "images/productos/0080132000/01.jpg",
-   "images/productos/0080132000/02.jpg"
+   "images/productos/0080132000/luminaria.jpg",
+   "images/productos/0080132000/ambiente.jpg",
+   "images/productos/0080132000/medidas.jpg"
   ],
   "descargas": [
    {
@@ -10605,7 +10967,9 @@
     "pdf": "4 EMERGENCIA/0080140000.pdf"
    }
   ],
-  "generada": false
+  "generada": false,
+  "seccion": "LEÓN S",
+  "gama": null
  },
  {
   "id": "lince-s-lince-s-ip65-superficie-autotest",
@@ -10631,9 +10995,11 @@
    }
   ],
   "imagenes": [
-   "images/productos/0080223000/01.jpg",
-   "images/productos/0080235000/01.jpg",
-   "images/productos/0080235000/02.jpg"
+   "images/productos/0080223000/luminaria.jpg",
+   "images/productos/0080223000/ambiente.jpg",
+   "images/productos/0080223000/medidas.jpg",
+   "images/productos/0080235000/luminaria.jpg",
+   "images/productos/0080235000/medidas.jpg"
   ],
   "descargas": [
    {
@@ -10647,7 +11013,9 @@
     "pdf": "4 EMERGENCIA/0080235000.pdf"
    }
   ],
-  "generada": false
+  "generada": false,
+  "seccion": "LINCE S",
+  "gama": null
  },
  {
   "id": "exit-s-exit-s-superficie-1h-ip65-no-permanente-difusor-opal",
@@ -10680,11 +11048,12 @@
    }
   ],
   "imagenes": [
-   "images/productos/00EMEEXITS150/01.jpg",
-   "images/productos/00EMEEXITS150/02.jpg",
-   "images/productos/00EMEEXITS150/03.jpg",
-   "images/productos/00EMEEXITS250/01.jpg",
-   "images/productos/00EMEEXITS250/02.jpg"
+   "images/productos/00EMEEXITS150/luminaria.jpg",
+   "images/productos/00EMEEXITS150/ambiente.jpg",
+   "images/productos/00EMEEXITS150/medidas.jpg",
+   "images/productos/00EMEEXITS250/luminaria.jpg",
+   "images/productos/00EMEEXITS250/ambiente.jpg",
+   "images/productos/00EMEEXITS250/medidas.jpg"
   ],
   "descargas": [
    {
@@ -10713,7 +11082,9 @@
     "pdf": "4 EMERGENCIA/00EMGEXITS200.pdf"
    }
   ],
-  "generada": false
+  "generada": false,
+  "seccion": "EXIT S",
+  "gama": null
  },
  {
   "id": "plafones-exterior-plafon-mars-negro",
@@ -10751,12 +11122,12 @@
    }
   ],
   "imagenes": [
-   "images/productos/00PML20WIP65N/01.jpg",
-   "images/productos/00PML20WIP65N/02.jpg",
-   "images/productos/00PML20WIP65N/03.jpg",
-   "images/productos/00PML12WIP65N/01.jpg",
-   "images/productos/00PML12WIP65N/02.jpg",
-   "images/productos/00PML12WIP65N/03.jpg"
+   "images/productos/00PML20WIP65N/luminaria.jpg",
+   "images/productos/00PML20WIP65N/ambiente.jpg",
+   "images/productos/00PML20WIP65N/medidas.jpg",
+   "images/productos/00PML12WIP65N/luminaria.jpg",
+   "images/productos/00PML12WIP65N/ambiente.jpg",
+   "images/productos/00PML12WIP65N/medidas.jpg"
   ],
   "descargas": [
    {
@@ -10770,7 +11141,9 @@
     "pdf": "3 EXTERIORES/PLAFONES/00PML12WIP65N- Plafón MARS LED, 24-18-12W, 100lm.pdf"
    }
   ],
-  "generada": false
+  "generada": false,
+  "seccion": "Plafones Exterior",
+  "gama": null
  },
  {
   "id": "villalba-maxi-circular-empotrar-44w-blanco-0043814440",
@@ -10799,9 +11172,9 @@
    }
   ],
   "imagenes": [
-   "images/productos/0043814440/01.jpg",
-   "images/productos/0043814440/02.jpg",
-   "images/productos/0043814440/03.jpg"
+   "images/productos/0043814440/luminaria.jpg",
+   "images/productos/0043814440/ambiente.jpg",
+   "images/productos/0043814440/medidas.jpg"
   ],
   "descargas": [
    {
@@ -10810,7 +11183,9 @@
     "pdf": "3 EXTERIORES/PLAFONES/0043814440.pdf"
    }
   ],
-  "generada": false
+  "generada": false,
+  "seccion": "Plafones Exterior",
+  "gama": null
  },
  {
   "id": "aplique-superficie-circular-saj-6000-15w-0070211540",
@@ -10835,9 +11210,9 @@
    }
   ],
   "imagenes": [
-   "images/productos/0070211540/01.jpg",
-   "images/productos/0070211540/02.jpg",
-   "images/productos/0070211540/03.jpg"
+   "images/productos/0070211540/luminaria.jpg",
+   "images/productos/0070211540/ambiente.jpg",
+   "images/productos/0070211540/medidas.jpg"
   ],
   "descargas": [
    {
@@ -10846,7 +11221,9 @@
     "pdf": "3 EXTERIORES/PLAFONES/0070211540.pdf"
    }
   ],
-  "generada": false
+  "generada": false,
+  "seccion": "Plafones Exterior",
+  "gama": null
  },
  {
   "id": "teide-slim-200lm-ip20-autotest-0081320001",
@@ -10871,9 +11248,9 @@
    }
   ],
   "imagenes": [
-   "images/productos/0081320001/01.jpg",
-   "images/productos/0081320001/02.jpg",
-   "images/productos/0081320001/03.jpg"
+   "images/productos/0081320001/luminaria.jpg",
+   "images/productos/0081320001/ambiente.jpg",
+   "images/productos/0081320001/medidas.jpg"
   ],
   "descargas": [
    {
@@ -10882,7 +11259,9 @@
     "pdf": "4 EMERGENCIA/0081320001.pdf"
    }
   ],
-  "generada": false
+  "generada": false,
+  "seccion": "Teide Slim",
+  "gama": null
  },
  {
   "id": "proyector-vesubio-1800lm-ip65-0081518000",
@@ -10903,9 +11282,9 @@
    }
   ],
   "imagenes": [
-   "images/productos/0081518000/01.jpg",
-   "images/productos/0081518000/02.jpg",
-   "images/productos/0081518000/03.jpg"
+   "images/productos/0081518000/luminaria.jpg",
+   "images/productos/0081518000/ambiente.jpg",
+   "images/productos/0081518000/medidas.jpg"
   ],
   "descargas": [
    {
@@ -10914,7 +11293,9 @@
     "pdf": "4 EMERGENCIA/0081518000.pdf"
    }
   ],
-  "generada": false
+  "generada": false,
+  "seccion": "Proyector Vesubio",
+  "gama": null
  },
  {
   "id": "omega-200lm-ip65-lente-antipanico-0081920002",
@@ -10935,9 +11316,9 @@
    }
   ],
   "imagenes": [
-   "images/productos/0081920002/01.jpg",
-   "images/productos/0081920002/02.jpg",
-   "images/productos/0081920002/03.jpg"
+   "images/productos/0081920002/luminaria.jpg",
+   "images/productos/0081920002/ambiente.jpg",
+   "images/productos/0081920002/medidas.jpg"
   ],
   "descargas": [
    {
@@ -10946,7 +11327,9 @@
     "pdf": "4 EMERGENCIA/0081920002.pdf"
    }
   ],
-  "generada": false
+  "generada": false,
+  "seccion": "Omega",
+  "gama": null
  },
  {
   "id": "aplique-cubo-12w-cct-ip54-1200lm-up-downlight-angulo-regulable-00apl12wcctip",
@@ -10979,9 +11362,9 @@
    }
   ],
   "imagenes": [
-   "images/productos/00APL12WCCTIP/01.jpg",
-   "images/productos/00APL12WCCTIP/02.jpg",
-   "images/productos/00APL12WCCTIP/03.jpg"
+   "images/productos/00APL12WCCTIP/luminaria.jpg",
+   "images/productos/00APL12WCCTIP/ambiente.jpg",
+   "images/productos/00APL12WCCTIP/medidas.jpg"
   ],
   "descargas": [
    {
@@ -10990,7 +11373,9 @@
     "pdf": "3 EXTERIORES/FAROLAS/00APL12WCCTIP.pdf"
    }
   ],
-  "generada": false
+  "generada": false,
+  "seccion": "Apliques y Farolas",
+  "gama": null
  },
  {
   "id": "baliza-bolardo-8w-3000-4000k-1000mm-regulacion-triac-00baliz8w3kip",
@@ -11019,9 +11404,9 @@
    }
   ],
   "imagenes": [
-   "images/productos/00BALIZ8W3KIP/01.jpg",
-   "images/productos/00BALIZ8W3KIP/02.jpg",
-   "images/productos/00BALIZ8W3KIP/03.jpg"
+   "images/productos/00BALIZ8W3KIP/luminaria.jpg",
+   "images/productos/00BALIZ8W3KIP/ambiente.jpg",
+   "images/productos/00BALIZ8W3KIP/medidas.jpg"
   ],
   "descargas": [
    {
@@ -11030,7 +11415,9 @@
     "pdf": "3 EXTERIORES/BALIZAS/00BALIZ8W3KIP.pdf"
    }
   ],
-  "generada": false
+  "generada": false,
+  "seccion": "Balizas Exterior",
+  "gama": null
  },
  {
   "id": "axp-3-0-espacios-abiertos-1w-250lm-ip20-1h-no-permanente-00emeaxp3-01w",
@@ -11067,9 +11454,9 @@
    }
   ],
   "imagenes": [
-   "images/productos/00EMEAXP3.01W/01.jpg",
-   "images/productos/00EMEAXP3.01W/02.jpg",
-   "images/productos/00EMEAXP3.01W/03.jpg"
+   "images/productos/00EMEAXP3.01W/luminaria.jpg",
+   "images/productos/00EMEAXP3.01W/ambiente.jpg",
+   "images/productos/00EMEAXP3.01W/medidas.jpg"
   ],
   "descargas": [
    {
@@ -11078,7 +11465,9 @@
     "pdf": "4 EMERGENCIA/00EMEAXP3.01W.pdf"
    }
   ],
-  "generada": false
+  "generada": false,
+  "seccion": "AXP 3.0",
+  "gama": null
  },
  {
   "id": "axp-3-0-espacios-abiertos-1w-250lm-ip20-1h-no-permanente-autotest-00emeaxp3-0at",
@@ -11119,9 +11508,9 @@
    }
   ],
   "imagenes": [
-   "images/productos/00EMEAXP3.0AT/01.jpg",
-   "images/productos/00EMEAXP3.0AT/02.jpg",
-   "images/productos/00EMEAXP3.0AT/03.jpg"
+   "images/productos/00EMEAXP3.0AT/luminaria.jpg",
+   "images/productos/00EMEAXP3.0AT/ambiente.jpg",
+   "images/productos/00EMEAXP3.0AT/medidas.jpg"
   ],
   "descargas": [
    {
@@ -11130,7 +11519,9 @@
     "pdf": "4 EMERGENCIA/00EMEAXP3.0AT.pdf"
    }
   ],
-  "generada": false
+  "generada": false,
+  "seccion": "AXP 3.0",
+  "gama": null
  },
  {
   "id": "axp-3-0-recorrido-evacuacion-1w-250lm-ip20-1h-no-permanente-00emeaxp3-0re",
@@ -11167,9 +11558,9 @@
    }
   ],
   "imagenes": [
-   "images/productos/00EMEAXP3.0RE/01.jpg",
-   "images/productos/00EMEAXP3.0RE/02.jpg",
-   "images/productos/00EMEAXP3.0RE/03.jpg"
+   "images/productos/00EMEAXP3.0RE/luminaria.jpg",
+   "images/productos/00EMEAXP3.0RE/ambiente.jpg",
+   "images/productos/00EMEAXP3.0RE/medidas.jpg"
   ],
   "descargas": [
    {
@@ -11178,7 +11569,9 @@
     "pdf": "4 EMERGENCIA/00EMEAXP3.0RE.pdf"
    }
   ],
-  "generada": false
+  "generada": false,
+  "seccion": "AXP 3.0",
+  "gama": null
  },
  {
   "id": "microspot-empotrable-1w-250lm-eco-ip20-optica-u-00ememcspo25",
@@ -11203,8 +11596,9 @@
    }
   ],
   "imagenes": [
-   "images/productos/00EMEMCSPO25/01.jpg",
-   "images/productos/00EMEMCSPO25/02.jpg"
+   "images/productos/00EMEMCSPO25/luminaria.jpg",
+   "images/productos/00EMEMCSPO25/ambiente.jpg",
+   "images/productos/00EMEMCSPO25/medidas.jpg"
   ],
   "descargas": [
    {
@@ -11213,7 +11607,9 @@
     "pdf": "4 EMERGENCIA/00EMEMCSPO25.pdf"
    }
   ],
-  "generada": false
+  "generada": false,
+  "seccion": "Microspot Empotrable",
+  "gama": null
  },
  {
   "id": "emergencia-270lm-ip42-superficie-autotest-00emer270ip42",
@@ -11238,9 +11634,9 @@
    }
   ],
   "imagenes": [
-   "images/productos/00EMER270IP42/01.jpg",
-   "images/productos/00EMER270IP42/02.jpg",
-   "images/productos/00EMER270IP42/03.jpg"
+   "images/productos/00EMER270IP42/luminaria.jpg",
+   "images/productos/00EMER270IP42/ambiente.jpg",
+   "images/productos/00EMER270IP42/medidas.jpg"
   ],
   "descargas": [
    {
@@ -11249,7 +11645,9 @@
     "pdf": "4 EMERGENCIA/00EMER270IP42.pdf"
    }
   ],
-  "generada": false
+  "generada": false,
+  "seccion": "Emergencia Autotest IP42",
+  "gama": null
  },
  {
   "id": "farol-villa-acero-pintado-al-horno-negro-ip20-00farolvillan",
@@ -11270,8 +11668,8 @@
    }
   ],
   "imagenes": [
-   "images/productos/00FAROLVILLAN/01.jpg",
-   "images/productos/00FAROLVILLAN/02.jpg"
+   "images/productos/00FAROLVILLAN/luminaria.jpg",
+   "images/productos/00FAROLVILLAN/medidas.jpg"
   ],
   "descargas": [
    {
@@ -11280,7 +11678,9 @@
     "pdf": "3 EXTERIORES/FAROLAS/00FAROLVILLAN.pdf"
    }
   ],
-  "generada": false
+  "generada": false,
+  "seccion": "Apliques y Farolas",
+  "gama": null
  },
  {
   "id": "plafon-pared-techo-22w-ip45-2500lm-con-emergencia-3h-00plaf22cctip",
@@ -11309,8 +11709,9 @@
    }
   ],
   "imagenes": [
-   "images/productos/00PLAF22CCTIP/01.jpg",
-   "images/productos/00PLAF22CCTIP/02.jpg"
+   "images/productos/00PLAF22CCTIP/luminaria.jpg",
+   "images/productos/00PLAF22CCTIP/ambiente.jpg",
+   "images/productos/00PLAF22CCTIP/medidas.jpg"
   ],
   "descargas": [
    {
@@ -11319,7 +11720,9 @@
     "pdf": "3 EXTERIORES/PLAFONES/00PLAF22CCTIP- LEDWALLCIRC22W.pdf"
    }
   ],
-  "generada": false
+  "generada": false,
+  "seccion": "Plafones Exterior",
+  "gama": null
  },
  {
   "id": "plafon-superficie-ip65-12-15-18-24w-cct-00plafip6512w",
@@ -11344,9 +11747,9 @@
    }
   ],
   "imagenes": [
-   "images/productos/00PLAFIP6512W/01.jpg",
-   "images/productos/00PLAFIP6512W/02.jpg",
-   "images/productos/00PLAFIP6512W/03.jpg"
+   "images/productos/00PLAFIP6512W/luminaria.jpg",
+   "images/productos/00PLAFIP6512W/ambiente.jpg",
+   "images/productos/00PLAFIP6512W/medidas.jpg"
   ],
   "descargas": [
    {
@@ -11355,7 +11758,9 @@
     "pdf": "3 EXTERIORES/PLAFONES/00PLAFIP6512W.pdf"
    }
   ],
-  "generada": false
+  "generada": false,
+  "seccion": "Plafones Exterior",
+  "gama": null
  },
  {
   "id": "plafon-superficie-500mm-4000k-dali-40w-blanco-00plafon500da",
@@ -11388,9 +11793,9 @@
    }
   ],
   "imagenes": [
-   "images/productos/00PLAFON500DA/01.jpg",
-   "images/productos/00PLAFON500DA/02.jpg",
-   "images/productos/00PLAFON500DA/03.jpg"
+   "images/productos/00PLAFON500DA/luminaria.jpg",
+   "images/productos/00PLAFON500DA/ambiente.jpg",
+   "images/productos/00PLAFON500DA/medidas.jpg"
   ],
   "descargas": [
    {
@@ -11399,6 +11804,8 @@
     "pdf": "3 EXTERIORES/PLAFONES/00PLAFON500DA-.pdf"
    }
   ],
-  "generada": false
+  "generada": false,
+  "seccion": "Plafones Exterior",
+  "gama": null
  }
 ]
