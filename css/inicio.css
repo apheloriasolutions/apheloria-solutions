@@ -50,7 +50,7 @@
 
 /* ═══ SECCIONES DE LA PORTADA ═══ */
 
-/* ── INTRO SLIDE (Hero + Conector + Nosotros — scroll continuo) ── */
+/* ── SECCIONES DE LA PORTADA (hero + conector + Nosotros, una detrás de otra) ── */
 
 .intro-section {
   width: 100%; min-height: calc(100dvh - var(--nav-h) - var(--footer-h));
@@ -101,7 +101,7 @@
 }
 .connector-bottom:hover { color: rgba(var(--white-rgb),0.9); }
 /* Nosotros */
-.intro-nosotros { background: var(--bg-dark); }
+.intro-nosotros { background: var(--bg-dark); overflow: hidden; }
 .intro-nosotros .intro-inner {
   position: relative; z-index: 2;
   display: flex; flex-direction: column; align-items: flex-start; justify-content: flex-start;
@@ -152,7 +152,6 @@ body.lista .hero-title-line:nth-child(2) { transition-delay: 0.28s; }
 /* ═══ SOBRE NOSOTROS ═══ */
 
 /* ── SOBRE NOSOTROS ── */
-.intro-nosotros { overflow: hidden; }
 .nosotros-bg {
   position: absolute; inset: 0;
   background: url('https://picsum.photos/seed/nosotros-lum/1600/900') center/cover no-repeat;
