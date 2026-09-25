@@ -33,8 +33,32 @@ body {
   background: var(--bg); color: var(--ink); font-family: 'Inter', sans-serif;
   /* el nav y el pie son barras fijas: se les reserva sitio */
   padding-top: var(--nav-h); padding-bottom: var(--footer-h);
-  overflow-x: hidden;            /* nada debe desbordar a lo ancho */
 }
+
+/* ── Barras de desplazamiento ──
+   Windows las dibuja con el aspecto del sistema y además ocupan sitio real
+   (en macOS e iOS se superponen y se esconden solas, por eso allí no se notan).
+   Se les da un aspecto fino y con los colores de la web, sin impedir el arrastre.
+   Nada tiene scroll propio salvo el menú móvil: el resto usa el de la página,
+   así que no hay barra inferior que ocultar. */
+html {
+  scrollbar-width: thin;
+  scrollbar-color: var(--accent-soft) transparent;
+}
+html::-webkit-scrollbar { width: 10px; height: 10px; }
+html::-webkit-scrollbar-track { background: transparent; }
+html::-webkit-scrollbar-thumb {
+  background: var(--accent-soft); border-radius: 999px;
+  border: 3px solid var(--bg);          /* deja aire alrededor del pulgar */
+}
+html::-webkit-scrollbar-thumb:hover { background: var(--accent); }
+.nav-links {
+  scrollbar-width: thin;
+  scrollbar-color: var(--accent-soft) transparent;
+}
+.nav-links::-webkit-scrollbar { width: 6px; height: 6px; }
+.nav-links::-webkit-scrollbar-track { background: transparent; }
+.nav-links::-webkit-scrollbar-thumb { background: var(--accent-soft); border-radius: 999px; }
 
 /* Contenedor de página: ocupa como mínimo lo que queda entre nav y pie */
 .pagina {

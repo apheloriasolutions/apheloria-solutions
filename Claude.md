@@ -5,7 +5,14 @@ Especialistas en iluminación técnica y material eléctrico.
 Más de 20 años de experiencia. No es e-commerce, es un escaparate.
 
 ## Stack
-Sitio estático de un solo archivo (`index.html`, CSS y JS inline). Sin framework ni build.
+Sitio estático sin framework ni build: **una página HTML por apartado** (`index.html` = Inicio,
+`proyectos.html`, `productos.html`, `catalogo.html`, `contacto.html`, más las tres legales).
+El CSS y el JS viven en archivos compartidos:
+- `css/estilos.css` (paleta, tipografía, nav, pie, botones) + uno por apartado:
+  `inicio.css`, `listados.css` (Proyectos y Productos), `catalogo.css`, `contacto.css`, `legal.css`.
+- `js/main.js` (menú, desplegable, apartado activo, redirección de enlaces antiguos) +
+  `inicio.js`, `listados.js`, `contacto.js`.
+
 Las fichas técnicas son PDFs en las carpetas `1 INDUSTRIALES/` … `5 DECORATIVAS/` y
 `BOMBILLAS Y ACCESORIOS/`; las fotos de producto están en `images/` (el nombre incluye
 el código de referencia, p. ej. `EST__00PAES17W6K60 - ….png`).
@@ -23,23 +30,34 @@ el código de referencia, p. ej. `EST__00PAES17W6K60 - ….png`).
 
 ## Estilo
 - Minimalista y elegante
-- Scroll guiado por secciones con transición suave (slides con rutas #inicio…#contacto)
+- Scroll normal de página. El nav y el pie son barras fijas; `body` les reserva sitio con
+  `padding-top: var(--nav-h)` y `padding-bottom: var(--footer-h)`.
 - Referencias: Agolar (agolar.eu), template Vanila de Framer
 
-## Secciones
-- Inicio ✅ (hero con slideshow + conector + Nosotros, scroll continuo)
+## Secciones (una página cada una)
+- Inicio ✅ (hero con slideshow + conector + Nosotros, uno detrás de otro)
 - Proyectos ✅ (grid único con filtros por data-category)
 - Productos ✅ (grid único con filtros + 48 paneles de detalle con fichas PDF)
 - Catálogo ✅ (el PDF del catálogo general está pendiente; botón deshabilitado)
-- Contacto ✅ (formulario vía mailto; **email/teléfono son placeholders — poner los reales**)
+- Contacto ✅ (formulario vía Web3Forms; **email/teléfono son placeholders — poner los reales**)
 
 ## Convenciones del código
 - Los paneles de detalle se abren con `data-open="id-del-panel"` y se cierran con
   `data-close="id"` / `data-close-all` (delegación de eventos en `document`).
+- **Cada nivel tiene su dirección** y el botón atrás sube uno:
+  `productos.html#industrial/campanas/cam` = filtro / familia / gama. Lo gestiona
+  `js/listados.js`, que guarda el filtro y una pila de paneles, escribe la URL con
+  `pushState` y la relee en `popstate`/`hashchange`. El id del panel sale del trozo de
+  URL quitándole el prefijo `detail-` o `proj-`.
+- Solo se muestra el último panel de la pila; el listado se oculta con `.listado[hidden]`.
 - Filtros: las cards llevan `data-category`; el filtrado oculta con el atributo `hidden`.
 - Cards no disponibles: clase `is-soon` (badge "Próximamente" + imagen desaturada).
-- Altura del nav en `--nav-h`; usar siempre esa variable, no valores sueltos.
+- Altura del nav en `--nav-h` y del pie en `--footer-h`; usar siempre esas variables.
 - Paneles ocultos con `display:none` (no `opacity:0`) para no descargar sus imágenes.
+- Nada debe tener scroll propio salvo el menú móvil: los listados usan el scroll de la
+  página. Si hiciera falta uno, darle barra fina (`scrollbar-width`/`scrollbar-color` y
+  `::-webkit-scrollbar` con **width y height**): en Windows las barras ocupan sitio real
+  y salen con el aspecto del sistema, en macOS se superponen y no se notan.
 
 ## Reglas
 - Nunca usar negro puro, siempre #1a1612
