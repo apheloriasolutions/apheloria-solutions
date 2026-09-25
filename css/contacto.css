@@ -1,0 +1,61 @@
+/* Apheloria — Contacto */
+
+/* ── CONTACTO ── */
+.contact-slide { background: var(--bg); }
+.contact-slide .slide-inner {
+  position: absolute; top: 0; bottom: 0; left: 50%;
+  width: 100%; max-width: 1800px; transform: translateX(-50%);
+  display: flex; flex-direction: row;
+  padding: 0; height: auto;
+}
+.con-left {
+  flex: 1;
+  padding: 4rem 3.5rem;
+  display: flex; flex-direction: column; justify-content: center;
+  border-right: 1px solid rgba(var(--ink-rgb),0.07); overflow: hidden;
+}
+.con-right {
+  width: 420px; flex-shrink: 0;
+  padding: 4rem 3.5rem;
+  display: flex; flex-direction: column; justify-content: center; gap: 1.6rem;
+  position: relative; overflow: hidden;
+}
+.con-deco { position: absolute; bottom: -2rem; right: -2rem; font-size: 13rem; font-weight: 200; color: rgba(var(--ink-rgb),0.04); line-height: 1; pointer-events: none; user-select: none; }
+.con-eye  { font-size: 0.62rem; letter-spacing: 0.45em; text-transform: uppercase; color: var(--accent); font-weight: 300; margin-bottom: 0.5rem; display: block; }
+.con-h2   { font-family: 'Inter',sans-serif; font-size: clamp(1.2rem, 1.8vw, 1.8rem); font-weight: 300; color: var(--ink); line-height: 1.25; margin-bottom: 1.6rem; }
+.con-h2 em { font-family: 'Cormorant Garamond', serif; font-style: italic; color: var(--accent); }
+.con-form { display: flex; flex-direction: column; gap: 0.65rem; }
+.con-row  { display: grid; grid-template-columns: 1fr 1fr; gap: 0.65rem; }
+.con-inp  { width: 100%; padding: 0.8rem 0; background: transparent; border: none; border-bottom: 1px solid rgba(var(--ink-rgb),0.18); font-family: 'Inter',sans-serif; font-size: 0.8rem; font-weight: 300; color: var(--ink); outline: none; transition: border-color 0.25s; border-radius: 0; -webkit-appearance: none; }
+.con-inp::placeholder { color: var(--accent); }
+.con-inp:focus { border-color: var(--ink); }
+.con-area { resize: none; min-height: 100px; }
+.con-send { align-self: flex-end; margin-top: 0.4rem; }
+.con-honeypot { position: absolute; left: -9999px; width: 1px; height: 1px; opacity: 0; pointer-events: none; }
+.con-feedback {
+  align-self: flex-end;
+  font-family: 'Raleway', sans-serif; font-size: 0.72rem; font-weight: 400;
+  margin-top: 0.3rem; opacity: 0; transform: translateY(-4px);
+  transition: opacity 0.35s var(--ease-premium), transform 0.35s var(--ease-premium);
+}
+.con-feedback.visible { opacity: 1; transform: translateY(0); }
+.con-feedback.is-ok { color: #4a7a5c; }
+.con-feedback.is-error { color: #a34a3f; }
+.con-ih2  { font-family: 'Inter',sans-serif; font-size: clamp(1.2rem, 1.8vw, 1.9rem); font-weight: 300; color: var(--ink); line-height: 1.25; }
+.con-ih2 em { font-family: 'Cormorant Garamond', serif; font-style: italic; color: var(--accent); }
+.con-ip   { font-size: 0.76rem; line-height: 1.85; color: rgba(var(--ink-rgb),0.6); font-weight: 300; max-width: 340px; }
+.con-list { padding-left: 1.2rem; border-left: 1px solid var(--accent-soft); display: flex; flex-direction: column; gap: 0.55rem; }
+.con-item { display: flex; flex-direction: column; gap: 0.15rem; }
+.con-ilbl { font-size: 0.6rem; letter-spacing: 0.32em; text-transform: uppercase; color: var(--accent-text); font-weight: 400; }
+.con-ival { font-size: 0.8rem; color: var(--ink); font-weight: 300; letter-spacing: 0.03em; text-decoration: none; transition: color 0.2s; }
+a.con-ival:hover { color: var(--accent); }
+
+
+@media (max-width: 900px) {
+  .con-inner { flex-direction: column; }
+  .con-left { padding: 2.5rem 1.5rem; border-right: none; border-bottom: 1px solid rgba(var(--ink-rgb),0.07); }
+  .con-right { width: 100%; padding: 2.5rem 1.5rem; }
+}
+@media (max-width: 640px) {
+  .con-row { grid-template-columns: 1fr; }
+}
