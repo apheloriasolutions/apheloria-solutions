@@ -23,7 +23,6 @@
 .hero-bg-img.bg-3 { filter: brightness(1.2) saturate(0.8); background-image: linear-gradient(180deg, rgba(var(--bg-rgb),0.22), rgba(var(--ink-rgb),0.26)), url('../images/proyectos/ciudad-justicia/portada.jpg'); }
 .hero-bg-img.active { opacity: 1; animation: zoomBg 4s ease forwards; }
 @keyframes zoomBg { from { transform: scale(1.08); } to { transform: scale(1.0); } }
-/* hero slide-inner override now in .intro-hero .slide-inner above */
 
 .hero-eyebrow {
   font-size: 0.58rem; letter-spacing: 0.4em; text-transform: uppercase;
@@ -52,20 +51,16 @@
 /* ═══ SECCIONES DE LA PORTADA ═══ */
 
 /* ── INTRO SLIDE (Hero + Conector + Nosotros — scroll continuo) ── */
-.intro-slide {
-  overflow-y: scroll; overflow-x: hidden;
-  scrollbar-width: none;
-}
-.intro-slide::-webkit-scrollbar { display: none; }
+
 .intro-section {
-  width: 100%; height: 100vh;
+  width: 100%; min-height: calc(100dvh - var(--nav-h) - var(--footer-h));
   position: relative; flex-shrink: 0;
   display: flex; flex-direction: column;
   justify-content: center; align-items: center;
 }
 /* Hero */
 .intro-hero { align-items: flex-start; overflow: hidden; background: var(--bg-dark); }
-.intro-hero .slide-inner {
+.intro-hero .intro-inner {
   position: relative; z-index: 2;
   justify-content: flex-start; padding: 5.5rem 3rem calc(3.5rem + 1rem);
   height: 100%; width: 100%;
@@ -107,7 +102,7 @@
 .connector-bottom:hover { color: rgba(var(--white-rgb),0.9); }
 /* Nosotros */
 .intro-nosotros { background: var(--bg-dark); }
-.intro-nosotros .slide-inner {
+.intro-nosotros .intro-inner {
   position: relative; z-index: 2;
   display: flex; flex-direction: column; align-items: flex-start; justify-content: flex-start;
   padding: 5cm 0 0 5rem; height: 100%; width: 100%;
@@ -128,7 +123,7 @@
   opacity: 0;
   transition: opacity 0.7s ease 0.7s, color 0.25s;
 }
-.slide.active .hero-bottom-cta { opacity: 1; }
+body.lista .hero-bottom-cta { opacity: 1; }
 .hero-bottom-cta:hover { color: var(--ink); }
 .hero-bottom-cta-arrow {
   display: inline-block;
@@ -148,15 +143,15 @@
 }
 .hero-dot.active { background: white; width: 36px; }
 
-.slide.active .hero-eyebrow { opacity: 1; transform: translateX(0); }
-.slide.active .hero-title-line { opacity: 1; transform: translateX(0); }
-.slide.active .hero-title-line:nth-child(1) { transition-delay: 0.15s; }
-.slide.active .hero-title-line:nth-child(2) { transition-delay: 0.28s; }
+body.lista .hero-eyebrow { opacity: 1; transform: translateX(0); }
+body.lista .hero-title-line { opacity: 1; transform: translateX(0); }
+body.lista .hero-title-line:nth-child(1) { transition-delay: 0.15s; }
+body.lista .hero-title-line:nth-child(2) { transition-delay: 0.28s; }
 
 
 /* ═══ SOBRE NOSOTROS ═══ */
 
-/* ── SOBRE NOSOTROS (intro-slide) ── */
+/* ── SOBRE NOSOTROS ── */
 .intro-nosotros { overflow: hidden; }
 .nosotros-bg {
   position: absolute; inset: 0;

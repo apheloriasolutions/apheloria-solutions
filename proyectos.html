@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyectos — Apheloria Solutions</title>
+  <meta name="description" content="Proyectos de iluminación técnica realizados por Apheloria Solutions: retail, oficinas, infraestructuras y espacios públicos.">
+  <!-- TODO: sustituir por el dominio real cuando la web esté publicada -->
+  <meta property="og:title" content="Proyectos — Apheloria Solutions">
+  <meta property="og:description" content="Proyectos de iluminación técnica realizados por Apheloria Solutions: retail, oficinas, infraestructuras y espacios públicos.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="logo.png">
+  <meta property="og:locale" content="es_ES">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;1,400&family=Inter:wght@200;300;400&family=Montserrat:wght@100;200&family=Raleway:ital,wght@0,300;0,400;0,600;0,800;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="stylesheet" href="css/listados.css">
+</head>
+<body data-pagina="proyectos">
+
+  <header>
+  <nav>
+    <a class="nav-brand" href="index.html" aria-label="Apheloria Solutions — inicio">
+      <span class="nav-logo-icon"></span>
+      <span class="nav-brand-text">Apheloria Solutions</span>
+    </a>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html" data-pagina="inicio">Inicio</a></li>
+      <li><a href="proyectos.html" data-pagina="proyectos">Proyectos</a></li>
+      <li class="nav-item">
+        <a href="productos.html" data-pagina="productos">Productos</a>
+        <div class="nav-dropdown">
+          <a href="productos.html#industrial">Industrial</a>
+          <a href="productos.html#interior">Interior</a>
+          <a href="productos.html#exterior">Exterior</a>
+          <a href="productos.html#emergencias">Emergencias</a>
+          <a href="productos.html#decorativas">Decorativas</a>
+          <a href="productos.html#bombillas">Bombillas y Accesorios</a>
+        </div>
+      </li>
+      <li><a href="catalogo.html" data-pagina="catalogo">Catálogo</a></li>
+    </ul>
+
+    <div class="nav-right">
+      <a class="nav-contact-btn" href="contacto.html" data-pagina="contacto">Contacto</a>
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+  </header>
+
+  <main class="pagina pagina-proyectos">
+  <div class="listado">
+    <div class="projects-header">
+      <div class="projects-header-left">
+        <span class="projects-eyebrow">Portfolio</span>
+        <h1 class="projects-title">Proyectos <em>Realizados</em></h1>
+      </div>
+      <span class="projects-count" id="projCount">( 15 )</span>
+    </div>
+
+    <div class="projects-filters">
+      <button class="filter-btn active" data-filter="all">Todos</button>
+      <button class="filter-btn" data-filter="retail">Retail</button>
+      <button class="filter-btn" data-filter="industria">Industria</button>
+      <button class="filter-btn" data-filter="edificios">Edificios</button>
+      <button class="filter-btn" data-filter="instalaciones">Instalaciones Singulares</button>
+      <button class="filter-btn" data-filter="hogar">Hogar</button>
+    </div>
+
+    <div class="projects-grid active" id="grid-all">
+      <div class="project-card" data-category="retail" data-open="proj-clarks" role="button" tabindex="0"><div class="project-card-img-wrap"><div class="project-card-img" style="background-image: url('images/proyectos/clarks/portada.jpg');"></div><div class="project-card-overlay"><div class="project-card-name">Clarks</div><div class="project-card-meta">Retail</div></div></div></div>
+      <div class="project-card" data-category="retail" data-open="proj-columbia-tienda-1" role="button" tabindex="0"><div class="project-card-img-wrap"><div class="project-card-img" style="background-image: url('images/proyectos/columbia-tienda-1/portada.jpg');"></div><div class="project-card-overlay"><div class="project-card-name">Columbia — Tienda 1</div><div class="project-card-meta">Retail</div></div></div></div>
+      <div class="project-card" data-category="retail" data-open="proj-columbia-tienda-2" role="button" tabindex="0"><div class="project-card-img-wrap"><div class="project-card-img" style="background-image: url('images/proyectos/columbia-tienda-2/portada.jpg');"></div><div class="project-card-overlay"><div class="project-card-name">Columbia — Tienda 2</div><div class="project-card-meta">Retail</div></div></div></div>
+      <div class="project-card" data-category="retail" data-open="proj-hawkers" role="button" tabindex="0"><div class="project-card-img-wrap"><div class="project-card-img" style="background-image: url('images/proyectos/hawkers/portada.jpg');"></div><div class="project-card-overlay"><div class="project-card-name">Hawkers Óptica</div><div class="project-card-meta">Retail</div></div></div></div>
+      <div class="project-card" data-category="retail" data-open="proj-new-era" role="button" tabindex="0"><div class="project-card-img-wrap"><div class="project-card-img" style="background-image: url('images/proyectos/new-era/portada.jpg');"></div><div class="project-card-overlay"><div class="project-card-name">New Era</div><div class="project-card-meta">Retail</div></div></div></div>
+      <div class="project-card" data-category="retail" data-open="proj-vans" role="button" tabindex="0"><div class="project-card-img-wrap"><div class="project-card-img" style="background-image: url('images/proyectos/vans/portada.jpg');"></div><div class="project-card-overlay"><div class="project-card-name">Vans</div><div class="project-card-meta">Retail</div></div></div></div>
+      <div class="project-card" data-category="industria" data-open="proj-avenida-america" role="button" tabindex="0"><div class="project-card-img-wrap"><div class="project-card-img" style="background-image: url('images/proyectos/avenida-america/portada.jpg');"></div><div class="project-card-overlay"><div class="project-card-name">Avenida de América</div><div class="project-card-meta">Industria · Intercambiador</div></div></div></div>
+      <div class="project-card" data-category="edificios" data-open="proj-bandalux" role="button" tabindex="0"><div class="project-card-img-wrap"><div class="project-card-img" style="background-image: url('images/proyectos/bandalux/portada.jpg');"></div><div class="project-card-overlay"><div class="project-card-name">Bandalux</div><div class="project-card-meta">Edificios · Sede corporativa</div></div></div></div>
+      <div class="project-card" data-category="edificios" data-open="proj-ciudad-justicia" role="button" tabindex="0"><div class="project-card-img-wrap"><div class="project-card-img" style="background-image: url('images/proyectos/ciudad-justicia/portada.jpg');"></div><div class="project-card-overlay"><div class="project-card-name">Ciudad de la Justicia</div><div class="project-card-meta">Edificios · Madrid</div></div></div></div>
+      <div class="project-card" data-category="edificios" data-open="proj-edificio-fontan" role="button" tabindex="0"><div class="project-card-img-wrap"><div class="project-card-img" style="background-image: url('images/proyectos/edificio-fontan/portada.jpg');"></div><div class="project-card-overlay"><div class="project-card-name">Edificio Fontán</div><div class="project-card-meta">Edificios</div></div></div></div>
+      <div class="project-card" data-category="edificios" data-open="proj-fachada-santalucia" role="button" tabindex="0"><div class="project-card-img-wrap"><div class="project-card-img" style="background-image: url('images/proyectos/fachada-santalucia/portada.jpg');"></div><div class="project-card-overlay"><div class="project-card-name">Fachada Santalucía</div><div class="project-card-meta">Edificios · Fachada corporativa</div></div></div></div>
+      <div class="project-card" data-category="edificios" data-open="proj-plaza-eliptica" role="button" tabindex="0"><div class="project-card-img-wrap"><div class="project-card-img" style="background-image: url('images/proyectos/plaza-eliptica/portada.jpg');"></div><div class="project-card-overlay"><div class="project-card-name">Plaza Elíptica</div><div class="project-card-meta">Edificios · Madrid</div></div></div></div>
+      <div class="project-card" data-category="edificios" data-open="proj-principe-pio" role="button" tabindex="0"><div class="project-card-img-wrap"><div class="project-card-img" style="background-image: url('images/proyectos/principe-pio/portada.jpg');"></div><div class="project-card-overlay"><div class="project-card-name">Príncipe Pío</div><div class="project-card-meta">Edificios · Madrid</div></div></div></div>
+      <div class="project-card is-soon" data-category="instalaciones"><div class="project-card-img-wrap"><div class="project-card-img" style="background-image: url('https://picsum.photos/seed/instalacion/900/600');"></div><div class="project-card-overlay"><div class="project-card-name">Próximamente</div><div class="project-card-meta">Instalaciones Singulares</div></div></div></div>
+      <div class="project-card is-soon" data-category="hogar"><div class="project-card-img-wrap"><div class="project-card-img" style="background-image: url('https://picsum.photos/seed/vivienda/900/600');"></div><div class="project-card-overlay"><div class="project-card-name">Próximamente</div><div class="project-card-meta">Hogar</div></div></div></div>
+    </div>
+  </div>
+
+  <!-- TODO: revisar y confirmar los textos de cada proyecto (borrador redactado a partir de las fotos, pendiente de validar con el cliente) -->
+
+        <div class="product-detail-view project-detail-view" id="proj-clarks">
+<nav class="product-detail-back" aria-label="Ruta de navegación"><button type="button" class="pdb-crumb" data-close-all>Proyectos</button><span class="pdb-sep">/</span><span class="pdb-current">Clarks</span></nav>
+<div class="project-detail-hero">
+  <div class="project-detail-photo" style="background-image: url('images/proyectos/clarks/portada.jpg');"></div>
+  <div class="project-detail-info">
+    <span class="project-detail-eyebrow">Retail</span>
+    <h2 class="project-detail-title">Clarks</h2>
+    <p class="project-detail-text">Iluminación de escaparate y sala de ventas para la tienda Clarks, con acentos que realzan el producto sin restar protagonismo al mármol y la carpintería del local.</p>
+  </div>
+</div>
+<span class="product-detail-section-label">Galería</span>
+<div class="project-detail-mosaic">
+  <div class="project-mosaic-item is-wide"><div class="project-mosaic-img" style="background-image: url('images/proyectos/clarks/foto-01.jpg');"></div></div>
+  <div class="project-mosaic-item"><div class="project-mosaic-img" style="background-image: url('images/proyectos/clarks/foto-02.jpg');"></div></div>
+  <div class="project-mosaic-item"><div class="project-mosaic-img" style="background-image: url('images/proyectos/clarks/foto-03.jpg');"></div></div>
+  <div class="project-mosaic-item is-tall"><div class="project-mosaic-img" style="background-image: url('images/proyectos/clarks/foto-04.jpg');"></div></div>
+  <div class="project-mosaic-item"><div class="project-mosaic-img" style="background-image: url('images/proyectos/clarks/foto-05.jpg');"></div></div>
+  <div class="project-mosaic-item is-wide"><div class="project-mosaic-img" style="background-image: url('images/proyectos/clarks/foto-06.jpg');"></div></div>
+  <div class="project-mosaic-item"><div class="project-mosaic-img" style="background-image: url('images/proyectos/clarks/foto-07.jpg');"></div></div>
+</div>
+        </div>
+
+        <div class="product-detail-view project-detail-view" id="proj-columbia-tienda-1">
+<nav class="product-detail-back" aria-label="Ruta de navegación"><button type="button" class="pdb-crumb" data-close-all>Proyectos</button><span class="pdb-sep">/</span><span class="pdb-current">Columbia — Tienda 1</span></nav>
+<div class="project-detail-hero">
+  <div class="project-detail-photo" style="background-image: url('images/proyectos/columbia-tienda-1/portada.jpg');"></div>
+  <div class="project-detail-info">
+    <span class="project-detail-eyebrow">Retail</span>
+    <h2 class="project-detail-title">Columbia — Tienda 1</h2>
+    <p class="project-detail-text">Iluminación interior para el nuevo espacio Columbia, combinando luz de acento sobre el mueble de recepción con una atmósfera cálida y uniforme en el resto de la tienda.</p>
+  </div>
+</div>
+<span class="product-detail-section-label">Galería</span>
+<div class="project-detail-mosaic">
+  <div class="project-mosaic-item is-wide"><div class="project-mosaic-img" style="background-image: url('images/proyectos/columbia-tienda-1/foto-01.jpg');"></div></div>
+  <div class="project-mosaic-item"><div class="project-mosaic-img" style="background-image: url('images/proyectos/columbia-tienda-1/foto-02.jpg');"></div></div>
+  <div class="project-mosaic-item"><div class="project-mosaic-img" style="background-image: url('images/proyectos/columbia-tienda-1/foto-03.jpg');"></div></div>
+</div>
+        </div>
+
+        <div class="product-detail-view project-detail-view" id="proj-columbia-tienda-2">
+<nav class="product-detail-back" aria-label="Ruta de navegación"><button type="button" class="pdb-crumb" data-close-all>Proyectos</button><span class="pdb-sep">/</span><span class="pdb-current">Columbia — Tienda 2</span></nav>
+<div class="project-detail-hero">
+  <div class="project-detail-photo" style="background-image: url('images/proyectos/columbia-tienda-2/portada.jpg');"></div>
+  <div class="project-detail-info">
+    <span class="project-detail-eyebrow">Retail</span>
+    <h2 class="project-detail-title">Columbia — Tienda 2</h2>
+    <p class="project-detail-text">Segunda intervención para Columbia: iluminación general y de acento para la sala de ventas, reforzando la identidad de marca en cada rincón del local.</p>
+  </div>
+</div>
+<span class="product-detail-section-label">Galería</span>
+<div class="project-detail-mosaic">
+  <div class="project-mosaic-item is-tall"><div class="project-mosaic-img" style="background-image: url('images/proyectos/columbia-tienda-2/foto-01.jpg');"></div></div>
+  <div class="project-mosaic-item"><div class="project-mosaic-img" style="background-image: url('images/proyectos/columbia-tienda-2/foto-02.jpg');"></div></div>
+  <div class="project-mosaic-item"><div class="project-mosaic-img" style="background-image: url('images/proyectos/columbia-tienda-2/foto-03.jpg');"></div></div>
+  <div class="project-mosaic-item is-wide"><div class="project-mosaic-img" style="background-image: url('images/proyectos/columbia-tienda-2/foto-04.jpg');"></div></div>
+  <div class="project-mosaic-item"><div class="project-mosaic-img" style="background-image: url('images/proyectos/columbia-tienda-2/foto-05.jpg');"></div></div>
+  <div class="project-mosaic-item is-tall"><div class="project-mosaic-img" style="background-image: url('images/proyectos/columbia-tienda-2/foto-06.jpg');"></div></div>
+  <div class="project-mosaic-item"><div class="project-mosaic-img" style="background-image: url('images/proyectos/columbia-tienda-2/foto-07.jpg');"></div></div>
+</div>
+        </div>
+
+        <div class="product-detail-view project-detail-view" id="proj-hawkers">
+<nav class="product-detail-back" aria-label="Ruta de navegación"><button type="button" class="pdb-crumb" data-close-all>Proyectos</button><span class="pdb-sep">/</span><span class="pdb-current">Hawkers Óptica</span></nav>
+<div class="project-detail-hero">
+  <div class="project-detail-photo" style="background-image: url('images/proyectos/hawkers/portada.jpg');"></div>
+  <div class="project-detail-info">
+    <span class="project-detail-eyebrow">Retail</span>
+    <h2 class="project-detail-title">Hawkers Óptica</h2>
+    <p class="project-detail-text">Iluminación de sala de ventas para la óptica Hawkers, con un enfoque neutro y homogéneo que favorece la percepción del color en el producto expuesto.</p>
+  </div>
+</div>
+<span class="product-detail-section-label">Galería</span>
+<div class="project-detail-mosaic">
+  <div class="project-mosaic-item is-full"><div class="project-mosaic-img" style="background-image: url('images/proyectos/hawkers/foto-01.jpg');"></div></div>
+</div>
+        </div>
+
+        <div class="product-detail-view project-detail-view" id="proj-new-era">
+<nav class="product-detail-back" aria-label="Ruta de navegación"><button type="button" class="pdb-crumb" data-close-all>Proyectos</button><span class="pdb-sep">/</span><span class="pdb-current">New Era</span></nav>
+<div class="project-detail-hero">
+  <div class="project-detail-photo" style="background-image: url('images/proyectos/new-era/portada.jpg');"></div>
+  <div class="project-detail-info">
+    <span class="project-detail-eyebrow">Retail</span>
+    <h2 class="project-detail-title">New Era</h2>
+    <p class="project-detail-text">Iluminación de escaparate y sala de ventas para la tienda New Era, con luz de acento de marca combinada con una base técnica neutra en el resto del local.</p>
+  </div>
+</div>
+<span class="product-detail-section-label">Galería</span>
+<div class="project-detail-mosaic">
+  <div class="project-mosaic-item is-wide"><div class="project-mosaic-img" style="background-image: url('images/proyectos/new-era/foto-01.jpg');"></div></div>
+  <div class="project-mosaic-item"><div class="project-mosaic-img" style="background-image: url('images/proyectos/new-era/foto-02.jpg');"></div></div>
+  <div class="project-mosaic-item"><div class="project-mosaic-img" style="background-image: url('images/proyectos/new-era/foto-03.jpg');"></div></div>
+  <div class="project-mosaic-item is-tall"><div class="project-mosaic-img" style="background-image: url('images/proyectos/new-era/foto-04.jpg');"></div></div>
+  <div class="project-mosaic-item"><div class="project-mosaic-img" style="background-image: url('images/proyectos/new-era/foto-05.jpg');"></div></div>
+  <div class="project-mosaic-item is-wide"><div class="project-mosaic-img" style="background-image: url('images/proyectos/new-era/foto-06.jpg');"></div></div>
+</div>
+        </div>
+
+        <div class="product-detail-view project-detail-view" id="proj-vans">
+<nav class="product-detail-back" aria-label="Ruta de navegación"><button type="button" class="pdb-crumb" data-close-all>Proyectos</button><span class="pdb-sep">/</span><span class="pdb-current">Vans</span></nav>
+<div class="project-detail-hero">
+  <div class="project-detail-photo" style="background-image: url('images/proyectos/vans/portada.jpg');"></div>
+  <div class="project-detail-info">
+    <span class="project-detail-eyebrow">Retail</span>
+    <h2 class="project-detail-title">Vans</h2>
+    <p class="project-detail-text">Iluminación de apertura para la nueva tienda Vans, con una base técnica homogénea que da protagonismo al producto y a la identidad visual de la marca.</p>
+  </div>
+</div>
+<span class="product-detail-section-label">Galería</span>
+<div class="project-detail-mosaic">
+  <div class="project-mosaic-item is-wide"><div class="project-mosaic-img" style="background-image: url('images/proyectos/vans/foto-01.jpg');"></div></div>
+  <div class="project-mosaic-item"><div class="project-mosaic-img" style="background-image: url('images/proyectos/vans/foto-02.jpg');"></div></div>
+  <div class="project-mosaic-item"><div class="project-mosaic-img" style="background-image: url('images/proyectos/vans/foto-03.jpg');"></div></div>
+  <div class="project-mosaic-item is-tall"><div class="project-mosaic-img" style="background-image: url('images/proyectos/vans/foto-04.jpg');"></div></div>
+  <div class="project-mosaic-item is-wide"><div class="project-mosaic-img" style="background-image: url('images/proyectos/vans/foto-05.jpg');"></div></div>
+</div>
+        </div>
+
+        <div class="product-detail-view project-detail-view" id="proj-avenida-america">
+<nav class="product-detail-back" aria-label="Ruta de navegación"><button type="button" class="pdb-crumb" data-close-all>Proyectos</button><span class="pdb-sep">/</span><span class="pdb-current">Avenida de América</span></nav>
+<div class="project-detail-hero">
+  <div class="project-detail-photo" style="background-image: url('images/proyectos/avenida-america/portada.jpg');"></div>
+  <div class="project-detail-info">
+    <span class="project-detail-eyebrow">Industria · Intercambiador</span>
+    <h2 class="project-detail-title">Avenida de América</h2>
+    <p class="project-detail-text">Iluminación técnica para los pasillos y andenes del intercambiador de Avenida de América, pensada para garantizar visibilidad y seguridad en un espacio de paso continuo.</p>
+  </div>
+</div>
+<span class="product-detail-section-label">Galería</span>
+<div class="project-detail-mosaic">
+  <div class="project-mosaic-item is-wide"><div class="project-mosaic-img" style="background-image: url('images/proyectos/avenida-america/foto-01.jpg');"></div></div>
+  <div class="project-mosaic-item"><div class="project-mosaic-img" style="background-image: url('images/proyectos/avenida-america/foto-02.jpg');"></div></div>
+  <div class="project-mosaic-item"><div class="project-mosaic-img" style="background-image: url('images/proyectos/avenida-america/foto-03.jpg');"></div></div>
+  <div class="project-mosaic-item is-tall"><div class="project-mosaic-img" style="background-image: url('images/proyectos/avenida-america/foto-04.jpg');"></div></div>
+  <div class="project-mosaic-item"><div class="project-mosaic-img" style="background-image: url('images/proyectos/avenida-america/foto-05.jpg');"></div></div>
+  <div class="project-mosaic-item is-wide"><div class="project-mosaic-img" style="background-image: url('images/proyectos/avenida-america/foto-06.jpg');"></div></div>
+  <div class="project-mosaic-item"><div class="project-mosaic-img" style="background-image: url('images/proyectos/avenida-america/foto-07.jpg');"></div></div>
+</div>
+        </div>
+
+        <div class="product-detail-view project-detail-view" id="proj-bandalux">
+<nav class="product-detail-back" aria-label="Ruta de navegación"><button type="button" class="pdb-crumb" data-close-all>Proyectos</button><span class="pdb-sep">/</span><span class="pdb-current">Bandalux</span></nav>
+<div class="project-detail-hero">
+  <div class="project-detail-photo" style="background-image: url('images/proyectos/bandalux/portada.jpg');"></div>
+  <div class="project-detail-info">
+    <span class="project-detail-eyebrow">Edificios · Sede corporativa</span>
+    <h2 class="project-detail-title">Bandalux</h2>
+    <p class="project-detail-text">Proyecto de iluminación para las instalaciones de Bandalux, acompañando la geometría triangulada de su envolvente. Un ejercicio de integración entre arquitectura y luz a gran escala.</p>
+  </div>
+</div>
+<span class="product-detail-section-label">Galería</span>
+<div class="project-detail-mosaic">
+  <div class="project-mosaic-item is-wide"><div class="project-mosaic-img" style="background-image: url('images/proyectos/bandalux/foto-01.jpg');"></div></div>
+  <div class="project-mosaic-item"><div class="project-mosaic-img" style="background-image: url('images/proyectos/bandalux/foto-02.jpg');"></div></div>
+  <div class="project-mosaic-item"><div class="project-mosaic-img" style="background-image: url('images/proyectos/bandalux/foto-03.jpg');"></div></div>
+  <div class="project-mosaic-item is-tall"><div class="project-mosaic-img" style="background-image: url('images/proyectos/bandalux/foto-04.jpg');"></div></div>
+</div>
+        </div>
+
+        <div class="product-detail-view project-detail-view" id="proj-ciudad-justicia">
+<nav class="product-detail-back" aria-label="Ruta de navegación"><button type="button" class="pdb-crumb" data-close-all>Proyectos</button><span class="pdb-sep">/</span><span class="pdb-current">Ciudad de la Justicia</span></nav>
+<div class="project-detail-hero">
+  <div class="project-detail-photo" style="background-image: url('images/proyectos/ciudad-justicia/portada.jpg');"></div>
+  <div class="project-detail-info">
+    <span class="project-detail-eyebrow">Edificios · Madrid</span>
+    <h2 class="project-detail-title">Ciudad de la Justicia</h2>
+    <p class="project-detail-text">Iluminación exterior de fachada para el conjunto de la Ciudad de la Justicia, incluyendo sus edificios judiciales y la guardería anexa. Un proyecto de gran escala.</p>
+  </div>
+</div>
+<span class="product-detail-section-label">Galería</span>
+<div class="project-detail-mosaic">
+  <div class="project-mosaic-item is-wide"><div class="project-mosaic-img" style="background-image: url('images/proyectos/ciudad-justicia/foto-01.jpg');"></div></div>
+  <div class="project-mosaic-item"><div class="project-mosaic-img" style="background-image: url('images/proyectos/ciudad-justicia/foto-02.jpg');"></div></div>
+  <div class="project-mosaic-item"><div class="project-mosaic-img" style="background-image: url('images/proyectos/ciudad-justicia/foto-03.jpg');"></div></div>
+  <div class="project-mosaic-item is-tall"><div class="project-mosaic-img" style="background-image: url('images/proyectos/ciudad-justicia/foto-04.jpg');"></div></div>
+  <div class="project-mosaic-item"><div class="project-mosaic-img" style="background-image: url('images/proyectos/ciudad-justicia/foto-05.jpg');"></div></div>
+  <div class="project-mosaic-item is-wide"><div class="project-mosaic-img" style="background-image: url('images/proyectos/ciudad-justicia/foto-06.jpg');"></div></div>
+  <div class="project-mosaic-item"><div class="project-mosaic-img" style="background-image: url('images/proyectos/ciudad-justicia/foto-07.jpg');"></div></div>
+</div>
+        </div>
+
+        <div class="product-detail-view project-detail-view" id="proj-edificio-fontan">
+<nav class="product-detail-back" aria-label="Ruta de navegación"><button type="button" class="pdb-crumb" data-close-all>Proyectos</button><span class="pdb-sep">/</span><span class="pdb-current">Edificio Fontán</span></nav>
+<div class="project-detail-hero">
+  <div class="project-detail-photo" style="background-image: url('images/proyectos/edificio-fontan/portada.jpg');"></div>
+  <div class="project-detail-info">
+    <span class="project-detail-eyebrow">Edificios</span>
+    <h2 class="project-detail-title">Edificio Fontán</h2>
+    <p class="project-detail-text">Iluminación de fachada e interiores comunes del Edificio Fontán, con un enfoque en la eficiencia propio de un edificio de oficinas de nueva generación.</p>
+  </div>
+</div>
+<span class="product-detail-section-label">Galería</span>
+<div class="project-detail-mosaic">
+  <div class="project-mosaic-item is-wide"><div class="project-mosaic-img" style="background-image: url('images/proyectos/edificio-fontan/foto-01.jpg');"></div></div>
+  <div class="project-mosaic-item"><div class="project-mosaic-img" style="background-image: url('images/proyectos/edificio-fontan/foto-02.jpg');"></div></div>
+  <div class="project-mosaic-item"><div class="project-mosaic-img" style="background-image: url('images/proyectos/edificio-fontan/foto-03.jpg');"></div></div>
+  <div class="project-mosaic-item is-tall"><div class="project-mosaic-img" style="background-image: url('images/proyectos/edificio-fontan/foto-04.jpg');"></div></div>
+  <div class="project-mosaic-item"><div class="project-mosaic-img" style="background-image: url('images/proyectos/edificio-fontan/foto-05.jpg');"></div></div>
+  <div class="project-mosaic-item is-wide"><div class="project-mosaic-img" style="background-image: url('images/proyectos/edificio-fontan/foto-06.jpg');"></div></div>
+  <div class="project-mosaic-item"><div class="project-mosaic-img" style="background-image: url('images/proyectos/edificio-fontan/foto-07.jpg');"></div></div>
+</div>
+        </div>
+
+        <div class="product-detail-view project-detail-view" id="proj-fachada-santalucia">
+<nav class="product-detail-back" aria-label="Ruta de navegación"><button type="button" class="pdb-crumb" data-close-all>Proyectos</button><span class="pdb-sep">/</span><span class="pdb-current">Fachada Santalucía</span></nav>
+<div class="project-detail-hero">
+  <div class="project-detail-photo" style="background-image: url('images/proyectos/fachada-santalucia/portada.jpg');"></div>
+  <div class="project-detail-info">
+    <span class="project-detail-eyebrow">Edificios · Fachada corporativa</span>
+    <h2 class="project-detail-title">Fachada Santalucía</h2>
+    <p class="project-detail-text">Iluminación arquitectónica de fachada para dos sedes de Santalucía, realzando su volumetría y su identidad corporativa en el skyline nocturno.</p>
+  </div>
+</div>
+<span class="product-detail-section-label">Galería</span>
+<div class="project-detail-mosaic">
+  <div class="project-mosaic-item is-full"><div class="project-mosaic-img" style="background-image: url('images/proyectos/fachada-santalucia/foto-01.jpg');"></div></div>
+</div>
+        </div>
+
+        <div class="product-detail-view project-detail-view" id="proj-plaza-eliptica">
+<nav class="product-detail-back" aria-label="Ruta de navegación"><button type="button" class="pdb-crumb" data-close-all>Proyectos</button><span class="pdb-sep">/</span><span class="pdb-current">Plaza Elíptica</span></nav>
+<div class="project-detail-hero">
+  <div class="project-detail-photo" style="background-image: url('images/proyectos/plaza-eliptica/portada.jpg');"></div>
+  <div class="project-detail-info">
+    <span class="project-detail-eyebrow">Edificios · Madrid</span>
+    <h2 class="project-detail-title">Plaza Elíptica</h2>
+    <p class="project-detail-text">Iluminación técnica para los espacios comunes de Plaza Elíptica, resuelta para un uso intensivo de paso de público.</p>
+  </div>
+</div>
+<span class="product-detail-section-label">Galería</span>
+<div class="project-detail-mosaic">
+  <div class="project-mosaic-item is-wide"><div class="project-mosaic-img" style="background-image: url('images/proyectos/plaza-eliptica/foto-01.jpg');"></div></div>
+  <div class="project-mosaic-item"><div class="project-mosaic-img" style="background-image: url('images/proyectos/plaza-eliptica/foto-02.jpg');"></div></div>
+  <div class="project-mosaic-item"><div class="project-mosaic-img" style="background-image: url('images/proyectos/plaza-eliptica/foto-03.jpg');"></div></div>
+  <div class="project-mosaic-item is-tall"><div class="project-mosaic-img" style="background-image: url('images/proyectos/plaza-eliptica/foto-04.jpg');"></div></div>
+  <div class="project-mosaic-item"><div class="project-mosaic-img" style="background-image: url('images/proyectos/plaza-eliptica/foto-05.jpg');"></div></div>
+  <div class="project-mosaic-item is-wide"><div class="project-mosaic-img" style="background-image: url('images/proyectos/plaza-eliptica/foto-06.jpg');"></div></div>
+  <div class="project-mosaic-item"><div class="project-mosaic-img" style="background-image: url('images/proyectos/plaza-eliptica/foto-07.jpg');"></div></div>
+</div>
+        </div>
+
+        <div class="product-detail-view project-detail-view" id="proj-principe-pio">
+<nav class="product-detail-back" aria-label="Ruta de navegación"><button type="button" class="pdb-crumb" data-close-all>Proyectos</button><span class="pdb-sep">/</span><span class="pdb-current">Príncipe Pío</span></nav>
+<div class="project-detail-hero">
+  <div class="project-detail-photo" style="background-image: url('images/proyectos/principe-pio/portada.jpg');"></div>
+  <div class="project-detail-info">
+    <span class="project-detail-eyebrow">Edificios · Madrid</span>
+    <h2 class="project-detail-title">Príncipe Pío</h2>
+    <p class="project-detail-text">Iluminación exterior para los paneles y la fachada del entorno de Príncipe Pío, con una solución robusta para instalaciones a la intemperie.</p>
+  </div>
+</div>
+<span class="product-detail-section-label">Galería</span>
+<div class="project-detail-mosaic">
+  <div class="project-mosaic-item is-full"><div class="project-mosaic-img" style="background-image: url('images/proyectos/principe-pio/foto-01.jpg');"></div></div>
+</div>
+        </div>
+
+  </div>
+  </main>
+
+  <footer class="site-footer">
+    <span>© 2026 Apheloria Solutions, S.L. · B25952276</span>
+    <span class="footer-sep">·</span>
+    <a href="aviso-legal.html">Aviso legal</a>
+    <span class="footer-sep">·</span>
+    <a href="politica-privacidad.html">Política de privacidad</a>
+    <span class="footer-sep">·</span>
+    <a href="politica-cookies.html">Política de cookies</a>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/listados.js"></script>
+</body>
+</html>

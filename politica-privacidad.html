@@ -13,133 +13,43 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;1,400&family=Inter:wght@200;300;400&family=Montserrat:wght@100;200&family=Raleway:ital,wght@0,300;0,400;0,600;0,800;1,400&display=swap" rel="stylesheet">
-  <style>
-    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
-    :root {
-      --ink: #1a1612;         --ink-rgb: 26, 22, 18;
-      --bg: #FFFFFF;          --bg-rgb: 255, 255, 255;
-      --beige: #F2EDE4;       --beige-rgb: 242, 237, 228;
-      --accent: #b0a898;      --accent-rgb: 176, 168, 152;
-      --accent-soft: #c8bfb0;
-      --accent-text: #857a68;
-      --heading: #6d5f52;
-      --white-rgb: 255, 255, 255;
-      --nav-h: 70px;
-    }
-    html { scroll-behavior: smooth; }
-    body { background: var(--bg); color: var(--ink); font-family: 'Inter', sans-serif; min-height: 100vh; }
-
-    nav {
-      position: sticky; top: 0; z-index: 200;
-      display: flex; align-items: center; justify-content: space-between;
-      padding: 0 2.2rem; height: var(--nav-h);
-      background: rgba(var(--white-rgb),0.85);
-      backdrop-filter: blur(18px) saturate(1.6);
-      border-bottom: 1px solid rgba(var(--ink-rgb),0.06);
-    }
-    .nav-brand { display: flex; align-items: center; text-decoration: none; }
-    .nav-brand-text {
-      font-family: 'Cormorant Garamond', serif;
-      font-size: 1.3rem; font-weight: 300; letter-spacing: 0.18em;
-      color: var(--accent); text-transform: uppercase;
-    }
-    .nav-back {
-      font-family: 'Raleway', sans-serif; font-size: 0.68rem; font-weight: 400;
-      letter-spacing: 0.12em; text-transform: uppercase;
-      color: var(--accent-text); text-decoration: none;
-      display: flex; align-items: center; gap: 0.4rem;
-      transition: color 0.2s;
-    }
-    .nav-back:hover { color: var(--ink); }
-
-    main {
-      max-width: 760px; margin: 0 auto;
-      padding: 3.5rem 1.5rem 5rem;
-    }
-    .legal-eyebrow {
-      display: block; font-family: 'Raleway', sans-serif;
-      font-size: 0.62rem; letter-spacing: 0.4em; text-transform: uppercase;
-      color: var(--accent-text); font-weight: 400; margin-bottom: 0.8rem;
-    }
-    h1 {
-      font-family: 'Montserrat', sans-serif; font-weight: 100;
-      font-size: clamp(1.8rem, 4vw, 2.6rem); letter-spacing: 0.06em;
-      text-transform: uppercase; color: var(--heading); line-height: 1.15;
-      margin-bottom: 0.6rem;
-    }
-    .legal-updated {
-      font-family: 'Raleway', sans-serif; font-size: 0.78rem; font-weight: 300;
-      color: var(--accent-text); margin-bottom: 2.8rem;
-    }
-    h2 {
-      font-family: 'Raleway', sans-serif; font-weight: 800;
-      font-size: 1.05rem; letter-spacing: 0.01em;
-      color: var(--ink); text-transform: uppercase;
-      margin: 2.6rem 0 1rem;
-      padding-bottom: 0.6rem;
-      border-bottom: 1px solid rgba(var(--ink-rgb),0.08);
-    }
-    h2:first-of-type { margin-top: 0; }
-    h3 {
-      font-family: 'Raleway', sans-serif; font-weight: 600;
-      font-size: 0.92rem; color: var(--heading);
-      margin: 1.6rem 0 0.6rem;
-    }
-    p, li {
-      font-family: 'Raleway', sans-serif; font-weight: 300;
-      font-size: 0.95rem; line-height: 1.85; color: var(--ink);
-    }
-    p { margin-bottom: 1.1rem; }
-    ul, ol { margin: 0 0 1.1rem 1.3rem; }
-    li { margin-bottom: 0.5rem; }
-    strong { font-weight: 600; }
-    a.inline-link { color: var(--accent-text); text-decoration-color: var(--accent); }
-    a.inline-link:hover { color: var(--ink); }
-
-    .legal-datos {
-      display: grid; grid-template-columns: minmax(0, 220px) 1fr;
-      gap: 0.65rem 1.5rem;
-      background: var(--beige); border-radius: 4px;
-      padding: 1.6rem 1.8rem; margin: 0 0 1.8rem;
-    }
-    .legal-datos dt {
-      font-family: 'Raleway', sans-serif; font-size: 0.68rem; font-weight: 600;
-      letter-spacing: 0.06em; text-transform: uppercase; color: var(--accent-text);
-    }
-    .legal-datos dd {
-      font-family: 'Raleway', sans-serif; font-size: 0.9rem; font-weight: 300; color: var(--ink);
-    }
-
-    .notice-box {
-      background: var(--beige); border-left: 3px solid var(--accent);
-      padding: 1.1rem 1.4rem; margin: 0 0 1.6rem; border-radius: 0 4px 4px 0;
-    }
-    .notice-box p:last-child { margin-bottom: 0; }
-
-    footer.site-footer-doc {
-      border-top: 1px solid rgba(var(--ink-rgb),0.08);
-      padding: 2.2rem 1.5rem 2.5rem;
-      text-align: center;
-      font-family: 'Raleway', sans-serif; font-size: 0.68rem; color: var(--accent-text);
-    }
-    footer.site-footer-doc .footer-links { margin-top: 0.6rem; display: flex; gap: 0.6rem; justify-content: center; flex-wrap: wrap; }
-    footer.site-footer-doc a { color: var(--accent-text); text-decoration: none; }
-    footer.site-footer-doc a:hover { color: var(--ink); text-decoration: underline; text-decoration-color: var(--accent); }
-    footer.site-footer-doc .footer-sep { color: var(--accent-soft); }
-
-    @media (max-width: 640px) {
-      nav { padding: 0 1.2rem; }
-      .legal-datos { grid-template-columns: 1fr; padding: 1.3rem 1.4rem; }
-      main { padding: 2.5rem 1.2rem 3.5rem; }
-    }
-  </style>
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="stylesheet" href="css/legal.css">
 </head>
-<body>
+<body data-pagina="legal">
 
+  <header>
   <nav>
-    <a class="nav-brand" href="index.html"><span class="nav-brand-text">Apheloria Solutions</span></a>
-    <a class="nav-back" href="index.html">← Volver a la web</a>
+    <a class="nav-brand" href="index.html" aria-label="Apheloria Solutions — inicio">
+      <span class="nav-logo-icon"></span>
+      <span class="nav-brand-text">Apheloria Solutions</span>
+    </a>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html" data-pagina="inicio">Inicio</a></li>
+      <li><a href="proyectos.html" data-pagina="proyectos">Proyectos</a></li>
+      <li class="nav-item">
+        <a href="productos.html" data-pagina="productos">Productos</a>
+        <div class="nav-dropdown">
+          <a href="productos.html#industrial">Industrial</a>
+          <a href="productos.html#interior">Interior</a>
+          <a href="productos.html#exterior">Exterior</a>
+          <a href="productos.html#emergencias">Emergencias</a>
+          <a href="productos.html#decorativas">Decorativas</a>
+          <a href="productos.html#bombillas">Bombillas y Accesorios</a>
+        </div>
+      </li>
+      <li><a href="catalogo.html" data-pagina="catalogo">Catálogo</a></li>
+    </ul>
+
+    <div class="nav-right">
+      <a class="nav-contact-btn" href="contacto.html" data-pagina="contacto">Contacto</a>
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
   </nav>
+  </header>
 
   <main>
     <span class="legal-eyebrow">Legal</span>
@@ -206,18 +116,18 @@
     <p>Esta Política de Privacidad puede ser modificada para adaptarla a novedades legislativas, jurisprudenciales o a cambios en la forma en que tratamos los datos personales (por ejemplo, al incorporar herramientas de analítica). Se recomienda revisar esta página periódicamente. La fecha de última actualización figura al inicio del documento.</p>
   </main>
 
-  <footer class="site-footer-doc">
-    <div>Apheloria Solutions, S.L. · B25952276 · Avda. Emilio Arrieta, 8, puerta 36, 28706 San Sebastián de los Reyes (Madrid)</div>
-    <div class="footer-links">
-      <a href="aviso-legal.html">Aviso legal</a>
-      <span class="footer-sep">·</span>
-      <a href="politica-privacidad.html">Política de privacidad</a>
-      <span class="footer-sep">·</span>
-      <a href="politica-cookies.html">Política de cookies</a>
-      <span class="footer-sep">·</span>
-      <a href="index.html">Volver a la web</a>
-    </div>
+  <p class="legal-direccion">Apheloria Solutions, S.L. · B25952276 · Avda. Emilio Arrieta, 8, puerta 36, 28706 San Sebastián de los Reyes (Madrid)</p>
+
+  <footer class="site-footer">
+    <span>© 2026 Apheloria Solutions, S.L. · B25952276</span>
+    <span class="footer-sep">·</span>
+    <a href="aviso-legal.html">Aviso legal</a>
+    <span class="footer-sep">·</span>
+    <a href="politica-privacidad.html">Política de privacidad</a>
+    <span class="footer-sep">·</span>
+    <a href="politica-cookies.html">Política de cookies</a>
   </footer>
 
+  <script src="js/main.js"></script>
 </body>
 </html>

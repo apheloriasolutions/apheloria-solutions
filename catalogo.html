@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catálogo — Apheloria Solutions</title>
+  <meta name="description" content="Catálogo general de Apheloria Solutions: iluminación técnica y material eléctrico para instaladores, ingenierías y arquitectos.">
+  <!-- TODO: sustituir por el dominio real cuando la web esté publicada -->
+  <meta property="og:title" content="Catálogo — Apheloria Solutions">
+  <meta property="og:description" content="Catálogo general de Apheloria Solutions: iluminación técnica y material eléctrico para instaladores, ingenierías y arquitectos.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="logo.png">
+  <meta property="og:locale" content="es_ES">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;1,400&family=Inter:wght@200;300;400&family=Montserrat:wght@100;200&family=Raleway:ital,wght@0,300;0,400;0,600;0,800;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="stylesheet" href="css/catalogo.css">
+</head>
+<body data-pagina="catalogo">
+
+  <header>
+  <nav>
+    <a class="nav-brand" href="index.html" aria-label="Apheloria Solutions — inicio">
+      <span class="nav-logo-icon"></span>
+      <span class="nav-brand-text">Apheloria Solutions</span>
+    </a>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html" data-pagina="inicio">Inicio</a></li>
+      <li><a href="proyectos.html" data-pagina="proyectos">Proyectos</a></li>
+      <li class="nav-item">
+        <a href="productos.html" data-pagina="productos">Productos</a>
+        <div class="nav-dropdown">
+          <a href="productos.html#industrial">Industrial</a>
+          <a href="productos.html#interior">Interior</a>
+          <a href="productos.html#exterior">Exterior</a>
+          <a href="productos.html#emergencias">Emergencias</a>
+          <a href="productos.html#decorativas">Decorativas</a>
+          <a href="productos.html#bombillas">Bombillas y Accesorios</a>
+        </div>
+      </li>
+      <li><a href="catalogo.html" data-pagina="catalogo">Catálogo</a></li>
+    </ul>
+
+    <div class="nav-right">
+      <a class="nav-contact-btn" href="contacto.html" data-pagina="contacto">Contacto</a>
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+  </header>
+
+  <main class="pagina pagina-catalogo">
+  <div class="cat-visual">
+    <div class="cat-books" aria-hidden="true">
+      <div class="cat-book cat-book-c"></div>
+      <div class="cat-book cat-book-b"></div>
+      <div class="cat-book cat-book-a">
+        <div><span class="cat-brand">Apheloria</span><span class="cat-sub">Catálogo General</span></div>
+        <span class="cat-year">Iluminación técnica · Material eléctrico</span>
+      </div>
+    </div>
+    <div class="cat-tags">
+      <span class="cat-tag">Industrial</span>
+      <span class="cat-tag">Interior</span>
+      <span class="cat-tag">Exterior</span>
+      <span class="cat-tag">Emergencias</span>
+      <span class="cat-tag">Decorativas</span>
+      <span class="cat-tag">Bombillas y Accesorios</span>
+    </div>
+  </div>
+  <div class="cat-panel">
+    <span class="cat-eye">Catálogo</span>
+    <h1 class="cat-h2">Todo nuestro catálogo,<br><em>en un solo documento</em></h1>
+    <p class="cat-p">Estamos preparando el catálogo general en PDF con todas las familias y referencias. Mientras tanto, cada producto tiene su ficha técnica disponible en la sección Productos.</p>
+    <div class="cat-stats">
+      <div><span class="cat-num">177</span><span class="cat-lbl">Referencias</span></div>
+      <div><span class="cat-num">6</span><span class="cat-lbl">Categorías</span></div>
+      <div><span class="cat-num">20+</span><span class="cat-lbl">Años</span></div>
+    </div>
+    <button class="btn btn-light cat-btn" disabled aria-disabled="true">Disponible próximamente</button>
+    <span class="cat-note">¿Lo necesitas ya? Escríbenos y te lo enviamos por email.</span>
+  </div>
+</div>
+        </div>
+  </main>
+
+  <footer class="site-footer">
+    <span>© 2026 Apheloria Solutions, S.L. · B25952276</span>
+    <span class="footer-sep">·</span>
+    <a href="aviso-legal.html">Aviso legal</a>
+    <span class="footer-sep">·</span>
+    <a href="politica-privacidad.html">Política de privacidad</a>
+    <span class="footer-sep">·</span>
+    <a href="politica-cookies.html">Política de cookies</a>
+  </footer>
+
+  <script src="js/main.js"></script>
+
+</body>
+</html>

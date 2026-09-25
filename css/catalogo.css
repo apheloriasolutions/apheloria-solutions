@@ -1,8 +1,8 @@
 /* Apheloria — Catálogo */
 
 /* ── CATÁLOGO ── */
-.catalogo-slide { background: var(--bg); }
-.catalogo-slide .slide-inner {
+.pagina-catalogo { background: var(--bg); }
+.pagina-catalogo {
   position: absolute; top: 0; bottom: 0; left: 50%;
   width: 100%; max-width: 1800px; transform: translateX(-50%);
   display: flex; flex-direction: row;
@@ -48,7 +48,7 @@
 .cat-btn    { align-self: flex-start; }
 
 @media (max-width: 900px) {
-  .cat-inner { flex-direction: column; }
+  .pagina-catalogo { flex-direction: column; }
   .cat-visual { padding: 2.5rem 1.5rem; }
   .cat-panel { width: 100%; padding: 2.5rem 1.5rem; }
 }

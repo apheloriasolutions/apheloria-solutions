@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto — Apheloria Solutions</title>
+  <meta name="description" content="Ponte en contacto con Apheloria Solutions: presupuestos y asesoramiento en iluminación técnica y material eléctrico.">
+  <!-- TODO: sustituir por el dominio real cuando la web esté publicada -->
+  <meta property="og:title" content="Contacto — Apheloria Solutions">
+  <meta property="og:description" content="Ponte en contacto con Apheloria Solutions: presupuestos y asesoramiento en iluminación técnica y material eléctrico.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="logo.png">
+  <meta property="og:locale" content="es_ES">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;1,400&family=Inter:wght@200;300;400&family=Montserrat:wght@100;200&family=Raleway:ital,wght@0,300;0,400;0,600;0,800;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="stylesheet" href="css/contacto.css">
+</head>
+<body data-pagina="contacto">
+
+  <header>
+  <nav>
+    <a class="nav-brand" href="index.html" aria-label="Apheloria Solutions — inicio">
+      <span class="nav-logo-icon"></span>
+      <span class="nav-brand-text">Apheloria Solutions</span>
+    </a>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html" data-pagina="inicio">Inicio</a></li>
+      <li><a href="proyectos.html" data-pagina="proyectos">Proyectos</a></li>
+      <li class="nav-item">
+        <a href="productos.html" data-pagina="productos">Productos</a>
+        <div class="nav-dropdown">
+          <a href="productos.html#industrial">Industrial</a>
+          <a href="productos.html#interior">Interior</a>
+          <a href="productos.html#exterior">Exterior</a>
+          <a href="productos.html#emergencias">Emergencias</a>
+          <a href="productos.html#decorativas">Decorativas</a>
+          <a href="productos.html#bombillas">Bombillas y Accesorios</a>
+        </div>
+      </li>
+      <li><a href="catalogo.html" data-pagina="catalogo">Catálogo</a></li>
+    </ul>
+
+    <div class="nav-right">
+      <a class="nav-contact-btn" href="contacto.html" data-pagina="contacto">Contacto</a>
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+  </header>
+
+  <main class="pagina pagina-contacto">
+  <div class="con-left">
+    <span class="con-eye">Contacto</span>
+    <h1 class="con-h2">Cuéntanos tu proyecto,<br><em>te asesoramos sin compromiso</em></h1>
+    <form class="con-form" id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+      <input type="hidden" name="access_key" value="3779470c-c954-4706-a94e-10f67d00f40c">
+      <input type="checkbox" name="botcheck" class="con-honeypot" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <div class="con-row">
+        <input class="con-inp" type="text" name="name" placeholder="Nombre" aria-label="Nombre" required>
+        <input class="con-inp" type="email" name="email" placeholder="Email" aria-label="Email" required>
+      </div>
+      <input class="con-inp" type="text" name="subject" placeholder="Asunto" aria-label="Asunto">
+      <textarea class="con-inp con-area" name="message" placeholder="Cuéntanos en qué podemos ayudarte" aria-label="Mensaje" required></textarea>
+      <button class="btn btn-primary con-send" type="submit">Enviar mensaje</button>
+      <p class="con-feedback" id="conFeedback" role="status" aria-live="polite" hidden></p>
+    </form>
+  </div>
+  <div class="con-right">
+    <span class="con-deco" aria-hidden="true">@</span>
+    <h3 class="con-ih2">Hablamos <em>cuando quieras</em></h3>
+    <p class="con-ip">Asesoramiento cercano y especializado para instaladores, ingenierías, arquitectos y promotores.</p>
+    <div class="con-list">
+      <div class="con-item">
+        <span class="con-ilbl">Email</span>
+        <a class="con-ival" href="mailto:info@apheloria.es">info@apheloria.es</a>
+      </div>
+      <div class="con-item">
+        <span class="con-ilbl">Teléfono</span>
+        <a class="con-ival" href="tel:+34645085743">645 085 743</a>
+      </div>
+      <div class="con-item">
+        <span class="con-ilbl">Horario</span>
+        <span class="con-ival">Lunes a viernes · 9:00 – 18:00</span>
+      </div>
+    </div>
+  </div>
+</div>
+        </div>
+  </main>
+
+  <footer class="site-footer">
+    <span>© 2026 Apheloria Solutions, S.L. · B25952276</span>
+    <span class="footer-sep">·</span>
+    <a href="aviso-legal.html">Aviso legal</a>
+    <span class="footer-sep">·</span>
+    <a href="politica-privacidad.html">Política de privacidad</a>
+    <span class="footer-sep">·</span>
+    <a href="politica-cookies.html">Política de cookies</a>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/contacto.js"></script>
+</body>
+</html>

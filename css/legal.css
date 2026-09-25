@@ -1,0 +1,91 @@
+/* Apheloria — páginas legales (aviso legal, privacidad, cookies) */
+
+main {
+  max-width: 860px; margin: 0 auto; padding: 4rem 2.2rem 5rem;
+}
+
+/* CONTENIDO LEGAL */
+    main {
+      max-width: 760px; margin: 0 auto;
+      padding: 3.5rem 1.5rem 5rem;
+    }
+
+.legal-eyebrow {
+      display: block; font-family: 'Raleway', sans-serif;
+      font-size: 0.62rem; letter-spacing: 0.4em; text-transform: uppercase;
+      color: var(--accent-text); font-weight: 400; margin-bottom: 0.8rem;
+    }
+
+h1 {
+      font-family: 'Montserrat', sans-serif; font-weight: 100;
+      font-size: clamp(1.8rem, 4vw, 2.6rem); letter-spacing: 0.06em;
+      text-transform: uppercase; color: var(--heading); line-height: 1.15;
+      margin-bottom: 0.6rem;
+    }
+
+.legal-updated {
+      font-family: 'Raleway', sans-serif; font-size: 0.78rem; font-weight: 300;
+      color: var(--accent-text); margin-bottom: 2.8rem;
+    }
+
+h2 {
+      font-family: 'Raleway', sans-serif; font-weight: 800;
+      font-size: 1.05rem; letter-spacing: 0.01em;
+      color: var(--ink); text-transform: uppercase;
+      margin: 2.6rem 0 1rem;
+      padding-bottom: 0.6rem;
+      border-bottom: 1px solid rgba(var(--ink-rgb),0.08);
+    }
+
+h2:first-of-type { margin-top: 0; }
+
+p, li {
+      font-family: 'Raleway', sans-serif; font-weight: 300;
+      font-size: 0.95rem; line-height: 1.85; color: var(--ink);
+    }
+
+p { margin-bottom: 1.1rem; }
+
+ul, ol { margin: 0 0 1.1rem 1.3rem; }
+
+li { margin-bottom: 0.5rem; }
+
+strong { font-weight: 600; }
+
+a.inline-link { color: var(--accent-text); text-decoration-color: var(--accent); }
+
+a.inline-link:hover { color: var(--ink); }
+
+.legal-datos {
+      display: grid; grid-template-columns: minmax(0, 220px) 1fr;
+      gap: 0.65rem 1.5rem;
+      background: var(--beige); border-radius: 4px;
+      padding: 1.6rem 1.8rem; margin: 0 0 1.8rem;
+    }
+
+.legal-datos dt {
+      font-family: 'Raleway', sans-serif; font-size: 0.68rem; font-weight: 600;
+      letter-spacing: 0.06em; text-transform: uppercase; color: var(--accent-text);
+    }
+
+.legal-datos dd {
+      font-family: 'Raleway', sans-serif; font-size: 0.9rem; font-weight: 300; color: var(--ink);
+    }
+
+/* FOOTER (documento normal, no fijo) */
+    footer.site-footer-doc {
+      border-top: 1px solid rgba(var(--ink-rgb),0.08);
+      padding: 2.2rem 1.5rem 2.5rem;
+      text-align: center;
+      font-family: 'Raleway', sans-serif; font-size: 0.68rem; color: var(--accent-text);
+    }
+
+footer.site-footer-doc .footer-links { margin-top: 0.6rem; display: flex; gap: 0.6rem; justify-content: center; flex-wrap: wrap; }
+
+footer.site-footer-doc a { color: var(--accent-text); text-decoration: none; }
+
+footer.site-footer-doc a:hover { color: var(--ink); text-decoration: underline; text-decoration-color: var(--accent); }
+
+footer.site-footer-doc .footer-sep { color: var(--accent-soft); }
+
+.legal-datos { grid-template-columns: 1fr; padding: 1.3rem 1.4rem; }

@@ -27,7 +27,21 @@
     scroll-behavior: auto !important;
   }
 }
-html, body { overflow: hidden; height: 100vh; height: 100dvh; background: var(--bg); color: var(--ink); font-family: 'Inter', sans-serif; }
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+body {
+  background: var(--bg); color: var(--ink); font-family: 'Inter', sans-serif;
+  /* el nav y el pie son barras fijas: se les reserva sitio */
+  padding-top: var(--nav-h); padding-bottom: var(--footer-h);
+  overflow-x: hidden;            /* nada debe desbordar a lo ancho */
+}
+
+/* Contenedor de página: ocupa como mínimo lo que queda entre nav y pie */
+.pagina {
+  min-height: calc(100dvh - var(--nav-h) - var(--footer-h));
+  display: flex; flex-direction: column;
+  padding: 4rem 3rem;
+}
 
 
 /* ═══ NAV ═══ */
@@ -46,6 +60,7 @@ nav {
   transform: translateX(-57px); /* 1,5cm a la izquierda */
   display: flex; align-items: center; gap: calc(2.5rem + 0.2cm); /* +0,2cm de separación entre logo y texto */
   cursor: pointer; flex-shrink: 0;
+  text-decoration: none;          /* ahora es un enlace a la portada */
 }
 .nav-brand-text {
   font-family: 'Cormorant Garamond', serif;
