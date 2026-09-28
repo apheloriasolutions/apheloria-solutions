@@ -8,3 +8,6 @@ C*DIGOS GENERALES.xlsx
 
 # Archivos temporales de Office (se crean al tener un Excel abierto)
 ~$*
+
+# Fichas técnicas originales en Excel: material de trabajo, no se publica
+fuentes/

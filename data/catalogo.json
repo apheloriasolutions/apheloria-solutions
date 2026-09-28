@@ -1,0 +1,4179 @@
+{
+ "arbol": {
+  "nombre": "Productos",
+  "slug": "productos",
+  "ruta": "",
+  "hijos": [
+   {
+    "nombre": "Interiores",
+    "slug": "interiores",
+    "ruta": "1 -  INTERIORES",
+    "hijos": [
+     {
+      "nombre": "Downlights Empotrados",
+      "slug": "downlights-empotrados",
+      "ruta": "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS",
+      "hijos": [
+       {
+        "nombre": "Cardans",
+        "slug": "cardans",
+        "ruta": "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.1.1 - CARDANS",
+        "hijos": [],
+        "botones": [
+         {
+          "nombre": "Luminaria tipo cardan doble mod. CAR blanco",
+          "slug": "luminaria-tipo-cardan-doble-mod-car-blanco",
+          "codigos": [
+           "002CARD40WXX"
+          ],
+          "archivos": [
+           "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.1.1 - CARDANS/002CARD40WXX -Luminaria tipo cardan doble mod. CAR blanco 40W 4150lm CRI90.xlsx"
+          ]
+         },
+         {
+          "nombre": "Luminaria tipo cardan mod. CAR blanco",
+          "slug": "luminaria-tipo-cardan-mod-car-blanco",
+          "codigos": [
+           "00CARD20W3KBL"
+          ],
+          "archivos": [
+           "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.1.1 - CARDANS/00CARD20W3KBL -Luminaria tipo cardan mod. CAR blanco 20W 3000K 2540lm CRI90.xlsx"
+          ]
+         }
+        ]
+       },
+       {
+        "nombre": "Trimless",
+        "slug": "trimless",
+        "ruta": "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.10 - TRIMLESS",
+        "hijos": [],
+        "botones": [
+         {
+          "nombre": "Downlight trimless mod. BIO40",
+          "slug": "downlight-trimless-mod-bio40",
+          "codigos": [
+           "00DTBIO49W27K",
+           "0DTBIO49W27KD"
+          ],
+          "archivos": [
+           "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.10 - TRIMLESS/00DTBIO49W27K - Downlight trimless mod. BIO40 - 9.2W 2700K 32º UGR 10 ON-OFF.xlsx",
+           "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.10 - TRIMLESS/0DTBIO49W27KD - Downlight trimless mod. BIO40 - 9.2W 2700K 32º UGR 10 DALI.xlsx"
+          ]
+         },
+         {
+          "nombre": "Downlight trimless mod. BIO60",
+          "slug": "downlight-trimless-mod-bio60",
+          "codigos": [
+           "0DTBI612W27KD"
+          ],
+          "archivos": [
+           "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.10 - TRIMLESS/0DTBI612W27KD - Downlight trimless mod. BIO60 - 12.8W 2700K 42º UGR 10 DALI.xlsx"
+          ]
+         }
+        ]
+       },
+       {
+        "nombre": "Orientables y Especiales",
+        "slug": "orientables-y-especiales",
+        "ruta": "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.11 - ORIENTABLES Y ESPECIALES",
+        "hijos": [],
+        "botones": [
+         {
+          "nombre": "Downlight empotrable mod. COR",
+          "slug": "downlight-empotrable-mod-cor",
+          "codigos": [
+           "00DWCOR20W30K"
+          ],
+          "archivos": [
+           "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.11 - ORIENTABLES Y ESPECIALES/00DWCOR20W30K - Downlight empotrable mod. COR 20W-3000K 1900lm 40º IP20 blanco.xlsx"
+          ]
+         },
+         {
+          "nombre": "Downlight empotrado Wall washer mod. LINK LED",
+          "slug": "downlight-empotrado-wall-washer-mod-link-led",
+          "codigos": [
+           "0DEWWL10W40BD"
+          ],
+          "archivos": [
+           "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.11 - ORIENTABLES Y ESPECIALES/0DEWWL10W40BD - Downlight empotrado Wall washer mod. LINK LED 10W 4000K blanco DALI.xlsx"
+          ]
+         },
+         {
+          "nombre": "Downlight empotrado orientable mod. NIX LED",
+          "slug": "downlight-empotrado-orientable-mod-nix-led",
+          "codigos": [
+           "00DO40W30N"
+          ],
+          "archivos": [
+           "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.11 - ORIENTABLES Y ESPECIALES/00DO40W30N - Downlight empotrado orientable mod. NIX LED 40W 3000K m CRI95 40º negro.xlsx"
+          ]
+         },
+         {
+          "nombre": "Downlight empotrado orientable mod. PLANET LED",
+          "slug": "downlight-empotrado-orientable-mod-planet-led",
+          "codigos": [
+           "00DLEP30W30N"
+          ],
+          "archivos": [
+           "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.11 - ORIENTABLES Y ESPECIALES/00DLEP30W30N - Downlight empotrado orientable mod. PLANET LED 30W 4000K m CRI95 40º negro.xlsx"
+          ]
+         }
+        ]
+       },
+       {
+        "nombre": "Simples",
+        "slug": "simples",
+        "ruta": "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.12 - SIMPLES",
+        "hijos": [],
+        "botones": [
+         {
+          "nombre": "Downlight empotrable mod. Cobfix GU10",
+          "slug": "downlight-empotrable-mod-cobfix-gu10",
+          "codigos": [
+           "0DWCOBF7WXXKX"
+          ],
+          "archivos": [
+           "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.12 - SIMPLES/0DWCOBF7WXXKX - Downlight empotrable mod. Cobfix GU10 7W 36º IP20..xlsx"
+          ]
+         },
+         {
+          "nombre": "Downlight empotrable mod. SIM COB",
+          "slug": "downlight-empotrable-mod-sim-cob",
+          "codigos": [
+           "00DWSIM7WXXKX"
+          ],
+          "archivos": [
+           "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.12 - SIMPLES/00DWSIM7WXXKX - Downlight empotrable mod. SIM COB 7W 360º  IP20..xlsx"
+          ]
+         },
+         {
+          "nombre": "Downlight empotrado fijo LED",
+          "slug": "downlight-empotrado-fijo-led",
+          "codigos": [
+           "00DOWN6WIP65"
+          ],
+          "archivos": [
+           "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.12 - SIMPLES/00DOWN6WIP65 - Downlight empotrado fijo LED 6W 4000K m 36º IP65.xlsx"
+          ]
+         }
+        ]
+       },
+       {
+        "nombre": "CCT",
+        "slug": "cct",
+        "ruta": "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.2 - CCT",
+        "hijos": [],
+        "botones": [
+         {
+          "nombre": "Downlight empotrable circular Cob Led",
+          "slug": "downlight-empotrable-circular-cob-led",
+          "codigos": [
+           "0DLROM10W3CCT",
+           "0DLROM20W3CCT"
+          ],
+          "archivos": [
+           "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.2 - CCT/0DLROM10W3CCT - Downlight empotrable circular Cob Led 10W CCT IP44 blanco  CRI90 36º 250mA.xlsx",
+           "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.2 - CCT/0DLROM20W3CCT - Downlight empotrable circular Cob Led 20W CCT IP44 blanco  CRI90 36º 500mA.xlsx"
+          ]
+         }
+        ]
+       },
+       {
+        "nombre": "Luz Difusa",
+        "slug": "luz-difusa",
+        "ruta": "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.3 - LUZ DIFUSA",
+        "hijos": [],
+        "botones": [
+         {
+          "nombre": "ARCA",
+          "slug": "arca",
+          "codigos": [
+           "00DOWN6WIP654",
+           "00DWN15WIP654"
+          ],
+          "archivos": [
+           "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.3 - LUZ DIFUSA/00DOWN6WIP654 - ARCA 6W 4000K IP65 DOWLIGHT EMPOTRAR CIRCULAR BLANCO.xlsx",
+           "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.3 - LUZ DIFUSA/00DWN15WIP654 - ARCA 15W 4000K IP65 DOWLIGHT EMPOTRAR CIRCULAR BLANCO.xlsx"
+          ]
+         },
+         {
+          "nombre": "ARCADIA",
+          "slug": "arcadia",
+          "codigos": [
+           "0043910540"
+          ],
+          "archivos": [
+           "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.3 - LUZ DIFUSA/0043910540 - ARCADIA 5W 4000K IP54 DOWLIGHT EMPOTRAR CIRCULAR BLANCO.xlsx"
+          ]
+         },
+         {
+          "nombre": "DOWNLIGHT EMPOTRAR",
+          "slug": "downlight-empotrar",
+          "codigos": [
+           "00DOWN7WIP65"
+          ],
+          "archivos": [
+           "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.3 - LUZ DIFUSA/00DOWN7WIP65 - DOWNLIGHT EMPOTRAR 7W SMD2835 IP65 ETX. 574Lm..xlsx"
+          ]
+         },
+         {
+          "nombre": "Downlight LED empotrable mod. DIA",
+          "slug": "downlight-led-empotrable-mod-dia",
+          "codigos": [
+           "00DOWDALI254K"
+          ],
+          "archivos": [
+           "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.3 - LUZ DIFUSA/00DOWDALI254K - Downlight LED empotrable mod. DIA 25W-4000K_2750lm- IP44 blanco.xlsx"
+          ]
+         }
+        ]
+       },
+       {
+        "nombre": "MIN",
+        "slug": "min",
+        "ruta": "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.4 - MIN",
+        "hijos": [],
+        "botones": [
+         {
+          "nombre": "Downlight empotrable recesado mod. MIN",
+          "slug": "downlight-empotrable-recesado-mod-min",
+          "codigos": [
+           "00DOMIN12WB",
+           "00DOMIN1OWB"
+          ],
+          "archivos": [
+           "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.4 - MIN/00DOMIN12WB - Downlight empotrable recesado mod. MIN 12W 1440lm _2700K-3200K-4000K_IP65.xlsx",
+           "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.4 - MIN/00DOMIN1OWB -Downlight empotrable recesado mod. MIN - 10W 1000lm _2700K-3200K-4000K_IP65.xlsx"
+          ]
+         }
+        ]
+       },
+       {
+        "nombre": "MIX",
+        "slug": "mix",
+        "ruta": "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.5 - MIX",
+        "hijos": [],
+        "botones": [
+         {
+          "nombre": "Downlight empotrado Wall washer mod. MIX LED",
+          "slug": "downlight-empotrado-wall-washer-mod-mix-led",
+          "codigos": [
+           "0DMIXE10WCCTB"
+          ],
+          "archivos": [
+           "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.5 - MIX/0DMIXE10WCCTB - Downlight empotrado Wall washer mod. MIX LED 10W 4000K blanco CCT-multivoltaje.xlsx"
+          ]
+         }
+        ]
+       },
+       {
+        "nombre": "NEX",
+        "slug": "nex",
+        "ruta": "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.6 - NEX",
+        "hijos": [],
+        "botones": [
+         {
+          "nombre": "Downlight empotrado fijo mod. NEX",
+          "slug": "downlight-empotrado-fijo-mod-nex",
+          "codigos": [
+           "0DLNEX07W30BB",
+           "0DLNEX07W30BN",
+           "0DLNEX07W40BB",
+           "0DLNEX07W40BN",
+           "0DLNEX12W30BB",
+           "0DLNEX12W30BN",
+           "0DLNEX12W40BB",
+           "0DLNEX12W40BN",
+           "0DLNEX20W30BB",
+           "0DLNEX20W30BN",
+           "0DLNEX20W40BB",
+           "0DLNEX20W40BN",
+           "0DLNEX25W30BB",
+           "0DLNEX25W30BN",
+           "0DLNEX25W40BB",
+           "0DLNEX25W40BN"
+          ],
+          "archivos": [
+           "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.6 - NEX/0DLNEX07W30BB - Downlight empotrado fijo mod. NEX 7W 3000K CRI90 60º 300mA.xlsx",
+           "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.6 - NEX/0DLNEX07W30BN - Downlight empotrado fijo mod. NEX 7W 3000K CRI90 60º 300mA.xlsx",
+           "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.6 - NEX/0DLNEX07W40BB - Downlight empotrado fijo mod. NEX 7W 4000K CRI90 60º 300mA.xlsx",
+           "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.6 - NEX/0DLNEX07W40BN - Downlight empotrado fijo mod. NEX 7W 4000K CRI90 60º 300mA.xlsx",
+           "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.6 - NEX/0DLNEX12W30BB - Downlight empotrado fijo mod. NEX 12W 3000K CRI90 60º 300mA.xlsx",
+           "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.6 - NEX/0DLNEX12W30BN - Downlight empotrado fijo mod. NEX 12W 3000K CRI90 60º 300mA.xlsx",
+           "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.6 - NEX/0DLNEX12W40BB - Downlight empotrado fijo mod. NEX 12W 4000K CRI90 60º 300mA.xlsx",
+           "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.6 - NEX/0DLNEX12W40BN - Downlight empotrado fijo mod. NEX 12W 4000K CRI90 60º 300mA.xlsx",
+           "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.6 - NEX/0DLNEX20W30BB - Downlight empotrado fijo mod. NEX 20W 3000K CRI90 60º 500mA.xlsx",
+           "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.6 - NEX/0DLNEX20W30BN - Downlight empotrado fijo mod. NEX 20W 3000K CRI90 60º 500mA.xlsx",
+           "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.6 - NEX/0DLNEX20W40BB - Downlight empotrado fijo mod. NEX 20W 4000K CRI90 60º 500mA.xlsx",
+           "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.6 - NEX/0DLNEX20W40BN - Downlight empotrado fijo mod. NEX 20W 4000K CRI90 60º 500mA.xlsx",
+           "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.6 - NEX/0DLNEX25W30BB - Downlight empotrado fijo mod. NEX 25W 3000K CRI90 60º 600mA.xlsx",
+           "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.6 - NEX/0DLNEX25W30BN - Downlight empotrado fijo mod. NEX 25W 3000K CRI90 60º 600mA.xlsx",
+           "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.6 - NEX/0DLNEX25W40BB - Downlight empotrado fijo mod. NEX 25W 4000K CRI90 60º 600mA.xlsx",
+           "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.6 - NEX/0DLNEX25W40BN - Downlight empotrado fijo mod. NEX 25W 4000K CRI90 60º 600mA.xlsx"
+          ]
+         }
+        ]
+       },
+       {
+        "nombre": "OCU",
+        "slug": "ocu",
+        "ruta": "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.7 - OCU",
+        "hijos": [],
+        "botones": [
+         {
+          "nombre": "Downlight empotrable orientable mod. OCU",
+          "slug": "downlight-empotrable-orientable-mod-ocu",
+          "codigos": [
+           "0DEOCU15W30KB"
+          ],
+          "archivos": [
+           "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.7 - OCU/0DEOCU15W30KB - Downlight empotrable orientable mod. OCU 15W 2400lm 3000K_IP20 blanco.xlsx"
+          ]
+         }
+        ]
+       },
+       {
+        "nombre": "SLIM",
+        "slug": "slim",
+        "ruta": "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.8 - SLIM",
+        "hijos": [
+         {
+          "nombre": "SLIM 3CCT",
+          "slug": "slim-3cct",
+          "ruta": "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.8 - SLIM/SLIM 3CCT",
+          "hijos": [],
+          "botones": [
+           {
+            "nombre": "Downlight empotrable circular SLIM LED",
+            "slug": "downlight-empotrable-circular-slim-led",
+            "codigos": [
+             "00DLECSL6WCCT",
+             "00DLECSL9WCCT",
+             "0DLECSL12WCCT",
+             "0DLECSL20WCCT",
+             "0DLECSL25WCCT"
+            ],
+            "archivos": [
+             "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.8 - SLIM/SLIM 3CCT/00DLECSL6WCCT - Downlight empotrable circular SLIM LED 6W 3CCT CRI80 120°.xlsx",
+             "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.8 - SLIM/SLIM 3CCT/00DLECSL9WCCT - Downlight empotrable circular SLIM LED 9W 3CCT CRI80 120°.xlsx",
+             "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.8 - SLIM/SLIM 3CCT/0DLECSL12WCCT - Downlight empotrable circular SLIM LED 12W 3CCT CRI80 120°.xlsx",
+             "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.8 - SLIM/SLIM 3CCT/0DLECSL20WCCT - Downlight empotrable circular SLIM LED 20W 3CCT CRI80 120°.xlsx",
+             "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.8 - SLIM/SLIM 3CCT/0DLECSL25WCCT - Downlight empotrable circular SLIM LED 25W 3CCT CRI80 120°.xlsx"
+            ]
+           }
+          ]
+         },
+         {
+          "nombre": "SLIM Circular",
+          "slug": "slim-circular",
+          "ruta": "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.8 - SLIM/SLIM CIRCULAR",
+          "hijos": [],
+          "botones": [
+           {
+            "nombre": "Downlight empotrable circular SLIM LED",
+            "slug": "downlight-empotrable-circular-slim-led",
+            "codigos": [
+             "00DLECSL5WXXX",
+             "00DLECSL6WXXX",
+             "00DLECSL9WXXX",
+             "0DLECSL12WXXX",
+             "0DLECSL20WXXX",
+             "0DLECSL25WXXX"
+            ],
+            "archivos": [
+             "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.8 - SLIM/SLIM CIRCULAR/00DLECSL5WXXX - Downlight empotrable circular SLIM LED 5W 3000K-4500K-6000K CRI80 120°.xlsx",
+             "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.8 - SLIM/SLIM CIRCULAR/00DLECSL6WXXX - Downlight empotrable circular SLIM LED 6W 3000K-4500K-6000K CRI80 120°.xlsx",
+             "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.8 - SLIM/SLIM CIRCULAR/00DLECSL9WXXX - Downlight empotrable circular SLIM LED 9W 3000K-4400K-6000K CRI80 120°.xlsx",
+             "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.8 - SLIM/SLIM CIRCULAR/0DLECSL12WXXX - Downlight empotrable circular SLIM LED 12W 3000K-4500K-6000K CRI80 120°.xlsx",
+             "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.8 - SLIM/SLIM CIRCULAR/0DLECSL20WXXX - Downlight empotrable circular SLIM LED 20W 3000K-4500K-6000K CRI80 120°.xlsx",
+             "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.8 - SLIM/SLIM CIRCULAR/0DLECSL25WXXX - Downlight empotrable circular SLIM LED 25W 3000K-4500K-6000K CRI80 120°.xlsx"
+            ]
+           }
+          ]
+         },
+         {
+          "nombre": "SLIM Cuadrado",
+          "slug": "slim-cuadrado",
+          "ruta": "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.8 - SLIM/SLIM CUADRADO",
+          "hijos": [],
+          "botones": [
+           {
+            "nombre": "Downlight empotrable circular SLIM LED",
+            "slug": "downlight-empotrable-circular-slim-led",
+            "codigos": [
+             "00DLECSL6WXXX"
+            ],
+            "archivos": [
+             "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.8 - SLIM/SLIM CUADRADO/00DLECSL6WXXX - Downlight empotrable circular SLIM LED 6W 3000K-4500K-6000K CRI80 120°.xlsx"
+            ]
+           },
+           {
+            "nombre": "Downlight empotrable cuadrado SLIM LED",
+            "slug": "downlight-empotrable-cuadrado-slim-led",
+            "codigos": [
+             "0DLECUSL12WXX",
+             "0DLECUSL20WXX",
+             "0DLECUSL25WXX"
+            ],
+            "archivos": [
+             "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.8 - SLIM/SLIM CUADRADO/0DLECUSL12WXX - Downlight empotrable cuadrado SLIM LED 12W 3000K-4500K-6000K CRI80 120°.xlsx",
+             "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.8 - SLIM/SLIM CUADRADO/0DLECUSL20WXX - Downlight empotrable cuadrado SLIM LED 20W 3000K-4500K-6000K CRI80 120°.xlsx",
+             "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.8 - SLIM/SLIM CUADRADO/0DLECUSL25WXX - Downlight empotrable cuadrado SLIM LED 25W 3000K-4500K-6000K CRI80 120°.xlsx"
+            ]
+           }
+          ]
+         },
+         {
+          "nombre": "SLIM Cuadrado CCT",
+          "slug": "slim-cuadrado-cct",
+          "ruta": "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.8 - SLIM/SLIM CUADRADO CCT",
+          "hijos": [],
+          "botones": [
+           {
+            "nombre": "Downlight empotrable cuadrado SLIM LED",
+            "slug": "downlight-empotrable-cuadrado-slim-led",
+            "codigos": [
+             "0DECUSL12WCCT",
+             "0DECUSL20WCCT",
+             "0DECUSL25WCCT",
+             "0DLECUSL6WCCT"
+            ],
+            "archivos": [
+             "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.8 - SLIM/SLIM CUADRADO CCT/0DECUSL12WCCT- Downlight empotrable cuadrado SLIM LED 12W 3CCT CRI80 120°.xlsx",
+             "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.8 - SLIM/SLIM CUADRADO CCT/0DECUSL20WCCT- Downlight empotrable cuadrado SLIM LED 20W 3CCT CRI80 120°.xlsx",
+             "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.8 - SLIM/SLIM CUADRADO CCT/0DECUSL25WCCT- Downlight empotrable cuadrado SLIM LED 25W 3CCT CRI80 120°.xlsx",
+             "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.8 - SLIM/SLIM CUADRADO CCT/0DLECUSL6WCCT - Downlight empotrable cuadrado SLIM LED 6W 3CCT CRI80 120°.xlsx"
+            ]
+           }
+          ]
+         }
+        ],
+        "botones": []
+       },
+       {
+        "nombre": "ZEN",
+        "slug": "zen",
+        "ruta": "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.9 - ZEN",
+        "hijos": [],
+        "botones": [
+         {
+          "nombre": "Downlight empotrado fijo mod. ZEN",
+          "slug": "downlight-empotrado-fijo-mod-zen",
+          "codigos": [
+           "00DLZEN12W27X",
+           "00DLZEN12W30X",
+           "00DLZEN12W40X",
+           "00DLZEN20W27X",
+           "00DLZEN20W30X",
+           "00DLZEN20W40X",
+           "00DLZEN25W27X",
+           "00DLZEN25W30X",
+           "00DLZEN25W40X",
+           "00DLZEN30W27X",
+           "00DLZEN30W30X",
+           "00DLZEN30W40X",
+           "00DLZEN40W27X",
+           "00DLZEN40W30X",
+           "00DLZEN40W40X",
+           "00DLZEN50W27X",
+           "00DLZEN50W30X",
+           "00DLZEN50W40X"
+          ],
+          "archivos": [
+           "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.9 - ZEN/00DLZEN12W27X - Downlight empotrado fijo mod. ZEN 12W 2700K CRI90 70º.xlsx",
+           "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.9 - ZEN/00DLZEN12W30X - Downlight empotrado fijo mod. ZEN 12W 3000K CRI90 70º 350mA.xlsx",
+           "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.9 - ZEN/00DLZEN12W40X - Downlight empotrado fijo mod. ZEN 12W 4000K CRI90 70º 350mA.xlsx",
+           "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.9 - ZEN/00DLZEN20W27X - Downlight empotrado fijo mod. ZEN 20W 2700K CRI90 70º 350mA.xlsx",
+           "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.9 - ZEN/00DLZEN20W30X - Downlight empotrado fijo mod. ZEN 20W 3000K CRI90 70º 350mA.xlsx",
+           "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.9 - ZEN/00DLZEN20W40X - Downlight empotrado fijo mod. ZEN 20W 4000K CRI90 70º 350mA.xlsx",
+           "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.9 - ZEN/00DLZEN25W27X - Downlight empotrado fijo mod. ZEN 25W 2700K CRI90 70º 650mA.xlsx",
+           "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.9 - ZEN/00DLZEN25W30X - Downlight empotrado fijo mod. ZEN 25W 3000K CRI90 70º 650mA.xlsx",
+           "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.9 - ZEN/00DLZEN25W40X - Downlight empotrado fijo mod. ZEN 25W 4000K CRI90 70º 650mA.xlsx",
+           "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.9 - ZEN/00DLZEN30W27X - Downlight empotrado fijo mod. ZEN 30W 2700K CRI90 70º 750mA.xlsx",
+           "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.9 - ZEN/00DLZEN30W30X - Downlight empotrado fijo mod. ZEN 30W 3000K CRI90 70º 750mA.xlsx",
+           "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.9 - ZEN/00DLZEN30W40X - Downlight empotrado fijo mod. ZEN 30W 4000K CRI90 70º 750mA.xlsx",
+           "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.9 - ZEN/00DLZEN40W27X - Downlight empotrado fijo mod. ZEN 40W 2700K CRI90 70º 950mA.xlsx",
+           "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.9 - ZEN/00DLZEN40W30X - Downlight empotrado fijo mod. ZEN 40W 3000K CRI90 70º 950mA.xlsx",
+           "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.9 - ZEN/00DLZEN40W40X - Downlight empotrado fijo mod. ZEN 40W 4000K CRI90 70º 950mA.xlsx",
+           "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.9 - ZEN/00DLZEN50W27X - Downlight empotrado fijo mod. ZEN 50W 2700K CRI90 70º 1200mA.xlsx",
+           "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.9 - ZEN/00DLZEN50W30X - Downlight empotrado fijo mod. ZEN 50W 3000K CRI90 70º 1200mA.xlsx",
+           "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.9 - ZEN/00DLZEN50W40X - Downlight empotrado fijo mod. ZEN 50W 4000K CRI90 70º 1200mA.xlsx"
+          ]
+         },
+         {
+          "nombre": "Downlight empotradofijo mod. ZEN",
+          "slug": "downlight-empotradofijo-mod-zen",
+          "codigos": [
+           "00DLZEN07W27X",
+           "00DLZEN07W30X",
+           "00DLZEN07W40X"
+          ],
+          "archivos": [
+           "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.9 - ZEN/00DLZEN07W27X - Downlight empotradofijo mod. ZEN 7W 2700K CRI90 70º 160mA.xlsx",
+           "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.9 - ZEN/00DLZEN07W30X - Downlight empotradofijo mod. ZEN 7W 3000K CRI90 70º 160mA.xlsx",
+           "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.9 - ZEN/00DLZEN07W40X - Downlight empotradofijo mod. ZEN 7W 4000K CRI90 70º 160mA.xlsx"
+          ]
+         }
+        ]
+       }
+      ],
+      "botones": []
+     },
+     {
+      "nombre": "Downlights Adosados",
+      "slug": "downlights-adosados",
+      "ruta": "1 -  INTERIORES/1.2 - DOWNLIGHTS ADOSADOS",
+      "hijos": [
+       {
+        "nombre": "SLIM Adosable",
+        "slug": "slim-adosable",
+        "ruta": "1 -  INTERIORES/1.2 - DOWNLIGHTS ADOSADOS/1.2.1 - SLIM ADOSABLE",
+        "hijos": [
+         {
+          "nombre": "5CLIM Cuadrado 3CCT",
+          "slug": "5clim-cuadrado-3cct",
+          "ruta": "1 -  INTERIORES/1.2 - DOWNLIGHTS ADOSADOS/1.2.1 - SLIM ADOSABLE/5CLIM CUADRADO 3CCT",
+          "hijos": [],
+          "botones": [
+           {
+            "nombre": "Downlight adosable cuadrado SLIM LED",
+            "slug": "downlight-adosable-cuadrado-slim-led",
+            "codigos": [
+             "0DACUSL12WCCT",
+             "0DACUSL20WCCT",
+             "0DACUSL25WCCT"
+            ],
+            "archivos": [
+             "1 -  INTERIORES/1.2 - DOWNLIGHTS ADOSADOS/1.2.1 - SLIM ADOSABLE/5CLIM CUADRADO 3CCT/0DACUSL12WCCT - Downlight adosable cuadrado SLIM LED 12W 3CCT CRI80 120°.xlsx",
+             "1 -  INTERIORES/1.2 - DOWNLIGHTS ADOSADOS/1.2.1 - SLIM ADOSABLE/5CLIM CUADRADO 3CCT/0DACUSL20WCCT - Downlight adosable cuadrado SLIM LED 20W 3CCT CRI80 120°.xlsx",
+             "1 -  INTERIORES/1.2 - DOWNLIGHTS ADOSADOS/1.2.1 - SLIM ADOSABLE/5CLIM CUADRADO 3CCT/0DACUSL25WCCT - Downlight adosable cuadrado SLIM LED 25W 3CCT CRI80 120°.xlsx"
+            ]
+           }
+          ]
+         },
+         {
+          "nombre": "SLIM Circulares",
+          "slug": "slim-circulares",
+          "ruta": "1 -  INTERIORES/1.2 - DOWNLIGHTS ADOSADOS/1.2.1 - SLIM ADOSABLE/SLIM CIRCULARES",
+          "hijos": [],
+          "botones": [
+           {
+            "nombre": "Downlight adosable circular SLIM LED",
+            "slug": "downlight-adosable-circular-slim-led",
+            "codigos": [
+             "0DACSL12WXXXX",
+             "0DACSL20WXXXX",
+             "0DACSL25WXXXX",
+             "0DLACSL5WXXXX",
+             "0DLACSL6WXXXX"
+            ],
+            "archivos": [
+             "1 -  INTERIORES/1.2 - DOWNLIGHTS ADOSADOS/1.2.1 - SLIM ADOSABLE/SLIM CIRCULARES/0DACSL12WXXXX - Downlight adosable circular SLIM LED 12W 3000K-4500K-6000K CRI80 120°.xlsx",
+             "1 -  INTERIORES/1.2 - DOWNLIGHTS ADOSADOS/1.2.1 - SLIM ADOSABLE/SLIM CIRCULARES/0DACSL20WXXXX - Downlight adosable circular SLIM LED 20W 3000K-4500K-6000K CRI80 120°.xlsx",
+             "1 -  INTERIORES/1.2 - DOWNLIGHTS ADOSADOS/1.2.1 - SLIM ADOSABLE/SLIM CIRCULARES/0DACSL25WXXXX - Downlight adosable circular SLIM LED 25W 3000K-4500K-6000K CRI80 120°.xlsx",
+             "1 -  INTERIORES/1.2 - DOWNLIGHTS ADOSADOS/1.2.1 - SLIM ADOSABLE/SLIM CIRCULARES/0DLACSL5WXXXX - Downlight adosable circular SLIM LED 5W 3000K-4500K-6000K CRI80 120°.xlsx",
+             "1 -  INTERIORES/1.2 - DOWNLIGHTS ADOSADOS/1.2.1 - SLIM ADOSABLE/SLIM CIRCULARES/0DLACSL6WXXXX - Downlight adosable circular SLIM LED 6W 3000K-4500K-6000K CRI80 120°.xlsx"
+            ]
+           }
+          ]
+         },
+         {
+          "nombre": "SLIM Circulares 3CCT",
+          "slug": "slim-circulares-3cct",
+          "ruta": "1 -  INTERIORES/1.2 - DOWNLIGHTS ADOSADOS/1.2.1 - SLIM ADOSABLE/SLIM CIRCULARES 3CCT",
+          "hijos": [],
+          "botones": [
+           {
+            "nombre": "Downlight adosable circular SLIM LED",
+            "slug": "downlight-adosable-circular-slim-led",
+            "codigos": [
+             "0DACSL12WCCTX",
+             "0DACSL20WCCTX",
+             "0DACSL25WCCTX",
+             "0DLACSL6WCCTX"
+            ],
+            "archivos": [
+             "1 -  INTERIORES/1.2 - DOWNLIGHTS ADOSADOS/1.2.1 - SLIM ADOSABLE/SLIM CIRCULARES 3CCT/0DACSL12WCCTX - Downlight adosable circular SLIM LED 12W 3CCT CRI80 120°.xlsx",
+             "1 -  INTERIORES/1.2 - DOWNLIGHTS ADOSADOS/1.2.1 - SLIM ADOSABLE/SLIM CIRCULARES 3CCT/0DACSL20WCCTX - Downlight adosable circular SLIM LED 20W 3CCT CRI80 120°.xlsx",
+             "1 -  INTERIORES/1.2 - DOWNLIGHTS ADOSADOS/1.2.1 - SLIM ADOSABLE/SLIM CIRCULARES 3CCT/0DACSL25WCCTX - Downlight adosable circular SLIM LED 25W 3CCT CRI80 120°.xlsx",
+             "1 -  INTERIORES/1.2 - DOWNLIGHTS ADOSADOS/1.2.1 - SLIM ADOSABLE/SLIM CIRCULARES 3CCT/0DLACSL6WCCTX - Downlight adosable circular SLIM LED 6W 3CCT CRI80 120º.xlsx"
+            ]
+           }
+          ]
+         },
+         {
+          "nombre": "SLIM Cuadrado",
+          "slug": "slim-cuadrado",
+          "ruta": "1 -  INTERIORES/1.2 - DOWNLIGHTS ADOSADOS/1.2.1 - SLIM ADOSABLE/SLIM CUADRADO",
+          "hijos": [],
+          "botones": [
+           {
+            "nombre": "Downlight adosable cuadrado SLIM LED",
+            "slug": "downlight-adosable-cuadrado-slim-led",
+            "codigos": [
+             "0DACUSL12WXXX",
+             "0DACUSL20WXXX",
+             "0DACUSL25WXXX"
+            ],
+            "archivos": [
+             "1 -  INTERIORES/1.2 - DOWNLIGHTS ADOSADOS/1.2.1 - SLIM ADOSABLE/SLIM CUADRADO/0DACUSL12WXXX - Downlight adosable cuadrado SLIM LED 12W 3000K-4500K-6000K CRI80 120°.xlsx",
+             "1 -  INTERIORES/1.2 - DOWNLIGHTS ADOSADOS/1.2.1 - SLIM ADOSABLE/SLIM CUADRADO/0DACUSL20WXXX - Downlight adosable cuadrado SLIM LED 20W 3000K-4500K-6000K CRI80 120°.xlsx",
+             "1 -  INTERIORES/1.2 - DOWNLIGHTS ADOSADOS/1.2.1 - SLIM ADOSABLE/SLIM CUADRADO/0DACUSL25WXXX - Downlight adosable cuadrado SLIM LED 25W 3000K-4500K-6000K CRI80 120°.xlsx"
+            ]
+           }
+          ]
+         }
+        ],
+        "botones": []
+       },
+       {
+        "nombre": "TAC",
+        "slug": "tac",
+        "ruta": "1 -  INTERIORES/1.2 - DOWNLIGHTS ADOSADOS/1.2.2 - TAC",
+        "hijos": [],
+        "botones": [
+         {
+          "nombre": "Downlight de superficie o para supender fijo mod. TAC led",
+          "slug": "downlight-de-superficie-o-para-supender-fijo-mod-tac-led",
+          "codigos": [
+           "0DSTAC20WXXKB"
+          ],
+          "archivos": [
+           "1 -  INTERIORES/1.2 - DOWNLIGHTS ADOSADOS/1.2.2 - TAC/0DSTAC20WXXKB - Downlight de superficie o para supender fijo mod. TAC led 20W CRI90 70° IP44 blanco.xlsx"
+          ]
+         }
+        ]
+       },
+       {
+        "nombre": "Tubular",
+        "slug": "tubular",
+        "ruta": "1 -  INTERIORES/1.2 - DOWNLIGHTS ADOSADOS/1.2.3 - TUBULAR",
+        "hijos": [],
+        "botones": [
+         {
+          "nombre": "Downlight para adosar o supender fijo mod. TUBE led",
+          "slug": "downlight-para-adosar-o-supender-fijo-mod-tube-led",
+          "codigos": [
+           "00DLAT10WCCTB",
+           "00DLAT10WCCTN",
+           "00DLAT20WCCTB",
+           "00DLAT20WCCTN"
+          ],
+          "archivos": [
+           "1 -  INTERIORES/1.2 - DOWNLIGHTS ADOSADOS/1.2.3 - TUBULAR/00DLAT10WCCTB - Downlight para adosar o supender fijo mod. TUBE led 10W 3CCT CRI80 36° blanco.xlsx",
+           "1 -  INTERIORES/1.2 - DOWNLIGHTS ADOSADOS/1.2.3 - TUBULAR/00DLAT10WCCTN - Downlight para adosar o supender fijo mod. TUBE led 10W 3CCT CRI80 36° negro.xlsx",
+           "1 -  INTERIORES/1.2 - DOWNLIGHTS ADOSADOS/1.2.3 - TUBULAR/00DLAT20WCCTB - Downlight para adosar o supender fijo mod. TUBE led 20W 3CCT CRI80 36° blanco.xlsx",
+           "1 -  INTERIORES/1.2 - DOWNLIGHTS ADOSADOS/1.2.3 - TUBULAR/00DLAT20WCCTN - Downlight para adosar o supender fijo mod. TUBE led 20W 3CCT CRI80 36° negro.xlsx"
+          ]
+         },
+         {
+          "nombre": "Downlight superficie cuerpo aluminio",
+          "slug": "downlight-superficie-cuerpo-aluminio",
+          "codigos": [
+           "00DOWSUP303IP"
+          ],
+          "archivos": [
+           "1 -  INTERIORES/1.2 - DOWNLIGHTS ADOSADOS/1.2.3 - TUBULAR/00DOWSUP303IP - Downlight superficie cuerpo aluminio 30W 3000K- 3150lm - IP65 - NEGRO.xlsx"
+          ]
+         }
+        ]
+       }
+      ],
+      "botones": []
+     },
+     {
+      "nombre": "Lineales",
+      "slug": "lineales",
+      "ruta": "1 -  INTERIORES/1.3 - LINEALES",
+      "hijos": [
+       {
+        "nombre": "Lineales",
+        "slug": "lineales",
+        "ruta": "1 -  INTERIORES/1.3 - LINEALES/1.3.1 - LINEALES",
+        "hijos": [
+         {
+          "nombre": "Lineal Mini 2",
+          "slug": "lineal-mini-2",
+          "ruta": "1 -  INTERIORES/1.3 - LINEALES/1.3.1 - LINEALES/LINEAL MINI 2",
+          "hijos": [],
+          "botones": [
+           {
+            "nombre": "Perfil lineal MINI para adosar o suspender",
+            "slug": "perfil-lineal-mini-para-adosar-o-suspender",
+            "codigos": [
+             "00L05MI13W30K",
+             "00L05MI13W40K",
+             "00L08MI19W30K",
+             "00L08MI19W40K",
+             "00L11MI25W30K",
+             "00L11MI25W40K",
+             "00L14MI31W30K",
+             "00L14MI31W40K"
+            ],
+            "archivos": [
+             "1 -  INTERIORES/1.3 - LINEALES/1.3.1 - LINEALES/LINEAL MINI 2/00L05MI13W30K - Perfil lineal MINI para adosar o suspender 590mm x 28mm 13W 1300lm 3000K IP40.xlsx",
+             "1 -  INTERIORES/1.3 - LINEALES/1.3.1 - LINEALES/LINEAL MINI 2/00L05MI13W40K - Perfil lineal MINI para adosar o suspender 590mm x 28mm 13W 1350lm IP40.xlsx",
+             "1 -  INTERIORES/1.3 - LINEALES/1.3.1 - LINEALES/LINEAL MINI 2/00L08MI19W30K - Perfil lineal MINI para adosar o suspender 870mm x 28mm 19W 1950lm 3000K IP40.xlsx",
+             "1 -  INTERIORES/1.3 - LINEALES/1.3.1 - LINEALES/LINEAL MINI 2/00L08MI19W40K - Perfil lineal MINI para adosar o suspender 870mm x 28mm 19W 1950lm 4000K IP40.xlsx",
+             "1 -  INTERIORES/1.3 - LINEALES/1.3.1 - LINEALES/LINEAL MINI 2/00L11MI25W30K - Perfil lineal MINI para adosar o suspender 1150mm x 28mm 25W 2600lm 3000K IP40.xlsx",
+             "1 -  INTERIORES/1.3 - LINEALES/1.3.1 - LINEALES/LINEAL MINI 2/00L11MI25W40K - Perfil lineal MINI para adosar o suspender 1150mm x 28mm 25W 2700lm 4000K IP40.xlsx",
+             "1 -  INTERIORES/1.3 - LINEALES/1.3.1 - LINEALES/LINEAL MINI 2/00L14MI31W30K - Perfil lineal MINI para adosar o suspender 1400mm x 28mm 31W 3250lm 3000K IP40.xlsx",
+             "1 -  INTERIORES/1.3 - LINEALES/1.3.1 - LINEALES/LINEAL MINI 2/00L14MI31W40K - Perfil lineal MINI para adosar o suspender 1400mm x 28mm 31W 3250lm 4000K IP40.xlsx"
+            ]
+           }
+          ]
+         },
+         {
+          "nombre": "Nuevo",
+          "slug": "nuevo",
+          "ruta": "1 -  INTERIORES/1.3 - LINEALES/1.3.1 - LINEALES/NUEVO",
+          "hijos": [],
+          "botones": [
+           {
+            "nombre": "Perfil lineal EM05 empotrable",
+            "slug": "perfil-lineal-em05-empotrable",
+            "codigos": [
+             "0LEM05C12W40K"
+            ],
+            "archivos": [
+             "1 -  INTERIORES/1.3 - LINEALES/1.3.1 - LINEALES/NUEVO/0LEM05C12W40K - Perfil lineal EM05 empotrable 570 x 40 x 65mm 12W 1975lm 4000K IP40.xlsx"
+            ]
+           }
+          ]
+         }
+        ],
+        "botones": [
+         {
+          "nombre": "PERFIL ALUMINIO SMCS",
+          "slug": "perfil-aluminio-smcs",
+          "codigos": [
+           "0020731240"
+          ],
+          "archivos": [
+           "1 -  INTERIORES/1.3 - LINEALES/1.3.1 - LINEALES/0020731240 - PERFIL ALUMINIO SMCS 36W 4000K 250mA 1690mm IP40.xlsx"
+          ]
+         },
+         {
+          "nombre": "Perfil lineal 107 para adosar o suspender XX",
+          "slug": "perfil-lineal-107-para-adosar-o-suspender-xx",
+          "codigos": [
+           "00LXX107XXWXK"
+          ],
+          "archivos": [
+           "1 -  INTERIORES/1.3 - LINEALES/1.3.1 - LINEALES/00LXX107XXWXK - Perfil lineal 107 para adosar o suspender XX x 107 x 68mm XXW 124.8lm.-mt. IP40..xlsx"
+          ]
+         },
+         {
+          "nombre": "Perfil lineal 40 para adosar o suspender XX",
+          "slug": "perfil-lineal-40-para-adosar-o-suspender-xx",
+          "codigos": [
+           "00LXX40XXWXXK",
+           "00LXX40XXWXXK"
+          ],
+          "archivos": [
+           "1 -  INTERIORES/1.3 - LINEALES/1.3.1 - LINEALES/00LXX40XXWXXK - Perfil lineal 40 para adosar o suspender XX x 40 x 40mm XXW 124.8lm.-mt. IP20.xlsx",
+           "1 -  INTERIORES/1.3 - LINEALES/1.3.1 - LINEALES/CLP 14M.xlsx"
+          ]
+         },
+         {
+          "nombre": "Perfil lineal 58 para adosar o suspender",
+          "slug": "perfil-lineal-58-para-adosar-o-suspender",
+          "codigos": [
+           "00LIS5819W40K"
+          ],
+          "archivos": [
+           "1 -  INTERIORES/1.3 - LINEALES/1.3.1 - LINEALES/00LIS5819W40K - Perfil lineal 58 para adosar o suspender 19.1W 124.8lm.-mt. 200mA 1130x58x68mm IP40.xlsx"
+          ]
+         },
+         {
+          "nombre": "Perfil lineal 58 para adosar o suspender XX",
+          "slug": "perfil-lineal-58-para-adosar-o-suspender-xx",
+          "codigos": [
+           "00LXX58XXWXXK",
+           "0LXXIP65XXWXK"
+          ],
+          "archivos": [
+           "1 -  INTERIORES/1.3 - LINEALES/1.3.1 - LINEALES/00LXX58XXWXXK - Perfil lineal 58 para adosar o suspender XX x 28 x 75mm XXW 124.8lm.-mt. IP40.xlsx",
+           "1 -  INTERIORES/1.3 - LINEALES/1.3.1 - LINEALES/0LXXIP65XXWXK - Perfil lineal 58 para adosar o suspender XX x 58 x 76mm XXW 124.8lm.-mt. IP65.xlsx"
+          ]
+         },
+         {
+          "nombre": "Perfil lineal M05 para adosar o suspender",
+          "slug": "perfil-lineal-m05-para-adosar-o-suspender",
+          "codigos": [
+           "0LSM05C12W40K"
+          ],
+          "archivos": [
+           "1 -  INTERIORES/1.3 - LINEALES/1.3.1 - LINEALES/0LSM05C12W40K - Perfil lineal M05 para adosar o suspender 570 x 40 x 65mm 12W164,58 lm_mt. IP40. .xlsx"
+          ]
+         },
+         {
+          "nombre": "Perfil lineal M16 para adosar o suspender",
+          "slug": "perfil-lineal-m16-para-adosar-o-suspender",
+          "codigos": [
+           "0LSM16C36W40K"
+          ],
+          "archivos": [
+           "1 -  INTERIORES/1.3 - LINEALES/1.3.1 - LINEALES/0LSM16C36W40K - Perfil lineal M16 para adosar o suspender 1690 x 40 x 65mm 36W 164,58 lm_mt. IP40.xlsx"
+          ]
+         },
+         {
+          "nombre": "Perfil lineal MI4 para adosar o suspender",
+          "slug": "perfil-lineal-mi4-para-adosar-o-suspender",
+          "codigos": [
+           "0LSMI4C18W40K"
+          ],
+          "archivos": [
+           "1 -  INTERIORES/1.3 - LINEALES/1.3.1 - LINEALES/0LSMI4C18W40K - Perfil lineal MI4 para adosar o suspender 1410 x 40 x 65mm 18W-150mA. IP40.xlsx"
+          ]
+         },
+         {
+          "nombre": "Perfil lineal OVAL para adosar o suspender XX",
+          "slug": "perfil-lineal-oval-para-adosar-o-suspender-xx",
+          "codigos": [
+           "00LXXOVXXWXXK"
+          ],
+          "archivos": [
+           "1 -  INTERIORES/1.3 - LINEALES/1.3.1 - LINEALES/00LXXOVXXWXXK - Perfil lineal OVAL para adosar o suspender XX x 28 x 25mm XXW 108.9lm.-mt. IP40.xlsx"
+          ]
+         },
+         {
+          "nombre": "SMCE",
+          "slug": "smce",
+          "codigos": [
+           "0020300000",
+           "0020310840",
+           "0020341740"
+          ],
+          "archivos": [
+           "1 -  INTERIORES/1.3 - LINEALES/1.3.1 - LINEALES/0020300000 - SMCE 40W 4000K 350mA 2810mm IP40 SV0 PERFIL EXTRUSIÓN EMPOTRAR GRIS.xlsx",
+           "1 -  INTERIORES/1.3 - LINEALES/1.3.1 - LINEALES/0020310840 - SMCE 8W 4000K 200mA 570mm IP40 SV0 PERFIL EXTRUSIÓN EMPOTRAR GRIS.xlsx",
+           "1 -  INTERIORES/1.3 - LINEALES/1.3.1 - LINEALES/0020341740 - SMCE 68W 4000K 350mA 2250mm IP40 SV0 PERFIL EXTRUSIÓN EMPOTRAR GRIS.xlsx"
+          ]
+         },
+         {
+          "nombre": "SMCS",
+          "slug": "smcs",
+          "codigos": [
+           "0020700000990",
+           "0020741240"
+          ],
+          "archivos": [
+           "1 -  INTERIORES/1.3 - LINEALES/1.3.1 - LINEALES/0020700000990 - SMCS 21W 4000K 200mA 990mm IP40 SV0 Perfil Extrusión Superficie Gris.xlsx",
+           "1 -  INTERIORES/1.3 - LINEALES/1.3.1 - LINEALES/0020741240 - SMCS 48W 4000K 250mA 2250mm IP40 SV0 PERFIL EXTRUSIÓN SUPERFICIE GRIS.xlsx"
+          ]
+         },
+         {
+          "nombre": "luminaria LED estanca SLE-T LED",
+          "slug": "luminaria-led-estanca-sle-t-led",
+          "codigos": [
+           "0030511740"
+          ],
+          "archivos": [
+           "1 -  INTERIORES/1.3 - LINEALES/1.3.1 - LINEALES/0030511740 - luminaria LED estanca SLE-T LED 17W 4000K 2680Lm 600mm IP66.xlsx"
+          ]
+         }
+        ]
+       },
+       {
+        "nombre": "Otros",
+        "slug": "otros",
+        "ruta": "1 -  INTERIORES/1.3 - LINEALES/1.3.2 - OTROS",
+        "hijos": [],
+        "botones": [
+         {
+          "nombre": "30W_30 - Perfil para suspender o adosar",
+          "slug": "30w-30-perfil-para-suspender-o-adosar",
+          "codigos": [
+           "APELI1410"
+          ],
+          "archivos": [
+           "1 -  INTERIORES/1.3 - LINEALES/1.3.2 - OTROS/APELI1410_30W_30 - Perfil para suspender o adosar 1410mm - 31W 3000K 250mA 1410mm IP40.xlsx"
+          ]
+         },
+         {
+          "nombre": "Perfil de aluminio para empotrar",
+          "slug": "perfil-de-aluminio-para-empotrar",
+          "codigos": [
+           "00PERALUE30W40B"
+          ],
+          "archivos": [
+           "1 -  INTERIORES/1.3 - LINEALES/1.3.2 - OTROS/00PERALUE30W40B - Perfil de aluminio para empotrar 1410mm - 30W 4000K 250mA 1410mm IP40.xlsx"
+          ]
+         },
+         {
+          "nombre": "Perfil lineal de aluminio para adosar o suspender",
+          "slug": "perfil-lineal-de-aluminio-para-adosar-o-suspender",
+          "codigos": [
+           "00PERALU40WCC"
+          ],
+          "archivos": [
+           "1 -  INTERIORES/1.3 - LINEALES/1.3.2 - OTROS/00PERALU40WCC - Perfil lineal de aluminio para adosar o suspender 24W 4000K 1200mm.xlsx"
+          ]
+         }
+        ]
+       }
+      ],
+      "botones": []
+     },
+     {
+      "nombre": "Retro Gold",
+      "slug": "retro-gold",
+      "ruta": "1 -  INTERIORES/1.4 - RETRO GOLD",
+      "hijos": [
+       {
+        "nombre": "Lámpara Colgante SLIM Retro Gold",
+        "slug": "lampara-colgante-slim-retro-gold",
+        "ruta": "1 -  INTERIORES/1.4 - RETRO GOLD/1.4.1 - LÁMPARA COLGANTE SLIM RETRO GOLD",
+        "hijos": [],
+        "botones": [
+         {
+          "nombre": "Lámpara colgante SLIM GOLD RETRO",
+          "slug": "lampara-colgante-slim-gold-retro",
+          "codigos": [
+           "0LC15SL6W27KD",
+           "0LC15SL6W30KD",
+           "0LC20SL6W27KD",
+           "0LC20SL6W30KD",
+           "0LC30SL6W27KD",
+           "0LC30SL6W30KD"
+          ],
+          "archivos": [
+           "1 -  INTERIORES/1.4 - RETRO GOLD/1.4.1 - LÁMPARA COLGANTE SLIM RETRO GOLD/0LC15SL6W27KD – Lámpara colgante SLIM GOLD RETRO 6W-2700K-24º-CRI90-IP20-DALI.xlsx",
+           "1 -  INTERIORES/1.4 - RETRO GOLD/1.4.1 - LÁMPARA COLGANTE SLIM RETRO GOLD/0LC15SL6W30KD – Lámpara colgante SLIM GOLD RETRO 6W-3000K-24º-CRI90-IP20-DALI.xlsx",
+           "1 -  INTERIORES/1.4 - RETRO GOLD/1.4.1 - LÁMPARA COLGANTE SLIM RETRO GOLD/0LC20SL6W27KD – Lámpara colgante SLIM GOLD RETRO 200mm 6W-2700K-24º-CRI90-IP20-DALI.xlsx",
+           "1 -  INTERIORES/1.4 - RETRO GOLD/1.4.1 - LÁMPARA COLGANTE SLIM RETRO GOLD/0LC20SL6W30KD – Lámpara colgante SLIM GOLD RETRO 200mm 6W-3000K-24º-CRI90-IP20-DALI.xlsx",
+           "1 -  INTERIORES/1.4 - RETRO GOLD/1.4.1 - LÁMPARA COLGANTE SLIM RETRO GOLD/0LC30SL6W27KD – Lámpara colgante SLIM GOLD RETRO 300mm 6W-2700K-24º-CRI90-IP20-DALI.xlsx",
+           "1 -  INTERIORES/1.4 - RETRO GOLD/1.4.1 - LÁMPARA COLGANTE SLIM RETRO GOLD/0LC30SL6W30KD – Lámpara colgante SLIM GOLD RETRO 300mm 6W-3000K-24º-CRI90-IP20-DALI.xlsx"
+          ]
+         }
+        ]
+       },
+       {
+        "nombre": "Luminarias Adosadas",
+        "slug": "luminarias-adosadas",
+        "ruta": "1 -  INTERIORES/1.4 - RETRO GOLD/1.4.2 - LUMINARIAS ADOSADAS",
+        "hijos": [],
+        "botones": [
+         {
+          "nombre": "Luminaria adosada SLIM GOLD RETRO",
+          "slug": "luminaria-adosada-slim-gold-retro",
+          "codigos": [
+           "0LA15SL6W27KD",
+           "0LA15SL6W30KD",
+           "0LA20SL6W27KD",
+           "0LA20SL6W30KD"
+          ],
+          "archivos": [
+           "1 -  INTERIORES/1.4 - RETRO GOLD/1.4.2 - LUMINARIAS ADOSADAS/0LA15SL6W27KD – Luminaria adosada SLIM GOLD RETRO 150mm 6W-2700K-24º-CRI90-IP20-DALI.xlsx",
+           "1 -  INTERIORES/1.4 - RETRO GOLD/1.4.2 - LUMINARIAS ADOSADAS/0LA15SL6W30KD – Luminaria adosada SLIM GOLD RETRO 150mm 6W-3000K-24º-CRI90-IP20-DALI.xlsx",
+           "1 -  INTERIORES/1.4 - RETRO GOLD/1.4.2 - LUMINARIAS ADOSADAS/0LA20SL6W27KD – Luminaria adosada SLIM GOLD RETRO 200mm 6W-2700K-24º-CRI90-IP20-DALI.xlsx",
+           "1 -  INTERIORES/1.4 - RETRO GOLD/1.4.2 - LUMINARIAS ADOSADAS/0LA20SL6W30KD – Luminaria adosada SLIM GOLD RETRO 200mm 6W-3000K-24º-CRI90-IP20-DALI.xlsx"
+          ]
+         }
+        ]
+       },
+       {
+        "nombre": "Luminarias Empotrada Retro Gold",
+        "slug": "luminarias-empotrada-retro-gold",
+        "ruta": "1 -  INTERIORES/1.4 - RETRO GOLD/1.4.3 - LUMINARIAS EMPOTRADA RETRO GOLD",
+        "hijos": [],
+        "botones": [
+         {
+          "nombre": "Downlight empotrado mod. MOTA gold retro D.60",
+          "slug": "downlight-empotrado-mod-mota-gold-retro-d-60",
+          "codigos": [
+           "00DGR6M10W27K",
+           "00DGR6M10W30K",
+           "00DGR6M10W40K"
+          ],
+          "archivos": [
+           "1 -  INTERIORES/1.4 - RETRO GOLD/1.4.3 - LUMINARIAS EMPOTRADA RETRO GOLD/00DGR6M10W27K - Downlight empotrado mod. MOTA gold retro D.60 10W 36º 2700K CRI90.xlsx",
+           "1 -  INTERIORES/1.4 - RETRO GOLD/1.4.3 - LUMINARIAS EMPOTRADA RETRO GOLD/00DGR6M10W30K - Downlight empotrado mod. MOTA gold retro D.60 10W 36º 3000K CRI90.xlsx",
+           "1 -  INTERIORES/1.4 - RETRO GOLD/1.4.3 - LUMINARIAS EMPOTRADA RETRO GOLD/00DGR6M10W40K - Downlight empotrado mod. MOTA gold retro D.60 10W 36º 4000K CRI90.xlsx"
+          ]
+         },
+         {
+          "nombre": "Downlight empotrado mod. MOTA gold retro D.80",
+          "slug": "downlight-empotrado-mod-mota-gold-retro-d-80",
+          "codigos": [
+           "00DGR8M15W27K",
+           "00DGR8M15W30K",
+           "00DGR8M15W40K"
+          ],
+          "archivos": [
+           "1 -  INTERIORES/1.4 - RETRO GOLD/1.4.3 - LUMINARIAS EMPOTRADA RETRO GOLD/00DGR8M15W27K - Downlight empotrado mod. MOTA gold retro D.80 15W 36º 2700K CRI90.xlsx",
+           "1 -  INTERIORES/1.4 - RETRO GOLD/1.4.3 - LUMINARIAS EMPOTRADA RETRO GOLD/00DGR8M15W30K - Downlight empotrado mod. MOTA gold retro D.80 15W 36º 3000K CRI90.xlsx",
+           "1 -  INTERIORES/1.4 - RETRO GOLD/1.4.3 - LUMINARIAS EMPOTRADA RETRO GOLD/00DGR8M15W40K - Downlight empotrado mod. MOTA gold retro D.80 15W 36º 4000K CRI90.xlsx"
+          ]
+         }
+        ]
+       },
+       {
+        "nombre": "Proyector Capi Retro Gold",
+        "slug": "proyector-capi-retro-gold",
+        "ruta": "1 -  INTERIORES/1.4 - RETRO GOLD/1.4.4 - PROYECTOR CAPI RETRO GOLD",
+        "hijos": [],
+        "botones": [
+         {
+          "nombre": "Proyector mod. Capi Gold retro",
+          "slug": "proyector-mod-capi-gold-retro",
+          "codigos": [
+           "0P3CG706W30KD",
+           "0P3G1008W30KD",
+           "0P410010W30KD",
+           "0P4CG708W30KD"
+          ],
+          "archivos": [
+           "1 -  INTERIORES/1.4 - RETRO GOLD/1.4.4 - PROYECTOR CAPI RETRO GOLD/0P3CG706W30KD – Proyector mod. Capi Gold retro 70mm D45mm 6W-3000K-36º-48V CRI90-IP20-DALI.xlsx",
+           "1 -  INTERIORES/1.4 - RETRO GOLD/1.4.4 - PROYECTOR CAPI RETRO GOLD/0P3G1008W30KD – Proyector mod. Capi Gold retro 100mm D.35mm 8W-3000K-36º-48V CRI90-IP20-DALI.xlsx",
+           "1 -  INTERIORES/1.4 - RETRO GOLD/1.4.4 - PROYECTOR CAPI RETRO GOLD/0P410010W30KD – Proyector mod. Capi Gold retro 100mm D.45mm 10W-3000K-36º-48V CRI90-IP20-DALI.xlsx",
+           "1 -  INTERIORES/1.4 - RETRO GOLD/1.4.4 - PROYECTOR CAPI RETRO GOLD/0P4CG708W30KD – Proyector mod. Capi Gold retro 70mm D.45mm 8W-3000K-36º-48V CRI90-IP20-DALI.xlsx"
+          ]
+         }
+        ]
+       }
+      ],
+      "botones": []
+     },
+     {
+      "nombre": "Tiras y Perfiles LED",
+      "slug": "tiras-y-perfiles-led",
+      "ruta": "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED",
+      "hijos": [
+       {
+        "nombre": "Tiras LED",
+        "slug": "tiras-led",
+        "ruta": "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.1 - TIRAS LED",
+        "hijos": [
+         {
+          "nombre": "12V",
+          "slug": "12v",
+          "ruta": "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.1 - TIRAS LED/12V",
+          "hijos": [],
+          "botones": [
+           {
+            "nombre": "TIRA LED",
+            "slug": "tira-led",
+            "codigos": [
+             "0TIR12V27KIP2"
+            ],
+            "archivos": [
+             "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.1 - TIRAS LED/12V/0TIR12V27KIP2- TIRA LED 14W 12V 2700K IP20 SMD5050.xlsx"
+            ]
+           },
+           {
+            "nombre": "Tira de Led flexible",
+            "slug": "tira-de-led-flexible",
+            "codigos": [
+             "0TLRGB14WIP65"
+            ],
+            "archivos": [
+             "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.1 - TIRAS LED/12V/0TLRGB14WIP65 - Tira de Led flexible 14W x mt 12V mod. B RGB-Smd 5050 IP65 120º CRI80, 5 metros.xlsx"
+            ]
+           }
+          ]
+         }
+        ],
+        "botones": [
+         {
+          "nombre": "TIRA LED",
+          "slug": "tira-led",
+          "codigos": [
+           "00TIRA124KIP6"
+          ],
+          "archivos": [
+           "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.1 - TIRAS LED/00TIRA124KIP6- TIRA LED 12W 24V 4000K IP65 SMD2835.xlsx"
+          ]
+         },
+         {
+          "nombre": "TIRA LED 12W_mt",
+          "slug": "tira-led-12w-mt",
+          "codigos": [
+           "0TL12W220VIP6",
+           "0TL12W22V4KIP"
+          ],
+          "archivos": [
+           "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.1 - TIRAS LED/0TL12W220VIP6- TIRA LED 12W_mt 220V 1400lm-mt IP65 SMD2835.xlsx",
+           "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.1 - TIRAS LED/0TL12W22V4KIP- TIRA LED 12W_mt 220V 4000K IP65 SMD2835.xlsx"
+          ]
+         },
+         {
+          "nombre": "Tira NEON Led flexible",
+          "slug": "tira-neon-led-flexible",
+          "codigos": [
+           "0TNRGB20WIP65"
+          ],
+          "archivos": [
+           "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.1 - TIRAS LED/0TNRGB20WIP65- Tira NEON Led flexible 24V Dc Flexible 20W_m Ip65 Rgb - 10 Metros.xlsx"
+          ]
+         },
+         {
+          "nombre": "Tira de Led flexible",
+          "slug": "tira-de-led-flexible",
+          "codigos": [
+           "00TLEDS12WXXX",
+           "00TLEDS9WXXX",
+           "00TLIPS12WXXX",
+           "00TLIPS18WXXX",
+           "00TLIPS26WXXX",
+           "00TLIPS9WXXX",
+           "0TLEDS10W30K",
+           "0TLRGB12WIP20",
+           "0TLRGB12WIP65"
+          ],
+          "archivos": [
+           "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.1 - TIRAS LED/00TLEDS12WXXX- Tira de Led flexible 12W 24v mod. A monocolor 1140lm x mt. SMD2835, IP20,120º CRI80.xlsx",
+           "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.1 - TIRAS LED/00TLEDS9WXXX- Tira de Led flexible 9W 24v mod. A monocolor 800lm x mt. SMD2835 IP20 120º CRI80.xlsx",
+           "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.1 - TIRAS LED/00TLIPS12WXXX- Tira de Led flexible 12W 24v mod. A monocolor 1200lm x mt. SMD2835 IP65 120º  CRI90.xlsx",
+           "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.1 - TIRAS LED/00TLIPS18WXXX- Tira de Led flexible 18W 24V mod. C monocolor 1800lm x mt. SMD2835 IP65 120º CRI90.xlsx",
+           "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.1 - TIRAS LED/00TLIPS26WXXX- Tira de Led flexible 26W 24V mod. C monocolor 3003lm x mt. Smd2835 IP20 120º  CRI80.xlsx",
+           "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.1 - TIRAS LED/00TLIPS9WXXX- Tira de Led flexible 9W 24V mod. A monocolor 800lm x mt. SMD2835 IP65 120º CRI80.xlsx",
+           "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.1 - TIRAS LED/0TLEDS10W30K- Tira de Led flexible 10W 24v mod. A monocolor 800lm x mt. SMD2835 IP20 120º CRI80.xlsx",
+           "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.1 - TIRAS LED/0TLRGB12WIP20- Tira de Led flexible 12W x mt 24V mod. A RGB-SMD3535 IP20 120º CRI80.xlsx",
+           "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.1 - TIRAS LED/0TLRGB12WIP65 - Tira de Led flexible 12W x mt 24V mod. A RGB-SMD3535 IP65 120º CRI80.xlsx"
+          ]
+         },
+         {
+          "nombre": "Tira flexible mod. TIP COB LED",
+          "slug": "tira-flexible-mod-tip-cob-led",
+          "codigos": [
+           "00TLEDC12WXXX"
+          ],
+          "archivos": [
+           "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.1 - TIRAS LED/00TLEDC12WXXX- Tira flexible mod. TIP COB LED 12W 24V 1200lm monocolor x mt. 120º IP20 CRI90.xlsx"
+          ]
+         },
+         {
+          "nombre": "Tira flexible mod. TIP COB LED corte libre",
+          "slug": "tira-flexible-mod-tip-cob-led-corte-libre",
+          "codigos": [
+           "00TLEDC13WXXX",
+           "00TLIPC13WXXX"
+          ],
+          "archivos": [
+           "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.1 - TIRAS LED/00TLEDC13WXXX- Tira flexible mod. TIP COB LED corte libre 13W 24V 1200lm monocolor x mt. 120º IP20 CRI90 .xlsx",
+           "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.1 - TIRAS LED/00TLIPC13WXXX- Tira flexible mod. TIP COB LED corte libre 13W 24V 1200lm monocolor x mt. 120º IP65 CRI90.xlsx"
+          ]
+         }
+        ]
+       },
+       {
+        "nombre": "Perfiles de Aluminio",
+        "slug": "perfiles-de-aluminio",
+        "ruta": "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO",
+        "hijos": [
+         {
+          "nombre": "Perfiles de Superficie",
+          "slug": "perfiles-de-superficie",
+          "ruta": "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES DE SUPERFICIE",
+          "hijos": [
+           {
+            "nombre": "Perfil 45º",
+            "slug": "perfil-45",
+            "ruta": "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES DE SUPERFICIE/PERFIL 45º",
+            "hijos": [],
+            "botones": [
+             {
+              "nombre": "Perfil de aluminio 45 superficie",
+              "slug": "perfil-de-aluminio-45-superficie",
+              "codigos": [
+               "00PS45S2020"
+              ],
+              "archivos": [
+               "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES DE SUPERFICIE/PERFIL 45º/00PS45S2020 -Perfil de aluminio 45 superficie 15,8X15,8HX2000mm difusor opal color aluminio IP20.xlsx"
+              ]
+             }
+            ]
+           }
+          ],
+          "botones": [
+           {
+            "nombre": "Perfil de aluminio B1 de superficie",
+            "slug": "perfil-de-aluminio-b1-de-superficie",
+            "codigos": [
+             "00PSFB1S2020"
+            ],
+            "archivos": [
+             "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES DE SUPERFICIE/00PSFB1S2020 -Perfil de aluminio B1 de superficie 7,2 X 9H X 2000mm, difusor opal, acabado .xlsx"
+            ]
+           },
+           {
+            "nombre": "Perfil de aluminio B10 de superficie",
+            "slug": "perfil-de-aluminio-b10-de-superficie",
+            "codigos": [
+             "00PSFB10S2020"
+            ],
+            "archivos": [
+             "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES DE SUPERFICIE/00PSFB10S2020 -Perfil de aluminio B10 de superficie 19,5X20HX 2000mm difusor opal color aluminio-IP20.xlsx"
+            ]
+           },
+           {
+            "nombre": "Perfil de aluminio B11 de superficie",
+            "slug": "perfil-de-aluminio-b11-de-superficie",
+            "codigos": [
+             "00PSFB11S2020"
+            ],
+            "archivos": [
+             "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES DE SUPERFICIE/00PSFB11S2020 -Perfil de aluminio B11 de superficie 20 X 10H X 2000mm, difusor opal color aluminio-IP20.xlsx"
+            ]
+           },
+           {
+            "nombre": "Perfil de aluminio B12 de superficie",
+            "slug": "perfil-de-aluminio-b12-de-superficie",
+            "codigos": [
+             "00PSFB12S2020"
+            ],
+            "archivos": [
+             "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES DE SUPERFICIE/00PSFB12S2020 -Perfil de aluminio B12 de superficie 23,5 X 22H X 2000mm difusor opal color aluminio-IP20.xlsx"
+            ]
+           },
+           {
+            "nombre": "Perfil de aluminio B13 de superficie",
+            "slug": "perfil-de-aluminio-b13-de-superficie",
+            "codigos": [
+             "00PSFB13S2020"
+            ],
+            "archivos": [
+             "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES DE SUPERFICIE/00PSFB13S2020 -Perfil de aluminio B13 de superficie 30 X 11H X 2000mm, difusor opal color aluminio-IP20.xlsx"
+            ]
+           },
+           {
+            "nombre": "Perfil de aluminio B14 de superficie",
+            "slug": "perfil-de-aluminio-b14-de-superficie",
+            "codigos": [
+             "00PSFB14S2020"
+            ],
+            "archivos": [
+             "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES DE SUPERFICIE/00PSFB14S2020 -Perfil de aluminio B14 de superficie 30 X 21H X 2000mm, difusor opal color aluminio-IP20.xlsx"
+            ]
+           },
+           {
+            "nombre": "Perfil de aluminio B15 de superficie",
+            "slug": "perfil-de-aluminio-b15-de-superficie",
+            "codigos": [
+             "00PSFB15S2020"
+            ],
+            "archivos": [
+             "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES DE SUPERFICIE/00PSFB15S2020 -Perfil de aluminio B15 de superficie 35X37,5HX 2000mm difusor opal color aluminio IP20.xlsx"
+            ]
+           },
+           {
+            "nombre": "Perfil de aluminio B16 de superficie",
+            "slug": "perfil-de-aluminio-b16-de-superficie",
+            "codigos": [
+             "00PSFB16S2065"
+            ],
+            "archivos": [
+             "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES DE SUPERFICIE/00PSFB16S2065 -Perfil de aluminio B16 de superficie 17,5 X 13H X 2000mm difusor opal color aluminio IP65.xlsx"
+            ]
+           },
+           {
+            "nombre": "Perfil de aluminio B17 de superficie",
+            "slug": "perfil-de-aluminio-b17-de-superficie",
+            "codigos": [
+             "00PSFB17S2020"
+            ],
+            "archivos": [
+             "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES DE SUPERFICIE/00PSFB17S2020 -Perfil de aluminio B17 de superficie 14,5X14,5HX 2000mm difusor opal color aluminio IP20.xlsx"
+            ]
+           },
+           {
+            "nombre": "Perfil de aluminio B2 de superficie",
+            "slug": "perfil-de-aluminio-b2-de-superficie",
+            "codigos": [
+             "00PSFB2S2020"
+            ],
+            "archivos": [
+             "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES DE SUPERFICIE/00PSFB2S2020 -Perfil de aluminio B2 de superficie 8 X 7,2H X 2000mm, difusor opal, color aluminio-IP20.xlsx"
+            ]
+           },
+           {
+            "nombre": "Perfil de aluminio B3 de superficie",
+            "slug": "perfil-de-aluminio-b3-de-superficie",
+            "codigos": [
+             "00PSFB3S2020"
+            ],
+            "archivos": [
+             "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES DE SUPERFICIE/00PSFB3S2020 -Perfil de aluminio B3 de superficie 10 X 10H X 2000mm, difusor opal, color aluminio-IP20.xlsx"
+            ]
+           },
+           {
+            "nombre": "Perfil de aluminio B4 de superficie",
+            "slug": "perfil-de-aluminio-b4-de-superficie",
+            "codigos": [
+             "00PSFB4S2020"
+            ],
+            "archivos": [
+             "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES DE SUPERFICIE/00PSFB4S2020 -Perfil de aluminio B4 de superficie 10 X 13H X 2000mm, difusor opal, color aluminio-IP20.xlsx"
+            ]
+           },
+           {
+            "nombre": "Perfil de aluminio B5 de superficie",
+            "slug": "perfil-de-aluminio-b5-de-superficie",
+            "codigos": [
+             "00PSFB5S2020"
+            ],
+            "archivos": [
+             "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES DE SUPERFICIE/00PSFB5S2020 -Perfil de aluminio B5 de superficie 12 X 8H X 2000mm, difusor opal, color aluminio-IP20.xlsx"
+            ]
+           },
+           {
+            "nombre": "Perfil de aluminio B6 de superficie",
+            "slug": "perfil-de-aluminio-b6-de-superficie",
+            "codigos": [
+             "00PSFB6S2020"
+            ],
+            "archivos": [
+             "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES DE SUPERFICIE/00PSFB6S2020 -Perfil de aluminio B6 de superficie 144 X 88H X 2000mm, difusor opal, color aluminio-IP20.xlsx"
+            ]
+           },
+           {
+            "nombre": "Perfil de aluminio B7 de superficie",
+            "slug": "perfil-de-aluminio-b7-de-superficie",
+            "codigos": [
+             "00PSFB7S2020",
+             "0PSFB7S2020B",
+             "0PSFB7S2020N",
+             "0PSFB8S2020B",
+             "0PSFB8S2020N"
+            ],
+            "archivos": [
+             "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES DE SUPERFICIE/00PSFB7S2020 -Perfil de aluminio B7 de superficie 17 X 7H X 2000mm, difusor opal, color aluminio-IP20.xlsx",
+             "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES DE SUPERFICIE/0PSFB7S2020B -Perfil de aluminio B7 de superficie 17 X 7H X 2000mm, difusor opal, color blanco-IP20.xlsx",
+             "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES DE SUPERFICIE/0PSFB7S2020N -Perfil de aluminio B7 de superficie 17 X 7H X 2000mm, difusor opal, color negro-IP20.xlsx",
+             "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES DE SUPERFICIE/0PSFB8S2020B -Perfil de aluminio B7 de superficie 17 X 15H X 2000mm, difusor opal, color blanco-IP20.xlsx",
+             "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES DE SUPERFICIE/0PSFB8S2020N -Perfil de aluminio B7 de superficie 17 X 15H X 2000mm, difusor opal, color negro-IP20.xlsx"
+            ]
+           },
+           {
+            "nombre": "Perfil de aluminio B8 de superficie",
+            "slug": "perfil-de-aluminio-b8-de-superficie",
+            "codigos": [
+             "00PSFB8S2020"
+            ],
+            "archivos": [
+             "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES DE SUPERFICIE/00PSFB8S2020 -Perfil de aluminio B8 de superficie 17 X 15H X 2000mm, difusor opal, color aluminio-IP20.xlsx"
+            ]
+           },
+           {
+            "nombre": "Perfil de aluminio B9 de superficie",
+            "slug": "perfil-de-aluminio-b9-de-superficie",
+            "codigos": [
+             "00PSFB9S2020"
+            ],
+            "archivos": [
+             "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES DE SUPERFICIE/00PSFB9S2020 -Perfil de aluminio B9 de superficie 19,5 X 15H X 2000mm, difusor opal, color aluminio-IP20.xlsx"
+            ]
+           }
+          ]
+         },
+         {
+          "nombre": "Perfiles Especiales",
+          "slug": "perfiles-especiales",
+          "ruta": "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES ESPECIALES",
+          "hijos": [
+           {
+            "nombre": "Perfil 45º",
+            "slug": "perfil-45",
+            "ruta": "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES ESPECIALES/PERFIL 45º",
+            "hijos": [],
+            "botones": [
+             {
+              "nombre": "Perfil de aluminio 45 superficie",
+              "slug": "perfil-de-aluminio-45-superficie",
+              "codigos": [
+               "00PS45S2020"
+              ],
+              "archivos": [
+               "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES ESPECIALES/PERFIL 45º/00PS45S2020 -Perfil de aluminio 45 superficie 15,8X15,8HX2000mm difusor opal color aluminio IP20.xlsx"
+              ]
+             }
+            ]
+           }
+          ],
+          "botones": []
+         },
+         {
+          "nombre": "Perfiles para Empotrar",
+          "slug": "perfiles-para-empotrar",
+          "ruta": "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES PARA EMPOTRAR",
+          "hijos": [
+           {
+            "nombre": "1",
+            "slug": "1",
+            "ruta": "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES PARA EMPOTRAR/1",
+            "hijos": [],
+            "botones": [
+             {
+              "nombre": "Perfil flexible de Acero Inoxidable",
+              "slug": "perfil-flexible-de-acero-inoxidable",
+              "codigos": [
+               "00PERFLEXACER"
+              ],
+              "archivos": [
+               "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES PARA EMPOTRAR/1/00PERFLEXACER - Perfil flexible de Acero Inoxidable 15 X 13H mm X 20mt.xlsx"
+              ]
+             }
+            ]
+           }
+          ],
+          "botones": [
+           {
+            "nombre": "Perfil de aluminio A1 para empotrar",
+            "slug": "perfil-de-aluminio-a1-para-empotrar",
+            "codigos": [
+             "00PEFA1E2020"
+            ],
+            "archivos": [
+             "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES PARA EMPOTRAR/00PEFA1E2020 - Perfil de aluminio A1 para empotrar 17 X 13,5H X 2000mm difusor opal, color aluminio IP20.xlsx"
+            ]
+           },
+           {
+            "nombre": "Perfil de aluminio A10 para empotrar",
+            "slug": "perfil-de-aluminio-a10-para-empotrar",
+            "codigos": [
+             "00PEFA10E2020"
+            ],
+            "archivos": [
+             "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES PARA EMPOTRAR/00PEFA10E2020 -Perfil de aluminio A10 para empotrar 30 X 9H X 2000mm difusor opal, color aluminio IP20.xlsx"
+            ]
+           },
+           {
+            "nombre": "Perfil de aluminio A11 para empotrar",
+            "slug": "perfil-de-aluminio-a11-para-empotrar",
+            "codigos": [
+             "00PEFA11E2020",
+             "0PEFA11E2020B",
+             "0PEFA11E2020N"
+            ],
+            "archivos": [
+             "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES PARA EMPOTRAR/00PEFA11E2020 -Perfil de aluminio A11 para empotrar 30 X 11H X 2000mm difusor opal, color aluminio IP20.xlsx",
+             "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES PARA EMPOTRAR/0PEFA11E2020B -Perfil de aluminio A11 para empotrar 30 X 11H X 2000mm difusor opal, color blanco IP20..xlsx",
+             "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES PARA EMPOTRAR/0PEFA11E2020N -Perfil de aluminio A11 para empotrar 30 X 11H X 2000mm difusor opal, color negro IP20.xlsx"
+            ]
+           },
+           {
+            "nombre": "Perfil de aluminio A12 para empotrar",
+            "slug": "perfil-de-aluminio-a12-para-empotrar",
+            "codigos": [
+             "00PEFA12E2020"
+            ],
+            "archivos": [
+             "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES PARA EMPOTRAR/00PEFA12E2020 -Perfil de aluminio A12 para empotrar 30 X 21H X 2000mm difusor opal, color aluminio IP20.xlsx"
+            ]
+           },
+           {
+            "nombre": "Perfil de aluminio A13 para empotrar",
+            "slug": "perfil-de-aluminio-a13-para-empotrar",
+            "codigos": [
+             "00PEFA13E2020"
+            ],
+            "archivos": [
+             "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES PARA EMPOTRAR/00PEFA13E2020 -Perfil de aluminio A13 para empotrar 41X10,5HX 2000mm difusor opal, color aluminio IP20..xlsx"
+            ]
+           },
+           {
+            "nombre": "Perfil de aluminio A14 para empotrar",
+            "slug": "perfil-de-aluminio-a14-para-empotrar",
+            "codigos": [
+             "00PEFA14E2020"
+            ],
+            "archivos": [
+             "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES PARA EMPOTRAR/00PEFA14E2020 -Perfil de aluminio A14 para empotrar 43 X 19H X 2000mm difusor opal, color aluminio IP20.xlsx"
+            ]
+           },
+           {
+            "nombre": "Perfil de aluminio A15 para empotrar",
+            "slug": "perfil-de-aluminio-a15-para-empotrar",
+            "codigos": [
+             "00PEFA15E2020"
+            ],
+            "archivos": [
+             "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES PARA EMPOTRAR/00PEFA15E2020 -Perfil de aluminio A15 para empotrar  50 X 35H X 2000mm difusor opal, color aluminio IP20.xlsx"
+            ]
+           },
+           {
+            "nombre": "Perfil de aluminio A16 para empotrar",
+            "slug": "perfil-de-aluminio-a16-para-empotrar",
+            "codigos": [
+             "00PEFA16E2020"
+            ],
+            "archivos": [
+             "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES PARA EMPOTRAR/00PEFA16E2020 -Perfil de aluminio A16 para empotrar 62 X 31H X 2000mm difusor opal, color aluminio IP20.xlsx"
+            ]
+           },
+           {
+            "nombre": "Perfil de aluminio A2 para empotrar",
+            "slug": "perfil-de-aluminio-a2-para-empotrar",
+            "codigos": [
+             "00PEFA2E2020"
+            ],
+            "archivos": [
+             "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES PARA EMPOTRAR/00PEFA2E2020 - Perfil de aluminio A2 para empotrar 17,5 X 10H X 2000mm difusor opal, color aluminio IP20.xlsx"
+            ]
+           },
+           {
+            "nombre": "Perfil de aluminio A3 para empotrar",
+            "slug": "perfil-de-aluminio-a3-para-empotrar",
+            "codigos": [
+             "00PEFA3E2020"
+            ],
+            "archivos": [
+             "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES PARA EMPOTRAR/00PEFA3E2020 -Perfil de aluminio A3 para empotrar 22 X 14,5H X 2000mm difusor opal, color aluminio IP20.xlsx"
+            ]
+           },
+           {
+            "nombre": "Perfil de aluminio A4 para empotrar",
+            "slug": "perfil-de-aluminio-a4-para-empotrar",
+            "codigos": [
+             "00PEFA4E2020",
+             "00PEFA4E2020B",
+             "00PEFA4E2020N"
+            ],
+            "archivos": [
+             "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES PARA EMPOTRAR/00PEFA4E2020 -Perfil de aluminio A4 para empotrar 24 X 14,5H X 2000mm difusor opal, color aluminio IP20.xlsx",
+             "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES PARA EMPOTRAR/00PEFA4E2020B -Perfil de aluminio A4 para empotrar 24 X 14,5H X 2000mm difusor opal, color blanco IP20..xlsx",
+             "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES PARA EMPOTRAR/00PEFA4E2020N -Perfil de aluminio A4 para empotrar 24 X 14,5H X 2000mm difusor opal, color negro IP20.xlsx"
+            ]
+           },
+           {
+            "nombre": "Perfil de aluminio A5 para empotrar",
+            "slug": "perfil-de-aluminio-a5-para-empotrar",
+            "codigos": [
+             "00PEFA5E2020",
+             "00PEFA5E2020B",
+             "00PEFA5E2020N"
+            ],
+            "archivos": [
+             "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES PARA EMPOTRAR/00PEFA5E2020 - Perfil de aluminio A5 para empotrar 4,7 X 7H X 2000mm difusor opal, color aluminio IP20.xlsx",
+             "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES PARA EMPOTRAR/00PEFA5E2020B - Perfil de aluminio A5 para empotrar 4,7 X 7H X 2000mm difusor opal, color blanco IP20.xlsx",
+             "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES PARA EMPOTRAR/00PEFA5E2020N - Perfil de aluminio A5 para empotrar 4,7 X 7H X 2000mm difusor opal, colornegro IP20.xlsx"
+            ]
+           },
+           {
+            "nombre": "Perfil de aluminio A6 para empotrar",
+            "slug": "perfil-de-aluminio-a6-para-empotrar",
+            "codigos": [
+             "00PEFA6E2020"
+            ],
+            "archivos": [
+             "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES PARA EMPOTRAR/00PEFA6E2020 - Perfil de aluminio A6 para empotrar 25 X 19H X 2000mm difusor opal, color aluminio IP20.xlsx"
+            ]
+           },
+           {
+            "nombre": "Perfil de aluminio A7 para empotrar",
+            "slug": "perfil-de-aluminio-a7-para-empotrar",
+            "codigos": [
+             "00PEFA7E2020"
+            ],
+            "archivos": [
+             "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES PARA EMPOTRAR/00PEFA7E2020 -Perfil de aluminio A7 para empotrar 27 X 15H X 2000mm difusor opal, color aluminio IP20.xlsx"
+            ]
+           },
+           {
+            "nombre": "Perfil de aluminio A8 para empotrar",
+            "slug": "perfil-de-aluminio-a8-para-empotrar",
+            "codigos": [
+             "00PEFA8E2020"
+            ],
+            "archivos": [
+             "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES PARA EMPOTRAR/00PEFA8E2020 -Perfil de aluminio A8 para empotrar 28 X 10H X 2000mm difusor opal, color aluminio IP20.xlsx"
+            ]
+           },
+           {
+            "nombre": "Perfil de aluminio A9 para empotrar",
+            "slug": "perfil-de-aluminio-a9-para-empotrar",
+            "codigos": [
+             "00PEFA9E2020"
+            ],
+            "archivos": [
+             "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES PARA EMPOTRAR/00PEFA9E2020 -Perfil de aluminio A9 para empotrar 28 X 20H X 2000mm difusor opal, color aluminio IP20.xlsx"
+            ]
+           }
+          ]
+         }
+        ],
+        "botones": []
+       },
+       {
+        "nombre": "Accesorios",
+        "slug": "accesorios",
+        "ruta": "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.3 - ACCESORIOS",
+        "hijos": [],
+        "botones": [
+         {
+          "nombre": "A DISTANCIA R.F 2.4 GHZ MONOCOLOR",
+          "slug": "a-distancia-r-f-2-4-ghz-monocolor",
+          "codigos": [
+           "00MANDOCOTR"
+          ],
+          "archivos": [
+           "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.3 - ACCESORIOS/00MANDOCOTR - A DISTANCIA R.F 2.4 GHZ MONOCOLOR CCT RGB RGB-W RGB-CCT CONTROL DISTANCIA 30M.xlsx"
+          ]
+         },
+         {
+          "nombre": "CONTROLADOR SMART RF433+ TUYA WIFI MONOCOLOR",
+          "slug": "controlador-smart-rf433-tuya-wifi-monocolor",
+          "codigos": [
+           "00CONTROLADOR"
+          ],
+          "archivos": [
+           "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.3 - ACCESORIOS/00CONTROLADOR - CONTROLADOR SMART RF433+ TUYA WIFI MONOCOLOR CCT RGB RGB-W RGB-CCT  CONTROL DE DISTANCIA 30M.xlsx"
+          ]
+         },
+         {
+          "nombre": "Controlador Regulador Led Monocolor",
+          "slug": "controlador-regulador-led-monocolor",
+          "codigos": [
+           "00ACREGMONCTT"
+          ],
+          "archivos": [
+           "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.3 - ACCESORIOS/00ACREGMONCTT- Controlador Regulador Led Monocolor-cct.xlsx"
+          ]
+         }
+        ]
+       }
+      ],
+      "botones": []
+     },
+     {
+      "nombre": "Proyectores de Carril",
+      "slug": "proyectores-de-carril",
+      "ruta": "1 -  INTERIORES/1.6 - PROYECTORES DE CARRIL",
+      "hijos": [
+       {
+        "nombre": "Proyector CAP",
+        "slug": "proyector-cap",
+        "ruta": "1 -  INTERIORES/1.6 - PROYECTORES DE CARRIL/1.6.1 - PROYECTOR CAP",
+        "hijos": [],
+        "botones": [
+         {
+          "nombre": "00PROCA20W30N - Proyector mod. CAP LED",
+          "slug": "00proca20w30n-proyector-mod-cap-led",
+          "codigos": [
+           "00PROCA20W30N"
+          ],
+          "archivos": [
+           "1 -  INTERIORES/1.6 - PROYECTORES DE CARRIL/1.6.1 - PROYECTOR CAP/00PROCA20W30N - 00PROCA20W30N - Proyector mod. CAP LED 20W 3000K 2290lm CRI95 36º negro.xlsx"
+          ]
+         },
+         {
+          "nombre": "Proyector mod. CAP LED",
+          "slug": "proyector-mod-cap-led",
+          "codigos": [
+           "00PROCA10W30B",
+           "00PROCA20W30B",
+           "00PROCA20W40B",
+           "00PROCA20W40N",
+           "00PROCA30W30B",
+           "00PROCA30W30N",
+           "00PROCA30W40B"
+          ],
+          "archivos": [
+           "1 -  INTERIORES/1.6 - PROYECTORES DE CARRIL/1.6.1 - PROYECTOR CAP/00PROCA10W30B - Proyector mod. CAP LED 10W 3000K 1145lm CRI95 36º blanco.xlsx",
+           "1 -  INTERIORES/1.6 - PROYECTORES DE CARRIL/1.6.1 - PROYECTOR CAP/00PROCA20W30B - Proyector mod. CAP LED 20W 3000K 2290lm CRI95 36º blanco.xlsx",
+           "1 -  INTERIORES/1.6 - PROYECTORES DE CARRIL/1.6.1 - PROYECTOR CAP/00PROCA20W40B - Proyector mod. CAP LED 20W 4000K 2290m CRI95 36º blanco.xlsx",
+           "1 -  INTERIORES/1.6 - PROYECTORES DE CARRIL/1.6.1 - PROYECTOR CAP/00PROCA20W40N- Proyector mod. CAP LED 20W 4000K 2290Lm CRI95 36º negro.xlsx",
+           "1 -  INTERIORES/1.6 - PROYECTORES DE CARRIL/1.6.1 - PROYECTOR CAP/00PROCA30W30B - Proyector mod. CAP LED 30W 3000K 3470lm CRI95 36º blanco.xlsx",
+           "1 -  INTERIORES/1.6 - PROYECTORES DE CARRIL/1.6.1 - PROYECTOR CAP/00PROCA30W30N - Proyector mod. CAP LED 30W 3000K 3470lm CRI95 36º negro.xlsx",
+           "1 -  INTERIORES/1.6 - PROYECTORES DE CARRIL/1.6.1 - PROYECTOR CAP/00PROCA30W40B - Proyector mod. CAP LED 30W 4000K 3470ll CRI95 36º blanco.xlsx"
+          ]
+         },
+         {
+          "nombre": "Proyectormod. CAP LED",
+          "slug": "proyectormod-cap-led",
+          "codigos": [
+           "00PROCA30W40N"
+          ],
+          "archivos": [
+           "1 -  INTERIORES/1.6 - PROYECTORES DE CARRIL/1.6.1 - PROYECTOR CAP/00PROCA30W40N - Proyectormod. CAP  LED 30W 4000K 3470lm CRI95 36º negro.xlsx"
+          ]
+         }
+        ]
+       },
+       {
+        "nombre": "Proyector ZOOM",
+        "slug": "proyector-zoom",
+        "ruta": "1 -  INTERIORES/1.6 - PROYECTORES DE CARRIL/1.6.2 - PROYECTOR ZOOM",
+        "hijos": [],
+        "botones": [
+         {
+          "nombre": "Proyector LED mod. ZOOM",
+          "slug": "proyector-led-mod-zoom",
+          "codigos": [
+           "00PROYZOOM20B",
+           "00PROYZOOM20N",
+           "00PROYZOOM25B",
+           "00PROYZOOM25N"
+          ],
+          "archivos": [
+           "1 -  INTERIORES/1.6 - PROYECTORES DE CARRIL/1.6.2 - PROYECTOR ZOOM/00PROYZOOM20B - Proyector LED mod. ZOOM 20W 920lm CRI90, 6-60º, 500mA. blanco. blanco.xlsx",
+           "1 -  INTERIORES/1.6 - PROYECTORES DE CARRIL/1.6.2 - PROYECTOR ZOOM/00PROYZOOM20N - Proyector LED mod. ZOOM 20W 920lm CRI90, 6-60º, 500mA. negro.xlsx",
+           "1 -  INTERIORES/1.6 - PROYECTORES DE CARRIL/1.6.2 - PROYECTOR ZOOM/00PROYZOOM25B - Proyector LED mod. ZOOM 25W 3000K 1125lm CRI90, 6-60º, 650mA. blanco.xlsx",
+           "1 -  INTERIORES/1.6 - PROYECTORES DE CARRIL/1.6.2 - PROYECTOR ZOOM/00PROYZOOM25N - Proyector LED mod. ZOOM 25W 3000K 1125lm CRI90, 6-60º, 650mA. negro. blanco.xlsx"
+          ]
+         }
+        ]
+       },
+       {
+        "nombre": "Proyector PIC",
+        "slug": "proyector-pic",
+        "ruta": "1 -  INTERIORES/1.6 - PROYECTORES DE CARRIL/1.6.3 - PROYECTOR PIC",
+        "hijos": [],
+        "botones": [
+         {
+          "nombre": "Proyector PIC LED",
+          "slug": "proyector-pic-led",
+          "codigos": [
+           "000PRPIC10W30B",
+           "00PRPIC10W30N",
+           "00PRPIC15W30B",
+           "00PRPIC15W30N"
+          ],
+          "archivos": [
+           "1 -  INTERIORES/1.6 - PROYECTORES DE CARRIL/1.6.3 - PROYECTOR PIC/000PRPIC10W30B - Proyector PIC LED 10W 3000K 600lm CRI92 36º blanco.xlsx",
+           "1 -  INTERIORES/1.6 - PROYECTORES DE CARRIL/1.6.3 - PROYECTOR PIC/00PRPIC10W30N - Proyector PIC LED 10W 3000K 600lm CRI92 36º Negro.xlsx",
+           "1 -  INTERIORES/1.6 - PROYECTORES DE CARRIL/1.6.3 - PROYECTOR PIC/00PRPIC15W30B - Proyector PIC LED 15W 3000K 890lm CRI92 36º blanco.xlsx",
+           "1 -  INTERIORES/1.6 - PROYECTORES DE CARRIL/1.6.3 - PROYECTOR PIC/00PRPIC15W30N - Proyector PIC LED 15W 3000K 890lm CRI92 36º negro.xlsx"
+          ]
+         }
+        ]
+       },
+       {
+        "nombre": "Proyector CLIP",
+        "slug": "proyector-clip",
+        "ruta": "1 -  INTERIORES/1.6 - PROYECTORES DE CARRIL/1.6.4 - PROYECTOR CLIP",
+        "hijos": [],
+        "botones": [
+         {
+          "nombre": "Proyector LED",
+          "slug": "proyector-led",
+          "codigos": [
+           "00PRCLIP2730B",
+           "00PRCLIP2730N"
+          ],
+          "archivos": [
+           "1 -  INTERIORES/1.6 - PROYECTORES DE CARRIL/1.6.4 - PROYECTOR CLIP/00PRCLIP2730B -  Proyector LED 27W mod. CLIP 27-30-40K 2700lm CRI95 apertura 20º-50º - blanco.xlsx",
+           "1 -  INTERIORES/1.6 - PROYECTORES DE CARRIL/1.6.4 - PROYECTOR CLIP/00PRCLIP2730N -  Proyector LED 27W mod. CLIP 27-30-40K 2700lm CRI95 apertura 20º-50º - negro.xlsx"
+          ]
+         }
+        ]
+       },
+       {
+        "nombre": "Proyector GRACION",
+        "slug": "proyector-gracion",
+        "ruta": "1 -  INTERIORES/1.6 - PROYECTORES DE CARRIL/1.6.5 - PROYECTOR GRACION",
+        "hijos": [],
+        "botones": [
+         {
+          "nombre": "Proyector Gracion LED",
+          "slug": "proyector-gracion-led",
+          "codigos": [
+           "00PRGR284KBL4",
+           "00PRYGR283KNG",
+           "00PRYGR284KNG",
+           "00PRYGR28W3KB"
+          ],
+          "archivos": [
+           "1 -  INTERIORES/1.6 - PROYECTORES DE CARRIL/1.6.5 - PROYECTOR GRACION/00PRGR284KBL4 - Proyector Gracion LED 28W blanco 36° 4000K.xlsx",
+           "1 -  INTERIORES/1.6 - PROYECTORES DE CARRIL/1.6.5 - PROYECTOR GRACION/00PRYGR283KNG - Proyector Gracion LED 28W negro 36° 3000K.xlsx",
+           "1 -  INTERIORES/1.6 - PROYECTORES DE CARRIL/1.6.5 - PROYECTOR GRACION/00PRYGR284KNG - Proyector Gracion LED 28W negro 36° 4000K.xlsx",
+           "1 -  INTERIORES/1.6 - PROYECTORES DE CARRIL/1.6.5 - PROYECTOR GRACION/00PRYGR28W3KB - Proyector Gracion LED 28W blanco 36° 3000K.xlsx"
+          ]
+         }
+        ]
+       },
+       {
+        "nombre": "Proyector MODEN",
+        "slug": "proyector-moden",
+        "ruta": "1 -  INTERIORES/1.6 - PROYECTORES DE CARRIL/1.6.6 - PROYECTOR MODEN",
+        "hijos": [],
+        "botones": [
+         {
+          "nombre": "Proyector LED MODEM",
+          "slug": "proyector-led-modem",
+          "codigos": [
+           "00PRMOD30W40K",
+           "00PRMOD40W40K"
+          ],
+          "archivos": [
+           "1 -  INTERIORES/1.6 - PROYECTORES DE CARRIL/1.6.6 - PROYECTOR MODEN/00PRMOD30W40K - Proyector LED MODEM 30W 3460lm 4000K CRI95 40º negro.xlsx",
+           "1 -  INTERIORES/1.6 - PROYECTORES DE CARRIL/1.6.6 - PROYECTOR MODEN/00PRMOD40W40K - Proyector LED MODEM 40W 3460lm 4000KCRI95 40º negro.xlsx"
+          ]
+         }
+        ]
+       }
+      ],
+      "botones": []
+     },
+     {
+      "nombre": "Especiales Muebles",
+      "slug": "especiales-muebles",
+      "ruta": "1 -  INTERIORES/1.7 - ESPECIALES MUEBLES",
+      "hijos": [],
+      "botones": [
+       {
+        "nombre": "Equipo lineal compacto",
+        "slug": "equipo-lineal-compacto",
+        "codigos": [
+         "00NDPRO"
+        ],
+        "archivos": [
+         "1 -  INTERIORES/1.7 - ESPECIALES MUEBLES/00NDPRO_Equipo lineal compacto.xlsx"
+        ]
+       }
+      ]
+     }
+    ],
+    "botones": []
+   },
+   {
+    "nombre": "Exteriores",
+    "slug": "exteriores",
+    "ruta": "2 - EXTERIORES",
+    "hijos": [
+     {
+      "nombre": "Apliques",
+      "slug": "apliques",
+      "ruta": "2 - EXTERIORES/2 .1 - APLIQUES",
+      "hijos": [
+       {
+        "nombre": "Apliques Doble Salida de Luz",
+        "slug": "apliques-doble-salida-de-luz",
+        "ruta": "2 - EXTERIORES/2 .1 - APLIQUES/2.1.1 - APLIQUES DOBLE SALIDA DE LUZ",
+        "hijos": [],
+        "botones": [
+         {
+          "nombre": "Aplique de pared adosable mod. CUBE",
+          "slug": "aplique-de-pared-adosable-mod-cube",
+          "codigos": [
+           "0APACU06WCCTX"
+          ],
+          "archivos": [
+           "2 - EXTERIORES/2 .1 - APLIQUES/2.1.1 - APLIQUES DOBLE SALIDA DE LUZ/0APACU06WCCTX -  Aplique de pared adosable mod. CUBE 6W IP54 600lm. 3CCT.xlsx"
+          ]
+         },
+         {
+          "nombre": "Aplique pared superficie 2 GU10",
+          "slug": "aplique-pared-superficie-2-gu10",
+          "codigos": [
+           "0ASIT14WCCTIP"
+          ],
+          "archivos": [
+           "2 - EXTERIORES/2 .1 - APLIQUES/2.1.1 - APLIQUES DOBLE SALIDA DE LUZ/0ASIT14WCCTIP - Aplique pared superficie 2 GU10 X 7W IP65 1400lm IP65 directa-indirecta 3CCT.xlsx"
+          ]
+         },
+         {
+          "nombre": "Aplique pared superficie tipo cubo",
+          "slug": "aplique-pared-superficie-tipo-cubo",
+          "codigos": [
+           "00APL12WCCTIP"
+          ],
+          "archivos": [
+           "2 - EXTERIORES/2 .1 - APLIQUES/2.1.1 - APLIQUES DOBLE SALIDA DE LUZ/00APL12WCCTIP -Aplique pared superficie tipo cubo 12W CCT IP54 1200lm Up y Downlight_ ángulo regulable.xlsx"
+          ]
+         },
+         {
+          "nombre": "Aplique pared tipo cubo",
+          "slug": "aplique-pared-tipo-cubo",
+          "codigos": [
+           "00APLCUB093KB"
+          ],
+          "archivos": [
+           "2 - EXTERIORES/2 .1 - APLIQUES/2.1.1 - APLIQUES DOBLE SALIDA DE LUZ/00APLCUB093KB - Aplique pared tipo cubo 9W 3000K IP67.xlsx"
+          ]
+         }
+        ]
+       }
+      ],
+      "botones": []
+     },
+     {
+      "nombre": "Balizas",
+      "slug": "balizas",
+      "ruta": "2 - EXTERIORES/2.2 - BALIZAS",
+      "hijos": [],
+      "botones": [
+       {
+        "nombre": "Baliza de paso adosable mod. GO",
+        "slug": "baliza-de-paso-adosable-mod-go",
+        "codigos": [
+         "0BAPGO03WXXKX"
+        ],
+        "archivos": [
+         "2 - EXTERIORES/2.2 - BALIZAS/0BAPGO03WXXKX -  Baliza de paso adosable mod. GO IP65 3W 3000K 180mA. 33x117x117mm.xlsx"
+        ]
+       },
+       {
+        "nombre": "Baliza de paso adosable mod. GO circular",
+        "slug": "baliza-de-paso-adosable-mod-go-circular",
+        "codigos": [
+         "0BARGO03WXXKX"
+        ],
+        "archivos": [
+         "2 - EXTERIORES/2.2 - BALIZAS/0BARGO03WXXKX -  Baliza de paso adosable mod. GO circular IP65 3W 3000K 180mA. Ø117 mm.xlsx"
+        ]
+       },
+       {
+        "nombre": "Baliza de paso adosable mod. LARGE rectangular",
+        "slug": "baliza-de-paso-adosable-mod-large-rectangular",
+        "codigos": [
+         "0BAALA05WXXKX"
+        ],
+        "archivos": [
+         "2 - EXTERIORES/2.2 - BALIZAS/0BAALA05WXXKX -  Baliza de paso adosable mod. LARGE rectangular 5W IP54  30x230x81mm.xlsx"
+        ]
+       },
+       {
+        "nombre": "Baliza para exteriores mod. TE",
+        "slug": "baliza-para-exteriores-mod-te",
+        "codigos": [
+         "0BETE3012W30K",
+         "0BETE5012W30K"
+        ],
+        "archivos": [
+         "2 - EXTERIORES/2.2 - BALIZAS/0BETE3012W30K -  Baliza para exteriores mod. TE IP65 H.300mm 12W 3000K 300mA.xlsx",
+         "2 - EXTERIORES/2.2 - BALIZAS/0BETE5012W30K -  Baliza para exteriores mod. TE IP65 H.500mm 12W 3000K 300mA.xlsx"
+        ]
+       },
+       {
+        "nombre": "Baliza para exteriores mod. TI",
+        "slug": "baliza-para-exteriores-mod-ti",
+        "codigos": [
+         "00BE6TI20W30K",
+         "00BE8TI24W30K",
+         "0BE20TI48W30K"
+        ],
+        "archivos": [
+         "2 - EXTERIORES/2.2 - BALIZAS/00BE6TI20W30K -  Baliza para exteriores mod. TI IP65 H.600mm 20W 3000K 600mA.xlsx",
+         "2 - EXTERIORES/2.2 - BALIZAS/00BE8TI24W30K -  Baliza para exteriores mod. TI IP65 H.800mm 24W 3000K 600mA.xlsx",
+         "2 - EXTERIORES/2.2 - BALIZAS/0BE20TI48W30K -  Baliza para exteriores mod. TI IP65 H2000mm 48W 3000K 1200mA.xlsx"
+        ]
+       },
+       {
+        "nombre": "Baliza tipo Bolardo para exteriores",
+        "slug": "baliza-tipo-bolardo-para-exteriores",
+        "codigos": [
+         "00BALIZ8W3KIP"
+        ],
+        "archivos": [
+         "2 - EXTERIORES/2.2 - BALIZAS/00BALIZ8W3KIP_ Baliza tipo Bolardo para exteriores 8W 3000 - 4000K - 1000mm con regulación Triac.xlsx"
+        ]
+       }
+      ]
+     },
+     {
+      "nombre": "Faroles",
+      "slug": "faroles",
+      "ruta": "2 - EXTERIORES/2.4 - FAROLES",
+      "hijos": [],
+      "botones": [
+       {
+        "nombre": "Luminaria farol modelo Villa acero acabado pintado al horno negro",
+        "slug": "luminaria-farol-modelo-villa-acero-acabado-pintado-al-horno-negro",
+        "codigos": [
+         "00FAROLVILLAN"
+        ],
+        "archivos": [
+         "2 - EXTERIORES/2.4 - FAROLES/00FAROLVILLAN - Luminaria farol modelo Villa acero acabado pintado al horno negro IP20.xlsx"
+        ]
+       },
+       {
+        "nombre": "Módulo LED Villa - 50w_6500lm_4000K-6000K_IP65 _90º",
+        "slug": "modulo-led-villa-50w-6500lm-4000k-6000k-ip65-90",
+        "codigos": [
+         "00MDVILLA50W4"
+        ],
+        "archivos": [
+         "2 - EXTERIORES/2.4 - FAROLES/00MDVILLA50W4 - Módulo LED Villa - 50w_6500lm_4000K-6000K_IP65 _90º .xlsx"
+        ]
+       }
+      ]
+     },
+     {
+      "nombre": "Jardín - Estacas",
+      "slug": "jardin-estacas",
+      "ruta": "2 - EXTERIORES/2.5 - JARDÍN - ESTACAS",
+      "hijos": [],
+      "botones": [
+       {
+        "nombre": "Foco jadín pincho GU10",
+        "slug": "foco-jadin-pincho-gu10",
+        "codigos": [
+         "00PINCHOGU10"
+        ],
+        "archivos": [
+         "2 - EXTERIORES/2.5 - JARDÍN - ESTACAS/00PINCHOGU10 - Foco jadín pincho GU10 7W IP54 IK08 - Negro.xlsx"
+        ]
+       }
+      ]
+     },
+     {
+      "nombre": "Plafones",
+      "slug": "plafones",
+      "ruta": "2 - EXTERIORES/2.6 - PLAFONES",
+      "hijos": [],
+      "botones": [
+       {
+        "nombre": "APLIQUE SUP. CIRCULAR SAJ-6000",
+        "slug": "aplique-sup-circular-saj-6000",
+        "codigos": [
+         "0070211540"
+        ],
+        "archivos": [
+         "2 - EXTERIORES/2.6 - PLAFONES/0070211540 - APLIQUE SUP. CIRCULAR SAJ-6000 15W 4000K IP65.xlsx"
+        ]
+       },
+       {
+        "nombre": "Aplique Led superficie circular para montaje en pared o techo",
+        "slug": "aplique-led-superficie-circular-para-montaje-en-pared-o-techo",
+        "codigos": [
+         "00AP19W30KDIP"
+        ],
+        "archivos": [
+         "2 - EXTERIORES/2.6 - PLAFONES/00AP19W30KDIP - Aplique Led superficie circular para montaje en pared o techo 19W-DALI IP65.xlsx"
+        ]
+       },
+       {
+        "nombre": "Luminaria VILLALBA Maxi",
+        "slug": "luminaria-villalba-maxi",
+        "codigos": [
+         "0043814440"
+        ],
+        "archivos": [
+         "2 - EXTERIORES/2.6 - PLAFONES/0043814440 - Luminaria VILLALBA Maxi 44W 4000K IP44 DOWNLIGHT EMPOTRAR CIRCULAR BLANCO.xlsx"
+        ]
+       },
+       {
+        "nombre": "Plafón LED superficie",
+        "slug": "plafon-led-superficie",
+        "codigos": [
+         "00PLAFON500DA"
+        ],
+        "archivos": [
+         "2 - EXTERIORES/2.6 - PLAFONES/00PLAFON500DA- Plafón LED superficie 500mm 4000K DALÍ 40W blanco.xlsx"
+        ]
+       },
+       {
+        "nombre": "Plafón Led superficie",
+        "slug": "plafon-led-superficie",
+        "codigos": [
+         "00PLAFIP6512W"
+        ],
+        "archivos": [
+         "2 - EXTERIORES/2.6 - PLAFONES/00PLAFIP6512W - Plafón Led superficie IP65 12-15-18-24W CCT.xlsx"
+        ]
+       },
+       {
+        "nombre": "Plafón MARS LED",
+        "slug": "plafon-mars-led",
+        "codigos": [
+         "00PML12WIP65N",
+         "00PML20WIP65N"
+        ],
+        "archivos": [
+         "2 - EXTERIORES/2.6 - PLAFONES/00PML12WIP65N- Plafón MARS LED, 24-18-12W, 100lm_W, CCT, AC220-240V, IP65, negro.xlsx",
+         "2 - EXTERIORES/2.6 - PLAFONES/00PML20WIP65N- Plafón MARS LED, 20W, 1800lm-W, CCT, AC220-240V, IP65, negro.xlsx"
+        ]
+       }
+      ]
+     }
+    ],
+    "botones": []
+   },
+   {
+    "nombre": "Decorativas",
+    "slug": "decorativas",
+    "ruta": "3 - DECORATIVAS",
+    "hijos": [
+     {
+      "nombre": "Empotrados",
+      "slug": "empotrados",
+      "ruta": "3 - DECORATIVAS/3.1 - EMPOTRADOS",
+      "hijos": [],
+      "botones": [
+       {
+        "nombre": "LÁMPARA CIRCULAR EMPOTRABLE",
+        "slug": "lampara-circular-empotrable",
+        "codigos": [
+         "00LCEP6437WXXX"
+        ],
+        "archivos": [
+         "3 - DECORATIVAS/3.1 - EMPOTRADOS/00LCEP6437WXXX - LÁMPARA CIRCULAR EMPOTRABLE 640mm 37W 3286Lm.xlsx"
+        ]
+       }
+      ]
+     },
+     {
+      "nombre": "Lámparas Colgantes",
+      "slug": "lamparas-colgantes",
+      "ruta": "3 - DECORATIVAS/3.2 - LÁMPARAS COLGANTES",
+      "hijos": [],
+      "botones": [
+       {
+        "nombre": "40D_23W",
+        "slug": "40d-23w",
+        "codigos": [
+         "APLCCIRULO500"
+        ],
+        "archivos": [
+         "3 - DECORATIVAS/3.2 - LÁMPARAS COLGANTES/APLCCIRULO500_40D_23W.xlsx"
+        ]
+       },
+       {
+        "nombre": "40D_71W",
+        "slug": "40d-71w",
+        "codigos": [
+         "APLCCIRULO1500"
+        ],
+        "archivos": [
+         "3 - DECORATIVAS/3.2 - LÁMPARAS COLGANTES/APLCCIRULO1500_40D_71W.xlsx"
+        ]
+       },
+       {
+        "nombre": "Lámpara para suspender mod. LB",
+        "slug": "lampara-para-suspender-mod-lb",
+        "codigos": [
+         "00LSLB24WXXX"
+        ],
+        "archivos": [
+         "3 - DECORATIVAS/3.2 - LÁMPARAS COLGANTES/00LSLB24WXXX - Lámpara para suspender mod. LB 24W 3000K 60° IP20.xlsx"
+        ]
+       },
+       {
+        "nombre": "Luminaria LED circular de superficie o suspendida mod. Moo49",
+        "slug": "luminaria-led-circular-de-superficie-o-suspendida-mod-moo49",
+        "codigos": [
+         "0LSMO4920W30K"
+        ],
+        "archivos": [
+         "3 - DECORATIVAS/3.2 - LÁMPARAS COLGANTES/0LSMO4920W30K - Luminaria LED circular de superficie o suspendida mod. Moo49 20W 3000K 200mA..xlsx"
+        ]
+       },
+       {
+        "nombre": "Luminaria suspendida circular mod. GALAXY",
+        "slug": "luminaria-suspendida-circular-mod-galaxy",
+        "codigos": [
+         "00LSG51714800"
+        ],
+        "archivos": [
+         "3 - DECORATIVAS/3.2 - LÁMPARAS COLGANTES/00LSG51714800 - Luminaria suspendida circular mod. GALAXY 48W CCT 600mm BLANCO.xlsx"
+        ]
+       },
+       {
+        "nombre": "Luminaria suspendida decorativa ESILE E27",
+        "slug": "luminaria-suspendida-decorativa-esile-e27",
+        "codigos": [
+         "00LAMSP300NG"
+        ],
+        "archivos": [
+         "3 - DECORATIVAS/3.2 - LÁMPARAS COLGANTES/00LAMSP300NG - Luminaria suspendida decorativa ESILE E27 3000K - negro exterior - interior oro.xlsx"
+        ]
+       },
+       {
+        "nombre": "Luminaria suspendida mod. Circulo 640 decorativa circular para suspender",
+        "slug": "luminaria-suspendida-mod-circulo-640-decorativa-circular-para-suspender",
+        "codigos": [
+         "0LSCR64037W4K"
+        ],
+        "archivos": [
+         "3 - DECORATIVAS/3.2 - LÁMPARAS COLGANTES/0LSCR64037W4K - Luminaria suspendida mod. Circulo 640 decorativa circular para suspender 37W 3286lm 4000K.xlsx"
+        ]
+       },
+       {
+        "nombre": "Luminaria suspendida mod. VENICE RETRO GOLD",
+        "slug": "luminaria-suspendida-mod-venice-retro-gold",
+        "codigos": [
+         "00VENIC8WG30K"
+        ],
+        "archivos": [
+         "3 - DECORATIVAS/3.2 - LÁMPARAS COLGANTES/00VENIC8WG30K - Luminaria suspendida mod. VENICE RETRO GOLD 8W 3000K 630lm CRI90 24º.xlsx"
+        ]
+       }
+      ]
+     },
+     {
+      "nombre": "Superficie",
+      "slug": "superficie",
+      "ruta": "3 - DECORATIVAS/3.3 - SUPERFICIE",
+      "hijos": [],
+      "botones": [
+       {
+        "nombre": "Luminaria circular de superficie mod. NEO",
+        "slug": "luminaria-circular-de-superficie-mod-neo",
+        "codigos": [
+         "0CSNEO24W3CCT"
+        ],
+        "archivos": [
+         "3 - DECORATIVAS/3.3 - SUPERFICIE/0CSNEO24W3CCT - Luminaria circular de superficie mod. NEO 24W 3CCT 2400 lm. .xlsx"
+        ]
+       }
+      ]
+     }
+    ],
+    "botones": []
+   },
+   {
+    "nombre": "Industriales",
+    "slug": "industriales",
+    "ruta": "4 - INDUSTRIALES",
+    "hijos": [
+     {
+      "nombre": "Campanas",
+      "slug": "campanas",
+      "ruta": "4 - INDUSTRIALES/4.1 - CAMPANAS",
+      "hijos": [
+       {
+        "nombre": "Campanas ALFA",
+        "slug": "campanas-alfa",
+        "ruta": "4 - INDUSTRIALES/4.1 - CAMPANAS/4.1.1 - CAMPANAS ALFA",
+        "hijos": [],
+        "botones": [
+         {
+          "nombre": "Campana para suspender mod. ALFA",
+          "slug": "campana-para-suspender-mod-alfa",
+          "codigos": [
+           "OOCAMP100W4KA",
+           "OOCAMP100W5KA"
+          ],
+          "archivos": [
+           "4 - INDUSTRIALES/4.1 - CAMPANAS/4.1.1 - CAMPANAS ALFA/OOCAMP100W4KA - Campana para suspender mod. ALFA 60-80-100 W 10800-14400-18000 lm  4000K 1-10V IP65 negro.xlsx",
+           "4 - INDUSTRIALES/4.1 - CAMPANAS/4.1.1 - CAMPANAS ALFA/OOCAMP100W5KA - Campana para suspender mod. ALFA 60-80-100W 10800-14400-18000 lm 4000K regulable 1-10V, IP65 negro.xlsx"
+          ]
+         },
+         {
+          "nombre": "Campana para suspender mod. ALFA 150",
+          "slug": "campana-para-suspender-mod-alfa-150",
+          "codigos": [
+           "OOCAMP150W4KA",
+           "OOCAMP150W5KA"
+          ],
+          "archivos": [
+           "4 - INDUSTRIALES/4.1 - CAMPANAS/4.1.1 - CAMPANAS ALFA/OOCAMP150W4KA - Campana para suspender mod. ALFA 150 100-125-150W 18000-22500-27000 lm 4000K 1-10V IP65 negro.xlsx",
+           "4 - INDUSTRIALES/4.1 - CAMPANAS/4.1.1 - CAMPANAS ALFA/OOCAMP150W5KA - Campana para suspender mod. ALFA 150 100-125-150W 18000-22500-27000 lm 5000K 1-10V IP65 negro.xlsx"
+          ]
+         },
+         {
+          "nombre": "Campana para suspender mod. ALFA 300",
+          "slug": "campana-para-suspender-mod-alfa-300",
+          "codigos": [
+           "OOCAMP300W4KA",
+           "OOCAMP300W5KA"
+          ],
+          "archivos": [
+           "4 - INDUSTRIALES/4.1 - CAMPANAS/4.1.1 - CAMPANAS ALFA/OOCAMP300W4KA - Campana para suspender mod. ALFA 300 300W 54000 lm 4000K 1-10V IP65 negro.xlsx",
+           "4 - INDUSTRIALES/4.1 - CAMPANAS/4.1.1 - CAMPANAS ALFA/OOCAMP300W5KA - Campana para suspender mod. ALFA 300 300W 54000 lm 5000K  1-10V IP65 negro.xlsx"
+          ]
+         },
+         {
+          "nombre": "Campana para suspender mod. ALFA200",
+          "slug": "campana-para-suspender-mod-alfa200",
+          "codigos": [
+           "OOCAMP200W4KA",
+           "OOCAMP200W5KA"
+          ],
+          "archivos": [
+           "4 - INDUSTRIALES/4.1 - CAMPANAS/4.1.1 - CAMPANAS ALFA/OOCAMP200W4KA - Campana para suspender mod. ALFA200 100-150-200W 18000-27000-36000 lm 4000K 1-10V IP65 negro.xlsx",
+           "4 - INDUSTRIALES/4.1 - CAMPANAS/4.1.1 - CAMPANAS ALFA/OOCAMP200W5KA - Campana para suspender mod. ALFA200 100-150-200W 18000-27000-36000 lm 5000K 1-10V IP65 negro.xlsx"
+          ]
+         }
+        ]
+       },
+       {
+        "nombre": "Campanas CAM",
+        "slug": "campanas-cam",
+        "ruta": "4 - INDUSTRIALES/4.1 - CAMPANAS/4.1.2 - CAMPANAS CAM",
+        "hijos": [],
+        "botones": [
+         {
+          "nombre": "Campana grandes alturas para suspender mod. CAM",
+          "slug": "campana-grandes-alturas-para-suspender-mod-cam",
+          "codigos": [
+           "OOCAMP120W5KB"
+          ],
+          "archivos": [
+           "4 - INDUSTRIALES/4.1 - CAMPANAS/4.1.2 - CAMPANAS CAM/OOCAMP120W5KB - Campana grandes alturas para suspender mod. CAM 120W 15600lm 1-10V IP65 negro.xlsx"
+          ]
+         }
+        ]
+       },
+       {
+        "nombre": "Campanas SOL",
+        "slug": "campanas-sol",
+        "ruta": "4 - INDUSTRIALES/4.1 - CAMPANAS/4.1.3 - CAMPANAS SOL",
+        "hijos": [],
+        "botones": [
+         {
+          "nombre": "Campana para suspender mod. SOL",
+          "slug": "campana-para-suspender-mod-sol",
+          "codigos": [
+           "OOCAMP100W5KS",
+           "OOCAMP200W5KS"
+          ],
+          "archivos": [
+           "4 - INDUSTRIALES/4.1 - CAMPANAS/4.1.3 - CAMPANAS SOL/OOCAMP100W5KS - Campana para suspender mod. SOL 60-80-100W 8400-11200-14000lm 5000K 1-10V IP65 negro.xlsx",
+           "4 - INDUSTRIALES/4.1 - CAMPANAS/4.1.3 - CAMPANAS SOL/OOCAMP200W5KS - Campana para suspender mod. SOL 100-150-200W 14000-21000-28000lm 5000K 1-10V IP65 negro.xlsx"
+          ]
+         }
+        ]
+       },
+       {
+        "nombre": "Especial",
+        "slug": "especial",
+        "ruta": "4 - INDUSTRIALES/4.1 - CAMPANAS/4.1.4 - ESPECIAL",
+        "hijos": [],
+        "botones": [
+         {
+          "nombre": "Campana grandes alturas para suspender mod. UF",
+          "slug": "campana-grandes-alturas-para-suspender-mod-uf",
+          "codigos": [
+           "OOCAMU200W4KD"
+          ],
+          "archivos": [
+           "4 - INDUSTRIALES/4.1 - CAMPANAS/4.1.4 - ESPECIAL/OOCAMU200W4KD - Campana grandes alturas para suspender mod. UF 200W 32000lm DALI IP65 negro.xlsx"
+          ]
+         },
+         {
+          "nombre": "LUMINARIA INDUSTRIAL CAMPANA",
+          "slug": "luminaria-industrial-campana",
+          "codigos": [
+           "00CAMP200W4K"
+          ],
+          "archivos": [
+           "4 - INDUSTRIALES/4.1 - CAMPANAS/4.1.4 - ESPECIAL/00CAMP200W4K - LUMINARIA INDUSTRIAL CAMPANA 200W IP67 IK10 32000Lm.xlsx"
+          ]
+         }
+        ]
+       }
+      ],
+      "botones": []
+     },
+     {
+      "nombre": "Estancas",
+      "slug": "estancas",
+      "ruta": "4 - INDUSTRIALES/4.2 - ESTANCAS",
+      "hijos": [
+       {
+        "nombre": "Estancas 600mm",
+        "slug": "estancas-600mm",
+        "ruta": "4 - INDUSTRIALES/4.2 - ESTANCAS/4.2.1 - ESTANCAS 600mm",
+        "hijos": [],
+        "botones": [
+         {
+          "nombre": "Pantalla estanca LED",
+          "slug": "pantalla-estanca-led",
+          "codigos": [
+           "00PAES12W4K60",
+           "00PAES12W6K60",
+           "00PAES17W4K60",
+           "00PAES17W6K60"
+          ],
+          "archivos": [
+           "4 - INDUSTRIALES/4.2 - ESTANCAS/4.2.1 - ESTANCAS 600mm/00PAES12W4K60 - Pantalla estanca LED 12W - IP66 IK08 4000K 600mm.xlsx",
+           "4 - INDUSTRIALES/4.2 - ESTANCAS/4.2.1 - ESTANCAS 600mm/00PAES12W6K60 - Pantalla estanca LED 12W - IP66 IK08 6000K 600mm.xlsx",
+           "4 - INDUSTRIALES/4.2 - ESTANCAS/4.2.1 - ESTANCAS 600mm/00PAES17W4K60 - Pantalla estanca LED 17W - IP66 IK08 4000K 600mm.xlsx",
+           "4 - INDUSTRIALES/4.2 - ESTANCAS/4.2.1 - ESTANCAS 600mm/00PAES17W6K60 - Pantalla estanca LED 17W - IP66 IK08 6000K 600mm.xlsx"
+          ]
+         }
+        ]
+       },
+       {
+        "nombre": "Estancas 1200mm",
+        "slug": "estancas-1200mm",
+        "ruta": "4 - INDUSTRIALES/4.2 - ESTANCAS/4.2.2 - ESTANCAS 1200mm",
+        "hijos": [],
+        "botones": [
+         {
+          "nombre": "36W4K - Pantalla LED estanca",
+          "slug": "36w4k-pantalla-led-estanca",
+          "codigos": [
+           "00PAN18"
+          ],
+          "archivos": [
+           "4 - INDUSTRIALES/4.2 - ESTANCAS/4.2.2 - ESTANCAS 1200mm/00PAN18-36W4K - Pantalla LED estanca 18-36W - 1200mm_4000K-IP65-IK08.xlsx"
+          ]
+         },
+         {
+          "nombre": "Estanca LED Integrado",
+          "slug": "estanca-led-integrado",
+          "codigos": [
+           "0031413540"
+          ],
+          "archivos": [
+           "4 - INDUSTRIALES/4.2 - ESTANCAS/4.2.2 - ESTANCAS 1200mm/0031413540  - Estanca LED Integrado 35W 4000K 1175mm IP65 4550Lm IP65 IK08.xlsx"
+          ]
+         },
+         {
+          "nombre": "Pantalla LED estanca",
+          "slug": "pantalla-led-estanca",
+          "codigos": [
+           "00PANST36W4KD",
+           "00PANST44W4KD"
+          ],
+          "archivos": [
+           "4 - INDUSTRIALES/4.2 - ESTANCAS/4.2.2 - ESTANCAS 1200mm/00PANST36W4KD - Pantalla LED estanca 36W-4K-1200mm-IP66 IK08m_5400lm-DALÍ2.xlsx",
+           "4 - INDUSTRIALES/4.2 - ESTANCAS/4.2.2 - ESTANCAS 1200mm/00PANST44W4KD - Pantalla LED estanca 44W-4000K-1500mm-IP66 IK08m_6600lm-DALÍ2.xlsx"
+          ]
+         },
+         {
+          "nombre": "Pantalla estanca LED",
+          "slug": "pantalla-estanca-led",
+          "codigos": [
+           "00PAEST24W4K",
+           "00PANEST19W4K",
+           "00PANEST30W4K"
+          ],
+          "archivos": [
+           "4 - INDUSTRIALES/4.2 - ESTANCAS/4.2.2 - ESTANCAS 1200mm/00PAEST24W4K - Pantalla estanca LED 24W 4000K 3950Lm 250mA. 1200mm IP66.xlsx",
+           "4 - INDUSTRIALES/4.2 - ESTANCAS/4.2.2 - ESTANCAS 1200mm/00PANEST19W4K - Pantalla estanca LED 19W - 4000K- IP66 IK08 1200mm.xlsx",
+           "4 - INDUSTRIALES/4.2 - ESTANCAS/4.2.2 - ESTANCAS 1200mm/00PANEST30W4K - Pantalla estanca LED 30W - 4000K- IP66 IK08 1200mm.xlsx"
+          ]
+         },
+         {
+          "nombre": "luminaria LED estanca SLE-T LED",
+          "slug": "luminaria-led-estanca-sle-t-led",
+          "codigos": [
+           "0030512440",
+           "0030513440"
+          ],
+          "archivos": [
+           "4 - INDUSTRIALES/4.2 - ESTANCAS/4.2.2 - ESTANCAS 1200mm/0030512440  - luminaria LED estanca SLE-T LED 24W 4000K 3950Lm 250mA.1200mm IP66.xlsx",
+           "4 - INDUSTRIALES/4.2 - ESTANCAS/4.2.2 - ESTANCAS 1200mm/0030513440 - luminaria LED estanca SLE-T LED 34W 4000K 5360Lm 1200mm IP66.xlsx"
+          ]
+         }
+        ]
+       },
+       {
+        "nombre": "Estancas CCT 1200mm",
+        "slug": "estancas-cct-1200mm",
+        "ruta": "4 - INDUSTRIALES/4.2 - ESTANCAS/4.2.3 - ESTANCAS CCT 1200mm",
+        "hijos": [],
+        "botones": [
+         {
+          "nombre": "Pantalla estanca LED",
+          "slug": "pantalla-estanca-led",
+          "codigos": [
+           "00PANST40WCCT"
+          ],
+          "archivos": [
+           "4 - INDUSTRIALES/4.2 - ESTANCAS/4.2.3 - ESTANCAS CCT 1200mm/00PANST40WCCT - Pantalla estanca LED 1200mm 20-30-40W - IP65 3cct.xlsx"
+          ]
+         }
+        ]
+       },
+       {
+        "nombre": "Estancas 1500mm y 1600mm",
+        "slug": "estancas-1500mm-y-1600mm",
+        "ruta": "4 - INDUSTRIALES/4.2 - ESTANCAS/4.2.4 - ESTANCAS 1500mm y 1600mm",
+        "hijos": [],
+        "botones": [
+         {
+          "nombre": "43W4K - Pantalla LED estanca 23_43W4000K",
+          "slug": "43w4k-pantalla-led-estanca-23-43w4000k",
+          "codigos": [
+           "00PAN23"
+          ],
+          "archivos": [
+           "4 - INDUSTRIALES/4.2 - ESTANCAS/4.2.4 - ESTANCAS 1500mm y 1600mm/00PAN23_43W4K - Pantalla LED estanca 23_43W4000K - 1500mm IP66-IK08.xlsx"
+          ]
+         },
+         {
+          "nombre": "50W4K - Pantalla LED estanca",
+          "slug": "50w4k-pantalla-led-estanca",
+          "codigos": [
+           "00PAN36"
+          ],
+          "archivos": [
+           "4 - INDUSTRIALES/4.2 - ESTANCAS/4.2.4 - ESTANCAS 1500mm y 1600mm/00PAN36-50W4K - Pantalla LED estanca 36-50W 4000K - 1500mm_IP65-IK08.xlsx"
+          ]
+         },
+         {
+          "nombre": "Pantalla estanca LED",
+          "slug": "pantalla-estanca-led",
+          "codigos": [
+           "00PANE30W4K16",
+           "00PANEST45W4K"
+          ],
+          "archivos": [
+           "4 - INDUSTRIALES/4.2 - ESTANCAS/4.2.4 - ESTANCAS 1500mm y 1600mm/00PANE30W4K16 - Pantalla estanca LED 30W - 4000K- IP66 IK08 1600mm.xlsx",
+           "4 - INDUSTRIALES/4.2 - ESTANCAS/4.2.4 - ESTANCAS 1500mm y 1600mm/00PANEST45W4K - Pantalla estanca LED 45W - 4000K- IP66 IK08 1600mm.xlsx"
+          ]
+         }
+        ]
+       }
+      ],
+      "botones": []
+     },
+     {
+      "nombre": "Paneles",
+      "slug": "paneles",
+      "ruta": "4 - INDUSTRIALES/4.3 - PANELES",
+      "hijos": [],
+      "botones": [
+       {
+        "nombre": "Luminaria mod. LINC LED luz indirecta",
+        "slug": "luminaria-mod-linc-led-luz-indirecta",
+        "codigos": [
+         "00LINC3160040",
+         "0LINC3160040D"
+        ],
+        "archivos": [
+         "4 - INDUSTRIALES/4.3 - PANELES/00LINC3160040- Luminaria mod. LINC LED luz indirecta 31W, 600 X 600 X130mm, 4000K-5900lm-350mA.xlsx",
+         "4 - INDUSTRIALES/4.3 - PANELES/0LINC3160040D- Luminaria mod. LINC LED luz indirecta 31W, 600 X 600 X130mm, 4000K-DALI-5900lm-350mA.xlsx"
+        ]
+       },
+       {
+        "nombre": "PANEL LED",
+        "slug": "panel-led",
+        "codigos": [
+         "00PANEL42W45K"
+        ],
+        "archivos": [
+         "4 - INDUSTRIALES/4.3 - PANELES/00PANEL42W45K - PANEL LED 595X595mm 42W 4200Lm IP40 UGR19.xlsx"
+        ]
+       },
+       {
+        "nombre": "Panel LED AQUA",
+        "slug": "panel-led-aqua",
+        "codigos": [
+         "00PANEL40W60K"
+        ],
+        "archivos": [
+         "4 - INDUSTRIALES/4.3 - PANELES/00PANEL40W60K - Panel LED AQUA IP65 40W 60X60 4200lm UGR19-No fliker.xlsx"
+        ]
+       },
+       {
+        "nombre": "Panel LED BURO",
+        "slug": "panel-led-buro",
+        "codigos": [
+         "00PANEL42WXXX",
+         "00PANER42W3CCT"
+        ],
+        "archivos": [
+         "4 - INDUSTRIALES/4.3 - PANELES/00PANEL42WXXX - Panel LED BURO 42W 60X60 4200lm UGR17- No fliker - IP40.xlsx",
+         "4 - INDUSTRIALES/4.3 - PANELES/00PANER42W3CCT - Panel LED BURO 42W 120X30 3CCT 4200lm UGR17-No fliker-IP40.xlsx"
+        ]
+       },
+       {
+        "nombre": "Panel LED HI",
+        "slug": "panel-led-hi",
+        "codigos": [
+         "00PANEL25W40K",
+         "00PANEL25WXXX"
+        ],
+        "archivos": [
+         "4 - INDUSTRIALES/4.3 - PANELES/00PANEL25W40K - Panel LED HI 25W 4000lm 4000K UGR19- No fliker - IP40.xlsx",
+         "4 - INDUSTRIALES/4.3 - PANELES/00PANEL25WXXX - Panel LED HI 25W 60X60 4500lm UGR19- No fliker - IP40.xlsx"
+        ]
+       },
+       {
+        "nombre": "Panel LED Slim",
+        "slug": "panel-led-slim",
+        "codigos": [
+         "00PANEL34W4KD"
+        ],
+        "archivos": [
+         "4 - INDUSTRIALES/4.3 - PANELES/00PANEL34W4KD - Panel LED Slim 60X60-23-34W-4000K-IP40-2900_4420lm-UGR19-DALI.xlsx"
+        ]
+       },
+       {
+        "nombre": "Panel LED TRI",
+        "slug": "panel-led-tri",
+        "codigos": [
+         "00PANEL60WXXX"
+        ],
+        "archivos": [
+         "4 - INDUSTRIALES/4.3 - PANELES/00PANEL60WXXX - Panel LED TRI 60W 60X60 6000lm UGR19-No fliker  .xlsx"
+        ]
+       },
+       {
+        "nombre": "Panel de LED Slim",
+        "slug": "panel-de-led-slim",
+        "codigos": [
+         "00PANEL23344K"
+        ],
+        "archivos": [
+         "4 - INDUSTRIALES/4.3 - PANELES/00PANEL23344K  - Panel de LED Slim 600X600 - 23-34W - 4000K-IP40 - 2900_4420lm - UGR19.xlsx"
+        ]
+       },
+       {
+        "nombre": "Pantalla Eco ABAX",
+        "slug": "pantalla-eco-abax",
+        "codigos": [
+         "OPANABAX344KD"
+        ],
+        "archivos": [
+         "4 - INDUSTRIALES/4.3 - PANELES/OPANABAX344KD - Pantalla Eco ABAX Dali 31,4W 2C 5900lm 180lm_W 120º UGR 19, difusor microprisma blanco L80B10..xlsx"
+        ]
+       },
+       {
+        "nombre": "Pantalla empotrable 1 calle",
+        "slug": "pantalla-empotrable-1-calle",
+        "codigos": [
+         "0PE1C24W4KIP4"
+        ],
+        "archivos": [
+         "4 - INDUSTRIALES/4.3 - PANELES/0PE1C24W4KIP4 - Pantalla empotrable 1 calle 24W 1X24W 4000K 1197x297mm IP40 Blanco.xlsx"
+        ]
+       },
+       {
+        "nombre": "Pantalla empotrable 2 calleS",
+        "slug": "pantalla-empotrable-2-calles",
+        "codigos": [
+         "0PE2C24W4KIP4",
+         "0PE2C48W4KIP4",
+         "0PE2C48W4KIPD"
+        ],
+        "archivos": [
+         "4 - INDUSTRIALES/4.3 - PANELES/0PE2C24W4KIP4 - Pantalla empotrable 2 calleS 24W 2x12W 4000K 597x597mm IP40. Blanco.xlsx",
+         "4 - INDUSTRIALES/4.3 - PANELES/0PE2C48W4KIP4 - Pantalla empotrable 2 calleS 48W 2x24W 4000K 1197x297mm IP40 blanco.xlsx",
+         "4 - INDUSTRIALES/4.3 - PANELES/0PE2C48W4KIPD- Pantalla empotrable 2 calleS 48W 2x24W 4000K 1197x297mm IP40 DALI blanco.xlsx"
+        ]
+       },
+       {
+        "nombre": "Pantalla empotrada luz indirecta SLI-L LED",
+        "slug": "pantalla-empotrada-luz-indirecta-sli-l-led",
+        "codigos": [
+         "00PSLI21740KB"
+        ],
+        "archivos": [
+         "4 - INDUSTRIALES/4.3 - PANELES/00PSLI21740KB - Pantalla empotrada luz indirecta SLI-L LED 2x17W 5360lm 4000K UGR 19 597x597m IP20.xlsx"
+        ]
+       },
+       {
+        "nombre": "Pantalla superficie mod. CJV 625",
+        "slug": "pantalla-superficie-mod-cjv-625",
+        "codigos": [
+         "00PANSP544K",
+         "00PANSP544KDL"
+        ],
+        "archivos": [
+         "4 - INDUSTRIALES/4.3 - PANELES/00PANSP544K - Pantalla superficie mod. CJV 625 54W 4935 4000K difusor opal IP20 UGR19.xlsx",
+         "4 - INDUSTRIALES/4.3 - PANELES/00PANSP544KDL - Pantalla superficie mod. CJV 625 54W 4935 4000K difusor opal IP20 UGR19 DALI.xlsx"
+        ]
+       }
+      ]
+     },
+     {
+      "nombre": "Proyectores",
+      "slug": "proyectores",
+      "ruta": "4 - INDUSTRIALES/4.5 - PROYECTORES",
+      "hijos": [
+       {
+        "nombre": "Proyectores PAR (económicos)",
+        "slug": "proyectores-par-economicos",
+        "ruta": "4 - INDUSTRIALES/4.5 - PROYECTORES/PROYECTORES PAR (Económicos)",
+        "hijos": [],
+        "botones": [
+         {
+          "nombre": "Proyector para exteriores mod. PAR",
+          "slug": "proyector-para-exteriores-mod-par",
+          "codigos": [
+           "00PREX100W3KB",
+           "00PREX100W4KB",
+           "00PREX100W6KB",
+           "00PREX150W3KB",
+           "00PREX150W4KB",
+           "00PREX150W6KB",
+           "00PREX50W3KB",
+           "00PREX50W4KB",
+           "00PREX50W6KB"
+          ],
+          "archivos": [
+           "4 - INDUSTRIALES/4.5 - PROYECTORES/PROYECTORES PAR (Económicos)/00PREX100W3KB - Proyector para exteriores mod. PAR 100W 11000lm 3000K IP65 negro.xlsx",
+           "4 - INDUSTRIALES/4.5 - PROYECTORES/PROYECTORES PAR (Económicos)/00PREX100W4KB - Proyector para exteriores mod. PAR 100W 11000lm 4000K IP65 negro.xlsx",
+           "4 - INDUSTRIALES/4.5 - PROYECTORES/PROYECTORES PAR (Económicos)/00PREX100W6KB - Proyector para exteriores mod. PAR 100W 11000lm 6000K IP65 negro.xlsx",
+           "4 - INDUSTRIALES/4.5 - PROYECTORES/PROYECTORES PAR (Económicos)/00PREX150W3KB - Proyector para exteriores mod. PAR 150W 16500lm 3000K IP65 negro.xlsx",
+           "4 - INDUSTRIALES/4.5 - PROYECTORES/PROYECTORES PAR (Económicos)/00PREX150W4KB - Proyector para exteriores mod. PAR 150W 16500lm 4000K IP65 negro.xlsx",
+           "4 - INDUSTRIALES/4.5 - PROYECTORES/PROYECTORES PAR (Económicos)/00PREX150W6KB - Proyector para exteriores mod. PAR 150W 16500lm 6000K IP65 negro.xlsx",
+           "4 - INDUSTRIALES/4.5 - PROYECTORES/PROYECTORES PAR (Económicos)/00PREX50W3KB - Proyector para exteriores mod. PAR 50W 5500lm IP65 negro.xlsx",
+           "4 - INDUSTRIALES/4.5 - PROYECTORES/PROYECTORES PAR (Económicos)/00PREX50W4KB - Proyector para exteriores mod. PAR 50W 5500lm 4000K IP65 negro.xlsx",
+           "4 - INDUSTRIALES/4.5 - PROYECTORES/PROYECTORES PAR (Económicos)/00PREX50W6KB - Proyector para exteriores mod. PAR 50W 5500lm 6000K IP65 negro.xlsx"
+          ]
+         }
+        ]
+       },
+       {
+        "nombre": "Proyectores SEC",
+        "slug": "proyectores-sec",
+        "ruta": "4 - INDUSTRIALES/4.5 - PROYECTORES/PROYECTORES SEC",
+        "hijos": [],
+        "botones": [
+         {
+          "nombre": "Proyector para exteriores mod. SEC",
+          "slug": "proyector-para-exteriores-mod-sec",
+          "codigos": [
+           "00PROEX100XK",
+           "00PROEX150XK",
+           "00PROEX200XK",
+           "00PROEX300XK",
+           "00PROEX50XK"
+          ],
+          "archivos": [
+           "4 - INDUSTRIALES/4.5 - PROYECTORES/PROYECTORES SEC/00PROEX100XK - Proyector para exteriores mod. SEC 100W 17000lm IP66 gris.xlsx",
+           "4 - INDUSTRIALES/4.5 - PROYECTORES/PROYECTORES SEC/00PROEX150XK - Proyector para exteriores mod. SEC 150W 25500lm IP66 gris.xlsx",
+           "4 - INDUSTRIALES/4.5 - PROYECTORES/PROYECTORES SEC/00PROEX200XK - Proyector para exteriores mod. SEC 200W 34000lm IP66 gris.xlsx",
+           "4 - INDUSTRIALES/4.5 - PROYECTORES/PROYECTORES SEC/00PROEX300XK - Proyector para exteriores mod. SEC 300W 51000lm IP66 gris.xlsx",
+           "4 - INDUSTRIALES/4.5 - PROYECTORES/PROYECTORES SEC/00PROEX50XK - Proyector para exteriores mod. SEC 50W 8500lm IP66 gris.xlsx"
+          ]
+         }
+        ]
+       },
+       {
+        "nombre": "Proyectores SLIM",
+        "slug": "proyectores-slim",
+        "ruta": "4 - INDUSTRIALES/4.5 - PROYECTORES/PROYECTORES SLIM",
+        "hijos": [],
+        "botones": [
+         {
+          "nombre": "Proyector para exteriores mod. SLIM",
+          "slug": "proyector-para-exteriores-mod-slim",
+          "codigos": [
+           "00PREX100W4KS",
+           "00PREX100W5KS",
+           "00PREX150W4KS",
+           "00PREX150W5KS",
+           "00PREX200W4KS",
+           "00PREX200W5KS",
+           "00PREX300W4KS",
+           "00PREX300W5KS"
+          ],
+          "archivos": [
+           "4 - INDUSTRIALES/4.5 - PROYECTORES/PROYECTORES SLIM/00PREX100W4KS - Proyector para exteriores mod. SLIM 100W 14000lm 4000K IP65 negro.xlsx",
+           "4 - INDUSTRIALES/4.5 - PROYECTORES/PROYECTORES SLIM/00PREX100W5KS - Proyector para exteriores mod. SLIM 100W 14000lm 5000K IP65 negro.xlsx",
+           "4 - INDUSTRIALES/4.5 - PROYECTORES/PROYECTORES SLIM/00PREX150W4KS - Proyector para exteriores mod. SLIM 150W 21000lm 4000K IP65 negro.xlsx",
+           "4 - INDUSTRIALES/4.5 - PROYECTORES/PROYECTORES SLIM/00PREX150W5KS - Proyector para exteriores mod. SLIM 150W 21000lm 5000K IP65 negro.xlsx",
+           "4 - INDUSTRIALES/4.5 - PROYECTORES/PROYECTORES SLIM/00PREX200W4KS - Proyector para exteriores mod. SLIM 200W 28000lm 4000K IP65 negro.xlsx",
+           "4 - INDUSTRIALES/4.5 - PROYECTORES/PROYECTORES SLIM/00PREX200W5KS - Proyector para exteriores mod. SLIM 200W 28000lm 5000K IP65 negro.xlsx",
+           "4 - INDUSTRIALES/4.5 - PROYECTORES/PROYECTORES SLIM/00PREX300W4KS - Proyector para exteriores mod. SLIM 300W 42000lm 4000K IP65 negro.xlsx",
+           "4 - INDUSTRIALES/4.5 - PROYECTORES/PROYECTORES SLIM/00PREX300W5KS - Proyector para exteriores mod. SLIM 300W 42000lm 5000K IP65 negro.xlsx"
+          ]
+         }
+        ]
+       }
+      ],
+      "botones": [
+       {
+        "nombre": "BABILOM",
+        "slug": "babilom",
+        "codigos": [
+         "0072701500"
+        ],
+        "archivos": [
+         "4 - INDUSTRIALES/4.5 - PROYECTORES/0072701500 - BABILOM 150W CCT IP65 7 PROYECTOR SUPERFICIE RECTANGULAR NEGRO.xlsx"
+        ]
+       },
+       {
+        "nombre": "PROYECTOR LED EXTERIOR",
+        "slug": "proyector-led-exterior",
+        "codigos": [
+         "00PROEX200W4K"
+        ],
+        "archivos": [
+         "4 - INDUSTRIALES/4.5 - PROYECTORES/00PROEX200W4K - PROYECTOR LED EXTERIOR 200W IP66 IK08 CCT 34.000Lm negro.xlsx"
+        ]
+       },
+       {
+        "nombre": "Proyector alto flujo mod. ACL80",
+        "slug": "proyector-alto-flujo-mod-acl80",
+        "codigos": [
+         "OPROACL80W4KD"
+        ],
+        "archivos": [
+         "4 - INDUSTRIALES/4.5 - PROYECTORES/OPROACL80W4KD - Proyector alto flujo mod. ACL80 - 78-33-28W - 11800-4990-4200 lm, 4000K DALI 2 IP66..xlsx"
+        ]
+       }
+      ]
+     },
+     {
+      "nombre": "Farolas",
+      "slug": "farolas",
+      "ruta": "4 - INDUSTRIALES/4.6 - FAROLAS",
+      "hijos": [
+       {
+        "nombre": "Farolas",
+        "slug": "farolas",
+        "ruta": "4 - INDUSTRIALES/4.6 - FAROLAS/FAROLAS",
+        "hijos": [],
+        "botones": [
+         {
+          "nombre": "Farola Led MN",
+          "slug": "farola-led-mn",
+          "codigos": [
+           "0FAMN100WXXK"
+          ],
+          "archivos": [
+           "4 - INDUSTRIALES/4.6 - FAROLAS/FAROLAS/0FAMN100WXXK - Farola Led MN 100W 4500lm 150º IP65 IK08.xlsx"
+          ]
+         },
+         {
+          "nombre": "Farola Led VA",
+          "slug": "farola-led-va",
+          "codigos": [
+           "00FAVA60WXXXK"
+          ],
+          "archivos": [
+           "4 - INDUSTRIALES/4.6 - FAROLAS/FAROLAS/00FAVA60WXXXK - Farola Led VA 60W 6900lm IP65 IK08 150º .xlsx"
+          ]
+         },
+         {
+          "nombre": "Luminaria farol modelo Villa acero acabado pintado al horno negro",
+          "slug": "luminaria-farol-modelo-villa-acero-acabado-pintado-al-horno-negro",
+          "codigos": [
+           "00FAROLVILLAN"
+          ],
+          "archivos": [
+           "4 - INDUSTRIALES/4.6 - FAROLAS/FAROLAS/00FAROLVILLAN - Luminaria farol modelo Villa acero acabado pintado al horno negro IP20.xlsx"
+          ]
+         },
+         {
+          "nombre": "Módulo LED Villa - 50w_6500lm_4000K-6000K_IP65 _90º",
+          "slug": "modulo-led-villa-50w-6500lm-4000k-6000k-ip65-90",
+          "codigos": [
+           "00MDVILLA50W4"
+          ],
+          "archivos": [
+           "4 - INDUSTRIALES/4.6 - FAROLAS/FAROLAS/00MDVILLA50W4 - Módulo LED Villa - 50w_6500lm_4000K-6000K_IP65 _90º .xlsx"
+          ]
+         }
+        ]
+       },
+       {
+        "nombre": "Farolas LI",
+        "slug": "farolas-li",
+        "ruta": "4 - INDUSTRIALES/4.6 - FAROLAS/FAROLAS LI",
+        "hijos": [],
+        "botones": [
+         {
+          "nombre": "Farola Led LI",
+          "slug": "farola-led-li",
+          "codigos": [
+           "00FALI30WXXXK",
+           "00FALI60WXXXK",
+           "00FALI90WXXXK"
+          ],
+          "archivos": [
+           "4 - INDUSTRIALES/4.6 - FAROLAS/FAROLAS LI/00FALI30WXXXK - Farola Led LI 30W 4200lm IP65 IK08 regulable 150º X 70º 0-10V.xlsx",
+           "4 - INDUSTRIALES/4.6 - FAROLAS/FAROLAS LI/00FALI60WXXXK - Farola Led LI 60W 4200lm IP65 IK08 regulable 150º X 70º 0-10V.xlsx",
+           "4 - INDUSTRIALES/4.6 - FAROLAS/FAROLAS LI/00FALI90WXXXK - Farola Led LI 90W 12600lm IP65 IK08 regulable 150º X 70º 0-10V.xlsx"
+          ]
+         }
+        ]
+       },
+       {
+        "nombre": "Farolas SO (solar)",
+        "slug": "farolas-so-solar",
+        "ruta": "4 - INDUSTRIALES/4.6 - FAROLAS/FAROLAS SO (SOLAR)",
+        "hijos": [],
+        "botones": [
+         {
+          "nombre": "Farola Led SOLAR",
+          "slug": "farola-led-solar",
+          "codigos": [
+           "00FASO16WCCTK"
+          ],
+          "archivos": [
+           "4 - INDUSTRIALES/4.6 - FAROLAS/FAROLAS SO (SOLAR)/00FASO16WCCTK - Farola Led SOLAR 16W 6000lm IP65 IK08 regulable 140°x75° regulable.xlsx"
+          ]
+         },
+         {
+          "nombre": "Farola Led SOLAR HIBRÍDA",
+          "slug": "farola-led-solar-hibrida",
+          "codigos": [
+           "00FASOH20WCCT"
+          ],
+          "archivos": [
+           "4 - INDUSTRIALES/4.6 - FAROLAS/FAROLAS SO (SOLAR)/00FASOH20WCCT - Farola Led SOLAR HIBRÍDA 20W 9000lm IP65 IK08 regulable 140°x75° regulable.xlsx"
+          ]
+         },
+         {
+          "nombre": "Farola Led SOLAR JY",
+          "slug": "farola-led-solar-jy",
+          "codigos": [
+           "0FASOJY20WXXK"
+          ],
+          "archivos": [
+           "4 - INDUSTRIALES/4.6 - FAROLAS/FAROLAS SO (SOLAR)/0FASOJY20WXXK - Farola Led SOLAR JY 20W 3000lm IP65 IK08 regulable 120°.xlsx"
+          ]
+         }
+        ]
+       },
+       {
+        "nombre": "Farolas ST",
+        "slug": "farolas-st",
+        "ruta": "4 - INDUSTRIALES/4.6 - FAROLAS/FAROLAS ST",
+        "hijos": [],
+        "botones": [
+         {
+          "nombre": "00FAST30WXXXK - Farola Led ST",
+          "slug": "00fast30wxxxk-farola-led-st",
+          "codigos": [
+           "00FAST30WXXXK"
+          ],
+          "archivos": [
+           "4 - INDUSTRIALES/4.6 - FAROLAS/FAROLAS ST/00FAST30WXXXK - 00FAST30WXXXK - Farola Led ST 30W 4500lm IP65 IK08 regulable 140°x 70° 0-10V.xlsx"
+          ]
+         },
+         {
+          "nombre": "Farola Led ST",
+          "slug": "farola-led-st",
+          "codigos": [
+           "00FAST60WXXXK",
+           "00FAST90WXXXK"
+          ],
+          "archivos": [
+           "4 - INDUSTRIALES/4.6 - FAROLAS/FAROLAS ST/00FAST60WXXXK - Farola Led ST 60W 9000lm IP65 IK08 regulable 140°x 70° 1-10V.xlsx",
+           "4 - INDUSTRIALES/4.6 - FAROLAS/FAROLAS ST/00FAST90WXXXK - Farola Led ST 90W 13500lm IP65 IK08 regulable 140°x 70° 1-10V.xlsx"
+          ]
+         }
+        ]
+       }
+      ],
+      "botones": []
+     }
+    ],
+    "botones": [
+     {
+      "nombre": "Tubo LED T8",
+      "slug": "tubo-led-t8",
+      "codigos": [
+       "00TLT824W60K"
+      ],
+      "archivos": [
+       "4 - INDUSTRIALES/farolas.xlsx"
+      ]
+     }
+    ]
+   },
+   {
+    "nombre": "Hospitalarias - Salas Blancas",
+    "slug": "hospitalarias-salas-blancas",
+    "ruta": "5 - HOSPITALARIAS - SALAS BLANCAS",
+    "hijos": [
+     {
+      "nombre": "Salas Blancas",
+      "slug": "salas-blancas",
+      "ruta": "5 - HOSPITALARIAS - SALAS BLANCAS/5.1 - SALAS BLANCAS",
+      "hijos": [
+       {
+        "nombre": "Pantallas Hospitalarias 600 X 600mm",
+        "slug": "pantallas-hospitalarias-600-x-600mm",
+        "ruta": "5 - HOSPITALARIAS - SALAS BLANCAS/5.1 - SALAS BLANCAS/5.1.1 - PANTALLAS HOSPITALARIAS 600 X 600mm",
+        "hijos": [],
+        "botones": [
+         {
+          "nombre": "Pantalla hospitalaria",
+          "slug": "pantalla-hospitalaria",
+          "codigos": [
+           "0PHIP6E45W30K",
+           "0PHIP6E45W3KD",
+           "0PHIP6E45W40K"
+          ],
+          "archivos": [
+           "5 - HOSPITALARIAS - SALAS BLANCAS/5.1 - SALAS BLANCAS/5.1.1 - PANTALLAS HOSPITALARIAS 600 X 600mm/0PHIP6E45W30K- Pantalla hospitalaria IP65 empotrable 635x635mm 45W 3000K 6000lm para ambientes estériles ON-OFF.xlsx",
+           "5 - HOSPITALARIAS - SALAS BLANCAS/5.1 - SALAS BLANCAS/5.1.1 - PANTALLAS HOSPITALARIAS 600 X 600mm/0PHIP6E45W3KD- Pantalla hospitalaria IP65 empotrable 635 x 635mm 45W 3000K 6000lm para ambientes estériles DALI 2.xlsx",
+           "5 - HOSPITALARIAS - SALAS BLANCAS/5.1 - SALAS BLANCAS/5.1.1 - PANTALLAS HOSPITALARIAS 600 X 600mm/0PHIP6E45W40K- Pantalla hospitalaria IP65 empotrable 635x635mm 45W 4000K 6240lm para ambientes estériles ON-OFF.xlsx"
+          ]
+         },
+         {
+          "nombre": "Pantalla hospitalaria empotrable",
+          "slug": "pantalla-hospitalaria-empotrable",
+          "codigos": [
+           "0PHE27WICIP6D",
+           "0PHE45W4KIP6D"
+          ],
+          "archivos": [
+           "5 - HOSPITALARIAS - SALAS BLANCAS/5.1 - SALAS BLANCAS/5.1.1 - PANTALLAS HOSPITALARIAS 600 X 600mm/0PHE27WICIP6D- Pantalla hospitalaria empotrable 600 x 600mm 27,3W 4000K IP65 5214 lm DALI - IC (intelligent colors)-150mA.xlsx",
+           "5 - HOSPITALARIAS - SALAS BLANCAS/5.1 - SALAS BLANCAS/5.1.1 - PANTALLAS HOSPITALARIAS 600 X 600mm/0PHE45W4KIP6D- Pantalla hospitalaria empotrable 600 x 600mm 45W 4000K IP65 5875lm DALI 350mA.xlsx"
+          ]
+         },
+         {
+          "nombre": "Pantalla hospitalaria empotrable Clean Regular",
+          "slug": "pantalla-hospitalaria-empotrable-clean-regular",
+          "codigos": [
+           "0PHE60W4KIP6D"
+          ],
+          "archivos": [
+           "5 - HOSPITALARIAS - SALAS BLANCAS/5.1 - SALAS BLANCAS/5.1.1 - PANTALLAS HOSPITALARIAS 600 X 600mm/0PHE60W4KIP6D- Pantalla hospitalaria empotrable Clean Regular 4x15W 635x635mm 60W 4000K IP65 DALI .xlsx"
+          ]
+         },
+         {
+          "nombre": "Pantalla hospitalaría empotrable",
+          "slug": "pantalla-hospitalaria-empotrable",
+          "codigos": [
+           "0PHEIPAS41W30KD",
+           "0PHEIPAS41W40KD",
+           "0PHEIPAS65W30KD",
+           "0PHEIPAS65W40KD"
+          ],
+          "archivos": [
+           "5 - HOSPITALARIAS - SALAS BLANCAS/5.1 - SALAS BLANCAS/5.1.1 - PANTALLAS HOSPITALARIAS 600 X 600mm/0PHEIPAS41W30KD - Pantalla hospitalaría empotrable IP65 acceso superior 41,6W 3000K DALI2 600x600mm.xlsx",
+           "5 - HOSPITALARIAS - SALAS BLANCAS/5.1 - SALAS BLANCAS/5.1.1 - PANTALLAS HOSPITALARIAS 600 X 600mm/0PHEIPAS41W40KD - Pantalla hospitalaría empotrable IP65 acceso superior 41,6W 4000K DALI2 600x600mm.xlsx",
+           "5 - HOSPITALARIAS - SALAS BLANCAS/5.1 - SALAS BLANCAS/5.1.1 - PANTALLAS HOSPITALARIAS 600 X 600mm/0PHEIPAS65W30KD - Pantalla hospitalaría empotrable IP65 acceso superior 65W 3000K DALI2 630x630mm.xlsx",
+           "5 - HOSPITALARIAS - SALAS BLANCAS/5.1 - SALAS BLANCAS/5.1.1 - PANTALLAS HOSPITALARIAS 600 X 600mm/0PHEIPAS65W40KD - Pantalla hospitalaría empotrable IP65 acceso superior 65W 4000K DALI2 630x630mm .xlsx"
+          ]
+         }
+        ]
+       },
+       {
+        "nombre": "Pantallas Hospitalarias 1200mm X 300mm",
+        "slug": "pantallas-hospitalarias-1200mm-x-300mm",
+        "ruta": "5 - HOSPITALARIAS - SALAS BLANCAS/5.1 - SALAS BLANCAS/5.1.2 - PANTALLAS HOSPITALARIAS 1200mm x 300mm",
+        "hijos": [],
+        "botones": [
+         {
+          "nombre": "Pantalla hospitalaria",
+          "slug": "pantalla-hospitalaria",
+          "codigos": [
+           "00PHIPE45W30K",
+           "00PHIPE45W40K",
+           "0PHIPE45W30KD"
+          ],
+          "archivos": [
+           "5 - HOSPITALARIAS - SALAS BLANCAS/5.1 - SALAS BLANCAS/5.1.2 - PANTALLAS HOSPITALARIAS 1200mm x 300mm/00PHIPE45W30K- Pantalla hospitalaria IP65 empotrable 1235x335mm 45W 3000K 6240lm para ambientes estériles ON-OFF.xlsx",
+           "5 - HOSPITALARIAS - SALAS BLANCAS/5.1 - SALAS BLANCAS/5.1.2 - PANTALLAS HOSPITALARIAS 1200mm x 300mm/00PHIPE45W40K- Pantalla hospitalaria IP65 empotrable 1235x335mm 45W 4000K 6240lm para ambientes estériles ON-OFF.xlsx",
+           "5 - HOSPITALARIAS - SALAS BLANCAS/5.1 - SALAS BLANCAS/5.1.2 - PANTALLAS HOSPITALARIAS 1200mm x 300mm/0PHIPE45W30KD- Pantalla hospitalaria IP65 empotrable 1235x335W 45W 3000K 6000lm para ambientes estériles DALI 2.xlsx"
+          ]
+         },
+         {
+          "nombre": "Pantalla hospitalaria empotrable",
+          "slug": "pantalla-hospitalaria-empotrable",
+          "codigos": [
+           "0PHE36WICIP1D"
+          ],
+          "archivos": [
+           "5 - HOSPITALARIAS - SALAS BLANCAS/5.1 - SALAS BLANCAS/5.1.2 - PANTALLAS HOSPITALARIAS 1200mm x 300mm/0PHE36WICIP1D- Pantalla hospitalaria empotrable 36W IC(intelligent colors) IP65 6952 lm 1160 x 335mm DALI - 200mA.xlsx"
+          ]
+         },
+         {
+          "nombre": "Pantalla hospitalaría",
+          "slug": "pantalla-hospitalaria",
+          "codigos": [
+           "00PHIPA45W40K",
+           "0PHIPE45W40KD"
+          ],
+          "archivos": [
+           "5 - HOSPITALARIAS - SALAS BLANCAS/5.1 - SALAS BLANCAS/5.1.2 - PANTALLAS HOSPITALARIAS 1200mm x 300mm/00PHIPA45W40K - Pantalla hospitalaría IP65 adosable 1235x335mm 45W 4000K 6240lm para ambientes estériles ON-OFF.xlsx",
+           "5 - HOSPITALARIAS - SALAS BLANCAS/5.1 - SALAS BLANCAS/5.1.2 - PANTALLAS HOSPITALARIAS 1200mm x 300mm/0PHIPE45W40KD - Pantalla hospitalaría IP65 empotrable 1235x335mm 45W 4000K 6240lm para ambientes estériles DALI2.xlsx"
+          ]
+         }
+        ]
+       }
+      ],
+      "botones": []
+     }
+    ],
+    "botones": []
+   },
+   {
+    "nombre": "Emergencia",
+    "slug": "emergencia",
+    "ruta": "6 - EMERGENCIA",
+    "hijos": [
+     {
+      "nombre": "Emergencia",
+      "slug": "emergencia",
+      "ruta": "6 - EMERGENCIA/6.1 - EMERGENCIA",
+      "hijos": [],
+      "botones": [
+       {
+        "nombre": "LUMINARIA DE EMERGENCIA OMEGA",
+        "slug": "luminaria-de-emergencia-omega",
+        "codigos": [
+         "0081920002"
+        ],
+        "archivos": [
+         "6 - EMERGENCIA/6.1 - EMERGENCIA/0081920002 - LUMINARIA DE EMERGENCIA OMEGA 200Lm IP65 - Lente Antipánico.xlsx"
+        ]
+       },
+       {
+        "nombre": "LUMINARIA DE EMERGENCIA TEIDE SLIM",
+        "slug": "luminaria-de-emergencia-teide-slim",
+        "codigos": [
+         "0081320001"
+        ],
+        "archivos": [
+         "6 - EMERGENCIA/6.1 - EMERGENCIA/0081320001 - LUMINARIA DE EMERGENCIA TEIDE SLIM 200Lm IP20 AUTOTEST.xlsx"
+        ]
+       },
+       {
+        "nombre": "Luminaria de Emergencia",
+        "slug": "luminaria-de-emergencia",
+        "codigos": [
+         "00EMER270IP42"
+        ],
+        "archivos": [
+         "6 - EMERGENCIA/6.1 - EMERGENCIA/00EMER270IP42 -Luminaria de Emergencia 270lm IP42 superficie Autotest..xlsx"
+        ]
+       },
+       {
+        "nombre": "Luminaria de emergencia LEÓN S",
+        "slug": "luminaria-de-emergencia-leon-s",
+        "codigos": [
+         "0080123000",
+         "0080140000"
+        ],
+        "archivos": [
+         "6 - EMERGENCIA/6.1 - EMERGENCIA/0080123000 - Luminaria de emergencia LEÓN S 230Lm IP42 Emergencia Autotest Superficie.xlsx",
+         "6 - EMERGENCIA/6.1 - EMERGENCIA/0080140000 - Luminaria de emergencia LEÓN S 400Lm IP42 Emergencia Autotest Superficie.xlsx"
+        ]
+       },
+       {
+        "nombre": "Luminaria de emergencia LEÓN S150Lm IP42_IK06 Emergencia",
+        "slug": "luminaria-de-emergencia-leon-s150lm-ip42-ik06-emergencia",
+        "codigos": [
+         "0080115000"
+        ],
+        "archivos": [
+         "6 - EMERGENCIA/6.1 - EMERGENCIA/0080115000 - Luminaria de emergencia LEÓN S150Lm IP42_IK06 Emergencia Autotest Superficie.xlsx"
+        ]
+       },
+       {
+        "nombre": "Luminaria de emergrncia LEÓN S",
+        "slug": "luminaria-de-emergrncia-leon-s",
+        "codigos": [
+         "0080132000"
+        ],
+        "archivos": [
+         "6 - EMERGENCIA/6.1 - EMERGENCIA/0080132000 - Luminaria de emergrncia LEÓN S 320Lm IP42 Emergencia Autotest Superficie Autotest Superficie.xlsx"
+        ]
+       },
+       {
+        "nombre": "Luminaria emergencia AXP 3.0 Espacios abiertos",
+        "slug": "luminaria-emergencia-axp-3-0-espacios-abiertos",
+        "codigos": [
+         "00EMEAXP3.0AT"
+        ],
+        "archivos": [
+         "6 - EMERGENCIA/6.1 - EMERGENCIA/00EMEAXP3.0AT_ Luminaria emergencia AXP 3.0 Espacios abiertos 1W LED 250 lm_ PREMIUM IP20 1h no permanente Autotest blanco.xlsx"
+        ]
+       },
+       {
+        "nombre": "Luminaria emergencia AXP 3.0 Recorrido de evacuación",
+        "slug": "luminaria-emergencia-axp-3-0-recorrido-de-evacuacion",
+        "codigos": [
+         "00EMEAXP3.0RE"
+        ],
+        "archivos": [
+         "6 - EMERGENCIA/6.1 - EMERGENCIA/00EMEAXP3.0RE_ Luminaria emergencia AXP 3.0 Recorrido de evacuación 1W LED 250 lm PREMIUM IP20 1h no permanente blanco.xlsx"
+        ]
+       },
+       {
+        "nombre": "Luminaria emergencia AXP 3.0 espacios abiertos",
+        "slug": "luminaria-emergencia-axp-3-0-espacios-abiertos",
+        "codigos": [
+         "00EMEAXP3.01W"
+        ],
+        "archivos": [
+         "6 - EMERGENCIA/6.1 - EMERGENCIA/00EMEAXP3.01W_ Luminaria emergencia AXP 3.0 espacios abiertos 1W LED 250 lm PREMIUM IP20 1h no permanente blanco.xlsx"
+        ]
+       },
+       {
+        "nombre": "Luminaria emergencia EXIT S superficie",
+        "slug": "luminaria-emergencia-exit-s-superficie",
+        "codigos": [
+         "00EMEEXITS250",
+         "00EMEEXITS350",
+         "00EMEEXITS450",
+         "00EMGEXITS200"
+        ],
+        "archivos": [
+         "6 - EMERGENCIA/6.1 - EMERGENCIA/00EMEEXITS250_ Luminaria emergencia EXIT S superficie 250Lm 1h IP65_ NO PERMANENTE_difusor opal..xlsx",
+         "6 - EMERGENCIA/6.1 - EMERGENCIA/00EMEEXITS350_ Luminaria emergencia EXIT S superficie 350Lm 1h IP65_ NO PERMANENTE_difusor opal..xlsx",
+         "6 - EMERGENCIA/6.1 - EMERGENCIA/00EMEEXITS450_ Luminaria emergencia EXIT S superficie 450Lm 1h IP65_ NO PERMANENTE_difusor opal..xlsx",
+         "6 - EMERGENCIA/6.1 - EMERGENCIA/00EMGEXITS200_ Luminaria emergencia EXIT S superficie 200Lm 1h IP65_ NO PERMANENTE_difusor opal.xlsx"
+        ]
+       },
+       {
+        "nombre": "Luminaria emergencia Microspot empotrable",
+        "slug": "luminaria-emergencia-microspot-empotrable",
+        "codigos": [
+         "00EMEMCSPO25"
+        ],
+        "archivos": [
+         "6 - EMERGENCIA/6.1 - EMERGENCIA/00EMEMCSPO25_ Luminaria emergencia  Microspot empotrable 1W LED 250 lm_ versión Eco IP20_Optica U.xlsx"
+        ]
+       },
+       {
+        "nombre": "Luminarias de emergencia LINCE S",
+        "slug": "luminarias-de-emergencia-lince-s",
+        "codigos": [
+         "0080223000"
+        ],
+        "archivos": [
+         "6 - EMERGENCIA/6.1 - EMERGENCIA/0080223000 - Luminarias de emergencia LINCE S 230Lm IP65 Emergencia Autotest Superficie.xlsx"
+        ]
+       },
+       {
+        "nombre": "Luminaría emergencia EXIT S superficie",
+        "slug": "luminaria-emergencia-exit-s-superficie",
+        "codigos": [
+         "00EMEEXITS150"
+        ],
+        "archivos": [
+         "6 - EMERGENCIA/6.1 - EMERGENCIA/00EMEEXITS150 -Luminaría emergencia EXIT S superficie 150Lm 1h IP65_NO PERMANENTE_Difusor opal..xlsx"
+        ]
+       },
+       {
+        "nombre": "PROYECTOR EMERGENCIA VESUBIO",
+        "slug": "proyector-emergencia-vesubio",
+        "codigos": [
+         "0081518000"
+        ],
+        "archivos": [
+         "6 - EMERGENCIA/6.1 - EMERGENCIA/0081518000 - PROYECTOR EMERGENCIA VESUBIO 1800Lm IP65.xlsx"
+        ]
+       }
+      ]
+     }
+    ],
+    "botones": []
+   },
+   {
+    "nombre": "Bombillas y Accesorios",
+    "slug": "bombillas-y-accesorios",
+    "ruta": "7 - BOMBILLAS Y ACCESORIOS",
+    "hijos": [],
+    "botones": [
+     {
+      "nombre": "Tubo LED T8",
+      "slug": "tubo-led-t8",
+      "codigos": [
+       "00TLT824W60K"
+      ],
+      "archivos": [
+       "7 - BOMBILLAS Y ACCESORIOS/00TLT824W60K - Tubo LED T8 1500 mm 24W Cristal Conexión Un Lateral.xlsx"
+      ]
+     }
+    ]
+   },
+   {
+    "nombre": "Fuentes de Alimentación 24V IP20 ON-OFF",
+    "slug": "fuentes-de-alimentacion-24v-ip20-on-off",
+    "ruta": "8 - FUENTES DE ALIMENTACIÓN 24V IP20 ON-OFF",
+    "hijos": [
+     {
+      "nombre": "Fuentes de 24V",
+      "slug": "fuentes-de-24v",
+      "ruta": "8 - FUENTES DE ALIMENTACIÓN 24V IP20 ON-OFF/8.1 - FUENTES DE 24V",
+      "hijos": [],
+      "botones": [
+       {
+        "nombre": "5B, generador de pulsos de grupo rápido: Everfine EMS61000-4A, analizador de espectro: KH3935, probador de alta tensión",
+        "slug": "5b-generador-de-pulsos-de-grupo-rapido-everfine-ems61000-4a-analizador-de-espectro-kh3935-probador-de-alta-tension",
+        "codigos": [
+         "EMS61000"
+        ],
+        "archivos": [
+         "8 - FUENTES DE ALIMENTACIÓN 24V IP20 ON-OFF/8.1 - FUENTES DE 24V/FUENTES DE ALIMENTACIÓN LIFUD 24V IP20 ON-OFF.xlsx"
+        ]
+       },
+       {
+        "nombre": "FUENTE ALIMENTACION",
+        "slug": "fuente-alimentacion",
+        "codigos": [
+         "00FUAL20024IP",
+         "00LHV6024IP67"
+        ],
+        "archivos": [
+         "8 - FUENTES DE ALIMENTACIÓN 24V IP20 ON-OFF/8.1 - FUENTES DE 24V/00FUAL20024IP - FUENTE ALIMENTACION 200W 24V IP65 TT PARA TIRA LED.xlsx",
+         "8 - FUENTES DE ALIMENTACIÓN 24V IP20 ON-OFF/8.1 - FUENTES DE 24V/00LHV6024IP67 - FUENTE ALIMENTACION 60W 24V IP67 PARA TIRA LED.xlsx"
+        ]
+       }
+      ]
+     },
+     {
+      "nombre": "Fuentes de 12V",
+      "slug": "fuentes-de-12v",
+      "ruta": "8 - FUENTES DE ALIMENTACIÓN 24V IP20 ON-OFF/8.2 - FUENTES DE 12V",
+      "hijos": [],
+      "botones": [
+       {
+        "nombre": "Fuente de alimentación",
+        "slug": "fuente-de-alimentacion",
+        "codigos": [
+         "00FA36W12VIP2"
+        ],
+        "archivos": [
+         "8 - FUENTES DE ALIMENTACIÓN 24V IP20 ON-OFF/8.2 - FUENTES DE 12V/00FA36W12VIP2 - Fuente de alimentación 36W 12V IP65 con toma a tierra.xlsx"
+        ]
+       }
+      ]
+     }
+    ],
+    "botones": []
+   }
+  ],
+  "botones": []
+ },
+ "incidencias": {
+  "sin_codigo": [
+   [
+    "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES DE SUPERFICIE/Libro1.xlsx",
+    "ni el nombre del archivo ni la hoja traen código"
+   ],
+   [
+    "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES PARA EMPOTRAR/Libro1.xlsx",
+    "ni el nombre del archivo ni la hoja traen código"
+   ],
+   [
+    "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES PARA EMPOTRAR.xlsx",
+    "ni el nombre del archivo ni la hoja traen código"
+   ],
+   [
+    "4 - INDUSTRIALES/4.3 - PANELES/APPLED - SLED59X59 23-34W_40_ON-OFF - Panel de LED Slim 23-34W MULTIVATIAJE-4000K-ON-OFF .xlsx",
+    "ni el nombre del archivo ni la hoja traen código"
+   ],
+   [
+    "4 - INDUSTRIALES/4.3 - PANELES/APPLEDD - SLED59X59 34W_40_DALI - Panel de LED Slim 34W-4000K-DALÍ.xlsx",
+    "ni el nombre del archivo ni la hoja traen código"
+   ],
+   [
+    "4 - INDUSTRIALES/Libro1.xlsx",
+    "ni el nombre del archivo ni la hoja traen código"
+   ],
+   [
+    "8 - FUENTES DE ALIMENTACIÓN 24V IP20 ON-OFF/8.1 - FUENTES DE 24V/FUENTES DE ALIMENTACIÓN 24V IP20 ON-OFF.xlsx",
+    "ni el nombre del archivo ni la hoja traen código"
+   ],
+   [
+    "8 - FUENTES DE ALIMENTACIÓN 24V IP20 ON-OFF/8.1 - FUENTES DE 24V/FUENTES DE ALIMENTACIÓN LIFUF 24V IP20 REGULABLES.xlsx",
+    "ni el nombre del archivo ni la hoja traen código"
+   ]
+  ],
+  "sin_nombre": [
+   [
+    "8 - FUENTES DE ALIMENTACIÓN 24V IP20 ON-OFF/8.1 - FUENTES DE 24V/FUENTES DE ALIMENTACIÓN 24V IP67 ON-OFF.xlsx",
+    "la descripción se queda vacía al quitar los datos técnicos: '240V'"
+   ]
+  ],
+  "no_cuadra": [
+   [
+    "1 -  INTERIORES/1.3 - LINEALES/1.3.1 - LINEALES/00LEM05C7W40K - Perfil lineal EM05 para empotrar 570 x 40 x 65mm 7W 139.9lm_W-15mA. IP40.xlsx",
+    "00LEM05C7W40K",
+    [
+     "7W"
+    ],
+    {
+     "W": [
+      "31"
+     ],
+     "lm": [
+      "3375"
+     ],
+     "K": [
+      "4000"
+     ]
+    }
+   ],
+   [
+    "1 -  INTERIORES/1.3 - LINEALES/1.3.1 - LINEALES/00LMI4C12W40K - Perfil lineal MI4 para adosar o suspender 570 x 40 x 65mm 12W 164.58lm.-mt. IP40.xlsx",
+    "00LMI4C12W40K",
+    [
+     "12W",
+     "16458lm"
+    ],
+    {
+     "W": [
+      "31"
+     ],
+     "lm": [
+      "3375"
+     ],
+     "K": [
+      "4000"
+     ]
+    }
+   ],
+   [
+    "1 -  INTERIORES/1.3 - LINEALES/1.3.1 - LINEALES/00LSM05C7W40K - Perfil lineal M05 para adosar o suspender 570 x 40 x 65mm 7.2W-150mA.IP40.xlsx",
+    "00LSM05C7W40K",
+    [
+     "72W"
+    ],
+    {
+     "W": [
+      "31"
+     ],
+     "lm": [
+      "3375"
+     ],
+     "K": [
+      "4000"
+     ]
+    }
+   ],
+   [
+    "1 -  INTERIORES/1.3 - LINEALES/1.3.1 - LINEALES/00LXXDIXXWXXK -  Luminaria lineal decorativa DI suspendida, de luz directa e indirecta XX x 39 x 125mm XXW 108.9lm.-mt. IP40.xlsx",
+    "00LXXDIXXWXXK",
+    [
+     "1089lm"
+    ],
+    {
+     "W": [
+      "31"
+     ],
+     "lm": [
+      "3375"
+     ],
+     "K": [
+      "4000"
+     ]
+    }
+   ],
+   [
+    "1 -  INTERIORES/1.3 - LINEALES/1.3.1 - LINEALES/00LXXMIXXWXXK - Perfil lineal MINI para adosar o suspender XX x 28 x 25mm XXW 108.9lm.-mt. IP40.xlsx",
+    "00LXXMIXXWXXK",
+    [
+     "1089lm"
+    ],
+    {
+     "W": [
+      "31"
+     ],
+     "lm": [
+      "3375"
+     ],
+     "K": [
+      "4000"
+     ]
+    }
+   ],
+   [
+    "1 -  INTERIORES/1.3 - LINEALES/1.3.1 - LINEALES/00LXXRCXXWXXK - Perfil lineal RC para adosar o suspender XX x 28 x 75mm XXW 108.9lm.-mt. IP40.xlsx",
+    "00LXXRCXXWXXK",
+    [
+     "1089lm"
+    ],
+    {
+     "W": [
+      "31"
+     ],
+     "lm": [
+      "3375"
+     ],
+     "K": [
+      "4000"
+     ]
+    }
+   ],
+   [
+    "1 -  INTERIORES/1.3 - LINEALES/1.3.1 - LINEALES/00LXXREXXWXXK - Perfil lineal RE para adosar o suspender XX x 28 x 60mm XXW 108.9lm.-mt. IP40.xlsx",
+    "00LXXREXXWXXK",
+    [
+     "1089lm"
+    ],
+    {
+     "W": [
+      "31"
+     ],
+     "lm": [
+      "3375"
+     ],
+     "K": [
+      "4000"
+     ]
+    }
+   ],
+   [
+    "1 -  INTERIORES/1.3 - LINEALES/1.3.1 - LINEALES/0LEM05C12W40K - Perfil lineal EM05 para empotrar 570 x 40 x 65mm 30W 164.67lm-mt. IP40.xlsx",
+    "0LEM05C12W40K",
+    [
+     "30W",
+     "16467lm"
+    ],
+    {
+     "W": [
+      "31"
+     ],
+     "lm": [
+      "3375"
+     ],
+     "K": [
+      "4000"
+     ]
+    }
+   ],
+   [
+    "1 -  INTERIORES/1.3 - LINEALES/1.3.1 - LINEALES/0LEM14C18W40K - Perfil lineal EMI4 para empotrar 1410 x 40 x 65mm 18W-150mA. IP40.xlsx",
+    "0LEM14C18W40K",
+    [
+     "18W"
+    ],
+    {
+     "W": [
+      "31"
+     ],
+     "lm": [
+      "3375"
+     ],
+     "K": [
+      "4000"
+     ]
+    }
+   ],
+   [
+    "1 -  INTERIORES/1.3 - LINEALES/1.3.1 - LINEALES/0LEMI4C30W40K - Perfil lineal EMI4 para empotrar 1410 x 40 x 65mm 30W 164.67lm-mt. IP40.xlsx",
+    "0LEMI4C30W40K",
+    [
+     "30W",
+     "16467lm"
+    ],
+    {
+     "W": [
+      "31"
+     ],
+     "lm": [
+      "3375"
+     ],
+     "K": [
+      "4000"
+     ]
+    }
+   ],
+   [
+    "1 -  INTERIORES/1.3 - LINEALES/1.3.1 - LINEALES/0LSM16C27W40K - Perfil lineal M16 para adosar o suspender 1690 x 40 x 65mm 27W-150mA. IP40.xlsx",
+    "0LSM16C27W40K",
+    [
+     "27W"
+    ],
+    {
+     "W": [
+      "31"
+     ],
+     "lm": [
+      "3375"
+     ],
+     "K": [
+      "4000"
+     ]
+    }
+   ],
+   [
+    "1 -  INTERIORES/1.3 - LINEALES/1.3.1 - LINEALES/0LSM22C28W40K - Perfil lineal M22 para adosar o suspender 2250 x 40 x 65mm 28.8W-150mA. IP40.xlsx",
+    "0LSM22C28W40K",
+    [
+     "288W"
+    ],
+    {
+     "W": [
+      "31"
+     ],
+     "lm": [
+      "3375"
+     ],
+     "K": [
+      "4000"
+     ]
+    }
+   ],
+   [
+    "1 -  INTERIORES/1.3 - LINEALES/1.3.1 - LINEALES/0LSM22C48W40K - Perfil lineal M22 para adosar o suspender 2250 x 40 x 65mm 48W 164,58 lm_mt. IP40.xlsx",
+    "0LSM22C48W40K",
+    [
+     "48W"
+    ],
+    {
+     "W": [
+      "31"
+     ],
+     "lm": [
+      "3375"
+     ],
+     "K": [
+      "4000"
+     ]
+    }
+   ],
+   [
+    "1 -  INTERIORES/1.3 - LINEALES/1.3.1 - LINEALES/0LSMI4C30W40K - Perfil lineal MI4 para adosar o suspender 1410 x 40 x 65mm 30W 164.67lm-mt. IP40..xlsx",
+    "0LSMI4C30W40K",
+    [
+     "30W",
+     "16467lm"
+    ],
+    {
+     "W": [
+      "31"
+     ],
+     "lm": [
+      "3375"
+     ],
+     "K": [
+      "4000"
+     ]
+    }
+   ],
+   [
+    "1 -  INTERIORES/1.3 - LINEALES/1.3.2 - OTROS/0LEM05C12W40K - Perfil lineal EM05 empotrable 570 x 40 x 65mm 12W 1975lm 4000K IP40.xlsx",
+    "0LEM05C12W40K",
+    [
+     "12W",
+     "1975lm"
+    ],
+    {
+     "W": [
+      "16"
+     ],
+     "lm": [
+      "2690"
+     ],
+     "K": []
+    }
+   ],
+   [
+    "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.1 - TIRAS LED/00TLEDC10WXXX- Tira Led flexible mod. TIP 24v SMD2835 IP20 monocolor 10W 800lm x mt. 120º, CRI80.xlsx",
+    "00TLEDC10WXXX",
+    [
+     "10W",
+     "800lm"
+    ],
+    {
+     "W": [
+      "12"
+     ],
+     "lm": [
+      "1200",
+      "240"
+     ],
+     "K": [
+      "3000",
+      "4500",
+      "6000"
+     ]
+    }
+   ],
+   [
+    "1 -  INTERIORES/1.6 - PROYECTORES DE CARRIL/1.6.7 - CAP MAGNET/00CAPGL488W30 - Proyector CAP GOLD para carril magnetico 48V 8V 3000K 550lm CRI90 36º.xlsx",
+    "00CAPGL488W30",
+    [
+     "3000K",
+     "550lm"
+    ],
+    {
+     "W": [
+      "31"
+     ],
+     "lm": [
+      "3375"
+     ],
+     "K": [
+      "4000"
+     ]
+    }
+   ],
+   [
+    "4 - INDUSTRIALES/4.1 - CAMPANAS/4.1.2 - CAMPANAS CAM/OOCAMP200W5KB - Campana grandes alturas para suspender mod. CAM 200W 26000lm 1-10V IP65 negro.xlsx",
+    "OOCAMP200W5KB",
+    [
+     "200W",
+     "26000lm"
+    ],
+    {
+     "W": [
+      "60",
+      "80",
+      "100"
+     ],
+     "lm": [
+      "10800",
+      "14400",
+      "18000"
+     ],
+     "K": [
+      "4000",
+      "5000"
+     ]
+    }
+   ],
+   [
+    "4 - INDUSTRIALES/4.3 - PANELES/00PSLI21740KB - Panel empotrable SLI-L LED 2x17W 4000K 597x597m IP20 4000K-DALI-5360lm-350mA.xlsx",
+    "00PSLI21740KB",
+    [
+     "17W"
+    ],
+    {
+     "W": [
+      "34"
+     ],
+     "lm": [
+      "5360"
+     ],
+     "K": [
+      "4000"
+     ]
+    }
+   ],
+   [
+    "4 - INDUSTRIALES/4.3 - PANELES/0PE2C34W4KIP4 - Pantalla empotrable 2 calleS 34W 2x17W 4000K 597x597mm IP40 Blanco.xlsx",
+    "0PE2C34W4KIP4",
+    [
+     "17W"
+    ],
+    {
+     "W": [
+      "34"
+     ],
+     "lm": [
+      "5360"
+     ],
+     "K": [
+      "4000"
+     ]
+    }
+   ],
+   [
+    "4 - INDUSTRIALES/4.6 - FAROLAS/FAROLAS/00FALG50WXXXK - Farola Led LG 50W 4500lm 150º IP65 IK08.xlsx",
+    "00FALG50WXXXK",
+    [
+     "50W",
+     "4500lm"
+    ],
+    {
+     "W": [
+      "100"
+     ],
+     "lm": [
+      "8000"
+     ],
+     "K": [
+      "4500",
+      "5000"
+     ]
+    }
+   ],
+   [
+    "5 - HOSPITALARIAS - SALAS BLANCAS/5.1 - SALAS BLANCAS/5.1.1 - PANTALLAS HOSPITALARIAS 600 X 600mm/0PHIP6E45W4KD- Pantalla hospitalaria IP65 empotrable 635x635mm 45W 4000K 6240lm para ambientes estériles DALI 2.xlsx",
+    "0PHIP6E45W4KD",
+    [
+     "45W",
+     "6240lm"
+    ],
+    {
+     "W": [
+      "24"
+     ],
+     "lm": [
+      "3950"
+     ],
+     "K": [
+      "4000"
+     ]
+    }
+   ],
+   [
+    "6 - EMERGENCIA/6.1 - EMERGENCIA/0080235000 - Luminaria de emergencia LINCE S 350Lm IP65 Emergencia Autotest Superficie.xlsx",
+    "0080235000",
+    [
+     "350lm"
+    ],
+    {
+     "W": [
+      "3"
+     ],
+     "lm": [
+      "320"
+     ],
+     "K": [
+      "6000"
+     ]
+    }
+   ]
+  ],
+  "plantilla": [
+   [
+    "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/CÓDIGOS.xlsx",
+    "plantilla sin rellenar (MEDIDA-NOMBRE-WATTS-Kº)"
+   ]
+  ],
+  "codigo_distinto": [
+   [
+    "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.8 - SLIM/SLIM CUADRADO/00DLECSL6WXXX - Downlight empotrable circular SLIM LED 6W 3000K-4500K-6000K CRI80 120°.xlsx",
+    "00DLECSL6WXXX",
+    "00DLECUSL6WXXX",
+    true,
+    []
+   ],
+   [
+    "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.8 - SLIM/SLIM CUADRADO/0DLECUSL12WXX - Downlight empotrable cuadrado SLIM LED 12W 3000K-4500K-6000K CRI80 120°.xlsx",
+    "0DLECUSL12WXX",
+    "0DECUSL12WXXX",
+    true,
+    []
+   ],
+   [
+    "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.8 - SLIM/SLIM CUADRADO/0DLECUSL20WXX - Downlight empotrable cuadrado SLIM LED 20W 3000K-4500K-6000K CRI80 120°.xlsx",
+    "0DLECUSL20WXX",
+    "0DECUSL20WXXX",
+    true,
+    []
+   ],
+   [
+    "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.8 - SLIM/SLIM CUADRADO/0DLECUSL25WXX - Downlight empotrable cuadrado SLIM LED 25W 3000K-4500K-6000K CRI80 120°.xlsx",
+    "0DLECUSL25WXX",
+    "0DECUSL25WXXX",
+    true,
+    []
+   ],
+   [
+    "1 -  INTERIORES/1.3 - LINEALES/1.3.1 - LINEALES/00LEM05C7W40K - Perfil lineal EM05 para empotrar 570 x 40 x 65mm 7W 139.9lm_W-15mA. IP40.xlsx",
+    "00LEM05C7W40K",
+    "00L14MI31W40K",
+    false,
+    [
+     "7W"
+    ]
+   ],
+   [
+    "1 -  INTERIORES/1.3 - LINEALES/1.3.1 - LINEALES/00LMI4C12W40K - Perfil lineal MI4 para adosar o suspender 570 x 40 x 65mm 12W 164.58lm.-mt. IP40.xlsx",
+    "00LMI4C12W40K",
+    "00L14MI31W40K",
+    false,
+    [
+     "12W",
+     "16458lm"
+    ]
+   ],
+   [
+    "1 -  INTERIORES/1.3 - LINEALES/1.3.1 - LINEALES/00LSM05C7W40K - Perfil lineal M05 para adosar o suspender 570 x 40 x 65mm 7.2W-150mA.IP40.xlsx",
+    "00LSM05C7W40K",
+    "00L14MI31W40K",
+    false,
+    [
+     "72W"
+    ]
+   ],
+   [
+    "1 -  INTERIORES/1.3 - LINEALES/1.3.1 - LINEALES/00LXXDIXXWXXK -  Luminaria lineal decorativa DI suspendida, de luz directa e indirecta XX x 39 x 125mm XXW 108.9lm.-mt. IP40.xlsx",
+    "00LXXDIXXWXXK",
+    "00L14MI31W40K",
+    false,
+    [
+     "1089lm"
+    ]
+   ],
+   [
+    "1 -  INTERIORES/1.3 - LINEALES/1.3.1 - LINEALES/00LXXMIXXWXXK - Perfil lineal MINI para adosar o suspender XX x 28 x 25mm XXW 108.9lm.-mt. IP40.xlsx",
+    "00LXXMIXXWXXK",
+    "00L14MI31W40K",
+    false,
+    [
+     "1089lm"
+    ]
+   ],
+   [
+    "1 -  INTERIORES/1.3 - LINEALES/1.3.1 - LINEALES/00LXXRCXXWXXK - Perfil lineal RC para adosar o suspender XX x 28 x 75mm XXW 108.9lm.-mt. IP40.xlsx",
+    "00LXXRCXXWXXK",
+    "00L14MI31W40K",
+    false,
+    [
+     "1089lm"
+    ]
+   ],
+   [
+    "1 -  INTERIORES/1.3 - LINEALES/1.3.1 - LINEALES/00LXXREXXWXXK - Perfil lineal RE para adosar o suspender XX x 28 x 60mm XXW 108.9lm.-mt. IP40.xlsx",
+    "00LXXREXXWXXK",
+    "00L14MI31W40K",
+    false,
+    [
+     "1089lm"
+    ]
+   ],
+   [
+    "1 -  INTERIORES/1.3 - LINEALES/1.3.1 - LINEALES/0LEM05C12W40K - Perfil lineal EM05 para empotrar 570 x 40 x 65mm 30W 164.67lm-mt. IP40.xlsx",
+    "0LEM05C12W40K",
+    "00L14MI31W40K",
+    false,
+    [
+     "30W",
+     "16467lm"
+    ]
+   ],
+   [
+    "1 -  INTERIORES/1.3 - LINEALES/1.3.1 - LINEALES/0LEM14C18W40K - Perfil lineal EMI4 para empotrar 1410 x 40 x 65mm 18W-150mA. IP40.xlsx",
+    "0LEM14C18W40K",
+    "00L14MI31W40K",
+    false,
+    [
+     "18W"
+    ]
+   ],
+   [
+    "1 -  INTERIORES/1.3 - LINEALES/1.3.1 - LINEALES/0LEMI4C30W40K - Perfil lineal EMI4 para empotrar 1410 x 40 x 65mm 30W 164.67lm-mt. IP40.xlsx",
+    "0LEMI4C30W40K",
+    "00L14MI31W40K",
+    false,
+    [
+     "30W",
+     "16467lm"
+    ]
+   ],
+   [
+    "1 -  INTERIORES/1.3 - LINEALES/1.3.1 - LINEALES/0LSM05C12W40K - Perfil lineal M05 para adosar o suspender 570 x 40 x 65mm 12W164,58 lm_mt. IP40. .xlsx",
+    "0LSM05C12W40K",
+    "00L14MI31W40K",
+    true,
+    []
+   ],
+   [
+    "1 -  INTERIORES/1.3 - LINEALES/1.3.1 - LINEALES/0LSM16C27W40K - Perfil lineal M16 para adosar o suspender 1690 x 40 x 65mm 27W-150mA. IP40.xlsx",
+    "0LSM16C27W40K",
+    "00L14MI31W40K",
+    false,
+    [
+     "27W"
+    ]
+   ],
+   [
+    "1 -  INTERIORES/1.3 - LINEALES/1.3.1 - LINEALES/0LSM22C28W40K - Perfil lineal M22 para adosar o suspender 2250 x 40 x 65mm 28.8W-150mA. IP40.xlsx",
+    "0LSM22C28W40K",
+    "00L14MI31W40K",
+    false,
+    [
+     "288W"
+    ]
+   ],
+   [
+    "1 -  INTERIORES/1.3 - LINEALES/1.3.1 - LINEALES/0LSM22C48W40K - Perfil lineal M22 para adosar o suspender 2250 x 40 x 65mm 48W 164,58 lm_mt. IP40.xlsx",
+    "0LSM22C48W40K",
+    "00L14MI31W40K",
+    false,
+    [
+     "48W"
+    ]
+   ],
+   [
+    "1 -  INTERIORES/1.3 - LINEALES/1.3.1 - LINEALES/0LSMI4C30W40K - Perfil lineal MI4 para adosar o suspender 1410 x 40 x 65mm 30W 164.67lm-mt. IP40..xlsx",
+    "0LSMI4C30W40K",
+    "00L14MI31W40K",
+    false,
+    [
+     "30W",
+     "16467lm"
+    ]
+   ],
+   [
+    "1 -  INTERIORES/1.3 - LINEALES/1.3.2 - OTROS/0LEM05C12W40K - Perfil lineal EM05 empotrable 570 x 40 x 65mm 12W 1975lm 4000K IP40.xlsx",
+    "0LEM05C12W40K",
+    "0LSM1616WXXXD",
+    false,
+    [
+     "12W",
+     "1975lm"
+    ]
+   ],
+   [
+    "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.1 - TIRAS LED/00TLEDC10WXXX- Tira Led flexible mod. TIP 24v SMD2835 IP20 monocolor 10W 800lm x mt. 120º, CRI80.xlsx",
+    "00TLEDC10WXXX",
+    "00TLEDC12WXXX",
+    false,
+    [
+     "10W",
+     "800lm"
+    ]
+   ],
+   [
+    "1 -  INTERIORES/1.6 - PROYECTORES DE CARRIL/1.6.7 - CAP MAGNET/00CAPGL488W30 - Proyector CAP GOLD para carril magnetico 48V 8V 3000K 550lm CRI90 36º.xlsx",
+    "00CAPGL488W30",
+    "00L14MI31W40K",
+    false,
+    [
+     "3000K",
+     "550lm"
+    ]
+   ],
+   [
+    "2 - EXTERIORES/2.2 - BALIZAS/0BAPGO03WXXKX -  Baliza de paso adosable mod. GO IP65 3W 3000K 180mA. 33x117x117mm.xlsx",
+    "0BAPGO03WXXKX",
+    "0BACGO03WXXKX",
+    true,
+    []
+   ],
+   [
+    "2 - EXTERIORES/2.4 - FAROLES/00MDVILLA50W4 - Módulo LED Villa - 50w_6500lm_4000K-6000K_IP65 _90º .xlsx",
+    "00MDVILLA50W4",
+    "00FAROLVILLAN",
+    true,
+    []
+   ],
+   [
+    "2 - EXTERIORES/2.5 - JARDÍN - ESTACAS/00PINCHOGU10 - Foco jadín pincho GU10 7W IP54 IK08 - Negro.xlsx",
+    "00PINCHOGU10",
+    "00PINCHOGU10N",
+    true,
+    []
+   ],
+   [
+    "3 - DECORATIVAS/3.2 - LÁMPARAS COLGANTES/00LSG51714800 - Luminaria suspendida circular mod. GALAXY 48W CCT 600mm BLANCO.xlsx",
+    "00LSG51714800",
+    "0051714800",
+    true,
+    []
+   ],
+   [
+    "3 - DECORATIVAS/3.2 - LÁMPARAS COLGANTES/00VENIC8WG30K - Luminaria suspendida mod. VENICE RETRO GOLD 8W 3000K 630lm CRI90 24º.xlsx",
+    "00VENIC8WG30K",
+    "00VENIC8WGOL",
+    true,
+    []
+   ],
+   [
+    "3 - DECORATIVAS/3.2 - LÁMPARAS COLGANTES/0LSCR64037W4K - Luminaria suspendida mod. Circulo 640 decorativa circular para suspender 37W 3286lm 4000K.xlsx",
+    "0LSCR64037W4K",
+    "00LSCR64037W4K",
+    true,
+    []
+   ],
+   [
+    "3 - DECORATIVAS/3.2 - LÁMPARAS COLGANTES/APLCCIRULO1500_40D_71W.xlsx",
+    "APLCCIRULO1500",
+    "APLCCIRUL1500",
+    true,
+    []
+   ],
+   [
+    "4 - INDUSTRIALES/4.1 - CAMPANAS/4.1.2 - CAMPANAS CAM/OOCAMP200W5KB - Campana grandes alturas para suspender mod. CAM 200W 26000lm 1-10V IP65 negro.xlsx",
+    "OOCAMP200W5KB",
+    "OOCAMP100WXKA",
+    false,
+    [
+     "200W",
+     "26000lm"
+    ]
+   ],
+   [
+    "4 - INDUSTRIALES/4.3 - PANELES/00PSLI21740KB - Panel empotrable SLI-L LED 2x17W 4000K 597x597m IP20 4000K-DALI-5360lm-350mA.xlsx",
+    "00PSLI21740KB",
+    "0PSLI21740KBD",
+    false,
+    [
+     "17W"
+    ]
+   ],
+   [
+    "4 - INDUSTRIALES/4.3 - PANELES/0PE2C34W4KIP4 - Pantalla empotrable 2 calleS 34W 2x17W 4000K 597x597mm IP40 Blanco.xlsx",
+    "0PE2C34W4KIP4",
+    "0PHE3C34W4KIP4",
+    false,
+    [
+     "17W"
+    ]
+   ],
+   [
+    "4 - INDUSTRIALES/4.6 - FAROLAS/FAROLAS/00FALG50WXXXK - Farola Led LG 50W 4500lm 150º IP65 IK08.xlsx",
+    "00FALG50WXXXK",
+    "0FAMN100WXXK",
+    false,
+    [
+     "50W",
+     "4500lm"
+    ]
+   ],
+   [
+    "4 - INDUSTRIALES/4.6 - FAROLAS/FAROLAS/00MDVILLA50W4 - Módulo LED Villa - 50w_6500lm_4000K-6000K_IP65 _90º .xlsx",
+    "00MDVILLA50W4",
+    "00FAROLVILLAN",
+    true,
+    []
+   ],
+   [
+    "4 - INDUSTRIALES/4.6 - FAROLAS/FAROLAS SO (SOLAR)/00FASO16WCCTK - Farola Led SOLAR 16W 6000lm IP65 IK08 regulable 140°x75° regulable.xlsx",
+    "00FASO16WCCTK",
+    "AC220",
+    true,
+    []
+   ],
+   [
+    "5 - HOSPITALARIAS - SALAS BLANCAS/5.1 - SALAS BLANCAS/5.1.1 - PANTALLAS HOSPITALARIAS 600 X 600mm/0PHIP6E45W4KD- Pantalla hospitalaria IP65 empotrable 635x635mm 45W 4000K 6240lm para ambientes estériles DALI 2.xlsx",
+    "0PHIP6E45W4KD",
+    "0PHIP6E24W4KD",
+    false,
+    [
+     "45W",
+     "6240lm"
+    ]
+   ],
+   [
+    "6 - EMERGENCIA/6.1 - EMERGENCIA/0080235000 - Luminaria de emergencia LINCE S 350Lm IP65 Emergencia Autotest Superficie.xlsx",
+    "0080235000",
+    "0080250000",
+    false,
+    [
+     "350lm"
+    ]
+   ]
+  ],
+  "no_es_ficha": [
+   "1 -  INTERIORES/1 Equipos LED de Iluminación para Interiores.docx",
+   "1 -  INTERIORES/1.3 - LINEALES/1.3.1 - LINEALES/LINEALES cambio.rar",
+   "1 -  INTERIORES/1.3 - LINEALES/1.3.1 - LINEALES/~$0LSMI4C18W40K - Perfil lineal MI4 para adosar o suspender 1410 x 40 x 65mm 18W-150mA. IP40.xlsx",
+   "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.1 - TIRAS LED/12V/0TLRGB14WIP65 - Tira de Led flexible 14W x mt 12V mod. B RGB-Smd 5050 IP65 120º CRI80, 5 metros.pdf",
+   "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES DE SUPERFICIE/00PSFB2S2020 -Perfil de aluminio B2 de superficie 8 X 7,2H X 2000mm, difusor opal, color aluminio-IP20.pdf",
+   "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES DE SUPERFICIE.rar",
+   "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES PARA EMPOTRAR.rar",
+   "2 - EXTERIORES/2 Equipos LED de Iluminación para Exteriores.docx",
+   "3 - DECORATIVAS/3 Equipos LED de Iluminación Decorativa.docx",
+   "4 - INDUSTRIALES/4 Equipos LED de Iluminación para Industriales.docx",
+   "4 - INDUSTRIALES/4.3 - PANELES/00PANSP544K - Pantalla superficie mod. CJV 625 54W 4935 4000K difusor opal IP20 UGR19.pdf",
+   "4 - INDUSTRIALES/4.3 - PANELES/PANELES.rar",
+   "4 - INDUSTRIALES/4.3 - PANELES/PANELES2.rar",
+   "4 - INDUSTRIALES/4.5 - PROYECTORES/PROYECTORES.rar",
+   "5 - HOSPITALARIAS - SALAS BLANCAS/5 Equipos LED de Iluminación Hospitalaria.docx",
+   "5 - HOSPITALARIAS - SALAS BLANCAS/5.1 - SALAS BLANCAS/5 Equipos LED de Iluminación Hospitalaria.docx",
+   "6 - EMERGENCIA/6 Equipos LED de Iluminación de Emergencia.docx"
+  ],
+  "repetido_distinto": [
+   [
+    "00PLAF22CCTIP",
+    [
+     [
+      "1 -  INTERIORES/1.3 - LINEALES/1.3.2 - OTROS/00PLAF22CCTIP - Perfil de aluminio para suspender o adosar 1140mm - 30W 4000K 250mA 1410mm IP40.xlsx",
+      "Perfil de aluminio para suspender o adosar"
+     ],
+     [
+      "2 - EXTERIORES/2.6 - PLAFONES/00PLAF22CCTIP- LEDWALLCIRC22W_30-40_IP45 - Aplique para montaje en pared o techo 22W-Con emergencia 3H 2500Lm.xlsx",
+      "LEDWALLCIRC22W_30-40_IP45 - Aplique para montaje en pared o techo"
+     ]
+    ]
+   ]
+  ],
+  "repetido_igual": [
+   [
+    "00DLECSL6WXXX",
+    [
+     "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.8 - SLIM/SLIM CIRCULAR/00DLECSL6WXXX - Downlight empotrable circular SLIM LED 6W 3000K-4500K-6000K CRI80 120°.xlsx",
+     "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.8 - SLIM/SLIM CUADRADO/00DLECSL6WXXX - Downlight empotrable circular SLIM LED 6W 3000K-4500K-6000K CRI80 120°.xlsx"
+    ]
+   ],
+   [
+    "00PS45S2020",
+    [
+     "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES DE SUPERFICIE/PERFIL 45º/00PS45S2020 -Perfil de aluminio 45 superficie 15,8X15,8HX2000mm difusor opal color aluminio IP20.xlsx",
+     "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES ESPECIALES/PERFIL 45º/00PS45S2020 -Perfil de aluminio 45 superficie 15,8X15,8HX2000mm difusor opal color aluminio IP20.xlsx"
+    ]
+   ],
+   [
+    "00FAR0LVILLAN",
+    [
+     "2 - EXTERIORES/2.4 - FAROLES/00FAROLVILLAN - Luminaria farol modelo Villa acero acabado pintado al horno negro IP20.xlsx",
+     "4 - INDUSTRIALES/4.6 - FAROLAS/FAROLAS/00FAROLVILLAN - Luminaria farol modelo Villa acero acabado pintado al horno negro IP20.xlsx"
+    ]
+   ],
+   [
+    "00MDVILLA50W4",
+    [
+     "2 - EXTERIORES/2.4 - FAROLES/00MDVILLA50W4 - Módulo LED Villa - 50w_6500lm_4000K-6000K_IP65 _90º .xlsx",
+     "4 - INDUSTRIALES/4.6 - FAROLAS/FAROLAS/00MDVILLA50W4 - Módulo LED Villa - 50w_6500lm_4000K-6000K_IP65 _90º .xlsx"
+    ]
+   ],
+   [
+    "00TLT824W60K",
+    [
+     "4 - INDUSTRIALES/farolas.xlsx",
+     "7 - BOMBILLAS Y ACCESORIOS/00TLT824W60K - Tubo LED T8 1500 mm 24W Cristal Conexión Un Lateral.xlsx"
+    ]
+   ]
+  ]
+ }
+}
