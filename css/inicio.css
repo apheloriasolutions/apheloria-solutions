@@ -17,14 +17,18 @@
   background-size: cover; background-position: center;
   opacity: 0; transition: opacity 1.2s ease;
   transform: scale(1.08);
+  filter: saturate(0.85);
+  --velo: linear-gradient(180deg, rgba(var(--ink-rgb),0.44), rgba(var(--ink-rgb),0.62));
 }
-/* Fotos de ambiente sacadas de las fichas técnicas. Se han elegido las que tienen
-   ambiente de verdad y aguantan el título en blanco; el velo oscuro va por encima
-   para que el texto se lea. Las copias viven en images/inicio/ porque las carpetas
-   de producto se regeneran. */
-.hero-bg-img.bg-1 { filter: saturate(0.9); background-image: linear-gradient(180deg, rgba(var(--ink-rgb),0.2), rgba(var(--ink-rgb),0.4)), url('../images/inicio/hero-1-terraza.jpg'); }
-.hero-bg-img.bg-2 { filter: saturate(0.8); background-image: linear-gradient(180deg, rgba(var(--ink-rgb),0.42), rgba(var(--ink-rgb),0.58)), url('../images/inicio/hero-2-tienda.jpg'); }
-.hero-bg-img.bg-3 { filter: saturate(0.9); background-image: linear-gradient(180deg, rgba(var(--ink-rgb),0.26), rgba(var(--ink-rgb),0.46)), url('../images/inicio/hero-3-salon.jpg'); }
+/* Fotos de ambiente sacadas de las fichas técnicas, todas de tonos claros.
+   Las copias viven en images/inicio/ porque las carpetas de producto se regeneran.
+   Al ser fotos claras, el velo oscuro tiene que ser fuerte para que se lea el título. */
+.hero-bg-img.bg-1 { background-image: var(--velo), url('../images/inicio/hero-1-recibidor.jpg'); }
+.hero-bg-img.bg-2 { background-image: var(--velo), url('../images/inicio/hero-2-recepcion.jpg'); }
+.hero-bg-img.bg-3 { background-image: var(--velo), url('../images/inicio/hero-3-pasillo.jpg'); }
+.hero-bg-img.bg-4 { background-image: var(--velo), url('../images/inicio/hero-4-lineales.jpg'); }
+.hero-bg-img.bg-5 { background-image: var(--velo), url('../images/inicio/hero-5-oficina.jpg'); }
+.hero-bg-img.bg-6 { background-image: var(--velo), url('../images/inicio/hero-6-vestibulo.jpg'); }
 .hero-bg-img.active { opacity: 1; animation: zoomBg 4s ease forwards; }
 @keyframes zoomBg { from { transform: scale(1.08); } to { transform: scale(1.0); } }
 
@@ -78,7 +82,10 @@
 }
 .connector-overlay {
   position: absolute; inset: 0;
-  background: rgba(18,15,12,0.62);
+  /* más suave en los bordes para no apagar el brillo del bicho, y más cerrado
+     por el centro, que es donde va la frase */
+  background: radial-gradient(ellipse at center, rgba(18,15,12,0.62) 0%,
+                              rgba(18,15,12,0.46) 45%, rgba(18,15,12,0.34) 100%);
 }
 .connector-content {
   position: relative; z-index: 2;
@@ -91,11 +98,11 @@
   font-size: 3.5rem; font-weight: 200; line-height: 1;
   color: rgba(var(--white-rgb),0.18); display: block; margin-bottom: 1.2rem;
 }
-.connector-text {
+.connector-text {           /* misma tipografía que el "Más de 20 años…" del hero */
   font-family: 'Inter', sans-serif;
-  font-size: clamp(0.95rem, 1.4vw, 1.45rem);
-  font-weight: 300; color: rgba(var(--white-rgb),0.88);
-  line-height: 1.95; letter-spacing: 0.015em;
+  font-size: 0.58rem; letter-spacing: 0.4em; text-transform: uppercase;
+  font-weight: 300; color: rgba(var(--white-rgb),0.65);
+  line-height: 2.6;
 }
 .connector-bottom {
   position: absolute; bottom: calc(2.8rem + 0.9cm); left: 50%; transform: translateX(-50%);
@@ -197,6 +204,9 @@ body.lista .hero-title-line:nth-child(2) { transition-delay: 0.28s; }
   .hero-dots { left: 1.5rem; }
 }
 @media (max-width: 640px) {
+  /* los saltos de línea de la frase están pensados para pantalla ancha:
+     en móvil dejan líneas sueltas, mejor que fluya */
+  .connector-text br { display: none; }
   .hero-title { font-size: clamp(2.6rem, 13vw, 4rem); }
   .intro-nosotros .intro-inner { padding: 4rem 1.5rem 0; }
   .nosotros-content { width: 100%; }
