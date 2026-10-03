@@ -15,8 +15,9 @@ Reglas (acordadas con el cliente):
   - Las erratas no se corrigen: se apuntan en docs/catalogo/erratas.md.
 
 Uso:  python scripts/catalogo/extraer_tabla.py [--prueba]
-      --prueba  solo los 4 grupos de muestra; escribe docs/catalogo/tabla-prueba.html
+      --prueba  solo los grupos de muestra; escribe docs/catalogo/tabla-prueba.html
                 y no toca data/catalogo.json
+      --todo    lo mismo pero con los 214 grupos, en docs/catalogo/tablas.html
 """
 import difflib, html, json, os, re, sys, warnings
 from collections import Counter
@@ -309,7 +310,7 @@ def pagina_prueba(muestras, salida):
                  border: 1px solid #e6e0d6; padding: .6rem .8rem; margin: .5rem 0 0; }
  .desc { color: #4a4238; }
 </style></head><body>
-<h1>Tablas de características — prueba sobre 4 grupos</h1>
+<h1>Tablas de características</h1>
 <p class="ruta">Columna beige: la tabla que saldría en la web. Verde: valores que difieren
 entre fichas y se juntan con " - ". Rojo: la ficha no trae ese dato.</p>
 """ + ''.join(bloques) + '</body></html>'
@@ -317,13 +318,14 @@ entre fichas y se juntan con " - ". Rojo: la ficha no trae ese dato.</p>
 
 
 def main():
-    prueba = '--prueba' in sys.argv
+    todo = '--todo' in sys.argv
+    prueba = todo or '--prueba' in sys.argv
     catalogo = json.load(open(DATOS, encoding='utf-8'))
     cache, erratas, sin_tabla = {}, [], []
     muestras, n_grupos, n_fichas = [], 0, 0
 
     for ruta, b in botones(catalogo['arbol']):
-        if prueba and b['nombre'] not in PRUEBA:
+        if prueba and not todo and b['nombre'] not in PRUEBA:
             continue
         fichas = {}
         for cod, rel in zip(b['codigos'], b['archivos']):
@@ -356,7 +358,7 @@ def main():
 
     os.makedirs(DOCS, exist_ok=True)
     if prueba:
-        salida = os.path.join(DOCS, 'tabla-prueba.html')
+        salida = os.path.join(DOCS, 'tablas.html' if todo else 'tabla-prueba.html')
         pagina_prueba(muestras, salida)
         print(f'{salida}: {n_grupos} grupos · {n_fichas} fichas')
     else:
