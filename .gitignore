@@ -11,3 +11,6 @@ C*DIGOS GENERALES.xlsx
 
 # Fichas técnicas originales en Excel: material de trabajo, no se publica
 fuentes/
+
+# Los PDF generados desde las fichas: se suben aparte al hosting, no a git
+fichas/
