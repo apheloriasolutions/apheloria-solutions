@@ -25,10 +25,10 @@
    Al ser fotos claras, el velo oscuro tiene que ser fuerte para que se lea el título. */
 .hero-bg-img.bg-1 { background-image: var(--velo), url('../images/inicio/hero-1-recibidor.jpg'); }
 .hero-bg-img.bg-2 { background-image: var(--velo), url('../images/inicio/hero-2-recepcion.jpg'); }
-.hero-bg-img.bg-3 { background-image: var(--velo), url('../images/inicio/hero-3-pasillo.jpg'); }
-.hero-bg-img.bg-4 { background-image: var(--velo), url('../images/inicio/hero-4-lineales.jpg'); }
+.hero-bg-img.bg-3 { background-image: var(--velo), url('../images/inicio/hero-3-hormigon.jpg'); }
+.hero-bg-img.bg-4 { background-image: var(--velo), url('../images/inicio/hero-4-tienda.jpg'); }
 .hero-bg-img.bg-5 { background-image: var(--velo), url('../images/inicio/hero-5-oficina.jpg'); }
-.hero-bg-img.bg-6 { background-image: var(--velo), url('../images/inicio/hero-6-vestibulo.jpg'); }
+.hero-bg-img.bg-6 { background-image: var(--velo), url('../images/inicio/hero-6-nave.jpg'); }
 .hero-bg-img.active { opacity: 1; animation: zoomBg 4s ease forwards; }
 @keyframes zoomBg { from { transform: scale(1.08); } to { transform: scale(1.0); } }
 
