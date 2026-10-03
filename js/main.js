@@ -1,20 +1,25 @@
 /* Apheloria — común a todas las páginas: menú, desplegable y enlaces antiguos. */
 
 // ── Enlaces antiguos: cuando la web era un solo archivo con #inicio…#contacto ──
-// index.html#productos/industrial  ->  productos.html#industrial
+// index.html#productos/industrial  ->  productos.html#industriales
 (function redirigirEnlacesAntiguos() {
   const hash = location.hash.slice(1);
   if (!hash) return;
   const [seccion, filtro] = hash.split('/');
   const paginas = { proyectos: 'proyectos.html', productos: 'productos.html',
                     catalogo: 'catalogo.html', contacto: 'contacto.html' };
+  // los apartados de Productos cambiaron de nombre al rehacer la sección
+  const apartados = { industrial: 'industriales', interior: 'interiores', exterior: 'exteriores',
+                      emergencias: 'emergencia', bombillas: 'bombillas-y-accesorios',
+                      decorativas: 'decorativas' };
   if (seccion === 'inicio') {
     history.replaceState(null, '', location.pathname);
     return;
   }
   const destino = paginas[seccion];
   if (destino && !location.pathname.endsWith(destino)) {
-    location.replace(destino + (filtro ? '#' + filtro : ''));
+    const apartado = seccion === 'productos' ? apartados[filtro] : filtro;
+    location.replace(destino + (apartado ? '#' + apartado : ''));
   }
 })();
 

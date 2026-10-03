@@ -1,10 +1,11 @@
-/* Apheloria — Proyectos y Productos: filtros y paneles de detalle con dirección propia.
+/* Apheloria — Proyectos: filtros y paneles de detalle con dirección propia.
  *
  * La dirección refleja dónde estás, y el botón atrás sube un nivel cada vez:
- *     productos.html#industrial                  filtro
- *     productos.html#industrial/campanas         familia
- *     productos.html#industrial/campanas/cam     gama
+ *     proyectos.html#retail                 filtro
+ *     proyectos.html#retail/clarks          proyecto
  * Se puede abrir o compartir cualquiera de ellas directamente.
+ *
+ * Productos ya no usa este archivo: tiene el suyo, js/productos.js.
  */
 
 const listado = document.querySelector('.listado');
