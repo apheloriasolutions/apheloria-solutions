@@ -282,8 +282,9 @@ def pagina_prueba(muestras, salida):
         bloques.append(
             f'<h2>{html.escape(b["nombre"])}</h2>'
             f'<p class="ruta">{html.escape(" › ".join(ruta))} · {len(codigos)} ficha(s)</p>'
-            f'<table><tr><th></th><th class="junto">lo que sale en la web</th>{cab}</tr>'
-            + ''.join(cuerpo) + '</table>'
+            f'<div class="tabla"><table><tr><th></th>'
+            f'<th class="junto">lo que sale en la web</th>{cab}</tr>'
+            + ''.join(cuerpo) + '</table></div>'
             + (('<p class="notas"><strong>Notas al pie:</strong><br>' +
                 '<br>'.join(html.escape(n) for n in notas) + '</p>') if notas else '')
             + ('<p class="desc"><strong>Descripción</strong><br>' +
@@ -299,11 +300,14 @@ def pagina_prueba(muestras, salida):
  .ruta { font-size: .75rem; text-transform: uppercase; letter-spacing: .08em;
          color: #857a68; margin: 0 0 .6rem; }
  table { border-collapse: collapse; background: #fff; font-size: .78rem; }
+ .tabla { overflow-x: auto; scrollbar-width: thin; scrollbar-color: #c8bfb0 transparent; }
+ .tabla::-webkit-scrollbar { width: 8px; height: 8px; }
+ .tabla::-webkit-scrollbar-thumb { background: #c8bfb0; border-radius: 4px; }
  th, td { border: 1px solid #e6e0d6; padding: .3rem .5rem; text-align: left;
-          vertical-align: top; }
- tr > th:first-child { width: 15rem; font-weight: 400; }
- .ficha { font-size: .68rem; font-weight: 400; color: #857a68; max-width: 9rem; }
- .junto { background: #f7f3ec; font-weight: 600; max-width: 22rem; }
+          vertical-align: top; white-space: nowrap; }
+ tr > th:first-child { font-weight: 400; }
+ .ficha { font-size: .68rem; font-weight: 400; color: #857a68; }
+ .junto { background: #f7f3ec; font-weight: 600; }
  .varios { background: #eef4ec; }
  .vacia { background: #fbeceb; }
  .notas, .desc { font-size: .78rem; max-width: 60rem; background: #fff;
