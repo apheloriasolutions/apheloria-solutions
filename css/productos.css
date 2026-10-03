@@ -1,0 +1,229 @@
+/* Apheloria — Productos: pantalla de navegación y ficha de producto.
+   Dos plantillas que sirven para cualquier nivel; el contenido lo pinta js/productos.js. */
+
+.pagina-productos {
+  width: 100%; max-width: 1800px; margin: 0 auto;
+  padding: 0 0 3rem;
+}
+
+/* ── Miga de pan ── */
+.cat-ruta {
+  display: flex; align-items: center; flex-wrap: wrap; gap: 0.1rem 0.6rem;
+  font-family: 'Raleway', sans-serif; font-weight: 300;
+  font-size: 0.7rem; letter-spacing: 0.18em; text-transform: uppercase;
+  color: var(--accent-text); background: var(--bg);
+  border-bottom: 1px solid rgba(var(--ink-rgb),0.07);
+  padding: 1rem 3rem;
+  position: sticky; top: var(--nav-h); z-index: 30;
+}
+.cat-ruta a {
+  color: inherit; text-decoration: none; text-underline-offset: 0.25em;
+  transition: color 0.2s, text-decoration-color 0.2s;
+}
+.cat-ruta a:hover { color: var(--ink); text-decoration: underline; text-decoration-color: var(--accent); }
+.cat-ruta-sep { color: var(--accent-soft); }
+.cat-ruta-actual { color: var(--ink); }
+
+/* ── Cabecera: foto de ambiente, título y texto ── */
+.cat-hero {
+  display: grid; grid-template-columns: minmax(0, 40%) 1fr;
+  gap: 3rem; align-items: center;
+  padding: 2.8rem 3rem 2.4rem;
+}
+.cat-hero--sin-foto { grid-template-columns: 1fr; }
+.cat-hero-foto {
+  overflow: hidden; aspect-ratio: 3/2;
+  background-color: var(--placeholder-bg);
+}
+.cat-hero-foto img {
+  width: 100%; height: 100%; object-fit: cover; display: block;
+  transition: transform 0.7s ease;
+}
+.cat-hero-foto:hover img { transform: scale(1.05); }
+.cat-hero-eyebrow {
+  display: block; font-family: 'Raleway', sans-serif;
+  font-size: 0.62rem; letter-spacing: 0.38em; text-transform: uppercase;
+  color: var(--accent-text); font-weight: 400; margin-bottom: 0.7rem;
+}
+.cat-hero-titulo {
+  font-family: 'Montserrat', sans-serif;
+  font-size: clamp(1.7rem, 3vw, 3rem); font-weight: 100;
+  color: var(--heading); letter-spacing: 0.13em; line-height: 1.08;
+  text-transform: uppercase;
+}
+.cat-hero-texto {
+  font-family: 'Raleway', sans-serif;
+  font-size: clamp(0.95rem, 1.2vw, 1.1rem); line-height: 1.75;
+  color: var(--ink); font-weight: 300;
+  max-width: 62ch; margin-top: 1.2rem;
+  padding-left: 1.4rem; border-left: 2px solid var(--accent-soft);
+}
+
+/* ── Rejilla de tarjetas ── */
+.cat-apartado {
+  display: flex; align-items: center; gap: 1.5rem;
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.66rem; letter-spacing: 0.4em; text-transform: uppercase;
+  color: var(--accent-text); font-weight: 400;
+  padding: 0 3rem; margin-bottom: 1.4rem;
+}
+.cat-apartado::after { content: ''; flex: 1; height: 1px; background: rgba(var(--accent-rgb),0.3); }
+
+@keyframes catAparece {
+  from { opacity: 0; transform: translateY(6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.cat-grid {
+  display: grid; grid-template-columns: repeat(4, 1fr);
+  gap: 2rem 1.5rem; padding: 0 3rem 2.5rem;
+  animation: catAparece 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+.cat-card {
+  display: flex; flex-direction: column; text-decoration: none; color: inherit;
+  transition: transform 0.45s var(--ease-premium), box-shadow 0.45s var(--ease-premium);
+}
+.cat-card:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 24px 48px rgba(var(--ink-rgb),0.16), 0 4px 12px rgba(var(--ink-rgb),0.08);
+}
+/* Fondo blanco: las fotos de producto vienen recortadas sobre blanco */
+.cat-card-foto {
+  aspect-ratio: 4/3; background: var(--bg);
+  border: 1px solid rgba(var(--ink-rgb),0.07);
+  display: flex; align-items: center; justify-content: center;
+  overflow: hidden; padding: 1.1rem;
+}
+.cat-card-foto img {
+  max-width: 100%; max-height: 100%; object-fit: contain; display: block;
+  transition: transform 0.6s var(--ease-premium);
+}
+.cat-card:hover .cat-card-foto img { transform: scale(1.06); }
+.cat-card-foto--vacia { background: var(--beige); }
+.cat-card-cuerpo { padding: 0.85rem 0.1rem 0; display: flex; flex-direction: column; gap: 0.3rem; }
+.cat-card-nombre {
+  font-family: 'Raleway', sans-serif; font-weight: 600;
+  font-size: clamp(0.85rem, 1.05vw, 1rem); line-height: 1.3; color: var(--ink);
+  transition: color 0.25s;
+}
+.cat-card:hover .cat-card-nombre { color: var(--accent-text); }
+.cat-card-meta {
+  font-family: 'Raleway', sans-serif; font-size: 0.64rem; font-weight: 300;
+  letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent-text);
+}
+
+/* ══ FICHA DE PRODUCTO ══ */
+.ficha-cabecera { padding: 2.5rem 3rem 1.6rem; }
+.ficha-titulo {
+  font-family: 'Raleway', sans-serif;
+  font-size: clamp(1.4rem, 2.2vw, 2.3rem); font-weight: 800;
+  color: var(--heading); letter-spacing: -0.01em; line-height: 1.12;
+  text-transform: uppercase;
+}
+.ficha-refs {
+  display: block; font-family: 'Raleway', sans-serif;
+  font-size: 0.66rem; letter-spacing: 0.18em; text-transform: uppercase;
+  color: var(--accent-text); font-weight: 300; margin-top: 0.7rem;
+}
+.ficha-cuerpo {
+  display: grid; grid-template-columns: minmax(0, 46%) 1fr;
+  gap: 3rem; align-items: start;
+  padding: 0 3rem;
+}
+/* Fotos: sobre blanco y sin marco de color, y sin estirarlas más de la cuenta
+   (las originales de las fichas son pequeñas). */
+/* La tabla es mucho más alta que la foto: en escritorio la foto acompaña al bajar */
+.ficha-galeria { position: sticky; top: calc(var(--nav-h) + 2rem); }
+.ficha-foto {
+  background: var(--bg); border: 1px solid rgba(var(--ink-rgb),0.07);
+  display: flex; align-items: center; justify-content: center;
+  padding: 2rem; min-height: 320px;
+}
+.ficha-foto img { max-width: 100%; object-fit: contain; display: block; }
+.ficha-miniaturas { display: flex; flex-wrap: wrap; gap: 0.6rem; margin-top: 0.8rem; }
+.ficha-mini {
+  width: 76px; height: 76px; padding: 0.35rem; cursor: pointer;
+  background: var(--bg); border: 1px solid rgba(var(--ink-rgb),0.1);
+  display: flex; align-items: center; justify-content: center;
+  transition: border-color 0.25s, transform 0.35s var(--ease-premium);
+}
+.ficha-mini img { max-width: 100%; max-height: 100%; object-fit: contain; display: block; }
+.ficha-mini:hover { transform: translateY(-3px); border-color: var(--accent); }
+.ficha-mini.activa { border-color: var(--ink); }
+.ficha-mini-pie {
+  display: block; font-family: 'Raleway', sans-serif; font-size: 0.6rem;
+  letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent-text);
+  margin-top: 0.75rem;
+}
+
+/* Tabla de características */
+.ficha-tabla { width: 100%; border-collapse: collapse; }
+.ficha-tabla th, .ficha-tabla td {
+  text-align: left; vertical-align: top;
+  padding: 0.62rem 0.9rem;
+  font-family: 'Raleway', sans-serif; font-size: 0.82rem; line-height: 1.45;
+  border-bottom: 1px solid rgba(var(--ink-rgb),0.08);
+}
+.ficha-tabla th { font-weight: 300; color: var(--accent-text); width: 46%; }
+.ficha-tabla td { font-weight: 600; color: var(--ink); }
+.ficha-tabla tr:nth-child(odd) th, .ficha-tabla tr:nth-child(odd) td { background: rgba(var(--beige-rgb),0.5); }
+.ficha-notas {
+  margin-top: 1.1rem; font-family: 'Raleway', sans-serif; font-weight: 300;
+  font-size: 0.72rem; line-height: 1.6; color: var(--accent-text);
+}
+.ficha-notas li { list-style: none; padding-left: 1rem; position: relative; margin-top: 0.35rem; }
+.ficha-notas li::before { content: '·'; position: absolute; left: 0.3rem; }
+
+/* Descripción y descargas */
+.ficha-pie { padding: 2.6rem 3rem 0; }
+.ficha-rotulo {
+  display: block; font-family: 'Raleway', sans-serif;
+  font-size: 0.66rem; letter-spacing: 0.4em; text-transform: uppercase;
+  color: var(--accent-text); font-weight: 400; margin-bottom: 0.9rem;
+}
+.ficha-desc {
+  font-family: 'Raleway', sans-serif; font-weight: 300;
+  font-size: clamp(0.95rem, 1.2vw, 1.1rem); line-height: 1.75; color: var(--ink);
+  max-width: 72ch;
+}
+.ficha-desc p + p { margin-top: 0.8rem; }
+.ficha-descargas { display: flex; flex-wrap: wrap; gap: 0.6rem; margin-top: 0.4rem; }
+.ficha-descarga {
+  display: inline-flex; align-items: center; gap: 0.55rem;
+  font-family: 'Raleway', sans-serif; font-size: 0.7rem; font-weight: 400;
+  letter-spacing: 0.14em; text-transform: uppercase; text-decoration: none;
+  color: var(--ink); background: var(--beige);
+  padding: 0.8rem 1.3rem; border-radius: 999px;
+  transition: background 0.3s var(--ease-premium), color 0.3s var(--ease-premium), transform 0.3s var(--ease-premium);
+}
+.ficha-descarga:hover { background: var(--accent); color: var(--bg); transform: translateY(-2px); }
+.ficha-descarga-flecha { font-size: 0.85rem; }
+
+/* ── Aviso cuando la dirección no existe ── */
+.cat-vacio {
+  padding: 4rem 3rem; font-family: 'Raleway', sans-serif; font-weight: 300;
+  color: var(--accent-text);
+}
+
+/* ═══ RESPONSIVE ═══ */
+@media (max-width: 1200px) {
+  .cat-grid { grid-template-columns: repeat(3, 1fr); }
+}
+@media (max-width: 900px) {
+  .cat-ruta { padding: 0.9rem 1.5rem; }
+  .cat-hero { grid-template-columns: 1fr; gap: 1.6rem; padding: 1.8rem 1.5rem; }
+  .cat-apartado { padding: 0 1.5rem; }
+  .cat-grid { grid-template-columns: repeat(2, 1fr); gap: 1.5rem 1rem; padding: 0 1.5rem 2rem; }
+  .ficha-cabecera { padding: 1.8rem 1.5rem 1.2rem; }
+  /* en móvil, todo en una sola columna: foto, miniaturas, tabla, descripción y descargas */
+  .ficha-cuerpo { grid-template-columns: 1fr; gap: 2rem; padding: 0 1.5rem; }
+  .ficha-galeria { position: static; }
+  /* La tabla es mucho más alta que la foto: en escritorio la foto acompaña al bajar */
+.ficha-galeria { position: sticky; top: calc(var(--nav-h) + 2rem); }
+.ficha-foto { min-height: 0; padding: 1.4rem; }
+  .ficha-pie { padding: 2rem 1.5rem 0; }
+}
+@media (max-width: 560px) {
+  .cat-grid { grid-template-columns: 1fr; }
+  .ficha-tabla th { width: 50%; }
+  .ficha-descarga { width: 100%; justify-content: space-between; }
+}
