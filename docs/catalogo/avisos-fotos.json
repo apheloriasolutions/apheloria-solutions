@@ -49,7 +49,6 @@
   "0DACUSL12WXXX: 3 imagen(es) más a la izquierda, se ignoran",
   "0DACUSL20WXXX: 3 imagen(es) más a la izquierda, se ignoran",
   "0DACUSL25WXXX: 3 imagen(es) más a la izquierda, se ignoran",
-  "0LSM05C12W40K: 1 imagen(es) más a la izquierda, se ignoran",
   "00PSFB7S2020: 2 imagen(es) más a la izquierda, se ignoran",
   "0PSFB7S2020B: 2 imagen(es) más a la izquierda, se ignoran",
   "0PSFB7S2020N: 2 imagen(es) más a la izquierda, se ignoran",
@@ -71,13 +70,8 @@
   "00PROYZOOM25B: 1 imagen(es) más a la izquierda, se ignoran",
   "00PROYZOOM25N: 1 imagen(es) más a la izquierda, se ignoran",
   "00NDPRO: 19 imagen(es) más a la izquierda, se ignoran",
-  "00FAROLVILLAN: 2 imagen(es) más a la izquierda, se ignoran",
-  "00MDVILLA50W4: 2 imagen(es) más a la izquierda, se ignoran",
-  "00LCEP6437WXXX: 1 imagen(es) más a la izquierda, se ignoran",
   "00PANSP544K: 27 imagen(es) más a la izquierda, se ignoran",
   "00PANSP544KDL: 27 imagen(es) más a la izquierda, se ignoran",
-  "00FAROLVILLAN: 1 imagen(es) más a la izquierda, se ignoran",
-  "00MDVILLA50W4: 2 imagen(es) más a la izquierda, se ignoran",
   "00FASO16WCCTK: 2 imagen(es) más a la izquierda, se ignoran",
   "00FASOH20WCCT: 4 imagen(es) más a la izquierda, se ignoran",
   "0PHE27WICIP6D: 1 imagen(es) más a la izquierda, se ignoran",
@@ -118,8 +112,13 @@
   "0LC30SL6W30KD: sin foto de ambiente",
   "00MANDOCOTR: sin foto de ambiente",
   "00ACREGMONCTT: sin foto de ambiente",
+  "00FAROLVILLAN: sin foto de ambiente",
+  "00MDVILLA50W4: sin foto de ambiente",
   "00VENIC8WG30K: sin foto de ambiente",
-  "0CSNEO24W3CCT: sin foto de ambiente"
+  "0CSNEO24W3CCT: sin foto de ambiente",
+  "00PSLI21740KB: sin foto de ambiente",
+  "00FAROLVILLAN: sin foto de ambiente",
+  "00MDVILLA50W4: sin foto de ambiente"
  ],
  "sin_luminaria": [
   "00PSFB1S2020: solo hay dibujo de medidas, no hay foto de producto",
@@ -223,5 +222,12 @@
  ],
  "una_sola_imagen": [
   "00MANDOCOTR: una sola imagen a la derecha, se toma como foto de producto (comprobar que no sean cotas)"
+ ],
+ "ambiente_era_el_producto": [
+  "00FAROLVILLAN: a la izquierda solo está repetida la foto del producto, no hay foto de ambiente",
+  "00MDVILLA50W4: a la izquierda solo está repetida la foto del producto, no hay foto de ambiente",
+  "00PSLI21740KB: a la izquierda solo está repetida la foto del producto, no hay foto de ambiente",
+  "00FAROLVILLAN: a la izquierda solo está repetida la foto del producto, no hay foto de ambiente",
+  "00MDVILLA50W4: a la izquierda solo está repetida la foto del producto, no hay foto de ambiente"
  ]
 }

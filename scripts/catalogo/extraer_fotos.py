@@ -59,7 +59,9 @@ def imagenes_de(ruta):
     """Lista de imágenes con su anclaje, tamaño real y tamaño en la hoja."""
     z = zipfile.ZipFile(ruta)
     salida = []
-    for dib in [n for n in z.namelist() if re.match(r'xl/drawings/drawing\d+\.xml$', n)]:
+    dibujos = sorted([n for n in z.namelist() if re.match(r'xl/drawings/drawing\d+\.xml$', n)],
+                     key=lambda n: int(re.search(r'(\d+)', n.split('/')[-1]).group()))
+    for dib in dibujos[:1]:     # algunas fichas traen una segunda hoja interna que repite las imágenes
         rels = {}
         rp = dib.replace('drawings/', 'drawings/_rels/') + '.rels'
         if rp in z.namelist():
@@ -170,6 +172,13 @@ def clasificar(imgs, fijos, ref):
         elif der:
             roles['luminaria'] = der[0]
             roles['medidas'] = der[1:]
+    # la izquierda a veces repite la foto del producto: entonces no hay foto de ambiente
+    if roles['ambiente'] and roles['luminaria'] and roles['ambiente']['hash'] == roles['luminaria']['hash']:
+        otras = [i for i in izq if i['hash'] != roles['luminaria']['hash']]
+        roles['ambiente'] = otras[0] if otras else None
+        if not roles['ambiente']:
+            avisos['ambiente_era_el_producto'].append(
+                f'{ref}: a la izquierda solo está repetida la foto del producto, no hay foto de ambiente')
     if not roles['luminaria']:
         avisos['sin_luminaria'].append(f'{ref}: sin foto de producto')
     if not roles['ambiente']:
