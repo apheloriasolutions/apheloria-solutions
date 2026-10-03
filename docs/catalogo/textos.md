@@ -6,6 +6,8 @@ Se editan a mano en `data/textos.json` y se publican volviendo a ejecutar
 Los marcados **(borrador)** los he redactado yo a partir de las descripciones de sus
 productos; los demás venían ya de la web anterior.
 
+Para verlos con su foto: `docs/catalogo/textos.html`.
+
 - **Productos** `#` *(borrador)*
   Más de doscientos productos de iluminación técnica, agrupados por tipo de instalación. Cada producto reúne sus características, sus fotografías y la ficha técnica en PDF.
   - **Interiores** `#interiores` *(borrador)*
