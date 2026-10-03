@@ -283,5 +283,8 @@
   "00PSLI21740KB: a la izquierda solo está repetida la foto del producto, no hay foto de ambiente",
   "00FAROLVILLAN: a la izquierda solo está repetida la foto del producto, no hay foto de ambiente",
   "00MDVILLA50W4: a la izquierda solo está repetida la foto del producto, no hay foto de ambiente"
+ ],
+ "intercambiadas": [
+  "00LAMSP300NG: en el origen las cotas van antes que el producto, se intercambian"
  ]
 }

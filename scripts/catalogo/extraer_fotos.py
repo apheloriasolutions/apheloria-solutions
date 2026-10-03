@@ -57,6 +57,9 @@ SOLO_COTAS = {'00PSFB4S2020', '00PERFLEXACER', '00FASO16WCCTK', 'EMS61000',
 # plano de cotas: no se asciende a foto de producto. Comprobadas a ojo.
 IZQUIERDA_ES_PLANO = {'00FASO16WCCTK', 'EMS61000'}
 
+# Fichas donde el origen trae la columna derecha al revés: primero las cotas y debajo el producto.
+INTERCAMBIAR = {'00LAMSP300NG'}
+
 
 # ── lectura del .xlsx ─────────────────────────────────────────────────────────
 def imagenes_de(ruta):
@@ -190,6 +193,9 @@ def clasificar(imgs, fijos, ref):
         roles['ambiente'] = None
         avisos['izquierda_es_el_producto'].append(
             f'{ref}: la ficha solo trae dos fotos; la de la izquierda se publica como foto de producto')
+    if ref in INTERCAMBIAR and roles['luminaria'] and roles['medidas']:
+        roles['luminaria'], roles['medidas'] = roles['medidas'][0], [roles['luminaria']]
+        avisos['intercambiadas'].append(f'{ref}: en el origen las cotas van antes que el producto, se intercambian')
     if not roles['luminaria']:
         avisos['sin_luminaria'].append(f'{ref}: sin foto de producto')
     if not roles['ambiente']:
