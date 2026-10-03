@@ -53,6 +53,10 @@ avisos = defaultdict(list)
 SOLO_COTAS = {'00PSFB4S2020', '00PERFLEXACER', '00FASO16WCCTK', 'EMS61000',
               '00FUAL20024IP', '00FA36W12VIP2'}
 
+# Fichas sin foto de producto donde la imagen de la izquierda TAMPOCO es de ambiente, sino otro
+# plano de cotas: no se asciende a foto de producto. Comprobadas a ojo.
+IZQUIERDA_ES_PLANO = {'00FASO16WCCTK', 'EMS61000'}
+
 
 # ── lectura del .xlsx ─────────────────────────────────────────────────────────
 def imagenes_de(ruta):
@@ -179,6 +183,13 @@ def clasificar(imgs, fijos, ref):
         if not roles['ambiente']:
             avisos['ambiente_era_el_producto'].append(
                 f'{ref}: a la izquierda solo está repetida la foto del producto, no hay foto de ambiente')
+    # Fichas de dos fotos (producto + cotas): lo que hay a la izquierda no es ambiente, es el
+    # producto. Pasa en los perfiles de aluminio, el controlador y las fuentes de alimentación.
+    if not roles['luminaria'] and roles['ambiente'] and ref not in IZQUIERDA_ES_PLANO:
+        roles['luminaria'] = roles['ambiente']
+        roles['ambiente'] = None
+        avisos['izquierda_es_el_producto'].append(
+            f'{ref}: la ficha solo trae dos fotos; la de la izquierda se publica como foto de producto')
     if not roles['luminaria']:
         avisos['sin_luminaria'].append(f'{ref}: sin foto de producto')
     if not roles['ambiente']:

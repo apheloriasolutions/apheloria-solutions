@@ -6553,8 +6553,8 @@
                "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES DE SUPERFICIE/PERFIL 45º/00PS45S2020 -Perfil de aluminio 45 superficie 15,8X15,8HX2000mm difusor opal color aluminio IP20.xlsx"
               ],
               "fotos": {
-               "ambiente": {
-                "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/Perfil 45/00PS45S2020/ambiente.jpg",
+               "luminaria": {
+                "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/Perfil 45/00PS45S2020/luminaria.jpg",
                 "px": [
                  539,
                  506
@@ -6563,8 +6563,8 @@
               },
               "fotos_por_codigo": {
                "00PS45S2020": {
-                "ambiente": {
-                 "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/Perfil 45/00PS45S2020/ambiente.jpg",
+                "luminaria": {
+                 "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/Perfil 45/00PS45S2020/luminaria.jpg",
                  "px": [
                   539,
                   506
@@ -6587,35 +6587,35 @@
              "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES DE SUPERFICIE/00PSFB1S2020 -Perfil de aluminio B1 de superficie 7,2 X 9H X 2000mm, difusor opal, acabado .xlsx"
             ],
             "fotos": {
+             "luminaria": {
+              "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB1S2020/luminaria.jpg",
+              "px": [
+               539,
+               496
+              ]
+             },
              "medidas": {
               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB1S2020/medidas.jpg",
               "px": [
                360,
                389
               ]
-             },
-             "ambiente": {
-              "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB1S2020/ambiente.jpg",
-              "px": [
-               539,
-               496
-              ]
              }
             },
             "fotos_por_codigo": {
              "00PSFB1S2020": {
+              "luminaria": {
+               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB1S2020/luminaria.jpg",
+               "px": [
+                539,
+                496
+               ]
+              },
               "medidas": {
                "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB1S2020/medidas.jpg",
                "px": [
                 360,
                 389
-               ]
-              },
-              "ambiente": {
-               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB1S2020/ambiente.jpg",
-               "px": [
-                539,
-                496
                ]
               }
              }
@@ -6631,8 +6631,8 @@
              "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES DE SUPERFICIE/00PSFB10S2020 -Perfil de aluminio B10 de superficie 19,5X20HX 2000mm difusor opal color aluminio-IP20.xlsx"
             ],
             "fotos": {
-             "ambiente": {
-              "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB10S2020/ambiente.jpg",
+             "luminaria": {
+              "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB10S2020/luminaria.jpg",
               "px": [
                538,
                521
@@ -6641,8 +6641,8 @@
             },
             "fotos_por_codigo": {
              "00PSFB10S2020": {
-              "ambiente": {
-               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB10S2020/ambiente.jpg",
+              "luminaria": {
+               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB10S2020/luminaria.jpg",
                "px": [
                 538,
                 521
@@ -6661,35 +6661,35 @@
              "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES DE SUPERFICIE/00PSFB11S2020 -Perfil de aluminio B11 de superficie 20 X 10H X 2000mm, difusor opal color aluminio-IP20.xlsx"
             ],
             "fotos": {
+             "luminaria": {
+              "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB11S2020/luminaria.jpg",
+              "px": [
+               540,
+               536
+              ]
+             },
              "medidas": {
               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB11S2020/medidas.jpg",
               "px": [
                516,
                322
               ]
-             },
-             "ambiente": {
-              "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB11S2020/ambiente.jpg",
-              "px": [
-               540,
-               536
-              ]
              }
             },
             "fotos_por_codigo": {
              "00PSFB11S2020": {
+              "luminaria": {
+               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB11S2020/luminaria.jpg",
+               "px": [
+                540,
+                536
+               ]
+              },
               "medidas": {
                "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB11S2020/medidas.jpg",
                "px": [
                 516,
                 322
-               ]
-              },
-              "ambiente": {
-               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB11S2020/ambiente.jpg",
-               "px": [
-                540,
-                536
                ]
               }
              }
@@ -6705,35 +6705,35 @@
              "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES DE SUPERFICIE/00PSFB12S2020 -Perfil de aluminio B12 de superficie 23,5 X 22H X 2000mm difusor opal color aluminio-IP20.xlsx"
             ],
             "fotos": {
+             "luminaria": {
+              "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB12S2020/luminaria.jpg",
+              "px": [
+               537,
+               531
+              ]
+             },
              "medidas": {
               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB12S2020/medidas.jpg",
               "px": [
                494,
                367
               ]
-             },
-             "ambiente": {
-              "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB12S2020/ambiente.jpg",
-              "px": [
-               537,
-               531
-              ]
              }
             },
             "fotos_por_codigo": {
              "00PSFB12S2020": {
+              "luminaria": {
+               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB12S2020/luminaria.jpg",
+               "px": [
+                537,
+                531
+               ]
+              },
               "medidas": {
                "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB12S2020/medidas.jpg",
                "px": [
                 494,
                 367
-               ]
-              },
-              "ambiente": {
-               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB12S2020/ambiente.jpg",
-               "px": [
-                537,
-                531
                ]
               }
              }
@@ -6749,35 +6749,35 @@
              "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES DE SUPERFICIE/00PSFB13S2020 -Perfil de aluminio B13 de superficie 30 X 11H X 2000mm, difusor opal color aluminio-IP20.xlsx"
             ],
             "fotos": {
+             "luminaria": {
+              "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB13S2020/luminaria.jpg",
+              "px": [
+               541,
+               532
+              ]
+             },
              "medidas": {
               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB13S2020/medidas.jpg",
               "px": [
                528,
                249
               ]
-             },
-             "ambiente": {
-              "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB13S2020/ambiente.jpg",
-              "px": [
-               541,
-               532
-              ]
              }
             },
             "fotos_por_codigo": {
              "00PSFB13S2020": {
+              "luminaria": {
+               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB13S2020/luminaria.jpg",
+               "px": [
+                541,
+                532
+               ]
+              },
               "medidas": {
                "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB13S2020/medidas.jpg",
                "px": [
                 528,
                 249
-               ]
-              },
-              "ambiente": {
-               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB13S2020/ambiente.jpg",
-               "px": [
-                541,
-                532
                ]
               }
              }
@@ -6793,35 +6793,35 @@
              "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES DE SUPERFICIE/00PSFB14S2020 -Perfil de aluminio B14 de superficie 30 X 21H X 2000mm, difusor opal color aluminio-IP20.xlsx"
             ],
             "fotos": {
+             "luminaria": {
+              "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB14S2020/luminaria.jpg",
+              "px": [
+               539,
+               542
+              ]
+             },
              "medidas": {
               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB14S2020/medidas.jpg",
               "px": [
                494,
                352
               ]
-             },
-             "ambiente": {
-              "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB14S2020/ambiente.jpg",
-              "px": [
-               539,
-               542
-              ]
              }
             },
             "fotos_por_codigo": {
              "00PSFB14S2020": {
+              "luminaria": {
+               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB14S2020/luminaria.jpg",
+               "px": [
+                539,
+                542
+               ]
+              },
               "medidas": {
                "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB14S2020/medidas.jpg",
                "px": [
                 494,
                 352
-               ]
-              },
-              "ambiente": {
-               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB14S2020/ambiente.jpg",
-               "px": [
-                539,
-                542
                ]
               }
              }
@@ -6837,35 +6837,35 @@
              "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES DE SUPERFICIE/00PSFB15S2020 -Perfil de aluminio B15 de superficie 35X37,5HX 2000mm difusor opal color aluminio IP20.xlsx"
             ],
             "fotos": {
+             "luminaria": {
+              "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB15S2020/luminaria.jpg",
+              "px": [
+               542,
+               406
+              ]
+             },
              "medidas": {
               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB15S2020/medidas.jpg",
               "px": [
                446,
                528
               ]
-             },
-             "ambiente": {
-              "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB15S2020/ambiente.jpg",
-              "px": [
-               542,
-               406
-              ]
              }
             },
             "fotos_por_codigo": {
              "00PSFB15S2020": {
+              "luminaria": {
+               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB15S2020/luminaria.jpg",
+               "px": [
+                542,
+                406
+               ]
+              },
               "medidas": {
                "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB15S2020/medidas.jpg",
                "px": [
                 446,
                 528
-               ]
-              },
-              "ambiente": {
-               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB15S2020/ambiente.jpg",
-               "px": [
-                542,
-                406
                ]
               }
              }
@@ -6881,35 +6881,35 @@
              "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES DE SUPERFICIE/00PSFB16S2065 -Perfil de aluminio B16 de superficie 17,5 X 13H X 2000mm difusor opal color aluminio IP65.xlsx"
             ],
             "fotos": {
+             "luminaria": {
+              "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB16S2065/luminaria.jpg",
+              "px": [
+               538,
+               531
+              ]
+             },
              "medidas": {
               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB16S2065/medidas.jpg",
               "px": [
                408,
                342
               ]
-             },
-             "ambiente": {
-              "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB16S2065/ambiente.jpg",
-              "px": [
-               538,
-               531
-              ]
              }
             },
             "fotos_por_codigo": {
              "00PSFB16S2065": {
+              "luminaria": {
+               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB16S2065/luminaria.jpg",
+               "px": [
+                538,
+                531
+               ]
+              },
               "medidas": {
                "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB16S2065/medidas.jpg",
                "px": [
                 408,
                 342
-               ]
-              },
-              "ambiente": {
-               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB16S2065/ambiente.jpg",
-               "px": [
-                538,
-                531
                ]
               }
              }
@@ -6925,8 +6925,8 @@
              "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES DE SUPERFICIE/00PSFB17S2020 -Perfil de aluminio B17 de superficie 14,5X14,5HX 2000mm difusor opal color aluminio IP20.xlsx"
             ],
             "fotos": {
-             "ambiente": {
-              "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB17S2020/ambiente.jpg",
+             "luminaria": {
+              "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB17S2020/luminaria.jpg",
               "px": [
                536,
                453
@@ -6935,8 +6935,8 @@
             },
             "fotos_por_codigo": {
              "00PSFB17S2020": {
-              "ambiente": {
-               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB17S2020/ambiente.jpg",
+              "luminaria": {
+               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB17S2020/luminaria.jpg",
                "px": [
                 536,
                 453
@@ -6955,35 +6955,35 @@
              "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES DE SUPERFICIE/00PSFB2S2020 -Perfil de aluminio B2 de superficie 8 X 7,2H X 2000mm, difusor opal, color aluminio-IP20.xlsx"
             ],
             "fotos": {
+             "luminaria": {
+              "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB2S2020/luminaria.jpg",
+              "px": [
+               539,
+               466
+              ]
+             },
              "medidas": {
               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB2S2020/medidas.jpg",
               "px": [
                433,
                418
               ]
-             },
-             "ambiente": {
-              "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB2S2020/ambiente.jpg",
-              "px": [
-               539,
-               466
-              ]
              }
             },
             "fotos_por_codigo": {
              "00PSFB2S2020": {
+              "luminaria": {
+               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB2S2020/luminaria.jpg",
+               "px": [
+                539,
+                466
+               ]
+              },
               "medidas": {
                "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB2S2020/medidas.jpg",
                "px": [
                 433,
                 418
-               ]
-              },
-              "ambiente": {
-               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB2S2020/ambiente.jpg",
-               "px": [
-                539,
-                466
                ]
               }
              }
@@ -6999,35 +6999,35 @@
              "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES DE SUPERFICIE/00PSFB3S2020 -Perfil de aluminio B3 de superficie 10 X 10H X 2000mm, difusor opal, color aluminio-IP20.xlsx"
             ],
             "fotos": {
+             "luminaria": {
+              "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB3S2020/luminaria.jpg",
+              "px": [
+               545,
+               442
+              ]
+             },
              "medidas": {
               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB3S2020/medidas.jpg",
               "px": [
                277,
                258
               ]
-             },
-             "ambiente": {
-              "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB3S2020/ambiente.jpg",
-              "px": [
-               545,
-               442
-              ]
              }
             },
             "fotos_por_codigo": {
              "00PSFB3S2020": {
+              "luminaria": {
+               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB3S2020/luminaria.jpg",
+               "px": [
+                545,
+                442
+               ]
+              },
               "medidas": {
                "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB3S2020/medidas.jpg",
                "px": [
                 277,
                 258
-               ]
-              },
-              "ambiente": {
-               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB3S2020/ambiente.jpg",
-               "px": [
-                545,
-                442
                ]
               }
              }
@@ -7043,35 +7043,35 @@
              "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES DE SUPERFICIE/00PSFB4S2020 -Perfil de aluminio B4 de superficie 10 X 13H X 2000mm, difusor opal, color aluminio-IP20.xlsx"
             ],
             "fotos": {
+             "luminaria": {
+              "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB4S2020/luminaria.jpg",
+              "px": [
+               543,
+               475
+              ]
+             },
              "medidas": {
               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB4S2020/medidas.jpg",
               "px": [
                260,
                299
               ]
-             },
-             "ambiente": {
-              "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB4S2020/ambiente.jpg",
-              "px": [
-               543,
-               475
-              ]
              }
             },
             "fotos_por_codigo": {
              "00PSFB4S2020": {
+              "luminaria": {
+               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB4S2020/luminaria.jpg",
+               "px": [
+                543,
+                475
+               ]
+              },
               "medidas": {
                "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB4S2020/medidas.jpg",
                "px": [
                 260,
                 299
-               ]
-              },
-              "ambiente": {
-               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB4S2020/ambiente.jpg",
-               "px": [
-                543,
-                475
                ]
               }
              }
@@ -7087,35 +7087,35 @@
              "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES DE SUPERFICIE/00PSFB5S2020 -Perfil de aluminio B5 de superficie 12 X 8H X 2000mm, difusor opal, color aluminio-IP20.xlsx"
             ],
             "fotos": {
+             "luminaria": {
+              "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB5S2020/luminaria.jpg",
+              "px": [
+               539,
+               507
+              ]
+             },
              "medidas": {
               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB5S2020/medidas.jpg",
               "px": [
                474,
                351
               ]
-             },
-             "ambiente": {
-              "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB5S2020/ambiente.jpg",
-              "px": [
-               539,
-               507
-              ]
              }
             },
             "fotos_por_codigo": {
              "00PSFB5S2020": {
+              "luminaria": {
+               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB5S2020/luminaria.jpg",
+               "px": [
+                539,
+                507
+               ]
+              },
               "medidas": {
                "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB5S2020/medidas.jpg",
                "px": [
                 474,
                 351
-               ]
-              },
-              "ambiente": {
-               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB5S2020/ambiente.jpg",
-               "px": [
-                539,
-                507
                ]
               }
              }
@@ -7131,35 +7131,35 @@
              "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES DE SUPERFICIE/00PSFB6S2020 -Perfil de aluminio B6 de superficie 144 X 88H X 2000mm, difusor opal, color aluminio-IP20.xlsx"
             ],
             "fotos": {
+             "luminaria": {
+              "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB6S2020/luminaria.jpg",
+              "px": [
+               541,
+               517
+              ]
+             },
              "medidas": {
               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB6S2020/medidas.jpg",
               "px": [
                511,
                360
               ]
-             },
-             "ambiente": {
-              "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB6S2020/ambiente.jpg",
-              "px": [
-               541,
-               517
-              ]
              }
             },
             "fotos_por_codigo": {
              "00PSFB6S2020": {
+              "luminaria": {
+               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB6S2020/luminaria.jpg",
+               "px": [
+                541,
+                517
+               ]
+              },
               "medidas": {
                "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB6S2020/medidas.jpg",
                "px": [
                 511,
                 360
-               ]
-              },
-              "ambiente": {
-               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB6S2020/ambiente.jpg",
-               "px": [
-                541,
-                517
                ]
               }
              }
@@ -7183,99 +7183,99 @@
              "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES DE SUPERFICIE/0PSFB8S2020N -Perfil de aluminio B7 de superficie 17 X 15H X 2000mm, difusor opal, color negro-IP20.xlsx"
             ],
             "fotos": {
+             "luminaria": {
+              "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB7S2020/luminaria.jpg",
+              "px": [
+               547,
+               516
+              ]
+             },
              "medidas": {
               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB7S2020/medidas.jpg",
               "px": [
                519,
                265
               ]
-             },
-             "ambiente": {
-              "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB7S2020/ambiente.jpg",
-              "px": [
-               547,
-               516
-              ]
              }
             },
             "fotos_por_codigo": {
              "00PSFB7S2020": {
+              "luminaria": {
+               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB7S2020/luminaria.jpg",
+               "px": [
+                547,
+                516
+               ]
+              },
               "medidas": {
                "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB7S2020/medidas.jpg",
                "px": [
                 519,
                 265
-               ]
-              },
-              "ambiente": {
-               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB7S2020/ambiente.jpg",
-               "px": [
-                547,
-                516
                ]
               }
              },
              "0PSFB7S2020B": {
+              "luminaria": {
+               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB7S2020/luminaria.jpg",
+               "px": [
+                547,
+                516
+               ]
+              },
               "medidas": {
                "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB7S2020/medidas.jpg",
                "px": [
                 519,
                 265
-               ]
-              },
-              "ambiente": {
-               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB7S2020/ambiente.jpg",
-               "px": [
-                547,
-                516
                ]
               }
              },
              "0PSFB7S2020N": {
+              "luminaria": {
+               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB7S2020/luminaria.jpg",
+               "px": [
+                547,
+                516
+               ]
+              },
               "medidas": {
                "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB7S2020/medidas.jpg",
                "px": [
                 519,
                 265
                ]
-              },
-              "ambiente": {
-               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB7S2020/ambiente.jpg",
-               "px": [
-                547,
-                516
-               ]
               }
              },
              "0PSFB8S2020B": {
+              "luminaria": {
+               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/0PSFB8S2020B/luminaria.jpg",
+               "px": [
+                537,
+                530
+               ]
+              },
               "medidas": {
                "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/0PSFB8S2020B/medidas.jpg",
                "px": [
                 417,
                 370
-               ]
-              },
-              "ambiente": {
-               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/0PSFB8S2020B/ambiente.jpg",
-               "px": [
-                537,
-                530
                ]
               }
              },
              "0PSFB8S2020N": {
+              "luminaria": {
+               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/0PSFB8S2020B/luminaria.jpg",
+               "px": [
+                537,
+                530
+               ]
+              },
               "medidas": {
                "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/0PSFB8S2020B/medidas.jpg",
                "px": [
                 417,
                 370
-               ]
-              },
-              "ambiente": {
-               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/0PSFB8S2020B/ambiente.jpg",
-               "px": [
-                537,
-                530
                ]
               }
              }
@@ -7291,35 +7291,35 @@
              "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES DE SUPERFICIE/00PSFB8S2020 -Perfil de aluminio B8 de superficie 17 X 15H X 2000mm, difusor opal, color aluminio-IP20.xlsx"
             ],
             "fotos": {
+             "luminaria": {
+              "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/0PSFB8S2020B/luminaria.jpg",
+              "px": [
+               537,
+               530
+              ]
+             },
              "medidas": {
               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/0PSFB8S2020B/medidas.jpg",
               "px": [
                417,
                370
               ]
-             },
-             "ambiente": {
-              "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/0PSFB8S2020B/ambiente.jpg",
-              "px": [
-               537,
-               530
-              ]
              }
             },
             "fotos_por_codigo": {
              "00PSFB8S2020": {
+              "luminaria": {
+               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/0PSFB8S2020B/luminaria.jpg",
+               "px": [
+                537,
+                530
+               ]
+              },
               "medidas": {
                "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/0PSFB8S2020B/medidas.jpg",
                "px": [
                 417,
                 370
-               ]
-              },
-              "ambiente": {
-               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/0PSFB8S2020B/ambiente.jpg",
-               "px": [
-                537,
-                530
                ]
               }
              }
@@ -7335,35 +7335,35 @@
              "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES DE SUPERFICIE/00PSFB9S2020 -Perfil de aluminio B9 de superficie 19,5 X 15H X 2000mm, difusor opal, color aluminio-IP20.xlsx"
             ],
             "fotos": {
+             "luminaria": {
+              "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB9S2020/luminaria.jpg",
+              "px": [
+               536,
+               531
+              ]
+             },
              "medidas": {
               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB9S2020/medidas.jpg",
               "px": [
                480,
                395
               ]
-             },
-             "ambiente": {
-              "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB9S2020/ambiente.jpg",
-              "px": [
-               536,
-               531
-              ]
              }
             },
             "fotos_por_codigo": {
              "00PSFB9S2020": {
+              "luminaria": {
+               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB9S2020/luminaria.jpg",
+               "px": [
+                536,
+                531
+               ]
+              },
               "medidas": {
                "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB9S2020/medidas.jpg",
                "px": [
                 480,
                 395
-               ]
-              },
-              "ambiente": {
-               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB9S2020/ambiente.jpg",
-               "px": [
-                536,
-                531
                ]
               }
              }
@@ -7392,8 +7392,8 @@
                "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES ESPECIALES/PERFIL 45º/00PS45S2020 -Perfil de aluminio 45 superficie 15,8X15,8HX2000mm difusor opal color aluminio IP20.xlsx"
               ],
               "fotos": {
-               "ambiente": {
-                "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/Perfil 45/00PS45S2020/ambiente.jpg",
+               "luminaria": {
+                "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/Perfil 45/00PS45S2020/luminaria.jpg",
                 "px": [
                  539,
                  506
@@ -7402,8 +7402,8 @@
               },
               "fotos_por_codigo": {
                "00PS45S2020": {
-                "ambiente": {
-                 "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/Perfil 45/00PS45S2020/ambiente.jpg",
+                "luminaria": {
+                 "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/Perfil 45/00PS45S2020/luminaria.jpg",
                  "px": [
                   539,
                   506
@@ -7438,35 +7438,35 @@
                "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES PARA EMPOTRAR/1/00PERFLEXACER - Perfil flexible de Acero Inoxidable 15 X 13H mm X 20mt.xlsx"
               ],
               "fotos": {
+               "luminaria": {
+                "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/1/00PERFLEXACER/luminaria.jpg",
+                "px": [
+                 502,
+                 347
+                ]
+               },
                "medidas": {
                 "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/1/00PERFLEXACER/medidas.jpg",
                 "px": [
                  457,
                  353
                 ]
-               },
-               "ambiente": {
-                "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/1/00PERFLEXACER/ambiente.jpg",
-                "px": [
-                 502,
-                 347
-                ]
                }
               },
               "fotos_por_codigo": {
                "00PERFLEXACER": {
+                "luminaria": {
+                 "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/1/00PERFLEXACER/luminaria.jpg",
+                 "px": [
+                  502,
+                  347
+                 ]
+                },
                 "medidas": {
                  "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/1/00PERFLEXACER/medidas.jpg",
                  "px": [
                   457,
                   353
-                 ]
-                },
-                "ambiente": {
-                 "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/1/00PERFLEXACER/ambiente.jpg",
-                 "px": [
-                  502,
-                  347
                  ]
                 }
                }
@@ -7486,35 +7486,35 @@
              "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES PARA EMPOTRAR/00PEFA1E2020 - Perfil de aluminio A1 para empotrar 17 X 13,5H X 2000mm difusor opal, color aluminio IP20.xlsx"
             ],
             "fotos": {
+             "luminaria": {
+              "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA1E2020/luminaria.jpg",
+              "px": [
+               537,
+               429
+              ]
+             },
              "medidas": {
               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA1E2020/medidas.jpg",
               "px": [
                511,
                449
               ]
-             },
-             "ambiente": {
-              "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA1E2020/ambiente.jpg",
-              "px": [
-               537,
-               429
-              ]
              }
             },
             "fotos_por_codigo": {
              "00PEFA1E2020": {
+              "luminaria": {
+               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA1E2020/luminaria.jpg",
+               "px": [
+                537,
+                429
+               ]
+              },
               "medidas": {
                "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA1E2020/medidas.jpg",
                "px": [
                 511,
                 449
-               ]
-              },
-              "ambiente": {
-               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA1E2020/ambiente.jpg",
-               "px": [
-                537,
-                429
                ]
               }
              }
@@ -7530,35 +7530,35 @@
              "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES PARA EMPOTRAR/00PEFA10E2020 -Perfil de aluminio A10 para empotrar 30 X 9H X 2000mm difusor opal, color aluminio IP20.xlsx"
             ],
             "fotos": {
+             "luminaria": {
+              "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA10E2020/luminaria.jpg",
+              "px": [
+               539,
+               422
+              ]
+             },
              "medidas": {
               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA10E2020/medidas.jpg",
               "px": [
                501,
                439
               ]
-             },
-             "ambiente": {
-              "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA10E2020/ambiente.jpg",
-              "px": [
-               539,
-               422
-              ]
              }
             },
             "fotos_por_codigo": {
              "00PEFA10E2020": {
+              "luminaria": {
+               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA10E2020/luminaria.jpg",
+               "px": [
+                539,
+                422
+               ]
+              },
               "medidas": {
                "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA10E2020/medidas.jpg",
                "px": [
                 501,
                 439
-               ]
-              },
-              "ambiente": {
-               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA10E2020/ambiente.jpg",
-               "px": [
-                539,
-                422
                ]
               }
              }
@@ -7578,67 +7578,67 @@
              "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES PARA EMPOTRAR/0PEFA11E2020N -Perfil de aluminio A11 para empotrar 30 X 11H X 2000mm difusor opal, color negro IP20.xlsx"
             ],
             "fotos": {
+             "luminaria": {
+              "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA11E2020/luminaria.jpg",
+              "px": [
+               539,
+               470
+              ]
+             },
              "medidas": {
               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA11E2020/medidas.jpg",
               "px": [
                535,
                344
               ]
-             },
-             "ambiente": {
-              "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA11E2020/ambiente.jpg",
-              "px": [
-               539,
-               470
-              ]
              }
             },
             "fotos_por_codigo": {
              "00PEFA11E2020": {
+              "luminaria": {
+               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA11E2020/luminaria.jpg",
+               "px": [
+                539,
+                470
+               ]
+              },
               "medidas": {
                "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA11E2020/medidas.jpg",
                "px": [
                 535,
                 344
-               ]
-              },
-              "ambiente": {
-               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA11E2020/ambiente.jpg",
-               "px": [
-                539,
-                470
                ]
               }
              },
              "0PEFA11E2020B": {
+              "luminaria": {
+               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA11E2020/luminaria.jpg",
+               "px": [
+                539,
+                470
+               ]
+              },
               "medidas": {
                "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA11E2020/medidas.jpg",
                "px": [
                 535,
                 344
-               ]
-              },
-              "ambiente": {
-               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA11E2020/ambiente.jpg",
-               "px": [
-                539,
-                470
                ]
               }
              },
              "0PEFA11E2020N": {
+              "luminaria": {
+               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA11E2020/luminaria.jpg",
+               "px": [
+                539,
+                470
+               ]
+              },
               "medidas": {
                "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA11E2020/medidas.jpg",
                "px": [
                 535,
                 344
-               ]
-              },
-              "ambiente": {
-               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA11E2020/ambiente.jpg",
-               "px": [
-                539,
-                470
                ]
               }
              }
@@ -7654,35 +7654,35 @@
              "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES PARA EMPOTRAR/00PEFA12E2020 -Perfil de aluminio A12 para empotrar 30 X 21H X 2000mm difusor opal, color aluminio IP20.xlsx"
             ],
             "fotos": {
+             "luminaria": {
+              "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA12E2020/luminaria.jpg",
+              "px": [
+               537,
+               535
+              ]
+             },
              "medidas": {
               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA12E2020/medidas.jpg",
               "px": [
                550,
                432
               ]
-             },
-             "ambiente": {
-              "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA12E2020/ambiente.jpg",
-              "px": [
-               537,
-               535
-              ]
              }
             },
             "fotos_por_codigo": {
              "00PEFA12E2020": {
+              "luminaria": {
+               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA12E2020/luminaria.jpg",
+               "px": [
+                537,
+                535
+               ]
+              },
               "medidas": {
                "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA12E2020/medidas.jpg",
                "px": [
                 550,
                 432
-               ]
-              },
-              "ambiente": {
-               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA12E2020/ambiente.jpg",
-               "px": [
-                537,
-                535
                ]
               }
              }
@@ -7698,35 +7698,35 @@
              "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES PARA EMPOTRAR/00PEFA13E2020 -Perfil de aluminio A13 para empotrar 41X10,5HX 2000mm difusor opal, color aluminio IP20..xlsx"
             ],
             "fotos": {
+             "luminaria": {
+              "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA13E2020/luminaria.jpg",
+              "px": [
+               540,
+               466
+              ]
+             },
              "medidas": {
               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA13E2020/medidas.jpg",
               "px": [
                546,
                274
               ]
-             },
-             "ambiente": {
-              "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA13E2020/ambiente.jpg",
-              "px": [
-               540,
-               466
-              ]
              }
             },
             "fotos_por_codigo": {
              "00PEFA13E2020": {
+              "luminaria": {
+               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA13E2020/luminaria.jpg",
+               "px": [
+                540,
+                466
+               ]
+              },
               "medidas": {
                "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA13E2020/medidas.jpg",
                "px": [
                 546,
                 274
-               ]
-              },
-              "ambiente": {
-               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA13E2020/ambiente.jpg",
-               "px": [
-                540,
-                466
                ]
               }
              }
@@ -7742,35 +7742,35 @@
              "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES PARA EMPOTRAR/00PEFA14E2020 -Perfil de aluminio A14 para empotrar 43 X 19H X 2000mm difusor opal, color aluminio IP20.xlsx"
             ],
             "fotos": {
+             "luminaria": {
+              "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA14E2020/luminaria.jpg",
+              "px": [
+               533,
+               524
+              ]
+             },
              "medidas": {
               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA14E2020/medidas.jpg",
               "px": [
                529,
                378
               ]
-             },
-             "ambiente": {
-              "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA14E2020/ambiente.jpg",
-              "px": [
-               533,
-               524
-              ]
              }
             },
             "fotos_por_codigo": {
              "00PEFA14E2020": {
+              "luminaria": {
+               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA14E2020/luminaria.jpg",
+               "px": [
+                533,
+                524
+               ]
+              },
               "medidas": {
                "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA14E2020/medidas.jpg",
                "px": [
                 529,
                 378
-               ]
-              },
-              "ambiente": {
-               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA14E2020/ambiente.jpg",
-               "px": [
-                533,
-                524
                ]
               }
              }
@@ -7786,35 +7786,35 @@
              "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES PARA EMPOTRAR/00PEFA15E2020 -Perfil de aluminio A15 para empotrar  50 X 35H X 2000mm difusor opal, color aluminio IP20.xlsx"
             ],
             "fotos": {
+             "luminaria": {
+              "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA15E2020/luminaria.jpg",
+              "px": [
+               534,
+               535
+              ]
+             },
              "medidas": {
               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA15E2020/medidas.jpg",
               "px": [
                499,
                464
               ]
-             },
-             "ambiente": {
-              "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA15E2020/ambiente.jpg",
-              "px": [
-               534,
-               535
-              ]
              }
             },
             "fotos_por_codigo": {
              "00PEFA15E2020": {
+              "luminaria": {
+               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA15E2020/luminaria.jpg",
+               "px": [
+                534,
+                535
+               ]
+              },
               "medidas": {
                "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA15E2020/medidas.jpg",
                "px": [
                 499,
                 464
-               ]
-              },
-              "ambiente": {
-               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA15E2020/ambiente.jpg",
-               "px": [
-                534,
-                535
                ]
               }
              }
@@ -7830,35 +7830,35 @@
              "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES PARA EMPOTRAR/00PEFA16E2020 -Perfil de aluminio A16 para empotrar 62 X 31H X 2000mm difusor opal, color aluminio IP20.xlsx"
             ],
             "fotos": {
+             "luminaria": {
+              "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA16E2020/luminaria.jpg",
+              "px": [
+               532,
+               531
+              ]
+             },
              "medidas": {
               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA16E2020/medidas.jpg",
               "px": [
                537,
                425
               ]
-             },
-             "ambiente": {
-              "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA16E2020/ambiente.jpg",
-              "px": [
-               532,
-               531
-              ]
              }
             },
             "fotos_por_codigo": {
              "00PEFA16E2020": {
+              "luminaria": {
+               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA16E2020/luminaria.jpg",
+               "px": [
+                532,
+                531
+               ]
+              },
               "medidas": {
                "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA16E2020/medidas.jpg",
                "px": [
                 537,
                 425
-               ]
-              },
-              "ambiente": {
-               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA16E2020/ambiente.jpg",
-               "px": [
-                532,
-                531
                ]
               }
              }
@@ -7874,35 +7874,35 @@
              "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES PARA EMPOTRAR/00PEFA2E2020 - Perfil de aluminio A2 para empotrar 17,5 X 10H X 2000mm difusor opal, color aluminio IP20.xlsx"
             ],
             "fotos": {
+             "luminaria": {
+              "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA2E2020/luminaria.jpg",
+              "px": [
+               539,
+               430
+              ]
+             },
              "medidas": {
               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA2E2020/medidas.jpg",
               "px": [
                494,
                440
               ]
-             },
-             "ambiente": {
-              "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA2E2020/ambiente.jpg",
-              "px": [
-               539,
-               430
-              ]
              }
             },
             "fotos_por_codigo": {
              "00PEFA2E2020": {
+              "luminaria": {
+               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA2E2020/luminaria.jpg",
+               "px": [
+                539,
+                430
+               ]
+              },
               "medidas": {
                "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA2E2020/medidas.jpg",
                "px": [
                 494,
                 440
-               ]
-              },
-              "ambiente": {
-               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA2E2020/ambiente.jpg",
-               "px": [
-                539,
-                430
                ]
               }
              }
@@ -7918,35 +7918,35 @@
              "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES PARA EMPOTRAR/00PEFA3E2020 -Perfil de aluminio A3 para empotrar 22 X 14,5H X 2000mm difusor opal, color aluminio IP20.xlsx"
             ],
             "fotos": {
+             "luminaria": {
+              "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA3E2020/luminaria.jpg",
+              "px": [
+               536,
+               526
+              ]
+             },
              "medidas": {
               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA3E2020/medidas.jpg",
               "px": [
                498,
                448
               ]
-             },
-             "ambiente": {
-              "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA3E2020/ambiente.jpg",
-              "px": [
-               536,
-               526
-              ]
              }
             },
             "fotos_por_codigo": {
              "00PEFA3E2020": {
+              "luminaria": {
+               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA3E2020/luminaria.jpg",
+               "px": [
+                536,
+                526
+               ]
+              },
               "medidas": {
                "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA3E2020/medidas.jpg",
                "px": [
                 498,
                 448
-               ]
-              },
-              "ambiente": {
-               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA3E2020/ambiente.jpg",
-               "px": [
-                536,
-                526
                ]
               }
              }
@@ -7966,67 +7966,67 @@
              "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES PARA EMPOTRAR/00PEFA4E2020N -Perfil de aluminio A4 para empotrar 24 X 14,5H X 2000mm difusor opal, color negro IP20.xlsx"
             ],
             "fotos": {
+             "luminaria": {
+              "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA4E2020/luminaria.jpg",
+              "px": [
+               539,
+               512
+              ]
+             },
              "medidas": {
               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA4E2020/medidas.jpg",
               "px": [
                512,
                421
               ]
-             },
-             "ambiente": {
-              "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA4E2020/ambiente.jpg",
-              "px": [
-               539,
-               512
-              ]
              }
             },
             "fotos_por_codigo": {
              "00PEFA4E2020": {
+              "luminaria": {
+               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA4E2020/luminaria.jpg",
+               "px": [
+                539,
+                512
+               ]
+              },
               "medidas": {
                "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA4E2020/medidas.jpg",
                "px": [
                 512,
                 421
-               ]
-              },
-              "ambiente": {
-               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA4E2020/ambiente.jpg",
-               "px": [
-                539,
-                512
                ]
               }
              },
              "00PEFA4E2020B": {
+              "luminaria": {
+               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA4E2020/luminaria.jpg",
+               "px": [
+                539,
+                512
+               ]
+              },
               "medidas": {
                "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA4E2020/medidas.jpg",
                "px": [
                 512,
                 421
-               ]
-              },
-              "ambiente": {
-               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA4E2020/ambiente.jpg",
-               "px": [
-                539,
-                512
                ]
               }
              },
              "00PEFA4E2020N": {
+              "luminaria": {
+               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA4E2020/luminaria.jpg",
+               "px": [
+                539,
+                512
+               ]
+              },
               "medidas": {
                "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA4E2020/medidas.jpg",
                "px": [
                 512,
                 421
-               ]
-              },
-              "ambiente": {
-               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA4E2020/ambiente.jpg",
-               "px": [
-                539,
-                512
                ]
               }
              }
@@ -8046,67 +8046,67 @@
              "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES PARA EMPOTRAR/00PEFA5E2020N - Perfil de aluminio A5 para empotrar 4,7 X 7H X 2000mm difusor opal, colornegro IP20.xlsx"
             ],
             "fotos": {
+             "luminaria": {
+              "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA5E2020/luminaria.jpg",
+              "px": [
+               536,
+               497
+              ]
+             },
              "medidas": {
               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA5E2020/medidas.jpg",
               "px": [
                511,
                302
               ]
-             },
-             "ambiente": {
-              "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA5E2020/ambiente.jpg",
-              "px": [
-               536,
-               497
-              ]
              }
             },
             "fotos_por_codigo": {
              "00PEFA5E2020": {
+              "luminaria": {
+               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA5E2020/luminaria.jpg",
+               "px": [
+                536,
+                497
+               ]
+              },
               "medidas": {
                "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA5E2020/medidas.jpg",
                "px": [
                 511,
                 302
-               ]
-              },
-              "ambiente": {
-               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA5E2020/ambiente.jpg",
-               "px": [
-                536,
-                497
                ]
               }
              },
              "00PEFA5E2020B": {
+              "luminaria": {
+               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA5E2020/luminaria.jpg",
+               "px": [
+                536,
+                497
+               ]
+              },
               "medidas": {
                "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA5E2020/medidas.jpg",
                "px": [
                 511,
                 302
-               ]
-              },
-              "ambiente": {
-               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA5E2020/ambiente.jpg",
-               "px": [
-                536,
-                497
                ]
               }
              },
              "00PEFA5E2020N": {
+              "luminaria": {
+               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA5E2020/luminaria.jpg",
+               "px": [
+                536,
+                497
+               ]
+              },
               "medidas": {
                "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA5E2020/medidas.jpg",
                "px": [
                 511,
                 302
-               ]
-              },
-              "ambiente": {
-               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA5E2020/ambiente.jpg",
-               "px": [
-                536,
-                497
                ]
               }
              }
@@ -8122,35 +8122,35 @@
              "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES PARA EMPOTRAR/00PEFA6E2020 - Perfil de aluminio A6 para empotrar 25 X 19H X 2000mm difusor opal, color aluminio IP20.xlsx"
             ],
             "fotos": {
+             "luminaria": {
+              "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA6E2020/luminaria.jpg",
+              "px": [
+               538,
+               512
+              ]
+             },
              "medidas": {
               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA6E2020/medidas.jpg",
               "px": [
                522,
                469
               ]
-             },
-             "ambiente": {
-              "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA6E2020/ambiente.jpg",
-              "px": [
-               538,
-               512
-              ]
              }
             },
             "fotos_por_codigo": {
              "00PEFA6E2020": {
+              "luminaria": {
+               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA6E2020/luminaria.jpg",
+               "px": [
+                538,
+                512
+               ]
+              },
               "medidas": {
                "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA6E2020/medidas.jpg",
                "px": [
                 522,
                 469
-               ]
-              },
-              "ambiente": {
-               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA6E2020/ambiente.jpg",
-               "px": [
-                538,
-                512
                ]
               }
              }
@@ -8166,35 +8166,35 @@
              "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES PARA EMPOTRAR/00PEFA7E2020 -Perfil de aluminio A7 para empotrar 27 X 15H X 2000mm difusor opal, color aluminio IP20.xlsx"
             ],
             "fotos": {
+             "luminaria": {
+              "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA7E2020/luminaria.jpg",
+              "px": [
+               538,
+               538
+              ]
+             },
              "medidas": {
               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA7E2020/medidas.jpg",
               "px": [
                539,
                408
               ]
-             },
-             "ambiente": {
-              "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA7E2020/ambiente.jpg",
-              "px": [
-               538,
-               538
-              ]
              }
             },
             "fotos_por_codigo": {
              "00PEFA7E2020": {
+              "luminaria": {
+               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA7E2020/luminaria.jpg",
+               "px": [
+                538,
+                538
+               ]
+              },
               "medidas": {
                "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA7E2020/medidas.jpg",
                "px": [
                 539,
                 408
-               ]
-              },
-              "ambiente": {
-               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA7E2020/ambiente.jpg",
-               "px": [
-                538,
-                538
                ]
               }
              }
@@ -8210,35 +8210,35 @@
              "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES PARA EMPOTRAR/00PEFA8E2020 -Perfil de aluminio A8 para empotrar 28 X 10H X 2000mm difusor opal, color aluminio IP20.xlsx"
             ],
             "fotos": {
+             "luminaria": {
+              "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA8E2020/luminaria.jpg",
+              "px": [
+               535,
+               489
+              ]
+             },
              "medidas": {
               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA8E2020/medidas.jpg",
               "px": [
                538,
                364
               ]
-             },
-             "ambiente": {
-              "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA8E2020/ambiente.jpg",
-              "px": [
-               535,
-               489
-              ]
              }
             },
             "fotos_por_codigo": {
              "00PEFA8E2020": {
+              "luminaria": {
+               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA8E2020/luminaria.jpg",
+               "px": [
+                535,
+                489
+               ]
+              },
               "medidas": {
                "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA8E2020/medidas.jpg",
                "px": [
                 538,
                 364
-               ]
-              },
-              "ambiente": {
-               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA8E2020/ambiente.jpg",
-               "px": [
-                535,
-                489
                ]
               }
              }
@@ -8254,35 +8254,35 @@
              "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES PARA EMPOTRAR/00PEFA9E2020 -Perfil de aluminio A9 para empotrar 28 X 20H X 2000mm difusor opal, color aluminio IP20.xlsx"
             ],
             "fotos": {
+             "luminaria": {
+              "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA9E2020/luminaria.jpg",
+              "px": [
+               538,
+               532
+              ]
+             },
              "medidas": {
               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA9E2020/medidas.jpg",
               "px": [
                540,
                497
               ]
-             },
-             "ambiente": {
-              "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA9E2020/ambiente.jpg",
-              "px": [
-               538,
-               532
-              ]
              }
             },
             "fotos_por_codigo": {
              "00PEFA9E2020": {
+              "luminaria": {
+               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA9E2020/luminaria.jpg",
+               "px": [
+                538,
+                532
+               ]
+              },
               "medidas": {
                "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA9E2020/medidas.jpg",
                "px": [
                 540,
                 497
-               ]
-              },
-              "ambiente": {
-               "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles para Empotrar/00PEFA9E2020/ambiente.jpg",
-               "px": [
-                538,
-                532
                ]
               }
              }
@@ -8339,8 +8339,8 @@
            "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.3 - ACCESORIOS/00CONTROLADOR - CONTROLADOR SMART RF433+ TUYA WIFI MONOCOLOR CCT RGB RGB-W RGB-CCT  CONTROL DE DISTANCIA 30M.xlsx"
           ],
           "fotos": {
-           "ambiente": {
-            "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Accesorios/00CONTROLADOR/ambiente.jpg",
+           "luminaria": {
+            "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Accesorios/00CONTROLADOR/luminaria.jpg",
             "px": [
              610,
              332
@@ -8349,8 +8349,8 @@
           },
           "fotos_por_codigo": {
            "00CONTROLADOR": {
-            "ambiente": {
-             "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Accesorios/00CONTROLADOR/ambiente.jpg",
+            "luminaria": {
+             "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Accesorios/00CONTROLADOR/luminaria.jpg",
              "px": [
               610,
               332
@@ -16883,41 +16883,41 @@
          "8 - FUENTES DE ALIMENTACIÓN 24V IP20 ON-OFF/8.1 - FUENTES DE 24V/00LHV6024IP67 - FUENTE ALIMENTACION 60W 24V IP67 PARA TIRA LED.xlsx"
         ],
         "fotos": {
+         "luminaria": {
+          "ruta": "images/productos/Fuentes de Alimentacion 24V IP20 ON-OFF/Fuentes de 24V/00FUAL20024IP/luminaria.jpg",
+          "px": [
+           475,
+           195
+          ]
+         },
          "medidas": {
           "ruta": "images/productos/Fuentes de Alimentacion 24V IP20 ON-OFF/Fuentes de 24V/00FUAL20024IP/medidas.jpg",
           "px": [
            479,
            247
           ]
-         },
-         "ambiente": {
-          "ruta": "images/productos/Fuentes de Alimentacion 24V IP20 ON-OFF/Fuentes de 24V/00FUAL20024IP/ambiente.jpg",
-          "px": [
-           475,
-           195
-          ]
          }
         },
         "fotos_por_codigo": {
          "00FUAL20024IP": {
+          "luminaria": {
+           "ruta": "images/productos/Fuentes de Alimentacion 24V IP20 ON-OFF/Fuentes de 24V/00FUAL20024IP/luminaria.jpg",
+           "px": [
+            475,
+            195
+           ]
+          },
           "medidas": {
            "ruta": "images/productos/Fuentes de Alimentacion 24V IP20 ON-OFF/Fuentes de 24V/00FUAL20024IP/medidas.jpg",
            "px": [
             479,
             247
            ]
-          },
-          "ambiente": {
-           "ruta": "images/productos/Fuentes de Alimentacion 24V IP20 ON-OFF/Fuentes de 24V/00FUAL20024IP/ambiente.jpg",
-           "px": [
-            475,
-            195
-           ]
           }
          },
          "00LHV6024IP67": {
-          "ambiente": {
-           "ruta": "images/productos/Fuentes de Alimentacion 24V IP20 ON-OFF/Fuentes de 24V/00LHV6024IP67/ambiente.jpg",
+          "luminaria": {
+           "ruta": "images/productos/Fuentes de Alimentacion 24V IP20 ON-OFF/Fuentes de 24V/00LHV6024IP67/luminaria.jpg",
            "px": [
             266,
             124
@@ -16944,35 +16944,35 @@
          "8 - FUENTES DE ALIMENTACIÓN 24V IP20 ON-OFF/8.2 - FUENTES DE 12V/00FA36W12VIP2 - Fuente de alimentación 36W 12V IP65 con toma a tierra.xlsx"
         ],
         "fotos": {
+         "luminaria": {
+          "ruta": "images/productos/Fuentes de Alimentacion 24V IP20 ON-OFF/Fuentes de 12V/00FA36W12VIP2/luminaria.jpg",
+          "px": [
+           470,
+           199
+          ]
+         },
          "medidas": {
           "ruta": "images/productos/Fuentes de Alimentacion 24V IP20 ON-OFF/Fuentes de 12V/00FA36W12VIP2/medidas.jpg",
           "px": [
            464,
            254
           ]
-         },
-         "ambiente": {
-          "ruta": "images/productos/Fuentes de Alimentacion 24V IP20 ON-OFF/Fuentes de 12V/00FA36W12VIP2/ambiente.jpg",
-          "px": [
-           470,
-           199
-          ]
          }
         },
         "fotos_por_codigo": {
          "00FA36W12VIP2": {
+          "luminaria": {
+           "ruta": "images/productos/Fuentes de Alimentacion 24V IP20 ON-OFF/Fuentes de 12V/00FA36W12VIP2/luminaria.jpg",
+           "px": [
+            470,
+            199
+           ]
+          },
           "medidas": {
            "ruta": "images/productos/Fuentes de Alimentacion 24V IP20 ON-OFF/Fuentes de 12V/00FA36W12VIP2/medidas.jpg",
            "px": [
             464,
             254
-           ]
-          },
-          "ambiente": {
-           "ruta": "images/productos/Fuentes de Alimentacion 24V IP20 ON-OFF/Fuentes de 12V/00FA36W12VIP2/ambiente.jpg",
-           "px": [
-            470,
-            199
            ]
           }
          }
