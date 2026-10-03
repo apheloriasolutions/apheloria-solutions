@@ -12,7 +12,7 @@ RAIZ = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)
 DATOS = os.path.join(RAIZ, 'data', 'catalogo.json')
 AVISOS = os.path.join(RAIZ, 'docs', 'catalogo', 'avisos-fotos.json')
 SALIDA = os.path.join(RAIZ, 'docs', 'catalogo', 'fotos.html')
-TIPOS = ('luminaria', 'medidas', 'ambiente')
+TIPOS = ('luminaria', 'medidas', 'ambiente', 'angulo')
 MINIMO = 800
 
 
@@ -73,8 +73,8 @@ def main():
   .resumen {{ font-size: .85rem; color: #857a68; margin-bottom: 1.2rem; }}
   table {{ border-collapse: collapse; width: 100%; background: #fff; }}
   th, td {{ border: 1px solid #e6e0d6; padding: .5rem; vertical-align: top; }}
-  th {{ text-align: left; width: 22%; font-weight: 400; }}
-  td {{ width: 26%; text-align: center; }}
+  th {{ text-align: left; width: 18%; font-weight: 400; }}
+  td {{ width: 20.5%; text-align: center; }}
   img {{ max-width: 100%; max-height: 220px; object-fit: contain; display: block; margin: 0 auto; }}
   .pie {{ display: block; font-size: .72rem; color: #857a68; margin-top: .35rem; }}
   .ruta {{ display: block; font-size: .68rem; text-transform: uppercase; letter-spacing: .08em; color: #857a68; }}

@@ -42,8 +42,11 @@ DATOS = os.path.join(RAIZ, 'data', 'catalogo.json')
 
 LADO_MAX, CALIDAD = 1600, 88
 ICONO_MAX = 90          # px: por debajo de esto es un icono, no una foto
-CUADRADA = 0.03         # tolerancia para considerar que la curva es cuadrada
-CURVA_MIN = 350         # px
+# La curva fotométrica (el "ángulo lumínico") es el último dibujo de la columna derecha y siempre
+# sale aproximadamente cuadrada. Se pide además que haya al menos 3 imágenes a la derecha, para no
+# confundirla con el dibujo de cotas en las fichas que solo traen producto y medidas.
+ANGULO_PROPORCION = (0.70, 1.25)
+ANGULO_MINIMO_DERECHA = 3
 
 avisos = defaultdict(list)
 
@@ -155,7 +158,7 @@ def clasificar(imgs, fijos, ref):
     izq = sorted([i for i in utiles if i['col'] <= 1], key=lambda i: -i['area_cm'])
     der = sorted([i for i in utiles if i['col'] > 1], key=lambda i: (i['y'], i['x']))
 
-    roles = {'luminaria': None, 'medidas': [], 'ambiente': None}
+    roles = {'luminaria': None, 'medidas': [], 'ambiente': None, 'angulo': None}
     if izq:
         roles['ambiente'] = izq[0]
         if len(izq) > 1:
@@ -164,8 +167,9 @@ def clasificar(imgs, fijos, ref):
     if der:
         ultima = der[-1]
         w, h = ultima['px']
-        if abs(w / h - 1) <= CUADRADA and min(w, h) >= CURVA_MIN:
-            der = der[:-1]                                   # curva fotométrica: no se publica
+        if len(der) >= ANGULO_MINIMO_DERECHA and ANGULO_PROPORCION[0] <= w / h <= ANGULO_PROPORCION[1]:
+            roles['angulo'] = ultima
+            der = der[:-1]
         if len(der) == 1:
             unica = der[0]
             cotas = manchas_de_cota(Image.open(io.BytesIO(unica['datos'])))
@@ -302,7 +306,7 @@ def main():
             if roles['luminaria']:
                 huellas_producto.add(roles['luminaria']['hash'])
             guardadas = {}
-            for tipo in ('luminaria', 'medidas', 'ambiente'):
+            for tipo in ('luminaria', 'medidas', 'ambiente', 'angulo'):
                 piezas = roles[tipo] if tipo == 'medidas' else ([roles[tipo]] if roles[tipo] else [])
                 if not piezas:
                     continue
