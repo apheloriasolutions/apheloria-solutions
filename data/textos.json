@@ -358,11 +358,13 @@
  "hospitalarias-salas-blancas": {
   "texto": "Luminarias para salas blancas, quirófanos y ambientes estériles. IP65, con difusor registrable desde abajo y acabados que aguantan agentes químicos.",
   "borrador": true,
-  "portada": "images/productos/portadas/hospitalarias-salas-blancas.jpg"
+  "portada": "images/productos/portadas/hospitalarias-salas-blancas.jpg",
+  "hero": "images/productos/portadas/hospitalarias-salas-blancas.jpg"
  },
  "hospitalarias-salas-blancas/salas-blancas": {
   "texto": "Pantallas hospitalarias en dos formatos: 600 × 600 mm y 1200 × 300 mm. De 27 a 65W, IP65.",
-  "borrador": true
+  "borrador": true,
+  "hero": "images/productos/portadas/hospitalarias-salas-blancas.jpg"
  },
  "hospitalarias-salas-blancas/salas-blancas/pantallas-hospitalarias-600-x-600mm": {
   "texto": "Pantallas hospitalarias de 600 × 600 mm, de 27 a 65W. IP65, con versiones de color inteligente y Clean Regular.",
@@ -388,14 +390,17 @@
  },
  "fuentes-de-alimentacion-24v-ip20-on-off": {
   "texto": "Fuentes de alimentación de voltaje constante para tiras LED, en 12V y 24V. IP20 para interior e IP65/IP67 para instalaciones expuestas.",
-  "borrador": true
+  "borrador": true,
+  "hero": "images/productos/Fuentes de Alimentacion 24V IP20 ON-OFF/Fuentes de 24V/00FUAL20024IP/luminaria.jpg"
  },
  "fuentes-de-alimentacion-24v-ip20-on-off/fuentes-de-24v": {
   "texto": "Fuentes de alimentación de 24V para tiras LED, en IP65 e IP67.",
-  "borrador": true
+  "borrador": true,
+  "hero": "images/productos/Fuentes de Alimentacion 24V IP20 ON-OFF/Fuentes de 24V/00FUAL20024IP/luminaria.jpg"
  },
  "fuentes-de-alimentacion-24v-ip20-on-off/fuentes-de-12v": {
   "texto": "Fuente de alimentación de 12V para tiras LED, IP65.",
-  "borrador": true
+  "borrador": true,
+  "hero": "images/productos/Fuentes de Alimentacion 24V IP20 ON-OFF/Fuentes de 12V/00FA36W12VIP2/luminaria.jpg"
  }
 }

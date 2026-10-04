@@ -108,6 +108,21 @@ def portada_de(nodo, textos, clave):
     return primera_foto(nodo, 'luminaria')
 
 
+def hero_de(nodo, textos, clave):
+    """Por defecto, la foto de ambiente del primer producto de la sección. Si en textos.json
+    se le ha puesto un `hero` a mano, manda ese: las de banco llenan el hueco y las de
+    producto se dejan centradas sobre blanco."""
+    a_mano = (textos.get(clave) or {}).get('hero')
+    if a_mano and os.path.exists(os.path.join(RAIZ, a_mano)):
+        from PIL import Image
+        with Image.open(os.path.join(RAIZ, a_mano)) as im:
+            return {'ruta': a_mano, 'px': list(im.size), 'ambiente': '/portadas/' in a_mano}
+    f = primera_foto(nodo, 'ambiente')
+    if f:
+        f = dict(f, ambiente=True)
+    return f
+
+
 def convertir(nodo, textos, ruta=()):
     clave = '/'.join(ruta)
     usados = {h['slug'] for h in nodo['hijos']}
@@ -131,7 +146,7 @@ def convertir(nodo, textos, ruta=()):
         'nombre': nodo['nombre'],
         'slug': nodo['slug'],
         'texto': (textos.get(clave) or {}).get('texto', ''),
-        'hero': primera_foto(nodo, 'ambiente'),
+        'hero': hero_de(nodo, textos, clave),
         'portada': portada_de(nodo, textos, clave),
         'cuenta': cuenta_productos(nodo),
         'hijos': hijos,

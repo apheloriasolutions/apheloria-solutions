@@ -93,7 +93,8 @@ function pintarNavegacion(nodo, cadena, ruta) {
   const padres = cadena.slice(0, -1).filter(c => !c.salta).map(c => c.nombre).join(' · ');
   const foto = nodo.hero;
   const cabecera = `<header class="cat-hero${foto ? '' : ' cat-hero--sin-foto'}">
-      ${foto ? `<div class="cat-hero-foto"><img src="${url(foto.ruta)}" alt="${esc(nodo.nombre)}"></div>` : ''}
+      ${foto ? `<div class="cat-hero-foto${foto.ambiente ? '' : ' cat-hero-foto--producto'}">
+             <img src="${url(foto.ruta)}" alt="${esc(nodo.nombre)}"></div>` : ''}
       <div>
         ${padres ? `<span class="cat-hero-eyebrow">${esc(padres)}</span>` : ''}
         <h1 class="cat-hero-titulo">${esc(nodo.nombre)}</h1>
