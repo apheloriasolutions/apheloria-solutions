@@ -116,7 +116,7 @@
 .intro-nosotros .intro-inner {
   position: relative; z-index: 2;
   display: flex; flex-direction: column; align-items: center; justify-content: flex-start;
-  padding: 42vh 2rem 0; height: 100%; width: 100%;
+  padding: 37vh 2rem 0; height: 100%; width: 100%;
 }
 /* Scroll-reveal animation */
 .scroll-reveal {
@@ -215,7 +215,7 @@ body.lista .hero-title-line:nth-child(2) { transition-delay: 0.28s; }
     background-size: 185% auto; background-position: center 14%;
     background-color: #eceef1;
   }
-  .intro-nosotros .intro-inner { padding-top: 40vh; }
+  .intro-nosotros .intro-inner { padding-top: 36vh; }
 }
 
 @media (max-width: 640px) {
