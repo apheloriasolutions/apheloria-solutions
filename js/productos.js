@@ -67,6 +67,19 @@ function tarjeta(enlace, foto, nombre, meta) {
     </div></a>`;
 }
 
+// Si una sección entera contiene un solo producto, su tarjeta lleva directa a la ficha:
+// una pantalla intermedia con una única tarjeta no aporta nada y es un clic de más.
+function rutaDirecta(nodo, ruta) {
+  if (nodo.cuenta !== 1) return ruta;
+  let n = nodo, r = ruta;
+  while (!n.productos.length && n.hijos.length) {
+    n = n.hijos.find(h => h.cuenta === 1) || n.hijos[0];
+    r += '/' + n.slug;
+  }
+  return n.productos.length === 1 ? r + '/' + n.productos[0].slug : r;
+}
+
+
 // ── Plantilla 1: pantalla de navegación ──
 function pintarNavegacion(nodo, cadena, ruta) {
   const padres = cadena.slice(0, -1).map(c => c.nombre).join(' · ');
@@ -85,7 +98,7 @@ function pintarNavegacion(nodo, cadena, ruta) {
     const n = nodo.hijos.length;
     bloques.push(`<span class="cat-apartado">${n} ${n === 1 ? 'sección' : 'secciones'}</span>
       <div class="cat-grid">` + nodo.hijos.map(h => tarjeta(
-        ruta ? ruta + '/' + h.slug : h.slug, h.portada, h.nombre,
+        rutaDirecta(h, ruta ? ruta + '/' + h.slug : h.slug), h.portada, h.nombre,
         `${h.cuenta} ${h.cuenta === 1 ? 'producto' : 'productos'}`)).join('') + '</div>');
   }
   if (nodo.productos.length) {
