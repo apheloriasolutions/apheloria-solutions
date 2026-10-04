@@ -99,6 +99,10 @@
 }
 .cat-card:hover .cat-card-foto img { transform: scale(1.06); }
 .cat-card-foto--vacia { background: var(--beige); }
+/* Portadas de sección: son fotografías, llenan la tarjeta en vez de ir sobre blanco */
+.cat-card-foto--ambiente { padding: 0; border-color: transparent; }
+.cat-card-foto--ambiente img { width: 100%; height: 100%; max-width: none; max-height: none;
+                               object-fit: cover; }
 .cat-card-cuerpo { padding: 0.85rem 0.1rem 0; display: flex; flex-direction: column; gap: 0.3rem; }
 .cat-card-nombre {
   font-family: 'Raleway', sans-serif; font-weight: 600;

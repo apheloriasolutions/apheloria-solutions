@@ -97,6 +97,17 @@ def sin_repetir(slug, usados):
     return f'{slug}-{n}'
 
 
+def portada_de(nodo, textos, clave):
+    """Por defecto, la foto de producto del primero que haya dentro. Si en textos.json se le
+    ha puesto una `portada` a mano (las grandes familias llevan fotos de banco), manda esa."""
+    a_mano = (textos.get(clave) or {}).get('portada')
+    if a_mano and os.path.exists(os.path.join(RAIZ, a_mano)):
+        from PIL import Image
+        with Image.open(os.path.join(RAIZ, a_mano)) as im:
+            return {'ruta': a_mano, 'px': list(im.size), 'ambiente': True}
+    return primera_foto(nodo, 'luminaria')
+
+
 def convertir(nodo, textos, ruta=()):
     clave = '/'.join(ruta)
     usados = {h['slug'] for h in nodo['hijos']}
@@ -121,7 +132,7 @@ def convertir(nodo, textos, ruta=()):
         'slug': nodo['slug'],
         'texto': (textos.get(clave) or {}).get('texto', ''),
         'hero': primera_foto(nodo, 'ambiente'),
-        'portada': primera_foto(nodo, 'luminaria'),
+        'portada': portada_de(nodo, textos, clave),
         'cuenta': cuenta_productos(nodo),
         'hijos': hijos,
         'productos': productos,

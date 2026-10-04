@@ -56,11 +56,14 @@ function miga(cadena, actual) {
 }
 
 function tarjeta(enlace, foto, nombre, meta) {
+  // Las fotos de producto van recortadas sobre blanco y se dejan a su tamaño; las de
+  // ambiente son fotografías y llenan la tarjeta.
   const img = foto
-    ? `<img src="${url(foto.ruta)}" alt="${esc(nombre)}" style="${medida(foto)}" loading="lazy">`
+    ? `<img src="${url(foto.ruta)}" alt="${esc(nombre)}"${foto.ambiente ? '' : ` style="${medida(foto)}"`} loading="lazy">`
     : '';
+  const clase = !foto ? ' cat-card-foto--vacia' : foto.ambiente ? ' cat-card-foto--ambiente' : '';
   return `<a class="cat-card" href="#${esc(enlace)}">
-    <div class="cat-card-foto${foto ? '' : ' cat-card-foto--vacia'}">${img}</div>
+    <div class="cat-card-foto${clase}">${img}</div>
     <div class="cat-card-cuerpo">
       <span class="cat-card-nombre">${esc(nombre)}</span>
       ${meta ? `<span class="cat-card-meta">${esc(meta)}</span>` : ''}

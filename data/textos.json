@@ -5,7 +5,8 @@
  },
  "interiores": {
   "texto": "Iluminación de interior para oficina, comercio y vivienda: downlights empotrados y adosados, perfiles lineales, tiras y perfiles LED, proyectores de carril y la colección Retro Gold.",
-  "borrador": true
+  "borrador": true,
+  "portada": "images/productos/portadas/interiores.jpg"
  },
  "interiores/downlights-empotrados": {
   "texto": "Gama completa de downlights empotrados: cardanes orientables, trimless sin marco, modelos simples, de luz difusa y de temperatura ajustable, y las líneas NEX, ZEN, SLIM, MIN, MIX y OCU. Acabados en blanco y negro, CRI90-95.",
@@ -225,7 +226,8 @@
  },
  "exteriores": {
   "texto": "Iluminación de exterior: apliques de pared, balizas de paso y bolardos, faroles, estacas de jardín y plafones de superficie. Protección de IP44 a IP67.",
-  "borrador": true
+  "borrador": true,
+  "portada": "images/productos/portadas/exteriores.jpg"
  },
  "exteriores/apliques": {
   "texto": "Apliques de pared para exterior, con doble salida de luz hacia arriba y hacia abajo.",
@@ -253,7 +255,8 @@
  },
  "decorativas": {
   "texto": "Luminarias decorativas de diseño para espacios representativos: colgantes circulares, empotradas y de superficie.",
-  "borrador": true
+  "borrador": true,
+  "portada": "images/productos/portadas/decorativas.jpg"
  },
  "decorativas/empotrados": {
   "texto": "Lámpara circular empotrable de 37W a 4000K.",
@@ -269,7 +272,8 @@
  },
  "industriales": {
   "texto": "Iluminación para naves, almacenes y alumbrado viario: campanas de grandes alturas, pantallas estancas, paneles, proyectores y farolas.",
-  "borrador": true
+  "borrador": true,
+  "portada": "images/productos/portadas/industriales.jpg"
  },
  "industriales/campanas": {
   "texto": "Campanas LED para grandes alturas. Cuatro secciones: ALFA (polivalente, de 60 a 300W), CAM (alturas extremas), SOL (compacta y económica) y modelos especiales. Todas IP65.",
@@ -353,7 +357,8 @@
  },
  "hospitalarias-salas-blancas": {
   "texto": "Luminarias para salas blancas, quirófanos y ambientes estériles. IP65, con difusor registrable desde abajo y acabados que aguantan agentes químicos.",
-  "borrador": true
+  "borrador": true,
+  "portada": "images/productos/portadas/hospitalarias-salas-blancas.jpg"
  },
  "hospitalarias-salas-blancas/salas-blancas": {
   "texto": "Pantallas hospitalarias en dos formatos: 600 × 600 mm y 1200 × 300 mm. De 27 a 65W, IP65.",
@@ -369,7 +374,8 @@
  },
  "emergencia": {
   "texto": "Luminarias de emergencia y señalización de recorridos de evacuación.",
-  "borrador": true
+  "borrador": true,
+  "portada": "images/productos/portadas/emergencia.jpg"
  },
  "emergencia/emergencia": {
   "texto": "Catorce modelos de emergencia, de 1 a 18W, empotrables y de superficie, de IP20 a IP65 y varios con autotest. Incluye el proyector Vesubio para naves de gran altura.",
@@ -377,7 +383,8 @@
  },
  "bombillas-y-accesorios": {
   "texto": "Tubo LED T8 de cristal para sustitución directa de fluorescentes. 1500mm 24W. Conexión un lateral. Ahorro energético superior al 50% respecto al tubo convencional.",
-  "borrador": false
+  "borrador": false,
+  "portada": "images/productos/portadas/bombillas-y-accesorios.jpg"
  },
  "fuentes-de-alimentacion-24v-ip20-on-off": {
   "texto": "Fuentes de alimentación de voltaje constante para tiras LED, en 12V y 24V. IP20 para interior e IP65/IP67 para instalaciones expuestas.",
