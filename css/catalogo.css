@@ -9,7 +9,7 @@
   padding: 0; height: auto;
 }
 .cat-visual {
-  flex: 0 0 34%;            /* el catálogo ocupa un tercio; el texto, los otros dos */
+  flex: 0 0 50%;            /* mitad y mitad */
   background: linear-gradient(150deg, #ede8df 0%, #d8d0c4 55%, var(--accent-soft) 100%);
   display: flex; flex-direction: column;
   align-items: center; justify-content: center;
@@ -35,13 +35,11 @@
 /* Aviso sobre la portada, con la misma inclinación que el libro. Va a media altura,
    en la parte vacía de la cubierta, para no tapar el nombre ni el pie. */
 .cat-pronto {
-  position: absolute; top: 50%; left: -0.9rem; right: -0.9rem;
+  position: absolute; top: 50%; left: 0; right: 0;
   transform: translateY(-50%); text-align: center;
   font-family: 'Raleway', sans-serif; font-size: 0.58rem; font-weight: 400;
   letter-spacing: 0.24em; text-transform: uppercase;
-  color: var(--bg); background: var(--ink);
-  padding: 0.4rem 0.9rem;
-  box-shadow: 0 6px 18px rgba(var(--ink-rgb),0.28);
+  color: #555;
 }
 .cat-brand  { font-size: 0.9rem; font-weight: 400; letter-spacing: 0.22em; text-transform: uppercase; color: var(--ink); }
 .cat-sub    { font-size: 0.6rem; letter-spacing: 0.28em; text-transform: uppercase; color: var(--accent); font-weight: 300; margin-top: 0.15rem; display: block; }
