@@ -39,6 +39,7 @@ const irA = sel => {
 document.getElementById('scrollHint').addEventListener('click', () => irA('.intro-connector'));
 document.getElementById('connectorDown').addEventListener('click', () => irA('.intro-nosotros'));
 document.getElementById('btnProductos').addEventListener('click', () => { location.href = 'productos.html'; });
+document.getElementById('btnProyectos').addEventListener('click', () => { location.href = 'proyectos.html'; });
 
 // ── Revelado al entrar en pantalla ──
 const observador = new IntersectionObserver(entradas => {
