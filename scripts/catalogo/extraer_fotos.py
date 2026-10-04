@@ -61,7 +61,7 @@ SOLO_COTAS = {'00PSFB4S2020', '00PERFLEXACER', '00FASO16WCCTK', 'EMS61000',
 IZQUIERDA_ES_PLANO = {'00FASO16WCCTK', 'EMS61000'}
 
 # Fichas donde el origen trae la columna derecha al revés: primero las cotas y debajo el producto.
-INTERCAMBIAR = {'00LAMSP300NG'}
+INTERCAMBIAR = {'00LAMSP300NG', '00BE6TI20W30K', '00BALIZ8W3KIP'}
 
 
 # ── lectura del .xlsx ─────────────────────────────────────────────────────────

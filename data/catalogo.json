@@ -39993,15 +39993,15 @@
          "luminaria": {
           "ruta": "images/productos/Exteriores/Balizas/00BE6TI20W30K/luminaria.jpg",
           "px": [
-           193,
-           526
+           119,
+           550
           ]
          },
          "medidas": {
           "ruta": "images/productos/Exteriores/Balizas/00BE6TI20W30K/medidas.jpg",
           "px": [
-           119,
-           550
+           193,
+           526
           ]
          },
          "ambiente": {
@@ -40022,17 +40022,17 @@
         "fotos_por_codigo": {
          "00BE6TI20W30K": {
           "luminaria": {
-           "ruta": "images/productos/Exteriores/Balizas/00BE6TI20W30K/luminaria.jpg",
-           "px": [
-            193,
-            526
-           ]
-          },
-          "medidas": {
            "ruta": "images/productos/Exteriores/Balizas/00BE6TI20W30K/medidas.jpg",
            "px": [
             119,
             550
+           ]
+          },
+          "medidas": {
+           "ruta": "images/productos/Exteriores/Balizas/00BE6TI20W30K/luminaria.jpg",
+           "px": [
+            193,
+            526
            ]
           },
           "ambiente": {
@@ -40476,15 +40476,15 @@
          "luminaria": {
           "ruta": "images/productos/Exteriores/Balizas/00BALIZ8W3KIP/luminaria.jpg",
           "px": [
-           138,
-           254
+           130,
+           371
           ]
          },
          "medidas": {
           "ruta": "images/productos/Exteriores/Balizas/00BALIZ8W3KIP/medidas.jpg",
           "px": [
-           130,
-           371
+           138,
+           254
           ]
          },
          "ambiente": {
@@ -40505,17 +40505,17 @@
         "fotos_por_codigo": {
          "00BALIZ8W3KIP": {
           "luminaria": {
-           "ruta": "images/productos/Exteriores/Balizas/00BALIZ8W3KIP/luminaria.jpg",
-           "px": [
-            138,
-            254
-           ]
-          },
-          "medidas": {
            "ruta": "images/productos/Exteriores/Balizas/00BALIZ8W3KIP/medidas.jpg",
            "px": [
             130,
             371
+           ]
+          },
+          "medidas": {
+           "ruta": "images/productos/Exteriores/Balizas/00BALIZ8W3KIP/luminaria.jpg",
+           "px": [
+            138,
+            254
            ]
           },
           "ambiente": {

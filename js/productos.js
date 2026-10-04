@@ -35,7 +35,7 @@ function resolver(ruta) {
     if (hijo) {
       hasta.push(hijo.slug);
       nodo = hijo;
-      cadena.push({ nombre: hijo.nombre, ruta: hasta.join('/') });
+      cadena.push({ nombre: hijo.nombre, ruta: hasta.join('/'), salta: seSalta(hijo) });
       continue;
     }
     const producto = nodo.productos.find(p => p.slug === partes[i]);
@@ -67,22 +67,27 @@ function tarjeta(enlace, foto, nombre, meta) {
     </div></a>`;
 }
 
-// Si una sección entera contiene un solo producto, su tarjeta lleva directa a la ficha:
-// una pantalla intermedia con una única tarjeta no aporta nada y es un clic de más.
+// Una pantalla con una sola tarjeta no aporta nada y es un clic de más, así que se salta.
+// Pasa en dos casos: la sección no tiene productos propios y solo lleva a otra sección,
+// o lo único que hay dentro es un producto suelto.
+const seSalta = n => !n.productos.length && n.hijos.length === 1;
+
 function rutaDirecta(nodo, ruta) {
-  if (nodo.cuenta !== 1) return ruta;
   let n = nodo, r = ruta;
-  while (!n.productos.length && n.hijos.length) {
-    n = n.hijos.find(h => h.cuenta === 1) || n.hijos[0];
+  while (seSalta(n)) {
+    n = n.hijos[0];
     r += '/' + n.slug;
   }
-  return n.productos.length === 1 ? r + '/' + n.productos[0].slug : r;
+  if (!n.hijos.length && n.productos.length === 1) {
+    r += '/' + n.productos[0].slug;
+  }
+  return r;
 }
 
 
 // ── Plantilla 1: pantalla de navegación ──
 function pintarNavegacion(nodo, cadena, ruta) {
-  const padres = cadena.slice(0, -1).map(c => c.nombre).join(' · ');
+  const padres = cadena.slice(0, -1).filter(c => !c.salta).map(c => c.nombre).join(' · ');
   const foto = nodo.hero;
   const cabecera = `<header class="cat-hero${foto ? '' : ' cat-hero--sin-foto'}">
       ${foto ? `<div class="cat-hero-foto"><img src="${url(foto.ruta)}" alt="${esc(nodo.nombre)}"></div>` : ''}
@@ -109,7 +114,7 @@ function pintarNavegacion(nodo, cadena, ruta) {
   }
 
   const actual = cadena[cadena.length - 1].nombre;
-  const previas = cadena.slice(0, -1);
+  const previas = cadena.slice(0, -1).filter(c => !c.salta);
   return (previas.length ? miga(previas, actual) : '') + cabecera + bloques.join('');
 }
 
@@ -152,7 +157,7 @@ function pintarFicha(producto, cadena) {
           <span class="ficha-descarga-flecha" aria-hidden="true">↗</span></a>`).join('')}</div>
     </div>` : '';
 
-  return miga(cadena, producto.nombre) + `
+  return miga(cadena.filter(c => !c.salta), producto.nombre) + `
     <header class="ficha-cabecera">
       <h1 class="ficha-titulo">${esc(producto.nombre)}</h1>
       <span class="ficha-refs">Ref. ${producto.codigos.map(esc).join(' · ')}</span>
