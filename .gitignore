@@ -14,3 +14,6 @@ fuentes/
 
 # Los PDF generados desde las fichas: se suben aparte al hosting, no a git
 fichas/
+
+# El catálogo en PDF se genera con scripts/catalogo/construir_catalogo.py
+docs/catalogo/catalogo-apheloria.pdf
