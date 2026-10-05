@@ -5,7 +5,9 @@ Las carátulas son los Word de fuentes/fichas/CARATULAS/, uno por sección, con 
 descriptivo y sus fotos. Se convierten a PDF con LibreOffice y se encadenan en el mismo
 orden en el que salen las secciones en la web.
 
-Salida: docs/catalogo/catalogo-apheloria.pdf (piloto, todavía no se publica).
+Salida: docs/catalogo/catalogo-apheloria.pdf (piloto, todavía no se publica) y, al lado,
+catalogo-apheloria-correo.pdf, el mismo documento con las fotos recomprimidas para enviarlo
+por correo sin que se note la diferencia.
 
 Uso:  python scripts/catalogo/construir_catalogo.py
 """
@@ -102,8 +104,16 @@ def main():
     catalogo.close()
     shutil.rmtree(temporal, ignore_errors=True)
 
+    # una copia más ligera, para mandarla por correo
+    ligero = fitz.open(SALIDA)
+    ligero.rewrite_images(dpi_threshold=130, dpi_target=110, quality=62)
+    correo = SALIDA.replace('.pdf', '-correo.pdf')
+    ligero.save(correo, garbage=4, deflate=True, clean=True)
+    ligero.close()
+
     doc = fitz.open(SALIDA)
     print(f'{SALIDA}')
+    print(f'  copia para correo: {correo} · {os.path.getsize(correo) / 1048576:.1f} MB')
     print(f'  {len(doc)} páginas · {os.path.getsize(SALIDA) / 1048576:.1f} MB')
     for titulo, n in hechas:
         print(f'    {titulo:40} {n} pág')

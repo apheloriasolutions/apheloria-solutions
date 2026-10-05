@@ -17,3 +17,4 @@ fichas/
 
 # El catálogo en PDF se genera con scripts/catalogo/construir_catalogo.py
 docs/catalogo/catalogo-apheloria.pdf
+docs/catalogo/catalogo-apheloria-correo.pdf
