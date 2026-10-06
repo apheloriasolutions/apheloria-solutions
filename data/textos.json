@@ -388,17 +388,17 @@
   "borrador": false,
   "portada": "images/productos/portadas/bombillas-y-accesorios.jpg"
  },
- "fuentes-de-alimentacion-24v-ip20-on-off": {
-  "texto": "Fuentes de alimentación de voltaje constante para tiras LED, en 12V y 24V. IP20 para interior e IP65/IP67 para instalaciones expuestas.",
+ "fuentes-de-alimentacion": {
+  "texto": "Fuentes de alimentación de voltaje constante para tiras LED, en 12V y 24V y de 36 a 200W. IP65 e IP67 para instalaciones expuestas.",
   "borrador": true,
-  "hero": "images/productos/Fuentes de Alimentacion 24V IP20 ON-OFF/Fuentes de 24V/00FUAL20024IP/luminaria.jpg"
+  "hero": "images/productos/Fuentes de Alimentación/Fuentes de 24V/00FUAL20024IP/luminaria.jpg"
  },
- "fuentes-de-alimentacion-24v-ip20-on-off/fuentes-de-24v": {
+ "fuentes-de-alimentacion/fuentes-de-24v": {
   "texto": "Fuentes de alimentación de 24V para tiras LED, en IP65 e IP67.",
   "borrador": true,
-  "hero": "images/productos/Fuentes de Alimentacion 24V IP20 ON-OFF/Fuentes de 24V/00FUAL20024IP/luminaria.jpg"
+  "hero": "images/productos/Fuentes de Alimentación/Fuentes de 24V/00FUAL20024IP/luminaria.jpg"
  },
- "fuentes-de-alimentacion-24v-ip20-on-off/fuentes-de-12v": {
+ "fuentes-de-alimentacion/fuentes-de-12v": {
   "texto": "Fuente de alimentación de 12V para tiras LED, IP65.",
   "borrador": true,
   "hero": "images/productos/Fuentes de Alimentacion 24V IP20 ON-OFF/Fuentes de 12V/00FA36W12VIP2/luminaria.jpg"

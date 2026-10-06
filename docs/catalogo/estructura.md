@@ -3,7 +3,7 @@
 Generado por `scripts/catalogo/construir_estructura.py` a partir de `fuentes/fichas/`
 (los Excel originales, que no se publican). Vuelve a ejecutarlo cada vez que cambien las fichas.
 
-- **214 botones** a partir de **403 fichas** publicables.
+- **213 botones** a partir de **403 fichas** publicables.
 - 8 grandes familias · hasta **5 niveles** de profundidad.
 - Los nombres de cada nivel salen del nombre de la carpeta, quitándole la numeración.
 - El nombre del botón sale del nombre del archivo, cortado en el primer dato técnico.
@@ -80,11 +80,9 @@ Generado por `scripts/catalogo/construir_estructura.py` a partir de `fuentes/fic
       - **SLIM Cuadrado CCT** — 1 botón
         - Downlight empotrable cuadrado SLIM LED · agrupa 4 fichas  
           `0DECUSL12WCCT, 0DECUSL20WCCT, 0DECUSL25WCCT, 0DLECUSL6WCCT`
-    - **ZEN** — 2 botones
-      - Downlight empotrado fijo mod. ZEN · agrupa 18 fichas  
-        `00DLZEN12W27X, 00DLZEN12W30X, 00DLZEN12W40X, 00DLZEN20W27X, 00DLZEN20W30X, 00DLZEN20W40X, 00DLZEN25W27X, 00DLZEN25W30X, 00DLZEN25W40X, 00DLZEN30W27X, 00DLZEN30W30X, 00DLZEN30W40X, 00DLZEN40W27X, 00DLZEN40W30X, 00DLZEN40W40X, 00DLZEN50W27X, 00DLZEN50W30X, 00DLZEN50W40X`
-      - Downlight empotradofijo mod. ZEN · agrupa 3 fichas  
-        `00DLZEN07W27X, 00DLZEN07W30X, 00DLZEN07W40X`
+    - **ZEN** — 1 botón
+      - Downlight empotrado fijo mod. ZEN · agrupa 21 fichas  
+        `00DLZEN07W27X, 00DLZEN07W30X, 00DLZEN07W40X, 00DLZEN12W27X, 00DLZEN12W30X, 00DLZEN12W40X, 00DLZEN20W27X, 00DLZEN20W30X, 00DLZEN20W40X, 00DLZEN25W27X, 00DLZEN25W30X, 00DLZEN25W40X, 00DLZEN30W27X, 00DLZEN30W30X, 00DLZEN30W40X, 00DLZEN40W27X, 00DLZEN40W30X, 00DLZEN40W40X, 00DLZEN50W27X, 00DLZEN50W30X, 00DLZEN50W40X`
   - **Downlights Adosados**
     - **SLIM Adosable**
       - **5CLIM Cuadrado 3CCT** — 1 botón
@@ -147,7 +145,7 @@ Generado por `scripts/catalogo/construir_estructura.py` a partir de `fuentes/fic
       - Perfil lineal de aluminio para adosar o suspender  
         `00PERALU40WCC`
   - **Retro Gold**
-    - **Lámpara Colgante SLIM Retro Gold** — 1 botón
+    - **Lámpara Colgante SLIM Retro Gold** — 1 botón
       - Lámpara colgante SLIM GOLD RETRO · agrupa 6 fichas  
         `0LC15SL6W27KD, 0LC15SL6W30KD, 0LC20SL6W27KD, 0LC20SL6W30KD, 0LC30SL6W27KD, 0LC30SL6W30KD`
     - **Luminarias Adosadas** — 1 botón
@@ -321,7 +319,7 @@ Generado por `scripts/catalogo/construir_estructura.py` a partir de `fuentes/fic
       `00FAROLVILLAN`
     - Módulo LED Villa - 50w_6500lm_4000K-6000K_IP65 _90º  
       `00MDVILLA50W4`
-  - **Jardín - Estacas** — 1 botón
+  - **Jardín - Estacas** — 1 botón
     - Foco jadín pincho GU10  
       `00PINCHOGU10`
   - **Plafones** — 6 botones
@@ -341,7 +339,7 @@ Generado por `scripts/catalogo/construir_estructura.py` a partir de `fuentes/fic
   - **Empotrados** — 1 botón
     - LÁMPARA CIRCULAR EMPOTRABLE  
       `00LCEP6437WXXX`
-  - **Lámparas Colgantes** — 8 botones
+  - **Lámparas Colgantes** — 8 botones
     - 40D_23W  
       `APLCCIRULO500`
     - 40D_71W  
@@ -444,7 +442,7 @@ Generado por `scripts/catalogo/construir_estructura.py` a partir de `fuentes/fic
       `00PROEX200W4K`
     - Proyector alto flujo mod. ACL80  
       `OPROACL80W4KD`
-    - **Proyectores PAR (económicos)** — 1 botón
+    - **Proyectores PAR (económicos)** — 1 botón
       - Proyector para exteriores mod. PAR · agrupa 9 fichas  
         `00PREX100W3KB, 00PREX100W4KB, 00PREX100W6KB, 00PREX150W3KB, 00PREX150W4KB, 00PREX150W6KB, 00PREX50W3KB, 00PREX50W4KB, 00PREX50W6KB`
     - **Proyectores SEC** — 1 botón
@@ -529,7 +527,7 @@ Generado por `scripts/catalogo/construir_estructura.py` a partir de `fuentes/fic
 - **Bombillas y Accesorios** — 1 botón
   - Tubo LED T8  
     `00TLT824W60K`
-- **Fuentes de Alimentación 24V IP20 ON-OFF**
+- **Fuentes de Alimentación**
   - **Fuentes de 24V** — 2 botones
     - 5B, generador de pulsos de grupo rápido: Everfine EMS61000-4A, analizador de espectro: KH3935, probador de alta tensión  
       `EMS61000`
@@ -543,7 +541,7 @@ Generado por `scripts/catalogo/construir_estructura.py` a partir de `fuentes/fic
 
 ## Botones cuyo nombre conviene revisar
 
-46 de 214. No están mal generados: es lo que dice la ficha de origen.
+46 de 213. No están mal generados: es lo que dice la ficha de origen.
 
 | Nombre generado | Dónde | Por qué |
 |---|---|---|
@@ -568,14 +566,14 @@ Generado por `scripts/catalogo/construir_estructura.py` a partir de `fuentes/fic
 | CONTROLADOR SMART RF433+ TUYA WIFI MONOCOLOR | Accesorios | todo en mayúsculas en el origen |
 | Aplique pared superficie 2 GU10 | Apliques Doble Salida de Luz | acaba en cifra o signo |
 | Luminaria farol modelo Villa acero acabado pintado al horno negro | Faroles | muy largo |
-| Foco jadín pincho GU10 | Jardín - Estacas | acaba en cifra o signo |
+| Foco jadín pincho GU10 | Jardín - Estacas | acaba en cifra o signo |
 | APLIQUE SUP. CIRCULAR SAJ-6000 | Plafones | todo en mayúsculas en el origen, acaba en cifra o signo |
 | LÁMPARA CIRCULAR EMPOTRABLE | Empotrados | todo en mayúsculas en el origen |
-| 40D_23W | Lámparas Colgantes | todo en mayúsculas en el origen, muy corto |
-| 40D_71W | Lámparas Colgantes | todo en mayúsculas en el origen, muy corto |
-| Luminaria LED circular de superficie o suspendida mod. Moo49 | Lámparas Colgantes | acaba en cifra o signo |
-| Luminaria suspendida decorativa ESILE E27 | Lámparas Colgantes | acaba en cifra o signo |
-| Luminaria suspendida mod. Circulo 640 decorativa circular para suspender | Lámparas Colgantes | muy largo |
+| 40D_23W | Lámparas Colgantes | todo en mayúsculas en el origen, muy corto |
+| 40D_71W | Lámparas Colgantes | todo en mayúsculas en el origen, muy corto |
+| Luminaria LED circular de superficie o suspendida mod. Moo49 | Lámparas Colgantes | acaba en cifra o signo |
+| Luminaria suspendida decorativa ESILE E27 | Lámparas Colgantes | acaba en cifra o signo |
+| Luminaria suspendida mod. Circulo 640 decorativa circular para suspender | Lámparas Colgantes | muy largo |
 | Tubo LED T8 | Industriales | acaba en cifra o signo |
 | Campana para suspender mod. ALFA 150 | Campanas ALFA | acaba en cifra o signo |
 | Campana para suspender mod. ALFA 300 | Campanas ALFA | acaba en cifra o signo |

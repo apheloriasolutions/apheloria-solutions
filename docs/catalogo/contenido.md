@@ -5,10 +5,10 @@ La web todavía no lo usa: esto es el material listo para montarla.
 
 ## Resumen
 
-- **214 botones** a partir de **397 fichas**.
-- Con tabla de características: **205** · sin tabla: 9.
-- Con notas al pie: 59.
-- Con descripción: 205.
+- **213 botones** a partir de **397 fichas**.
+- Con tabla de características: **204** · sin tabla: 9.
+- Con notas al pie: 58.
+- Con descripción: 204.
 - Con foto de producto: 212.
 - Con PDF descargable: **397 fichas** de 397.
 
@@ -37,7 +37,7 @@ Lo que **no** sale: la segunda hoja del Excel, que lleva referencias de proveedo
 | 17 | 4 |
 | 18 | 9 |
 | 19 | 23 |
-| 20 | 74 |
+| 20 | 73 |
 | 21 | 46 |
 | 22 | 7 |
 
@@ -61,7 +61,7 @@ Lo que **no** sale: la segunda hoja del Excel, que lleva referencias de proveedo
   `00MDVILLA50W4`
 - **Farola Led SOLAR** — Industriales › Farolas › Farolas SO (solar)  
   `00FASO16WCCTK`
-- **5B, generador de pulsos de grupo rápido: Everfine EMS61000-4A, analizador de espectro: KH3935, probador de alta tensión** — Fuentes de Alimentación 24V IP20 ON-OFF › Fuentes de 24V  
+- **5B, generador de pulsos de grupo rápido: Everfine EMS61000-4A, analizador de espectro: KH3935, probador de alta tensión** — Fuentes de Alimentación › Fuentes de 24V  
   `EMS61000`
 
 ## Botones, uno a uno
@@ -93,8 +93,7 @@ Lo que **no** sale: la segunda hoja del Excel, que lleva referencias de proveedo
 | Downlight empotrable circular SLIM LED | Interiores › Downlights Empotrados › SLIM › SLIM Cuadrado | 1 | 21 | 0 | 1 | 4/4 | 1 |
 | Downlight empotrable cuadrado SLIM LED | Interiores › Downlights Empotrados › SLIM › SLIM Cuadrado | 3 | 21 | 0 | 1 | 4/4 | 3 |
 | Downlight empotrable cuadrado SLIM LED | Interiores › Downlights Empotrados › SLIM › SLIM Cuadrado CCT | 4 | 21 | 0 | 4 | 4/4 | 4 |
-| Downlight empotrado fijo mod. ZEN | Interiores › Downlights Empotrados › ZEN | 18 | 20 | 1 | 1 | 4/4 | 18 |
-| Downlight empotradofijo mod. ZEN | Interiores › Downlights Empotrados › ZEN | 3 | 20 | 1 | 1 | 4/4 | 3 |
+| Downlight empotrado fijo mod. ZEN | Interiores › Downlights Empotrados › ZEN | 21 | 20 | 1 | 8 | 4/4 | 21 |
 | Downlight adosable cuadrado SLIM LED | Interiores › Downlights Adosados › SLIM Adosable › 5CLIM Cuadrado 3CCT | 3 | 21 | 0 | 1 | 4/4 | 3 |
 | Downlight adosable circular SLIM LED | Interiores › Downlights Adosados › SLIM Adosable › SLIM Circulares | 5 | 21 | 0 | 1 | 4/4 | 5 |
 | Downlight adosable circular SLIM LED | Interiores › Downlights Adosados › SLIM Adosable › SLIM Circulares 3CCT | 4 | 21 | 0 | 4 | 4/4 | 4 |
@@ -119,7 +118,7 @@ Lo que **no** sale: la segunda hoja del Excel, que lleva referencias de proveedo
 | 30W_30 - Perfil para suspender o adosar | Interiores › Lineales › Otros | 1 | 20 | 0 | 1 | 4/4 | 1 |
 | Perfil de aluminio para empotrar | Interiores › Lineales › Otros | 1 | 20 | 0 | 1 | 4/4 | 1 |
 | Perfil lineal de aluminio para adosar o suspender | Interiores › Lineales › Otros | 1 | 20 | 0 | 1 | 4/4 | 1 |
-| Lámpara colgante SLIM GOLD RETRO | Interiores › Retro Gold › Lámpara Colgante SLIM Retro Gold | 6 | 20 | 1 | 1 | 3/4 | 6 |
+| Lámpara colgante SLIM GOLD RETRO | Interiores › Retro Gold › Lámpara Colgante SLIM Retro Gold | 6 | 20 | 1 | 1 | 3/4 | 6 |
 | Luminaria adosada SLIM GOLD RETRO | Interiores › Retro Gold › Luminarias Adosadas | 4 | 20 | 1 | 1 | 4/4 | 4 |
 | Downlight empotrado mod. MOTA gold retro D.60 | Interiores › Retro Gold › Luminarias Empotrada Retro Gold | 3 | 20 | 1 | 3 | 4/4 | 3 |
 | Downlight empotrado mod. MOTA gold retro D.80 | Interiores › Retro Gold › Luminarias Empotrada Retro Gold | 3 | 20 | 1 | 1 | 4/4 | 3 |
@@ -192,7 +191,7 @@ Lo que **no** sale: la segunda hoja del Excel, que lleva referencias de proveedo
 | Baliza tipo Bolardo para exteriores | Exteriores › Balizas | 1 | 19 | 0 | 1 | 4/4 | 1 |
 | Luminaria farol modelo Villa acero acabado pintado al horno negro | Exteriores › Faroles | 1 | 0 | 0 | 0 | 2/4 | 1 |
 | Módulo LED Villa - 50w_6500lm_4000K-6000K_IP65 _90º | Exteriores › Faroles | 1 | 0 | 0 | 0 | 2/4 | 1 |
-| Foco jadín pincho GU10 | Exteriores › Jardín - Estacas | 1 | 19 | 0 | 1 | 4/4 | 1 |
+| Foco jadín pincho GU10 | Exteriores › Jardín - Estacas | 1 | 19 | 0 | 1 | 4/4 | 1 |
 | APLIQUE SUP. CIRCULAR SAJ-6000 | Exteriores › Plafones | 1 | 20 | 0 | 1 | 4/4 | 1 |
 | Aplique Led superficie circular para montaje en pared o techo | Exteriores › Plafones | 1 | 20 | 0 | 1 | 4/4 | 1 |
 | Luminaria VILLALBA Maxi | Exteriores › Plafones | 1 | 19 | 0 | 1 | 4/4 | 1 |
@@ -200,14 +199,14 @@ Lo que **no** sale: la segunda hoja del Excel, que lleva referencias de proveedo
 | Plafón Led superficie | Exteriores › Plafones | 1 | 18 | 0 | 1 | 4/4 | 1 |
 | Plafón MARS LED | Exteriores › Plafones | 2 | 20 | 0 | 2 | 4/4 | 2 |
 | LÁMPARA CIRCULAR EMPOTRABLE | Decorativas › Empotrados | 1 | 20 | 0 | 1 | 4/4 | 1 |
-| 40D_23W | Decorativas › Lámparas Colgantes | 1 | 19 | 0 | 1 | 4/4 | 1 |
-| 40D_71W | Decorativas › Lámparas Colgantes | 1 | 19 | 0 | 1 | 4/4 | 1 |
-| Lámpara para suspender mod. LB | Decorativas › Lámparas Colgantes | 1 | 20 | 0 | 1 | 4/4 | 1 |
-| Luminaria LED circular de superficie o suspendida mod. Moo49 | Decorativas › Lámparas Colgantes | 1 | 21 | 0 | 1 | 4/4 | 1 |
-| Luminaria suspendida circular mod. GALAXY | Decorativas › Lámparas Colgantes | 1 | 19 | 0 | 1 | 4/4 | 1 |
-| Luminaria suspendida decorativa ESILE E27 | Decorativas › Lámparas Colgantes | 1 | 16 | 0 | 1 | 4/4 | 1 |
-| Luminaria suspendida mod. Circulo 640 decorativa circular para suspender | Decorativas › Lámparas Colgantes | 1 | 19 | 0 | 1 | 4/4 | 1 |
-| Luminaria suspendida mod. VENICE RETRO GOLD | Decorativas › Lámparas Colgantes | 1 | 20 | 0 | 1 | 3/4 | 1 |
+| 40D_23W | Decorativas › Lámparas Colgantes | 1 | 19 | 0 | 1 | 4/4 | 1 |
+| 40D_71W | Decorativas › Lámparas Colgantes | 1 | 19 | 0 | 1 | 4/4 | 1 |
+| Lámpara para suspender mod. LB | Decorativas › Lámparas Colgantes | 1 | 20 | 0 | 1 | 4/4 | 1 |
+| Luminaria LED circular de superficie o suspendida mod. Moo49 | Decorativas › Lámparas Colgantes | 1 | 21 | 0 | 1 | 4/4 | 1 |
+| Luminaria suspendida circular mod. GALAXY | Decorativas › Lámparas Colgantes | 1 | 19 | 0 | 1 | 4/4 | 1 |
+| Luminaria suspendida decorativa ESILE E27 | Decorativas › Lámparas Colgantes | 1 | 16 | 0 | 1 | 4/4 | 1 |
+| Luminaria suspendida mod. Circulo 640 decorativa circular para suspender | Decorativas › Lámparas Colgantes | 1 | 19 | 0 | 1 | 4/4 | 1 |
+| Luminaria suspendida mod. VENICE RETRO GOLD | Decorativas › Lámparas Colgantes | 1 | 20 | 0 | 1 | 3/4 | 1 |
 | Luminaria circular de superficie mod. NEO | Decorativas › Superficie | 1 | 20 | 0 | 1 | 3/4 | 1 |
 | Tubo LED T8 | Industriales | 1 | 20 | 0 | 1 | 4/4 | 1 |
 | Campana para suspender mod. ALFA | Industriales › Campanas › Campanas ALFA | 2 | 20 | 0 | 1 | 4/4 | 2 |
@@ -244,7 +243,7 @@ Lo que **no** sale: la segunda hoja del Excel, que lleva referencias de proveedo
 | BABILOM | Industriales › Proyectores | 1 | 20 | 0 | 1 | 4/4 | 1 |
 | PROYECTOR LED EXTERIOR | Industriales › Proyectores | 1 | 20 | 0 | 1 | 4/4 | 1 |
 | Proyector alto flujo mod. ACL80 | Industriales › Proyectores | 1 | 20 | 0 | 1 | 4/4 | 1 |
-| Proyector para exteriores mod. PAR | Industriales › Proyectores › Proyectores PAR (económicos) | 9 | 20 | 0 | 1 | 4/4 | 9 |
+| Proyector para exteriores mod. PAR | Industriales › Proyectores › Proyectores PAR (económicos) | 9 | 20 | 0 | 1 | 4/4 | 9 |
 | Proyector para exteriores mod. SEC | Industriales › Proyectores › Proyectores SEC | 5 | 20 | 0 | 1 | 4/4 | 5 |
 | Proyector para exteriores mod. SLIM | Industriales › Proyectores › Proyectores SLIM | 8 | 20 | 0 | 2 | 4/4 | 8 |
 | Farola Led MN | Industriales › Farolas › Farolas | 1 | 20 | 0 | 1 | 4/4 | 1 |
@@ -262,7 +261,7 @@ Lo que **no** sale: la segunda hoja del Excel, que lleva referencias de proveedo
 | Pantalla hospitalaria empotrable Clean Regular | Hospitalarias - Salas Blancas › Salas Blancas › Pantallas Hospitalarias 600 X 600mm | 1 | 21 | 0 | 1 | 4/4 | 1 |
 | Pantalla hospitalaría empotrable | Hospitalarias - Salas Blancas › Salas Blancas › Pantallas Hospitalarias 600 X 600mm | 4 | 21 | 0 | 2 | 4/4 | 4 |
 | Pantalla hospitalaria | Hospitalarias - Salas Blancas › Salas Blancas › Pantallas Hospitalarias 1200mm X 300mm | 3 | 21 | 0 | 1 | 4/4 | 3 |
-| Pantalla hospitalaria empotrable | Hospitalarias - Salas Blancas › Salas Blancas › Pantallas Hospitalarias 1200mm X 300mm | 1 | 21 | 0 | 1 | 4/4 | 1 |
+| Pantalla hospitalaria empotrable | Hospitalarias - Salas Blancas › Salas Blancas › Pantallas Hospitalarias 1200mm X 300mm | 1 | 21 | 0 | 1 | 3/4 | 1 |
 | Pantalla hospitalaría | Hospitalarias - Salas Blancas › Salas Blancas › Pantallas Hospitalarias 1200mm X 300mm | 2 | 22 | 0 | 1 | 4/4 | 2 |
 | LUMINARIA DE EMERGENCIA OMEGA | Emergencia › Emergencia | 1 | 20 | 0 | 1 | 4/4 | 1 |
 | LUMINARIA DE EMERGENCIA TEIDE SLIM | Emergencia › Emergencia | 1 | 18 | 0 | 1 | 4/4 | 1 |
@@ -279,6 +278,6 @@ Lo que **no** sale: la segunda hoja del Excel, que lleva referencias de proveedo
 | Luminaría emergencia EXIT S superficie | Emergencia › Emergencia | 1 | 19 | 0 | 1 | 4/4 | 1 |
 | PROYECTOR EMERGENCIA VESUBIO | Emergencia › Emergencia | 1 | 18 | 0 | 1 | 4/4 | 1 |
 | Tubo LED T8 | Bombillas y Accesorios | 1 | 20 | 0 | 1 | 4/4 | 1 |
-| 5B, generador de pulsos de grupo rápido: Everfine EMS61000-4A, analizador de espectro: KH3935, probador de alta tensión | Fuentes de Alimentación 24V IP20 ON-OFF › Fuentes de 24V | 1 | 0 | 0 | 0 | 2/4 | 1 |
-| FUENTE ALIMENTACION | Fuentes de Alimentación 24V IP20 ON-OFF › Fuentes de 24V | 2 | 12 | 0 | 1 | 2/4 | 2 |
-| Fuente de alimentación | Fuentes de Alimentación 24V IP20 ON-OFF › Fuentes de 12V | 1 | 12 | 0 | 1 | 2/4 | 1 |
+| 5B, generador de pulsos de grupo rápido: Everfine EMS61000-4A, analizador de espectro: KH3935, probador de alta tensión | Fuentes de Alimentación › Fuentes de 24V | 1 | 0 | 0 | 0 | 3/4 | 1 |
+| FUENTE ALIMENTACION | Fuentes de Alimentación › Fuentes de 24V | 2 | 12 | 0 | 1 | 2/4 | 2 |
+| Fuente de alimentación | Fuentes de Alimentación › Fuentes de 12V | 1 | 12 | 0 | 1 | 2/4 | 1 |

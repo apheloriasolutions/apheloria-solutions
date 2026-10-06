@@ -66,6 +66,18 @@ SIGLAS = {'LED', 'CCT', 'RGB', 'SMD', 'COB', 'AC', 'DC', 'DALI', 'UGR', 'CRI', '
           'LI', 'ST', 'SO', 'LG', 'VA', 'MN', 'TC', 'MI4', 'SLI-L'}
 ENLACES = {'y', 'o', 'de', 'del', 'la', 'el', 'los', 'las', 'para', 'con', 'en', 'a', 'al', 'por'}
 
+# Erratas del origen que estropean la navegación. Las erratas de las tablas NO se corrigen
+# (van apuntadas en docs/catalogo/erratas.md); esto es solo para que un producto no salga
+# partido en dos ni una sección se llame algo que no describe lo que hay dentro.
+FICHAS_RENOMBRADAS = {
+    # al Excel se le come un espacio y ZEN salía como dos productos distintos
+    'Downlight empotradofijo mod. ZEN': 'Downlight empotrado fijo mod. ZEN',
+}
+CARPETAS_RENOMBRADAS = {
+    # la carpeta dice "24V IP20 ON-OFF" pero dentro hay 12V y 24V, IP65 e IP67
+    'Fuentes de Alimentación 24V IP20 ON-OFF': 'Fuentes de Alimentación',
+}
+
 
 def limpiar_nombre(carpeta):
     """'4.1.1 - CAMPANAS ALFA' -> 'Campanas ALFA'. Respeta siglas, modelos y medidas."""
@@ -81,7 +93,9 @@ def limpiar_nombre(carpeta):
             palabras.append(p)                                  # sigla, modelo o medida: tal cual
         else:
             palabras.append(p[0].upper() + p[1:].lower() if p[0].isalpha() else p.capitalize())
-    return ' '.join(palabras)
+    # macOS guarda los acentos descompuestos en los nombres de archivo: se recomponen
+    # para que las correcciones de arriba casen con lo que se escribe aquí.
+    return unicodedata.normalize('NFC', ' '.join(palabras))
 
 
 def slug(texto):
@@ -207,7 +221,7 @@ def leer_ficha(ruta, relativa):
                 incidencias['no_cuadra'].append((relativa, codigo, faltan, dict(tabla)))
                 return None
 
-    return {'codigo': codigo, 'nombre': nombre, 'descripcion': desc,
+    return {'codigo': codigo, 'nombre': FICHAS_RENOMBRADAS.get(nombre, nombre), 'descripcion': desc,
             'archivo': relativa, 'origen_codigo': origen}
 
 
@@ -237,8 +251,10 @@ def recorrer(carpeta, relativa=''):
                 'codigos': [f['codigo'] for f in g],
                 'archivos': [f['archivo'] for f in g]}
                for n, g in sorted(agrupados.items())]
-    return {'nombre': limpiar_nombre(os.path.basename(carpeta)) if relativa else 'Productos',
-            'slug': slug(limpiar_nombre(os.path.basename(carpeta))) if relativa else 'productos',
+    nombre_nodo = limpiar_nombre(os.path.basename(carpeta)) if relativa else 'Productos'
+    nombre_nodo = CARPETAS_RENOMBRADAS.get(nombre_nodo, nombre_nodo)
+    return {'nombre': nombre_nodo,
+            'slug': slug(nombre_nodo) if relativa else 'productos',
             'ruta': relativa, 'hijos': nodo_hijos, 'botones': botones}
 
 

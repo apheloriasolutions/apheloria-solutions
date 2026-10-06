@@ -74,7 +74,7 @@ Para ver cómo quedan: `docs/catalogo/productos.html`.
         Otros perfiles lineales para adosar, suspender o empotrar, de 24 a 40W. CRI90.
     - **Retro Gold** `#interiores/retro-gold` *(borrador)*
       Colección Retro Gold: luminarias de acabado dorado para comercio y hostelería, en versión colgante, adosada, empotrada y proyector.
-      - **Lámpara Colgante SLIM Retro Gold** `#interiores/retro-gold/lampara-colgante-slim-retro-gold` *(borrador)*
+      - **Lámpara Colgante SLIM Retro Gold** `#interiores/retro-gold/lampara-colgante-slim-retro-gold` *(borrador)*
         Lámpara colgante SLIM con acabado dorado retro. 6W en 2700K y 3000K.
       - **Luminarias Adosadas** `#interiores/retro-gold/luminarias-adosadas` *(borrador)*
         Luminaria adosada SLIM con acabado dorado retro. 6W en 2700K y 3000K.
@@ -130,7 +130,7 @@ Para ver cómo quedan: `docs/catalogo/productos.html`.
       Balizas de paso y bolardos para caminos, jardines y accesos. De 3 a 48W, en IP54 e IP65.
     - **Faroles** `#exteriores/faroles` *(borrador)*
       Farol modelo Villa en acero pintado al horno, con su módulo LED de 50W. Para cascos históricos y entornos urbanos tradicionales.
-    - **Jardín - Estacas** `#exteriores/jardin-estacas`
+    - **Jardín - Estacas** `#exteriores/jardin-estacas`
       Foco de jardín con pincho GU10 para instalación en tierra. 7W IP54 IK08. Acabado negro. Perfecto para iluminación de zonas verdes y paisajismo.
     - **Plafones** `#exteriores/plafones` *(borrador)*
       Plafones de superficie para pared y techo en exterior, de 12 a 44W. De IP44 a IP65, varios con potencia seleccionable.
@@ -138,7 +138,7 @@ Para ver cómo quedan: `docs/catalogo/productos.html`.
     Luminarias decorativas de diseño para espacios representativos: colgantes circulares, empotradas y de superficie.
     - **Empotrados** `#decorativas/empotrados` *(borrador)*
       Lámpara circular empotrable de 37W a 4000K.
-    - **Lámparas Colgantes** `#decorativas/lamparas-colgantes` *(borrador)*
+    - **Lámparas Colgantes** `#decorativas/lamparas-colgantes` *(borrador)*
       Lámparas colgantes decorativas, en su mayoría circulares, de 8 a 71W. Para recepciones, salas de reuniones y hostelería.
     - **Superficie** `#decorativas/superficie` *(borrador)*
       Luminaria circular de superficie NEO, de 24W con tres temperaturas seleccionables.
@@ -168,7 +168,7 @@ Para ver cómo quedan: `docs/catalogo/productos.html`.
       Paneles y pantallas LED para oficinas, industria y entornos limpios. Modelos Slim, HI, BURO, TRI y AQUA IP65, más pantallas empotrables y de luz indirecta. De 23 a 60W.
     - **Proyectores** `#industriales/proyectores` *(borrador)*
       Proyectores LED de alto rendimiento para exteriores e instalaciones industriales. Familias SEC (IP66), PAR (económica) y SLIM (perfil reducido), más los modelos BABILOM y ACL80.
-      - **Proyectores PAR (económicos)** `#industriales/proyectores/proyectores-par-economicos` *(borrador)*
+      - **Proyectores PAR (económicos)** `#industriales/proyectores/proyectores-par-economicos` *(borrador)*
         Proyector PAR para exteriores, de gama económica. 50, 100 y 150W en 3000K, 4000K y 6000K. IP65, acabado negro.
       - **Proyectores SEC** `#industriales/proyectores/proyectores-sec` *(borrador)*
         Proyector SEC para exteriores, de 50 a 300W y con dos temperaturas seleccionables. IP66, CRI80.
@@ -198,9 +198,9 @@ Para ver cómo quedan: `docs/catalogo/productos.html`.
       Catorce modelos de emergencia, de 1 a 18W, empotrables y de superficie, de IP20 a IP65 y varios con autotest. Incluye el proyector Vesubio para naves de gran altura.
   - **Bombillas y Accesorios** `#bombillas-y-accesorios`
     Tubo LED T8 de cristal para sustitución directa de fluorescentes. 1500mm 24W. Conexión un lateral. Ahorro energético superior al 50% respecto al tubo convencional.
-  - **Fuentes de Alimentación 24V IP20 ON-OFF** `#fuentes-de-alimentacion-24v-ip20-on-off` *(borrador)*
-    Fuentes de alimentación de voltaje constante para tiras LED, en 12V y 24V. IP20 para interior e IP65/IP67 para instalaciones expuestas.
-    - **Fuentes de 24V** `#fuentes-de-alimentacion-24v-ip20-on-off/fuentes-de-24v` *(borrador)*
+  - **Fuentes de Alimentación** `#fuentes-de-alimentacion` *(borrador)*
+    Fuentes de alimentación de voltaje constante para tiras LED, en 12V y 24V y de 36 a 200W. IP65 e IP67 para instalaciones expuestas.
+    - **Fuentes de 24V** `#fuentes-de-alimentacion/fuentes-de-24v` *(borrador)*
       Fuentes de alimentación de 24V para tiras LED, en IP65 e IP67.
-    - **Fuentes de 12V** `#fuentes-de-alimentacion-24v-ip20-on-off/fuentes-de-12v` *(borrador)*
+    - **Fuentes de 12V** `#fuentes-de-alimentacion/fuentes-de-12v` *(borrador)*
       Fuente de alimentación de 12V para tiras LED, IP65.

@@ -41,7 +41,11 @@ WEB = os.path.join(RAIZ, 'images', 'productos')
 DATOS = os.path.join(RAIZ, 'data', 'catalogo.json')
 
 LADO_MAX, CALIDAD = 1600, 88
-ICONO_MAX = 90          # px: por debajo de esto es un icono, no una foto
+ICONO_MAX = 90
+# Las fichas llevan tiras de color ("Cct", "Rgb") que no son fotos de producto: pequeñas
+# y muy alargadas. Un producto estrecho de verdad (un colgante, una baliza) es más grande.
+ETIQUETA_AREA = 11000
+ETIQUETA_PROPORCION = 3.5          # px: por debajo de esto es un icono, no una foto
 # La curva fotométrica (el "ángulo lumínico") es el último dibujo de la columna derecha y siempre
 # sale aproximadamente cuadrada. Se pide además que haya al menos 3 imágenes a la derecha, para no
 # confundirla con el dibujo de cotas en las fichas que solo traen producto y medidas.
@@ -59,6 +63,14 @@ SOLO_COTAS = {'00PSFB4S2020', '00PERFLEXACER', '00FASO16WCCTK', 'EMS61000',
 # Fichas sin foto de producto donde la imagen de la izquierda TAMPOCO es de ambiente, sino otro
 # plano de cotas: no se asciende a foto de producto. Comprobadas a ojo.
 IZQUIERDA_ES_PLANO = {'00FASO16WCCTK', 'EMS61000'}
+
+# Fichas cuyo Excel no trae ninguna foto de producto utilizable (solo logos y cotas) y a las
+# que se les asigna a mano la de otro producto de su misma familia.
+FOTOS_A_MANO = {
+    # La ficha de las fuentes LIFUD IP20 solo trae cuatro dibujos acotados. Se le pone la
+    # foto de la fuente de 24V, que es el mismo tipo de equipo.
+    'EMS61000': {'luminaria': 'images/productos/Fuentes de Alimentación/Fuentes de 24V/00FUAL20024IP/luminaria.jpg'},
+}
 
 # Fichas donde el origen trae la columna derecha al revés: primero las cotas y debajo el producto.
 INTERCAMBIAR = {'00LAMSP300NG', '00BE6TI20W30K', '00BALIZ8W3KIP'}
@@ -150,6 +162,12 @@ def clasificar(imgs, fijos, ref):
     utiles = [i for i in imgs if i['hash'] not in fijos]
     iconos = [i for i in utiles if i['px'] and max(i['px']) <= ICONO_MAX]
     utiles = [i for i in utiles if i not in iconos]
+    etiquetas = [i for i in utiles if i['px'] and i['px'][0] * i['px'][1] < ETIQUETA_AREA
+                 and max(i['px'][0] / i['px'][1], i['px'][1] / i['px'][0]) > ETIQUETA_PROPORCION]
+    if etiquetas:
+        utiles = [i for i in utiles if i not in etiquetas]
+        avisos['tiras_de_color'].append(
+            f'{ref}: {len(etiquetas)} tira(s) de color tipo "Cct"/"Rgb", no son fotos de producto')
     sin_leer = [i for i in utiles if not i['px']]
     if sin_leer:
         avisos['vectoriales'].append(f"{ref}: {len(sin_leer)} imagen(es) EMF/WMF que no se pueden abrir")
@@ -332,11 +350,28 @@ def main():
                 guardadas[tipo] = {'ruta': rel_web.replace(os.sep, '/'), 'px': list(tam)}
                 ya_guardadas[clave] = guardadas[tipo]
             por_codigo[codigo] = guardadas
-            if not fotos:
-                fotos = dict(guardadas)
+        # La foto del grupo es la de más resolución de entre las de sus fichas, no la de la
+        # primera: en un producto con varias medidas unas vienen mucho mejor que otras.
+        fotos = {}
+        for tipo in ('luminaria', 'medidas', 'ambiente', 'angulo'):
+            mejores = [g[tipo] for g in por_codigo.values() if g.get(tipo)]
+            if mejores:
+                fotos[tipo] = max(mejores, key=lambda f: f['px'][0] * f['px'][1])
         if len(huellas_producto) > 1:
             avisos['producto_distinto'].append(
                 f"{boton['nombre']}: las fichas del grupo tienen fotos de producto distintas ({len(huellas_producto)})")
+        for codigo, puestas in FOTOS_A_MANO.items():
+            if codigo in boton['codigos']:
+                for tipo, rel in puestas.items():
+                    ruta_abs = os.path.join(RAIZ, rel)
+                    if not os.path.exists(ruta_abs):
+                        avisos['foto_a_mano_no_existe'].append(f'{codigo} · {tipo}: {rel}')
+                        continue
+                    with Image.open(ruta_abs) as im:
+                        puesta = {'ruta': rel, 'px': list(im.size)}
+                    por_codigo.setdefault(codigo, {})[tipo] = puesta
+                    fotos.setdefault(tipo, puesta)
+                    avisos['fotos_a_mano'].append(f'{codigo} · {tipo}: se le pone {rel}')
         boton['fotos'] = fotos
         boton['fotos_por_codigo'] = por_codigo
         hechos += 1

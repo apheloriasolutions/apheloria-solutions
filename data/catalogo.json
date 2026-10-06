@@ -2950,10 +2950,10 @@
             ]
            },
            "medidas": {
-            "ruta": "images/productos/Interiores/Downlights Empotrados/CCT/0DLROM10W3CCT/medidas.jpg",
+            "ruta": "images/productos/Interiores/Downlights Empotrados/CCT/0DLROM20W3CCT/medidas.jpg",
             "px": [
-             324,
-             622
+             401,
+             811
             ]
            },
            "ambiente": {
@@ -3338,10 +3338,10 @@
             ]
            },
            "medidas": {
-            "ruta": "images/productos/Interiores/Downlights Empotrados/Luz Difusa/00DOWN6WIP654/medidas.jpg",
+            "ruta": "images/productos/Interiores/Downlights Empotrados/Luz Difusa/00DWN15WIP654/medidas.jpg",
             "px": [
-             222,
-             142
+             233,
+             148
             ]
            },
            "ambiente": {
@@ -4461,10 +4461,10 @@
             ]
            },
            "medidas": {
-            "ruta": "images/productos/Interiores/Downlights Empotrados/MIN/00DOMIN12WB/medidas.jpg",
+            "ruta": "images/productos/Interiores/Downlights Empotrados/MIN/00DOMIN1OWB/medidas.jpg",
             "px": [
-             621,
-             645
+             619,
+             651
             ]
            },
            "ambiente": {
@@ -5123,9 +5123,9 @@
             ]
            },
            "medidas": {
-            "ruta": "images/productos/Interiores/Downlights Empotrados/NEX/0DLNEX07W30BB/medidas.jpg",
+            "ruta": "images/productos/Interiores/Downlights Empotrados/NEX/0DLNEX25W30BB/medidas.jpg",
             "px": [
-             491,
+             494,
              1600
             ]
            },
@@ -7448,24 +7448,24 @@
             ],
             "fotos": {
              "luminaria": {
-              "ruta": "images/productos/Interiores/Downlights Empotrados/SLIM/SLIM 3CCT/00DLECSL6WCCT/luminaria.jpg",
+              "ruta": "images/productos/Interiores/Downlights Empotrados/SLIM/SLIM 3CCT/0DLECSL20WCCT/luminaria.jpg",
               "px": [
-               144,
-               30
+               537,
+               118
               ]
              },
              "medidas": {
-              "ruta": "images/productos/Interiores/Downlights Empotrados/SLIM/SLIM 3CCT/00DLECSL6WCCT/medidas.jpg",
+              "ruta": "images/productos/Interiores/Downlights Empotrados/SLIM/SLIM 3CCT/0DLECSL12WCCT/medidas.jpg",
               "px": [
-               432,
-               512
+               392,
+               506
               ]
              },
              "ambiente": {
-              "ruta": "images/productos/Interiores/Downlights Empotrados/SLIM/SLIM 3CCT/00DLECSL6WCCT/ambiente.jpg",
+              "ruta": "images/productos/Interiores/Downlights Empotrados/SLIM/SLIM 3CCT/0DLECSL20WCCT/ambiente.jpg",
               "px": [
-               641,
-               627
+               646,
+               631
               ]
              },
              "angulo": {
@@ -7481,15 +7481,15 @@
               "luminaria": {
                "ruta": "images/productos/Interiores/Downlights Empotrados/SLIM/SLIM 3CCT/00DLECSL6WCCT/luminaria.jpg",
                "px": [
-                144,
-                30
+                173,
+                63
                ]
               },
               "medidas": {
                "ruta": "images/productos/Interiores/Downlights Empotrados/SLIM/SLIM 3CCT/00DLECSL6WCCT/medidas.jpg",
                "px": [
-                432,
-                512
+                270,
+                338
                ]
               },
               "ambiente": {
@@ -7511,15 +7511,15 @@
               "luminaria": {
                "ruta": "images/productos/Interiores/Downlights Empotrados/SLIM/SLIM 3CCT/00DLECSL6WCCT/luminaria.jpg",
                "px": [
-                144,
-                30
+                173,
+                63
                ]
               },
               "medidas": {
                "ruta": "images/productos/Interiores/Downlights Empotrados/SLIM/SLIM 3CCT/00DLECSL9WCCT/medidas.jpg",
                "px": [
-                638,
-                752
+                386,
+                495
                ]
               },
               "ambiente": {
@@ -7541,15 +7541,15 @@
               "luminaria": {
                "ruta": "images/productos/Interiores/Downlights Empotrados/SLIM/SLIM 3CCT/00DLECSL6WCCT/luminaria.jpg",
                "px": [
-                144,
-                30
+                173,
+                63
                ]
               },
               "medidas": {
                "ruta": "images/productos/Interiores/Downlights Empotrados/SLIM/SLIM 3CCT/0DLECSL12WCCT/medidas.jpg",
                "px": [
-                665,
-                774
+                392,
+                506
                ]
               },
               "ambiente": {
@@ -7571,15 +7571,15 @@
               "luminaria": {
                "ruta": "images/productos/Interiores/Downlights Empotrados/SLIM/SLIM 3CCT/0DLECSL20WCCT/luminaria.jpg",
                "px": [
-                144,
-                30
+                537,
+                118
                ]
               },
               "medidas": {
                "ruta": "images/productos/Interiores/Downlights Empotrados/SLIM/SLIM 3CCT/0DLECSL20WCCT/medidas.jpg",
                "px": [
-                537,
-                583
+                277,
+                342
                ]
               },
               "ambiente": {
@@ -7599,17 +7599,17 @@
              },
              "0DLECSL25WCCT": {
               "luminaria": {
-               "ruta": "images/productos/Interiores/Downlights Empotrados/SLIM/SLIM 3CCT/0DLECSL25WCCT/luminaria.jpg",
+               "ruta": "images/productos/Interiores/Downlights Empotrados/SLIM/SLIM 3CCT/0DLECSL20WCCT/luminaria.jpg",
                "px": [
-                153,
-                32
+                537,
+                118
                ]
               },
               "medidas": {
                "ruta": "images/productos/Interiores/Downlights Empotrados/SLIM/SLIM 3CCT/0DLECSL25WCCT/medidas.jpg",
                "px": [
-                588,
-                637
+                388,
+                485
                ]
               },
               "ambiente": {
@@ -8207,24 +8207,24 @@
             ],
             "fotos": {
              "luminaria": {
-              "ruta": "images/productos/Interiores/Downlights Empotrados/SLIM/SLIM Circular/00DLECSL5WXXX/luminaria.jpg",
+              "ruta": "images/productos/Interiores/Downlights Empotrados/SLIM/SLIM 3CCT/0DLECSL20WCCT/luminaria.jpg",
               "px": [
-               173,
-               63
+               537,
+               118
               ]
              },
              "medidas": {
-              "ruta": "images/productos/Interiores/Downlights Empotrados/SLIM/SLIM Circular/00DLECSL5WXXX/medidas.jpg",
+              "ruta": "images/productos/Interiores/Downlights Empotrados/SLIM/SLIM 3CCT/0DLECSL12WCCT/medidas.jpg",
               "px": [
-               279,
-               358
+               392,
+               506
               ]
              },
              "ambiente": {
-              "ruta": "images/productos/Interiores/Downlights Empotrados/SLIM/SLIM 3CCT/00DLECSL6WCCT/ambiente.jpg",
+              "ruta": "images/productos/Interiores/Downlights Empotrados/SLIM/SLIM 3CCT/0DLECSL20WCCT/ambiente.jpg",
               "px": [
-               641,
-               627
+               646,
+               631
               ]
              },
              "angulo": {
@@ -8238,7 +8238,7 @@
             "fotos_por_codigo": {
              "00DLECSL5WXXX": {
               "luminaria": {
-               "ruta": "images/productos/Interiores/Downlights Empotrados/SLIM/SLIM Circular/00DLECSL5WXXX/luminaria.jpg",
+               "ruta": "images/productos/Interiores/Downlights Empotrados/SLIM/SLIM 3CCT/00DLECSL6WCCT/luminaria.jpg",
                "px": [
                 173,
                 63
@@ -8268,14 +8268,14 @@
              },
              "00DLECSL6WXXX": {
               "luminaria": {
-               "ruta": "images/productos/Interiores/Downlights Empotrados/SLIM/SLIM Circular/00DLECSL5WXXX/luminaria.jpg",
+               "ruta": "images/productos/Interiores/Downlights Empotrados/SLIM/SLIM 3CCT/00DLECSL6WCCT/luminaria.jpg",
                "px": [
                 173,
                 63
                ]
               },
               "medidas": {
-               "ruta": "images/productos/Interiores/Downlights Empotrados/SLIM/SLIM Circular/00DLECSL6WXXX/medidas.jpg",
+               "ruta": "images/productos/Interiores/Downlights Empotrados/SLIM/SLIM 3CCT/00DLECSL6WCCT/medidas.jpg",
                "px": [
                 270,
                 338
@@ -8298,14 +8298,14 @@
              },
              "00DLECSL9WXXX": {
               "luminaria": {
-               "ruta": "images/productos/Interiores/Downlights Empotrados/SLIM/SLIM Circular/00DLECSL5WXXX/luminaria.jpg",
+               "ruta": "images/productos/Interiores/Downlights Empotrados/SLIM/SLIM 3CCT/00DLECSL6WCCT/luminaria.jpg",
                "px": [
                 173,
                 63
                ]
               },
               "medidas": {
-               "ruta": "images/productos/Interiores/Downlights Empotrados/SLIM/SLIM Circular/00DLECSL9WXXX/medidas.jpg",
+               "ruta": "images/productos/Interiores/Downlights Empotrados/SLIM/SLIM 3CCT/00DLECSL9WCCT/medidas.jpg",
                "px": [
                 386,
                 495
@@ -8328,14 +8328,14 @@
              },
              "0DLECSL12WXXX": {
               "luminaria": {
-               "ruta": "images/productos/Interiores/Downlights Empotrados/SLIM/SLIM Circular/00DLECSL5WXXX/luminaria.jpg",
+               "ruta": "images/productos/Interiores/Downlights Empotrados/SLIM/SLIM 3CCT/00DLECSL6WCCT/luminaria.jpg",
                "px": [
                 173,
                 63
                ]
               },
               "medidas": {
-               "ruta": "images/productos/Interiores/Downlights Empotrados/SLIM/SLIM Circular/0DLECSL12WXXX/medidas.jpg",
+               "ruta": "images/productos/Interiores/Downlights Empotrados/SLIM/SLIM 3CCT/0DLECSL12WCCT/medidas.jpg",
                "px": [
                 392,
                 506
@@ -8358,14 +8358,14 @@
              },
              "0DLECSL20WXXX": {
               "luminaria": {
-               "ruta": "images/productos/Interiores/Downlights Empotrados/SLIM/SLIM Circular/0DLECSL20WXXX/luminaria.jpg",
+               "ruta": "images/productos/Interiores/Downlights Empotrados/SLIM/SLIM 3CCT/0DLECSL20WCCT/luminaria.jpg",
                "px": [
                 537,
                 118
                ]
               },
               "medidas": {
-               "ruta": "images/productos/Interiores/Downlights Empotrados/SLIM/SLIM Circular/0DLECSL20WXXX/medidas.jpg",
+               "ruta": "images/productos/Interiores/Downlights Empotrados/SLIM/SLIM 3CCT/0DLECSL20WCCT/medidas.jpg",
                "px": [
                 277,
                 342
@@ -8388,14 +8388,14 @@
              },
              "0DLECSL25WXXX": {
               "luminaria": {
-               "ruta": "images/productos/Interiores/Downlights Empotrados/SLIM/SLIM Circular/0DLECSL20WXXX/luminaria.jpg",
+               "ruta": "images/productos/Interiores/Downlights Empotrados/SLIM/SLIM 3CCT/0DLECSL20WCCT/luminaria.jpg",
                "px": [
                 537,
                 118
                ]
               },
               "medidas": {
-               "ruta": "images/productos/Interiores/Downlights Empotrados/SLIM/SLIM Circular/0DLECSL25WXXX/medidas.jpg",
+               "ruta": "images/productos/Interiores/Downlights Empotrados/SLIM/SLIM 3CCT/0DLECSL25WCCT/medidas.jpg",
                "px": [
                 388,
                 485
@@ -9860,24 +9860,24 @@
             ],
             "fotos": {
              "luminaria": {
-              "ruta": "images/productos/Interiores/Downlights Empotrados/SLIM/SLIM Cuadrado CCT/0DECUSL12WCCT/luminaria.jpg",
+              "ruta": "images/productos/Interiores/Downlights Empotrados/SLIM/SLIM Cuadrado/00DLECSL6WXXX/luminaria.jpg",
               "px": [
-               144,
-               29
+               574,
+               155
               ]
              },
              "medidas": {
-              "ruta": "images/productos/Interiores/Downlights Empotrados/SLIM/SLIM Cuadrado CCT/0DECUSL12WCCT/medidas.jpg",
+              "ruta": "images/productos/Interiores/Downlights Empotrados/SLIM/SLIM Cuadrado CCT/0DECUSL20WCCT/medidas.jpg",
               "px": [
-               574,
-               633
+               322,
+               395
               ]
              },
              "ambiente": {
-              "ruta": "images/productos/Interiores/Downlights Empotrados/SLIM/SLIM Cuadrado CCT/0DECUSL12WCCT/ambiente.jpg",
+              "ruta": "images/productos/Interiores/Downlights Empotrados/SLIM/SLIM Cuadrado CCT/0DLECUSL6WCCT/ambiente.jpg",
               "px": [
-               554,
-               449
+               669,
+               624
               ]
              },
              "angulo": {
@@ -9891,17 +9891,17 @@
             "fotos_por_codigo": {
              "0DECUSL12WCCT": {
               "luminaria": {
-               "ruta": "images/productos/Interiores/Downlights Empotrados/SLIM/SLIM Cuadrado CCT/0DECUSL12WCCT/luminaria.jpg",
+               "ruta": "images/productos/Interiores/Downlights Empotrados/SLIM/SLIM Cuadrado/00DLECSL6WXXX/luminaria.jpg",
                "px": [
-                144,
-                29
+                574,
+                155
                ]
               },
               "medidas": {
                "ruta": "images/productos/Interiores/Downlights Empotrados/SLIM/SLIM Cuadrado CCT/0DECUSL12WCCT/medidas.jpg",
                "px": [
-                574,
-                633
+                324,
+                390
                ]
               },
               "ambiente": {
@@ -9921,17 +9921,17 @@
              },
              "0DECUSL20WCCT": {
               "luminaria": {
-               "ruta": "images/productos/Interiores/Downlights Empotrados/SLIM/SLIM 3CCT/00DLECSL6WCCT/luminaria.jpg",
+               "ruta": "images/productos/Interiores/Downlights Empotrados/SLIM/SLIM Cuadrado/00DLECSL6WXXX/luminaria.jpg",
                "px": [
-                144,
-                30
+                574,
+                155
                ]
               },
               "medidas": {
                "ruta": "images/productos/Interiores/Downlights Empotrados/SLIM/SLIM Cuadrado CCT/0DECUSL20WCCT/medidas.jpg",
                "px": [
-                574,
-                581
+                322,
+                395
                ]
               },
               "ambiente": {
@@ -9981,17 +9981,17 @@
              },
              "0DLECUSL6WCCT": {
               "luminaria": {
-               "ruta": "images/productos/Interiores/Downlights Empotrados/SLIM/SLIM Cuadrado CCT/0DLECUSL6WCCT/luminaria.jpg",
+               "ruta": "images/productos/Interiores/Downlights Empotrados/SLIM/SLIM Cuadrado/00DLECSL6WXXX/luminaria.jpg",
                "px": [
-                150,
-                31
+                574,
+                155
                ]
               },
               "medidas": {
-               "ruta": "images/productos/Interiores/Downlights Empotrados/SLIM/SLIM Cuadrado CCT/0DLECUSL6WCCT/medidas.jpg",
+               "ruta": "images/productos/Interiores/Downlights Empotrados/SLIM/SLIM Cuadrado/00DLECSL6WXXX/medidas.jpg",
                "px": [
-                574,
-                606
+                322,
+                385
                ]
               },
               "ambiente": {
@@ -10487,6 +10487,9 @@
           "nombre": "Downlight empotrado fijo mod. ZEN",
           "slug": "downlight-empotrado-fijo-mod-zen",
           "codigos": [
+           "00DLZEN07W27X",
+           "00DLZEN07W30X",
+           "00DLZEN07W40X",
            "00DLZEN12W27X",
            "00DLZEN12W30X",
            "00DLZEN12W40X",
@@ -10507,6 +10510,9 @@
            "00DLZEN50W40X"
           ],
           "archivos": [
+           "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.9 - ZEN/00DLZEN07W27X - Downlight empotradofijo mod. ZEN 7W 2700K CRI90 70º 160mA.xlsx",
+           "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.9 - ZEN/00DLZEN07W30X - Downlight empotradofijo mod. ZEN 7W 3000K CRI90 70º 160mA.xlsx",
+           "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.9 - ZEN/00DLZEN07W40X - Downlight empotradofijo mod. ZEN 7W 4000K CRI90 70º 160mA.xlsx",
            "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.9 - ZEN/00DLZEN12W27X - Downlight empotrado fijo mod. ZEN 12W 2700K CRI90 70º.xlsx",
            "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.9 - ZEN/00DLZEN12W30X - Downlight empotrado fijo mod. ZEN 12W 3000K CRI90 70º 350mA.xlsx",
            "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.9 - ZEN/00DLZEN12W40X - Downlight empotrado fijo mod. ZEN 12W 4000K CRI90 70º 350mA.xlsx",
@@ -10535,21 +10541,21 @@
             ]
            },
            "medidas": {
-            "ruta": "images/productos/Interiores/Downlights Empotrados/ZEN/00DLZEN12W27X/medidas.jpg",
+            "ruta": "images/productos/Interiores/Downlights Empotrados/ZEN/00DLZEN25W27X/medidas.jpg",
             "px": [
-             369,
-             498
+             454,
+             569
             ]
            },
            "ambiente": {
-            "ruta": "images/productos/Interiores/Downlights Empotrados/ZEN/00DLZEN12W27X/ambiente.jpg",
+            "ruta": "images/productos/Interiores/Downlights Empotrados/ZEN/00DLZEN07W27X/ambiente.jpg",
             "px": [
              760,
              473
             ]
            },
            "angulo": {
-            "ruta": "images/productos/Interiores/Downlights Empotrados/ZEN/00DLZEN12W27X/angulo.jpg",
+            "ruta": "images/productos/Interiores/Downlights Empotrados/ZEN/00DLZEN07W27X/angulo.jpg",
             "px": [
              568,
              562
@@ -10557,6 +10563,96 @@
            }
           },
           "fotos_por_codigo": {
+           "00DLZEN07W27X": {
+            "luminaria": {
+             "ruta": "images/productos/Interiores/Downlights Empotrados/ZEN/00DLZEN07W27X/luminaria.jpg",
+             "px": [
+              250,
+              125
+             ]
+            },
+            "medidas": {
+             "ruta": "images/productos/Interiores/Downlights Empotrados/ZEN/00DLZEN07W27X/medidas.jpg",
+             "px": [
+              305,
+              436
+             ]
+            },
+            "ambiente": {
+             "ruta": "images/productos/Interiores/Downlights Empotrados/ZEN/00DLZEN07W27X/ambiente.jpg",
+             "px": [
+              760,
+              473
+             ]
+            },
+            "angulo": {
+             "ruta": "images/productos/Interiores/Downlights Empotrados/ZEN/00DLZEN07W27X/angulo.jpg",
+             "px": [
+              568,
+              562
+             ]
+            }
+           },
+           "00DLZEN07W30X": {
+            "luminaria": {
+             "ruta": "images/productos/Interiores/Downlights Empotrados/ZEN/00DLZEN07W27X/luminaria.jpg",
+             "px": [
+              250,
+              125
+             ]
+            },
+            "medidas": {
+             "ruta": "images/productos/Interiores/Downlights Empotrados/ZEN/00DLZEN07W27X/medidas.jpg",
+             "px": [
+              305,
+              436
+             ]
+            },
+            "ambiente": {
+             "ruta": "images/productos/Interiores/Downlights Empotrados/ZEN/00DLZEN07W27X/ambiente.jpg",
+             "px": [
+              760,
+              473
+             ]
+            },
+            "angulo": {
+             "ruta": "images/productos/Interiores/Downlights Empotrados/ZEN/00DLZEN07W27X/angulo.jpg",
+             "px": [
+              568,
+              562
+             ]
+            }
+           },
+           "00DLZEN07W40X": {
+            "luminaria": {
+             "ruta": "images/productos/Interiores/Downlights Empotrados/ZEN/00DLZEN07W27X/luminaria.jpg",
+             "px": [
+              250,
+              125
+             ]
+            },
+            "medidas": {
+             "ruta": "images/productos/Interiores/Downlights Empotrados/ZEN/00DLZEN07W27X/medidas.jpg",
+             "px": [
+              305,
+              436
+             ]
+            },
+            "ambiente": {
+             "ruta": "images/productos/Interiores/Downlights Empotrados/ZEN/00DLZEN07W27X/ambiente.jpg",
+             "px": [
+              760,
+              473
+             ]
+            },
+            "angulo": {
+             "ruta": "images/productos/Interiores/Downlights Empotrados/ZEN/00DLZEN07W27X/angulo.jpg",
+             "px": [
+              568,
+              562
+             ]
+            }
+           },
            "00DLZEN12W27X": {
             "luminaria": {
              "ruta": "images/productos/Interiores/Downlights Empotrados/ZEN/00DLZEN12W27X/luminaria.jpg",
@@ -10573,14 +10669,14 @@
              ]
             },
             "ambiente": {
-             "ruta": "images/productos/Interiores/Downlights Empotrados/ZEN/00DLZEN12W27X/ambiente.jpg",
+             "ruta": "images/productos/Interiores/Downlights Empotrados/ZEN/00DLZEN07W27X/ambiente.jpg",
              "px": [
               760,
               473
              ]
             },
             "angulo": {
-             "ruta": "images/productos/Interiores/Downlights Empotrados/ZEN/00DLZEN12W27X/angulo.jpg",
+             "ruta": "images/productos/Interiores/Downlights Empotrados/ZEN/00DLZEN07W27X/angulo.jpg",
              "px": [
               568,
               562
@@ -10603,14 +10699,14 @@
              ]
             },
             "ambiente": {
-             "ruta": "images/productos/Interiores/Downlights Empotrados/ZEN/00DLZEN12W27X/ambiente.jpg",
+             "ruta": "images/productos/Interiores/Downlights Empotrados/ZEN/00DLZEN07W27X/ambiente.jpg",
              "px": [
               760,
               473
              ]
             },
             "angulo": {
-             "ruta": "images/productos/Interiores/Downlights Empotrados/ZEN/00DLZEN12W27X/angulo.jpg",
+             "ruta": "images/productos/Interiores/Downlights Empotrados/ZEN/00DLZEN07W27X/angulo.jpg",
              "px": [
               568,
               562
@@ -10633,14 +10729,14 @@
              ]
             },
             "ambiente": {
-             "ruta": "images/productos/Interiores/Downlights Empotrados/ZEN/00DLZEN12W27X/ambiente.jpg",
+             "ruta": "images/productos/Interiores/Downlights Empotrados/ZEN/00DLZEN07W27X/ambiente.jpg",
              "px": [
               760,
               473
              ]
             },
             "angulo": {
-             "ruta": "images/productos/Interiores/Downlights Empotrados/ZEN/00DLZEN12W27X/angulo.jpg",
+             "ruta": "images/productos/Interiores/Downlights Empotrados/ZEN/00DLZEN07W27X/angulo.jpg",
              "px": [
               568,
               562
@@ -10670,7 +10766,7 @@
              ]
             },
             "angulo": {
-             "ruta": "images/productos/Interiores/Downlights Empotrados/ZEN/00DLZEN12W27X/angulo.jpg",
+             "ruta": "images/productos/Interiores/Downlights Empotrados/ZEN/00DLZEN07W27X/angulo.jpg",
              "px": [
               568,
               562
@@ -10700,7 +10796,7 @@
              ]
             },
             "angulo": {
-             "ruta": "images/productos/Interiores/Downlights Empotrados/ZEN/00DLZEN12W27X/angulo.jpg",
+             "ruta": "images/productos/Interiores/Downlights Empotrados/ZEN/00DLZEN07W27X/angulo.jpg",
              "px": [
               568,
               562
@@ -10730,7 +10826,7 @@
              ]
             },
             "angulo": {
-             "ruta": "images/productos/Interiores/Downlights Empotrados/ZEN/00DLZEN12W27X/angulo.jpg",
+             "ruta": "images/productos/Interiores/Downlights Empotrados/ZEN/00DLZEN07W27X/angulo.jpg",
              "px": [
               568,
               562
@@ -10760,7 +10856,7 @@
              ]
             },
             "angulo": {
-             "ruta": "images/productos/Interiores/Downlights Empotrados/ZEN/00DLZEN12W27X/angulo.jpg",
+             "ruta": "images/productos/Interiores/Downlights Empotrados/ZEN/00DLZEN07W27X/angulo.jpg",
              "px": [
               568,
               562
@@ -10790,7 +10886,7 @@
              ]
             },
             "angulo": {
-             "ruta": "images/productos/Interiores/Downlights Empotrados/ZEN/00DLZEN12W27X/angulo.jpg",
+             "ruta": "images/productos/Interiores/Downlights Empotrados/ZEN/00DLZEN07W27X/angulo.jpg",
              "px": [
               568,
               562
@@ -10820,7 +10916,7 @@
              ]
             },
             "angulo": {
-             "ruta": "images/productos/Interiores/Downlights Empotrados/ZEN/00DLZEN12W27X/angulo.jpg",
+             "ruta": "images/productos/Interiores/Downlights Empotrados/ZEN/00DLZEN07W27X/angulo.jpg",
              "px": [
               568,
               562
@@ -10850,7 +10946,7 @@
              ]
             },
             "angulo": {
-             "ruta": "images/productos/Interiores/Downlights Empotrados/ZEN/00DLZEN12W27X/angulo.jpg",
+             "ruta": "images/productos/Interiores/Downlights Empotrados/ZEN/00DLZEN07W27X/angulo.jpg",
              "px": [
               568,
               562
@@ -10880,7 +10976,7 @@
              ]
             },
             "angulo": {
-             "ruta": "images/productos/Interiores/Downlights Empotrados/ZEN/00DLZEN12W27X/angulo.jpg",
+             "ruta": "images/productos/Interiores/Downlights Empotrados/ZEN/00DLZEN07W27X/angulo.jpg",
              "px": [
               568,
               562
@@ -10910,7 +11006,7 @@
              ]
             },
             "angulo": {
-             "ruta": "images/productos/Interiores/Downlights Empotrados/ZEN/00DLZEN12W27X/angulo.jpg",
+             "ruta": "images/productos/Interiores/Downlights Empotrados/ZEN/00DLZEN07W27X/angulo.jpg",
              "px": [
               568,
               562
@@ -10940,7 +11036,7 @@
              ]
             },
             "angulo": {
-             "ruta": "images/productos/Interiores/Downlights Empotrados/ZEN/00DLZEN12W27X/angulo.jpg",
+             "ruta": "images/productos/Interiores/Downlights Empotrados/ZEN/00DLZEN07W27X/angulo.jpg",
              "px": [
               568,
               562
@@ -10970,7 +11066,7 @@
              ]
             },
             "angulo": {
-             "ruta": "images/productos/Interiores/Downlights Empotrados/ZEN/00DLZEN12W27X/angulo.jpg",
+             "ruta": "images/productos/Interiores/Downlights Empotrados/ZEN/00DLZEN07W27X/angulo.jpg",
              "px": [
               568,
               562
@@ -11000,7 +11096,7 @@
              ]
             },
             "angulo": {
-             "ruta": "images/productos/Interiores/Downlights Empotrados/ZEN/00DLZEN12W27X/angulo.jpg",
+             "ruta": "images/productos/Interiores/Downlights Empotrados/ZEN/00DLZEN07W27X/angulo.jpg",
              "px": [
               568,
               562
@@ -11030,7 +11126,7 @@
              ]
             },
             "angulo": {
-             "ruta": "images/productos/Interiores/Downlights Empotrados/ZEN/00DLZEN12W27X/angulo.jpg",
+             "ruta": "images/productos/Interiores/Downlights Empotrados/ZEN/00DLZEN07W27X/angulo.jpg",
              "px": [
               568,
               562
@@ -11060,7 +11156,7 @@
              ]
             },
             "angulo": {
-             "ruta": "images/productos/Interiores/Downlights Empotrados/ZEN/00DLZEN12W27X/angulo.jpg",
+             "ruta": "images/productos/Interiores/Downlights Empotrados/ZEN/00DLZEN07W27X/angulo.jpg",
              "px": [
               568,
               562
@@ -11090,7 +11186,7 @@
              ]
             },
             "angulo": {
-             "ruta": "images/productos/Interiores/Downlights Empotrados/ZEN/00DLZEN12W27X/angulo.jpg",
+             "ruta": "images/productos/Interiores/Downlights Empotrados/ZEN/00DLZEN07W27X/angulo.jpg",
              "px": [
               568,
               562
@@ -11101,15 +11197,15 @@
           "tabla": [
            [
             "Potencia total luminaria",
-            "12W - 20W - 25W - 30W - 40W - 50W"
+            "7W - 12W - 20W - 25W - 30W - 40W - 50W"
            ],
            [
             "Lúmenes reales",
-            "1225 lm - 2150 - 2500 lm/W - 2980 lm/W - 3800 lm/W - 4650 lm/W"
+            "570 lm - 1225 lm - 2150 - 2500 lm/W - 2980 lm/W - 3800 lm/W - 4650 lm/W"
            ],
            [
             "Lm / W reales",
-            "102.1 lm/W - 107.5 lm/W - 100 lm/W - 119,2 lm/W - 95lm/W - 116.25 m/W"
+            "81.43 lm/W - 102.1 lm/W - 107.5 lm/W - 100 lm/W - 119,2 lm/W - 95lm/W - 116.25 m/W"
            ],
            [
             "Temperatura de color",
@@ -11184,9 +11280,280 @@
            "Opcional regulación DALI, 0-10V, PWM, PUSH DIM, DIP SWITCH, TRIAC CASAMBI, BLUETOOTH,: a pedido"
           ],
           "descripcion": [
-           "Downlight empotrable de BAJA LUMINANCIA 12-20-25-30-40-50W, ideal para sustituir cualquier modelo de Downlight halógeno existente en el mercado Alto confort visual, práctico y versátil para iluminar espacios de alturas importantes y exigentes."
+           "Downlight empotrable de BAJA LUMINANCIA 7W, ideal para sustituir cualquier modelo de Downlight halógeno existente en el mercado Alto confort visual, práctico y versátil para iluminar espacios de alturas importantes y exigentes.",
+           "Downlight empotrable de BAJA LUMINANCIA12W, ideal para sustituir cualquier modelo de Downlight halógeno existente en el mercado Alto confort visual, práctico y versátil para iluminar espacios de alturas importantes y exigentes.",
+           "Downlight empotrable de BAJA LUMINANCIA 12W, ideal para sustituir cualquier modelo de Downlight halógeno existente en el mercado Alto confort visual, práctico y versátil para iluminar espacios de alturas importantes y exigentes.",
+           "Downlight empotrable de BAJA LUMINANCIA 20W, ideal para sustituir cualquier modelo de Downlight halógeno existente en el mercado Alto confort visual, práctico y versátil para iluminar espacios de alturas importantes y exigentes.",
+           "Downlight empotrable de BAJA LUMINANCIA 25W, ideal para sustituir cualquier modelo de Downlight halógeno existente en el mercado Alto confort visual, práctico y versátil para iluminar espacios de alturas importantes y exigentes.",
+           "Downlight empotrable de BAJA LUMINANCIA 30W, ideal para sustituir cualquier modelo de Downlight halógeno existente en el mercado Alto confort visual, práctico y versátil para iluminar espacios de alturas importantes y exigentes.",
+           "Downlight empotrable de BAJA LUMINANCIA 40W, ideal para sustituir cualquier modelo de Downlight halógeno existente en el mercado Alto confort visual, práctico y versátil para iluminar espacios de alturas importantes y exigentes.",
+           "Downlight empotrable de BAJA LUMINANCIA 50W, ideal para sustituir cualquier modelo de Downlight halógeno existente en el mercado Alto confort visual, práctico y versátil para iluminar espacios de alturas importantes y exigentes."
           ],
           "tabla_por_codigo": {
+           "00DLZEN07W27X": {
+            "filas": [
+             [
+              "Potencia total luminaria",
+              "7W"
+             ],
+             [
+              "Lúmenes reales",
+              "570 lm"
+             ],
+             [
+              "Lm / W reales",
+              "81.43 lm/W"
+             ],
+             [
+              "Temperatura de color",
+              "2700K"
+             ],
+             [
+              "Ángulo Ópticas / Reflector",
+              "70°"
+             ],
+             [
+              "CRI",
+              "90"
+             ],
+             [
+              "IP",
+              "44"
+             ],
+             [
+              "IK",
+              "04"
+             ],
+             [
+              "UGR",
+              "<=19"
+             ],
+             [
+              "Material de la estructura",
+              "Aluminio inyectado"
+             ],
+             [
+              "Acabado estructura",
+              "Blanco - Negro"
+             ],
+             [
+              "Material del difusor",
+              "Cristal"
+             ],
+             [
+              "Acabado difusor",
+              "Opal"
+             ],
+             [
+              "Driver",
+              "Integrado"
+             ],
+             [
+              "Clase de aislamiento",
+              "II"
+             ],
+             [
+              "Voltaje / Frecuencia",
+              "AC220-240v - 50/60Hz"
+             ],
+             [
+              "Protocolo de regulación",
+              "ON-OFF"
+             ],
+             [
+              "Factor de potencia",
+              ">0,95"
+             ],
+             [
+              "Vida útil",
+              "50.000h"
+             ],
+             [
+              "Garantía",
+              "5 años"
+             ]
+            ],
+            "notas": [
+             "Opcional regulación DALI, 0-10V, PWM, PUSH DIM, DIP SWITCH, TRIAC CASAMBI, BLUETOOTH,: a pedido"
+            ],
+            "descripcion": "Downlight empotrable de BAJA LUMINANCIA 7W, ideal para sustituir cualquier modelo de Downlight halógeno existente en el mercado Alto confort visual, práctico y versátil para iluminar espacios de alturas importantes y exigentes."
+           },
+           "00DLZEN07W30X": {
+            "filas": [
+             [
+              "Potencia total luminaria",
+              "7W"
+             ],
+             [
+              "Lúmenes reales",
+              "570 lm"
+             ],
+             [
+              "Lm / W reales",
+              "81.43 lm/W"
+             ],
+             [
+              "Temperatura de color",
+              "3000K"
+             ],
+             [
+              "Ángulo Ópticas / Reflector",
+              "70°"
+             ],
+             [
+              "CRI",
+              "90"
+             ],
+             [
+              "IP",
+              "44"
+             ],
+             [
+              "IK",
+              "04"
+             ],
+             [
+              "UGR",
+              "<=19"
+             ],
+             [
+              "Material de la estructura",
+              "Aluminio inyectado"
+             ],
+             [
+              "Acabado estructura",
+              "Blanco - Negro"
+             ],
+             [
+              "Material del difusor",
+              "Cristal"
+             ],
+             [
+              "Acabado difusor",
+              "Opal"
+             ],
+             [
+              "Driver",
+              "Integrado"
+             ],
+             [
+              "Clase de aislamiento",
+              "II"
+             ],
+             [
+              "Voltaje / Frecuencia",
+              "AC220-240v - 50/60Hz"
+             ],
+             [
+              "Protocolo de regulación",
+              "ON-OFF"
+             ],
+             [
+              "Factor de potencia",
+              ">0,95"
+             ],
+             [
+              "Vida útil",
+              "50.000h"
+             ],
+             [
+              "Garantía",
+              "5 años"
+             ]
+            ],
+            "notas": [
+             "Opcional regulación DALI, 0-10V, PWM, PUSH DIM, DIP SWITCH, TRIAC CASAMBI, BLUETOOTH,: a pedido"
+            ],
+            "descripcion": "Downlight empotrable de BAJA LUMINANCIA 7W, ideal para sustituir cualquier modelo de Downlight halógeno existente en el mercado Alto confort visual, práctico y versátil para iluminar espacios de alturas importantes y exigentes."
+           },
+           "00DLZEN07W40X": {
+            "filas": [
+             [
+              "Potencia total luminaria",
+              "7W"
+             ],
+             [
+              "Lúmenes reales",
+              "570 lm"
+             ],
+             [
+              "Lm / W reales",
+              "81.43 lm/W"
+             ],
+             [
+              "Temperatura de color",
+              "4000K"
+             ],
+             [
+              "Ángulo Ópticas / Reflector",
+              "70°"
+             ],
+             [
+              "CRI",
+              "90"
+             ],
+             [
+              "IP",
+              "44"
+             ],
+             [
+              "IK",
+              "04"
+             ],
+             [
+              "UGR",
+              "<=19"
+             ],
+             [
+              "Material de la estructura",
+              "Aluminio inyectado"
+             ],
+             [
+              "Acabado estructura",
+              "Blanco - Negro"
+             ],
+             [
+              "Material del difusor",
+              "Cristal"
+             ],
+             [
+              "Acabado difusor",
+              "Opal"
+             ],
+             [
+              "Driver",
+              "Integrado"
+             ],
+             [
+              "Clase de aislamiento",
+              "II"
+             ],
+             [
+              "Voltaje / Frecuencia",
+              "AC220-240v - 50/60Hz"
+             ],
+             [
+              "Protocolo de regulación",
+              "ON-OFF"
+             ],
+             [
+              "Factor de potencia",
+              ">0,95"
+             ],
+             [
+              "Vida útil",
+              "50.000h"
+             ],
+             [
+              "Garantía",
+              "5 años"
+             ]
+            ],
+            "notas": [
+             "Opcional regulación DALI, 0-10V, PWM, PUSH DIM, DIP SWITCH, TRIAC CASAMBI, BLUETOOTH,: a pedido"
+            ],
+            "descripcion": "Downlight empotrable de BAJA LUMINANCIA 7W, ideal para sustituir cualquier modelo de Downlight halógeno existente en el mercado Alto confort visual, práctico y versátil para iluminar espacios de alturas importantes y exigentes."
+           },
            "00DLZEN12W27X": {
             "filas": [
              [
@@ -12773,6 +13140,9 @@
            }
           },
           "pdf": {
+           "00DLZEN07W27X": "fichas/00DLZEN07W27X.pdf",
+           "00DLZEN07W30X": "fichas/00DLZEN07W30X.pdf",
+           "00DLZEN07W40X": "fichas/00DLZEN07W40X.pdf",
            "00DLZEN12W27X": "fichas/00DLZEN12W27X.pdf",
            "00DLZEN12W30X": "fichas/00DLZEN12W30X.pdf",
            "00DLZEN12W40X": "fichas/00DLZEN12W40X.pdf",
@@ -12791,501 +13161,6 @@
            "00DLZEN50W27X": "fichas/00DLZEN50W27X.pdf",
            "00DLZEN50W30X": "fichas/00DLZEN50W30X.pdf",
            "00DLZEN50W40X": "fichas/00DLZEN50W40X.pdf"
-          }
-         },
-         {
-          "nombre": "Downlight empotradofijo mod. ZEN",
-          "slug": "downlight-empotradofijo-mod-zen",
-          "codigos": [
-           "00DLZEN07W27X",
-           "00DLZEN07W30X",
-           "00DLZEN07W40X"
-          ],
-          "archivos": [
-           "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.9 - ZEN/00DLZEN07W27X - Downlight empotradofijo mod. ZEN 7W 2700K CRI90 70º 160mA.xlsx",
-           "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.9 - ZEN/00DLZEN07W30X - Downlight empotradofijo mod. ZEN 7W 3000K CRI90 70º 160mA.xlsx",
-           "1 -  INTERIORES/1.1 -DOWNLIGHTS EMPOTRADOS/1.2.9 - ZEN/00DLZEN07W40X - Downlight empotradofijo mod. ZEN 7W 4000K CRI90 70º 160mA.xlsx"
-          ],
-          "fotos": {
-           "luminaria": {
-            "ruta": "images/productos/Interiores/Downlights Empotrados/ZEN/00DLZEN07W27X/luminaria.jpg",
-            "px": [
-             250,
-             125
-            ]
-           },
-           "medidas": {
-            "ruta": "images/productos/Interiores/Downlights Empotrados/ZEN/00DLZEN07W27X/medidas.jpg",
-            "px": [
-             305,
-             436
-            ]
-           },
-           "ambiente": {
-            "ruta": "images/productos/Interiores/Downlights Empotrados/ZEN/00DLZEN12W27X/ambiente.jpg",
-            "px": [
-             760,
-             473
-            ]
-           },
-           "angulo": {
-            "ruta": "images/productos/Interiores/Downlights Empotrados/ZEN/00DLZEN12W27X/angulo.jpg",
-            "px": [
-             568,
-             562
-            ]
-           }
-          },
-          "fotos_por_codigo": {
-           "00DLZEN07W27X": {
-            "luminaria": {
-             "ruta": "images/productos/Interiores/Downlights Empotrados/ZEN/00DLZEN07W27X/luminaria.jpg",
-             "px": [
-              250,
-              125
-             ]
-            },
-            "medidas": {
-             "ruta": "images/productos/Interiores/Downlights Empotrados/ZEN/00DLZEN07W27X/medidas.jpg",
-             "px": [
-              305,
-              436
-             ]
-            },
-            "ambiente": {
-             "ruta": "images/productos/Interiores/Downlights Empotrados/ZEN/00DLZEN12W27X/ambiente.jpg",
-             "px": [
-              760,
-              473
-             ]
-            },
-            "angulo": {
-             "ruta": "images/productos/Interiores/Downlights Empotrados/ZEN/00DLZEN12W27X/angulo.jpg",
-             "px": [
-              568,
-              562
-             ]
-            }
-           },
-           "00DLZEN07W30X": {
-            "luminaria": {
-             "ruta": "images/productos/Interiores/Downlights Empotrados/ZEN/00DLZEN07W27X/luminaria.jpg",
-             "px": [
-              250,
-              125
-             ]
-            },
-            "medidas": {
-             "ruta": "images/productos/Interiores/Downlights Empotrados/ZEN/00DLZEN07W27X/medidas.jpg",
-             "px": [
-              305,
-              436
-             ]
-            },
-            "ambiente": {
-             "ruta": "images/productos/Interiores/Downlights Empotrados/ZEN/00DLZEN12W27X/ambiente.jpg",
-             "px": [
-              760,
-              473
-             ]
-            },
-            "angulo": {
-             "ruta": "images/productos/Interiores/Downlights Empotrados/ZEN/00DLZEN12W27X/angulo.jpg",
-             "px": [
-              568,
-              562
-             ]
-            }
-           },
-           "00DLZEN07W40X": {
-            "luminaria": {
-             "ruta": "images/productos/Interiores/Downlights Empotrados/ZEN/00DLZEN07W27X/luminaria.jpg",
-             "px": [
-              250,
-              125
-             ]
-            },
-            "medidas": {
-             "ruta": "images/productos/Interiores/Downlights Empotrados/ZEN/00DLZEN07W27X/medidas.jpg",
-             "px": [
-              305,
-              436
-             ]
-            },
-            "ambiente": {
-             "ruta": "images/productos/Interiores/Downlights Empotrados/ZEN/00DLZEN12W27X/ambiente.jpg",
-             "px": [
-              760,
-              473
-             ]
-            },
-            "angulo": {
-             "ruta": "images/productos/Interiores/Downlights Empotrados/ZEN/00DLZEN12W27X/angulo.jpg",
-             "px": [
-              568,
-              562
-             ]
-            }
-           }
-          },
-          "tabla": [
-           [
-            "Potencia total luminaria",
-            "7W"
-           ],
-           [
-            "Lúmenes reales",
-            "570 lm"
-           ],
-           [
-            "Lm / W reales",
-            "81.43 lm/W"
-           ],
-           [
-            "Temperatura de color",
-            "2700K - 3000K - 4000K"
-           ],
-           [
-            "Ángulo Ópticas / Reflector",
-            "70°"
-           ],
-           [
-            "CRI",
-            "90"
-           ],
-           [
-            "IP",
-            "44"
-           ],
-           [
-            "IK",
-            "04"
-           ],
-           [
-            "UGR",
-            "<=19"
-           ],
-           [
-            "Material de la estructura",
-            "Aluminio inyectado"
-           ],
-           [
-            "Acabado estructura",
-            "Blanco - Negro"
-           ],
-           [
-            "Material del difusor",
-            "Cristal"
-           ],
-           [
-            "Acabado difusor",
-            "Opal"
-           ],
-           [
-            "Driver",
-            "Integrado"
-           ],
-           [
-            "Clase de aislamiento",
-            "II"
-           ],
-           [
-            "Voltaje / Frecuencia",
-            "AC220-240v - 50/60Hz"
-           ],
-           [
-            "Protocolo de regulación",
-            "ON-OFF"
-           ],
-           [
-            "Factor de potencia",
-            ">0,95"
-           ],
-           [
-            "Vida útil",
-            "50.000h"
-           ],
-           [
-            "Garantía",
-            "5 años"
-           ]
-          ],
-          "notas": [
-           "Opcional regulación DALI, 0-10V, PWM, PUSH DIM, DIP SWITCH, TRIAC CASAMBI, BLUETOOTH,: a pedido"
-          ],
-          "descripcion": [
-           "Downlight empotrable de BAJA LUMINANCIA 7W, ideal para sustituir cualquier modelo de Downlight halógeno existente en el mercado Alto confort visual, práctico y versátil para iluminar espacios de alturas importantes y exigentes."
-          ],
-          "tabla_por_codigo": {
-           "00DLZEN07W27X": {
-            "filas": [
-             [
-              "Potencia total luminaria",
-              "7W"
-             ],
-             [
-              "Lúmenes reales",
-              "570 lm"
-             ],
-             [
-              "Lm / W reales",
-              "81.43 lm/W"
-             ],
-             [
-              "Temperatura de color",
-              "2700K"
-             ],
-             [
-              "Ángulo Ópticas / Reflector",
-              "70°"
-             ],
-             [
-              "CRI",
-              "90"
-             ],
-             [
-              "IP",
-              "44"
-             ],
-             [
-              "IK",
-              "04"
-             ],
-             [
-              "UGR",
-              "<=19"
-             ],
-             [
-              "Material de la estructura",
-              "Aluminio inyectado"
-             ],
-             [
-              "Acabado estructura",
-              "Blanco - Negro"
-             ],
-             [
-              "Material del difusor",
-              "Cristal"
-             ],
-             [
-              "Acabado difusor",
-              "Opal"
-             ],
-             [
-              "Driver",
-              "Integrado"
-             ],
-             [
-              "Clase de aislamiento",
-              "II"
-             ],
-             [
-              "Voltaje / Frecuencia",
-              "AC220-240v - 50/60Hz"
-             ],
-             [
-              "Protocolo de regulación",
-              "ON-OFF"
-             ],
-             [
-              "Factor de potencia",
-              ">0,95"
-             ],
-             [
-              "Vida útil",
-              "50.000h"
-             ],
-             [
-              "Garantía",
-              "5 años"
-             ]
-            ],
-            "notas": [
-             "Opcional regulación DALI, 0-10V, PWM, PUSH DIM, DIP SWITCH, TRIAC CASAMBI, BLUETOOTH,: a pedido"
-            ],
-            "descripcion": "Downlight empotrable de BAJA LUMINANCIA 7W, ideal para sustituir cualquier modelo de Downlight halógeno existente en el mercado Alto confort visual, práctico y versátil para iluminar espacios de alturas importantes y exigentes."
-           },
-           "00DLZEN07W30X": {
-            "filas": [
-             [
-              "Potencia total luminaria",
-              "7W"
-             ],
-             [
-              "Lúmenes reales",
-              "570 lm"
-             ],
-             [
-              "Lm / W reales",
-              "81.43 lm/W"
-             ],
-             [
-              "Temperatura de color",
-              "3000K"
-             ],
-             [
-              "Ángulo Ópticas / Reflector",
-              "70°"
-             ],
-             [
-              "CRI",
-              "90"
-             ],
-             [
-              "IP",
-              "44"
-             ],
-             [
-              "IK",
-              "04"
-             ],
-             [
-              "UGR",
-              "<=19"
-             ],
-             [
-              "Material de la estructura",
-              "Aluminio inyectado"
-             ],
-             [
-              "Acabado estructura",
-              "Blanco - Negro"
-             ],
-             [
-              "Material del difusor",
-              "Cristal"
-             ],
-             [
-              "Acabado difusor",
-              "Opal"
-             ],
-             [
-              "Driver",
-              "Integrado"
-             ],
-             [
-              "Clase de aislamiento",
-              "II"
-             ],
-             [
-              "Voltaje / Frecuencia",
-              "AC220-240v - 50/60Hz"
-             ],
-             [
-              "Protocolo de regulación",
-              "ON-OFF"
-             ],
-             [
-              "Factor de potencia",
-              ">0,95"
-             ],
-             [
-              "Vida útil",
-              "50.000h"
-             ],
-             [
-              "Garantía",
-              "5 años"
-             ]
-            ],
-            "notas": [
-             "Opcional regulación DALI, 0-10V, PWM, PUSH DIM, DIP SWITCH, TRIAC CASAMBI, BLUETOOTH,: a pedido"
-            ],
-            "descripcion": "Downlight empotrable de BAJA LUMINANCIA 7W, ideal para sustituir cualquier modelo de Downlight halógeno existente en el mercado Alto confort visual, práctico y versátil para iluminar espacios de alturas importantes y exigentes."
-           },
-           "00DLZEN07W40X": {
-            "filas": [
-             [
-              "Potencia total luminaria",
-              "7W"
-             ],
-             [
-              "Lúmenes reales",
-              "570 lm"
-             ],
-             [
-              "Lm / W reales",
-              "81.43 lm/W"
-             ],
-             [
-              "Temperatura de color",
-              "4000K"
-             ],
-             [
-              "Ángulo Ópticas / Reflector",
-              "70°"
-             ],
-             [
-              "CRI",
-              "90"
-             ],
-             [
-              "IP",
-              "44"
-             ],
-             [
-              "IK",
-              "04"
-             ],
-             [
-              "UGR",
-              "<=19"
-             ],
-             [
-              "Material de la estructura",
-              "Aluminio inyectado"
-             ],
-             [
-              "Acabado estructura",
-              "Blanco - Negro"
-             ],
-             [
-              "Material del difusor",
-              "Cristal"
-             ],
-             [
-              "Acabado difusor",
-              "Opal"
-             ],
-             [
-              "Driver",
-              "Integrado"
-             ],
-             [
-              "Clase de aislamiento",
-              "II"
-             ],
-             [
-              "Voltaje / Frecuencia",
-              "AC220-240v - 50/60Hz"
-             ],
-             [
-              "Protocolo de regulación",
-              "ON-OFF"
-             ],
-             [
-              "Factor de potencia",
-              ">0,95"
-             ],
-             [
-              "Vida útil",
-              "50.000h"
-             ],
-             [
-              "Garantía",
-              "5 años"
-             ]
-            ],
-            "notas": [
-             "Opcional regulación DALI, 0-10V, PWM, PUSH DIM, DIP SWITCH, TRIAC CASAMBI, BLUETOOTH,: a pedido"
-            ],
-            "descripcion": "Downlight empotrable de BAJA LUMINANCIA 7W, ideal para sustituir cualquier modelo de Downlight halógeno existente en el mercado Alto confort visual, práctico y versátil para iluminar espacios de alturas importantes y exigentes."
-           }
-          },
-          "pdf": {
-           "00DLZEN07W27X": "fichas/00DLZEN07W27X.pdf",
-           "00DLZEN07W30X": "fichas/00DLZEN07W30X.pdf",
-           "00DLZEN07W40X": "fichas/00DLZEN07W40X.pdf"
           }
          }
         ]
@@ -13839,17 +13714,17 @@
             ],
             "fotos": {
              "luminaria": {
-              "ruta": "images/productos/Interiores/Downlights Adosados/SLIM Adosable/SLIM Circulares/0DACSL12WXXXX/luminaria.jpg",
+              "ruta": "images/productos/Interiores/Downlights Adosados/SLIM Adosable/SLIM Circulares/0DLACSL5WXXXX/luminaria.jpg",
               "px": [
-               485,
-               202
+               449,
+               264
               ]
              },
              "medidas": {
-              "ruta": "images/productos/Interiores/Downlights Adosados/SLIM Adosable/SLIM Circulares/0DACSL12WXXXX/medidas.jpg",
+              "ruta": "images/productos/Interiores/Downlights Adosados/SLIM Adosable/SLIM Circulares/0DLACSL5WXXXX/medidas.jpg",
               "px": [
-               387,
-               452
+               403,
+               503
               ]
              },
              "ambiente": {
@@ -14594,17 +14469,17 @@
             ],
             "fotos": {
              "luminaria": {
-              "ruta": "images/productos/Interiores/Downlights Empotrados/SLIM/SLIM 3CCT/00DLECSL6WCCT/luminaria.jpg",
+              "ruta": "images/productos/Interiores/Downlights Adosados/SLIM Adosable/SLIM Circulares/0DLACSL5WXXXX/luminaria.jpg",
               "px": [
-               144,
-               30
+               449,
+               264
               ]
              },
              "medidas": {
-              "ruta": "images/productos/Interiores/Downlights Adosados/SLIM Adosable/SLIM Circulares 3CCT/0DACSL12WCCTX/medidas.jpg",
+              "ruta": "images/productos/Interiores/Downlights Adosados/SLIM Adosable/SLIM Circulares/0DACSL20WXXXX/medidas.jpg",
               "px": [
-               485,
-               696
+               395,
+               502
               ]
              },
              "ambiente": {
@@ -14625,17 +14500,17 @@
             "fotos_por_codigo": {
              "0DACSL12WCCTX": {
               "luminaria": {
-               "ruta": "images/productos/Interiores/Downlights Empotrados/SLIM/SLIM 3CCT/00DLECSL6WCCT/luminaria.jpg",
+               "ruta": "images/productos/Interiores/Downlights Adosados/SLIM Adosable/SLIM Circulares/0DACSL12WXXXX/luminaria.jpg",
                "px": [
-                144,
-                30
+                485,
+                202
                ]
               },
               "medidas": {
-               "ruta": "images/productos/Interiores/Downlights Adosados/SLIM Adosable/SLIM Circulares 3CCT/0DACSL12WCCTX/medidas.jpg",
+               "ruta": "images/productos/Interiores/Downlights Adosados/SLIM Adosable/SLIM Circulares/0DACSL12WXXXX/medidas.jpg",
                "px": [
-                485,
-                696
+                387,
+                452
                ]
               },
               "ambiente": {
@@ -14655,17 +14530,17 @@
              },
              "0DACSL20WCCTX": {
               "luminaria": {
-               "ruta": "images/productos/Interiores/Downlights Empotrados/SLIM/SLIM 3CCT/00DLECSL6WCCT/luminaria.jpg",
+               "ruta": "images/productos/Interiores/Downlights Adosados/SLIM Adosable/SLIM Circulares/0DACSL12WXXXX/luminaria.jpg",
                "px": [
-                144,
-                30
+                485,
+                202
                ]
               },
               "medidas": {
-               "ruta": "images/productos/Interiores/Downlights Adosados/SLIM Adosable/SLIM Circulares 3CCT/0DACSL20WCCTX/medidas.jpg",
+               "ruta": "images/productos/Interiores/Downlights Adosados/SLIM Adosable/SLIM Circulares/0DACSL20WXXXX/medidas.jpg",
                "px": [
-                493,
-                726
+                395,
+                502
                ]
               },
               "ambiente": {
@@ -14685,17 +14560,17 @@
              },
              "0DACSL25WCCTX": {
               "luminaria": {
-               "ruta": "images/productos/Interiores/Downlights Empotrados/SLIM/SLIM 3CCT/00DLECSL6WCCT/luminaria.jpg",
+               "ruta": "images/productos/Interiores/Downlights Adosados/SLIM Adosable/SLIM Circulares/0DACSL12WXXXX/luminaria.jpg",
                "px": [
-                144,
-                30
+                485,
+                202
                ]
               },
               "medidas": {
-               "ruta": "images/productos/Interiores/Downlights Adosados/SLIM Adosable/SLIM Circulares 3CCT/0DACSL25WCCTX/medidas.jpg",
+               "ruta": "images/productos/Interiores/Downlights Adosados/SLIM Adosable/SLIM Circulares/0DACSL25WXXXX/medidas.jpg",
                "px": [
-                485,
-                643
+                307,
+                363
                ]
               },
               "ambiente": {
@@ -14715,17 +14590,17 @@
              },
              "0DLACSL6WCCTX": {
               "luminaria": {
-               "ruta": "images/productos/Interiores/Downlights Empotrados/SLIM/SLIM 3CCT/00DLECSL6WCCT/luminaria.jpg",
+               "ruta": "images/productos/Interiores/Downlights Adosados/SLIM Adosable/SLIM Circulares/0DLACSL5WXXXX/luminaria.jpg",
                "px": [
-                144,
-                30
+                449,
+                264
                ]
               },
               "medidas": {
-               "ruta": "images/productos/Interiores/Downlights Adosados/SLIM Adosable/SLIM Circulares 3CCT/0DLACSL6WCCTX/medidas.jpg",
+               "ruta": "images/productos/Interiores/Downlights Adosados/SLIM Adosable/SLIM Circulares/0DLACSL6WXXXX/medidas.jpg",
                "px": [
-                449,
-                829
+                397,
+                498
                ]
               },
               "ambiente": {
@@ -16006,17 +15881,17 @@
           ],
           "fotos": {
            "luminaria": {
-            "ruta": "images/productos/Interiores/Downlights Empotrados/SLIM/SLIM 3CCT/00DLECSL6WCCT/luminaria.jpg",
+            "ruta": "images/productos/Interiores/Downlights Adosados/Tubular/00DLAT10WCCTN/luminaria.jpg",
             "px": [
-             144,
-             30
+             117,
+             165
             ]
            },
            "medidas": {
             "ruta": "images/productos/Interiores/Downlights Adosados/Tubular/00DLAT10WCCTB/medidas.jpg",
             "px": [
              451,
-             1039
+             467
             ]
            },
            "ambiente": {
@@ -16037,17 +15912,17 @@
           "fotos_por_codigo": {
            "00DLAT10WCCTB": {
             "luminaria": {
-             "ruta": "images/productos/Interiores/Downlights Empotrados/SLIM/SLIM 3CCT/00DLECSL6WCCT/luminaria.jpg",
+             "ruta": "images/productos/Interiores/Downlights Adosados/Tubular/00DLAT10WCCTB/luminaria.jpg",
              "px": [
-              144,
-              30
+              109,
+              148
              ]
             },
             "medidas": {
              "ruta": "images/productos/Interiores/Downlights Adosados/Tubular/00DLAT10WCCTB/medidas.jpg",
              "px": [
               451,
-              1039
+              467
              ]
             },
             "ambiente": {
@@ -16067,17 +15942,17 @@
            },
            "00DLAT10WCCTN": {
             "luminaria": {
-             "ruta": "images/productos/Interiores/Downlights Empotrados/SLIM/SLIM 3CCT/00DLECSL6WCCT/luminaria.jpg",
+             "ruta": "images/productos/Interiores/Downlights Adosados/Tubular/00DLAT10WCCTN/luminaria.jpg",
              "px": [
-              144,
-              30
+              117,
+              165
              ]
             },
             "medidas": {
-             "ruta": "images/productos/Interiores/Downlights Adosados/Tubular/00DLAT10WCCTN/medidas.jpg",
+             "ruta": "images/productos/Interiores/Downlights Adosados/Tubular/00DLAT10WCCTB/medidas.jpg",
              "px": [
               451,
-              1069
+              467
              ]
             },
             "ambiente": {
@@ -16097,17 +15972,17 @@
            },
            "00DLAT20WCCTB": {
             "luminaria": {
-             "ruta": "images/productos/Interiores/Downlights Empotrados/SLIM/SLIM 3CCT/00DLECSL6WCCT/luminaria.jpg",
+             "ruta": "images/productos/Interiores/Downlights Adosados/Tubular/00DLAT10WCCTB/luminaria.jpg",
              "px": [
-              144,
-              30
+              109,
+              148
              ]
             },
             "medidas": {
              "ruta": "images/productos/Interiores/Downlights Adosados/Tubular/00DLAT20WCCTB/medidas.jpg",
              "px": [
               440,
-              1049
+              478
              ]
             },
             "ambiente": {
@@ -16127,17 +16002,17 @@
            },
            "00DLAT20WCCTN": {
             "luminaria": {
-             "ruta": "images/productos/Interiores/Downlights Empotrados/SLIM/SLIM 3CCT/00DLECSL6WCCT/luminaria.jpg",
+             "ruta": "images/productos/Interiores/Downlights Adosados/Tubular/00DLAT10WCCTN/luminaria.jpg",
              "px": [
-              144,
-              30
+              117,
+              165
              ]
             },
             "medidas": {
-             "ruta": "images/productos/Interiores/Downlights Adosados/Tubular/00DLAT20WCCTN/medidas.jpg",
+             "ruta": "images/productos/Interiores/Downlights Adosados/Tubular/00DLAT20WCCTB/medidas.jpg",
              "px": [
               440,
-              1080
+              478
              ]
             },
             "ambiente": {
@@ -16866,17 +16741,17 @@
             ],
             "fotos": {
              "luminaria": {
-              "ruta": "images/productos/Interiores/Lineales/Lineales/Lineal Mini 2/00L05MI13W30K/luminaria.jpg",
+              "ruta": "images/productos/Interiores/Lineales/Lineales/Lineal Mini 2/00L05MI13W40K/luminaria.jpg",
               "px": [
-               309,
-               314
+               419,
+               425
               ]
              },
              "medidas": {
-              "ruta": "images/productos/Interiores/Lineales/Lineales/Lineal Mini 2/00L05MI13W30K/medidas.jpg",
+              "ruta": "images/productos/Interiores/Lineales/Lineales/Lineal Mini 2/00L08MI19W30K/medidas.jpg",
               "px": [
-               742,
-               294
+               866,
+               375
               ]
              },
              "ambiente": {
@@ -19271,10 +19146,10 @@
           ],
           "fotos": {
            "luminaria": {
-            "ruta": "images/productos/Interiores/Lineales/Lineales/00LIS5819W40K/luminaria.jpg",
+            "ruta": "images/productos/Interiores/Lineales/Lineales/0LXXIP65XXWXK/luminaria.jpg",
             "px": [
-             404,
-             309
+             425,
+             310
             ]
            },
            "medidas": {
@@ -22571,7 +22446,7 @@
       "ruta": "1 -  INTERIORES/1.4 - RETRO GOLD",
       "hijos": [
        {
-        "nombre": "Lámpara Colgante SLIM Retro Gold",
+        "nombre": "Lámpara Colgante SLIM Retro Gold",
         "slug": "lampara-colgante-slim-retro-gold",
         "ruta": "1 -  INTERIORES/1.4 - RETRO GOLD/1.4.1 - LÁMPARA COLGANTE SLIM RETRO GOLD",
         "hijos": [],
@@ -22597,21 +22472,21 @@
           ],
           "fotos": {
            "luminaria": {
-            "ruta": "images/productos/Interiores/Retro Gold/Lampara Colgante SLIM Retro Gold/0LC15SL6W27KD/luminaria.jpg",
+            "ruta": "images/productos/Interiores/Retro Gold/Lámpara Colgante SLIM Retro Gold/0LC30SL6W27KD/luminaria.jpg",
             "px": [
-             64,
-             610
+             164,
+             568
             ]
            },
            "medidas": {
-            "ruta": "images/productos/Interiores/Retro Gold/Lampara Colgante SLIM Retro Gold/0LC15SL6W27KD/medidas.jpg",
+            "ruta": "images/productos/Interiores/Retro Gold/Lámpara Colgante SLIM Retro Gold/0LC20SL6W27KD/medidas.jpg",
             "px": [
-             158,
-             569
+             164,
+             566
             ]
            },
            "angulo": {
-            "ruta": "images/productos/Interiores/Retro Gold/Lampara Colgante SLIM Retro Gold/0LC15SL6W27KD/angulo.jpg",
+            "ruta": "images/productos/Interiores/Retro Gold/Lámpara Colgante SLIM Retro Gold/0LC15SL6W27KD/angulo.jpg",
             "px": [
              222,
              228
@@ -22621,21 +22496,21 @@
           "fotos_por_codigo": {
            "0LC15SL6W27KD": {
             "luminaria": {
-             "ruta": "images/productos/Interiores/Retro Gold/Lampara Colgante SLIM Retro Gold/0LC15SL6W27KD/luminaria.jpg",
+             "ruta": "images/productos/Interiores/Retro Gold/Lámpara Colgante SLIM Retro Gold/0LC15SL6W27KD/luminaria.jpg",
              "px": [
               64,
               610
              ]
             },
             "medidas": {
-             "ruta": "images/productos/Interiores/Retro Gold/Lampara Colgante SLIM Retro Gold/0LC15SL6W27KD/medidas.jpg",
+             "ruta": "images/productos/Interiores/Retro Gold/Lámpara Colgante SLIM Retro Gold/0LC15SL6W27KD/medidas.jpg",
              "px": [
               158,
               569
              ]
             },
             "angulo": {
-             "ruta": "images/productos/Interiores/Retro Gold/Lampara Colgante SLIM Retro Gold/0LC15SL6W27KD/angulo.jpg",
+             "ruta": "images/productos/Interiores/Retro Gold/Lámpara Colgante SLIM Retro Gold/0LC15SL6W27KD/angulo.jpg",
              "px": [
               222,
               228
@@ -22644,21 +22519,21 @@
            },
            "0LC15SL6W30KD": {
             "luminaria": {
-             "ruta": "images/productos/Interiores/Retro Gold/Lampara Colgante SLIM Retro Gold/0LC15SL6W27KD/luminaria.jpg",
+             "ruta": "images/productos/Interiores/Retro Gold/Lámpara Colgante SLIM Retro Gold/0LC15SL6W27KD/luminaria.jpg",
              "px": [
               64,
               610
              ]
             },
             "medidas": {
-             "ruta": "images/productos/Interiores/Retro Gold/Lampara Colgante SLIM Retro Gold/0LC15SL6W27KD/medidas.jpg",
+             "ruta": "images/productos/Interiores/Retro Gold/Lámpara Colgante SLIM Retro Gold/0LC15SL6W27KD/medidas.jpg",
              "px": [
               158,
               569
              ]
             },
             "angulo": {
-             "ruta": "images/productos/Interiores/Retro Gold/Lampara Colgante SLIM Retro Gold/0LC15SL6W27KD/angulo.jpg",
+             "ruta": "images/productos/Interiores/Retro Gold/Lámpara Colgante SLIM Retro Gold/0LC15SL6W27KD/angulo.jpg",
              "px": [
               222,
               228
@@ -22667,21 +22542,21 @@
            },
            "0LC20SL6W27KD": {
             "luminaria": {
-             "ruta": "images/productos/Interiores/Retro Gold/Lampara Colgante SLIM Retro Gold/0LC15SL6W27KD/luminaria.jpg",
+             "ruta": "images/productos/Interiores/Retro Gold/Lámpara Colgante SLIM Retro Gold/0LC15SL6W27KD/luminaria.jpg",
              "px": [
               64,
               610
              ]
             },
             "medidas": {
-             "ruta": "images/productos/Interiores/Retro Gold/Lampara Colgante SLIM Retro Gold/0LC20SL6W27KD/medidas.jpg",
+             "ruta": "images/productos/Interiores/Retro Gold/Lámpara Colgante SLIM Retro Gold/0LC20SL6W27KD/medidas.jpg",
              "px": [
               164,
               566
              ]
             },
             "angulo": {
-             "ruta": "images/productos/Interiores/Retro Gold/Lampara Colgante SLIM Retro Gold/0LC15SL6W27KD/angulo.jpg",
+             "ruta": "images/productos/Interiores/Retro Gold/Lámpara Colgante SLIM Retro Gold/0LC15SL6W27KD/angulo.jpg",
              "px": [
               222,
               228
@@ -22690,21 +22565,21 @@
            },
            "0LC20SL6W30KD": {
             "luminaria": {
-             "ruta": "images/productos/Interiores/Retro Gold/Lampara Colgante SLIM Retro Gold/0LC15SL6W27KD/luminaria.jpg",
+             "ruta": "images/productos/Interiores/Retro Gold/Lámpara Colgante SLIM Retro Gold/0LC15SL6W27KD/luminaria.jpg",
              "px": [
               64,
               610
              ]
             },
             "medidas": {
-             "ruta": "images/productos/Interiores/Retro Gold/Lampara Colgante SLIM Retro Gold/0LC20SL6W27KD/medidas.jpg",
+             "ruta": "images/productos/Interiores/Retro Gold/Lámpara Colgante SLIM Retro Gold/0LC20SL6W27KD/medidas.jpg",
              "px": [
               164,
               566
              ]
             },
             "angulo": {
-             "ruta": "images/productos/Interiores/Retro Gold/Lampara Colgante SLIM Retro Gold/0LC15SL6W27KD/angulo.jpg",
+             "ruta": "images/productos/Interiores/Retro Gold/Lámpara Colgante SLIM Retro Gold/0LC15SL6W27KD/angulo.jpg",
              "px": [
               222,
               228
@@ -22713,21 +22588,21 @@
            },
            "0LC30SL6W27KD": {
             "luminaria": {
-             "ruta": "images/productos/Interiores/Retro Gold/Lampara Colgante SLIM Retro Gold/0LC30SL6W27KD/luminaria.jpg",
+             "ruta": "images/productos/Interiores/Retro Gold/Lámpara Colgante SLIM Retro Gold/0LC30SL6W27KD/luminaria.jpg",
              "px": [
               164,
               568
              ]
             },
             "medidas": {
-             "ruta": "images/productos/Interiores/Retro Gold/Lampara Colgante SLIM Retro Gold/0LC15SL6W27KD/luminaria.jpg",
+             "ruta": "images/productos/Interiores/Retro Gold/Lámpara Colgante SLIM Retro Gold/0LC15SL6W27KD/luminaria.jpg",
              "px": [
               64,
               610
              ]
             },
             "angulo": {
-             "ruta": "images/productos/Interiores/Retro Gold/Lampara Colgante SLIM Retro Gold/0LC15SL6W27KD/angulo.jpg",
+             "ruta": "images/productos/Interiores/Retro Gold/Lámpara Colgante SLIM Retro Gold/0LC15SL6W27KD/angulo.jpg",
              "px": [
               222,
               228
@@ -22736,21 +22611,21 @@
            },
            "0LC30SL6W30KD": {
             "luminaria": {
-             "ruta": "images/productos/Interiores/Retro Gold/Lampara Colgante SLIM Retro Gold/0LC30SL6W27KD/luminaria.jpg",
+             "ruta": "images/productos/Interiores/Retro Gold/Lámpara Colgante SLIM Retro Gold/0LC30SL6W27KD/luminaria.jpg",
              "px": [
               164,
               568
              ]
             },
             "medidas": {
-             "ruta": "images/productos/Interiores/Retro Gold/Lampara Colgante SLIM Retro Gold/0LC15SL6W27KD/luminaria.jpg",
+             "ruta": "images/productos/Interiores/Retro Gold/Lámpara Colgante SLIM Retro Gold/0LC15SL6W27KD/luminaria.jpg",
              "px": [
               64,
               610
              ]
             },
             "angulo": {
-             "ruta": "images/productos/Interiores/Retro Gold/Lampara Colgante SLIM Retro Gold/0LC15SL6W27KD/angulo.jpg",
+             "ruta": "images/productos/Interiores/Retro Gold/Lámpara Colgante SLIM Retro Gold/0LC15SL6W27KD/angulo.jpg",
              "px": [
               222,
               228
@@ -23417,10 +23292,10 @@
             ]
            },
            "medidas": {
-            "ruta": "images/productos/Interiores/Retro Gold/Luminarias Adosadas/0LA15SL6W27KD/medidas.jpg",
+            "ruta": "images/productos/Interiores/Retro Gold/Luminarias Adosadas/0LA20SL6W27KD/medidas.jpg",
             "px": [
-             169,
-             303
+             172,
+             343
             ]
            },
            "ambiente": {
@@ -23431,7 +23306,7 @@
             ]
            },
            "angulo": {
-            "ruta": "images/productos/Interiores/Retro Gold/Lampara Colgante SLIM Retro Gold/0LC15SL6W27KD/angulo.jpg",
+            "ruta": "images/productos/Interiores/Retro Gold/Lámpara Colgante SLIM Retro Gold/0LC15SL6W27KD/angulo.jpg",
             "px": [
              222,
              228
@@ -23462,7 +23337,7 @@
              ]
             },
             "angulo": {
-             "ruta": "images/productos/Interiores/Retro Gold/Lampara Colgante SLIM Retro Gold/0LC15SL6W27KD/angulo.jpg",
+             "ruta": "images/productos/Interiores/Retro Gold/Lámpara Colgante SLIM Retro Gold/0LC15SL6W27KD/angulo.jpg",
              "px": [
               222,
               228
@@ -23492,7 +23367,7 @@
              ]
             },
             "angulo": {
-             "ruta": "images/productos/Interiores/Retro Gold/Lampara Colgante SLIM Retro Gold/0LC15SL6W27KD/angulo.jpg",
+             "ruta": "images/productos/Interiores/Retro Gold/Lámpara Colgante SLIM Retro Gold/0LC15SL6W27KD/angulo.jpg",
              "px": [
               222,
               228
@@ -23522,7 +23397,7 @@
              ]
             },
             "angulo": {
-             "ruta": "images/productos/Interiores/Retro Gold/Lampara Colgante SLIM Retro Gold/0LC15SL6W27KD/angulo.jpg",
+             "ruta": "images/productos/Interiores/Retro Gold/Lámpara Colgante SLIM Retro Gold/0LC15SL6W27KD/angulo.jpg",
              "px": [
               222,
               228
@@ -23552,7 +23427,7 @@
              ]
             },
             "angulo": {
-             "ruta": "images/productos/Interiores/Retro Gold/Lampara Colgante SLIM Retro Gold/0LC15SL6W27KD/angulo.jpg",
+             "ruta": "images/productos/Interiores/Retro Gold/Lámpara Colgante SLIM Retro Gold/0LC15SL6W27KD/angulo.jpg",
              "px": [
               222,
               228
@@ -25041,10 +24916,10 @@
             ]
            },
            "medidas": {
-            "ruta": "images/productos/Interiores/Retro Gold/Proyector Capi Retro Gold/0P3CG706W30KD/medidas.jpg",
+            "ruta": "images/productos/Interiores/Retro Gold/Proyector Capi Retro Gold/0P410010W30KD/medidas.jpg",
             "px": [
-             150,
-             122
+             148,
+             134
             ]
            },
            "ambiente": {
@@ -25055,7 +24930,7 @@
             ]
            },
            "angulo": {
-            "ruta": "images/productos/Interiores/Retro Gold/Lampara Colgante SLIM Retro Gold/0LC15SL6W27KD/angulo.jpg",
+            "ruta": "images/productos/Interiores/Retro Gold/Lámpara Colgante SLIM Retro Gold/0LC15SL6W27KD/angulo.jpg",
             "px": [
              222,
              228
@@ -25086,7 +24961,7 @@
              ]
             },
             "angulo": {
-             "ruta": "images/productos/Interiores/Retro Gold/Lampara Colgante SLIM Retro Gold/0LC15SL6W27KD/angulo.jpg",
+             "ruta": "images/productos/Interiores/Retro Gold/Lámpara Colgante SLIM Retro Gold/0LC15SL6W27KD/angulo.jpg",
              "px": [
               222,
               228
@@ -25116,7 +24991,7 @@
              ]
             },
             "angulo": {
-             "ruta": "images/productos/Interiores/Retro Gold/Lampara Colgante SLIM Retro Gold/0LC15SL6W27KD/angulo.jpg",
+             "ruta": "images/productos/Interiores/Retro Gold/Lámpara Colgante SLIM Retro Gold/0LC15SL6W27KD/angulo.jpg",
              "px": [
               222,
               228
@@ -25146,7 +25021,7 @@
              ]
             },
             "angulo": {
-             "ruta": "images/productos/Interiores/Retro Gold/Lampara Colgante SLIM Retro Gold/0LC15SL6W27KD/angulo.jpg",
+             "ruta": "images/productos/Interiores/Retro Gold/Lámpara Colgante SLIM Retro Gold/0LC15SL6W27KD/angulo.jpg",
              "px": [
               222,
               228
@@ -25176,7 +25051,7 @@
              ]
             },
             "angulo": {
-             "ruta": "images/productos/Interiores/Retro Gold/Lampara Colgante SLIM Retro Gold/0LC15SL6W27KD/angulo.jpg",
+             "ruta": "images/productos/Interiores/Retro Gold/Lámpara Colgante SLIM Retro Gold/0LC15SL6W27KD/angulo.jpg",
              "px": [
               222,
               228
@@ -26353,10 +26228,10 @@
           ],
           "fotos": {
            "luminaria": {
-            "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Tiras LED/0TL12W220VIP6/luminaria.jpg",
+            "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Tiras LED/0TL12W22V4KIP/luminaria.jpg",
             "px": [
-             460,
-             322
+             495,
+             325
             ]
            },
            "medidas": {
@@ -26702,15 +26577,15 @@
            "luminaria": {
             "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Tiras LED/0TNRGB20WIP65/luminaria.jpg",
             "px": [
-             208,
-             48
+             460,
+             234
             ]
            },
            "medidas": {
             "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Tiras LED/0TNRGB20WIP65/medidas.jpg",
             "px": [
-             460,
-             1018
+             244,
+             713
             ]
            },
            "ambiente": {
@@ -26733,15 +26608,15 @@
             "luminaria": {
              "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Tiras LED/0TNRGB20WIP65/luminaria.jpg",
              "px": [
-              208,
-              48
+              460,
+              234
              ]
             },
             "medidas": {
              "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Tiras LED/0TNRGB20WIP65/medidas.jpg",
              "px": [
-              460,
-              1018
+              244,
+              713
              ]
             },
             "ambiente": {
@@ -26936,17 +26811,17 @@
             ]
            },
            "medidas": {
-            "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Tiras LED/00TLEDS12WXXX/medidas.jpg",
+            "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Tiras LED/00TLIPS26WXXX/medidas.jpg",
             "px": [
-             646,
-             397
+             552,
+             1439
             ]
            },
            "ambiente": {
-            "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Tiras LED/00TIRA124KIP6/ambiente.jpg",
+            "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Tiras LED/00TLIPS18WXXX/ambiente.jpg",
             "px": [
-             465,
-             621
+             746,
+             748
             ]
            },
            "angulo": {
@@ -28271,10 +28146,10 @@
             ]
            },
            "ambiente": {
-            "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Tiras LED/00TLEDC13WXXX/ambiente.jpg",
+            "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Tiras LED/00TLIPC13WXXX/ambiente.jpg",
             "px": [
-             267,
-             189
+             650,
+             650
             ]
            },
            "angulo": {
@@ -30378,17 +30253,17 @@
             ],
             "fotos": {
              "luminaria": {
-              "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB7S2020/luminaria.jpg",
+              "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/0PSFB8S2020B/luminaria.jpg",
               "px": [
-               547,
-               516
+               537,
+               530
               ]
              },
              "medidas": {
-              "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/00PSFB7S2020/medidas.jpg",
+              "ruta": "images/productos/Interiores/Tiras y Perfiles LED/Perfiles de Aluminio/Perfiles de Superficie/0PSFB8S2020B/medidas.jpg",
               "px": [
-               519,
-               265
+               417,
+               370
               ]
              }
             },
@@ -33874,10 +33749,10 @@
             ]
            },
            "medidas": {
-            "ruta": "images/productos/Interiores/Proyectores de Carril/Proyector CAP/00PROCA10W30B/medidas.jpg",
+            "ruta": "images/productos/Interiores/Proyectores de Carril/Proyector CAP/00PROCA20W30N/medidas.jpg",
             "px": [
-             684,
-             1360
+             751,
+             1409
             ]
            },
            "ambiente": {
@@ -35755,10 +35630,10 @@
           ],
           "fotos": {
            "luminaria": {
-            "ruta": "images/productos/Interiores/Proyectores de Carril/Proyector PIC/000PRPIC10W30B/luminaria.jpg",
+            "ruta": "images/productos/Interiores/Proyectores de Carril/Proyector PIC/00PRPIC10W30N/luminaria.jpg",
             "px": [
-             300,
-             300
+             396,
+             284
             ]
            },
            "medidas": {
@@ -39628,10 +39503,10 @@
           ]
          },
          "medidas": {
-          "ruta": "images/productos/Exteriores/Balizas/0BETE3012W30K/medidas.jpg",
+          "ruta": "images/productos/Exteriores/Balizas/0BETE5012W30K/medidas.jpg",
           "px": [
-           140,
-           209
+           142,
+           238
           ]
          },
          "ambiente": {
@@ -39991,10 +39866,10 @@
         ],
         "fotos": {
          "luminaria": {
-          "ruta": "images/productos/Exteriores/Balizas/00BE6TI20W30K/luminaria.jpg",
+          "ruta": "images/productos/Exteriores/Balizas/0BE20TI48W30K/luminaria.jpg",
           "px": [
-           119,
-           550
+           139,
+           484
           ]
          },
          "medidas": {
@@ -40022,14 +39897,14 @@
         "fotos_por_codigo": {
          "00BE6TI20W30K": {
           "luminaria": {
-           "ruta": "images/productos/Exteriores/Balizas/00BE6TI20W30K/medidas.jpg",
+           "ruta": "images/productos/Exteriores/Balizas/00BE6TI20W30K/luminaria.jpg",
            "px": [
             119,
             550
            ]
           },
           "medidas": {
-           "ruta": "images/productos/Exteriores/Balizas/00BE6TI20W30K/luminaria.jpg",
+           "ruta": "images/productos/Exteriores/Balizas/00BE6TI20W30K/medidas.jpg",
            "px": [
             193,
             526
@@ -40059,7 +39934,7 @@
            ]
           },
           "medidas": {
-           "ruta": "images/productos/Exteriores/Balizas/00BE6TI20W30K/medidas.jpg",
+           "ruta": "images/productos/Exteriores/Balizas/00BE6TI20W30K/luminaria.jpg",
            "px": [
             119,
             550
@@ -40089,7 +39964,7 @@
            ]
           },
           "medidas": {
-           "ruta": "images/productos/Exteriores/Balizas/00BE6TI20W30K/medidas.jpg",
+           "ruta": "images/productos/Exteriores/Balizas/00BE6TI20W30K/luminaria.jpg",
            "px": [
             119,
             550
@@ -40505,14 +40380,14 @@
         "fotos_por_codigo": {
          "00BALIZ8W3KIP": {
           "luminaria": {
-           "ruta": "images/productos/Exteriores/Balizas/00BALIZ8W3KIP/medidas.jpg",
+           "ruta": "images/productos/Exteriores/Balizas/00BALIZ8W3KIP/luminaria.jpg",
            "px": [
             130,
             371
            ]
           },
           "medidas": {
-           "ruta": "images/productos/Exteriores/Balizas/00BALIZ8W3KIP/luminaria.jpg",
+           "ruta": "images/productos/Exteriores/Balizas/00BALIZ8W3KIP/medidas.jpg",
            "px": [
             138,
             254
@@ -40815,7 +40690,7 @@
       ]
      },
      {
-      "nombre": "Jardín - Estacas",
+      "nombre": "Jardín - Estacas",
       "slug": "jardin-estacas",
       "ruta": "2 - EXTERIORES/2.5 - JARDÍN - ESTACAS",
       "hijos": [],
@@ -40831,28 +40706,28 @@
         ],
         "fotos": {
          "luminaria": {
-          "ruta": "images/productos/Exteriores/Jardin - Estacas/00PINCHOGU10/luminaria.jpg",
+          "ruta": "images/productos/Exteriores/Jardín - Estacas/00PINCHOGU10/luminaria.jpg",
           "px": [
            311,
            451
           ]
          },
          "medidas": {
-          "ruta": "images/productos/Exteriores/Jardin - Estacas/00PINCHOGU10/medidas.jpg",
+          "ruta": "images/productos/Exteriores/Jardín - Estacas/00PINCHOGU10/medidas.jpg",
           "px": [
            273,
            499
           ]
          },
          "ambiente": {
-          "ruta": "images/productos/Exteriores/Jardin - Estacas/00PINCHOGU10/ambiente.jpg",
+          "ruta": "images/productos/Exteriores/Jardín - Estacas/00PINCHOGU10/ambiente.jpg",
           "px": [
            192,
            192
           ]
          },
          "angulo": {
-          "ruta": "images/productos/Exteriores/Jardin - Estacas/00PINCHOGU10/angulo.jpg",
+          "ruta": "images/productos/Exteriores/Jardín - Estacas/00PINCHOGU10/angulo.jpg",
           "px": [
            443,
            415
@@ -40862,28 +40737,28 @@
         "fotos_por_codigo": {
          "00PINCHOGU10": {
           "luminaria": {
-           "ruta": "images/productos/Exteriores/Jardin - Estacas/00PINCHOGU10/luminaria.jpg",
+           "ruta": "images/productos/Exteriores/Jardín - Estacas/00PINCHOGU10/luminaria.jpg",
            "px": [
             311,
             451
            ]
           },
           "medidas": {
-           "ruta": "images/productos/Exteriores/Jardin - Estacas/00PINCHOGU10/medidas.jpg",
+           "ruta": "images/productos/Exteriores/Jardín - Estacas/00PINCHOGU10/medidas.jpg",
            "px": [
             273,
             499
            ]
           },
           "ambiente": {
-           "ruta": "images/productos/Exteriores/Jardin - Estacas/00PINCHOGU10/ambiente.jpg",
+           "ruta": "images/productos/Exteriores/Jardín - Estacas/00PINCHOGU10/ambiente.jpg",
            "px": [
             192,
             192
            ]
           },
           "angulo": {
-           "ruta": "images/productos/Exteriores/Jardin - Estacas/00PINCHOGU10/angulo.jpg",
+           "ruta": "images/productos/Exteriores/Jardín - Estacas/00PINCHOGU10/angulo.jpg",
            "px": [
             443,
             415
@@ -42295,24 +42170,24 @@
         ],
         "fotos": {
          "luminaria": {
-          "ruta": "images/productos/Exteriores/Plafones/00PML12WIP65N/luminaria.jpg",
+          "ruta": "images/productos/Exteriores/Plafones/00PML20WIP65N/luminaria.jpg",
           "px": [
-           300,
-           250
+           707,
+           460
           ]
          },
          "medidas": {
-          "ruta": "images/productos/Exteriores/Plafones/00PML12WIP65N/medidas.jpg",
+          "ruta": "images/productos/Exteriores/Plafones/00PML20WIP65N/medidas.jpg",
           "px": [
-           318,
-           293
+           492,
+           620
           ]
          },
          "ambiente": {
-          "ruta": "images/productos/Exteriores/Plafones/00PLAFON500DA/ambiente.jpg",
+          "ruta": "images/productos/Exteriores/Plafones/00PML20WIP65N/ambiente.jpg",
           "px": [
-           348,
-           324
+           700,
+           700
           ]
          },
          "angulo": {
@@ -42919,7 +42794,7 @@
       ]
      },
      {
-      "nombre": "Lámparas Colgantes",
+      "nombre": "Lámparas Colgantes",
       "slug": "lamparas-colgantes",
       "ruta": "3 - DECORATIVAS/3.2 - LÁMPARAS COLGANTES",
       "hijos": [],
@@ -42935,21 +42810,21 @@
         ],
         "fotos": {
          "luminaria": {
-          "ruta": "images/productos/Decorativas/Lamparas Colgantes/APLCCIRULO500/luminaria.jpg",
+          "ruta": "images/productos/Decorativas/Lámparas Colgantes/APLCCIRULO500/luminaria.jpg",
           "px": [
            514,
            214
           ]
          },
          "medidas": {
-          "ruta": "images/productos/Decorativas/Lamparas Colgantes/APLCCIRULO500/medidas.jpg",
+          "ruta": "images/productos/Decorativas/Lámparas Colgantes/APLCCIRULO500/medidas.jpg",
           "px": [
            417,
            393
           ]
          },
          "ambiente": {
-          "ruta": "images/productos/Decorativas/Lamparas Colgantes/APLCCIRULO500/ambiente.jpg",
+          "ruta": "images/productos/Decorativas/Lámparas Colgantes/APLCCIRULO500/ambiente.jpg",
           "px": [
            545,
            546
@@ -42966,21 +42841,21 @@
         "fotos_por_codigo": {
          "APLCCIRULO500": {
           "luminaria": {
-           "ruta": "images/productos/Decorativas/Lamparas Colgantes/APLCCIRULO500/luminaria.jpg",
+           "ruta": "images/productos/Decorativas/Lámparas Colgantes/APLCCIRULO500/luminaria.jpg",
            "px": [
             514,
             214
            ]
           },
           "medidas": {
-           "ruta": "images/productos/Decorativas/Lamparas Colgantes/APLCCIRULO500/medidas.jpg",
+           "ruta": "images/productos/Decorativas/Lámparas Colgantes/APLCCIRULO500/medidas.jpg",
            "px": [
             417,
             393
            ]
           },
           "ambiente": {
-           "ruta": "images/productos/Decorativas/Lamparas Colgantes/APLCCIRULO500/ambiente.jpg",
+           "ruta": "images/productos/Decorativas/Lámparas Colgantes/APLCCIRULO500/ambiente.jpg",
            "px": [
             545,
             546
@@ -43176,21 +43051,21 @@
         ],
         "fotos": {
          "luminaria": {
-          "ruta": "images/productos/Decorativas/Lamparas Colgantes/APLCCIRULO500/luminaria.jpg",
+          "ruta": "images/productos/Decorativas/Lámparas Colgantes/APLCCIRULO500/luminaria.jpg",
           "px": [
            514,
            214
           ]
          },
          "medidas": {
-          "ruta": "images/productos/Decorativas/Lamparas Colgantes/APLCCIRULO1500/medidas.jpg",
+          "ruta": "images/productos/Decorativas/Lámparas Colgantes/APLCCIRULO1500/medidas.jpg",
           "px": [
            405,
            386
           ]
          },
          "ambiente": {
-          "ruta": "images/productos/Decorativas/Lamparas Colgantes/APLCCIRULO500/ambiente.jpg",
+          "ruta": "images/productos/Decorativas/Lámparas Colgantes/APLCCIRULO500/ambiente.jpg",
           "px": [
            545,
            546
@@ -43207,21 +43082,21 @@
         "fotos_por_codigo": {
          "APLCCIRULO1500": {
           "luminaria": {
-           "ruta": "images/productos/Decorativas/Lamparas Colgantes/APLCCIRULO500/luminaria.jpg",
+           "ruta": "images/productos/Decorativas/Lámparas Colgantes/APLCCIRULO500/luminaria.jpg",
            "px": [
             514,
             214
            ]
           },
           "medidas": {
-           "ruta": "images/productos/Decorativas/Lamparas Colgantes/APLCCIRULO1500/medidas.jpg",
+           "ruta": "images/productos/Decorativas/Lámparas Colgantes/APLCCIRULO1500/medidas.jpg",
            "px": [
             405,
             386
            ]
           },
           "ambiente": {
-           "ruta": "images/productos/Decorativas/Lamparas Colgantes/APLCCIRULO500/ambiente.jpg",
+           "ruta": "images/productos/Decorativas/Lámparas Colgantes/APLCCIRULO500/ambiente.jpg",
            "px": [
             545,
             546
@@ -43417,28 +43292,28 @@
         ],
         "fotos": {
          "luminaria": {
-          "ruta": "images/productos/Decorativas/Lamparas Colgantes/00LSLB24WXXX/luminaria.jpg",
+          "ruta": "images/productos/Decorativas/Lámparas Colgantes/00LSLB24WXXX/luminaria.jpg",
           "px": [
            230,
            452
           ]
          },
          "medidas": {
-          "ruta": "images/productos/Decorativas/Lamparas Colgantes/00LSLB24WXXX/medidas.jpg",
+          "ruta": "images/productos/Decorativas/Lámparas Colgantes/00LSLB24WXXX/medidas.jpg",
           "px": [
            542,
            1529
           ]
          },
          "ambiente": {
-          "ruta": "images/productos/Decorativas/Lamparas Colgantes/00LSLB24WXXX/ambiente.jpg",
+          "ruta": "images/productos/Decorativas/Lámparas Colgantes/00LSLB24WXXX/ambiente.jpg",
           "px": [
            203,
            436
           ]
          },
          "angulo": {
-          "ruta": "images/productos/Interiores/Downlights Empotrados/ZEN/00DLZEN12W27X/angulo.jpg",
+          "ruta": "images/productos/Interiores/Downlights Empotrados/ZEN/00DLZEN07W27X/angulo.jpg",
           "px": [
            568,
            562
@@ -43448,28 +43323,28 @@
         "fotos_por_codigo": {
          "00LSLB24WXXX": {
           "luminaria": {
-           "ruta": "images/productos/Decorativas/Lamparas Colgantes/00LSLB24WXXX/luminaria.jpg",
+           "ruta": "images/productos/Decorativas/Lámparas Colgantes/00LSLB24WXXX/luminaria.jpg",
            "px": [
             230,
             452
            ]
           },
           "medidas": {
-           "ruta": "images/productos/Decorativas/Lamparas Colgantes/00LSLB24WXXX/medidas.jpg",
+           "ruta": "images/productos/Decorativas/Lámparas Colgantes/00LSLB24WXXX/medidas.jpg",
            "px": [
             542,
             1529
            ]
           },
           "ambiente": {
-           "ruta": "images/productos/Decorativas/Lamparas Colgantes/00LSLB24WXXX/ambiente.jpg",
+           "ruta": "images/productos/Decorativas/Lámparas Colgantes/00LSLB24WXXX/ambiente.jpg",
            "px": [
             203,
             436
            ]
           },
           "angulo": {
-           "ruta": "images/productos/Interiores/Downlights Empotrados/ZEN/00DLZEN12W27X/angulo.jpg",
+           "ruta": "images/productos/Interiores/Downlights Empotrados/ZEN/00DLZEN07W27X/angulo.jpg",
            "px": [
             568,
             562
@@ -43666,28 +43541,28 @@
         ],
         "fotos": {
          "luminaria": {
-          "ruta": "images/productos/Decorativas/Lamparas Colgantes/0LSMO4920W30K/luminaria.jpg",
+          "ruta": "images/productos/Decorativas/Lámparas Colgantes/0LSMO4920W30K/luminaria.jpg",
           "px": [
            511,
            283
           ]
          },
          "medidas": {
-          "ruta": "images/productos/Decorativas/Lamparas Colgantes/0LSMO4920W30K/medidas.jpg",
+          "ruta": "images/productos/Decorativas/Lámparas Colgantes/0LSMO4920W30K/medidas.jpg",
           "px": [
            241,
            246
           ]
          },
          "ambiente": {
-          "ruta": "images/productos/Decorativas/Lamparas Colgantes/0LSMO4920W30K/ambiente.jpg",
+          "ruta": "images/productos/Decorativas/Lámparas Colgantes/0LSMO4920W30K/ambiente.jpg",
           "px": [
            485,
            486
           ]
          },
          "angulo": {
-          "ruta": "images/productos/Decorativas/Lamparas Colgantes/0LSMO4920W30K/angulo.jpg",
+          "ruta": "images/productos/Decorativas/Lámparas Colgantes/0LSMO4920W30K/angulo.jpg",
           "px": [
            332,
            333
@@ -43697,28 +43572,28 @@
         "fotos_por_codigo": {
          "0LSMO4920W30K": {
           "luminaria": {
-           "ruta": "images/productos/Decorativas/Lamparas Colgantes/0LSMO4920W30K/luminaria.jpg",
+           "ruta": "images/productos/Decorativas/Lámparas Colgantes/0LSMO4920W30K/luminaria.jpg",
            "px": [
             511,
             283
            ]
           },
           "medidas": {
-           "ruta": "images/productos/Decorativas/Lamparas Colgantes/0LSMO4920W30K/medidas.jpg",
+           "ruta": "images/productos/Decorativas/Lámparas Colgantes/0LSMO4920W30K/medidas.jpg",
            "px": [
             241,
             246
            ]
           },
           "ambiente": {
-           "ruta": "images/productos/Decorativas/Lamparas Colgantes/0LSMO4920W30K/ambiente.jpg",
+           "ruta": "images/productos/Decorativas/Lámparas Colgantes/0LSMO4920W30K/ambiente.jpg",
            "px": [
             485,
             486
            ]
           },
           "angulo": {
-           "ruta": "images/productos/Decorativas/Lamparas Colgantes/0LSMO4920W30K/angulo.jpg",
+           "ruta": "images/productos/Decorativas/Lámparas Colgantes/0LSMO4920W30K/angulo.jpg",
            "px": [
             332,
             333
@@ -43923,28 +43798,28 @@
         ],
         "fotos": {
          "luminaria": {
-          "ruta": "images/productos/Decorativas/Lamparas Colgantes/00LSG51714800/luminaria.jpg",
+          "ruta": "images/productos/Decorativas/Lámparas Colgantes/00LSG51714800/luminaria.jpg",
           "px": [
            260,
            243
           ]
          },
          "medidas": {
-          "ruta": "images/productos/Decorativas/Lamparas Colgantes/00LSG51714800/medidas.jpg",
+          "ruta": "images/productos/Decorativas/Lámparas Colgantes/00LSG51714800/medidas.jpg",
           "px": [
            519,
            489
           ]
          },
          "ambiente": {
-          "ruta": "images/productos/Decorativas/Lamparas Colgantes/00LSG51714800/ambiente.jpg",
+          "ruta": "images/productos/Decorativas/Lámparas Colgantes/00LSG51714800/ambiente.jpg",
           "px": [
            520,
            598
           ]
          },
          "angulo": {
-          "ruta": "images/productos/Decorativas/Lamparas Colgantes/00LSG51714800/angulo.jpg",
+          "ruta": "images/productos/Decorativas/Lámparas Colgantes/00LSG51714800/angulo.jpg",
           "px": [
            565,
            530
@@ -43954,28 +43829,28 @@
         "fotos_por_codigo": {
          "00LSG51714800": {
           "luminaria": {
-           "ruta": "images/productos/Decorativas/Lamparas Colgantes/00LSG51714800/luminaria.jpg",
+           "ruta": "images/productos/Decorativas/Lámparas Colgantes/00LSG51714800/luminaria.jpg",
            "px": [
             260,
             243
            ]
           },
           "medidas": {
-           "ruta": "images/productos/Decorativas/Lamparas Colgantes/00LSG51714800/medidas.jpg",
+           "ruta": "images/productos/Decorativas/Lámparas Colgantes/00LSG51714800/medidas.jpg",
            "px": [
             519,
             489
            ]
           },
           "ambiente": {
-           "ruta": "images/productos/Decorativas/Lamparas Colgantes/00LSG51714800/ambiente.jpg",
+           "ruta": "images/productos/Decorativas/Lámparas Colgantes/00LSG51714800/ambiente.jpg",
            "px": [
             520,
             598
            ]
           },
           "angulo": {
-           "ruta": "images/productos/Decorativas/Lamparas Colgantes/00LSG51714800/angulo.jpg",
+           "ruta": "images/productos/Decorativas/Lámparas Colgantes/00LSG51714800/angulo.jpg",
            "px": [
             565,
             530
@@ -44164,28 +44039,28 @@
         ],
         "fotos": {
          "luminaria": {
-          "ruta": "images/productos/Decorativas/Lamparas Colgantes/00LAMSP300NG/luminaria.jpg",
+          "ruta": "images/productos/Decorativas/Lámparas Colgantes/00LAMSP300NG/luminaria.jpg",
           "px": [
            167,
            282
           ]
          },
          "medidas": {
-          "ruta": "images/productos/Decorativas/Lamparas Colgantes/00LAMSP300NG/medidas.jpg",
+          "ruta": "images/productos/Decorativas/Lámparas Colgantes/00LAMSP300NG/medidas.jpg",
           "px": [
            298,
            387
           ]
          },
          "ambiente": {
-          "ruta": "images/productos/Decorativas/Lamparas Colgantes/00LAMSP300NG/ambiente.jpg",
+          "ruta": "images/productos/Decorativas/Lámparas Colgantes/00LAMSP300NG/ambiente.jpg",
           "px": [
            192,
            192
           ]
          },
          "angulo": {
-          "ruta": "images/productos/Decorativas/Lamparas Colgantes/00LAMSP300NG/angulo.jpg",
+          "ruta": "images/productos/Decorativas/Lámparas Colgantes/00LAMSP300NG/angulo.jpg",
           "px": [
            391,
            389
@@ -44195,28 +44070,28 @@
         "fotos_por_codigo": {
          "00LAMSP300NG": {
           "luminaria": {
-           "ruta": "images/productos/Decorativas/Lamparas Colgantes/00LAMSP300NG/luminaria.jpg",
+           "ruta": "images/productos/Decorativas/Lámparas Colgantes/00LAMSP300NG/luminaria.jpg",
            "px": [
             167,
             282
            ]
           },
           "medidas": {
-           "ruta": "images/productos/Decorativas/Lamparas Colgantes/00LAMSP300NG/medidas.jpg",
+           "ruta": "images/productos/Decorativas/Lámparas Colgantes/00LAMSP300NG/medidas.jpg",
            "px": [
             298,
             387
            ]
           },
           "ambiente": {
-           "ruta": "images/productos/Decorativas/Lamparas Colgantes/00LAMSP300NG/ambiente.jpg",
+           "ruta": "images/productos/Decorativas/Lámparas Colgantes/00LAMSP300NG/ambiente.jpg",
            "px": [
             192,
             192
            ]
           },
           "angulo": {
-           "ruta": "images/productos/Decorativas/Lamparas Colgantes/00LAMSP300NG/angulo.jpg",
+           "ruta": "images/productos/Decorativas/Lámparas Colgantes/00LAMSP300NG/angulo.jpg",
            "px": [
             391,
             389
@@ -44381,21 +44256,21 @@
         ],
         "fotos": {
          "luminaria": {
-          "ruta": "images/productos/Decorativas/Lamparas Colgantes/0LSCR64037W4K/luminaria.jpg",
+          "ruta": "images/productos/Decorativas/Lámparas Colgantes/0LSCR64037W4K/luminaria.jpg",
           "px": [
            307,
            177
           ]
          },
          "medidas": {
-          "ruta": "images/productos/Decorativas/Lamparas Colgantes/0LSCR64037W4K/medidas.jpg",
+          "ruta": "images/productos/Decorativas/Lámparas Colgantes/0LSCR64037W4K/medidas.jpg",
           "px": [
            267,
            191
           ]
          },
          "ambiente": {
-          "ruta": "images/productos/Decorativas/Lamparas Colgantes/0LSCR64037W4K/ambiente.jpg",
+          "ruta": "images/productos/Decorativas/Lámparas Colgantes/0LSCR64037W4K/ambiente.jpg",
           "px": [
            375,
            372
@@ -44412,21 +44287,21 @@
         "fotos_por_codigo": {
          "0LSCR64037W4K": {
           "luminaria": {
-           "ruta": "images/productos/Decorativas/Lamparas Colgantes/0LSCR64037W4K/luminaria.jpg",
+           "ruta": "images/productos/Decorativas/Lámparas Colgantes/0LSCR64037W4K/luminaria.jpg",
            "px": [
             307,
             177
            ]
           },
           "medidas": {
-           "ruta": "images/productos/Decorativas/Lamparas Colgantes/0LSCR64037W4K/medidas.jpg",
+           "ruta": "images/productos/Decorativas/Lámparas Colgantes/0LSCR64037W4K/medidas.jpg",
            "px": [
             267,
             191
            ]
           },
           "ambiente": {
-           "ruta": "images/productos/Decorativas/Lamparas Colgantes/0LSCR64037W4K/ambiente.jpg",
+           "ruta": "images/productos/Decorativas/Lámparas Colgantes/0LSCR64037W4K/ambiente.jpg",
            "px": [
             375,
             372
@@ -44622,21 +44497,21 @@
         ],
         "fotos": {
          "luminaria": {
-          "ruta": "images/productos/Decorativas/Lamparas Colgantes/00VENIC8WG30K/luminaria.jpg",
+          "ruta": "images/productos/Decorativas/Lámparas Colgantes/00VENIC8WG30K/luminaria.jpg",
           "px": [
            48,
            430
           ]
          },
          "medidas": {
-          "ruta": "images/productos/Decorativas/Lamparas Colgantes/00VENIC8WG30K/medidas.jpg",
+          "ruta": "images/productos/Decorativas/Lámparas Colgantes/00VENIC8WG30K/medidas.jpg",
           "px": [
            204,
            373
           ]
          },
          "angulo": {
-          "ruta": "images/productos/Decorativas/Lamparas Colgantes/00VENIC8WG30K/angulo.jpg",
+          "ruta": "images/productos/Decorativas/Lámparas Colgantes/00VENIC8WG30K/angulo.jpg",
           "px": [
            384,
            388
@@ -44646,21 +44521,21 @@
         "fotos_por_codigo": {
          "00VENIC8WG30K": {
           "luminaria": {
-           "ruta": "images/productos/Decorativas/Lamparas Colgantes/00VENIC8WG30K/luminaria.jpg",
+           "ruta": "images/productos/Decorativas/Lámparas Colgantes/00VENIC8WG30K/luminaria.jpg",
            "px": [
             48,
             430
            ]
           },
           "medidas": {
-           "ruta": "images/productos/Decorativas/Lamparas Colgantes/00VENIC8WG30K/medidas.jpg",
+           "ruta": "images/productos/Decorativas/Lámparas Colgantes/00VENIC8WG30K/medidas.jpg",
            "px": [
             204,
             373
            ]
           },
           "angulo": {
-           "ruta": "images/productos/Decorativas/Lamparas Colgantes/00VENIC8WG30K/angulo.jpg",
+           "ruta": "images/productos/Decorativas/Lámparas Colgantes/00VENIC8WG30K/angulo.jpg",
            "px": [
             384,
             388
@@ -44879,7 +44754,7 @@
           ]
          },
          "angulo": {
-          "ruta": "images/productos/Decorativas/Lamparas Colgantes/0LSMO4920W30K/angulo.jpg",
+          "ruta": "images/productos/Decorativas/Lámparas Colgantes/0LSMO4920W30K/angulo.jpg",
           "px": [
            332,
            333
@@ -44903,7 +44778,7 @@
            ]
           },
           "angulo": {
-           "ruta": "images/productos/Decorativas/Lamparas Colgantes/0LSMO4920W30K/angulo.jpg",
+           "ruta": "images/productos/Decorativas/Lámparas Colgantes/0LSMO4920W30K/angulo.jpg",
            "px": [
             332,
             333
@@ -46881,10 +46756,10 @@
             ]
            },
            "angulo": {
-            "ruta": "images/productos/Industriales/Campanas/Campanas SOL/OOCAMP100W5KS/angulo.jpg",
+            "ruta": "images/productos/Industriales/Campanas/Campanas SOL/OOCAMP200W5KS/angulo.jpg",
             "px": [
-             400,
-             392
+             413,
+             408
             ]
            }
           },
@@ -48882,10 +48757,10 @@
             ]
            },
            "medidas": {
-            "ruta": "images/productos/Industriales/Estancas/Estancas 1200mm/00PANST36W4KD/medidas.jpg",
+            "ruta": "images/productos/Industriales/Estancas/Estancas 1200mm/00PANST44W4KD/medidas.jpg",
             "px": [
-             604,
-             306
+             620,
+             309
             ]
            },
            "ambiente": {
@@ -49233,10 +49108,10 @@
           ],
           "fotos": {
            "luminaria": {
-            "ruta": "images/productos/Interiores/Lineales/Lineales/0030511740/luminaria.jpg",
+            "ruta": "images/productos/Industriales/Estancas/Estancas 1200mm/00PANEST19W4K/luminaria.jpg",
             "px": [
-             472,
-             200
+             619,
+             318
             ]
            },
            "medidas": {
@@ -49254,10 +49129,10 @@
             ]
            },
            "angulo": {
-            "ruta": "images/productos/Interiores/Lineales/Lineales/0030511740/angulo.jpg",
+            "ruta": "images/productos/Industriales/Estancas/Estancas 1200mm/00PANEST19W4K/angulo.jpg",
             "px": [
-             360,
-             369
+             867,
+             825
             ]
            }
           },
@@ -50858,10 +50733,10 @@
             ]
            },
            "medidas": {
-            "ruta": "images/productos/Industriales/Estancas/Estancas 1500mm y 1600mm/00PANE30W4K16/medidas.jpg",
+            "ruta": "images/productos/Industriales/Estancas/Estancas 1500mm y 1600mm/00PANEST45W4K/medidas.jpg",
             "px": [
-             415,
-             180
+             534,
+             245
             ]
            },
            "ambiente": {
@@ -52123,10 +51998,10 @@
           ]
          },
          "medidas": {
-          "ruta": "images/productos/Industriales/Paneles/00PANEL42WXXX/medidas.jpg",
+          "ruta": "images/productos/Industriales/Paneles/00PANER42W3CCT/medidas.jpg",
           "px": [
-           628,
-           945
+           465,
+           1467
           ]
          },
          "ambiente": {
@@ -54152,10 +54027,10 @@
           ]
          },
          "medidas": {
-          "ruta": "images/productos/Industriales/Paneles/0PE2C24W4KIP4/medidas.jpg",
+          "ruta": "images/productos/Industriales/Paneles/0PE2C48W4KIP4/medidas.jpg",
           "px": [
-           143,
-           170
+           137,
+           253
           ]
          },
          "ambiente": {
@@ -54185,8 +54060,8 @@
           "medidas": {
            "ruta": "images/productos/Industriales/Paneles/0PE2C24W4KIP4/medidas.jpg",
            "px": [
-            143,
-            170
+            137,
+            131
            ]
           },
           "ambiente": {
@@ -54215,8 +54090,8 @@
           "medidas": {
            "ruta": "images/productos/Industriales/Paneles/0PE2C48W4KIP4/medidas.jpg",
            "px": [
-            139,
-            288
+            137,
+            253
            ]
           },
           "ambiente": {
@@ -54245,8 +54120,8 @@
           "medidas": {
            "ruta": "images/productos/Industriales/Paneles/0PE2C48W4KIP4/medidas.jpg",
            "px": [
-            139,
-            288
+            137,
+            253
            ]
           },
           "ambiente": {
@@ -55224,7 +55099,7 @@
       "ruta": "4 - INDUSTRIALES/4.5 - PROYECTORES",
       "hijos": [
        {
-        "nombre": "Proyectores PAR (económicos)",
+        "nombre": "Proyectores PAR (económicos)",
         "slug": "proyectores-par-economicos",
         "ruta": "4 - INDUSTRIALES/4.5 - PROYECTORES/PROYECTORES PAR (Económicos)",
         "hijos": [],
@@ -55256,24 +55131,24 @@
           ],
           "fotos": {
            "luminaria": {
-            "ruta": "images/productos/Industriales/Proyectores/Proyectores PAR (economicos)/00PREX100W3KB/luminaria.jpg",
+            "ruta": "images/productos/Industriales/Proyectores/Proyectores PAR (económicos)/00PREX150W3KB/luminaria.jpg",
             "px": [
-             402,
-             512
+             451,
+             523
             ]
            },
            "medidas": {
-            "ruta": "images/productos/Industriales/Proyectores/Proyectores PAR (economicos)/00PREX100W3KB/medidas.jpg",
+            "ruta": "images/productos/Industriales/Proyectores/Proyectores PAR (económicos)/00PREX100W3KB/medidas.jpg",
             "px": [
              537,
              412
             ]
            },
            "ambiente": {
-            "ruta": "images/productos/Industriales/Proyectores/0072701500/ambiente.jpg",
+            "ruta": "images/productos/Industriales/Proyectores/Proyectores PAR (económicos)/00PREX150W3KB/ambiente.jpg",
             "px": [
-             259,
-             194
+             426,
+             426
             ]
            },
            "angulo": {
@@ -55287,14 +55162,14 @@
           "fotos_por_codigo": {
            "00PREX100W3KB": {
             "luminaria": {
-             "ruta": "images/productos/Industriales/Proyectores/Proyectores PAR (economicos)/00PREX100W3KB/luminaria.jpg",
+             "ruta": "images/productos/Industriales/Proyectores/Proyectores PAR (económicos)/00PREX100W3KB/luminaria.jpg",
              "px": [
               402,
               512
              ]
             },
             "medidas": {
-             "ruta": "images/productos/Industriales/Proyectores/Proyectores PAR (economicos)/00PREX100W3KB/medidas.jpg",
+             "ruta": "images/productos/Industriales/Proyectores/Proyectores PAR (económicos)/00PREX100W3KB/medidas.jpg",
              "px": [
               537,
               412
@@ -55317,14 +55192,14 @@
            },
            "00PREX100W4KB": {
             "luminaria": {
-             "ruta": "images/productos/Industriales/Proyectores/Proyectores PAR (economicos)/00PREX100W3KB/luminaria.jpg",
+             "ruta": "images/productos/Industriales/Proyectores/Proyectores PAR (económicos)/00PREX100W3KB/luminaria.jpg",
              "px": [
               402,
               512
              ]
             },
             "medidas": {
-             "ruta": "images/productos/Industriales/Proyectores/Proyectores PAR (economicos)/00PREX100W3KB/medidas.jpg",
+             "ruta": "images/productos/Industriales/Proyectores/Proyectores PAR (económicos)/00PREX100W3KB/medidas.jpg",
              "px": [
               537,
               412
@@ -55347,14 +55222,14 @@
            },
            "00PREX100W6KB": {
             "luminaria": {
-             "ruta": "images/productos/Industriales/Proyectores/Proyectores PAR (economicos)/00PREX100W3KB/luminaria.jpg",
+             "ruta": "images/productos/Industriales/Proyectores/Proyectores PAR (económicos)/00PREX100W3KB/luminaria.jpg",
              "px": [
               402,
               512
              ]
             },
             "medidas": {
-             "ruta": "images/productos/Industriales/Proyectores/Proyectores PAR (economicos)/00PREX100W3KB/medidas.jpg",
+             "ruta": "images/productos/Industriales/Proyectores/Proyectores PAR (económicos)/00PREX100W3KB/medidas.jpg",
              "px": [
               537,
               412
@@ -55377,21 +55252,21 @@
            },
            "00PREX150W3KB": {
             "luminaria": {
-             "ruta": "images/productos/Industriales/Proyectores/Proyectores PAR (economicos)/00PREX150W3KB/luminaria.jpg",
+             "ruta": "images/productos/Industriales/Proyectores/Proyectores PAR (económicos)/00PREX150W3KB/luminaria.jpg",
              "px": [
               451,
               523
              ]
             },
             "medidas": {
-             "ruta": "images/productos/Industriales/Proyectores/Proyectores PAR (economicos)/00PREX150W3KB/medidas.jpg",
+             "ruta": "images/productos/Industriales/Proyectores/Proyectores PAR (económicos)/00PREX150W3KB/medidas.jpg",
              "px": [
               528,
               407
              ]
             },
             "ambiente": {
-             "ruta": "images/productos/Industriales/Proyectores/Proyectores PAR (economicos)/00PREX150W3KB/ambiente.jpg",
+             "ruta": "images/productos/Industriales/Proyectores/Proyectores PAR (económicos)/00PREX150W3KB/ambiente.jpg",
              "px": [
               426,
               426
@@ -55407,21 +55282,21 @@
            },
            "00PREX150W4KB": {
             "luminaria": {
-             "ruta": "images/productos/Industriales/Proyectores/Proyectores PAR (economicos)/00PREX150W3KB/luminaria.jpg",
+             "ruta": "images/productos/Industriales/Proyectores/Proyectores PAR (económicos)/00PREX150W3KB/luminaria.jpg",
              "px": [
               451,
               523
              ]
             },
             "medidas": {
-             "ruta": "images/productos/Industriales/Proyectores/Proyectores PAR (economicos)/00PREX150W3KB/medidas.jpg",
+             "ruta": "images/productos/Industriales/Proyectores/Proyectores PAR (económicos)/00PREX150W3KB/medidas.jpg",
              "px": [
               528,
               407
              ]
             },
             "ambiente": {
-             "ruta": "images/productos/Industriales/Proyectores/Proyectores PAR (economicos)/00PREX150W3KB/ambiente.jpg",
+             "ruta": "images/productos/Industriales/Proyectores/Proyectores PAR (económicos)/00PREX150W3KB/ambiente.jpg",
              "px": [
               426,
               426
@@ -55437,21 +55312,21 @@
            },
            "00PREX150W6KB": {
             "luminaria": {
-             "ruta": "images/productos/Industriales/Proyectores/Proyectores PAR (economicos)/00PREX150W3KB/luminaria.jpg",
+             "ruta": "images/productos/Industriales/Proyectores/Proyectores PAR (económicos)/00PREX150W3KB/luminaria.jpg",
              "px": [
               451,
               523
              ]
             },
             "medidas": {
-             "ruta": "images/productos/Industriales/Proyectores/Proyectores PAR (economicos)/00PREX150W3KB/medidas.jpg",
+             "ruta": "images/productos/Industriales/Proyectores/Proyectores PAR (económicos)/00PREX150W3KB/medidas.jpg",
              "px": [
               528,
               407
              ]
             },
             "ambiente": {
-             "ruta": "images/productos/Industriales/Proyectores/Proyectores PAR (economicos)/00PREX150W3KB/ambiente.jpg",
+             "ruta": "images/productos/Industriales/Proyectores/Proyectores PAR (económicos)/00PREX150W3KB/ambiente.jpg",
              "px": [
               426,
               426
@@ -55467,14 +55342,14 @@
            },
            "00PREX50W3KB": {
             "luminaria": {
-             "ruta": "images/productos/Industriales/Proyectores/Proyectores PAR (economicos)/00PREX50W3KB/luminaria.jpg",
+             "ruta": "images/productos/Industriales/Proyectores/Proyectores PAR (económicos)/00PREX50W3KB/luminaria.jpg",
              "px": [
               424,
               518
              ]
             },
             "medidas": {
-             "ruta": "images/productos/Industriales/Proyectores/Proyectores PAR (economicos)/00PREX50W3KB/medidas.jpg",
+             "ruta": "images/productos/Industriales/Proyectores/Proyectores PAR (económicos)/00PREX50W3KB/medidas.jpg",
              "px": [
               525,
               392
@@ -55497,14 +55372,14 @@
            },
            "00PREX50W4KB": {
             "luminaria": {
-             "ruta": "images/productos/Industriales/Proyectores/Proyectores PAR (economicos)/00PREX50W3KB/luminaria.jpg",
+             "ruta": "images/productos/Industriales/Proyectores/Proyectores PAR (económicos)/00PREX50W3KB/luminaria.jpg",
              "px": [
               424,
               518
              ]
             },
             "medidas": {
-             "ruta": "images/productos/Industriales/Proyectores/Proyectores PAR (economicos)/00PREX50W3KB/medidas.jpg",
+             "ruta": "images/productos/Industriales/Proyectores/Proyectores PAR (económicos)/00PREX50W3KB/medidas.jpg",
              "px": [
               525,
               392
@@ -55527,14 +55402,14 @@
            },
            "00PREX50W6KB": {
             "luminaria": {
-             "ruta": "images/productos/Industriales/Proyectores/Proyectores PAR (economicos)/00PREX50W3KB/luminaria.jpg",
+             "ruta": "images/productos/Industriales/Proyectores/Proyectores PAR (económicos)/00PREX50W3KB/luminaria.jpg",
              "px": [
               424,
               518
              ]
             },
             "medidas": {
-             "ruta": "images/productos/Industriales/Proyectores/Proyectores PAR (economicos)/00PREX50W3KB/medidas.jpg",
+             "ruta": "images/productos/Industriales/Proyectores/Proyectores PAR (económicos)/00PREX50W3KB/medidas.jpg",
              "px": [
               525,
               392
@@ -56457,17 +56332,17 @@
           ],
           "fotos": {
            "luminaria": {
-            "ruta": "images/productos/Industriales/Proyectores/Proyectores SEC/00PROEX100XK/luminaria.jpg",
+            "ruta": "images/productos/Industriales/Proyectores/Proyectores SEC/00PROEX200XK/luminaria.jpg",
             "px": [
-             436,
-             500
+             472,
+             476
             ]
            },
            "medidas": {
-            "ruta": "images/productos/Industriales/Proyectores/Proyectores SEC/00PROEX100XK/medidas.jpg",
+            "ruta": "images/productos/Industriales/Proyectores/Proyectores SEC/00PROEX200XK/medidas.jpg",
             "px": [
-             513,
-             504
+             520,
+             505
             ]
            },
            "ambiente": {
@@ -57196,17 +57071,17 @@
           ],
           "fotos": {
            "luminaria": {
-            "ruta": "images/productos/Industriales/Proyectores/Proyectores SLIM/00PREX100W4KS/luminaria.jpg",
+            "ruta": "images/productos/Industriales/Proyectores/Proyectores SLIM/00PREX150W4KS/luminaria.jpg",
             "px": [
-             486,
-             503
+             516,
+             537
             ]
            },
            "medidas": {
-            "ruta": "images/productos/Industriales/Proyectores/Proyectores SLIM/00PREX100W4KS/medidas.jpg",
+            "ruta": "images/productos/Industriales/Proyectores/Proyectores SLIM/00PREX150W4KS/medidas.jpg",
             "px": [
-             433,
-             489
+             440,
+             499
             ]
            },
            "ambiente": {
@@ -59646,10 +59521,10 @@
             ]
            },
            "medidas": {
-            "ruta": "images/productos/Industriales/Farolas/Farolas LI/00FALI30WXXXK/medidas.jpg",
+            "ruta": "images/productos/Industriales/Farolas/Farolas LI/00FALI60WXXXK/medidas.jpg",
             "px": [
-             242,
-             270
+             441,
+             492
             ]
            },
            "ambiente": {
@@ -62094,28 +61969,28 @@
           ],
           "fotos": {
            "luminaria": {
-            "ruta": "images/productos/Hospitalarias - Salas Blancas/Salas Blancas/Pantallas Hospitalarias 600 X 600mm/0PHE27WICIP6D/luminaria.jpg",
+            "ruta": "images/productos/Hospitalarias - Salas Blancas/Salas Blancas/Pantallas Hospitalarias 600 X 600mm/0PHE45W4KIP6D/luminaria.jpg",
             "px": [
-             449,
-             147
+             693,
+             357
             ]
            },
            "medidas": {
             "ruta": "images/productos/Hospitalarias - Salas Blancas/Salas Blancas/Pantallas Hospitalarias 600 X 600mm/0PHE27WICIP6D/medidas.jpg",
             "px": [
-             237,
-             36
+             490,
+             495
             ]
            },
            "ambiente": {
-            "ruta": "images/productos/Hospitalarias - Salas Blancas/Salas Blancas/Pantallas Hospitalarias 600 X 600mm/0PHE27WICIP6D/ambiente.jpg",
+            "ruta": "images/productos/Hospitalarias - Salas Blancas/Salas Blancas/Pantallas Hospitalarias 600 X 600mm/0PHE45W4KIP6D/ambiente.jpg",
             "px": [
-             244,
-             245
+             346,
+             407
             ]
            },
            "angulo": {
-            "ruta": "images/productos/Hospitalarias - Salas Blancas/Salas Blancas/Pantallas Hospitalarias 600 X 600mm/0PHE27WICIP6D/angulo.jpg",
+            "ruta": "images/productos/Hospitalarias - Salas Blancas/Salas Blancas/Pantallas Hospitalarias 600 X 600mm/0PHE27WICIP6D/medidas.jpg",
             "px": [
              490,
              495
@@ -62134,8 +62009,8 @@
             "medidas": {
              "ruta": "images/productos/Hospitalarias - Salas Blancas/Salas Blancas/Pantallas Hospitalarias 600 X 600mm/0PHE27WICIP6D/medidas.jpg",
              "px": [
-              237,
-              36
+              490,
+              495
              ]
             },
             "ambiente": {
@@ -62143,13 +62018,6 @@
              "px": [
               244,
               245
-             ]
-            },
-            "angulo": {
-             "ruta": "images/productos/Hospitalarias - Salas Blancas/Salas Blancas/Pantallas Hospitalarias 600 X 600mm/0PHE27WICIP6D/angulo.jpg",
-             "px": [
-              490,
-              495
              ]
             }
            },
@@ -62176,7 +62044,7 @@
              ]
             },
             "angulo": {
-             "ruta": "images/productos/Hospitalarias - Salas Blancas/Salas Blancas/Pantallas Hospitalarias 600 X 600mm/0PHE27WICIP6D/angulo.jpg",
+             "ruta": "images/productos/Hospitalarias - Salas Blancas/Salas Blancas/Pantallas Hospitalarias 600 X 600mm/0PHE27WICIP6D/medidas.jpg",
              "px": [
               490,
               495
@@ -62494,7 +62362,7 @@
             ]
            },
            "angulo": {
-            "ruta": "images/productos/Hospitalarias - Salas Blancas/Salas Blancas/Pantallas Hospitalarias 600 X 600mm/0PHE27WICIP6D/angulo.jpg",
+            "ruta": "images/productos/Hospitalarias - Salas Blancas/Salas Blancas/Pantallas Hospitalarias 600 X 600mm/0PHE27WICIP6D/medidas.jpg",
             "px": [
              490,
              495
@@ -62525,7 +62393,7 @@
              ]
             },
             "angulo": {
-             "ruta": "images/productos/Hospitalarias - Salas Blancas/Salas Blancas/Pantallas Hospitalarias 600 X 600mm/0PHE27WICIP6D/angulo.jpg",
+             "ruta": "images/productos/Hospitalarias - Salas Blancas/Salas Blancas/Pantallas Hospitalarias 600 X 600mm/0PHE27WICIP6D/medidas.jpg",
              "px": [
               490,
               495
@@ -63869,8 +63737,8 @@
            "medidas": {
             "ruta": "images/productos/Hospitalarias - Salas Blancas/Salas Blancas/Pantallas Hospitalarias 600 X 600mm/0PHE27WICIP6D/medidas.jpg",
             "px": [
-             237,
-             36
+             490,
+             495
             ]
            },
            "ambiente": {
@@ -63878,13 +63746,6 @@
             "px": [
              244,
              245
-            ]
-           },
-           "angulo": {
-            "ruta": "images/productos/Hospitalarias - Salas Blancas/Salas Blancas/Pantallas Hospitalarias 600 X 600mm/0PHE27WICIP6D/angulo.jpg",
-            "px": [
-             490,
-             495
             ]
            }
           },
@@ -63900,8 +63761,8 @@
             "medidas": {
              "ruta": "images/productos/Hospitalarias - Salas Blancas/Salas Blancas/Pantallas Hospitalarias 600 X 600mm/0PHE27WICIP6D/medidas.jpg",
              "px": [
-              237,
-              36
+              490,
+              495
              ]
             },
             "ambiente": {
@@ -63909,13 +63770,6 @@
              "px": [
               244,
               245
-             ]
-            },
-            "angulo": {
-             "ruta": "images/productos/Hospitalarias - Salas Blancas/Salas Blancas/Pantallas Hospitalarias 600 X 600mm/0PHE27WICIP6D/angulo.jpg",
-             "px": [
-              490,
-              495
              ]
             }
            }
@@ -64126,10 +63980,10 @@
             ]
            },
            "medidas": {
-            "ruta": "images/productos/Hospitalarias - Salas Blancas/Salas Blancas/Pantallas Hospitalarias 1200mm X 300mm/00PHIPA45W40K/medidas.jpg",
+            "ruta": "images/productos/Hospitalarias - Salas Blancas/Salas Blancas/Pantallas Hospitalarias 1200mm X 300mm/00PHIPE45W30K/medidas.jpg",
             "px": [
-             345,
-             205
+             609,
+             400
             ]
            },
            "ambiente": {
@@ -68554,8 +68408,8 @@
     ]
    },
    {
-    "nombre": "Fuentes de Alimentación 24V IP20 ON-OFF",
-    "slug": "fuentes-de-alimentacion-24v-ip20-on-off",
+    "nombre": "Fuentes de Alimentación",
+    "slug": "fuentes-de-alimentacion",
     "ruta": "8 - FUENTES DE ALIMENTACIÓN 24V IP20 ON-OFF",
     "hijos": [
      {
@@ -68587,6 +68441,13 @@
            1037,
            524
           ]
+         },
+         "luminaria": {
+          "ruta": "images/productos/Fuentes de Alimentación/Fuentes de 24V/00FUAL20024IP/luminaria.jpg",
+          "px": [
+           475,
+           195
+          ]
          }
         },
         "fotos_por_codigo": {
@@ -68603,6 +68464,13 @@
            "px": [
             1037,
             524
+           ]
+          },
+          "luminaria": {
+           "ruta": "images/productos/Fuentes de Alimentación/Fuentes de 24V/00FUAL20024IP/luminaria.jpg",
+           "px": [
+            475,
+            195
            ]
           }
          }
@@ -68627,14 +68495,14 @@
         ],
         "fotos": {
          "luminaria": {
-          "ruta": "images/productos/Fuentes de Alimentacion 24V IP20 ON-OFF/Fuentes de 24V/00FUAL20024IP/luminaria.jpg",
+          "ruta": "images/productos/Fuentes de Alimentación/Fuentes de 24V/00FUAL20024IP/luminaria.jpg",
           "px": [
            475,
            195
           ]
          },
          "medidas": {
-          "ruta": "images/productos/Fuentes de Alimentacion 24V IP20 ON-OFF/Fuentes de 24V/00FUAL20024IP/medidas.jpg",
+          "ruta": "images/productos/Fuentes de Alimentación/Fuentes de 24V/00FUAL20024IP/medidas.jpg",
           "px": [
            479,
            247
@@ -68644,14 +68512,14 @@
         "fotos_por_codigo": {
          "00FUAL20024IP": {
           "luminaria": {
-           "ruta": "images/productos/Fuentes de Alimentacion 24V IP20 ON-OFF/Fuentes de 24V/00FUAL20024IP/luminaria.jpg",
+           "ruta": "images/productos/Fuentes de Alimentación/Fuentes de 24V/00FUAL20024IP/luminaria.jpg",
            "px": [
             475,
             195
            ]
           },
           "medidas": {
-           "ruta": "images/productos/Fuentes de Alimentacion 24V IP20 ON-OFF/Fuentes de 24V/00FUAL20024IP/medidas.jpg",
+           "ruta": "images/productos/Fuentes de Alimentación/Fuentes de 24V/00FUAL20024IP/medidas.jpg",
            "px": [
             479,
             247
@@ -68660,7 +68528,7 @@
          },
          "00LHV6024IP67": {
           "luminaria": {
-           "ruta": "images/productos/Fuentes de Alimentacion 24V IP20 ON-OFF/Fuentes de 24V/00LHV6024IP67/luminaria.jpg",
+           "ruta": "images/productos/Fuentes de Alimentación/Fuentes de 24V/00LHV6024IP67/luminaria.jpg",
            "px": [
             266,
             124
@@ -68856,14 +68724,14 @@
         ],
         "fotos": {
          "luminaria": {
-          "ruta": "images/productos/Fuentes de Alimentacion 24V IP20 ON-OFF/Fuentes de 12V/00FA36W12VIP2/luminaria.jpg",
+          "ruta": "images/productos/Fuentes de Alimentación/Fuentes de 12V/00FA36W12VIP2/luminaria.jpg",
           "px": [
            470,
            199
           ]
          },
          "medidas": {
-          "ruta": "images/productos/Fuentes de Alimentacion 24V IP20 ON-OFF/Fuentes de 12V/00FA36W12VIP2/medidas.jpg",
+          "ruta": "images/productos/Fuentes de Alimentación/Fuentes de 12V/00FA36W12VIP2/medidas.jpg",
           "px": [
            464,
            254
@@ -68873,14 +68741,14 @@
         "fotos_por_codigo": {
          "00FA36W12VIP2": {
           "luminaria": {
-           "ruta": "images/productos/Fuentes de Alimentacion 24V IP20 ON-OFF/Fuentes de 12V/00FA36W12VIP2/luminaria.jpg",
+           "ruta": "images/productos/Fuentes de Alimentación/Fuentes de 12V/00FA36W12VIP2/luminaria.jpg",
            "px": [
             470,
             199
            ]
           },
           "medidas": {
-           "ruta": "images/productos/Fuentes de Alimentacion 24V IP20 ON-OFF/Fuentes de 12V/00FA36W12VIP2/medidas.jpg",
+           "ruta": "images/productos/Fuentes de Alimentación/Fuentes de 12V/00FA36W12VIP2/medidas.jpg",
            "px": [
             464,
             254

@@ -1,12 +1,37 @@
 {
+ "tiras_de_color": [
+  "00DLECSL6WCCT: 1 tira(s) de color tipo \"Cct\"/\"Rgb\", no son fotos de producto",
+  "00DLECSL9WCCT: 1 tira(s) de color tipo \"Cct\"/\"Rgb\", no son fotos de producto",
+  "0DLECSL12WCCT: 1 tira(s) de color tipo \"Cct\"/\"Rgb\", no son fotos de producto",
+  "0DLECSL20WCCT: 1 tira(s) de color tipo \"Cct\"/\"Rgb\", no son fotos de producto",
+  "0DLECSL25WCCT: 1 tira(s) de color tipo \"Cct\"/\"Rgb\", no son fotos de producto",
+  "0DECUSL12WCCT: 1 tira(s) de color tipo \"Cct\"/\"Rgb\", no son fotos de producto",
+  "0DECUSL20WCCT: 1 tira(s) de color tipo \"Cct\"/\"Rgb\", no son fotos de producto",
+  "0DLECUSL6WCCT: 1 tira(s) de color tipo \"Cct\"/\"Rgb\", no son fotos de producto",
+  "0DACSL12WCCTX: 1 tira(s) de color tipo \"Cct\"/\"Rgb\", no son fotos de producto",
+  "0DACSL20WCCTX: 1 tira(s) de color tipo \"Cct\"/\"Rgb\", no son fotos de producto",
+  "0DACSL25WCCTX: 1 tira(s) de color tipo \"Cct\"/\"Rgb\", no son fotos de producto",
+  "0DLACSL6WCCTX: 1 tira(s) de color tipo \"Cct\"/\"Rgb\", no son fotos de producto",
+  "00DLAT10WCCTB: 1 tira(s) de color tipo \"Cct\"/\"Rgb\", no son fotos de producto",
+  "00DLAT10WCCTN: 1 tira(s) de color tipo \"Cct\"/\"Rgb\", no son fotos de producto",
+  "00DLAT20WCCTB: 1 tira(s) de color tipo \"Cct\"/\"Rgb\", no son fotos de producto",
+  "00DLAT20WCCTN: 1 tira(s) de color tipo \"Cct\"/\"Rgb\", no son fotos de producto",
+  "0TNRGB20WIP65: 1 tira(s) de color tipo \"Cct\"/\"Rgb\", no son fotos de producto",
+  "0PE2C24W4KIP4: 1 tira(s) de color tipo \"Cct\"/\"Rgb\", no son fotos de producto",
+  "0PE2C48W4KIP4: 1 tira(s) de color tipo \"Cct\"/\"Rgb\", no son fotos de producto",
+  "0PE2C48W4KIPD: 1 tira(s) de color tipo \"Cct\"/\"Rgb\", no son fotos de producto",
+  "0PHE27WICIP6D: 1 tira(s) de color tipo \"Cct\"/\"Rgb\", no son fotos de producto",
+  "0PHE36WICIP1D: 1 tira(s) de color tipo \"Cct\"/\"Rgb\", no son fotos de producto"
+ ],
  "producto_distinto": [
-  "Downlight empotrable circular SLIM LED: las fichas del grupo tienen fotos de producto distintas (3)",
   "Downlight empotrable circular SLIM LED: las fichas del grupo tienen fotos de producto distintas (2)",
-  "Downlight empotrable cuadrado SLIM LED: las fichas del grupo tienen fotos de producto distintas (4)",
-  "Downlight empotrado fijo mod. ZEN: las fichas del grupo tienen fotos de producto distintas (2)",
+  "Downlight empotrable circular SLIM LED: las fichas del grupo tienen fotos de producto distintas (2)",
+  "Downlight empotrado fijo mod. ZEN: las fichas del grupo tienen fotos de producto distintas (3)",
   "Downlight adosable cuadrado SLIM LED: las fichas del grupo tienen fotos de producto distintas (2)",
   "Downlight adosable circular SLIM LED: las fichas del grupo tienen fotos de producto distintas (2)",
+  "Downlight adosable circular SLIM LED: las fichas del grupo tienen fotos de producto distintas (2)",
   "Downlight adosable cuadrado SLIM LED: las fichas del grupo tienen fotos de producto distintas (2)",
+  "Downlight para adosar o supender fijo mod. TUBE led: las fichas del grupo tienen fotos de producto distintas (2)",
   "Perfil lineal 58 para adosar o suspender XX: las fichas del grupo tienen fotos de producto distintas (2)",
   "Perfil lineal MINI para adosar o suspender: las fichas del grupo tienen fotos de producto distintas (3)",
   "Lámpara colgante SLIM GOLD RETRO: las fichas del grupo tienen fotos de producto distintas (2)",
@@ -281,6 +306,11 @@
  "una_sola_imagen": [
   "00MANDOCOTR: una sola imagen a la derecha, se toma como foto de producto (comprobar que no sean cotas)"
  ],
+ "intercambiadas": [
+  "00BE6TI20W30K: en el origen las cotas van antes que el producto, se intercambian",
+  "00BALIZ8W3KIP: en el origen las cotas van antes que el producto, se intercambian",
+  "00LAMSP300NG: en el origen las cotas van antes que el producto, se intercambian"
+ ],
  "ambiente_era_el_producto": [
   "00FAROLVILLAN: a la izquierda solo está repetida la foto del producto, no hay foto de ambiente",
   "00MDVILLA50W4: a la izquierda solo está repetida la foto del producto, no hay foto de ambiente",
@@ -288,7 +318,7 @@
   "00FAROLVILLAN: a la izquierda solo está repetida la foto del producto, no hay foto de ambiente",
   "00MDVILLA50W4: a la izquierda solo está repetida la foto del producto, no hay foto de ambiente"
  ],
- "intercambiadas": [
-  "00LAMSP300NG: en el origen las cotas van antes que el producto, se intercambian"
+ "fotos_a_mano": [
+  "EMS61000 · luminaria: se le pone images/productos/Fuentes de Alimentación/Fuentes de 24V/00FUAL20024IP/luminaria.jpg"
  ]
 }
