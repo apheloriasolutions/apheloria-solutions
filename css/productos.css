@@ -25,10 +25,12 @@
 .cat-ruta-actual { color: var(--ink); }
 
 /* ── Cabecera: foto de ambiente, título y texto ── */
+/* La portada de Productos tiene que dejar ver las 8 secciones sin desplazar en una
+   pantalla de escritorio: cabecera compacta y tarjetas algo más bajas. */
 .cat-hero {
-  display: grid; grid-template-columns: minmax(0, 40%) 1fr;
-  gap: 3rem; align-items: center;
-  padding: 2.8rem 3rem 2.4rem;
+  display: grid; grid-template-columns: minmax(0, 27%) 1fr;
+  gap: 2.4rem; align-items: center;
+  padding: 1.2rem 3rem 1rem;
 }
 .cat-hero--sin-foto { grid-template-columns: 1fr; }
 .cat-hero-foto {
@@ -54,15 +56,15 @@
 }
 .cat-hero-titulo {
   font-family: 'Montserrat', sans-serif;
-  font-size: clamp(1.7rem, 3vw, 3rem); font-weight: 100;
+  font-size: clamp(1.5rem, 2.4vw, 2.4rem); font-weight: 100;
   color: var(--heading); letter-spacing: 0.13em; line-height: 1.08;
   text-transform: uppercase;
 }
 .cat-hero-texto {
   font-family: 'Raleway', sans-serif;
-  font-size: clamp(0.95rem, 1.2vw, 1.1rem); line-height: 1.75;
+  font-size: clamp(0.88rem, 1.05vw, 1rem); line-height: 1.65;
   color: var(--ink); font-weight: 300;
-  max-width: 62ch; margin-top: 1.2rem;
+  max-width: 62ch; margin-top: 0.9rem;
   padding-left: 1.4rem; border-left: 2px solid var(--accent-soft);
 }
 
@@ -72,7 +74,7 @@
   font-family: 'Raleway', sans-serif;
   font-size: 0.66rem; letter-spacing: 0.4em; text-transform: uppercase;
   color: var(--accent-text); font-weight: 400;
-  padding: 0 3rem; margin-bottom: 1.4rem;
+  padding: 0 3rem; margin-bottom: 0.9rem;
 }
 .cat-apartado::after { content: ''; flex: 1; height: 1px; background: rgba(var(--accent-rgb),0.3); }
 
@@ -82,7 +84,7 @@
 }
 .cat-grid {
   display: grid; grid-template-columns: repeat(4, 1fr);
-  gap: 2rem 1.5rem; padding: 0 3rem 2.5rem;
+  gap: 0.9rem 1.5rem; padding: 0 3rem 1.2rem;
   animation: catAparece 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 .cat-card {
@@ -95,7 +97,7 @@
 }
 /* Fondo blanco: las fotos de producto vienen recortadas sobre blanco */
 .cat-card-foto {
-  aspect-ratio: 4/3; background: var(--bg);
+  aspect-ratio: 16/9; background: var(--bg);
   border: 1px solid rgba(var(--ink-rgb),0.07);
   display: flex; align-items: center; justify-content: center;
   overflow: hidden; padding: 1.1rem;
@@ -110,7 +112,7 @@
 .cat-card-foto--ambiente { padding: 0; border-color: transparent; }
 .cat-card-foto--ambiente img { width: 100%; height: 100%; max-width: none; max-height: none;
                                object-fit: cover; }
-.cat-card-cuerpo { padding: 0.85rem 0.1rem 0; display: flex; flex-direction: column; gap: 0.3rem; }
+.cat-card-cuerpo { padding: 0.5rem 0.1rem 0; display: flex; flex-direction: column; gap: 0.3rem; }
 .cat-card-nombre {
   font-family: 'Raleway', sans-serif; font-weight: 600;
   font-size: clamp(0.85rem, 1.05vw, 1rem); line-height: 1.3; color: var(--ink);

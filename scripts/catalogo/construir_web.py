@@ -136,7 +136,9 @@ def hero_de(nodo, textos, clave):
     if a_mano and os.path.exists(os.path.join(RAIZ, a_mano)):
         from PIL import Image
         with Image.open(os.path.join(RAIZ, a_mano)) as im:
-            return {'ruta': a_mano, 'px': list(im.size), 'ambiente': '/portadas/' in a_mano}
+            # una fotografía llena el hueco; una foto de producto va centrada sobre blanco
+            es_foto = '/portadas/' in a_mano or a_mano.endswith('/ambiente.jpg')
+            return {'ruta': a_mano, 'px': list(im.size), 'ambiente': es_foto}
     f = primera_foto(nodo, 'ambiente')
     if f:
         f = dict(f, ambiente=True)
