@@ -5,11 +5,11 @@ La web todavía no lo usa: esto es el material listo para montarla.
 
 ## Resumen
 
-- **213 botones** a partir de **397 fichas**.
-- Con tabla de características: **204** · sin tabla: 9.
+- **212 botones** a partir de **397 fichas**.
+- Con tabla de características: **203** · sin tabla: 9.
 - Con notas al pie: 58.
-- Con descripción: 204.
-- Con foto de producto: 212.
+- Con descripción: 203.
+- Con foto de producto: 211.
 - Con PDF descargable: **397 fichas** de 397.
 
 ## De dónde sale cada cosa
@@ -37,7 +37,7 @@ Lo que **no** sale: la segunda hoja del Excel, que lleva referencias de proveedo
 | 17 | 4 |
 | 18 | 9 |
 | 19 | 23 |
-| 20 | 73 |
+| 20 | 72 |
 | 21 | 46 |
 | 22 | 7 |
 
@@ -61,7 +61,7 @@ Lo que **no** sale: la segunda hoja del Excel, que lleva referencias de proveedo
   `00MDVILLA50W4`
 - **Farola Led SOLAR** — Industriales › Farolas › Farolas SO (solar)  
   `00FASO16WCCTK`
-- **5B, generador de pulsos de grupo rápido: Everfine EMS61000-4A, analizador de espectro: KH3935, probador de alta tensión** — Fuentes de Alimentación › Fuentes de 24V  
+- **Fuente de alimentación LIFUD 24V IP20** — Fuentes de Alimentación › Fuentes de 24V  
   `EMS61000`
 
 ## Botones, uno a uno
@@ -93,10 +93,10 @@ Lo que **no** sale: la segunda hoja del Excel, que lleva referencias de proveedo
 | Downlight empotrable circular SLIM LED | Interiores › Downlights Empotrados › SLIM › SLIM Cuadrado | 1 | 21 | 0 | 1 | 4/4 | 1 |
 | Downlight empotrable cuadrado SLIM LED | Interiores › Downlights Empotrados › SLIM › SLIM Cuadrado | 3 | 21 | 0 | 1 | 4/4 | 3 |
 | Downlight empotrable cuadrado SLIM LED | Interiores › Downlights Empotrados › SLIM › SLIM Cuadrado CCT | 4 | 21 | 0 | 4 | 4/4 | 4 |
-| Downlight empotrado fijo mod. ZEN | Interiores › Downlights Empotrados › ZEN | 21 | 20 | 1 | 8 | 4/4 | 21 |
+| Downlight empotrado fijo mod. ZEN | Interiores › Downlights Empotrados › ZEN | 21 | 20 | 1 | 1 | 4/4 | 21 |
 | Downlight adosable cuadrado SLIM LED | Interiores › Downlights Adosados › SLIM Adosable › 5CLIM Cuadrado 3CCT | 3 | 21 | 0 | 1 | 4/4 | 3 |
 | Downlight adosable circular SLIM LED | Interiores › Downlights Adosados › SLIM Adosable › SLIM Circulares | 5 | 21 | 0 | 1 | 4/4 | 5 |
-| Downlight adosable circular SLIM LED | Interiores › Downlights Adosados › SLIM Adosable › SLIM Circulares 3CCT | 4 | 21 | 0 | 4 | 4/4 | 4 |
+| Downlight adosable circular SLIM LED | Interiores › Downlights Adosados › SLIM Adosable › SLIM Circulares 3CCT | 4 | 21 | 0 | 1 | 4/4 | 4 |
 | Downlight adosable cuadrado SLIM LED | Interiores › Downlights Adosados › SLIM Adosable › SLIM Cuadrado | 3 | 21 | 0 | 1 | 4/4 | 3 |
 | Downlight de superficie o para supender fijo mod. TAC led | Interiores › Downlights Adosados › TAC | 1 | 20 | 1 | 1 | 4/4 | 1 |
 | Downlight para adosar o supender fijo mod. TUBE led | Interiores › Downlights Adosados › Tubular | 4 | 20 | 0 | 1 | 4/4 | 4 |
@@ -124,7 +124,7 @@ Lo que **no** sale: la segunda hoja del Excel, que lleva referencias de proveedo
 | Downlight empotrado mod. MOTA gold retro D.80 | Interiores › Retro Gold › Luminarias Empotrada Retro Gold | 3 | 20 | 1 | 1 | 4/4 | 3 |
 | Proyector mod. Capi Gold retro | Interiores › Retro Gold › Proyector Capi Retro Gold | 4 | 20 | 1 | 4 | 4/4 | 4 |
 | TIRA LED | Interiores › Tiras y Perfiles LED › Tiras LED | 1 | 18 | 1 | 1 | 4/4 | 1 |
-| TIRA LED 12W_mt | Interiores › Tiras y Perfiles LED › Tiras LED | 2 | 19 | 0 | 2 | 4/4 | 2 |
+| TIRA LED 12W_mt | Interiores › Tiras y Perfiles LED › Tiras LED | 2 | 19 | 0 | 1 | 4/4 | 2 |
 | Tira NEON Led flexible | Interiores › Tiras y Perfiles LED › Tiras LED | 1 | 15 | 1 | 1 | 4/4 | 1 |
 | Tira de Led flexible | Interiores › Tiras y Perfiles LED › Tiras LED | 9 | 19 | 2 | 9 | 4/4 | 9 |
 | Tira flexible mod. TIP COB LED | Interiores › Tiras y Perfiles LED › Tiras LED | 1 | 17 | 1 | 1 | 4/4 | 1 |
@@ -208,7 +208,6 @@ Lo que **no** sale: la segunda hoja del Excel, que lleva referencias de proveedo
 | Luminaria suspendida mod. Circulo 640 decorativa circular para suspender | Decorativas › Lámparas Colgantes | 1 | 19 | 0 | 1 | 4/4 | 1 |
 | Luminaria suspendida mod. VENICE RETRO GOLD | Decorativas › Lámparas Colgantes | 1 | 20 | 0 | 1 | 3/4 | 1 |
 | Luminaria circular de superficie mod. NEO | Decorativas › Superficie | 1 | 20 | 0 | 1 | 3/4 | 1 |
-| Tubo LED T8 | Industriales | 1 | 20 | 0 | 1 | 4/4 | 1 |
 | Campana para suspender mod. ALFA | Industriales › Campanas › Campanas ALFA | 2 | 20 | 0 | 1 | 4/4 | 2 |
 | Campana para suspender mod. ALFA 150 | Industriales › Campanas › Campanas ALFA | 2 | 20 | 0 | 1 | 4/4 | 2 |
 | Campana para suspender mod. ALFA 300 | Industriales › Campanas › Campanas ALFA | 2 | 20 | 0 | 1 | 4/4 | 2 |
@@ -230,8 +229,8 @@ Lo que **no** sale: la segunda hoja del Excel, que lleva referencias de proveedo
 | Luminaria mod. LINC LED luz indirecta | Industriales › Paneles | 2 | 21 | 0 | 1 | 4/4 | 2 |
 | PANEL LED | Industriales › Paneles | 1 | 21 | 0 | 1 | 4/4 | 1 |
 | Panel LED AQUA | Industriales › Paneles | 1 | 21 | 0 | 1 | 4/4 | 1 |
-| Panel LED BURO | Industriales › Paneles | 2 | 22 | 0 | 2 | 4/4 | 2 |
-| Panel LED HI | Industriales › Paneles | 2 | 21 | 0 | 2 | 4/4 | 2 |
+| Panel LED BURO | Industriales › Paneles | 2 | 22 | 0 | 1 | 4/4 | 2 |
+| Panel LED HI | Industriales › Paneles | 2 | 21 | 0 | 1 | 4/4 | 2 |
 | Panel LED Slim | Industriales › Paneles | 1 | 20 | 0 | 1 | 4/4 | 1 |
 | Panel LED TRI | Industriales › Paneles | 1 | 21 | 0 | 1 | 4/4 | 1 |
 | Panel de LED Slim | Industriales › Paneles | 1 | 20 | 0 | 1 | 4/4 | 1 |
@@ -245,7 +244,7 @@ Lo que **no** sale: la segunda hoja del Excel, que lleva referencias de proveedo
 | Proyector alto flujo mod. ACL80 | Industriales › Proyectores | 1 | 20 | 0 | 1 | 4/4 | 1 |
 | Proyector para exteriores mod. PAR | Industriales › Proyectores › Proyectores PAR (económicos) | 9 | 20 | 0 | 1 | 4/4 | 9 |
 | Proyector para exteriores mod. SEC | Industriales › Proyectores › Proyectores SEC | 5 | 20 | 0 | 1 | 4/4 | 5 |
-| Proyector para exteriores mod. SLIM | Industriales › Proyectores › Proyectores SLIM | 8 | 20 | 0 | 2 | 4/4 | 8 |
+| Proyector para exteriores mod. SLIM | Industriales › Proyectores › Proyectores SLIM | 8 | 20 | 0 | 1 | 4/4 | 8 |
 | Farola Led MN | Industriales › Farolas › Farolas | 1 | 20 | 0 | 1 | 4/4 | 1 |
 | Farola Led VA | Industriales › Farolas › Farolas | 1 | 20 | 0 | 1 | 4/4 | 1 |
 | Luminaria farol modelo Villa acero acabado pintado al horno negro | Industriales › Farolas › Farolas | 1 | 0 | 0 | 0 | 2/4 | 1 |
@@ -278,6 +277,6 @@ Lo que **no** sale: la segunda hoja del Excel, que lleva referencias de proveedo
 | Luminaría emergencia EXIT S superficie | Emergencia › Emergencia | 1 | 19 | 0 | 1 | 4/4 | 1 |
 | PROYECTOR EMERGENCIA VESUBIO | Emergencia › Emergencia | 1 | 18 | 0 | 1 | 4/4 | 1 |
 | Tubo LED T8 | Bombillas y Accesorios | 1 | 20 | 0 | 1 | 4/4 | 1 |
-| 5B, generador de pulsos de grupo rápido: Everfine EMS61000-4A, analizador de espectro: KH3935, probador de alta tensión | Fuentes de Alimentación › Fuentes de 24V | 1 | 0 | 0 | 0 | 3/4 | 1 |
 | FUENTE ALIMENTACION | Fuentes de Alimentación › Fuentes de 24V | 2 | 12 | 0 | 1 | 2/4 | 2 |
+| Fuente de alimentación LIFUD 24V IP20 | Fuentes de Alimentación › Fuentes de 24V | 1 | 0 | 0 | 0 | 3/4 | 1 |
 | Fuente de alimentación | Fuentes de Alimentación › Fuentes de 12V | 1 | 12 | 0 | 1 | 2/4 | 1 |

@@ -110,8 +110,8 @@
   "0080115000: 1 imagen(es) más a la izquierda, se ignoran",
   "0080132000: 1 imagen(es) más a la izquierda, se ignoran",
   "0080223000: 1 imagen(es) más a la izquierda, se ignoran",
-  "EMS61000: 2 imagen(es) más a la izquierda, se ignoran",
-  "00LHV6024IP67: 1 imagen(es) más a la izquierda, se ignoran"
+  "00LHV6024IP67: 1 imagen(es) más a la izquierda, se ignoran",
+  "EMS61000: 2 imagen(es) más a la izquierda, se ignoran"
  ],
  "vectoriales": [
   "0LC15SL6W27KD: 1 imagen(es) EMF/WMF que no se pueden abrir",
@@ -246,9 +246,9 @@
   "00PERFLEXACER: solo hay dibujo de medidas, no hay foto de producto",
   "00FASO16WCCTK: solo hay dibujo de medidas, no hay foto de producto",
   "00FASO16WCCTK: sin foto de producto",
+  "00FUAL20024IP: solo hay dibujo de medidas, no hay foto de producto",
   "EMS61000: solo hay dibujo de medidas, no hay foto de producto",
   "EMS61000: sin foto de producto",
-  "00FUAL20024IP: solo hay dibujo de medidas, no hay foto de producto",
   "00FA36W12VIP2: solo hay dibujo de medidas, no hay foto de producto"
  ],
  "izquierda_es_el_producto": [

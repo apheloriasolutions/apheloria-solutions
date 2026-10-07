@@ -14,8 +14,10 @@ import json, os, re
 RAIZ = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 DATOS = os.path.join(RAIZ, 'data', 'catalogo.json')
 TEXTOS = os.path.join(RAIZ, 'data', 'textos.json')
+MEDIDAS = os.path.join(RAIZ, 'data', 'medidas.json')
 SALIDA = os.path.join(RAIZ, 'js', 'catalogo-web.js')
 
+LAS_MEDIDAS = {}
 POTENCIA = re.compile(r'^Potencia\b', re.I)
 TEMPERATURA = re.compile(r'^Temperatura de color', re.I)
 
@@ -59,6 +61,24 @@ def etiquetas_de_ficha(boton):
     if len(set(salida.values())) < len(codigos):      # no las distingue: mejor el código
         return {c: c for c in codigos}
     return salida
+
+
+def medidas_de(boton, medidas):
+    """Un producto puede venir en varias medidas, cada una con su dibujo acotado. La medida
+    en texto no está en ninguna celda del Excel: se ha leído del propio dibujo y vive en
+    data/medidas.json, que se edita a mano."""
+    por_codigo = boton.get('fotos_por_codigo') or {}
+    vistas = {}
+    for c in boton['codigos']:
+        m = (por_codigo.get(c) or {}).get('medidas')
+        if not m:
+            continue
+        v = vistas.setdefault(m['ruta'], {'texto': '', 'foto': {'ruta': m['ruta'], 'px': m['px']},
+                                          'codigos': []})
+        v['codigos'].append(c)
+        if not v['texto'] and medidas.get(c):
+            v['texto'] = medidas[c]
+    return list(vistas.values())
 
 
 def foto(d, tipo):
@@ -129,12 +149,20 @@ def convertir(nodo, textos, ruta=()):
     productos = []
     for b in nodo['botones']:
         etiquetas = etiquetas_de_ficha(b)
+        medidas = medidas_de(b, LAS_MEDIDAS)
+        tabla = list(b.get('tabla', []))
+        textos_medida = [m['texto'] for m in medidas if m['texto']]
+        if textos_medida and not any(e.lower().startswith(('medida', 'dimensi')) for e, _ in tabla):
+            # cada medida ya lleva " · " dentro, así que entre medidas se usa " / " y la
+            # web las pinta una por línea
+            tabla.append(['Medida', ' / '.join(dict.fromkeys(textos_medida))])
         productos.append({
             'nombre': b['nombre'],
             'slug': sin_repetir(b['slug'], usados),
             'codigos': b['codigos'],
             'resumen': resumen(b),
-            'tabla': b.get('tabla', []),
+            'tabla': tabla,
+            'medidas': medidas,
             'notas': b.get('notas', []),
             'descripcion': b.get('descripcion', []),
             'fotos': {t: foto(b.get('fotos'), t) for t in ('luminaria', 'medidas', 'ambiente', 'angulo')},
@@ -164,6 +192,8 @@ def rutas(nodo, ruta=()):
 def main():
     cat = json.load(open(DATOS, encoding='utf-8'))
     textos = json.load(open(TEXTOS, encoding='utf-8')) if os.path.exists(TEXTOS) else {}
+    global LAS_MEDIDAS
+    LAS_MEDIDAS = json.load(open(MEDIDAS, encoding='utf-8')) if os.path.exists(MEDIDAS) else {}
 
     nuevas = 0
     for clave, nodo in rutas(cat['arbol']):

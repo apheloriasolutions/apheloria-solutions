@@ -28,6 +28,10 @@ RAIZ = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)
 FUENTE = os.path.join(RAIZ, 'fuentes', 'fichas')
 SALIDA = os.path.join(RAIZ, 'data', 'catalogo.json')
 IGNORAR_CARPETAS = {'CARATULAS'}
+# Fichas duplicadas que ensucian la navegación. El archivo se llama "farolas.xlsx" pero
+# dentro lleva la ficha del Tubo LED T8, que ya está en Bombillas y Accesorios: hacía que
+# Industriales mostrara un producto suelto detrás de sus cinco secciones.
+IGNORAR_FICHAS = {os.path.join('4 - INDUSTRIALES', 'farolas.xlsx')}
 
 # ── corte del nombre ──────────────────────────────────────────────────────────
 UNIDADES = r'W|K|Kº|lm|Lm|LM|V|mA|Ah|h|H|mm|cm|m|º|°|%'
@@ -72,6 +76,10 @@ ENLACES = {'y', 'o', 'de', 'del', 'la', 'el', 'los', 'las', 'para', 'con', 'en',
 FICHAS_RENOMBRADAS = {
     # al Excel se le come un espacio y ZEN salía como dos productos distintos
     'Downlight empotradofijo mod. ZEN': 'Downlight empotrado fijo mod. ZEN',
+    # esta ficha no trae código ni descripción al principio, y el nombre salía de la línea
+    # donde enumera los aparatos con los que miden la fuente
+    '5B, generador de pulsos de grupo rápido: Everfine EMS61000-4A, analizador de espectro: '
+    'KH3935, probador de alta tensión': 'Fuente de alimentación LIFUD 24V IP20',
 }
 CARPETAS_RENOMBRADAS = {
     # la carpeta dice "24V IP20 ON-OFF" pero dentro hay 12V y 24V, IP65 e IP67
@@ -236,6 +244,8 @@ def recorrer(carpeta, relativa=''):
             hijo = recorrer(ruta, rel)
             if hijo['hijos'] or hijo['botones']:     # las carpetas vacías no se muestran
                 nodo_hijos.append(hijo)
+        elif rel in IGNORAR_FICHAS:
+            incidencias['no_es_ficha'].append(f'{rel} (duplicada: es el Tubo LED T8 de Bombillas)')
         elif es_ficha(entrada):
             f = leer_ficha(ruta, rel)
             if f:

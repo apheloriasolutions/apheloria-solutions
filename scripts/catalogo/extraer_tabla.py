@@ -124,7 +124,12 @@ def leer_ficha(rel):
     return {'filas': filas, 'notas': notas, 'descripcion': descripcion_de(hoja)}, None
 
 
-DATO_SUELTO = re.compile(r'^\d+(?:[.,]\d+)?\s*(?:W|w|K|k|lm|Lm|mm|cm|m|V|v|º|°|%)?$')
+# Un "dato suelto" es lo que cambia de una variante a otra sin cambiar el texto: vatios,
+# grados, milímetros, miliamperios, medidas encadenadas (597x597mm, 2x12W) y poco más.
+UNIDAD = r'(?:W|K|lm|mm|cm|m|V|mA|A|h|º|°|%|CCT)'
+DATO_SUELTO = re.compile(rf'^\d+(?:[.,]\d+)?(?:\s*[xX/-]\s*\d+(?:[.,]\d+)?)*\s*{UNIDAD}?'
+                         rf'(?:\s*[xX/-]\s*\d+(?:[.,]\d+)?\s*{UNIDAD}?)*$', re.I)
+SIN_PUNTUACION = re.compile(r'[\s.,;:·()]+')
 
 
 def fundir_tramo(variantes):
@@ -135,6 +140,9 @@ def fundir_tramo(variantes):
         if x not in v:
             v.append(x)
     if len(v) == 1:
+        return v[0]
+    # si solo cambia la puntuación, no es una variante distinta
+    if len({SIN_PUNTUACION.sub('', x).lower() for x in v}) == 1:
         return v[0]
     pre = os.path.commonprefix(v)
     suf = os.path.commonprefix([x[::-1] for x in v])[::-1]
@@ -160,38 +168,63 @@ def fundir_tramo(variantes):
     return pre.rstrip() + (' ' if espacio else '') + '-'.join(medios) + suf
 
 
+def posicion(opcodes, i):
+    """De una posición en el texto base a la posición equivalente en el otro texto."""
+    for tag, i1, i2, j1, j2 in opcodes:
+        if i1 <= i < i2:
+            return j1 + (i - i1) if tag == 'equal' else j1
+        if i < i1:
+            return j1
+    return opcodes[-1][4] if opcodes else 0
+
+
 def fundir_descripciones(textos):
-    """Si las descripciones de un grupo solo cambian en un dato suelto (casi siempre los vatios),
-    se juntan en una sola. Si cambian de verdad, se dejan por separado."""
+    """Si las descripciones de un grupo solo cambian en datos sueltos (los vatios, los
+    milímetros), se juntan en una sola. Si cambia el texto, se dejan por separado."""
     if len(textos) < 2:
         return textos
     base = textos[0].split()
-    cambios = {}
-    for t in textos[1:]:
-        otros = t.split()
-        for tag, i1, i2, j1, j2 in difflib.SequenceMatcher(None, base, otros,
-                                                           autojunk=False).get_opcodes():
+    otros = [t.split() for t in textos[1:]]
+    opcodes = [difflib.SequenceMatcher(None, base, o, autojunk=False).get_opcodes() for o in otros]
+
+    # todos los tramos del texto base donde alguna ficha dice algo distinto
+    tramos = []
+    for ops in opcodes:
+        for tag, i1, i2, j1, j2 in ops:
             if tag == 'equal':
                 continue
-            if i2 - i1 > 4 or j2 - j1 > 4 or i1 == i2 or j1 == j2:
-                return textos            # cambia demasiado, o sobra/falta texto
-            cambios.setdefault((i1, i2), []).append(' '.join(otros[j1:j2]))
-    if not cambios or len(cambios) > 3:
+            if i1 == i2 or j1 == j2:
+                return textos          # una variante añade o quita texto: eso no es un dato
+            tramos.append((i1, i2))
+    if not tramos:
+        return [textos[0]]
+    # los que se pisan se funden en uno solo: a veces una ficha pega dos palabras
+    # ("LUMINANCIA12W") y el tramo que cambia no cae igual en todas
+    tramos.sort()
+    unidos = [list(tramos[0])]
+    for a, b in tramos[1:]:
+        if a <= unidos[-1][1]:
+            unidos[-1][1] = max(unidos[-1][1], b)
+        else:
+            unidos.append([a, b])
+    if len(unidos) > 5:
         return textos
-    tramos = sorted(cambios)
-    if any(a2 > b1 for (_, a2), (b1, _) in zip(tramos, tramos[1:])):
-        return textos                    # los tramos que cambian se pisan entre sí
 
     salida, pos = [], 0
-    for tramo in tramos:
-        junto = fundir_tramo([' '.join(base[tramo[0]:tramo[1]])] + cambios[tramo])
+    for a, b in unidos:
+        if b - a > 4:
+            return textos
+        variantes = [' '.join(base[a:b])]
+        for o, ops in zip(otros, opcodes):
+            variantes.append(' '.join(o[posicion(ops, a):posicion(ops, b)]))
+        junto = fundir_tramo(variantes)
         if junto is None:
             return textos
-        salida += base[pos:tramo[0]]
+        salida += base[pos:a]
         salida.append(junto)
-        pos = tramo[1]
+        pos = b
     salida += base[pos:]
-    return [' '.join(salida)]
+    return [' '.join(x for x in salida if x)]
 
 
 def sin_redundantes(trozos):

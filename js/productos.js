@@ -126,24 +126,36 @@ function pintarNavegacion(nodo, cadena, ruta) {
 const NOMBRE_FOTO = { luminaria: 'Producto', medidas: 'Medidas', ambiente: 'Ambiente', angulo: 'Curva fotométrica' };
 
 function pintarFicha(producto, cadena) {
-  const fotos = Object.entries(producto.fotos).filter(([, f]) => f);
-  const principal = producto.fotos.luminaria || (fotos[0] || [])[1];
+  // La galería lleva la foto de producto, un dibujo por cada medida en la que se fabrica,
+  // la de ambiente y la curva fotométrica.
+  const medidas = producto.medidas || [];
+  const fotos = [];
+  if (producto.fotos.luminaria) fotos.push(['Producto', producto.fotos.luminaria]);
+  if (medidas.length > 1) {
+    medidas.forEach((m, i) => fotos.push([m.texto || `Medida ${i + 1}`, m.foto]));
+  } else if (producto.fotos.medidas) {
+    fotos.push([(medidas[0] || {}).texto || 'Medidas', producto.fotos.medidas]);
+  }
+  if (producto.fotos.ambiente) fotos.push(['Ambiente', producto.fotos.ambiente]);
+  if (producto.fotos.angulo) fotos.push(['Curva fotométrica', producto.fotos.angulo]);
+  const principal = (fotos[0] || [])[1];
 
   const galeria = `<div class="ficha-galeria">
       <figure class="ficha-foto" id="fichaFoto">
         ${principal ? `<img src="${url(principal.ruta)}" alt="${esc(producto.nombre)}" style="${medida(principal)}">` : ''}
       </figure>
-      ${fotos.length > 1 ? `<div class="ficha-miniaturas">` + fotos.map(([tipo, f], i) => `
+      ${fotos.length > 1 ? `<div class="ficha-miniaturas">` + fotos.map(([tipo, f]) => `
         <button type="button" class="ficha-mini${f === principal ? ' activa' : ''}"
                 data-foto="${url(f.ruta)}" data-ancho="${f.px?.[0] || 400}"
-                title="${esc(NOMBRE_FOTO[tipo] || tipo)}" aria-label="${esc(NOMBRE_FOTO[tipo] || tipo)}">
-          <img src="${url(f.ruta)}" alt="${esc(NOMBRE_FOTO[tipo] || tipo)}" loading="lazy"></button>`).join('')
-        + `</div><span class="ficha-mini-pie">Pulsa una miniatura para verla en grande</span>` : ''}
+                title="${esc(tipo)}" aria-label="${esc(tipo)}">
+          <img src="${url(f.ruta)}" alt="${esc(tipo)}" loading="lazy"></button>`).join('')
+        + `</div><span class="ficha-mini-pie" id="fichaPie">Pulsa una miniatura para verla en grande</span>` : ''}
     </div>`;
 
   const tabla = producto.tabla.length ? `<table class="ficha-tabla">
       <tbody>${producto.tabla.map(([et, v]) =>
-        `<tr><th scope="row">${esc(et)}</th><td>${esc(v)}</td></tr>`).join('')}</tbody></table>
+        `<tr><th scope="row">${esc(et)}</th><td>${
+          et === 'Medida' ? v.split(' / ').map(esc).join('<br>') : esc(v)}</td></tr>`).join('')}</tbody></table>
       ${producto.notas.length ? `<ul class="ficha-notas">`
         + producto.notas.map(n => `<li>${esc(n)}</li>`).join('') + '</ul>' : ''}`
     : '<p class="cat-vacio" style="padding:0">Esta ficha no trae tabla de características.</p>';
@@ -164,7 +176,12 @@ function pintarFicha(producto, cadena) {
   return miga(cadena.filter(c => !c.salta), producto.nombre) + `
     <header class="ficha-cabecera">
       <h1 class="ficha-titulo">${esc(producto.nombre)}</h1>
-      <span class="ficha-refs">Ref. ${producto.codigos.map(esc).join(' · ')}</span>
+      ${producto.codigos.length > 4
+        ? `<details class="ficha-refs-desplegable">
+             <summary>${producto.codigos.length} referencias</summary>
+             <span class="ficha-refs">${producto.codigos.map(esc).join(' · ')}</span>
+           </details>`
+        : `<span class="ficha-refs">Ref. ${producto.codigos.map(esc).join(' · ')}</span>`}
     </header>
     <div class="ficha-cuerpo">${galeria}<div>${tabla}</div></div>
     ${descripcion}${descargas}`;
@@ -194,7 +211,10 @@ lienzo.addEventListener('click', e => {
   const foto = document.querySelector('#fichaFoto img');
   if (!foto) return;
   foto.src = mini.dataset.foto;
+  foto.alt = mini.title;
   foto.style.maxWidth = `min(100%, ${mini.dataset.ancho * 2}px)`;
+  const pie = document.getElementById('fichaPie');
+  if (pie) pie.textContent = mini.title;
   lienzo.querySelectorAll('.ficha-mini').forEach(m => m.classList.toggle('activa', m === mini));
 });
 

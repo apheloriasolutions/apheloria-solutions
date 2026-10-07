@@ -11280,14 +11280,7 @@
            "Opcional regulación DALI, 0-10V, PWM, PUSH DIM, DIP SWITCH, TRIAC CASAMBI, BLUETOOTH,: a pedido"
           ],
           "descripcion": [
-           "Downlight empotrable de BAJA LUMINANCIA 7W, ideal para sustituir cualquier modelo de Downlight halógeno existente en el mercado Alto confort visual, práctico y versátil para iluminar espacios de alturas importantes y exigentes.",
-           "Downlight empotrable de BAJA LUMINANCIA12W, ideal para sustituir cualquier modelo de Downlight halógeno existente en el mercado Alto confort visual, práctico y versátil para iluminar espacios de alturas importantes y exigentes.",
-           "Downlight empotrable de BAJA LUMINANCIA 12W, ideal para sustituir cualquier modelo de Downlight halógeno existente en el mercado Alto confort visual, práctico y versátil para iluminar espacios de alturas importantes y exigentes.",
-           "Downlight empotrable de BAJA LUMINANCIA 20W, ideal para sustituir cualquier modelo de Downlight halógeno existente en el mercado Alto confort visual, práctico y versátil para iluminar espacios de alturas importantes y exigentes.",
-           "Downlight empotrable de BAJA LUMINANCIA 25W, ideal para sustituir cualquier modelo de Downlight halógeno existente en el mercado Alto confort visual, práctico y versátil para iluminar espacios de alturas importantes y exigentes.",
-           "Downlight empotrable de BAJA LUMINANCIA 30W, ideal para sustituir cualquier modelo de Downlight halógeno existente en el mercado Alto confort visual, práctico y versátil para iluminar espacios de alturas importantes y exigentes.",
-           "Downlight empotrable de BAJA LUMINANCIA 40W, ideal para sustituir cualquier modelo de Downlight halógeno existente en el mercado Alto confort visual, práctico y versátil para iluminar espacios de alturas importantes y exigentes.",
-           "Downlight empotrable de BAJA LUMINANCIA 50W, ideal para sustituir cualquier modelo de Downlight halógeno existente en el mercado Alto confort visual, práctico y versátil para iluminar espacios de alturas importantes y exigentes."
+           "Downlight empotrable de BAJA LUMINANCIA 7-12-20-25-30-40-50W, ideal para sustituir cualquier modelo de Downlight halógeno existente en el mercado Alto confort visual, práctico y versátil para iluminar espacios de alturas importantes y exigentes."
           ],
           "tabla_por_codigo": {
            "00DLZEN07W27X": {
@@ -14707,10 +14700,7 @@
             ],
             "notas": [],
             "descripcion": [
-             "Downlight adosable circular tipo panel Slim ultra delgada, Smd 2835, 12W de potencia, 3 temperaturas de color 3CCT mediante switch, amplia óptica 120° para baños de luz mas homogéneos, confort visual.",
-             "Downlight adosable circular tipo panel Slim ultra delgada, Smd 2835, 20W de potencia, 3 temperaturas de color 3CCT mediante switch, amplia óptica 120° para baños de luz mas homogéneos, confort visual,",
-             "Downlight adosable circular tipo panel Slim ultra delgada, Smd 2835, 25W de potencia, 3 temperaturas de color 3CCT mediante switch, amplia óptica 120° para baños de luz mas homogéneos, confort visual,",
-             "Downlight adosable circular tipo panel Slim ultra delgada, Smd 2835, 6W de potencia, 3 temperaturas de color 3CCT mediante switch, amplia óptica 120° para baños de luz mas homogéneos, confort visual."
+             "Downlight adosable circular tipo panel Slim ultra delgada, Smd 2835, 6-12-20-25W de potencia, 3 temperaturas de color 3CCT mediante switch, amplia óptica 120° para baños de luz mas homogéneos, confort visual."
             ],
             "tabla_por_codigo": {
              "0DACSL12WCCTX": {
@@ -26398,8 +26388,7 @@
           ],
           "notas": [],
           "descripcion": [
-           "Tira de Led 24v SMD2835 alto flujo lumínico, monocolor IP65 con 120 Leds por metro y 12W/mt (600W/ 50mts). Imprescindible el uso de perfil de aluminio en su montaje y para asegurar su correcta vida útil y funcionamiento.",
-           "Tira de Led 24v SMD2835 alto flujo lumínico, monocolor IP65 con 120 Leds por metro y 12W/mt (60W/ 5mts). Imprescindible el uso de perfil de aluminio en su montaje y para asegurar su correcta vida útil y funcionamiento."
+           "Tira de Led 24v SMD2835 alto flujo lumínico, monocolor IP65 con 120 Leds por metro y 12W/mt (600W/ 50-60W/ 5mts). Imprescindible el uso de perfil de aluminio en su montaje y para asegurar su correcta vida útil y funcionamiento."
           ],
           "tabla_por_codigo": {
            "0TL12W220VIP6": {
@@ -52173,8 +52162,7 @@
         ],
         "notas": [],
         "descripcion": [
-         "Panel de LED apto para empotrar y suspender. NO FLICKER. Bajo UGR <17 Temperatura de color a elegir 3000K-4000K-6500K",
-         "Panel de LED apto para empotrar y suspender. NO FLICKER. Bajo UGR <19 Temperatura de color a elegir 3CCT"
+         "Panel de LED apto para empotrar y suspender. NO FLICKER. Bajo UGR <17-19 Temperatura de color a elegir 3000K-4000K-6500K-3CCT"
         ],
         "tabla_por_codigo": {
          "00PANEL42WXXX": {
@@ -52554,8 +52542,7 @@
         ],
         "notas": [],
         "descripcion": [
-         "Panel de LED apto para empotrar y suspender. NO FLICKER. Bajo UGR <19 Temperatura de color a elegir 4000K",
-         "Panel de LED apto para empotrar y suspender. NO FLICKER. Bajo UGR <19 Temperatura de color a elegir 3000K-4000K-6500K"
+         "Panel de LED apto para empotrar y suspender. NO FLICKER. Bajo UGR <19 Temperatura de color a elegir 4000-3000K-4000K-6500K"
         ],
         "tabla_por_codigo": {
          "00PANEL25W40K": {
@@ -57425,8 +57412,7 @@
           ],
           "notas": [],
           "descripcion": [
-           "Proyector para exteriores IP65 Slim con 2 diferentes temperaturas de color 4000K | 5000K para elegir. Regulable 1-10V",
-           "Proyector para exteriores IP65 Slim con 2 diferentes temperaturas de color 4000K | 5000K para elegir, regulable 1-10V."
+           "Proyector para exteriores IP65 Slim con 2 diferentes temperaturas de color 4000K | 5000K para elegir. Regulable 1-10V"
           ],
           "tabla_por_codigo": {
            "00PREX100W4KS": {
@@ -60580,7 +60566,7 @@
             ]
            },
            "medidas": {
-            "ruta": "images/productos/Industriales/00TLT824W60K/medidas.jpg",
+            "ruta": "images/productos/Industriales/Farolas/Farolas ST/00FAST30WXXXK/medidas.jpg",
             "px": [
              413,
              318
@@ -60611,7 +60597,7 @@
              ]
             },
             "medidas": {
-             "ruta": "images/productos/Industriales/00TLT824W60K/medidas.jpg",
+             "ruta": "images/productos/Industriales/Farolas/Farolas ST/00FAST30WXXXK/medidas.jpg",
              "px": [
               413,
               318
@@ -61185,257 +61171,7 @@
       "botones": []
      }
     ],
-    "botones": [
-     {
-      "nombre": "Tubo LED T8",
-      "slug": "tubo-led-t8",
-      "codigos": [
-       "00TLT824W60K"
-      ],
-      "archivos": [
-       "4 - INDUSTRIALES/farolas.xlsx"
-      ],
-      "fotos": {
-       "luminaria": {
-        "ruta": "images/productos/Industriales/00TLT824W60K/luminaria.jpg",
-        "px": [
-         316,
-         525
-        ]
-       },
-       "medidas": {
-        "ruta": "images/productos/Industriales/00TLT824W60K/medidas.jpg",
-        "px": [
-         413,
-         318
-        ]
-       },
-       "ambiente": {
-        "ruta": "images/productos/Industriales/00TLT824W60K/ambiente.jpg",
-        "px": [
-         572,
-         343
-        ]
-       },
-       "angulo": {
-        "ruta": "images/productos/Industriales/00TLT824W60K/angulo.jpg",
-        "px": [
-         334,
-         331
-        ]
-       }
-      },
-      "fotos_por_codigo": {
-       "00TLT824W60K": {
-        "luminaria": {
-         "ruta": "images/productos/Industriales/00TLT824W60K/luminaria.jpg",
-         "px": [
-          316,
-          525
-         ]
-        },
-        "medidas": {
-         "ruta": "images/productos/Industriales/00TLT824W60K/medidas.jpg",
-         "px": [
-          413,
-          318
-         ]
-        },
-        "ambiente": {
-         "ruta": "images/productos/Industriales/00TLT824W60K/ambiente.jpg",
-         "px": [
-          572,
-          343
-         ]
-        },
-        "angulo": {
-         "ruta": "images/productos/Industriales/00TLT824W60K/angulo.jpg",
-         "px": [
-          334,
-          331
-         ]
-        }
-       }
-      },
-      "tabla": [
-       [
-        "Potencia total luminaria",
-        "24W"
-       ],
-       [
-        "Lúmenes reales",
-        "3455lm"
-       ],
-       [
-        "Lm / W reales",
-        "140"
-       ],
-       [
-        "Temperatura de color",
-        "6000K"
-       ],
-       [
-        "Ángulo Ópticas / Reflector",
-        "330º"
-       ],
-       [
-        "CRI",
-        "80"
-       ],
-       [
-        "IP",
-        "20"
-       ],
-       [
-        "IK",
-        "02"
-       ],
-       [
-        "UGR",
-        "<=24"
-       ],
-       [
-        "Material de la estructura",
-        "Aluminio"
-       ],
-       [
-        "Acabado estructura",
-        "opal"
-       ],
-       [
-        "Material del difusor",
-        "cristal"
-       ],
-       [
-        "Acabado difusor",
-        "Opal"
-       ],
-       [
-        "Driver",
-        "Integrado"
-       ],
-       [
-        "Clase de aislamiento",
-        "II"
-       ],
-       [
-        "Voltaje / Frecuencia",
-        "220-240v ac - 50/60Hz"
-       ],
-       [
-        "Protocolo de regulación",
-        "ON-OFF"
-       ],
-       [
-        "Factor de potencia",
-        ">0,95"
-       ],
-       [
-        "Vida útil",
-        "30000h"
-       ],
-       [
-        "Garantía",
-        "3 años"
-       ]
-      ],
-      "notas": [],
-      "descripcion": [
-       "Tubo LED T8 1500 mm 24W Cristal Conexión Un Lateral, casquillo G13. Driver encapsulado. Alto aislamiento y resistencia. Sin efecto estroboscópico."
-      ],
-      "tabla_por_codigo": {
-       "00TLT824W60K": {
-        "filas": [
-         [
-          "Potencia total luminaria",
-          "24W"
-         ],
-         [
-          "Lúmenes reales",
-          "3455lm"
-         ],
-         [
-          "Lm / W reales",
-          "140"
-         ],
-         [
-          "Temperatura de color",
-          "6000K"
-         ],
-         [
-          "Ángulo Ópticas / Reflector",
-          "330º"
-         ],
-         [
-          "CRI",
-          "80"
-         ],
-         [
-          "IP",
-          "20"
-         ],
-         [
-          "IK",
-          "02"
-         ],
-         [
-          "UGR",
-          "<=24"
-         ],
-         [
-          "Material de la estructura",
-          "Aluminio"
-         ],
-         [
-          "Acabado estructura",
-          "opal"
-         ],
-         [
-          "Material del difusor",
-          "cristal"
-         ],
-         [
-          "Acabado difusor",
-          "Opal"
-         ],
-         [
-          "Driver",
-          "Integrado"
-         ],
-         [
-          "Clase de aislamiento",
-          "II"
-         ],
-         [
-          "Voltaje / Frecuencia",
-          "220-240v ac - 50/60Hz"
-         ],
-         [
-          "Protocolo de regulación",
-          "ON-OFF"
-         ],
-         [
-          "Factor de potencia",
-          ">0,95"
-         ],
-         [
-          "Vida útil",
-          "30000h"
-         ],
-         [
-          "Garantía",
-          "3 años"
-         ]
-        ],
-        "notas": [],
-        "descripcion": "Tubo LED T8 1500 mm 24W Cristal Conexión Un Lateral, casquillo G13. Driver encapsulado. Alto aislamiento y resistencia. Sin efecto estroboscópico."
-       }
-      },
-      "pdf": {
-       "00TLT824W60K": "fichas/00TLT824W60K.pdf"
-      }
-     }
-    ]
+    "botones": []
    },
    {
     "nombre": "Hospitalarias - Salas Blancas",
@@ -68181,14 +67917,14 @@
         ]
        },
        "ambiente": {
-        "ruta": "images/productos/Industriales/00TLT824W60K/ambiente.jpg",
+        "ruta": "images/productos/Bombillas y Accesorios/00TLT824W60K/ambiente.jpg",
         "px": [
          572,
          343
         ]
        },
        "angulo": {
-        "ruta": "images/productos/Industriales/00TLT824W60K/angulo.jpg",
+        "ruta": "images/productos/Bombillas y Accesorios/00TLT824W60K/angulo.jpg",
         "px": [
          334,
          331
@@ -68212,14 +67948,14 @@
          ]
         },
         "ambiente": {
-         "ruta": "images/productos/Industriales/00TLT824W60K/ambiente.jpg",
+         "ruta": "images/productos/Bombillas y Accesorios/00TLT824W60K/ambiente.jpg",
          "px": [
           572,
           343
          ]
         },
         "angulo": {
-         "ruta": "images/productos/Industriales/00TLT824W60K/angulo.jpg",
+         "ruta": "images/productos/Bombillas y Accesorios/00TLT824W60K/angulo.jpg",
          "px": [
           334,
           331
@@ -68418,70 +68154,6 @@
       "ruta": "8 - FUENTES DE ALIMENTACIÓN 24V IP20 ON-OFF/8.1 - FUENTES DE 24V",
       "hijos": [],
       "botones": [
-       {
-        "nombre": "5B, generador de pulsos de grupo rápido: Everfine EMS61000-4A, analizador de espectro: KH3935, probador de alta tensión",
-        "slug": "5b-generador-de-pulsos-de-grupo-rapido-everfine-ems61000-4a-analizador-de-espectro-kh3935-probador-de-alta-tension",
-        "codigos": [
-         "EMS61000"
-        ],
-        "archivos": [
-         "8 - FUENTES DE ALIMENTACIÓN 24V IP20 ON-OFF/8.1 - FUENTES DE 24V/FUENTES DE ALIMENTACIÓN LIFUD 24V IP20 ON-OFF.xlsx"
-        ],
-        "fotos": {
-         "medidas": {
-          "ruta": "images/productos/Industriales/Farolas/Farolas SO (solar)/00FASO16WCCTK/medidas.jpg",
-          "px": [
-           936,
-           528
-          ]
-         },
-         "ambiente": {
-          "ruta": "images/productos/Industriales/Farolas/Farolas SO (solar)/00FASO16WCCTK/ambiente.jpg",
-          "px": [
-           1037,
-           524
-          ]
-         },
-         "luminaria": {
-          "ruta": "images/productos/Fuentes de Alimentación/Fuentes de 24V/00FUAL20024IP/luminaria.jpg",
-          "px": [
-           475,
-           195
-          ]
-         }
-        },
-        "fotos_por_codigo": {
-         "EMS61000": {
-          "medidas": {
-           "ruta": "images/productos/Industriales/Farolas/Farolas SO (solar)/00FASO16WCCTK/medidas.jpg",
-           "px": [
-            936,
-            528
-           ]
-          },
-          "ambiente": {
-           "ruta": "images/productos/Industriales/Farolas/Farolas SO (solar)/00FASO16WCCTK/ambiente.jpg",
-           "px": [
-            1037,
-            524
-           ]
-          },
-          "luminaria": {
-           "ruta": "images/productos/Fuentes de Alimentación/Fuentes de 24V/00FUAL20024IP/luminaria.jpg",
-           "px": [
-            475,
-            195
-           ]
-          }
-         }
-        },
-        "tabla": [],
-        "notas": [],
-        "descripcion": [],
-        "pdf": {
-         "EMS61000": "fichas/EMS61000.pdf"
-        }
-       },
        {
         "nombre": "FUENTE ALIMENTACION",
         "slug": "fuente-alimentacion",
@@ -68703,6 +68375,70 @@
         "pdf": {
          "00FUAL20024IP": "fichas/00FUAL20024IP.pdf",
          "00LHV6024IP67": "fichas/00LHV6024IP67.pdf"
+        }
+       },
+       {
+        "nombre": "Fuente de alimentación LIFUD 24V IP20",
+        "slug": "fuente-de-alimentacion-lifud-24v-ip20",
+        "codigos": [
+         "EMS61000"
+        ],
+        "archivos": [
+         "8 - FUENTES DE ALIMENTACIÓN 24V IP20 ON-OFF/8.1 - FUENTES DE 24V/FUENTES DE ALIMENTACIÓN LIFUD 24V IP20 ON-OFF.xlsx"
+        ],
+        "fotos": {
+         "medidas": {
+          "ruta": "images/productos/Industriales/Farolas/Farolas SO (solar)/00FASO16WCCTK/medidas.jpg",
+          "px": [
+           936,
+           528
+          ]
+         },
+         "ambiente": {
+          "ruta": "images/productos/Industriales/Farolas/Farolas SO (solar)/00FASO16WCCTK/ambiente.jpg",
+          "px": [
+           1037,
+           524
+          ]
+         },
+         "luminaria": {
+          "ruta": "images/productos/Fuentes de Alimentación/Fuentes de 24V/00FUAL20024IP/luminaria.jpg",
+          "px": [
+           475,
+           195
+          ]
+         }
+        },
+        "fotos_por_codigo": {
+         "EMS61000": {
+          "medidas": {
+           "ruta": "images/productos/Industriales/Farolas/Farolas SO (solar)/00FASO16WCCTK/medidas.jpg",
+           "px": [
+            936,
+            528
+           ]
+          },
+          "ambiente": {
+           "ruta": "images/productos/Industriales/Farolas/Farolas SO (solar)/00FASO16WCCTK/ambiente.jpg",
+           "px": [
+            1037,
+            524
+           ]
+          },
+          "luminaria": {
+           "ruta": "images/productos/Fuentes de Alimentación/Fuentes de 24V/00FUAL20024IP/luminaria.jpg",
+           "px": [
+            475,
+            195
+           ]
+          }
+         }
+        },
+        "tabla": [],
+        "notas": [],
+        "descripcion": [],
+        "pdf": {
+         "EMS61000": "fichas/EMS61000.pdf"
         }
        }
       ]
@@ -69690,6 +69426,7 @@
    "4 - INDUSTRIALES/4.3 - PANELES/PANELES.rar",
    "4 - INDUSTRIALES/4.3 - PANELES/PANELES2.rar",
    "4 - INDUSTRIALES/4.5 - PROYECTORES/PROYECTORES.rar",
+   "4 - INDUSTRIALES/farolas.xlsx (duplicada: es el Tubo LED T8 de Bombillas)",
    "5 - HOSPITALARIAS - SALAS BLANCAS/5 Equipos LED de Iluminación Hospitalaria.docx",
    "5 - HOSPITALARIAS - SALAS BLANCAS/5.1 - SALAS BLANCAS/5 Equipos LED de Iluminación Hospitalaria.docx",
    "6 - EMERGENCIA/6 Equipos LED de Iluminación de Emergencia.docx"
@@ -69736,13 +69473,6 @@
     [
      "2 - EXTERIORES/2.4 - FAROLES/00MDVILLA50W4 - Módulo LED Villa - 50w_6500lm_4000K-6000K_IP65 _90º .xlsx",
      "4 - INDUSTRIALES/4.6 - FAROLAS/FAROLAS/00MDVILLA50W4 - Módulo LED Villa - 50w_6500lm_4000K-6000K_IP65 _90º .xlsx"
-    ]
-   ],
-   [
-    "00TLT824W60K",
-    [
-     "4 - INDUSTRIALES/farolas.xlsx",
-     "7 - BOMBILLAS Y ACCESORIOS/00TLT824W60K - Tubo LED T8 1500 mm 24W Cristal Conexión Un Lateral.xlsx"
     ]
    ]
   ]

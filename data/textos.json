@@ -349,7 +349,8 @@
  },
  "industriales/farolas/farolas-so-solar": {
   "texto": "Farolas solares e híbridas, para instalar sin acometida eléctrica o con apoyo de red. 16 y 20W con batería integrada y detección de presencia.",
-  "borrador": true
+  "borrador": true,
+  "hero": "images/productos/Industriales/Farolas/Farolas SO (solar)/0FASOJY20WXXK/luminaria.jpg"
  },
  "industriales/farolas/farolas-st": {
   "texto": "Farola ST para alumbrado viario, de 30, 60 y 90W con tres temperaturas de color. IP65.",
@@ -368,7 +369,8 @@
  },
  "hospitalarias-salas-blancas/salas-blancas/pantallas-hospitalarias-600-x-600mm": {
   "texto": "Pantallas hospitalarias de 600 × 600 mm, de 27 a 65W. IP65, con versiones de color inteligente y Clean Regular.",
-  "borrador": true
+  "borrador": true,
+  "hero": "images/productos/Hospitalarias - Salas Blancas/Salas Blancas/Pantallas Hospitalarias 600 X 600mm/0PHE45W4KIP6D/luminaria.jpg"
  },
  "hospitalarias-salas-blancas/salas-blancas/pantallas-hospitalarias-1200mm-x-300mm": {
   "texto": "Pantallas hospitalarias de 1200 × 300 mm, de 36 a 45W. IP65.",

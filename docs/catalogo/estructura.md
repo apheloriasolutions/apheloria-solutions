@@ -3,7 +3,7 @@
 Generado por `scripts/catalogo/construir_estructura.py` a partir de `fuentes/fichas/`
 (los Excel originales, que no se publican). Vuelve a ejecutarlo cada vez que cambien las fichas.
 
-- **213 botones** a partir de **403 fichas** publicables.
+- **212 botones** a partir de **402 fichas** publicables.
 - 8 grandes familias · hasta **5 niveles** de profundidad.
 - Los nombres de cada nivel salen del nombre de la carpeta, quitándole la numeración.
 - El nombre del botón sale del nombre del archivo, cortado en el primer dato técnico.
@@ -359,9 +359,7 @@ Generado por `scripts/catalogo/construir_estructura.py` a partir de `fuentes/fic
   - **Superficie** — 1 botón
     - Luminaria circular de superficie mod. NEO  
       `0CSNEO24W3CCT`
-- **Industriales** — 1 botón
-  - Tubo LED T8  
-    `00TLT824W60K`
+- **Industriales**
   - **Campanas**
     - **Campanas ALFA** — 4 botones
       - Campana para suspender mod. ALFA · agrupa 2 fichas  
@@ -529,10 +527,10 @@ Generado por `scripts/catalogo/construir_estructura.py` a partir de `fuentes/fic
     `00TLT824W60K`
 - **Fuentes de Alimentación**
   - **Fuentes de 24V** — 2 botones
-    - 5B, generador de pulsos de grupo rápido: Everfine EMS61000-4A, analizador de espectro: KH3935, probador de alta tensión  
-      `EMS61000`
     - FUENTE ALIMENTACION · agrupa 2 fichas  
       `00FUAL20024IP, 00LHV6024IP67`
+    - Fuente de alimentación LIFUD 24V IP20  
+      `EMS61000`
   - **Fuentes de 12V** — 1 botón
     - Fuente de alimentación  
       `00FA36W12VIP2`
@@ -541,7 +539,7 @@ Generado por `scripts/catalogo/construir_estructura.py` a partir de `fuentes/fic
 
 ## Botones cuyo nombre conviene revisar
 
-46 de 213. No están mal generados: es lo que dice la ficha de origen.
+45 de 212. No están mal generados: es lo que dice la ficha de origen.
 
 | Nombre generado | Dónde | Por qué |
 |---|---|---|
@@ -574,7 +572,6 @@ Generado por `scripts/catalogo/construir_estructura.py` a partir de `fuentes/fic
 | Luminaria LED circular de superficie o suspendida mod. Moo49 | Lámparas Colgantes | acaba en cifra o signo |
 | Luminaria suspendida decorativa ESILE E27 | Lámparas Colgantes | acaba en cifra o signo |
 | Luminaria suspendida mod. Circulo 640 decorativa circular para suspender | Lámparas Colgantes | muy largo |
-| Tubo LED T8 | Industriales | acaba en cifra o signo |
 | Campana para suspender mod. ALFA 150 | Campanas ALFA | acaba en cifra o signo |
 | Campana para suspender mod. ALFA 300 | Campanas ALFA | acaba en cifra o signo |
 | Campana para suspender mod. ALFA200 | Campanas ALFA | acaba en cifra o signo |
@@ -589,8 +586,8 @@ Generado por `scripts/catalogo/construir_estructura.py` a partir de `fuentes/fic
 | LUMINARIA DE EMERGENCIA TEIDE SLIM | Emergencia | todo en mayúsculas en el origen |
 | PROYECTOR EMERGENCIA VESUBIO | Emergencia | todo en mayúsculas en el origen |
 | Tubo LED T8 | Bombillas y Accesorios | acaba en cifra o signo |
-| 5B, generador de pulsos de grupo rápido: Everfine EMS61000-4A, analizador de espectro: KH3935, probador de alta tensión | Fuentes de 24V | muy largo |
 | FUENTE ALIMENTACION | Fuentes de 24V | todo en mayúsculas en el origen |
+| Fuente de alimentación LIFUD 24V IP20 | Fuentes de 24V | acaba en cifra o signo |
 
 ---
 
@@ -659,7 +656,7 @@ Una de las dos lleva el código de la otra. No se publica ninguna hasta saber cu
 
 ### 6. Archivos que no son fichas
 
-17 archivos sueltos entre las fichas (carátulas en Word, comprimidos que sobraron al descomprimir, algún PDF y temporales de Excel). Se ignoran.
+18 archivos sueltos entre las fichas (carátulas en Word, comprimidos que sobraron al descomprimir, algún PDF y temporales de Excel). Se ignoran.
 
 - `1 -  INTERIORES/1 Equipos LED de Iluminación para Interiores.docx`
 - `1 -  INTERIORES/1.3 - LINEALES/1.3.1 - LINEALES/LINEALES cambio.rar`
@@ -675,6 +672,7 @@ Una de las dos lleva el código de la otra. No se publica ninguna hasta saber cu
 - `4 - INDUSTRIALES/4.3 - PANELES/PANELES.rar`
 - `4 - INDUSTRIALES/4.3 - PANELES/PANELES2.rar`
 - `4 - INDUSTRIALES/4.5 - PROYECTORES/PROYECTORES.rar`
+- `4 - INDUSTRIALES/farolas.xlsx (duplicada: es el Tubo LED T8 de Bombillas)`
 - `5 - HOSPITALARIAS - SALAS BLANCAS/5 Equipos LED de Iluminación Hospitalaria.docx`
 - `5 - HOSPITALARIAS - SALAS BLANCAS/5.1 - SALAS BLANCAS/5 Equipos LED de Iluminación Hospitalaria.docx`
 - `6 - EMERGENCIA/6 Equipos LED de Iluminación de Emergencia.docx`
@@ -735,4 +733,3 @@ Se publica en las dos: es el mismo producto listado en dos sitios.
 - **00PS45S2020**: `00PS45S2020 -Perfil de aluminio 45 superficie 15,8X15,8HX2000mm difusor opal color aluminio IP20.xlsx` · `00PS45S2020 -Perfil de aluminio 45 superficie 15,8X15,8HX2000mm difusor opal color aluminio IP20.xlsx`
 - **00FAR0LVILLAN**: `00FAROLVILLAN - Luminaria farol modelo Villa acero acabado pintado al horno negro IP20.xlsx` · `00FAROLVILLAN - Luminaria farol modelo Villa acero acabado pintado al horno negro IP20.xlsx`
 - **00MDVILLA50W4**: `00MDVILLA50W4 - Módulo LED Villa - 50w_6500lm_4000K-6000K_IP65 _90º .xlsx` · `00MDVILLA50W4 - Módulo LED Villa - 50w_6500lm_4000K-6000K_IP65 _90º .xlsx`
-- **00TLT824W60K**: `farolas.xlsx` · `00TLT824W60K - Tubo LED T8 1500 mm 24W Cristal Conexión Un Lateral.xlsx`
