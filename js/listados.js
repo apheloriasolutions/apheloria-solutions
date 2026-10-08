@@ -2,7 +2,7 @@
  *
  * La dirección refleja dónde estás, y el botón atrás sube un nivel cada vez:
  *     proyectos.html#retail                 filtro
- *     proyectos.html#retail/clarks          proyecto
+ *     proyectos.html#retail/tienda-1        proyecto
  * Se puede abrir o compartir cualquiera de ellas directamente.
  *
  * Productos ya no usa este archivo: tiene el suyo, js/productos.js.
