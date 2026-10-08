@@ -59,3 +59,20 @@ las fichas.
   `4 - INDUSTRIALES/4.6 - FAROLAS/FAROLAS SO (SOLAR)/00FASO16WCCTK - Farola Led SOLAR 16W 6000lm IP65 IK08 regulable 140°x75° regulable.xlsx`
 - `EMS61000` — casi ninguna fila tiene valor: es un párrafo, no una tabla  
   `8 - FUENTES DE ALIMENTACIÓN 24V IP20 ON-OFF/8.1 - FUENTES DE 24V/FUENTES DE ALIMENTACIÓN LIFUD 24V IP20 ON-OFF.xlsx`
+
+## Dibujos de cotas (transcripción de 2026-10-08)
+
+Al transcribir a mano los 169 dibujos acotados que faltaban salieron estos casos. **No se corrigen**: hay que arreglarlos en el Excel de origen.
+
+| Ficha | Qué pasa |
+|---|---|
+| Lámpara colgante SLIM GOLD RETRO · `0LC30SL6W27KD` | el dibujo es una foto del producto, sin ninguna cota |
+| Equipo lineal compacto · `00NDPRO` | render del producto, sin cotas |
+| Baliza para exteriores mod. TI · `00BE8TI24W30K` | foto del producto, sin cotas |
+| Pantalla hospitalaria empotrable · `0PHE27WICIP6D` y `0PHE36WICIP1D` | en el hueco del dibujo acotado hay una curva fotométrica |
+| Campana mod. UF · `OOCAMU200W4KD` | el dibujo da 41 mm de diámetro y 14 mm de alto para una campana de 200 W: la escala no puede ser esa |
+| Pantalla superficie mod. CJV 625 · `00PANSP544K` | el dibujo es una lámina entera reducida; las cifras no se leen a la resolución a la que está incrustada |
+| Farola Led SOLAR · `00FASO16WCCTK` | el dibujo acotado es el de una fuente de alimentación (150 × 40,4 × 30,6 mm), no el de la farola |
+| Proyector LED MODEN · `00PRMOD30W40K` | la cota de altura pone `1112 mm`; por el dibujo son 112 mm |
+| Pantalla estanca LED 600 mm · `00PAES12W4K60` | la sección pone `10` y `10` donde la ficha gemela de 1200 mm pone `100` y `100` |
+| Fuentes LIFUD 24V IP20 · `EMS61000` | la ficha lista nueve referencias con cuatro tamaños distintos, pero solo trae un dibujo acotado (el de 150 mm) |
