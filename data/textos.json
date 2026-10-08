@@ -366,7 +366,7 @@
  "hospitalarias-salas-blancas/salas-blancas": {
   "texto": "Pantallas hospitalarias en dos formatos: 600 × 600 mm y 1200 × 300 mm. De 27 a 65W, IP65.",
   "borrador": true,
-  "hero": "images/productos/portadas/hospitalarias-salas-blancas.jpg"
+  "hero": "images/productos/portadas/salas-blancas.jpg"
  },
  "hospitalarias-salas-blancas/salas-blancas/pantallas-hospitalarias-600-x-600mm": {
   "texto": "Pantallas hospitalarias de 600 × 600 mm, de 27 a 65W. IP65, con versiones de color inteligente y Clean Regular.",

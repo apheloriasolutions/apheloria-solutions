@@ -2,7 +2,9 @@
 
 Fotografías que no son del catálogo de Apheloria, con su origen y su licencia.
 Todas con licencia que permite uso comercial **sin atribución obligatoria**; se dejan
-apuntadas aquí por trazabilidad.
+apuntadas aquí por trazabilidad. Las portadas de sección se buscaron con la API de Pixabay
+y su licencia está comprobada en la página de origen de cada una; la API sirve como mucho
+1280 px de ancho, que es el tamaño con el que se publican.
 
 ## Portadas de las secciones de Productos
 
@@ -11,20 +13,22 @@ volviendo a ejecutar `scripts/catalogo/construir_web.py`.
 
 | Sección | Título original | Banco | Licencia | Publicada |
 |---|---|---|---|---|
-| interiores | Modern apartment interior | rawpixel | CC0 | 1024×694 |
-| exteriores | Original public domain image Wikimedia | rawpixel | CC0 | 1024×683 |
-| decorativas | Six teardrop pendant lamps with frosted glass hang from thin cords, glowing warmly against a white wall. | wordpress | CC0 | 1400×1050 |
-| industriales | Free warehouse shop | rawpixel | CC0 | 1024×768 |
-| hospitalarias-salas-blancas | Hospital Surgery room | rawpixel | CC0 | 1024×683 |
-| emergencia | Exit sign | rawpixel | CC0 | 1024×612 |
-| bombillas-y-accesorios | Lights Bulb | stocksnap | CC0 | 960×640 |
-- **interiores**: https://www.rawpixel.com/image/6043312/photo-image-public-domain-table-living-room
-- **exteriores**: https://www.rawpixel.com/image/3299102/free-photo-image-ann-arbor-apartment-architecture
-- **decorativas**: https://wordpress.org/photos/photo/58368de359/
-- **industriales**: https://www.rawpixel.com/image/5915267/free-warehouse-shop-public-domain-cc0-photo
-- **hospitalarias-salas-blancas**: https://www.rawpixel.com/image/5917060/image-light-public-domain-green
-- **emergencia**: https://www.rawpixel.com/image/5917811/exit-sign-free-public-domain-cc0-photo
-- **bombillas-y-accesorios**: https://stocksnap.io/photo/lights-bulb-NV8X8WSZJC
+| interiores | Vestíbulo de madera con luz cálida | Pixabay | Pixabay Content License | 1280×853 |
+| exteriores | Escalera de acceso iluminada de noche | Pixabay | Pixabay Content License | 1280×720 |
+| decorativas | Esferas suspendidas | Pixabay | Pixabay Content License | 1280×853 |
+| industriales | Nave industrial con luminarias lineales | Pixabay | Pixabay Content License | 1280×762 |
+| hospitalarias-salas-blancas | Quirófano con lámpara quirúrgica | Pixabay | Pixabay Content License | 1280×853 |
+| emergencia | Señal de salida en techo perforado | Pixabay | Pixabay Content License | 1280×849 |
+| bombillas-y-accesorios | Bombilla de filamento LED | Pixabay | Pixabay Content License | 1280×853 |
+| salas-blancas | Sala limpia de montaje | Pixabay | Pixabay Content License | 1280×960 |
+- **interiores**: https://pixabay.com/photos/building-door-architecture-entrance-8246152/
+- **exteriores**: https://pixabay.com/photos/evening-building-illuminated-stairs-4579176/
+- **decorativas**: https://pixabay.com/photos/light-bulbs-lights-spheres-lamps-407239/
+- **industriales**: https://pixabay.com/photos/lost-places-empty-factory-building-1801660/
+- **hospitalarias-salas-blancas**: https://pixabay.com/photos/operating-room-hospital-clean-or-5979687/
+- **emergencia**: https://pixabay.com/photos/emergency-exit-escape-fire-4168808/
+- **bombillas-y-accesorios**: https://pixabay.com/photos/light-bulb-light-led-lighting-1358917/
+- **salas-blancas**: https://pixabay.com/photos/laboratory-nasa-jpl-pasadena-space-1054451/
 - **Fuentes de Alimentación 24V IP20 ON-OFF**: no hay nada decente en los bancos libres
 
 ## Fotos de la portada (Inicio)
