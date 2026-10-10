@@ -16,7 +16,14 @@ import os, shutil, subprocess, tempfile
 import fitz
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-ORIGEN = os.path.join(RAIZ, 'fuentes', 'fichas', 'CARATULAS')
+
+# De dónde salen las carátulas. Si existe la carpeta de trabajo del escritorio se usa esa,
+# para poder editar los Word a mano; si no, las originales de fuentes/. En la carpeta del
+# escritorio los archivos llevan delante el número de orden ("01 - ", "02 - "...), así que
+# se busca por el final del nombre.
+ESCRITORIO = os.path.expanduser('~/Desktop/Apheloria - Catálogo')
+ORIGINALES = os.path.join(RAIZ, 'fuentes', 'fichas', 'CARATULAS')
+ORIGEN = ESCRITORIO if os.path.isdir(ESCRITORIO) else ORIGINALES
 SALIDA = os.path.join(RAIZ, 'docs', 'catalogo', 'catalogo-apheloria.pdf')
 SOFFICE = '/Applications/LibreOffice.app/Contents/MacOS/soffice'
 
@@ -67,15 +74,21 @@ def portada(doc, ancho, alto):
 
 def main():
     temporal = tempfile.mkdtemp(prefix='apheloria-catalogo-')
+    print(f'carátulas: {ORIGEN}')
+    hay = os.listdir(ORIGEN)
     pendientes = []
     for archivo, _ in ORDEN:
-        ruta = os.path.join(ORIGEN, archivo + '.docx')
-        if not os.path.exists(ruta):
+        # vale tanto "1.1 PROYECTORES.docx" como "03 - 1.1 PROYECTORES.docx"
+        candidatos = [f for f in hay if f.endswith(archivo + '.docx')]
+        if not candidatos:
             print(f'  FALTA: {archivo}.docx')
             continue
+        ruta = os.path.join(ORIGEN, candidatos[0])
         destino = os.path.join(temporal, archivo + '.docx')
         shutil.copy(ruta, destino)
         pendientes.append(destino)
+        if os.path.basename(ruta) != archivo + '.docx':
+            print(f'    {os.path.basename(ruta)}')
 
     subprocess.run([SOFFICE, '--headless', '--norestore',
                     f'-env:UserInstallation=file://{temporal}/perfil',
