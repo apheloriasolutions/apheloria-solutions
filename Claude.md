@@ -39,7 +39,7 @@ el código de referencia, p. ej. `EST__00PAES17W6K60 - ….png`).
 - Proyectos ✅ (grid único con filtros por data-category)
 - Productos ✅ (grid único con filtros + 48 paneles de detalle con fichas PDF)
 - Catálogo ✅ (el PDF del catálogo general está pendiente; botón deshabilitado)
-- Contacto ✅ (formulario vía Web3Forms; **email/teléfono son placeholders — poner los reales**)
+- Contacto ✅ (formulario vía Web3Forms; email y teléfono reales confirmados: info@apheloria.es y 645 085 743)
 
 ## Convenciones del código
 - Los paneles de detalle se abren con `data-open="id-del-panel"` y se cierran con
@@ -79,7 +79,7 @@ el código de referencia, p. ej. `EST__00PAES17W6K60 - ….png`).
 ## Pendientes (requieren decisión o material del cliente)
 - Sustituir los ~209 placeholders restantes de picsum.photos (hero, portadas de categoría,
   fotos de proyectos) por fotografías reales — no deben llegar a producción.
-- Email y teléfono reales en Contacto (buscar `TODO` en index.html) y en el JS
-  (`CONTACT_EMAIL`). Valorar un servicio de formularios (Formspree o similar).
+- La portada del catálogo en PDF lleva otros datos (comercial@apheloria.es y
+  +34 607 591 975); confirmar si es a propósito o si debe usar los de Contacto.
 - PDF del catálogo general para activar el botón de descarga.
 - Al desplegar: configurar headers de seguridad en el hosting y `og:image` con URL absoluta.
