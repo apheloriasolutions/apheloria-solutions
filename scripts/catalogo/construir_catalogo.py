@@ -11,7 +11,7 @@ por correo sin que se note la diferencia.
 
 Uso:  python scripts/catalogo/construir_catalogo.py
 """
-import os, shutil, subprocess, tempfile
+import os, shutil, subprocess, tempfile, unicodedata
 
 import fitz
 
@@ -65,9 +65,7 @@ def portada(doc, ancho, alto):
     centrado('APHELORIA SOLUTIONS', alto * 0.49, 15, TINTA, espaciado=1)
     centrado('Catálogo General', alto * 0.565, 27, TINTA)
     centrado('Iluminación técnica y material eléctrico', alto * 0.60, 10.5, ORO)
-    centrado('Av. Emilio Arrieta, 8 · Puerta 36 · 28706 San Sebastián de los Reyes, Madrid',
-             alto * 0.90, 7.5, ORO)
-    centrado('comercial@apheloria.es · +34 607 591 975', alto * 0.915, 7.5, ORO)
+    centrado('www.apheloria.es', alto * 0.91, 9, ORO)
     pagina.draw_line(fitz.Point(ancho * 0.38, alto * 0.525), fitz.Point(ancho * 0.62, alto * 0.525),
                      color=ORO, width=0.6)
 
@@ -79,7 +77,11 @@ def main():
     pendientes = []
     for archivo, _ in ORDEN:
         # vale tanto "1.1 PROYECTORES.docx" como "03 - 1.1 PROYECTORES.docx"
-        candidatos = [f for f in hay if f.endswith(archivo + '.docx')]
+        # macOS guarda los acentos descompuestos (NFD) y aquí están compuestos (NFC):
+        # sin normalizar, "Iluminación" no casa consigo misma.
+        def igual(x):
+            return unicodedata.normalize('NFC', x)
+        candidatos = [f for f in hay if igual(f).endswith(igual(archivo) + '.docx')]
         if not candidatos:
             print(f'  FALTA: {archivo}.docx')
             continue
