@@ -34,7 +34,6 @@
   "Downlight para adosar o supender fijo mod. TUBE led: las fichas del grupo tienen fotos de producto distintas (2)",
   "Perfil lineal 58 para adosar o suspender XX: las fichas del grupo tienen fotos de producto distintas (2)",
   "Perfil lineal MINI para adosar o suspender: las fichas del grupo tienen fotos de producto distintas (3)",
-  "Lámpara colgante SLIM GOLD RETRO: las fichas del grupo tienen fotos de producto distintas (2)",
   "TIRA LED 12W_mt: las fichas del grupo tienen fotos de producto distintas (2)",
   "Tira de Led flexible: las fichas del grupo tienen fotos de producto distintas (3)",
   "Perfil de aluminio B7 de superficie: las fichas del grupo tienen fotos de producto distintas (2)",
@@ -186,8 +185,6 @@
   "00MANDOCOTR: sin foto de ambiente",
   "00CONTROLADOR: sin foto de ambiente",
   "00ACREGMONCTT: sin foto de ambiente",
-  "00FAROLVILLAN: sin foto de ambiente",
-  "00MDVILLA50W4: sin foto de ambiente",
   "00VENIC8WG30K: sin foto de ambiente",
   "0CSNEO24W3CCT: sin foto de ambiente",
   "00PSLI21740KB: sin foto de ambiente",
@@ -196,6 +193,13 @@
   "00FUAL20024IP: sin foto de ambiente",
   "00LHV6024IP67: sin foto de ambiente",
   "00FA36W12VIP2: sin foto de ambiente"
+ ],
+ "intercambiadas": [
+  "0LC30SL6W27KD: en el origen las cotas van antes que el producto, se intercambian",
+  "0LC30SL6W30KD: en el origen las cotas van antes que el producto, se intercambian",
+  "00BE6TI20W30K: en el origen las cotas van antes que el producto, se intercambian",
+  "00BALIZ8W3KIP: en el origen las cotas van antes que el producto, se intercambian",
+  "00LAMSP300NG: en el origen las cotas van antes que el producto, se intercambian"
  ],
  "sin_luminaria": [
   "00PSFB1S2020: solo hay dibujo de medidas, no hay foto de producto",
@@ -306,14 +310,7 @@
  "una_sola_imagen": [
   "00MANDOCOTR: una sola imagen a la derecha, se toma como foto de producto (comprobar que no sean cotas)"
  ],
- "intercambiadas": [
-  "00BE6TI20W30K: en el origen las cotas van antes que el producto, se intercambian",
-  "00BALIZ8W3KIP: en el origen las cotas van antes que el producto, se intercambian",
-  "00LAMSP300NG: en el origen las cotas van antes que el producto, se intercambian"
- ],
  "ambiente_era_el_producto": [
-  "00FAROLVILLAN: a la izquierda solo está repetida la foto del producto, no hay foto de ambiente",
-  "00MDVILLA50W4: a la izquierda solo está repetida la foto del producto, no hay foto de ambiente",
   "00PSLI21740KB: a la izquierda solo está repetida la foto del producto, no hay foto de ambiente",
   "00FAROLVILLAN: a la izquierda solo está repetida la foto del producto, no hay foto de ambiente",
   "00MDVILLA50W4: a la izquierda solo está repetida la foto del producto, no hay foto de ambiente"
