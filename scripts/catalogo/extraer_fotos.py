@@ -73,7 +73,9 @@ FOTOS_A_MANO = {
 }
 
 # Fichas donde el origen trae la columna derecha al revés: primero las cotas y debajo el producto.
-INTERCAMBIAR = {'00LAMSP300NG', '00BE6TI20W30K', '00BALIZ8W3KIP'}
+INTERCAMBIAR = {'00LAMSP300NG', '00BE6TI20W30K', '00BALIZ8W3KIP',
+                '0LC30SL6W27KD', '0LC30SL6W30KD'}
+
 
 
 # ── lectura del .xlsx ─────────────────────────────────────────────────────────

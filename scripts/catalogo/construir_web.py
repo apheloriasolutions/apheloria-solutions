@@ -145,6 +145,48 @@ def hero_de(nodo, textos, clave):
     return f
 
 
+# Marcas de los fabricantes de driver. No son nuestras y la norma es que las referencias de
+# proveedor no se publican nunca, así que la fila "Driver" se cae cuando su valor es solo una
+# marca. Los valores que sí dicen algo al cliente ("Integrado", "Externo", "No incluido") se
+# quedan. LIFUD se mantiene a propósito: es el único que el cliente ha querido publicar.
+MARCAS_DRIVER = ('vossloh', 'tci', 'tridonic', 'philips', 'boke')
+MARCAS_QUITADAS = []
+
+# Productos cuya descripción se queda duplicada porque las dos fichas solo se diferencian en
+# una palabra, y esa palabra es un dato que no se puede perder. Se indica cuál se publica.
+DESCRIPCION_ELEGIDA = {
+    # las dos versiones del CJV 625 son ON-OFF y DALI; la que lo dice es la buena, porque
+    # la tabla ya recoge los dos protocolos
+    '00PANSP544K': 1,
+}
+
+
+def sin_marcas_de_proveedor(tabla, avisos):
+    """Quita de la tabla las filas de driver cuyo valor es solo una marca de fabricante."""
+    limpia = []
+    for etiqueta, valor in tabla:
+        if 'driver' in etiqueta.lower():
+            desnudo = re.sub(r'[^a-z]', ' ', valor.lower())
+            palabras = set(desnudo.split())
+            marcas = [m for m in MARCAS_DRIVER if m in palabras]
+            # solo se tira si la marca es TODO lo que dice la fila
+            resto = palabras - set(MARCAS_DRIVER) - {'led', 'reemplazable', 'reenplazable'}
+            if marcas and not resto:
+                avisos.append(f'{etiqueta}: {valor}')
+                continue
+        limpia.append([etiqueta, valor])
+    return limpia
+
+
+def descripcion_de(boton):
+    """Una sola descripción cuando el origen trae dos casi iguales."""
+    desc = boton.get('descripcion', [])
+    for codigo, i in DESCRIPCION_ELEGIDA.items():
+        if codigo in boton['codigos'] and len(desc) > i:
+            return [desc[i]]
+    return desc
+
+
 def convertir(nodo, textos, ruta=()):
     clave = '/'.join(ruta)
     usados = {h['slug'] for h in nodo['hijos']}
@@ -152,7 +194,7 @@ def convertir(nodo, textos, ruta=()):
     for b in nodo['botones']:
         etiquetas = etiquetas_de_ficha(b)
         medidas = medidas_de(b, LAS_MEDIDAS)
-        tabla = list(b.get('tabla', []))
+        tabla = sin_marcas_de_proveedor(list(b.get('tabla', [])), MARCAS_QUITADAS)
         textos_medida = [m['texto'] for m in medidas if m['texto']]
         if textos_medida and not any(e.lower().startswith(('medida', 'dimensi')) for e, _ in tabla):
             # cada medida ya lleva " · " dentro, así que entre medidas se usa " / " y la
@@ -166,7 +208,7 @@ def convertir(nodo, textos, ruta=()):
             'tabla': tabla,
             'medidas': medidas,
             'notas': b.get('notas', []),
-            'descripcion': b.get('descripcion', []),
+            'descripcion': descripcion_de(b),
             'fotos': {t: foto(b.get('fotos'), t) for t in ('luminaria', 'medidas', 'ambiente', 'angulo')},
             'fichas': [{'codigo': c, 'pdf': r, 'etiqueta': etiquetas.get(c, '')}
                        for c, r in (b.get('pdf') or {}).items()],
@@ -216,6 +258,11 @@ def main():
     print(f'{TEXTOS}: {len(textos)} secciones ({nuevas} nuevas)')
     sin = [k for k, v in textos.items() if not v.get('texto')]
     print(f'secciones sin texto: {len(sin)}')
+    if MARCAS_QUITADAS:
+        from collections import Counter
+        print(f'filas de driver retiradas por llevar marca de proveedor: {len(MARCAS_QUITADAS)}')
+        for v, n in Counter(MARCAS_QUITADAS).most_common():
+            print(f'   {v}  ({n})')
 
 
 if __name__ == '__main__':

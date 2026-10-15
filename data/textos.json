@@ -11,7 +11,8 @@
  },
  "interiores/downlights-empotrados": {
   "texto": "Gama completa de downlights empotrados: cardanes orientables, trimless sin marco, modelos simples, de luz difusa y de temperatura ajustable, y las líneas NEX, ZEN, SLIM, MIN, MIX y OCU. Acabados en blanco y negro, CRI90-95.",
-  "borrador": true
+  "borrador": true,
+  "portada": "images/productos/Interiores/Downlights Empotrados/ZEN/00DLZEN12W27X/luminaria.jpg"
  },
  "interiores/downlights-empotrados/cardans": {
   "texto": "Luminarias empotradas tipo cardán, orientables y en acabado blanco. Modelo individual de 20W 3000K y modelo doble de 40W con siete temperaturas de color. CRI90, IP20.",

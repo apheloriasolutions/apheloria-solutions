@@ -21420,255 +21420,6 @@
            "0020700000990": "fichas/0020700000990.pdf",
            "0020741240": "fichas/0020741240.pdf"
           }
-         },
-         {
-          "nombre": "luminaria LED estanca SLE-T LED",
-          "slug": "luminaria-led-estanca-sle-t-led",
-          "codigos": [
-           "0030511740"
-          ],
-          "archivos": [
-           "1 -  INTERIORES/1.3 - LINEALES/1.3.1 - LINEALES/0030511740 - luminaria LED estanca SLE-T LED 17W 4000K 2680Lm 600mm IP66.xlsx"
-          ],
-          "fotos": {
-           "luminaria": {
-            "ruta": "images/productos/Interiores/Lineales/Lineales/0030511740/luminaria.jpg",
-            "px": [
-             472,
-             200
-            ]
-           },
-           "medidas": {
-            "ruta": "images/productos/Interiores/Lineales/Lineales/0030511740/medidas.jpg",
-            "px": [
-             238,
-             102
-            ]
-           },
-           "ambiente": {
-            "ruta": "images/productos/Interiores/Lineales/Lineales/0030511740/ambiente.jpg",
-            "px": [
-             718,
-             602
-            ]
-           },
-           "angulo": {
-            "ruta": "images/productos/Interiores/Lineales/Lineales/0030511740/angulo.jpg",
-            "px": [
-             360,
-             369
-            ]
-           }
-          },
-          "fotos_por_codigo": {
-           "0030511740": {
-            "luminaria": {
-             "ruta": "images/productos/Interiores/Lineales/Lineales/0030511740/luminaria.jpg",
-             "px": [
-              472,
-              200
-             ]
-            },
-            "medidas": {
-             "ruta": "images/productos/Interiores/Lineales/Lineales/0030511740/medidas.jpg",
-             "px": [
-              238,
-              102
-             ]
-            },
-            "ambiente": {
-             "ruta": "images/productos/Interiores/Lineales/Lineales/0030511740/ambiente.jpg",
-             "px": [
-              718,
-              602
-             ]
-            },
-            "angulo": {
-             "ruta": "images/productos/Interiores/Lineales/Lineales/0030511740/angulo.jpg",
-             "px": [
-              360,
-              369
-             ]
-            }
-           }
-          },
-          "tabla": [
-           [
-            "Potencia total luminaria",
-            "17W"
-           ],
-           [
-            "Lúmenes reales",
-            "2680Lm"
-           ],
-           [
-            "Lm / W reales",
-            "157,65 lm/W"
-           ],
-           [
-            "Temperatura de color correlacionada",
-            "4000K"
-           ],
-           [
-            "Ángulo Ópticas / Reflector",
-            "120º"
-           ],
-           [
-            "CRI",
-            "90"
-           ],
-           [
-            "IP",
-            "66"
-           ],
-           [
-            "IK",
-            "09"
-           ],
-           [
-            "UGR",
-            "<=22"
-           ],
-           [
-            "Material de la estructura",
-            "Policarbonato"
-           ],
-           [
-            "Acabado estructura",
-            "Policarbonato"
-           ],
-           [
-            "Material del difusor",
-            "Policarbonato Opal"
-           ],
-           [
-            "Acabado difusor",
-            "Opal"
-           ],
-           [
-            "Marca Driver",
-            "TCI / VOSSLOH"
-           ],
-           [
-            "Clase de aislamiento",
-            "I"
-           ],
-           [
-            "Voltaje / Frecuencia",
-            "176 - 265 V - 50/60Hz"
-           ],
-           [
-            "Protocolo de regulación",
-            "ON-OFF"
-           ],
-           [
-            "Factor de potencia",
-            ">0,90"
-           ],
-           [
-            "Vida útil",
-            "60.000 h L90B10"
-           ],
-           [
-            "Garantía",
-            "5 años"
-           ]
-          ],
-          "notas": [],
-          "descripcion": [
-           "Luminaria LED estanca para condiciones adversas e iluminación exterior. Excelente control de haz luminoso,difusor opal en policarbonato anti vandálico con filtro UV, Módulo lineal LED de alta luminancia y driver integrado."
-          ],
-          "tabla_por_codigo": {
-           "0030511740": {
-            "filas": [
-             [
-              "Potencia total luminaria",
-              "17W"
-             ],
-             [
-              "Lúmenes reales",
-              "2680Lm"
-             ],
-             [
-              "Lm / W reales",
-              "157,65 lm/W"
-             ],
-             [
-              "Temperatura de color correlacionada",
-              "4000K"
-             ],
-             [
-              "Ángulo Ópticas / Reflector",
-              "120º"
-             ],
-             [
-              "CRI",
-              "90"
-             ],
-             [
-              "IP",
-              "66"
-             ],
-             [
-              "IK",
-              "09"
-             ],
-             [
-              "UGR",
-              "<=22"
-             ],
-             [
-              "Material de la estructura",
-              "Policarbonato"
-             ],
-             [
-              "Acabado estructura",
-              "Policarbonato"
-             ],
-             [
-              "Material del difusor",
-              "Policarbonato Opal"
-             ],
-             [
-              "Acabado difusor",
-              "Opal"
-             ],
-             [
-              "Marca Driver",
-              "TCI / VOSSLOH"
-             ],
-             [
-              "Clase de aislamiento",
-              "I"
-             ],
-             [
-              "Voltaje / Frecuencia",
-              "176 - 265 V - 50/60Hz"
-             ],
-             [
-              "Protocolo de regulación",
-              "ON-OFF"
-             ],
-             [
-              "Factor de potencia",
-              ">0,90"
-             ],
-             [
-              "Vida útil",
-              "60.000 h L90B10"
-             ],
-             [
-              "Garantía",
-              "5 años"
-             ]
-            ],
-            "notas": [],
-            "descripcion": "Luminaria LED estanca para condiciones adversas e iluminación exterior. Excelente control de haz luminoso,difusor opal en policarbonato anti vandálico con filtro UV, Módulo lineal LED de alta luminancia y driver integrado."
-           }
-          },
-          "pdf": {
-           "0030511740": "fichas/0030511740.pdf"
-          }
          }
         ]
        },
@@ -22462,17 +22213,17 @@
           ],
           "fotos": {
            "luminaria": {
-            "ruta": "images/productos/Interiores/Retro Gold/Lámpara Colgante SLIM Retro Gold/0LC30SL6W27KD/luminaria.jpg",
+            "ruta": "images/productos/Interiores/Retro Gold/Lámpara Colgante SLIM Retro Gold/0LC15SL6W27KD/luminaria.jpg",
             "px": [
-             164,
-             568
+             64,
+             610
             ]
            },
            "medidas": {
-            "ruta": "images/productos/Interiores/Retro Gold/Lámpara Colgante SLIM Retro Gold/0LC20SL6W27KD/medidas.jpg",
+            "ruta": "images/productos/Interiores/Retro Gold/Lámpara Colgante SLIM Retro Gold/0LC30SL6W27KD/medidas.jpg",
             "px": [
              164,
-             566
+             568
             ]
            },
            "angulo": {
@@ -22578,17 +22329,17 @@
            },
            "0LC30SL6W27KD": {
             "luminaria": {
-             "ruta": "images/productos/Interiores/Retro Gold/Lámpara Colgante SLIM Retro Gold/0LC30SL6W27KD/luminaria.jpg",
-             "px": [
-              164,
-              568
-             ]
-            },
-            "medidas": {
              "ruta": "images/productos/Interiores/Retro Gold/Lámpara Colgante SLIM Retro Gold/0LC15SL6W27KD/luminaria.jpg",
              "px": [
               64,
               610
+             ]
+            },
+            "medidas": {
+             "ruta": "images/productos/Interiores/Retro Gold/Lámpara Colgante SLIM Retro Gold/0LC30SL6W27KD/medidas.jpg",
+             "px": [
+              164,
+              568
              ]
             },
             "angulo": {
@@ -22601,17 +22352,17 @@
            },
            "0LC30SL6W30KD": {
             "luminaria": {
-             "ruta": "images/productos/Interiores/Retro Gold/Lámpara Colgante SLIM Retro Gold/0LC30SL6W27KD/luminaria.jpg",
-             "px": [
-              164,
-              568
-             ]
-            },
-            "medidas": {
              "ruta": "images/productos/Interiores/Retro Gold/Lámpara Colgante SLIM Retro Gold/0LC15SL6W27KD/luminaria.jpg",
              "px": [
               64,
               610
+             ]
+            },
+            "medidas": {
+             "ruta": "images/productos/Interiores/Retro Gold/Lámpara Colgante SLIM Retro Gold/0LC30SL6W27KD/medidas.jpg",
+             "px": [
+              164,
+              568
              ]
             },
             "angulo": {
@@ -40571,114 +40322,6 @@
       ]
      },
      {
-      "nombre": "Faroles",
-      "slug": "faroles",
-      "ruta": "2 - EXTERIORES/2.4 - FAROLES",
-      "hijos": [],
-      "botones": [
-       {
-        "nombre": "Luminaria farol modelo Villa acero acabado pintado al horno negro",
-        "slug": "luminaria-farol-modelo-villa-acero-acabado-pintado-al-horno-negro",
-        "codigos": [
-         "00FAROLVILLAN"
-        ],
-        "archivos": [
-         "2 - EXTERIORES/2.4 - FAROLES/00FAROLVILLAN - Luminaria farol modelo Villa acero acabado pintado al horno negro IP20.xlsx"
-        ],
-        "fotos": {
-         "luminaria": {
-          "ruta": "images/productos/Exteriores/Faroles/00FAROLVILLAN/luminaria.jpg",
-          "px": [
-           268,
-           343
-          ]
-         },
-         "medidas": {
-          "ruta": "images/productos/Exteriores/Faroles/00FAROLVILLAN/medidas.jpg",
-          "px": [
-           400,
-           445
-          ]
-         }
-        },
-        "fotos_por_codigo": {
-         "00FAROLVILLAN": {
-          "luminaria": {
-           "ruta": "images/productos/Exteriores/Faroles/00FAROLVILLAN/luminaria.jpg",
-           "px": [
-            268,
-            343
-           ]
-          },
-          "medidas": {
-           "ruta": "images/productos/Exteriores/Faroles/00FAROLVILLAN/medidas.jpg",
-           "px": [
-            400,
-            445
-           ]
-          }
-         }
-        },
-        "tabla": [],
-        "notas": [],
-        "descripcion": [],
-        "pdf": {
-         "00FAROLVILLAN": "fichas/00FAROLVILLAN.pdf"
-        }
-       },
-       {
-        "nombre": "Módulo LED Villa - 50w_6500lm_4000K-6000K_IP65 _90º",
-        "slug": "modulo-led-villa-50w-6500lm-4000k-6000k-ip65-90",
-        "codigos": [
-         "00MDVILLA50W4"
-        ],
-        "archivos": [
-         "2 - EXTERIORES/2.4 - FAROLES/00MDVILLA50W4 - Módulo LED Villa - 50w_6500lm_4000K-6000K_IP65 _90º .xlsx"
-        ],
-        "fotos": {
-         "luminaria": {
-          "ruta": "images/productos/Exteriores/Faroles/00FAROLVILLAN/luminaria.jpg",
-          "px": [
-           268,
-           343
-          ]
-         },
-         "medidas": {
-          "ruta": "images/productos/Exteriores/Faroles/00FAROLVILLAN/medidas.jpg",
-          "px": [
-           400,
-           445
-          ]
-         }
-        },
-        "fotos_por_codigo": {
-         "00MDVILLA50W4": {
-          "luminaria": {
-           "ruta": "images/productos/Exteriores/Faroles/00FAROLVILLAN/luminaria.jpg",
-           "px": [
-            268,
-            343
-           ]
-          },
-          "medidas": {
-           "ruta": "images/productos/Exteriores/Faroles/00FAROLVILLAN/medidas.jpg",
-           "px": [
-            400,
-            445
-           ]
-          }
-         }
-        },
-        "tabla": [],
-        "notas": [],
-        "descripcion": [],
-        "pdf": {
-         "00MDVILLA50W4": "fichas/00MDVILLA50W4.pdf"
-        }
-       }
-      ]
-     },
-     {
       "nombre": "Jardín - Estacas",
       "slug": "jardin-estacas",
       "ruta": "2 - EXTERIORES/2.5 - JARDÍN - ESTACAS",
@@ -47603,6 +47246,255 @@
         "hijos": [],
         "botones": [
          {
+          "nombre": "luminaria LED estanca SLE-T LED",
+          "slug": "luminaria-led-estanca-sle-t-led",
+          "codigos": [
+           "0030511740"
+          ],
+          "archivos": [
+           "1 -  INTERIORES/1.3 - LINEALES/1.3.1 - LINEALES/0030511740 - luminaria LED estanca SLE-T LED 17W 4000K 2680Lm 600mm IP66.xlsx"
+          ],
+          "fotos": {
+           "luminaria": {
+            "ruta": "images/productos/Industriales/Estancas/Estancas 600mm/0030511740/luminaria.jpg",
+            "px": [
+             472,
+             200
+            ]
+           },
+           "medidas": {
+            "ruta": "images/productos/Industriales/Estancas/Estancas 600mm/0030511740/medidas.jpg",
+            "px": [
+             238,
+             102
+            ]
+           },
+           "ambiente": {
+            "ruta": "images/productos/Industriales/Estancas/Estancas 600mm/0030511740/ambiente.jpg",
+            "px": [
+             718,
+             602
+            ]
+           },
+           "angulo": {
+            "ruta": "images/productos/Industriales/Estancas/Estancas 600mm/0030511740/angulo.jpg",
+            "px": [
+             360,
+             369
+            ]
+           }
+          },
+          "fotos_por_codigo": {
+           "0030511740": {
+            "luminaria": {
+             "ruta": "images/productos/Industriales/Estancas/Estancas 600mm/0030511740/luminaria.jpg",
+             "px": [
+              472,
+              200
+             ]
+            },
+            "medidas": {
+             "ruta": "images/productos/Industriales/Estancas/Estancas 600mm/0030511740/medidas.jpg",
+             "px": [
+              238,
+              102
+             ]
+            },
+            "ambiente": {
+             "ruta": "images/productos/Industriales/Estancas/Estancas 600mm/0030511740/ambiente.jpg",
+             "px": [
+              718,
+              602
+             ]
+            },
+            "angulo": {
+             "ruta": "images/productos/Industriales/Estancas/Estancas 600mm/0030511740/angulo.jpg",
+             "px": [
+              360,
+              369
+             ]
+            }
+           }
+          },
+          "tabla": [
+           [
+            "Potencia total luminaria",
+            "17W"
+           ],
+           [
+            "Lúmenes reales",
+            "2680Lm"
+           ],
+           [
+            "Lm / W reales",
+            "157,65 lm/W"
+           ],
+           [
+            "Temperatura de color correlacionada",
+            "4000K"
+           ],
+           [
+            "Ángulo Ópticas / Reflector",
+            "120º"
+           ],
+           [
+            "CRI",
+            "90"
+           ],
+           [
+            "IP",
+            "66"
+           ],
+           [
+            "IK",
+            "09"
+           ],
+           [
+            "UGR",
+            "<=22"
+           ],
+           [
+            "Material de la estructura",
+            "Policarbonato"
+           ],
+           [
+            "Acabado estructura",
+            "Policarbonato"
+           ],
+           [
+            "Material del difusor",
+            "Policarbonato Opal"
+           ],
+           [
+            "Acabado difusor",
+            "Opal"
+           ],
+           [
+            "Marca Driver",
+            "TCI / VOSSLOH"
+           ],
+           [
+            "Clase de aislamiento",
+            "I"
+           ],
+           [
+            "Voltaje / Frecuencia",
+            "176 - 265 V - 50/60Hz"
+           ],
+           [
+            "Protocolo de regulación",
+            "ON-OFF"
+           ],
+           [
+            "Factor de potencia",
+            ">0,90"
+           ],
+           [
+            "Vida útil",
+            "60.000 h L90B10"
+           ],
+           [
+            "Garantía",
+            "5 años"
+           ]
+          ],
+          "notas": [],
+          "descripcion": [
+           "Luminaria LED estanca para condiciones adversas e iluminación exterior. Excelente control de haz luminoso,difusor opal en policarbonato anti vandálico con filtro UV, Módulo lineal LED de alta luminancia y driver integrado."
+          ],
+          "tabla_por_codigo": {
+           "0030511740": {
+            "filas": [
+             [
+              "Potencia total luminaria",
+              "17W"
+             ],
+             [
+              "Lúmenes reales",
+              "2680Lm"
+             ],
+             [
+              "Lm / W reales",
+              "157,65 lm/W"
+             ],
+             [
+              "Temperatura de color correlacionada",
+              "4000K"
+             ],
+             [
+              "Ángulo Ópticas / Reflector",
+              "120º"
+             ],
+             [
+              "CRI",
+              "90"
+             ],
+             [
+              "IP",
+              "66"
+             ],
+             [
+              "IK",
+              "09"
+             ],
+             [
+              "UGR",
+              "<=22"
+             ],
+             [
+              "Material de la estructura",
+              "Policarbonato"
+             ],
+             [
+              "Acabado estructura",
+              "Policarbonato"
+             ],
+             [
+              "Material del difusor",
+              "Policarbonato Opal"
+             ],
+             [
+              "Acabado difusor",
+              "Opal"
+             ],
+             [
+              "Marca Driver",
+              "TCI / VOSSLOH"
+             ],
+             [
+              "Clase de aislamiento",
+              "I"
+             ],
+             [
+              "Voltaje / Frecuencia",
+              "176 - 265 V - 50/60Hz"
+             ],
+             [
+              "Protocolo de regulación",
+              "ON-OFF"
+             ],
+             [
+              "Factor de potencia",
+              ">0,90"
+             ],
+             [
+              "Vida útil",
+              "60.000 h L90B10"
+             ],
+             [
+              "Garantía",
+              "5 años"
+             ]
+            ],
+            "notas": [],
+            "descripcion": "Luminaria LED estanca para condiciones adversas e iluminación exterior. Excelente control de haz luminoso,difusor opal en policarbonato anti vandálico con filtro UV, Módulo lineal LED de alta luminancia y driver integrado."
+           }
+          },
+          "pdf": {
+           "0030511740": "fichas/0030511740.pdf"
+          }
+         },
+         {
           "nombre": "Pantalla estanca LED",
           "slug": "pantalla-estanca-led",
           "codigos": [
@@ -49111,7 +49003,7 @@
             ]
            },
            "ambiente": {
-            "ruta": "images/productos/Interiores/Lineales/Lineales/0030511740/ambiente.jpg",
+            "ruta": "images/productos/Industriales/Estancas/Estancas 600mm/0030511740/ambiente.jpg",
             "px": [
              718,
              602
@@ -49128,7 +49020,7 @@
           "fotos_por_codigo": {
            "00PAEST24W4K": {
             "luminaria": {
-             "ruta": "images/productos/Interiores/Lineales/Lineales/0030511740/luminaria.jpg",
+             "ruta": "images/productos/Industriales/Estancas/Estancas 600mm/0030511740/luminaria.jpg",
              "px": [
               472,
               200
@@ -49142,14 +49034,14 @@
              ]
             },
             "ambiente": {
-             "ruta": "images/productos/Interiores/Lineales/Lineales/0030511740/ambiente.jpg",
+             "ruta": "images/productos/Industriales/Estancas/Estancas 600mm/0030511740/ambiente.jpg",
              "px": [
               718,
               602
              ]
             },
             "angulo": {
-             "ruta": "images/productos/Interiores/Lineales/Lineales/0030511740/angulo.jpg",
+             "ruta": "images/productos/Industriales/Estancas/Estancas 600mm/0030511740/angulo.jpg",
              "px": [
               360,
               369
@@ -49591,7 +49483,7 @@
           ],
           "fotos": {
            "luminaria": {
-            "ruta": "images/productos/Interiores/Lineales/Lineales/0030511740/luminaria.jpg",
+            "ruta": "images/productos/Industriales/Estancas/Estancas 600mm/0030511740/luminaria.jpg",
             "px": [
              472,
              200
@@ -49605,14 +49497,14 @@
             ]
            },
            "ambiente": {
-            "ruta": "images/productos/Interiores/Lineales/Lineales/0030511740/ambiente.jpg",
+            "ruta": "images/productos/Industriales/Estancas/Estancas 600mm/0030511740/ambiente.jpg",
             "px": [
              718,
              602
             ]
            },
            "angulo": {
-            "ruta": "images/productos/Interiores/Lineales/Lineales/0030511740/angulo.jpg",
+            "ruta": "images/productos/Industriales/Estancas/Estancas 600mm/0030511740/angulo.jpg",
             "px": [
              360,
              369
@@ -49622,7 +49514,7 @@
           "fotos_por_codigo": {
            "0030512440": {
             "luminaria": {
-             "ruta": "images/productos/Interiores/Lineales/Lineales/0030511740/luminaria.jpg",
+             "ruta": "images/productos/Industriales/Estancas/Estancas 600mm/0030511740/luminaria.jpg",
              "px": [
               472,
               200
@@ -49636,14 +49528,14 @@
              ]
             },
             "ambiente": {
-             "ruta": "images/productos/Interiores/Lineales/Lineales/0030511740/ambiente.jpg",
+             "ruta": "images/productos/Industriales/Estancas/Estancas 600mm/0030511740/ambiente.jpg",
              "px": [
               718,
               602
              ]
             },
             "angulo": {
-             "ruta": "images/productos/Interiores/Lineales/Lineales/0030511740/angulo.jpg",
+             "ruta": "images/productos/Industriales/Estancas/Estancas 600mm/0030511740/angulo.jpg",
              "px": [
               360,
               369
@@ -49652,7 +49544,7 @@
            },
            "0030513440": {
             "luminaria": {
-             "ruta": "images/productos/Interiores/Lineales/Lineales/0030511740/luminaria.jpg",
+             "ruta": "images/productos/Industriales/Estancas/Estancas 600mm/0030511740/luminaria.jpg",
              "px": [
               472,
               200
@@ -49666,14 +49558,14 @@
              ]
             },
             "ambiente": {
-             "ruta": "images/productos/Interiores/Lineales/Lineales/0030511740/ambiente.jpg",
+             "ruta": "images/productos/Industriales/Estancas/Estancas 600mm/0030511740/ambiente.jpg",
              "px": [
               718,
               602
              ]
             },
             "angulo": {
-             "ruta": "images/productos/Interiores/Lineales/Lineales/0030511740/angulo.jpg",
+             "ruta": "images/productos/Industriales/Estancas/Estancas 600mm/0030511740/angulo.jpg",
              "px": [
               360,
               369
@@ -59388,14 +59280,14 @@
           ],
           "fotos": {
            "luminaria": {
-            "ruta": "images/productos/Exteriores/Faroles/00FAROLVILLAN/luminaria.jpg",
+            "ruta": "images/productos/Industriales/Farolas/Farolas/00FAROLVILLAN/luminaria.jpg",
             "px": [
              268,
              343
             ]
            },
            "medidas": {
-            "ruta": "images/productos/Exteriores/Faroles/00FAROLVILLAN/medidas.jpg",
+            "ruta": "images/productos/Industriales/Farolas/Farolas/00FAROLVILLAN/medidas.jpg",
             "px": [
              400,
              445
@@ -59405,14 +59297,14 @@
           "fotos_por_codigo": {
            "00FAROLVILLAN": {
             "luminaria": {
-             "ruta": "images/productos/Exteriores/Faroles/00FAROLVILLAN/luminaria.jpg",
+             "ruta": "images/productos/Industriales/Farolas/Farolas/00FAROLVILLAN/luminaria.jpg",
              "px": [
               268,
               343
              ]
             },
             "medidas": {
-             "ruta": "images/productos/Exteriores/Faroles/00FAROLVILLAN/medidas.jpg",
+             "ruta": "images/productos/Industriales/Farolas/Farolas/00FAROLVILLAN/medidas.jpg",
              "px": [
               400,
               445
@@ -59438,14 +59330,14 @@
           ],
           "fotos": {
            "luminaria": {
-            "ruta": "images/productos/Exteriores/Faroles/00FAROLVILLAN/luminaria.jpg",
+            "ruta": "images/productos/Industriales/Farolas/Farolas/00FAROLVILLAN/luminaria.jpg",
             "px": [
              268,
              343
             ]
            },
            "medidas": {
-            "ruta": "images/productos/Exteriores/Faroles/00FAROLVILLAN/medidas.jpg",
+            "ruta": "images/productos/Industriales/Farolas/Farolas/00FAROLVILLAN/medidas.jpg",
             "px": [
              400,
              445
@@ -59455,14 +59347,14 @@
           "fotos_por_codigo": {
            "00MDVILLA50W4": {
             "luminaria": {
-             "ruta": "images/productos/Exteriores/Faroles/00FAROLVILLAN/luminaria.jpg",
+             "ruta": "images/productos/Industriales/Farolas/Farolas/00FAROLVILLAN/luminaria.jpg",
              "px": [
               268,
               343
              ]
             },
             "medidas": {
-             "ruta": "images/productos/Exteriores/Faroles/00FAROLVILLAN/medidas.jpg",
+             "ruta": "images/productos/Industriales/Farolas/Farolas/00FAROLVILLAN/medidas.jpg",
              "px": [
               400,
               445
@@ -69298,13 +69190,6 @@
     []
    ],
    [
-    "2 - EXTERIORES/2.4 - FAROLES/00MDVILLA50W4 - Módulo LED Villa - 50w_6500lm_4000K-6000K_IP65 _90º .xlsx",
-    "00MDVILLA50W4",
-    "00FAROLVILLAN",
-    true,
-    []
-   ],
-   [
     "2 - EXTERIORES/2.5 - JARDÍN - ESTACAS/00PINCHOGU10 - Foco jadín pincho GU10 7W IP54 IK08 - Negro.xlsx",
     "00PINCHOGU10",
     "00PINCHOGU10N",
@@ -69420,6 +69305,8 @@
    "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES DE SUPERFICIE.rar",
    "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES PARA EMPOTRAR.rar",
    "2 - EXTERIORES/2 Equipos LED de Iluminación para Exteriores.docx",
+   "2 - EXTERIORES/2.4 - FAROLES/00FAROLVILLAN - Luminaria farol modelo Villa acero acabado pintado al horno negro IP20.xlsx (duplicada: es el Tubo LED T8 de Bombillas)",
+   "2 - EXTERIORES/2.4 - FAROLES/00MDVILLA50W4 - Módulo LED Villa - 50w_6500lm_4000K-6000K_IP65 _90º .xlsx (duplicada: es el Tubo LED T8 de Bombillas)",
    "3 - DECORATIVAS/3 Equipos LED de Iluminación Decorativa.docx",
    "4 - INDUSTRIALES/4 Equipos LED de Iluminación para Industriales.docx",
    "4 - INDUSTRIALES/4.3 - PANELES/00PANSP544K - Pantalla superficie mod. CJV 625 54W 4935 4000K difusor opal IP20 UGR19.pdf",
@@ -69459,20 +69346,6 @@
     [
      "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES DE SUPERFICIE/PERFIL 45º/00PS45S2020 -Perfil de aluminio 45 superficie 15,8X15,8HX2000mm difusor opal color aluminio IP20.xlsx",
      "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES ESPECIALES/PERFIL 45º/00PS45S2020 -Perfil de aluminio 45 superficie 15,8X15,8HX2000mm difusor opal color aluminio IP20.xlsx"
-    ]
-   ],
-   [
-    "00FAR0LVILLAN",
-    [
-     "2 - EXTERIORES/2.4 - FAROLES/00FAROLVILLAN - Luminaria farol modelo Villa acero acabado pintado al horno negro IP20.xlsx",
-     "4 - INDUSTRIALES/4.6 - FAROLAS/FAROLAS/00FAROLVILLAN - Luminaria farol modelo Villa acero acabado pintado al horno negro IP20.xlsx"
-    ]
-   ],
-   [
-    "00MDVILLA50W4",
-    [
-     "2 - EXTERIORES/2.4 - FAROLES/00MDVILLA50W4 - Módulo LED Villa - 50w_6500lm_4000K-6000K_IP65 _90º .xlsx",
-     "4 - INDUSTRIALES/4.6 - FAROLAS/FAROLAS/00MDVILLA50W4 - Módulo LED Villa - 50w_6500lm_4000K-6000K_IP65 _90º .xlsx"
     ]
    ]
   ]

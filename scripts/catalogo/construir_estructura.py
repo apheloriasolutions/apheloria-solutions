@@ -31,7 +31,25 @@ IGNORAR_CARPETAS = {'CARATULAS'}
 # Fichas duplicadas que ensucian la navegación. El archivo se llama "farolas.xlsx" pero
 # dentro lleva la ficha del Tubo LED T8, que ya está en Bombillas y Accesorios: hacía que
 # Industriales mostrara un producto suelto detrás de sus cinco secciones.
-IGNORAR_FICHAS = {os.path.join('4 - INDUSTRIALES', 'farolas.xlsx')}
+IGNORAR_FICHAS = {
+    os.path.join('4 - INDUSTRIALES', 'farolas.xlsx'),
+    # Exteriores › Faroles repetía las dos fichas del farol Villa, que ya están en
+    # Industriales › Farolas. Se funden ahí y la sección de Exteriores desaparece.
+    os.path.join('2 - EXTERIORES', '2.4 - FAROLES',
+                 '00FAROLVILLAN - Luminaria farol modelo Villa acero acabado pintado al '
+                 'horno negro IP20.xlsx'),
+    os.path.join('2 - EXTERIORES', '2.4 - FAROLES',
+                 '00MDVILLA50W4 - Módulo LED Villa - 50w_6500lm_4000K-6000K_IP65 _90º .xlsx'),
+}
+
+IGNORAR_FICHAS = {unicodedata.normalize('NFC', x) for x in IGNORAR_FICHAS}
+
+# Productos archivados en la carpeta que no les toca. Clave: el código; valor: la ruta de
+# secciones donde debe aparecer. El SLE-T de 600 mm estaba entre los lineales siendo una
+# estanca, igual que sus hermanos de 1200 mm.
+MOVER = {
+    '0030511740': ('Industriales', 'Estancas', 'Estancas 600mm'),
+}
 
 # ── corte del nombre ──────────────────────────────────────────────────────────
 UNIDADES = r'W|K|Kº|lm|Lm|LM|V|mA|Ah|h|H|mm|cm|m|º|°|%'
@@ -244,7 +262,7 @@ def recorrer(carpeta, relativa=''):
             hijo = recorrer(ruta, rel)
             if hijo['hijos'] or hijo['botones']:     # las carpetas vacías no se muestran
                 nodo_hijos.append(hijo)
-        elif rel in IGNORAR_FICHAS:
+        elif unicodedata.normalize('NFC', rel) in IGNORAR_FICHAS:
             incidencias['no_es_ficha'].append(f'{rel} (duplicada: es el Tubo LED T8 de Bombillas)')
         elif es_ficha(entrada):
             f = leer_ficha(ruta, rel)
@@ -295,10 +313,49 @@ def quitar_repetidos_distintos(arbol):
     return podar(arbol)
 
 
+def mover_botones(arbol):
+    """Lleva cada botón de MOVER a la sección que le corresponde."""
+    def buscar(nodo, ruta):
+        if not ruta:
+            return nodo
+        for h in nodo['hijos']:
+            if h['nombre'] == ruta[0]:
+                return buscar(h, ruta[1:])
+        return None
+
+    def sacar(nodo, codigo):
+        for i, b in enumerate(nodo['botones']):
+            if codigo in b['codigos']:
+                return nodo['botones'].pop(i)
+        for h in nodo['hijos']:
+            encontrado = sacar(h, codigo)
+            if encontrado:
+                return encontrado
+        return None
+
+    for codigo, destino in MOVER.items():
+        boton = sacar(arbol, codigo)
+        if boton is None:
+            incidencias['mover'].append(f'{codigo}: no se encuentra para moverlo')
+            continue
+        nodo = buscar(arbol, destino)
+        if nodo is None:
+            incidencias['mover'].append(f'{codigo}: no existe la sección {" › ".join(destino)}')
+            nodo = arbol
+        nodo['botones'].append(boton)
+        nodo['botones'].sort(key=lambda b: b['nombre'].lower())
+
+    def limpiar(nodo):               # una sección que se queda vacía desaparece
+        nodo['hijos'] = [limpiar(h) for h in nodo['hijos']]
+        nodo['hijos'] = [h for h in nodo['hijos'] if h['hijos'] or h['botones']]
+        return nodo
+    return limpiar(arbol)
+
+
 if __name__ == '__main__':
     if not os.path.isdir(FUENTE):
         sys.exit(f'No encuentro {FUENTE}')
-    arbol = quitar_repetidos_distintos(recorrer(FUENTE))
+    arbol = mover_botones(quitar_repetidos_distintos(recorrer(FUENTE)))
     os.makedirs(os.path.dirname(SALIDA), exist_ok=True)
     json.dump({'arbol': arbol, 'incidencias': {k: v for k, v in incidencias.items()}},
               open(SALIDA, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
