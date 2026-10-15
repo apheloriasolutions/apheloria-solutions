@@ -132,7 +132,8 @@
  },
  "interiores/retro-gold": {
   "texto": "Colección Retro Gold: luminarias de acabado dorado para comercio y hostelería, en versión colgante, adosada, empotrada y proyector.",
-  "borrador": true
+  "borrador": true,
+  "portada": "images/productos/Interiores/Retro Gold/Proyector Capi Retro Gold/0P3CG706W30KD/luminaria.jpg"
  },
  "interiores/retro-gold/lampara-colgante-slim-retro-gold": {
   "texto": "Lámpara colgante SLIM con acabado dorado retro. 6W en 2700K y 3000K.",
