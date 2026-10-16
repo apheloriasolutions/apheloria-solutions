@@ -9,7 +9,10 @@ Las rutas de las fichas (carpetas de fuentes/) no se publican.
 
 Uso:  python scripts/catalogo/construir_web.py
 """
-import json, os, re
+import json, os, re, sys
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from construir_estructura import de_superficie
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 DATOS = os.path.join(RAIZ, 'data', 'catalogo.json')
@@ -179,8 +182,9 @@ def sin_marcas_de_proveedor(tabla, avisos):
 
 
 def descripcion_de(boton):
-    """Una sola descripción cuando el origen trae dos casi iguales."""
-    desc = boton.get('descripcion', [])
+    """Una sola descripción cuando el origen trae dos casi iguales. Y, como en los nombres,
+    "adosado" pasa a "de superficie": es la palabra que se usa aquí."""
+    desc = [de_superficie(d) for d in boton.get('descripcion', [])]
     for codigo, i in DESCRIPCION_ELEGIDA.items():
         if codigo in boton['codigos'] and len(desc) > i:
             return [desc[i]]

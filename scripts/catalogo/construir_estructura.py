@@ -105,6 +105,30 @@ CARPETAS_RENOMBRADAS = {
 }
 
 
+# "Adosado" es como se dice en Latinoamérica; aquí se dice "de superficie". El cambio se
+# hace sobre el nombre, que es de donde salen también la dirección y la carpeta de fotos.
+# Sin \b por delante a propósito: alguna ficha trae la palabra pegada a la anterior
+# ("de luz directapara adosar"), y así también la recoge.
+FRASES_ADOSAR = [
+    (re.compile(r'para adosar o suspender\b', re.I), ' de superficie o para suspender'),
+    (re.compile(r'para adosar o supender\b', re.I), ' de superficie o para supender'),
+    (re.compile(r'\bpara suspender o adosar\b', re.I), 'para suspender o de superficie'),
+    (re.compile(r'para adosar\b', re.I), ' de superficie'),
+]
+PALABRA_ADOSAR = re.compile(r'\badosa(?:bles?|d[oa]s?)\b', re.I)
+
+
+def de_superficie(texto):
+    """Cambia adosado, adosada, adosable y 'para adosar' por 'de superficie',
+    respetando si la palabra venía en mayúscula inicial."""
+    for patron, nuevo in FRASES_ADOSAR:
+        texto = patron.sub(lambda m: nuevo[0].upper() + nuevo[1:] if m.group(0)[0].isupper() else nuevo,
+                           texto)
+    texto = PALABRA_ADOSAR.sub(
+        lambda m: 'de Superficie' if m.group(0)[0].isupper() else 'de superficie', texto)
+    return re.sub(r'\s{2,}', ' ', texto).strip()
+
+
 def limpiar_nombre(carpeta):
     """'4.1.1 - CAMPANAS ALFA' -> 'Campanas ALFA'. Respeta siglas, modelos y medidas."""
     txt = re.sub(r'\s+', ' ', NUMERACION.sub('', carpeta).strip(' -–_'))
@@ -247,7 +271,8 @@ def leer_ficha(ruta, relativa):
                 incidencias['no_cuadra'].append((relativa, codigo, faltan, dict(tabla)))
                 return None
 
-    return {'codigo': codigo, 'nombre': FICHAS_RENOMBRADAS.get(nombre, nombre), 'descripcion': desc,
+    return {'codigo': codigo, 'nombre': de_superficie(FICHAS_RENOMBRADAS.get(nombre, nombre)),
+            'descripcion': desc,
             'archivo': relativa, 'origen_codigo': origen}
 
 
@@ -280,7 +305,7 @@ def recorrer(carpeta, relativa=''):
                 'archivos': [f['archivo'] for f in g]}
                for n, g in sorted(agrupados.items())]
     nombre_nodo = limpiar_nombre(os.path.basename(carpeta)) if relativa else 'Productos'
-    nombre_nodo = CARPETAS_RENOMBRADAS.get(nombre_nodo, nombre_nodo)
+    nombre_nodo = de_superficie(CARPETAS_RENOMBRADAS.get(nombre_nodo, nombre_nodo))
     return {'nombre': nombre_nodo,
             'slug': slug(nombre_nodo) if relativa else 'productos',
             'ruta': relativa, 'hijos': nodo_hijos, 'botones': botones}

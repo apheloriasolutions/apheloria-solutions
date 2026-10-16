@@ -2,10 +2,10 @@
  "": {
   "texto": "Más de doscientos productos de iluminación técnica, agrupados por tipo de instalación. Cada producto reúne sus características, sus fotografías y la ficha técnica en PDF.",
   "borrador": true,
-  "hero": "images/productos/Interiores/Downlights Adosados/TAC/0DSTAC20WXXKB/ambiente.jpg"
+  "hero": "images/productos/Interiores/Downlights de Superficie/TAC/0DSTAC20WXXKB/ambiente.jpg"
  },
  "interiores": {
-  "texto": "Iluminación de interior para oficina, comercio y vivienda: downlights empotrados y adosados, perfiles lineales, tiras y perfiles LED, proyectores de carril y la colección Retro Gold.",
+  "texto": "Iluminación de interior para oficina, comercio y vivienda: downlights empotrados y de superficie, perfiles lineales, tiras y perfiles LED, proyectores de carril y la colección Retro Gold.",
   "borrador": true,
   "portada": "images/productos/portadas/interiores.jpg"
  },
@@ -78,48 +78,48 @@
   "texto": "Downlight empotrado fijo ZEN, apertura 70º, CRI90. Siete potencias (7 a 50W) y tres temperaturas de color (2700K/3000K/4000K). Incluye variante Ø185mm DALI.",
   "borrador": false
  },
- "interiores/downlights-adosados": {
-  "texto": "Downlights de superficie para adosar o suspender, sin obra de empotramiento: la serie SLIM en circular y cuadrado, el modelo TAC y los tubulares.",
+ "interiores/downlights-de-superficie": {
+  "texto": "Downlights de superficie de superficie o para suspender, sin obra de empotramiento: la serie SLIM en circular y cuadrado, el modelo TAC y los tubulares.",
   "borrador": true
  },
- "interiores/downlights-adosados/slim-adosable": {
-  "texto": "Downlights adosables SLIM de perfil ultradelgado, circulares y cuadrados, con temperatura fija o tres seleccionables. De 5 a 25W, CRI90.",
+ "interiores/downlights-de-superficie/slim-de-superficie": {
+  "texto": "Downlights de superficie SLIM de perfil ultradelgado, circulares y cuadrados, con temperatura fija o tres seleccionables. De 5 a 25W, CRI90.",
   "borrador": true
  },
- "interiores/downlights-adosados/slim-adosable/5clim-cuadrado-3cct": {
-  "texto": "Downlight adosable cuadrado SLIM con tres temperaturas seleccionables. 12, 20 y 25W.",
+ "interiores/downlights-de-superficie/slim-de-superficie/5clim-cuadrado-3cct": {
+  "texto": "Downlight de superficie cuadrado SLIM con tres temperaturas seleccionables. 12, 20 y 25W.",
   "borrador": true
  },
- "interiores/downlights-adosados/slim-adosable/slim-circulares": {
-  "texto": "Downlight adosable circular SLIM en 3000K, 4500K o 6000K a elegir. De 5 a 25W.",
+ "interiores/downlights-de-superficie/slim-de-superficie/slim-circulares": {
+  "texto": "Downlight de superficie circular SLIM en 3000K, 4500K o 6000K a elegir. De 5 a 25W.",
   "borrador": true
  },
- "interiores/downlights-adosados/slim-adosable/slim-circulares-3cct": {
-  "texto": "Downlight adosable circular SLIM con tres temperaturas seleccionables. De 6 a 25W.",
+ "interiores/downlights-de-superficie/slim-de-superficie/slim-circulares-3cct": {
+  "texto": "Downlight de superficie circular SLIM con tres temperaturas seleccionables. De 6 a 25W.",
   "borrador": true
  },
- "interiores/downlights-adosados/slim-adosable/slim-cuadrado": {
-  "texto": "Downlight adosable cuadrado SLIM en 3000K, 4500K o 6000K a elegir. 12, 20 y 25W.",
+ "interiores/downlights-de-superficie/slim-de-superficie/slim-cuadrado": {
+  "texto": "Downlight de superficie cuadrado SLIM en 3000K, 4500K o 6000K a elegir. 12, 20 y 25W.",
   "borrador": true
  },
- "interiores/downlights-adosados/tac": {
+ "interiores/downlights-de-superficie/tac": {
   "texto": "Downlight TAC de superficie, también apto para suspender. 20W en 3000K o 4000K, CRI90, IP44.",
   "borrador": true
  },
- "interiores/downlights-adosados/tubular": {
-  "texto": "Downlights tubulares para adosar o suspender: modelo TUBE de 10 y 20W y modelo de superficie en aluminio de 30W IP65.",
+ "interiores/downlights-de-superficie/tubular": {
+  "texto": "Downlights tubulares de superficie o para suspender: modelo TUBE de 10 y 20W y modelo de superficie en aluminio de 30W IP65.",
   "borrador": true
  },
  "interiores/lineales": {
-  "texto": "Perfiles lineales de aluminio para adosar, suspender o empotrar, en secciones y longitudes muy variadas. 4000K y CRI90.",
+  "texto": "Perfiles lineales de aluminio de superficie, suspendidos o para empotrar, en secciones y longitudes muy variadas. 4000K y CRI90.",
   "borrador": true
  },
  "interiores/lineales/lineales": {
-  "texto": "Perfiles lineales en varias secciones (40, 58, 107, M05, M16, MI4 y OVAL) para adosar o suspender. Potencia seleccionable, de 13 a 114W, en 3000K y 4000K.",
+  "texto": "Perfiles lineales en varias secciones (40, 58, 107, M05, M16, MI4 y OVAL) de superficie o para suspender. Potencia seleccionable, de 13 a 114W, en 3000K y 4000K.",
   "borrador": true
  },
  "interiores/lineales/lineales/lineal-mini-2": {
-  "texto": "Perfil lineal MINI para adosar o suspender. Cuatro potencias, de 13 a 31W, en 3000K y 4000K.",
+  "texto": "Perfil lineal MINI de superficie o para suspender. Cuatro potencias, de 13 a 31W, en 3000K y 4000K.",
   "borrador": true
  },
  "interiores/lineales/lineales/nuevo": {
@@ -127,11 +127,11 @@
   "borrador": true
  },
  "interiores/lineales/otros": {
-  "texto": "Otros perfiles lineales para adosar, suspender o empotrar, de 24 a 40W. CRI90.",
+  "texto": "Otros perfiles lineales de superficie, suspendidos o para empotrar, de 24 a 40W. CRI90.",
   "borrador": true
  },
  "interiores/retro-gold": {
-  "texto": "Colección Retro Gold: luminarias de acabado dorado para comercio y hostelería, en versión colgante, adosada, empotrada y proyector.",
+  "texto": "Colección Retro Gold: luminarias de acabado dorado para comercio y hostelería, en versión colgante, de superficie, empotrada y proyector.",
   "borrador": true,
   "portada": "images/productos/Interiores/Retro Gold/Proyector Capi Retro Gold/0P3CG706W30KD/luminaria.jpg"
  },
@@ -139,8 +139,8 @@
   "texto": "Lámpara colgante SLIM con acabado dorado retro. 6W en 2700K y 3000K.",
   "borrador": true
  },
- "interiores/retro-gold/luminarias-adosadas": {
-  "texto": "Luminaria adosada SLIM con acabado dorado retro. 6W en 2700K y 3000K.",
+ "interiores/retro-gold/luminarias-de-superficie": {
+  "texto": "Luminaria de superficie SLIM con acabado dorado retro. 6W en 2700K y 3000K.",
   "borrador": true
  },
  "interiores/retro-gold/luminarias-empotrada-retro-gold": {
