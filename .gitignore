@@ -21,3 +21,7 @@ docs/catalogo/catalogo-apheloria-correo.pdf
 
 # Material de revisión interno: no se publica
 _revision/
+
+# El catálogo completo también se genera (scripts/catalogo/construir_catalogo_completo.py)
+docs/catalogo/catalogo-completo.pdf
+docs/catalogo/catalogo-completo-correo.pdf
