@@ -17,11 +17,14 @@ Uso:  python scripts/catalogo/construir_catalogo_completo.py
 """
 import json
 import os
+import subprocess
+import sys
 
 import fitz
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 WEB = os.path.join(RAIZ, 'js', 'catalogo-web.js')
+RESUMIDAS = os.path.join(RAIZ, 'fichas', 'resumidas')
 CARATULAS = os.path.expanduser('~/Desktop/Jordi Barrachina/Finales/General - páginas sueltas.pdf')
 SALIDA = os.path.join(RAIZ, 'docs', 'catalogo', 'catalogo-completo.pdf')
 
@@ -93,6 +96,16 @@ def seccion_de(ruta, prod):
     return OTROS                           # bombillas y fuentes de alimentación
 
 
+def hojas_de(prod):
+    """Las páginas de un producto: la resumida si la tiene, y si no, una por referencia.
+    La resumida la genera scripts/catalogo/fichas_resumidas.py."""
+    if prod['fichas']:
+        resumida = os.path.join(RESUMIDAS, prod['fichas'][0]['codigo'] + '.pdf')
+        if os.path.exists(resumida):
+            return [resumida]
+    return [os.path.join(RAIZ, f['pdf']) for f in prod['fichas']]
+
+
 def hoja_de_titulo(doc, ancho, alto, titulo, subtitulo=None, portada=False):
     pagina = doc.new_page(-1, width=ancho, height=alto)
     icono = os.path.join(RAIZ, 'logo-icon.png')
@@ -150,10 +163,9 @@ def main():
             if not p['fichas']:
                 continue
             indice.append([2, p['nombre'], len(salida) + 1])
-            for f in p['fichas']:
-                ruta_pdf = os.path.join(RAIZ, f['pdf'])
+            for ruta_pdf in hojas_de(p):
                 if not os.path.exists(ruta_pdf):
-                    print(f'   FALTA la ficha {f["codigo"]}')
+                    print(f'   FALTA {os.path.basename(ruta_pdf)}')
                     continue
                 with fitz.open(ruta_pdf) as fd:
                     salida.insert_pdf(fd)
@@ -170,8 +182,7 @@ def main():
             if not p['fichas']:
                 continue
             indice.append([2, p['nombre'], len(salida) + 1])
-            for f in p['fichas']:
-                ruta_pdf = os.path.join(RAIZ, f['pdf'])
+            for ruta_pdf in hojas_de(p):
                 if os.path.exists(ruta_pdf):
                     with fitz.open(ruta_pdf) as fd:
                         salida.insert_pdf(fd)
@@ -188,20 +199,38 @@ def main():
     salida.close()
     caratulas.close()
 
-    ligero = fitz.open(SALIDA)
-    ligero.rewrite_images(dpi_threshold=130, dpi_target=110, quality=62)
+    # La copia ligera va en un proceso aparte: recomprimir las imágenes de las carátulas
+    # hace que PyMuPDF se caiga con SIGBUS, y así no se lleva por delante el catálogo.
     correo = SALIDA.replace('.pdf', '-correo.pdf')
-    ligero.save(correo, garbage=4, deflate=True, clean=True)
-    ligero.close()
+    hecho = False
+    for _ in range(3):          # la primera pasada se cae a veces; a la segunda entra
+        if subprocess.run([sys.executable, os.path.abspath(__file__), '--ligero'],
+                          capture_output=True).returncode == 0:
+            hecho = True
+            break
 
     print(f'{SALIDA}')
     print(f'  {total} páginas · {os.path.getsize(SALIDA) / 1048576:.1f} MB')
-    print(f'  copia para correo: {os.path.getsize(correo) / 1048576:.1f} MB')
+    if hecho:
+        print(f'  copia para correo: {os.path.getsize(correo) / 1048576:.1f} MB')
+    else:
+        print('  la copia para correo ha fallado al recomprimir las imágenes')
     print()
     print(f'  {"sección":52s} productos  fichas')
     for nombre, n_prod, n_fichas in resumen:
         print(f'  {nombre:52s} {n_prod:>9} {n_fichas:>7}')
 
 
+def ligero():
+    """La copia para correo, con las fotos recomprimidas."""
+    doc = fitz.open(SALIDA)
+    doc.rewrite_images(dpi_threshold=130, dpi_target=110, quality=62)
+    doc.save(SALIDA.replace('.pdf', '-correo.pdf'), garbage=4, deflate=True, clean=True)
+    doc.close()
+
+
 if __name__ == '__main__':
-    main()
+    if '--ligero' in sys.argv:
+        ligero()
+    else:
+        main()
