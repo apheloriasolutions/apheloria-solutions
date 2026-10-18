@@ -202,12 +202,7 @@ def main():
     # La copia ligera va en un proceso aparte: recomprimir las imágenes de las carátulas
     # hace que PyMuPDF se caiga con SIGBUS, y así no se lleva por delante el catálogo.
     correo = SALIDA.replace('.pdf', '-correo.pdf')
-    hecho = False
-    for _ in range(3):          # la primera pasada se cae a veces; a la segunda entra
-        if subprocess.run([sys.executable, os.path.abspath(__file__), '--ligero'],
-                          capture_output=True).returncode == 0:
-            hecho = True
-            break
+    hecho = ligero()
 
     print(f'{SALIDA}')
     print(f'  {total} páginas · {os.path.getsize(SALIDA) / 1048576:.1f} MB')
@@ -221,16 +216,52 @@ def main():
         print(f'  {nombre:52s} {n_prod:>9} {n_fichas:>7}')
 
 
-def ligero():
-    """La copia para correo, con las fotos recomprimidas."""
-    doc = fitz.open(SALIDA)
-    doc.rewrite_images(dpi_threshold=130, dpi_target=110, quality=62)
-    doc.save(SALIDA.replace('.pdf', '-correo.pdf'), garbage=4, deflate=True, clean=True)
-    doc.close()
+def ligero(tramo=None):
+    """La copia para correo, con las fotos recomprimidas.
+
+    Se hace por tramos y cada uno en su propio proceso: con el documento entero en memoria,
+    rewrite_images se cae con SIGBUS, y no es por ninguna página en concreto sino por el
+    tamaño. Por tramos de 32 páginas entra sin problema.
+    """
+    correo = SALIDA.replace('.pdf', '-correo.pdf')
+    if tramo is not None:
+        a, b = tramo
+        doc = fitz.open(SALIDA)
+        doc.select(list(range(a, b)))
+        doc.rewrite_images(dpi_threshold=130, dpi_target=110, quality=62)
+        doc.save(f'{correo}.{a:04d}', garbage=4, deflate=True, clean=True)
+        doc.close()
+        return True
+
+    total = fitz.open(SALIDA).page_count
+    PASO = 32
+    trozos = []
+    for a in range(0, total, PASO):
+        b = min(a + PASO, total)
+        hecho = any(subprocess.run([sys.executable, os.path.abspath(__file__),
+                                    '--ligero', str(a), str(b)],
+                                   capture_output=True).returncode == 0 for _ in range(3))
+        if not hecho:
+            return False
+        trozos.append(f'{correo}.{a:04d}')
+
+    salida = fitz.open()
+    for t in trozos:
+        with fitz.open(t) as d:
+            salida.insert_pdf(d)
+        os.remove(t)
+    base = fitz.open(SALIDA)
+    salida.set_toc(base.get_toc())
+    salida.set_metadata(base.metadata or {})
+    base.close()
+    salida.save(correo, garbage=4, deflate=True)
+    salida.close()
+    return True
 
 
 if __name__ == '__main__':
     if '--ligero' in sys.argv:
-        ligero()
+        resto = [x for x in sys.argv[2:] if x.isdigit()]
+        ligero((int(resto[0]), int(resto[1])) if len(resto) == 2 else None)
     else:
         main()

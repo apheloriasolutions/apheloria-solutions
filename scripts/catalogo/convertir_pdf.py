@@ -21,10 +21,19 @@ SALIDA = os.path.join(RAIZ, 'fichas')
 SOFFICE = '/Applications/LibreOffice.app/Contents/MacOS/soffice'
 PRUEBA = ('00CARD20W3KBL', '00PANEL25WXXX', '00PSFB1S2020')
 
+# Fichas cuyo Excel ocupa mucho más de una hoja: el CJV y el equipo lineal pasan de 500
+# filas, y las fuentes y farolas solares de 110. Forzarlas a una A4 dejaba la letra en
+# 0,5 pt, ilegible. En estas se ajusta solo el ancho y el alto fluye en varias páginas.
+VARIAS_PAGINAS = {'00PANSP544K', '00PANSP544KDL', '00NDPRO', 'EMS61000',
+                  '00FASO16WCCTK', '00FASOH20WCCT', '00PRCLIP2730N', '00PRCLIP2730B'}
 
-def solo_primera_hoja(origen, destino):
+
+def solo_primera_hoja(origen, destino, varias_paginas=False):
     """Copia el .xlsx dejando únicamente la primera hoja, y la ajusta a una A4 vertical.
+    Con varias_paginas, solo se ajusta el ancho: el alto se reparte en las hojas que haga
+    falta, en vez de encogerlo todo hasta dejarlo ilegible.
     Devuelve el nombre de las hojas que se han quitado."""
+    alto = '0' if varias_paginas else '1'
     z = zipfile.ZipFile(origen)
     libro = z.read('xl/workbook.xml').decode('utf-8')
     rels = z.read('xl/_rels/workbook.xml.rels').decode('utf-8')
@@ -65,12 +74,13 @@ def solo_primera_hoja(origen, destino):
     # el r:id de pageSetup apunta a la configuración de impresora guardada, que manda
     # sobre el ajuste; se quita para que valgan fitToWidth/fitToHeight
     hoja1 = re.sub(r'<pageSetup\b[^>]*/>',
-                   '<pageSetup paperSize="9" orientation="portrait" fitToWidth="1" fitToHeight="1"/>',
+                   f'<pageSetup paperSize="9" orientation="portrait" fitToWidth="1" '
+                   f'fitToHeight="{alto}"/>',
                    hoja1, count=1)
     if '<pageSetup' not in hoja1:
         hoja1 = hoja1.replace('</worksheet>',
                               '<pageSetup paperSize="9" orientation="portrait" '
-                              'fitToWidth="1" fitToHeight="1"/></worksheet>')
+                              f'fitToWidth="1" fitToHeight="{alto}"/></worksheet>')
 
     nuevos = {'xl/workbook.xml': libro, 'xl/_rels/workbook.xml.rels': rels,
               '[Content_Types].xml': tipos, 'xl/worksheets/sheet1.xml': hoja1}
@@ -138,7 +148,8 @@ def main():
             continue
         copia = os.path.join(temporal, cod + '.xlsx')
         try:
-            quitadas[cod] = solo_primera_hoja(os.path.join(FICHAS, rel), copia)
+            quitadas[cod] = solo_primera_hoja(os.path.join(FICHAS, rel), copia,
+                                              varias_paginas=cod in VARIAS_PAGINAS)
             pendientes.append(copia)
         except Exception as e:
             fallos.append((cod, rel, f'no se puede preparar: {e}'))
