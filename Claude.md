@@ -38,7 +38,8 @@ el código de referencia, p. ej. `EST__00PAES17W6K60 - ….png`).
 - Inicio ✅ (hero con slideshow + conector + Nosotros, uno detrás de otro)
 - Proyectos ✅ (grid único con filtros por data-category)
 - Productos ✅ (grid único con filtros + 48 paneles de detalle con fichas PDF)
-- Catálogo ✅ (el PDF del catálogo general está pendiente; botón deshabilitado)
+- Catálogo ✅ (el PDF se descarga de catalogo/catalogo-apheloria.pdf; lo genera
+  scripts/catalogo/construir_catalogo_completo.py)
 - Contacto ✅ (formulario vía Web3Forms; email y teléfono reales confirmados: info@apheloria.es y 645 085 743)
 
 ## Convenciones del código
@@ -81,5 +82,4 @@ el código de referencia, p. ej. `EST__00PAES17W6K60 - ….png`).
   fotos de proyectos) por fotografías reales — no deben llegar a producción.
 - La portada del catálogo en PDF lleva otros datos (comercial@apheloria.es y
   +34 607 591 975); confirmar si es a propósito o si debe usar los de Contacto.
-- PDF del catálogo general para activar el botón de descarga.
 - Al desplegar: configurar headers de seguridad en el hosting y `og:image` con URL absoluta.

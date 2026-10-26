@@ -199,6 +199,7 @@ nav {
               border-color 0.3s var(--ease-premium), transform 0.3s var(--ease-premium),
               box-shadow 0.3s var(--ease-premium);
 }
+.btn { text-decoration: none; }    /* el de Catálogo es un enlace, no un <button> */
 .btn:active:not(:disabled) { transform: scale(0.97); }
 .btn:disabled { cursor: not-allowed; opacity: 0.5; }
 /* Relleno oscuro, para botones sobre fondo claro (formularios, tarjetas claras) */
