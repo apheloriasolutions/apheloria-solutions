@@ -25,6 +25,12 @@ import fitz
 RAIZ = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 WEB = os.path.join(RAIZ, 'js', 'catalogo-web.js')
 RESUMIDAS = os.path.join(RAIZ, 'fichas', 'resumidas')
+
+# Fichas que de momento se quedan fuera del catálogo. No son fichas de producto: son el
+# folleto entero del fabricante metido en una hoja de cálculo, de 500 y pico filas y sin
+# un solo salto de página, así que al repartirlas en hojas los bloques se parten por la
+# mitad y arrastran un trozo a la página siguiente. Vuelven cuando se arregle el Excel.
+SIN_MONTAR = {'00NDPRO', '00PANSP544K'}
 CARATULAS = os.path.expanduser('~/Desktop/Jordi Barrachina/Finales/General - páginas sueltas.pdf')
 SALIDA = os.path.join(RAIZ, 'docs', 'catalogo', 'catalogo-completo.pdf')
 
@@ -153,7 +159,7 @@ def main():
     ancho, alto = caratulas[0].rect.width, caratulas[0].rect.height
     hoja_de_titulo(salida, ancho, alto, 'Catálogo General', portada=True)
 
-    indice, resumen = [], []
+    indice, resumen, fuera = [], [], []
     for numero, nombre in SECCIONES:
         lista = por_seccion.get(numero, [])
         indice.append([1, nombre, len(salida) + 1])
@@ -161,6 +167,9 @@ def main():
         fichas = 0
         for _, p in lista:
             if not p['fichas']:
+                continue
+            if p['fichas'][0]['codigo'] in SIN_MONTAR:
+                fuera.append(p['nombre'])
                 continue
             indice.append([2, p['nombre'], len(salida) + 1])
             for ruta_pdf in hojas_de(p):
@@ -179,7 +188,7 @@ def main():
                        'Fuentes de alimentación, controladores y bombillas')
         fichas = 0
         for _, p in sueltos:
-            if not p['fichas']:
+            if not p['fichas'] or p['fichas'][0]['codigo'] in SIN_MONTAR:
                 continue
             indice.append([2, p['nombre'], len(salida) + 1])
             for ruta_pdf in hojas_de(p):
@@ -214,80 +223,26 @@ def main():
     print(f'  {"sección":52s} productos  fichas')
     for nombre, n_prod, n_fichas in resumen:
         print(f'  {nombre:52s} {n_prod:>9} {n_fichas:>7}')
-
-
-LOGOS = {(214, 214), (314, 314), (580, 81), (594, 83), (578, 81), (600, 84), (192, 192)}
-DPI_CORREO = 110
-CALIDAD = 62
-
-
-def aligerar(doc):
-    """Recomprime las fotos para el correo, pero NO los logos.
-
-    rewrite_images aplastaba también el logo del pie: lo bajaba a 110 dpi y, al reescribir
-    el PNG con transparencia, el dorado salía gris. Aquí se va imagen por imagen, se saltan
-    los logos de la plantilla y el resto se reduce a la resolución con la que se dibuja.
-    """
-    import io
-    from PIL import Image
-
-    dibujadas = {}
-    for pagina in doc:
-        for i in pagina.get_image_info(xrefs=True):
-            if not i.get('xref'):
-                continue
-            caja = fitz.Rect(i['bbox'])
-            previo = dibujadas.get(i['xref'], (0, 0))
-            dibujadas[i['xref']] = (max(previo[0], caja.width), max(previo[1], caja.height))
-
-    # replace_image vive en la página, no en el documento, y hay que decirle en cuál
-    donde = {}
-    for pagina in doc:
-        for i in pagina.get_image_info(xrefs=True):
-            if i.get('xref'):
-                donde.setdefault(i['xref'], pagina.number)
-
-    tocadas = 0
-    for xref, (ancho_pt, alto_pt) in dibujadas.items():
-        try:
-            datos = doc.extract_image(xref)
-        except Exception:
-            continue
-        if (datos['width'], datos['height']) in LOGOS or not ancho_pt:
-            continue
-        objetivo = max(1, round(ancho_pt / 72 * DPI_CORREO))
-        if datos['width'] <= objetivo * 1.1:
-            continue
-        try:
-            im = Image.open(io.BytesIO(datos['image']))
-            if im.mode in ('RGBA', 'LA', 'P'):
-                fondo = Image.new('RGBA', im.size, (255, 255, 255, 255))
-                im = Image.alpha_composite(fondo, im.convert('RGBA'))
-            im = im.convert('RGB')
-            alto = max(1, round(im.height * objetivo / im.width))
-            im = im.resize((objetivo, alto), Image.LANCZOS)
-            buf = io.BytesIO()
-            im.save(buf, 'JPEG', quality=CALIDAD, optimize=True, progressive=True)
-            doc[donde[xref]].replace_image(xref, stream=buf.getvalue())
-            tocadas += 1
-        except Exception:
-            continue
-    return tocadas
+    if fuera:
+        print()
+        print('  fuera del catálogo de momento:')
+        for nombre in fuera:
+            print(f'    {nombre}')
 
 
 def ligero(tramo=None):
-    """La copia para correo, con las fotos recomprimidas y los logos intactos.
+    """La copia para correo, con las fotos recomprimidas.
 
-    Se hace por tramos y cada uno en su propio proceso: con el documento entero en memoria
-    la recompresión se cae con SIGBUS, y no es por ninguna página en concreto sino por el
-    tamaño.
+    Se hace por tramos y cada uno en su propio proceso: con el documento entero en memoria,
+    rewrite_images se cae con SIGBUS, y no es por ninguna página en concreto sino por el
+    tamaño. Por tramos de 32 páginas entra sin problema.
     """
     correo = SALIDA.replace('.pdf', '-correo.pdf')
     if tramo is not None:
         a, b = tramo
         doc = fitz.open(SALIDA)
         doc.select(list(range(a, b)))
-        aligerar(doc)
+        doc.rewrite_images(dpi_threshold=130, dpi_target=110, quality=62)
         doc.save(f'{correo}.{a:04d}', garbage=4, deflate=True, clean=True)
         doc.close()
         return True
