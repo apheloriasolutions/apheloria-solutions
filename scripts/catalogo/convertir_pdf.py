@@ -101,16 +101,38 @@ def convertir(origenes, carpeta):
                    check=True, capture_output=True, timeout=1800)
 
 
+# Lo que la plantilla pone en todas las hojas: si en una página no hay nada más, está vacía
+PLANTILLA = ('Av. Emilio Arrieta', 'San Sebastián de los Reyes', 'comercial@apheloria.es',
+             'Telefono:', 'Teléfono:', 'www.apheloria.es', 'FICHA TÉCNICA')
+
+
+def pagina_vacia(pagina):
+    """Una página sin contenido propio: o es toda de un color, o lo único que lleva es el
+    logo y el pie de la plantilla, que LibreOffice repite en cada hoja."""
+    muestra = pagina.get_pixmap(dpi=40)
+    colores = {muestra.samples[j:j + muestra.n] for j in range(0, len(muestra.samples), muestra.n)}
+    if len(colores) <= 1:
+        return True
+    texto = pagina.get_text()
+    for trozo in PLANTILLA:
+        texto = texto.replace(trozo, '')
+    # de lo que quede solo cuentan las letras: así caen el teléfono, el código postal y
+    # los separadores que la plantilla deja sueltos
+    letras = [c for c in texto if c.isalpha()]
+    if len(letras) > 10:
+        return False
+    # sin texto propio: solo se salva si trae alguna imagen que no sea el logo
+    # solo se salva si trae alguna imagen que no sea el logo, que se pinta a 74 x 74
+    grandes = [i for i in pagina.get_image_info()
+               if (i['bbox'][2] - i['bbox'][0]) > 110 or (i['bbox'][3] - i['bbox'][1]) > 110]
+    return not grandes and not pagina.get_drawings()
+
+
 def quitar_paginas_en_blanco(ruta):
-    """LibreOffice deja a veces una página final vacía. Se mira si tiene un solo color."""
+    """LibreOffice deja a veces páginas vacías: al final, y también en medio cuando una
+    ficha larga se reparte en varias hojas."""
     doc = fitz.open(ruta)
-    sobran = []
-    for i in range(len(doc) - 1, 0, -1):
-        muestra = doc[i].get_pixmap(dpi=40)
-        colores = {muestra.samples[j:j + muestra.n] for j in range(0, len(muestra.samples), muestra.n)}
-        if len(colores) > 1:
-            break
-        sobran.append(i)
+    sobran = [i for i in range(len(doc)) if i and pagina_vacia(doc[i])]
     if sobran:
         doc.delete_pages(sobran)
         provisional = ruta + '.tmp'
