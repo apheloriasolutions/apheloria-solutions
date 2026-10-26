@@ -112,34 +112,66 @@ def hojas_de(prod):
     return [os.path.join(RAIZ, f['pdf']) for f in prod['fichas']]
 
 
+# Tipografías de la portada. Didot para los títulos, que es de las pocas con clase que
+# vienen con macOS, y Baskerville para las líneas pequeñas, porque los trazos finos de
+# Didot desaparecen por debajo de 10 pt.
+TITULAR = ('didot', '/System/Library/Fonts/Supplemental/Didot.ttc')
+MENUDA = ('bask', '/System/Library/Fonts/Supplemental/Baskerville.ttc')
+FOTO_PORTADA = os.path.join(RAIZ, 'images', 'inicio', 'conector-apheloria.jpg')
+
+
+def _fuente(cual):
+    nombre, archivo = cual
+    return (nombre, archivo) if os.path.exists(archivo) else ('helv', None)
+
+
+def _ancho(texto, nombre, archivo, tam):
+    """get_text_length no sabe de fuentes incrustadas, así que se mide con fitz.Font."""
+    if archivo:
+        return fitz.Font(fontfile=archivo).text_length(texto, fontsize=tam)
+    return fitz.get_text_length(texto, fontname=nombre, fontsize=tam)
+
+
 def hoja_de_titulo(doc, ancho, alto, titulo, subtitulo=None, portada=False):
     pagina = doc.new_page(-1, width=ancho, height=alto)
+    grande, grande_f = _fuente(TITULAR)
+    menuda, menuda_f = _fuente(MENUDA)
+
+    def centrado(texto, y, tam, color, fuente=None, archivo=None, espaciado=0):
+        fuente = fuente or menuda
+        archivo = archivo if fuente != 'helv' else None
+        if espaciado:
+            texto = (' ' * espaciado).join(texto)
+        w = _ancho(texto, fuente, archivo, tam)
+        pagina.insert_text(((ancho - w) / 2, y), texto, fontname=fuente, fontfile=archivo,
+                           fontsize=tam, color=color)
+
     icono = os.path.join(RAIZ, 'logo-icon.png')
     if os.path.exists(icono):
-        lado = ancho * (0.17 if portada else 0.10)
-        arriba = alto * (0.26 if portada else 0.34)
+        lado = ancho * (0.15 if portada else 0.10)
+        arriba = alto * (0.13 if portada else 0.34)
         pagina.insert_image(fitz.Rect((ancho - lado) / 2, arriba,
                                       (ancho + lado) / 2, arriba + lado), filename=icono)
 
-    def centrado(texto, y, tam, color, espaciado=0):
-        if espaciado:
-            texto = (' ' * espaciado).join(texto)
-        w = fitz.get_text_length(texto, fontname='helv', fontsize=tam)
-        pagina.insert_text(((ancho - w) / 2, y), texto, fontname='helv', fontsize=tam, color=color)
-
     if portada:
-        centrado('APHELORIA SOLUTIONS', alto * 0.49, 15, TINTA, espaciado=1)
-        centrado(titulo, alto * 0.565, 27, TINTA)
-        centrado('Iluminación técnica y material eléctrico', alto * 0.60, 10.5, ORO)
-        pagina.draw_line(fitz.Point(ancho * 0.38, alto * 0.525),
-                         fitz.Point(ancho * 0.62, alto * 0.525), color=ORO, width=0.6)
+        centrado('APHELORIA SOLUTIONS', alto * 0.315, 12.5, TINTA, menuda, menuda_f, espaciado=1)
+        pagina.draw_line(fitz.Point(ancho * 0.36, alto * 0.345),
+                         fitz.Point(ancho * 0.64, alto * 0.345), color=ORO, width=0.6)
+        centrado(titulo, alto * 0.405, 33, TINTA, grande, grande_f)
+        centrado('Iluminación técnica y material eléctrico', alto * 0.443, 11, ORO,
+                 menuda, menuda_f)
+        centrado('www.apheloria.es', alto * 0.487, 9.5, ORO, menuda, menuda_f)
+        # la mitad de abajo, la foto de la web: la apheloria encendida en la mano
+        if os.path.exists(FOTO_PORTADA):
+            hueco = fitz.Rect(0, alto * 0.52, ancho, alto)
+            pagina.insert_image(hueco, filename=FOTO_PORTADA, keep_proportion=True)
     else:
-        centrado(titulo, alto * 0.52, 20, TINTA)
+        centrado(titulo, alto * 0.52, 21, TINTA, grande, grande_f)
         if subtitulo:
-            centrado(subtitulo, alto * 0.56, 10, ORO)
+            centrado(subtitulo, alto * 0.56, 10, ORO, menuda, menuda_f)
         pagina.draw_line(fitz.Point(ancho * 0.35, alto * 0.49),
                          fitz.Point(ancho * 0.65, alto * 0.49), color=ORO, width=0.6)
-    centrado('www.apheloria.es', alto * 0.93, 9, ORO)
+        centrado('www.apheloria.es', alto * 0.93, 9, ORO, menuda, menuda_f)
     return pagina
 
 
