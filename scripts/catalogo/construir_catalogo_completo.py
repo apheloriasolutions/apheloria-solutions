@@ -159,9 +159,13 @@ def main():
     ancho, alto = caratulas[0].rect.width, caratulas[0].rect.height
     hoja_de_titulo(salida, ancho, alto, 'Catálogo General', portada=True)
 
-    indice, resumen, fuera = [], [], []
+    indice, resumen, fuera, sin_productos = [], [], [], []
     for numero, nombre in SECCIONES:
         lista = por_seccion.get(numero, [])
+        if not lista:
+            # una carátula sin productos detrás promete una familia que no se puede pedir
+            sin_productos.append(nombre)
+            continue
         indice.append([1, nombre, len(salida) + 1])
         salida.insert_pdf(caratulas, from_page=(numero - 1) * 2, to_page=(numero - 1) * 2 + 1)
         fichas = 0
@@ -226,9 +230,14 @@ def main():
     print(f'  {"sección":52s} productos  fichas')
     for nombre, n_prod, n_fichas in resumen:
         print(f'  {nombre:52s} {n_prod:>9} {n_fichas:>7}')
+    if sin_productos:
+        print()
+        print('  carátulas retiradas por no tener ningún producto detrás:')
+        for nombre in sin_productos:
+            print(f'    {nombre}')
     if fuera:
         print()
-        print('  fuera del catálogo de momento:')
+        print('  fichas fuera del catálogo de momento:')
         for nombre in fuera:
             print(f'    {nombre}')
 
