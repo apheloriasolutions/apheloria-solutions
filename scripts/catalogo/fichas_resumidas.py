@@ -73,7 +73,13 @@ def parecido(color, objetivo=BEIGE, tolerancia=0.03):
 
 
 def zona_tabla(pagina):
-    """El rectángulo que ocupa la tabla de características, por sus bandas de color."""
+    """El rectángulo que ocupa la tabla de características, por sus bandas de color.
+
+    La tabla acaba donde se corta la sucesión de filas. Antes se tomaba la última línea
+    pegada al margen izquierdo, pero algunas fichas llevan debajo un bloque de "NOTAS
+    IMPORTANTES" que también empieza ahí, y eso estiraba la tabla hasta el final de la
+    hoja: salían filas de triple altura y restos a medio borrar.
+    """
     bandas = [d['rect'] for d in pagina.get_drawings()
               if parecido(d.get('fill')) and d['rect'].x0 < 70
               and d['rect'].x1 < 340 and d['rect'].width > 150]
@@ -82,9 +88,16 @@ def zona_tabla(pagina):
     x0 = min(b.x0 for b in bandas)
     x1 = max(b.x1 for b in bandas)
     y0 = min(b.y0 for b in bandas)
-    etiquetas = [b for b in pagina.get_text('blocks')
-                 if b[6] == 0 and abs(b[0] - x0) < 6 and b[1] >= y0 - 2]
-    y1 = max([b[3] for b in etiquetas] + [max(b.y1 for b in bandas)])
+    fila = max(b.height for b in bandas)
+
+    etiquetas = sorted([b for b in pagina.get_text('blocks')
+                        if b[6] == 0 and abs(b[0] - x0) < 6 and b[3] > y0],
+                       key=lambda b: b[1])
+    y1 = max(b.y1 for b in bandas)
+    for b in etiquetas:
+        if b[1] - y1 > fila * 1.6:      # un hueco grande es que la tabla ya acabó
+            break
+        y1 = max(y1, b[3])
     return fitz.Rect(x0, y0, x1, y1)
 
 
