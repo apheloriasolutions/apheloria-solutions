@@ -54,7 +54,7 @@
   "FUENTE ALIMENTACION: las fichas del grupo tienen fotos de producto distintas (2)"
  ],
  "izquierda_extra": [
-  "00DLECSL6WXXX: 3 imagen(es) más a la izquierda, se ignoran",
+  "00DLECUSL6WXXX: 3 imagen(es) más a la izquierda, se ignoran",
   "0DLECUSL12WXX: 3 imagen(es) más a la izquierda, se ignoran",
   "0DLECUSL20WXX: 3 imagen(es) más a la izquierda, se ignoran",
   "0DLECUSL25WXX: 3 imagen(es) más a la izquierda, se ignoran",
@@ -158,7 +158,6 @@
   "00PSFB8S2020: sin foto de ambiente",
   "00PSFB9S2020: sin foto de ambiente",
   "00PS45S2020: sin foto de ambiente",
-  "00PS45S2020: sin foto de ambiente",
   "00PEFA1E2020: sin foto de ambiente",
   "00PEFA10E2020: sin foto de ambiente",
   "00PEFA11E2020: sin foto de ambiente",
@@ -224,7 +223,6 @@
   "00PSFB8S2020: solo hay dibujo de medidas, no hay foto de producto",
   "00PSFB9S2020: solo hay dibujo de medidas, no hay foto de producto",
   "00PS45S2020: solo hay dibujo de medidas, no hay foto de producto",
-  "00PS45S2020: solo hay dibujo de medidas, no hay foto de producto",
   "00PEFA1E2020: solo hay dibujo de medidas, no hay foto de producto",
   "00PEFA10E2020: solo hay dibujo de medidas, no hay foto de producto",
   "00PEFA11E2020: solo hay dibujo de medidas, no hay foto de producto",
@@ -277,7 +275,6 @@
   "0PSFB8S2020N: la ficha solo trae dos fotos; la de la izquierda se publica como foto de producto",
   "00PSFB8S2020: la ficha solo trae dos fotos; la de la izquierda se publica como foto de producto",
   "00PSFB9S2020: la ficha solo trae dos fotos; la de la izquierda se publica como foto de producto",
-  "00PS45S2020: la ficha solo trae dos fotos; la de la izquierda se publica como foto de producto",
   "00PS45S2020: la ficha solo trae dos fotos; la de la izquierda se publica como foto de producto",
   "00PEFA1E2020: la ficha solo trae dos fotos; la de la izquierda se publica como foto de producto",
   "00PEFA10E2020: la ficha solo trae dos fotos; la de la izquierda se publica como foto de producto",

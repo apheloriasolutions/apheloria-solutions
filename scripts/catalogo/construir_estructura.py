@@ -33,6 +33,15 @@ IGNORAR_CARPETAS = {'CARATULAS'}
 # Industriales mostrara un producto suelto detrás de sus cinco secciones.
 IGNORAR_FICHAS = {
     os.path.join('4 - INDUSTRIALES', 'farolas.xlsx'),
+    # el mismo archivo, byte a byte, guardado también en PERFILES ESPECIALES: salía el
+    # producto dos veces seguidas y una sección "Perfiles Especiales" que solo contenía
+    # esa copia
+    os.path.join('1 -  INTERIORES', '1.5 - TIRAS Y PERFILES LED', '1.5.2 - PERFILES DE ALUMINIO',
+                 'PERFILES ESPECIALES', 'PERFIL 45º',
+                 '00PS45S2020 -Perfil de aluminio 45 superficie 15,8X15,8HX2000mm difusor '
+                 'opal color aluminio IP20.xlsx'),
+    # copia de trabajo del perfil lineal 40: mismo código y mismos datos dentro
+    os.path.join('1 -  INTERIORES', '1.3 - LINEALES', '1.3.1 - LINEALES', 'CLP 14M.xlsx'),
     # Exteriores › Faroles repetía las dos fichas del farol Villa, que ya están en
     # Industriales › Farolas. Se funden ahí y la sección de Exteriores desaparece.
     os.path.join('2 - EXTERIORES', '2.4 - FAROLES',
@@ -43,6 +52,17 @@ IGNORAR_FICHAS = {
 }
 
 IGNORAR_FICHAS = {unicodedata.normalize('NFC', x) for x in IGNORAR_FICHAS}
+
+# Fichas cuyo nombre de archivo lleva un código que no es el suyo. El 6W cuadrado de la
+# serie SLIM está guardado con el código del circular, al que le falta la U, y por eso
+# aparecía como un downlight circular suelto dentro de la sección de los cuadrados.
+CODIGOS_CORREGIDOS = {
+    os.path.join('1 -  INTERIORES', '1.1 -DOWNLIGHTS EMPOTRADOS', '1.2.8 - SLIM',
+                 'SLIM CUADRADO',
+                 '00DLECSL6WXXX - Downlight empotrable circular SLIM LED 6W '
+                 '3000K-4500K-6000K CRI80 120°.xlsx'): '00DLECUSL6WXXX',
+}
+CODIGOS_CORREGIDOS = {unicodedata.normalize('NFC', k): v for k, v in CODIGOS_CORREGIDOS.items()}
 
 # Productos archivados en la carpeta que no les toca. Clave: el código; valor: la ruta de
 # secciones donde debe aparecer. El SLE-T de 600 mm estaba entre los lineales siendo una
@@ -253,6 +273,11 @@ def leer_ficha(ruta, relativa):
         if not codigo:
             incidencias['sin_codigo'].append((relativa, 'ni el nombre del archivo ni la hoja traen código'))
             return None
+
+    arreglado = CODIGOS_CORREGIDOS.get(unicodedata.normalize('NFC', relativa))
+    if arreglado and texto_celda:
+        codigo, desc = partir_codigo(texto_celda)
+        origen = f'celda {coord} (el nombre del archivo lleva otro código)'
 
     nombre = cortar(desc)
     if re.search(r'MEDIDA\s*-\s*NOMBRE', nombre, re.I):
