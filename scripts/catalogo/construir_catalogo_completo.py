@@ -160,7 +160,6 @@ def hoja_de_titulo(doc, ancho, alto, titulo, subtitulo=None, portada=False):
         centrado(titulo, alto * 0.405, 33, TINTA, grande, grande_f)
         centrado('Iluminación técnica y material eléctrico', alto * 0.443, 11, ORO,
                  menuda, menuda_f)
-        centrado('www.apheloria.es', alto * 0.487, 9.5, ORO, menuda, menuda_f)
         # la mitad de abajo, la foto de la web: la apheloria encendida en la mano
         if os.path.exists(FOTO_PORTADA):
             hueco = fitz.Rect(0, alto * 0.52, ancho, alto)
