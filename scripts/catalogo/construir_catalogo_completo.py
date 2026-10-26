@@ -199,6 +199,9 @@ def main():
         resumen.append(('Otros equipos', len(sueltos), fichas))
 
     salida.set_toc(indice)
+    # que se abra de una página en una, no en pliegos de dos, y con el índice desplegado
+    salida.set_pagelayout('SinglePage')
+    salida.set_pagemode('UseOutlines')
     salida.set_metadata({'title': 'Apheloria Solutions — Catálogo General',
                          'author': 'Apheloria Solutions, S.L.',
                          'subject': 'Iluminación técnica y material eléctrico'})
@@ -266,6 +269,8 @@ def ligero(tramo=None):
         os.remove(t)
     base = fitz.open(SALIDA)
     salida.set_toc(base.get_toc())
+    salida.set_pagelayout('SinglePage')
+    salida.set_pagemode('UseOutlines')
     salida.set_metadata(base.metadata or {})
     base.close()
     salida.save(correo, garbage=4, deflate=True)
