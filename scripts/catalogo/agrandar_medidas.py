@@ -78,15 +78,15 @@ def bloque_de_medidas(pagina, curva):
         if b.x0 > COLUMNA[0] - 10 and 340 < b.y0 < curva.y0 - 2:
             derecha.append(b)
     if not derecha:
-        return None
+        return None, None
     derecha.sort(key=lambda r: r.y0)
     producto = next((r for r in derecha if r.height > 40), None)
     if producto is None:
-        return None
+        return None, None
 
     franja = fitz.Rect(COLUMNA[0], producto.y1 + 1, COLUMNA[1], curva.y0 - 1)
     if franja.height < 12:
-        return None
+        return None, None
     lupa = 150 / 72
     pix = pagina.get_pixmap(clip=franja, matrix=fitz.Matrix(lupa, lupa))
     a = np.frombuffer(pix.samples, dtype=np.uint8).reshape(pix.height, pix.width, pix.n)
@@ -94,9 +94,10 @@ def bloque_de_medidas(pagina, curva):
     filas = np.where(tinta.any(axis=1))[0]
     columnas = np.where(tinta.any(axis=0))[0]
     if not len(filas) or not len(columnas):
-        return None
-    return fitz.Rect(franja.x0 + columnas[0] / lupa, franja.y0 + filas[0] / lupa,
-                     franja.x0 + (columnas[-1] + 1) / lupa, franja.y0 + (filas[-1] + 1) / lupa)
+        return None, None
+    return (fitz.Rect(franja.x0 + columnas[0] / lupa, franja.y0 + filas[0] / lupa,
+                      franja.x0 + (columnas[-1] + 1) / lupa, franja.y0 + (filas[-1] + 1) / lupa),
+            franja.y0)
 
 
 def arreglar(ruta, referencias):
@@ -110,7 +111,7 @@ def arreglar(ruta, referencias):
     if curva is None:
         doc.close()
         return None
-    caja = bloque_de_medidas(pagina, curva)
+    caja, franja_y0 = bloque_de_medidas(pagina, curva)
     # si lo que hay en la franja es una mota suelta, no es el dibujo: en alguna ficha el
     # acotado va por encima de la foto del producto y abajo solo queda un resto
     if caja is None or caja.width < ANCHO_MINIMO or caja.height < ALTO_MINIMO:
@@ -139,7 +140,7 @@ def arreglar(ruta, referencias):
     medio = (COLUMNA[0] + COLUMNA[1]) / 2
     medidas_nueva = fitz.Rect(medio - ancho / 2, caja.y0, medio + ancho / 2, caja.y0 + alto)
 
-    blanco = fitz.Rect(COLUMNA[0] - 4, caja.y0 - 2, COLUMNA[1] + 4, curva.y1 + 2)
+    blanco = fitz.Rect(COLUMNA[0] - 6, franja_y0 - 1, COLUMNA[1] + 6, curva.y1 + 2)
     pagina.draw_rect(blanco, color=None, fill=(1, 1, 1))
     pagina.insert_image(medidas_nueva, pixmap=pix_medidas)
     pagina.insert_image(curva_nueva, pixmap=pix_curva)

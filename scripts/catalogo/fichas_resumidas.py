@@ -102,15 +102,29 @@ def zona_tabla(pagina):
 
 
 def zona_descripcion(pagina):
-    """El hueco de la descripción: desde su rótulo hasta la primera imagen que tiene debajo."""
-    rotulo = next((b for b in pagina.get_text('blocks')
-                   if b[6] == 0 and 'Descripci' in b[4] and b[0] > 300), None)
+    """El hueco de la descripción: su rótulo y las líneas que vienen seguidas debajo.
+
+    Antes se borraba hasta la primera imagen de la columna, y en las fichas con bloque de
+    "NOTAS IMPORTANTES" eso se llevaba por delante la mitad derecha de las notas, que van
+    a todo el ancho del papel.
+    """
+    bloques = [b for b in pagina.get_text('blocks') if b[6] == 0 and b[0] > 300]
+    rotulo = next((b for b in bloques if 'Descripci' in b[4]), None)
     if not rotulo:
         return None, None
+    seguidas = sorted([b for b in bloques if b[1] > rotulo[1] - 1], key=lambda b: b[1])
+    abajo = rotulo[3]
+    for b in seguidas:
+        if b[1] - abajo > 18:          # un hueco grande: lo de debajo ya no es la descripción
+            break
+        abajo = max(abajo, b[3])
+    # sin pasar nunca de la primera imagen que haya debajo
     debajo = [i['bbox'][1] for i in pagina.get_image_info()
               if i['bbox'][0] > 300 and i['bbox'][1] > rotulo[1] + 8]
-    tope = min(debajo) if debajo else rotulo[1] + 120
-    return fitz.Rect(rotulo[0] - 6, rotulo[1] - 3, 518, tope - 6), rotulo
+    if debajo:
+        abajo = min(abajo, min(debajo) - 6)
+    abajo = max(abajo, rotulo[3] + 12)      # que nunca salga una caja vacía o del revés
+    return fitz.Rect(rotulo[0] - 6, rotulo[1] - 3, 518, abajo + 4), rotulo
 
 
 def zona_encabezado(pagina, codigo):
@@ -184,7 +198,7 @@ def resumir(prod, aviso):
         aviso.append(f"{prod['nombre']}: no encuentro el encabezado")
 
     hueco, rotulo = zona_descripcion(pg)
-    if hueco and prod.get('descripcion'):
+    if hueco and hueco.height > 24 and prod.get('descripcion'):
         pg.draw_rect(hueco, color=None, fill=BLANCO)
         titulo = 'Descripción'
         w = fitz.get_text_length(titulo, 'hebo', 7.5)
