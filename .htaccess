@@ -1,0 +1,103 @@
+# Apheloria Solutions — configuración del servidor (Apache, hosting de IONOS)
+#
+# Este archivo se sube a la raíz del hosting junto al resto de la web. No hace falta
+# tocar nada en el panel de IONOS salvo activar el certificado SSL.
+#
+# Si en algún momento algo deja de funcionar, se renombra a ".htaccess-desactivado"
+# y el sitio vuelve a servirse sin estas reglas.
+
+# ── 1. Todo por HTTPS ────────────────────────────────────────────────────────
+# Quien entre por http:// acaba en https:// con una redirección permanente.
+# IMPORTANTE: activar antes el certificado SSL gratuito en el panel de IONOS;
+# si no, esto deja la web inaccesible.
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteCond %{HTTPS} !=on
+  RewriteCond %{HTTP:X-Forwarded-Proto} !https
+  RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+
+  # Una sola dirección buena. Descomenta UNO de los dos bloques según prefieras
+  # que la web viva en www.apheloria.es o en apheloria.es. Tener las dos activas
+  # sin redirección penaliza en Google por contenido duplicado.
+
+  # --- con www (recomendado si el certificado cubre el dominio y el www) ---
+  # RewriteCond %{HTTP_HOST} ^apheloria\.es$ [NC]
+  # RewriteRule ^(.*)$ https://www.apheloria.es/$1 [R=301,L]
+
+  # --- sin www ---
+  # RewriteCond %{HTTP_HOST} ^www\.apheloria\.es$ [NC]
+  # RewriteRule ^(.*)$ https://apheloria.es/$1 [R=301,L]
+</IfModule>
+
+# ── 2. Página de error propia ────────────────────────────────────────────────
+ErrorDocument 404 /404.html
+
+# ── 3. Que no se pueda listar el contenido de las carpetas ───────────────────
+# Sin esto, entrar en /fichas/ enseñaría el listado completo de los 398 PDF.
+Options -Indexes
+
+# ── 4. Cabeceras de seguridad ────────────────────────────────────────────────
+<IfModule mod_headers.c>
+  # De dónde puede cargar cosas la página. Si algún día alojamos las tipografías
+  # nosotros, se quitan las dos líneas de fonts.googleapis / fonts.gstatic.
+  Header always set Content-Security-Policy "default-src 'self'; \
+script-src 'self'; \
+style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; \
+font-src 'self' https://fonts.gstatic.com; \
+img-src 'self' data:; \
+connect-src 'self' https://api.web3forms.com; \
+form-action 'self' https://api.web3forms.com; \
+frame-ancestors 'none'; \
+base-uri 'self'; \
+object-src 'none'"
+
+  # El navegador respeta el tipo de archivo que declara el servidor y no lo adivina
+  Header always set X-Content-Type-Options "nosniff"
+
+  # Nadie puede meter la web dentro de un iframe suyo (clickjacking)
+  Header always set X-Frame-Options "DENY"
+
+  # Al salir hacia otra web no se le cuenta la página exacta de la que se viene
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+
+  # La web no pide cámara, micrófono ni ubicación: se desactivan de raíz
+  Header always set Permissions-Policy "camera=(), microphone=(), geolocation=(), interest-cohort=()"
+
+  # HSTS: obliga al navegador a usar HTTPS durante un año, incluso si alguien
+  # teclea http://. NO activar hasta comprobar que el HTTPS funciona en todo el
+  # sitio: una vez enviado, el navegador lo recuerda y no hay vuelta atrás fácil.
+  # Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+</IfModule>
+
+# ── 5. Compresión ────────────────────────────────────────────────────────────
+# El catálogo en JavaScript pesa 452 KB y comprimido viaja en 49.
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css text/plain text/xml \
+    application/javascript application/json application/xml image/svg+xml
+</IfModule>
+
+# ── 6. Caché del navegador ───────────────────────────────────────────────────
+# Las fotos y los PDF no cambian: que no se descarguen en cada visita.
+# El HTML sí, para que un cambio se vea el mismo día.
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType text/html                 "access plus 1 hour"
+  ExpiresByType text/css                  "access plus 1 month"
+  ExpiresByType application/javascript    "access plus 1 month"
+  ExpiresByType image/jpeg                "access plus 6 months"
+  ExpiresByType image/png                 "access plus 6 months"
+  ExpiresByType image/webp                "access plus 6 months"
+  ExpiresByType application/pdf           "access plus 1 month"
+  ExpiresByType font/woff2                "access plus 1 year"
+</IfModule>
+
+# ── 7. Nada de archivos sueltos de trabajo ───────────────────────────────────
+# Red de seguridad por si alguna vez se sube algo sin querer.
+<FilesMatch "(^\.|\.(md|xlsx|xls|docx|zip|rar|json|py|log|bak|sql)$)">
+  Require all denied
+</FilesMatch>
+
+# Excepción: el sitemap y el manifiesto sí son públicos
+<Files "sitemap.xml">
+  Require all granted
+</Files>
