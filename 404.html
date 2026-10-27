@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<!-- Rutas relativas a propósito: así funciona tanto en apheloria.es como
+     en usuario.github.io/Apheloria/. Si algún día hay URL con subcarpetas, una 404
+     en ellas perdería los estilos; hoy todas las páginas cuelgan de la raíz. -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página no encontrada — Apheloria Solutions</title>
+  <meta name="description" content="La página que buscas no existe o ha cambiado de dirección.">
+  <meta name="robots" content="noindex">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;1,400&family=Inter:wght@200;300;400&family=Montserrat:wght@100;200&family=Raleway:ital,wght@0,300;0,400;0,600;0,800;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="stylesheet" href="css/legal.css">
+  <style>
+    /* La 404 reaprovecha la caja de las páginas legales y centra su contenido */
+    .error-caja { min-height: 52vh; display: flex; flex-direction: column;
+                   align-items: center; justify-content: center; text-align: center; gap: 1.1rem; }
+    .error-num  { font-family: 'Montserrat', sans-serif; font-size: clamp(4rem, 12vw, 8rem);
+                   font-weight: 100; line-height: 1; color: var(--accent-soft); }
+    .error-h1   { font-family: 'Inter', sans-serif; font-size: clamp(1.2rem, 2.4vw, 1.9rem);
+                   font-weight: 300; color: var(--ink); }
+    .error-p    { font-size: 0.82rem; line-height: 1.9; color: var(--accent-text);
+                   font-weight: 300; max-width: 46ch; }
+    .error-vias { display: flex; flex-wrap: wrap; gap: 0.7rem; justify-content: center; margin-top: 0.6rem; }
+  </style>
+</head>
+<body>
+
+  <header>
+  <nav>
+    <a class="nav-brand" href="index.html" aria-label="Apheloria Solutions — inicio">
+      <span class="nav-logo-icon"></span>
+      <span class="nav-brand-text">Apheloria Solutions</span>
+    </a>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html" data-pagina="inicio">Inicio</a></li>
+      <li><a href="proyectos.html" data-pagina="proyectos">Proyectos</a></li>
+      <li class="nav-item">
+        <a href="productos.html" data-pagina="productos">Productos</a>
+        <div class="nav-dropdown">
+          <a href="productos.html#interiores">Interiores</a>
+          <a href="productos.html#exteriores">Exteriores</a>
+          <a href="productos.html#industriales">Industriales</a>
+          <a href="productos.html#decorativas">Decorativas</a>
+          <a href="productos.html#emergencia">Emergencia</a>
+          <a href="productos.html#hospitalarias-salas-blancas">Hospitalarias</a>
+          <a href="productos.html#bombillas-y-accesorios">Bombillas y Accesorios</a>
+          <a href="productos.html#fuentes-de-alimentacion">Fuentes de Alimentación</a>
+        </div>
+      </li>
+      <li><a href="catalogo.html" data-pagina="catalogo">Catálogo</a></li>
+    </ul>
+
+    <div class="nav-right">
+      <a class="nav-contact-btn" href="contacto.html" data-pagina="contacto">Contacto</a>
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+  </header>
+
+  <main class="pagina pagina-legal">
+    <div class="legal-doc error-caja">
+      <span class="error-num" aria-hidden="true">404</span>
+      <h1 class="error-h1">Esta página no existe</h1>
+      <p class="error-p">Puede que el enlace esté anticuado o que la dirección tenga una errata.
+        Desde aquí llegas a cualquier sitio.</p>
+      <div class="error-vias">
+        <a class="btn btn-primary" href="productos.html">Ver productos</a>
+        <a class="btn btn-light" href="proyectos.html">Ver proyectos</a>
+        <a class="btn btn-light" href="contacto.html">Contacto</a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <span>© 2026 Apheloria Solutions, S.L. · B25952276</span>
+    <span class="footer-sep" aria-hidden="true">·</span>
+    <a href="aviso-legal.html">Aviso legal</a>
+    <span class="footer-sep" aria-hidden="true">·</span>
+    <a href="politica-privacidad.html">Política de privacidad</a>
+    <span class="footer-sep" aria-hidden="true">·</span>
+    <a href="politica-cookies.html">Política de cookies</a>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

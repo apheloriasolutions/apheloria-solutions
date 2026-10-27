@@ -42,7 +42,7 @@
   color: #555;
 }
 .cat-brand  { font-size: 0.9rem; font-weight: 400; letter-spacing: 0.22em; text-transform: uppercase; color: var(--ink); }
-.cat-sub    { font-size: 0.6rem; letter-spacing: 0.28em; text-transform: uppercase; color: var(--accent); font-weight: 300; margin-top: 0.15rem; display: block; }
+.cat-sub    { font-size: 0.6rem; letter-spacing: 0.28em; text-transform: uppercase; color: var(--accent-text); font-weight: 300; margin-top: 0.15rem; display: block; }
 .cat-year   { font-size: 0.6rem; letter-spacing: 0.2em; color: rgba(var(--ink-rgb),0.4); text-transform: uppercase; }
 .cat-tags   { display: flex; gap: 0.5rem; flex-wrap: wrap; justify-content: center; max-width: 460px; }
 .cat-tag    { font-size: 0.6rem; letter-spacing: 0.2em; text-transform: uppercase; font-weight: 400; color: rgba(var(--ink-rgb),0.55); border: 1px solid rgba(var(--ink-rgb),0.15); padding: 0.35rem 0.8rem; }

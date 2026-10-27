@@ -9,7 +9,7 @@
   --beige: #F2EDE4;       --beige-rgb: 242, 237, 228; /* antiguo --bg: ahora reservado para botones (p.ej. doc catálogo) */
   --accent: #b0a898;      --accent-rgb: 176, 168, 152;
   --accent-soft: #c8bfb0; /* bordes y scrollbars sutiles */
-  --accent-text: #857a68; /* texto sobre --bg con contraste AA */
+  --accent-text: #6f6556; /* texto informativo: 5,1:1 sobre blanco, cumple AA */
   --heading: #6d5f52;     /* títulos y nav sobre fondo claro */
   --placeholder-bg: #e8e0d0; /* fondo mientras carga una foto */
   --white-rgb: 255, 255, 255;
@@ -88,7 +88,7 @@ nav {
 .nav-brand-text {
   font-family: 'Cormorant Garamond', serif;
   font-size: 1.4rem; font-weight: 300; letter-spacing: 0.18em;
-  color: var(--accent); text-transform: uppercase;
+  color: var(--accent-text); text-transform: uppercase;
   transform: translateX(19px); /* 0,5cm a la derecha */
 }
 /* LOGO NAV */
@@ -224,6 +224,12 @@ nav {
 
 /* ── CARDS "PRÓXIMAMENTE" ── */
 .is-soon .project-card-img, .is-soon .product-card-img { filter: grayscale(0.65) opacity(0.8); }
+/* Tarjeta anunciada sin fotografía todavía: fondo de marca en vez de una imagen
+   de relleno de un servicio externo. */
+.project-card-img.sin-foto, .product-card-img.sin-foto {
+  background: linear-gradient(145deg, var(--beige) 0%, var(--accent-soft) 100%);
+  filter: none;
+}
 .is-soon .product-card-img-wrap::before, .is-soon .project-card-img-wrap::before {
   content: 'Próximamente'; position: absolute; top: 0.8rem; left: 0.8rem; z-index: 3;
   font-family: 'Raleway', sans-serif; font-size: 0.6rem; font-weight: 400;

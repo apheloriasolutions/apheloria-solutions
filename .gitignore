@@ -25,3 +25,21 @@ _revision/
 # El catálogo completo también se genera (scripts/catalogo/construir_catalogo_completo.py)
 docs/catalogo/catalogo-completo.pdf
 docs/catalogo/catalogo-completo-correo.pdf
+
+# Fichas de la versión anterior de la web: 288 PDF que ya no enlaza nadie. Siguen en
+# disco por si hiciera falta consultarlas, pero no se publican.
+/1 INDUSTRIALES/
+/2 INTERIORES/
+/3 EXTERIORES/
+/4 EMERGENCIA/
+/5 DECORATIVAS/
+/BOMBILLAS Y ACCESORIOS/
+
+# Documentación y material de trabajo: no es parte del sitio
+Fichas_tecnicas_faltantes.xlsx
+.agent.md
+Claude.md
+auditoria-web.md
+
+# Hojas de revisión internas: listan rutas de fuentes/ y marcas de proveedor
+docs/catalogo/

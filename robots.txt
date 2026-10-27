@@ -1,0 +1,10 @@
+# Apheloria Solutions
+User-agent: *
+Allow: /
+
+# Material interno que no debe indexarse
+Disallow: /docs/
+Disallow: /data/
+Disallow: /scripts/
+
+Sitemap: https://www.apheloria.es/sitemap.xml
