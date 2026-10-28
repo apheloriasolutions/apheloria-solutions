@@ -31,6 +31,24 @@
 .con-inp:focus { border-color: var(--ink); }
 .con-area { resize: none; min-height: 100px; }
 .con-send { align-self: flex-end; margin-top: 0.4rem; }
+
+/* Consentimiento e información del RGPD. La casilla no viene marcada y es obligatoria:
+   sin ella el navegador no deja enviar, y el "Sí" viaja en el correo como prueba. */
+.con-consent {
+  display: flex; align-items: flex-start; gap: 0.6rem; margin-top: 0.9rem;
+  font-size: 0.72rem; font-weight: 300; line-height: 1.5; color: var(--ink); cursor: pointer;
+}
+.con-consent input {
+  flex: none; width: 15px; height: 15px; margin: 0.15rem 0 0; cursor: pointer;
+  accent-color: var(--accent-text);
+}
+.con-rgpd {
+  font-size: 0.7rem; font-weight: 300; line-height: 1.6; color: var(--accent-text);
+  margin: 0.2rem 0 0;
+}
+.con-rgpd strong { font-weight: 500; color: var(--ink); }
+.con-enlace { color: var(--accent-text); text-decoration: underline; text-decoration-color: var(--accent); }
+.con-enlace:hover { color: var(--ink); }
 .con-honeypot { position: absolute; left: -9999px; width: 1px; height: 1px; opacity: 0; pointer-events: none; }
 .con-feedback {
   align-self: flex-end;
