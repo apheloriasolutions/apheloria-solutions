@@ -64,12 +64,22 @@ SOLO_COTAS = {'00PSFB4S2020', '00PERFLEXACER', '00FASO16WCCTK', 'EMS61000',
 # plano de cotas: no se asciende a foto de producto. Comprobadas a ojo.
 IZQUIERDA_ES_PLANO = {'00FASO16WCCTK', 'EMS61000'}
 
-# Fichas cuyo Excel no trae ninguna foto de producto utilizable (solo logos y cotas) y a las
-# que se les asigna a mano la de otro producto de su misma familia.
+# Fotos que se ponen a mano, o porque el Excel no trae ninguna utilizable, o porque la que
+# trae está tan pixelada que no se puede publicar. Lo que se ponga aquí manda sobre lo que
+# salga de la ficha.
 FOTOS_A_MANO = {
     # La ficha de las fuentes LIFUD IP20 solo trae cuatro dibujos acotados. Se le pone la
     # foto de la fuente de 24V, que es el mismo tipo de equipo.
     'EMS61000': {'luminaria': 'images/productos/Fuentes de Alimentación/Fuentes de 24V/00FUAL20024IP/luminaria.jpg'},
+}
+
+# Imágenes del origen que no se publican, con la foto que va en su lugar. La clave es el
+# md5 de la imagen tal y como viene dentro del Excel, así que la sustitución alcanza a
+# todas las fichas que la comparten, no solo a una.
+IMAGENES_SUSTITUIDAS = {
+    # Nave con puente grúa, 486x332 px: tan pixelada que no se puede publicar. Sale en las
+    # cuatro campanas ALFA y en la campana de Especial.
+    '711fac56ea26d29ab533ba9b253d65d2': 'images/productos/ambientes/nave-industrial-estanterias.jpg',
 }
 
 # Fichas donde el origen trae la columna derecha al revés: primero las cotas y debajo el producto.
@@ -331,6 +341,12 @@ def main():
                 if not piezas:
                     continue
                 clave = '+'.join(p['hash'] for p in piezas)
+                sustituta = IMAGENES_SUSTITUIDAS.get(clave)
+                if sustituta:
+                    with Image.open(os.path.join(RAIZ, sustituta)) as im:
+                        guardadas[tipo] = {'ruta': sustituta, 'px': list(im.size)}
+                    avisos['sustituidas'].append(f'{codigo} · {tipo}: se publica {sustituta}')
+                    continue
                 if clave in ya_guardadas:
                     guardadas[tipo] = ya_guardadas[clave]
                     continue
@@ -372,7 +388,7 @@ def main():
                     with Image.open(ruta_abs) as im:
                         puesta = {'ruta': rel, 'px': list(im.size)}
                     por_codigo.setdefault(codigo, {})[tipo] = puesta
-                    fotos.setdefault(tipo, puesta)
+                    fotos[tipo] = puesta
                     avisos['fotos_a_mano'].append(f'{codigo} · {tipo}: se le pone {rel}')
         boton['fotos'] = fotos
         boton['fotos_por_codigo'] = por_codigo

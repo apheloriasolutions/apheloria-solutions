@@ -31,11 +31,25 @@ volviendo a ejecutar `scripts/catalogo/construir_web.py`.
 - **salas-blancas**: foto aportada por Apheloria (28-10-2026), mismo pasillo con otro encuadre
 - **Fuentes de Alimentación 24V IP20 ON-OFF**: no hay nada decente en los bancos libres
 
+## Fotos de ambiente que no salen de la ficha
+
+Se ponen en `IMAGENES_SUSTITUIDAS`, dentro de `scripts/catalogo/extraer_fotos.py`, con el
+md5 de la imagen del Excel que sustituyen; alcanzan a todas las fichas que la comparten.
+
+| Dónde sale | Título original | Banco | Licencia | Publicada |
+|---|---|---|---|---|
+| Campanas ALFA y Campanas › Especial (9 fotos) | Nave con estanterías de gran altura | Pixabay | Pixabay Content License | 1280×720 |
+
+- **Campanas ALFA**: https://pixabay.com/photos/industrial-material-logistic-fires-612297/
+  Sustituye a la nave con puente grúa que traía el Excel, de 486×332 px. La original queda
+  en `_revision/fotos-retiradas/nave-puente-grua-486px.jpg`.
+
 ## Fotos de la portada (Inicio)
 
-El carrusel del hero y la cabecera de Nosotros usan **fotos de las propias fichas
-técnicas de Apheloria**, no de bancos de imágenes. La foto del conector (la Apheloria
-que brilla) la aportó el cliente.
+El carrusel del hero usa **cuatro fotos de proyectos de Apheloria** (Ciudad de la Justicia,
+Santalucía, Avenida de América y Plaza Castilla); la cabecera de Nosotros, fotos de las
+propias fichas técnicas. La foto del conector (la Apheloria que brilla) la aportó el
+cliente. Nada de esto viene de bancos de imágenes.
 
 ## Secciones sin foto de banco
 
