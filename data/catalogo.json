@@ -37127,78 +37127,6 @@
        }
       ],
       "botones": []
-     },
-     {
-      "nombre": "Especiales Muebles",
-      "slug": "especiales-muebles",
-      "ruta": "1 -  INTERIORES/1.7 - ESPECIALES MUEBLES",
-      "hijos": [],
-      "botones": [
-       {
-        "nombre": "Equipo lineal compacto",
-        "slug": "equipo-lineal-compacto",
-        "codigos": [
-         "00NDPRO"
-        ],
-        "archivos": [
-         "1 -  INTERIORES/1.7 - ESPECIALES MUEBLES/00NDPRO_Equipo lineal compacto.xlsx"
-        ],
-        "fotos": {
-         "luminaria": {
-          "ruta": "images/productos/Interiores/Especiales Muebles/00NDPRO/luminaria.jpg",
-          "px": [
-           784,
-           271
-          ]
-         },
-         "medidas": {
-          "ruta": "images/productos/Interiores/Especiales Muebles/00NDPRO/medidas.jpg",
-          "px": [
-           952,
-           490
-          ]
-         },
-         "ambiente": {
-          "ruta": "images/productos/Interiores/Especiales Muebles/00NDPRO/ambiente.jpg",
-          "px": [
-           713,
-           765
-          ]
-         }
-        },
-        "fotos_por_codigo": {
-         "00NDPRO": {
-          "luminaria": {
-           "ruta": "images/productos/Interiores/Especiales Muebles/00NDPRO/luminaria.jpg",
-           "px": [
-            784,
-            271
-           ]
-          },
-          "medidas": {
-           "ruta": "images/productos/Interiores/Especiales Muebles/00NDPRO/medidas.jpg",
-           "px": [
-            952,
-            490
-           ]
-          },
-          "ambiente": {
-           "ruta": "images/productos/Interiores/Especiales Muebles/00NDPRO/ambiente.jpg",
-           "px": [
-            713,
-            765
-           ]
-          }
-         }
-        },
-        "tabla": [],
-        "notas": [],
-        "descripcion": [],
-        "pdf": {
-         "00NDPRO": "fichas/00NDPRO.pdf"
-        }
-       }
-      ]
      }
     ],
     "botones": []
@@ -69033,6 +68961,7 @@
    "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES DE SUPERFICIE.rar",
    "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES ESPECIALES/PERFIL 45º/00PS45S2020 -Perfil de aluminio 45 superficie 15,8X15,8HX2000mm difusor opal color aluminio IP20.xlsx (duplicada: es el Tubo LED T8 de Bombillas)",
    "1 -  INTERIORES/1.5 - TIRAS Y PERFILES LED/1.5.2 - PERFILES DE ALUMINIO/PERFILES PARA EMPOTRAR.rar",
+   "1 -  INTERIORES/1.7 - ESPECIALES MUEBLES/00NDPRO_Equipo lineal compacto.xlsx (duplicada: es el Tubo LED T8 de Bombillas)",
    "2 - EXTERIORES/2 Equipos LED de Iluminación para Exteriores.docx",
    "2 - EXTERIORES/2.4 - FAROLES/00FAROLVILLAN - Luminaria farol modelo Villa acero acabado pintado al horno negro IP20.xlsx (duplicada: es el Tubo LED T8 de Bombillas)",
    "2 - EXTERIORES/2.4 - FAROLES/00MDVILLA50W4 - Módulo LED Villa - 50w_6500lm_4000K-6000K_IP65 _90º .xlsx (duplicada: es el Tubo LED T8 de Bombillas)",

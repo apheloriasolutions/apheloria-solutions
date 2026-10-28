@@ -42,6 +42,10 @@ IGNORAR_FICHAS = {
                  'opal color aluminio IP20.xlsx'),
     # copia de trabajo del perfil lineal 40: mismo código y mismos datos dentro
     os.path.join('1 -  INTERIORES', '1.3 - LINEALES', '1.3.1 - LINEALES', 'CLP 14M.xlsx'),
+    # Especiales Muebles: su única ficha es el folleto del fabricante, 513 filas sin
+    # saltos de página. Fuera de la web hasta que se rehaga el Excel.
+    os.path.join('1 -  INTERIORES', '1.7 - ESPECIALES MUEBLES',
+                 '00NDPRO_Equipo lineal compacto.xlsx'),
     # Exteriores › Faroles repetía las dos fichas del farol Villa, que ya están en
     # Industriales › Farolas. Se funden ahí y la sección de Exteriores desaparece.
     os.path.join('2 - EXTERIORES', '2.4 - FAROLES',
