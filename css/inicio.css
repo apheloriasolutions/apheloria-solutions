@@ -20,14 +20,14 @@
   filter: saturate(0.85);
   --velo: linear-gradient(180deg, rgba(var(--ink-rgb),0.44), rgba(var(--ink-rgb),0.62));
 }
-/* Fotos de ambiente sacadas de las fichas técnicas, todas de tonos claros.
-   Las copias viven en images/inicio/ porque las carpetas de producto se regeneran.
-   Al ser fotos claras, el velo oscuro tiene que ser fuerte para que se lea el título. */
-/* Cuatro proyectos nuestros, no fotos de archivo */
+/* Las dos primeras son proyectos nuestros; la tercera, la foto de ambiente de la ficha del
+   TAC; la cuarta, de banco (ver assets/creditos-imagenes.md). Las copias viven en
+   images/inicio/ porque las carpetas de producto se regeneran.
+   El velo oscuro tiene que ser fuerte para que el título blanco se lea sobre todas. */
 .hero-bg-img.bg-1 { background-image: var(--velo), url('../images/inicio/hero-1-ciudad-justicia.jpg'); }
 .hero-bg-img.bg-2 { background-image: var(--velo), url('../images/inicio/hero-2-santalucia.jpg'); }
-.hero-bg-img.bg-3 { background-image: var(--velo), url('../images/inicio/hero-3-avenida-escaleras.jpg'); }
-.hero-bg-img.bg-4 { background-image: var(--velo), url('../images/inicio/hero-4-plaza-castilla.jpg'); }
+.hero-bg-img.bg-3 { background-image: var(--velo), url('../images/inicio/hero-3-tac-hormigon.jpg'); }
+.hero-bg-img.bg-4 { background-image: var(--velo), url('../images/inicio/hero-4-escalera-luz.jpg'); }
 .hero-bg-img.active { opacity: 1; animation: zoomBg 4s ease forwards; }
 @keyframes zoomBg { from { transform: scale(1.08); } to { transform: scale(1.0); } }
 

@@ -54,10 +54,21 @@ md5 de la imagen del Excel que sustituyen; alcanzan a todas las fichas que la co
 
 ## Fotos de la portada (Inicio)
 
-El carrusel del hero usa **cuatro fotos de proyectos de Apheloria** (Ciudad de la Justicia,
-Santalucía, Avenida de América y Plaza Castilla); la cabecera de Nosotros, fotos de las
-propias fichas técnicas. La foto del conector (la Apheloria que brilla) la aportó el
-cliente. Nada de esto viene de bancos de imágenes.
+El carrusel del hero son cuatro fotos, en `images/inicio/`, que se cambian en
+`css/inicio.css` (`.hero-bg-img.bg-1` … `bg-4`):
+
+| | Qué es | Origen | Licencia | Publicada |
+|---|---|---|---|---|
+| 1 | Ciudad de la Justicia, el anillo suspendido | proyecto de Apheloria | — | 1700×1130 |
+| 2 | Santalucía, la fachada | proyecto de Apheloria | — | 1599×1200 |
+| 3 | Hormigón con los haces del downlight TAC | ficha técnica del TAC | — | 1326×831 |
+| 4 | Escalera simétrica con la luz al fondo | Pixabay | Pixabay Content License | 1280×720 |
+
+- **hero 4**: https://pixabay.com/photos/stairs-handrails-illuminated-1868423/
+- Las fotos que había antes quedan en `_revision/hero-anteriores/`.
+
+La cabecera de Nosotros usa fotos de las propias fichas técnicas, y la foto del conector
+(la Apheloria que brilla) la aportó el cliente.
 
 ## Secciones sin foto de banco
 
