@@ -75,6 +75,14 @@ MOVER = {
     '0030511740': ('Industriales', 'Estancas', 'Estancas 600mm'),
 }
 
+# Secciones que se enseñan como una lista única. Las carpetas de dentro responden a cómo
+# está ordenado el material en el disco ("1.3.1 - LINEALES", "NUEVO", "LINEAL MINI 2"), no a
+# nada que le diga algo a quien mira la web: al entrar en Lineales salían tres niveles
+# encadenados para llegar a productos de la misma familia. Aquí se funden todos en uno.
+APLANAR = {
+    ('Interiores', 'Lineales'),
+}
+
 # ── corte del nombre ──────────────────────────────────────────────────────────
 UNIDADES = r'W|K|Kº|lm|Lm|LM|V|mA|Ah|h|H|mm|cm|m|º|°|%'
 NUM = r'\d+(?:[.,]\d+)?'
@@ -90,11 +98,17 @@ CORTE = re.compile(rf'(?<![\w.]) (?: {MEDIDA_ENCADENADA} | {RANGO_CON_UNIDAD} | 
 # la 'x' solo se quita si va suelta: 'calleS x' sí, pero 'mod. NEX' no
 RESTOS = re.compile(r'(?:[\s\-–—_,.;:/(]+|\s+[xX×])+$')
 
+# Algunas fichas dejan "XX" donde debería ir la medida o el vataje ("Perfil lineal 58 para
+# adosar o suspender XX x 28 x 75mm XXW"). Al cortar por el primer dato técnico la X doble
+# se queda colgando del nombre, y en la web se lee como si fuera parte del modelo.
+MARCADOR_XX = re.compile(r'(?<![\w.])X{2,}(?![\w.])')
+
 
 def cortar(descripcion):
     """Deja el nombre comercial: corta en el primer dato técnico y limpia lo que quede suelto."""
     m = CORTE.search(descripcion)
     nombre = descripcion[:m.start()] if m else descripcion
+    nombre = MARCADOR_XX.sub(' ', nombre)
     nombre = re.sub(r'\s+', ' ', nombre).strip()
     anterior = None
     while anterior != nombre:                       # "… 1 calle x" -> "… 1 calle"
@@ -406,10 +420,39 @@ def mover_botones(arbol):
     return limpiar(arbol)
 
 
+def aplanar_secciones(arbol):
+    """Deja las secciones de APLANAR con todos sus productos colgando directamente."""
+    def buscar(nodo, ruta):
+        if not ruta:
+            return nodo
+        for h in nodo['hijos']:
+            if h['nombre'] == ruta[0]:
+                return buscar(h, ruta[1:])
+        return None
+
+    def recoger(nodo):
+        return list(nodo['botones']) + [b for h in nodo['hijos'] for b in recoger(h)]
+
+    for destino in sorted(APLANAR):
+        nodo = buscar(arbol, destino)
+        if nodo is None:
+            incidencias['no_es_ficha'].append(f'aplanar: no existe {" › ".join(destino)}')
+            continue
+        fundidos = {}
+        for b in recoger(nodo):
+            d = fundidos.setdefault(b['nombre'], {'nombre': b['nombre'], 'slug': b['slug'],
+                                                  'codigos': [], 'archivos': []})
+            d['codigos'] += b['codigos']
+            d['archivos'] += b['archivos']
+        nodo['hijos'] = []
+        nodo['botones'] = sorted(fundidos.values(), key=lambda b: b['nombre'].lower())
+    return arbol
+
+
 if __name__ == '__main__':
     if not os.path.isdir(FUENTE):
         sys.exit(f'No encuentro {FUENTE}')
-    arbol = mover_botones(quitar_repetidos_distintos(recorrer(FUENTE)))
+    arbol = aplanar_secciones(mover_botones(quitar_repetidos_distintos(recorrer(FUENTE))))
     os.makedirs(os.path.dirname(SALIDA), exist_ok=True)
     json.dump({'arbol': arbol, 'incidencias': {k: v for k, v in incidencias.items()}},
               open(SALIDA, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
