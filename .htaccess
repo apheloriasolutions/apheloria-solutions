@@ -38,12 +38,12 @@ Options -Indexes
 
 # ── 4. Cabeceras de seguridad ────────────────────────────────────────────────
 <IfModule mod_headers.c>
-  # De dónde puede cargar cosas la página. Si algún día alojamos las tipografías
-  # nosotros, se quitan las dos líneas de fonts.googleapis / fonts.gstatic.
+  # De dónde puede cargar cosas la página. Las tipografías están alojadas aquí mismo
+  # (fonts/), así que no hay ningún dominio de terceros salvo el del formulario.
   Header always set Content-Security-Policy "default-src 'self'; \
 script-src 'self'; \
-style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; \
-font-src 'self' https://fonts.gstatic.com; \
+style-src 'self' 'unsafe-inline'; \
+font-src 'self'; \
 img-src 'self' data:; \
 connect-src 'self' https://api.web3forms.com; \
 form-action 'self' https://api.web3forms.com; \
