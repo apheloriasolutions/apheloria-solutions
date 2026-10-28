@@ -39,10 +39,14 @@ md5 de la imagen del Excel que sustituyen; alcanzan a todas las fichas que la co
 | Dónde sale | Título original | Banco | Licencia | Publicada |
 |---|---|---|---|---|
 | Campanas ALFA y Campanas › Especial (9 fotos) | Nave con estanterías de gran altura | Pixabay | Pixabay Content License | 1280×720 |
+| Paneles: LINC luz indirecta y panel ABAX (3 fotos) | Sala de reuniones con paneles en el techo | Pixabay | Pixabay Content License | 1280×855 |
 
 - **Campanas ALFA**: https://pixabay.com/photos/industrial-material-logistic-fires-612297/
   Sustituye a la nave con puente grúa que traía el Excel, de 486×332 px. La original queda
   en `_revision/fotos-retiradas/nave-puente-grua-486px.jpg`.
+- **Paneles**: https://pixabay.com/photos/meeting-room-table-screen-conference-730679/
+  Sustituye a una oficina de 307×394 px con dos personas reconocibles de frente. La
+  original queda en `_revision/fotos-retiradas/oficina-linc-307px.jpg`.
 
 ## Fotos de la portada (Inicio)
 

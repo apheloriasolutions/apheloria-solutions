@@ -80,6 +80,9 @@ IMAGENES_SUSTITUIDAS = {
     # Nave con puente grúa, 486x332 px: tan pixelada que no se puede publicar. Sale en las
     # cuatro campanas ALFA y en la campana de Especial.
     '711fac56ea26d29ab533ba9b253d65d2': 'images/productos/ambientes/nave-industrial-estanterias.jpg',
+    # Oficina de 307x394 px con dos personas reconocibles de frente, y la luminaria casi
+    # fuera de cuadro. Sale en la luminaria LINC de luz indirecta, dentro de Paneles.
+    'afb70e5c00f94a3a19dab2cc85722cad': 'images/productos/ambientes/oficina-paneles-techo.jpg',
 }
 
 # Fichas donde el origen trae la columna derecha al revés: primero las cotas y debajo el producto.
