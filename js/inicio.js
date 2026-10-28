@@ -17,18 +17,35 @@ fondos.forEach((_, i) => {
   puntos.appendChild(d);
 });
 
+let saliendo = null;
+
 function verFondo(i) {
+  if (i === fondoActual) return;
   const ds = document.querySelectorAll('.hero-dot');
-  fondos[fondoActual].classList.remove('active');
+  const previa = fondos[fondoActual];
+
+  // La que se va sigue acercándose mientras se funde. Si se le quitara la animación de
+  // golpe volvería a su tamaño original y se vería el tirón por debajo de la nueva.
+  if (saliendo) { clearTimeout(saliendo.reloj); saliendo.foto.classList.remove('saliendo'); }
+  previa.classList.remove('active');
+  previa.classList.add('saliendo');
+  saliendo = { foto: previa, reloj: setTimeout(() => previa.classList.remove('saliendo'), 1400) };
+
   ds[fondoActual].classList.remove('active');
   fondoActual = i;
-  fondos[fondoActual].classList.add('active');
-  ds[fondoActual].classList.add('active');
+  const nueva = fondos[i];
+  nueva.classList.remove('saliendo');
+  nueva.style.animation = 'none';          // el acercamiento empieza de cero
+  void nueva.offsetWidth;
+  nueva.style.animation = '';
+  nueva.classList.add('active');
+  ds[i].classList.add('active');
 }
 
 const sinMovimiento = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 if (fondos.length > 0 && !sinMovimiento) {
-  setInterval(() => verFondo((fondoActual + 1) % fondos.length), 4000);
+  // 6 s: el acercamiento de css/inicio.css dura 9 s, así nunca llega al final ni se para
+  setInterval(() => verFondo((fondoActual + 1) % fondos.length), 6000);
 }
 
 // ── Botones de bajada ──

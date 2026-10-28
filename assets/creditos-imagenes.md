@@ -63,6 +63,11 @@ El carrusel del hero son cuatro fotos, en `images/inicio/`, que se cambian en
 | 2 | Santalucía, la fachada | proyecto de Apheloria | — | 1599×1200 |
 | 3 | Hormigón con los haces del downlight TAC | ficha técnica del TAC | — | 1326×831 |
 | 4 | Escalera simétrica con la luz al fondo | Pixabay | Pixabay Content License | 1280×720 |
+| 5 | Sala de vistas con la retícula de paneles | proyecto de Apheloria | — | 1400×931 |
+
+Cada una lleva en `css/inicio.css` un `--foco`: el punto, en coordenadas del hueco del hero,
+al que se acerca la cámara durante los 9 s que dura el acercamiento. Hay que ponerlo encima
+de las luminarias mirando el encuadre ya recortado, no la foto original.
 
 - **hero 4**: https://pixabay.com/photos/stairs-handrails-illuminated-1868423/
 - Las fotos que había antes quedan en `_revision/hero-anteriores/`.

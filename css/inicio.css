@@ -15,21 +15,30 @@
 .hero-bg-img {
   position: absolute; inset: 0; width: 100%; height: 100%;
   background-size: cover; background-position: center;
-  opacity: 0; transition: opacity 1.2s ease;
-  transform: scale(1.08);
+  opacity: 0; transition: opacity 1.4s ease;
+  transform: scale(1);
+  /* la cámara se acerca hacia aquí: cada foto apunta a sus luminarias con --foco */
+  transform-origin: var(--foco, 50% 50%);
   filter: saturate(0.85);
   --velo: linear-gradient(180deg, rgba(var(--ink-rgb),0.44), rgba(var(--ink-rgb),0.62));
 }
-/* Las dos primeras son proyectos nuestros; la tercera, la foto de ambiente de la ficha del
-   TAC; la cuarta, de banco (ver assets/creditos-imagenes.md). Las copias viven en
-   images/inicio/ porque las carpetas de producto se regeneran.
-   El velo oscuro tiene que ser fuerte para que el título blanco se lea sobre todas. */
-.hero-bg-img.bg-1 { background-image: var(--velo), url('../images/inicio/hero-1-ciudad-justicia.jpg'); }
-.hero-bg-img.bg-2 { background-image: var(--velo), url('../images/inicio/hero-2-santalucia.jpg'); }
-.hero-bg-img.bg-3 { background-image: var(--velo), url('../images/inicio/hero-3-tac-hormigon.jpg'); }
-.hero-bg-img.bg-4 { background-image: var(--velo), url('../images/inicio/hero-4-escalera-luz.jpg'); }
-.hero-bg-img.active { opacity: 1; animation: zoomBg 4s ease forwards; }
-@keyframes zoomBg { from { transform: scale(1.08); } to { transform: scale(1.0); } }
+/* Tres son proyectos nuestros; la del hormigón sale de la ficha del TAC y la de la escalera
+   es de banco (ver assets/creditos-imagenes.md). Las copias viven en images/inicio/ porque
+   las carpetas de producto se regeneran.
+   El velo oscuro tiene que ser fuerte para que el título blanco se lea sobre todas.
+   --foco es el punto al que se acerca la cámara, en coordenadas del hueco del hero (no de
+   la foto): hay que mirar el encuadre ya recortado para ponerlo encima de las luminarias. */
+.hero-bg-img.bg-1 { --foco: 45% 24%; background-image: var(--velo), url('../images/inicio/hero-1-ciudad-justicia.jpg'); }
+.hero-bg-img.bg-2 { --foco: 38% 48%; background-image: var(--velo), url('../images/inicio/hero-2-santalucia.jpg'); }
+.hero-bg-img.bg-3 { --foco: 64% 22%; background-image: var(--velo), url('../images/inicio/hero-3-tac-hormigon.jpg'); }
+.hero-bg-img.bg-4 { --foco: 50% 46%; background-image: var(--velo), url('../images/inicio/hero-4-escalera-luz.jpg'); }
+.hero-bg-img.bg-5 { --foco: 55% 26%; background-image: var(--velo), url('../images/inicio/hero-5-sala-paneles.jpg'); }
+/* Un solo acercamiento continuo, sin frenada: dura más que la diapositiva a propósito, así
+   sigue avanzando mientras entra la siguiente y no se ve parar la imagen. */
+.hero-bg-img.active,
+.hero-bg-img.saliendo { animation: zoomFoco 9s linear forwards; }
+.hero-bg-img.active { opacity: 1; }
+@keyframes zoomFoco { from { transform: scale(1); } to { transform: scale(1.22); } }
 
 .hero-eyebrow {
   font-size: 0.58rem; letter-spacing: 0.4em; text-transform: uppercase;
