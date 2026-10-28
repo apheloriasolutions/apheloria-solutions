@@ -39,6 +39,7 @@ function aplicarFiltro(f) {
     void rejilla.offsetWidth;
     rejilla.style.animation = '';
   }
+  document.dispatchEvent(new CustomEvent('filtro-aplicado'));
 }
 
 function pintar() {
@@ -115,6 +116,35 @@ function sincronizarConLaUrl() {
 }
 window.addEventListener('popstate', sincronizarConLaUrl);
 window.addEventListener('hashchange', sincronizarConLaUrl);
+
+// ── Fotos de las tarjetas: solo las que se van a ver ──
+// Las portadas llevan la ruta en data-foto en vez de en el style, así el navegador no se
+// las baja todas de golpe al abrir la página. Se les pone el fondo cuando están cerca de
+// entrar en pantalla (600 px antes, para que no se note el relleno). Sin IntersectionObserver
+// —navegadores viejos— se cargan todas de una vez, que es como estaba antes.
+function cargarFoto(el) {
+  if (!el.dataset.foto) return;
+  el.style.backgroundImage = `url('${el.dataset.foto}')`;
+  delete el.dataset.foto;
+}
+
+const porCargar = () => document.querySelectorAll('.project-card-img[data-foto], .product-card-img[data-foto]');
+
+if ('IntersectionObserver' in window) {
+  const vigia = new IntersectionObserver((entradas, obs) => {
+    entradas.forEach(e => {
+      if (!e.isIntersecting) return;
+      cargarFoto(e.target);
+      obs.unobserve(e.target);
+    });
+  }, { rootMargin: '600px 0px' });
+  porCargar().forEach(el => vigia.observe(el));
+  // al filtrar, una tarjeta que estaba oculta puede quedar a la vista sin volver a cruzar
+  // el borde: se vuelven a vigilar las que sigan pendientes
+  document.addEventListener('filtro-aplicado', () => porCargar().forEach(el => vigia.observe(el)));
+} else {
+  porCargar().forEach(cargarFoto);
+}
 
 // ── Arranque: respeta la dirección con la que se ha entrado ──
 desdeTexto(location.hash.slice(1));

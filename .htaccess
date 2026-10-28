@@ -69,14 +69,22 @@ object-src 'none'"
   # Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
 </IfModule>
 
-# ── 5. Compresión ────────────────────────────────────────────────────────────
+# ── 5. Tipos de archivo ──────────────────────────────────────────────────────
+# Las portadas de Proyectos son WebP. Apache lo conoce desde hace años, pero si el
+# servidor fuera antiguo las serviría como descarga en vez de como imagen.
+<IfModule mod_mime.c>
+  AddType image/webp .webp
+  AddType font/woff2 .woff2
+</IfModule>
+
+# ── 6. Compresión ────────────────────────────────────────────────────────────
 # El catálogo en JavaScript pesa 452 KB y comprimido viaja en 49.
 <IfModule mod_deflate.c>
   AddOutputFilterByType DEFLATE text/html text/css text/plain text/xml \
     application/javascript application/json application/xml image/svg+xml
 </IfModule>
 
-# ── 6. Caché del navegador ───────────────────────────────────────────────────
+# ── 7. Caché del navegador ───────────────────────────────────────────────────
 # Las fotos y los PDF no cambian: que no se descarguen en cada visita.
 # El HTML sí, para que un cambio se vea el mismo día.
 <IfModule mod_expires.c>
@@ -91,7 +99,7 @@ object-src 'none'"
   ExpiresByType font/woff2                "access plus 1 year"
 </IfModule>
 
-# ── 7. Nada de archivos sueltos de trabajo ───────────────────────────────────
+# ── 8. Nada de archivos sueltos de trabajo ───────────────────────────────────
 # Red de seguridad por si alguna vez se sube algo sin querer.
 <FilesMatch "(^\.|\.(md|xlsx|xls|docx|zip|rar|json|py|log|bak|sql)$)">
   Require all denied
