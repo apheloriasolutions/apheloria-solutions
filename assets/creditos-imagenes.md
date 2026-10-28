@@ -17,18 +17,18 @@ volviendo a ejecutar `scripts/catalogo/construir_web.py`.
 | exteriores | Escalera de acceso iluminada de noche | Pixabay | Pixabay Content License | 1280×720 |
 | decorativas | Esferas suspendidas | Pixabay | Pixabay Content License | 1280×853 |
 | industriales | Nave industrial con luminarias lineales | Pixabay | Pixabay Content License | 1280×762 |
-| hospitalarias-salas-blancas | Quirófano con lámpara quirúrgica | Pixabay | Pixabay Content License | 1280×853 |
+| hospitalarias-salas-blancas | Pasillo hospitalario con paneles empotrados | aportada por el cliente | — | 918×612 |
 | emergencia | Señal de salida en techo perforado | Pixabay | Pixabay Content License | 1280×849 |
 | bombillas-y-accesorios | Bombilla de filamento LED | Pixabay | Pixabay Content License | 1280×853 |
-| salas-blancas | Sala limpia de montaje | Pixabay | Pixabay Content License | 1280×960 |
+| salas-blancas | Pasillo hospitalario con paneles empotrados | aportada por el cliente | — | 918×690 |
 - **interiores**: foto aportada por Apheloria (28-10-2026), sustituye a la de Pixabay
 - **exteriores**: https://pixabay.com/photos/evening-building-illuminated-stairs-4579176/
 - **decorativas**: https://pixabay.com/photos/light-bulbs-lights-spheres-lamps-407239/
 - **industriales**: https://pixabay.com/photos/lost-places-empty-factory-building-1801660/
-- **hospitalarias-salas-blancas**: https://pixabay.com/photos/operating-room-hospital-clean-or-5979687/
+- **hospitalarias-salas-blancas**: foto aportada por Apheloria (28-10-2026)
 - **emergencia**: https://pixabay.com/photos/emergency-exit-escape-fire-4168808/
 - **bombillas-y-accesorios**: https://pixabay.com/photos/light-bulb-light-led-lighting-1358917/
-- **salas-blancas**: https://pixabay.com/photos/laboratory-nasa-jpl-pasadena-space-1054451/
+- **salas-blancas**: foto aportada por Apheloria (28-10-2026), mismo pasillo con otro encuadre
 - **Fuentes de Alimentación 24V IP20 ON-OFF**: no hay nada decente en los bancos libres
 
 ## Fotos de la portada (Inicio)
