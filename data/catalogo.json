@@ -268,6 +268,9 @@
             ],
             "descripcion": "Cardan empotrado de alto rendimiento y confort visual, familia formada por módulos de uno, dos y tres elementos de 20W cada uno. se suministra en temperaturas de color especiales tuneable 2700K~ 6000K. Basculatura 40º."
            }
+          },
+          "pdf": {
+           "002CARD40WXX": "fichas/002CARD40WXX.pdf"
           }
          },
          {
@@ -518,6 +521,9 @@
             ],
             "descripcion": "Cardan empotrado de alto rendimiento y confort visual, familia formada por módulos de uno, dos y tres elementos de 20W cada uno. se suministra en temperaturas de color especiales tuneable 2700K~ 6000K. Basculatura 40º."
            }
+          },
+          "pdf": {
+           "00CARD20W3KBL": "fichas/00CARD20W3KBL.pdf"
           }
          }
         ]
@@ -890,6 +896,10 @@
             "notas": [],
             "descripcion": "Downlight empotrado de alto confort visual en 9.2 UGR10-32º implementación modular Rotabilidad 350°, Inclinabilidad 30° Montaje en falso techo, adaptable a todo tipo de techos modulares y de escayola."
            }
+          },
+          "pdf": {
+           "00DTBIO49W27K": "fichas/00DTBIO49W27K.pdf",
+           "0DTBIO49W27KD": "fichas/0DTBIO49W27KD.pdf"
           }
          },
          {
@@ -1136,6 +1146,9 @@
             "notas": [],
             "descripcion": "Downlight empotrado de alto confort visual en 12.8W UGR10-32º implementación modular Rotabilidad 350°, Inclinabilidad 42° Montaje en falso techo, adaptable a todo tipo de techos modulares y de escayola."
            }
+          },
+          "pdf": {
+           "0DTBI612W27KD": "fichas/0DTBI612W27KD.pdf"
           }
          }
         ]
@@ -1390,6 +1403,9 @@
             "notas": [],
             "descripcion": "Downlight empotrable mod. COR 20W-3000K 1900lm 40º IP20 blanco. Basculatura 30º"
            }
+          },
+          "pdf": {
+           "00DWCOR20W30K": "fichas/00DWCOR20W30K.pdf"
           }
          },
          {
@@ -1644,6 +1660,9 @@
             "notas": [],
             "descripcion": "Downlight empotrado Wall washer de alto confort visual de 10W de potencia, confort visual, Lente con bajo nivel de deslumbramiento y distribución de luz asimétrica que proporciona una iluminación y bañado de la superficie homogeneo"
            }
+          },
+          "pdf": {
+           "0DEWWL10W40BD": "fichas/0DEWWL10W40BD.pdf"
           }
          },
          {
@@ -1894,6 +1913,9 @@
             ],
             "descripcion": "Downlight empotrado orientable y basculante de 20W, 30W y 40W de potencia, Óptica de 12º, 24º, 40º y 60º de apertura. Diseñado para aplicaciones de iluminación general o luz de acento para todo tipo de espacios de uso comercial."
            }
+          },
+          "pdf": {
+           "00DO40W30N": "fichas/00DO40W30N.pdf"
           }
          },
          {
@@ -2144,6 +2166,9 @@
             ],
             "descripcion": "Downlight empotrado orientable y basculante de 30W de potencia, confort visual, con sistema de doble basculación y orientación."
            }
+          },
+          "pdf": {
+           "00DLEP30W30N": "fichas/00DLEP30W30N.pdf"
           }
          }
         ]
@@ -2390,6 +2415,9 @@
             "notas": [],
             "descripcion": "Downlight empotrable mod. SIM 7W GU10 560lm 36º IP20, acabado blanco o negro. Temperatura de color 3000K-4500K-6000K a elegir."
            }
+          },
+          "pdf": {
+           "0DWCOBF7WXXKX": "fichas/0DWCOBF7WXXKX.pdf"
           }
          },
          {
@@ -2636,6 +2664,9 @@
             "notas": [],
             "descripcion": "Downlight empotrable mod. SIM 7W 560lm 36º IP20 blanco. Temperatura de color 3000K-4000K-6000K a elegir."
            }
+          },
+          "pdf": {
+           "00DWSIM7WXXKX": "fichas/00DWSIM7WXXKX.pdf"
           }
          },
          {
@@ -2886,6 +2917,9 @@
             "notas": [],
             "descripcion": "Downlight empotrado fijo 6W 36º de apertura. IP 65"
            }
+          },
+          "pdf": {
+           "00DOWN6WIP65": "fichas/00DOWN6WIP65.pdf"
           }
          }
         ]
@@ -3270,6 +3304,10 @@
             "notas": [],
             "descripcion": "Downlight empotrable circular Cob Led 10W 3 CCT IP44 blanco"
            }
+          },
+          "pdf": {
+           "0DLROM10W3CCT": "fichas/0DLROM10W3CCT.pdf",
+           "0DLROM20W3CCT": "fichas/0DLROM20W3CCT.pdf"
           }
          }
         ]
@@ -3642,6 +3680,10 @@
             "notas": [],
             "descripcion": "Downlight LED para empotrar, IP65, ángulo de gran apertura proporciona iluminación general suave sin sombras, diseño para una fácil instalación."
            }
+          },
+          "pdf": {
+           "00DOWN6WIP654": "fichas/00DOWN6WIP654.pdf",
+           "00DWN15WIP654": "fichas/00DWN15WIP654.pdf"
           }
          },
          {
@@ -3888,6 +3930,9 @@
             "notas": [],
             "descripcion": "Downlight LED para empotrar, IP54, ángulo de gran apertura proporciona iluminación general suave sin sombras, diseño para una fácil instalación."
            }
+          },
+          "pdf": {
+           "0043910540": "fichas/0043910540.pdf"
           }
          },
          {
@@ -4134,6 +4179,9 @@
             "notas": [],
             "descripcion": "Downlight LED para empotrar, su ángulo de gran apertura proporciona iluminación general suave sin sombras, diseño para una fácil instalación."
            }
+          },
+          "pdf": {
+           "00DOWN7WIP65": "fichas/00DOWN7WIP65.pdf"
           }
          },
          {
@@ -4380,6 +4428,9 @@
             "notas": [],
             "descripcion": "Downlight LED para empotrar, su ángulo de gran apertura proporciona iluminación general suave sin sombras, diseño para una fácil instalación."
            }
+          },
+          "pdf": {
+           "00DOWDALI254K": "fichas/00DOWDALI254K.pdf"
           }
          }
         ]
@@ -4753,6 +4804,10 @@
             "notas": [],
             "descripcion": "Downlight empotrable recesado 1000lm - 10W_2700K-3200K-4000K_IP65"
            }
+          },
+          "pdf": {
+           "00DOMIN12WB": "fichas/00DOMIN12WB.pdf",
+           "00DOMIN1OWB": "fichas/00DOMIN1OWB.pdf"
           }
          }
         ]
@@ -5007,6 +5062,9 @@
             "notas": [],
             "descripcion": "Downlight empotrado Wall washer de alto confort visual de 10W de potencia, confort visual, distribución de luz asimétrica bañado de la superficie homogeneo. CCT - Switch Multivotaje."
            }
+          },
+          "pdf": {
+           "0DMIXE10WCCTB": "fichas/0DMIXE10WCCTB.pdf"
           }
          }
         ]
@@ -7065,6 +7123,24 @@
             ],
             "descripcion": "Downlight empotrado de luz directa, de alto confort visual en 25W de potencia.Diseñado para aplicaciones de iluminación general en todo tipo de zonas comunes, oficinas y uso comercial por su eficaz consumo y confort visual en grandes alturas. Haz de luz 15ª,24º y 36º a pedido. Temperaturas de color especiales a pedido."
            }
+          },
+          "pdf": {
+           "0DLNEX07W30BB": "fichas/0DLNEX07W30BB.pdf",
+           "0DLNEX07W30BN": "fichas/0DLNEX07W30BN.pdf",
+           "0DLNEX07W40BB": "fichas/0DLNEX07W40BB.pdf",
+           "0DLNEX07W40BN": "fichas/0DLNEX07W40BN.pdf",
+           "0DLNEX12W30BB": "fichas/0DLNEX12W30BB.pdf",
+           "0DLNEX12W30BN": "fichas/0DLNEX12W30BN.pdf",
+           "0DLNEX12W40BB": "fichas/0DLNEX12W40BB.pdf",
+           "0DLNEX12W40BN": "fichas/0DLNEX12W40BN.pdf",
+           "0DLNEX20W30BB": "fichas/0DLNEX20W30BB.pdf",
+           "0DLNEX20W30BN": "fichas/0DLNEX20W30BN.pdf",
+           "0DLNEX20W40BB": "fichas/0DLNEX20W40BB.pdf",
+           "0DLNEX20W40BN": "fichas/0DLNEX20W40BN.pdf",
+           "0DLNEX25W30BB": "fichas/0DLNEX25W30BB.pdf",
+           "0DLNEX25W30BN": "fichas/0DLNEX25W30BN.pdf",
+           "0DLNEX25W40BB": "fichas/0DLNEX25W40BB.pdf",
+           "0DLNEX25W40BN": "fichas/0DLNEX25W40BN.pdf"
           }
          }
         ]
@@ -7335,6 +7411,9 @@
             "notas": [],
             "descripcion": "Downlight orientable mod. OCU 15W 2400lm 3000K_IP20. Chip COB Bridgelux de alta luminosidad y precisión de color. Con 130Lm/W y un CRI +92, garantiza una luz de calidad profesional"
            }
+          },
+          "pdf": {
+           "0DEOCU15W30KB": "fichas/0DEOCU15W30KB.pdf"
           }
          }
         ]
@@ -8090,6 +8169,13 @@
               "notas": [],
               "descripcion": "Downlight empotrable circular tipo panel Slim ultra delgada, Smd 2835, 25W de potencia, 3 temperaturas de color 3CCT mediante switch, amplia óptica 120° para baños de luz mas homogéneos, confort visual,"
              }
+            },
+            "pdf": {
+             "00DLECSL6WCCT": "fichas/00DLECSL6WCCT.pdf",
+             "00DLECSL9WCCT": "fichas/00DLECSL9WCCT.pdf",
+             "0DLECSL12WCCT": "fichas/0DLECSL12WCCT.pdf",
+             "0DLECSL20WCCT": "fichas/0DLECSL20WCCT.pdf",
+             "0DLECSL25WCCT": "fichas/0DLECSL25WCCT.pdf"
             }
            }
           ]
@@ -8971,6 +9057,14 @@
               "notas": [],
               "descripcion": "Downlight empotrable circular tipo panel Slim ultra delgada, Smd 2835, 25W de potencia, 3 temperaturas de color 3000K-4500K-6000K a elegir , amplia óptica 120° para baños de luz mas homogéneos, confort visual,"
              }
+            },
+            "pdf": {
+             "00DLECSL5WXXX": "fichas/00DLECSL5WXXX.pdf",
+             "00DLECSL6WXXX": "fichas/00DLECSL6WXXX.pdf",
+             "00DLECSL9WXXX": "fichas/00DLECSL9WXXX.pdf",
+             "0DLECSL12WXXX": "fichas/0DLECSL12WXXX.pdf",
+             "0DLECSL20WXXX": "fichas/0DLECSL20WXXX.pdf",
+             "0DLECSL25WXXX": "fichas/0DLECSL25WXXX.pdf"
             }
            }
           ]
@@ -9602,6 +9696,12 @@
               "notas": [],
               "descripcion": "Downlight empotrable cuadrado tipo panel Slim ultra delgada, Smd 2835, 25W de potencia, 3 temperaturas de color 3000K-4500K-6000K a elegir, amplia óptica 120° para baños de luz mas homogéneos, confort visual,"
              }
+            },
+            "pdf": {
+             "00DLECUSL6WXXX": "fichas/00DLECUSL6WXXX.pdf",
+             "0DLECUSL12WXX": "fichas/0DLECUSL12WXX.pdf",
+             "0DLECUSL20WXX": "fichas/0DLECUSL20WXX.pdf",
+             "0DLECUSL25WXX": "fichas/0DLECUSL25WXX.pdf"
             }
            }
           ]
@@ -10233,6 +10333,12 @@
               "notas": [],
               "descripcion": "Downlight empotrable cuadrado tipo panel Slim ultra delgada, Smd 2835, 6W de potencia, 3 temperaturas de color 3CCT, amplia óptica 120° para baños de luz mas homogéneos, confort visual,"
              }
+            },
+            "pdf": {
+             "0DECUSL12WCCT": "fichas/0DECUSL12WCCT.pdf",
+             "0DECUSL20WCCT": "fichas/0DECUSL20WCCT.pdf",
+             "0DECUSL25WCCT": "fichas/0DECUSL25WCCT.pdf",
+             "0DLECUSL6WCCT": "fichas/0DLECUSL6WCCT.pdf"
             }
            }
           ]
@@ -12894,6 +13000,29 @@
             ],
             "descripcion": "Downlight empotrable de BAJA LUMINANCIA 50W, ideal para sustituir cualquier modelo de Downlight halógeno existente en el mercado Alto confort visual, práctico y versátil para iluminar espacios de alturas importantes y exigentes."
            }
+          },
+          "pdf": {
+           "00DLZEN07W27X": "fichas/00DLZEN07W27X.pdf",
+           "00DLZEN07W30X": "fichas/00DLZEN07W30X.pdf",
+           "00DLZEN07W40X": "fichas/00DLZEN07W40X.pdf",
+           "00DLZEN12W27X": "fichas/00DLZEN12W27X.pdf",
+           "00DLZEN12W30X": "fichas/00DLZEN12W30X.pdf",
+           "00DLZEN12W40X": "fichas/00DLZEN12W40X.pdf",
+           "00DLZEN20W27X": "fichas/00DLZEN20W27X.pdf",
+           "00DLZEN20W30X": "fichas/00DLZEN20W30X.pdf",
+           "00DLZEN20W40X": "fichas/00DLZEN20W40X.pdf",
+           "00DLZEN25W27X": "fichas/00DLZEN25W27X.pdf",
+           "00DLZEN25W30X": "fichas/00DLZEN25W30X.pdf",
+           "00DLZEN25W40X": "fichas/00DLZEN25W40X.pdf",
+           "00DLZEN30W27X": "fichas/00DLZEN30W27X.pdf",
+           "00DLZEN30W30X": "fichas/00DLZEN30W30X.pdf",
+           "00DLZEN30W40X": "fichas/00DLZEN30W40X.pdf",
+           "00DLZEN40W27X": "fichas/00DLZEN40W27X.pdf",
+           "00DLZEN40W30X": "fichas/00DLZEN40W30X.pdf",
+           "00DLZEN40W40X": "fichas/00DLZEN40W40X.pdf",
+           "00DLZEN50W27X": "fichas/00DLZEN50W27X.pdf",
+           "00DLZEN50W30X": "fichas/00DLZEN50W30X.pdf",
+           "00DLZEN50W40X": "fichas/00DLZEN50W40X.pdf"
           }
          }
         ]
@@ -13413,6 +13542,11 @@
               "notas": [],
               "descripcion": "Downlight adosable cuadrado tipo panel Slim ultra delgada, Smd 2835, 25W de potencia, 3 temperaturas de color 3CCT con swict selector, amplia óptica 120° para baños de luz mas homogéneos, confort visual,"
              }
+            },
+            "pdf": {
+             "0DACUSL12WCCT": "fichas/0DACUSL12WCCT.pdf",
+             "0DACUSL20WCCT": "fichas/0DACUSL20WCCT.pdf",
+             "0DACUSL25WCCT": "fichas/0DACUSL25WCCT.pdf"
             }
            }
           ]
@@ -14163,6 +14297,13 @@
               "notas": [],
               "descripcion": "Downlight adosable circular tipo panel Slim ultra delgada, Smd 2835, 6W de potencia, 3 temperaturas de color 3000K-4500K-6000K a elegir , amplia óptica 120° para baños de luz mas homogéneos, confort visual,"
              }
+            },
+            "pdf": {
+             "0DACSL12WXXXX": "fichas/0DACSL12WXXXX.pdf",
+             "0DACSL20WXXXX": "fichas/0DACSL20WXXXX.pdf",
+             "0DACSL25WXXXX": "fichas/0DACSL25WXXXX.pdf",
+             "0DLACSL5WXXXX": "fichas/0DLACSL5WXXXX.pdf",
+             "0DLACSL6WXXXX": "fichas/0DLACSL6WXXXX.pdf"
             }
            }
           ]
@@ -14791,6 +14932,12 @@
               "notas": [],
               "descripcion": "Downlight adosable circular tipo panel Slim ultra delgada, Smd 2835, 6W de potencia, 3 temperaturas de color 3CCT mediante switch, amplia óptica 120° para baños de luz mas homogéneos, confort visual."
              }
+            },
+            "pdf": {
+             "0DACSL12WCCTX": "fichas/0DACSL12WCCTX.pdf",
+             "0DACSL20WCCTX": "fichas/0DACSL20WCCTX.pdf",
+             "0DACSL25WCCTX": "fichas/0DACSL25WCCTX.pdf",
+             "0DLACSL6WCCTX": "fichas/0DLACSL6WCCTX.pdf"
             }
            }
           ]
@@ -15297,6 +15444,11 @@
               "notas": [],
               "descripcion": "Downlight adosable cuadrado tipo panel Slim ultra delgada, Smd 2835, 25W de potencia, 3 temperaturas de color 3000K-4500K-6000K a elegir, amplia óptica 120° para baños de luz mas homogéneos, confort visual,"
              }
+            },
+            "pdf": {
+             "0DACUSL12WXXX": "fichas/0DACUSL12WXXX.pdf",
+             "0DACUSL20WXXX": "fichas/0DACUSL20WXXX.pdf",
+             "0DACUSL25WXXX": "fichas/0DACUSL25WXXX.pdf"
             }
            }
           ]
@@ -15558,6 +15710,9 @@
             ],
             "descripcion": "Downlight de superficie o para supende fijo mod. HEL led 20W CRI90 70° IP44 blanco. En 2 temperaturas de color a elegir."
            }
+          },
+          "pdf": {
+           "0DSTAC20WXXKB": "fichas/0DSTAC20WXXKB.pdf"
           }
          }
         ]
@@ -16166,6 +16321,12 @@
             "notas": [],
             "descripcion": "Downlight tubular para adosar o supender, fijo 20W de potencia, alto confort visual, con sistema de doble basculación y orientación. 3CCT."
            }
+          },
+          "pdf": {
+           "00DLAT10WCCTB": "fichas/00DLAT10WCCTB.pdf",
+           "00DLAT10WCCTN": "fichas/00DLAT10WCCTN.pdf",
+           "00DLAT20WCCTB": "fichas/00DLAT20WCCTB.pdf",
+           "00DLAT20WCCTN": "fichas/00DLAT20WCCTN.pdf"
           }
          },
          {
@@ -16388,6 +16549,9 @@
             "notas": [],
             "descripcion": "Luminaria cilíndrica de techo para montaje en superficie, su diseño minimalista y la posibilidad de combinar diferentes tamaños hacen de esta luminaria un elemento especial de iluminación exterior, pero también de decoración. Su IP65 le aporta una resistencia especial a elementos externos."
            }
+          },
+          "pdf": {
+           "00DOWSUP303IP": "fichas/00DOWSUP303IP.pdf"
           }
          }
         ]
@@ -16645,6 +16809,9 @@
           "notas": [],
           "descripcion": "Perfil lineal para suspender o adosar 1410mm - 31W 3000K 250mA 1410mm IP40"
          }
+        },
+        "pdf": {
+         "APELI1410": "fichas/APELI1410.pdf"
         }
        },
        {
@@ -16899,6 +17066,9 @@
           "notas": [],
           "descripcion": "Perfil lineal 58 para adosar o suspender variedad de medidas de largo disponibles x ancho 58mm x altura 68mm. Led 250 mA IP40 UGR <19 Kit de suspensión no incluido."
          }
+        },
+        "pdf": {
+         "0020731240": "fichas/0020731240.pdf"
         }
        },
        {
@@ -17145,6 +17315,9 @@
           "notas": [],
           "descripcion": "Perfil lineal para empotrar 1410mm - 30W 4000K 250mA 1410mm IP40"
          }
+        },
+        "pdf": {
+         "00PERALUE30W40B": "fichas/00PERALUE30W40B.pdf"
         }
        },
        {
@@ -17399,6 +17572,9 @@
           "notas": [],
           "descripcion": "Luminaria decorativa formato ancho 107mm, con difusor opal. Idónea para su montaje individual, totalmente configurable en tamaños, flujos lumínicos y color. Instalación sencilla en líneas continuas evitando salidas de luz laterales y por las tapas."
          }
+        },
+        "pdf": {
+         "00LXX107XXWXK": "fichas/00LXX107XXWXK.pdf"
         }
        },
        {
@@ -17653,6 +17829,9 @@
           "notas": [],
           "descripcion": "Luminaria decorativa con driver compacto externo.Difusor opal, ideal para su colocación entre techos de lamas, o techos bajos debido a su reducida altura, customizable en temperatura de color, lumenes, tamaño, haz de luz y color de acabado."
          }
+        },
+        "pdf": {
+         "00LXX40XXWXXK": "fichas/00LXX40XXWXXK.pdf"
         }
        },
        {
@@ -18157,6 +18336,11 @@
           "notas": [],
           "descripcion": "Luminaria lineal con difusor opal, fabricada con una protección IP-65 pensada para ambientes donde se necesite una protección extra sin dejar de ser una iluminación decorativa."
          }
+        },
+        "pdf": {
+         "00LIS5819W40K": "fichas/00LIS5819W40K.pdf",
+         "00LXX58XXWXXK": "fichas/00LXX58XXWXXK.pdf",
+         "0LXXIP65XXWXK": "fichas/0LXXIP65XXWXK.pdf"
         }
        },
        {
@@ -18403,6 +18587,9 @@
           "notas": [],
           "descripcion": "Luminaria lineal de alto rendimiento totalmente configurable en difusor, tamaños, flujos lumínicos y color. Disponible como luminaria individual o línea continua de luz. Sencillo sistema de instalación que evita salidas de luz."
          }
+        },
+        "pdf": {
+         "00PERALU40WCC": "fichas/00PERALU40WCC.pdf"
         }
        },
        {
@@ -18657,6 +18844,9 @@
           "notas": [],
           "descripcion": "Perfil lineal em14 para empotrar Largo: 570 x ancho: 40mm x altura: 65mm 250mA."
          }
+        },
+        "pdf": {
+         "0LEM05C12W40K": "fichas/0LEM05C12W40K.pdf"
         }
        },
        {
@@ -18911,6 +19101,9 @@
           "notas": [],
           "descripcion": "Perfil lineal MINI para adosar o suspender 1400mm x 28mm 31W 3375lm IP40, Con driver externo. Kit de suspensión no incluido."
          }
+        },
+        "pdf": {
+         "0LSM05C12W40K": "fichas/0LSM05C12W40K.pdf"
         }
        },
        {
@@ -19165,6 +19358,9 @@
           "notas": [],
           "descripcion": "Perfil lineal RC para adosar o suspender Largo: 1690 x ancho: 40mm x altura: 65mm. 250mA. Kit de suspensión no incluido."
          }
+        },
+        "pdf": {
+         "0LSM16C36W40K": "fichas/0LSM16C36W40K.pdf"
         }
        },
        {
@@ -19419,6 +19615,9 @@
           "notas": [],
           "descripcion": "Perfil lineal MC14 para adosar o suspender Largo:1410 x ancho: 40mm x altura: 65mm. 150mA. Kit de suspensión no incluido."
          }
+        },
+        "pdf": {
+         "0LSMI4C18W40K": "fichas/0LSMI4C18W40K.pdf"
         }
        },
        {
@@ -20527,6 +20726,16 @@
           "notas": [],
           "descripcion": "Perfil lineal MINI para adosar o suspender 1400mm x 28mm 31W IP40, Driver externo. Difusor opal de alto rendimiento. Kit de suspensión no incluido."
          }
+        },
+        "pdf": {
+         "00L05MI13W30K": "fichas/00L05MI13W30K.pdf",
+         "00L05MI13W40K": "fichas/00L05MI13W40K.pdf",
+         "00L08MI19W30K": "fichas/00L08MI19W30K.pdf",
+         "00L08MI19W40K": "fichas/00L08MI19W40K.pdf",
+         "00L11MI25W30K": "fichas/00L11MI25W30K.pdf",
+         "00L11MI25W40K": "fichas/00L11MI25W40K.pdf",
+         "00L14MI31W30K": "fichas/00L14MI31W30K.pdf",
+         "00L14MI31W40K": "fichas/00L14MI31W40K.pdf"
         }
        },
        {
@@ -20781,6 +20990,9 @@
           "notas": [],
           "descripcion": "Perfil lineal OVAL para adosar o suspender variedad de medidas de largo disponibles x ancho 28mm x altura 25mm. Con driver externo. Kit de suspensión no incluido."
          }
+        },
+        "pdf": {
+         "00LXXOVXXWXXK": "fichas/00LXXOVXXWXXK.pdf"
         }
        },
        {
@@ -21281,6 +21493,11 @@
           "notas": [],
           "descripcion": "Luminarias lineales de empotrar SMCE 68W 4000K 350mA 2250mm IP40 SV0"
          }
+        },
+        "pdf": {
+         "0020300000": "fichas/0020300000.pdf",
+         "0020310840": "fichas/0020310840.pdf",
+         "0020341740": "fichas/0020341740.pdf"
         }
        },
        {
@@ -21657,6 +21874,10 @@
           "notas": [],
           "descripcion": "Perfil lineal 58 para adosar o suspender variedad de medidas de largo disponibles x ancho 58mm x altura 68mm. Kit de suspensión no incluido."
          }
+        },
+        "pdf": {
+         "0020700000990": "fichas/0020700000990.pdf",
+         "0020741240": "fichas/0020741240.pdf"
         }
        }
       ]
@@ -22471,6 +22692,14 @@
             ],
             "descripcion": "Lámpara colgante acabado metálico, ideal para aportar una iluminación moderna y sofisticada como acento para todo tipo de espacios interiores. IP20. Óptica de 24° de apertura con bajo nivel de deslumbramiento."
            }
+          },
+          "pdf": {
+           "0LC15SL6W27KD": "fichas/0LC15SL6W27KD.pdf",
+           "0LC15SL6W30KD": "fichas/0LC15SL6W30KD.pdf",
+           "0LC20SL6W27KD": "fichas/0LC20SL6W27KD.pdf",
+           "0LC20SL6W30KD": "fichas/0LC20SL6W30KD.pdf",
+           "0LC30SL6W27KD": "fichas/0LC30SL6W27KD.pdf",
+           "0LC30SL6W30KD": "fichas/0LC30SL6W30KD.pdf"
           }
          }
         ]
@@ -23089,6 +23318,12 @@
             ],
             "descripcion": "Luminaria adosada, acabado metálico, ideal para aportar una iluminación moderna y sofisticada como acento para todo tipo de espacios interiores. IP20. Óptica de 24° de apertura con bajo nivel de deslumbramiento."
            }
+          },
+          "pdf": {
+           "0LA15SL6W27KD": "fichas/0LA15SL6W27KD.pdf",
+           "0LA15SL6W30KD": "fichas/0LA15SL6W30KD.pdf",
+           "0LA20SL6W27KD": "fichas/0LA20SL6W27KD.pdf",
+           "0LA20SL6W30KD": "fichas/0LA20SL6W30KD.pdf"
           }
          }
         ]
@@ -23589,6 +23824,11 @@
             ],
             "descripcion": "Downlight empotrado mod. MOTA gold retro D.60 36º 4000K CRI90, circular, de alto confort visual. Opcional 15º, 24º, 36º, 60º"
            }
+          },
+          "pdf": {
+           "00DGR6M10W27K": "fichas/00DGR6M10W27K.pdf",
+           "00DGR6M10W30K": "fichas/00DGR6M10W30K.pdf",
+           "00DGR6M10W40K": "fichas/00DGR6M10W40K.pdf"
           }
          },
          {
@@ -24079,6 +24319,11 @@
             ],
             "descripcion": "Downlight empotrado mod. MOTA gold retro D.80 15W 36º 4000K CRI90, circular, de alto confort visual. Opcional 15º, 24º, 36º, 60º"
            }
+          },
+          "pdf": {
+           "00DGR8M15W27K": "fichas/00DGR8M15W27K.pdf",
+           "00DGR8M15W30K": "fichas/00DGR8M15W30K.pdf",
+           "00DGR8M15W40K": "fichas/00DGR8M15W40K.pdf"
           }
          }
         ]
@@ -24700,6 +24945,12 @@
             ],
             "descripcion": "0P4CG708W30KD – Proyector mod. Capi Gold retro 70mm D.45mm 8W-3000K-36º-48V CRI90-IP20-DALI."
            }
+          },
+          "pdf": {
+           "0P3CG706W30KD": "fichas/0P3CG706W30KD.pdf",
+           "0P3G1008W30KD": "fichas/0P3G1008W30KD.pdf",
+           "0P410010W30KD": "fichas/0P410010W30KD.pdf",
+           "0P4CG708W30KD": "fichas/0P4CG708W30KD.pdf"
           }
          }
         ]
@@ -24947,6 +25198,9 @@
               ],
               "descripcion": "Tira de Led 12V SMD5050 alto flujo lumínico, monocolor IP20 con 120 Leds por metro y 14W/mt (70W/ 5mts). Imprescindible el uso de perfil de aluminio en su montaje y para asegurar su correcta vida útil y funcionamiento. Regulable con controlador monocolor 12v. No incluido."
              }
+            },
+            "pdf": {
+             "0TIR12V27KIP2": "fichas/0TIR12V27KIP2.pdf"
             }
            },
            {
@@ -25157,6 +25411,9 @@
               ],
               "descripcion": "Tira de Led 12v SMD3535 IP65 con 60 Leds por metro y 14W/mt. Imprescindible el uso de perfil de aluminio en su montaje y para asegurar su correcta vida útil y funcionamiento. Regulable con controlador RGB 12v. No incluido."
              }
+            },
+            "pdf": {
+             "0TLRGB14WIP65": "fichas/0TLRGB14WIP65.pdf"
             }
            }
           ]
@@ -25395,6 +25652,9 @@
             ],
             "descripcion": "Tira de Led 24v SMD2835 alto flujo lumínico, monocolor IP65 con 120 Leds por metro y 12W/mt (60W/ 5mts). Imprescindible el uso de perfil de aluminio en su montaje y para asegurar su correcta vida útil y funcionamiento. Regulable con controlador monocolor 24v. No incluido."
            }
+          },
+          "pdf": {
+           "00TIRA124KIP6": "fichas/00TIRA124KIP6.pdf"
           }
          },
          {
@@ -25739,6 +25999,10 @@
             "notas": [],
             "descripcion": "Tira de Led 24v SMD2835 alto flujo lumínico, monocolor IP65 con 120 Leds por metro y 12W/mt (60W/ 5mts). Imprescindible el uso de perfil de aluminio en su montaje y para asegurar su correcta vida útil y funcionamiento."
            }
+          },
+          "pdf": {
+           "0TL12W220VIP6": "fichas/0TL12W220VIP6.pdf",
+           "0TL12W22V4KIP": "fichas/0TL12W22V4KIP.pdf"
           }
          },
          {
@@ -25949,6 +26213,9 @@
             ],
             "descripcion": "Tira Neon Led 24V Dc Flexible 20W/m Ip65 Rgb - 10 Metros. Regulable con controlador RGB 24v. No incluido."
            }
+          },
+          "pdf": {
+           "0TNRGB20WIP65": "fichas/0TNRGB20WIP65.pdf"
           }
          },
          {
@@ -27051,6 +27318,17 @@
             ],
             "descripcion": "Tira de Led 24v SMD3535 IP65 con 120 Leds por metro y 12W/mt (120W/ 10mts). Imprescindible el uso de perfil de aluminio en su montaje y para asegurar su correcta vida útil y funcionamiento. Regulable con controlador RGB 24v. No incluido."
            }
+          },
+          "pdf": {
+           "00TLEDS12WXXX": "fichas/00TLEDS12WXXX.pdf",
+           "00TLEDS9WXXX": "fichas/00TLEDS9WXXX.pdf",
+           "00TLIPS12WXXX": "fichas/00TLIPS12WXXX.pdf",
+           "00TLIPS18WXXX": "fichas/00TLIPS18WXXX.pdf",
+           "00TLIPS26WXXX": "fichas/00TLIPS26WXXX.pdf",
+           "00TLIPS9WXXX": "fichas/00TLIPS9WXXX.pdf",
+           "0TLEDS10W30K": "fichas/0TLEDS10W30K.pdf",
+           "0TLRGB12WIP20": "fichas/0TLRGB12WIP20.pdf",
+           "0TLRGB12WIP65": "fichas/0TLRGB12WIP65.pdf"
           }
          },
          {
@@ -27277,6 +27555,9 @@
             ],
             "descripcion": "Tira de Led 24v COB LED monocolor IP20 con 120 Leds por metro y 12W/mt (60W/ 5mts). Imprescindible el uso de perfil de aluminio en su montaje y para asegurar su correcto vida útil y funcionamiento. Regulable incluye controlador monocolor 24v. No incluido. Temperaturas de color a elegir 3000K | 4500K | 6000K"
            }
+          },
+          "pdf": {
+           "00TLEDC12WXXX": "fichas/00TLEDC12WXXX.pdf"
           }
          },
          {
@@ -27611,6 +27892,10 @@
             ],
             "descripcion": "Tira de Led 24v COB LED corte libre monocolor IP20 con 120 Leds por metro y 13W/mt (130W/ 10mts). Imprescindible el uso de perfil de aluminio en su montaje y para asegurar su correctá vida útil y funcionamiento. Regulable incluye controlador monocolor 24v. No incluido. Temperaturas de color a elegir 2700K | 4000K | 6500K"
            }
+          },
+          "pdf": {
+           "00TLEDC13WXXX": "fichas/00TLEDC13WXXX.pdf",
+           "00TLIPC13WXXX": "fichas/00TLIPC13WXXX.pdf"
           }
          }
         ]
@@ -27743,6 +28028,9 @@
                 ],
                 "descripcion": "Perfil de Aluminio 45º de superficie, apto para Tiras LED diversos anchos, con posibilidad de montar difusor transparente u opal. Se suministra en tramos de 2 metros tanto el perfil de aluminio como los difusores. Los diferentes elementos támbien se suministran por separado y con referencias (Perfil, Difusor y Kit de Accesorios)."
                }
+              },
+              "pdf": {
+               "00PS45S2020": "fichas/00PS45S2020.pdf"
               }
              }
             ]
@@ -27861,6 +28149,9 @@
               ],
               "descripcion": "Perfil de Aluminio de superficie, apto para Tiras LED diversos anchos, con posibilidad de montar difusor transparente u opal. Se suministra en tramos de 2 metros tanto el perfil de aluminio como los difusores. Los diferentes elementos támbien se suministran por separado y con referencias (Perfil, Difusor y Kit de Accesorios)."
              }
+            },
+            "pdf": {
+             "00PSFB1S2020": "fichas/00PSFB1S2020.pdf"
             }
            },
            {
@@ -27975,6 +28266,9 @@
               ],
               "descripcion": "Perfil de Aluminio de superficie, apto para Tiras LED diversos anchos, con posibilidad de montar difusor transparente u opal. Se suministra en tramos de 2 metros tanto el perfil de aluminio como los difusores. Los diferentes elementos támbien se suministran por separado y con referencias (Perfil, Difusor y Kit de Accesorios)."
              }
+            },
+            "pdf": {
+             "00PSFB10S2020": "fichas/00PSFB10S2020.pdf"
             }
            },
            {
@@ -28089,6 +28383,9 @@
               ],
               "descripcion": "Perfil de Aluminio de superficie, apto para Tiras LED diversos anchos, con posibilidad de montar difusor transparente u opal. Se suministra en tramos de 2 metros tanto el perfil de aluminio como los difusores. Los diferentes elementos támbien se suministran por separado y con referencias (Perfil, Difusor y Kit de Accesorios)."
              }
+            },
+            "pdf": {
+             "00PSFB11S2020": "fichas/00PSFB11S2020.pdf"
             }
            },
            {
@@ -28203,6 +28500,9 @@
               ],
               "descripcion": "Perfil de Aluminio de superficie, apto para Tiras LED diversos anchos, con posibilidad de montar difusor transparente u opal. Se suministra en tramos de 2 metros tanto el perfil de aluminio como los difusores. Los diferentes elementos támbien se suministran por separado y con referencias (Perfil, Difusor y Kit de Accesorios)."
              }
+            },
+            "pdf": {
+             "00PSFB12S2020": "fichas/00PSFB12S2020.pdf"
             }
            },
            {
@@ -28317,6 +28617,9 @@
               ],
               "descripcion": "Perfil de Aluminio de superficie, apto para Tiras LED diversos anchos, con posibilidad de montar difusor transparente u opal. Se suministra en tramos de 2 metros tanto el perfil de aluminio como los difusores. Los diferentes elementos támbien se suministran por separado y con referencias (Perfil, Difusor y Kit de Accesorios)."
              }
+            },
+            "pdf": {
+             "00PSFB13S2020": "fichas/00PSFB13S2020.pdf"
             }
            },
            {
@@ -28431,6 +28734,9 @@
               ],
               "descripcion": "Perfil de Aluminio de superficie, apto para Tiras LED diversos anchos, con posibilidad de montar difusor transparente u opal. Se suministra en tramos de 2 metros tanto el perfil de aluminio como los difusores. Los diferentes elementos támbien se suministran por separado y con referencias (Perfil, Difusor y Kit de Accesorios)."
              }
+            },
+            "pdf": {
+             "00PSFB14S2020": "fichas/00PSFB14S2020.pdf"
             }
            },
            {
@@ -28545,6 +28851,9 @@
               ],
               "descripcion": "Perfil de Aluminio de superficie, apto para Tiras LED diversos anchos, con posibilidad de montar difusor transparente u opal. Se suministra en tramos de 2 metros tanto el perfil de aluminio como los difusores. Los diferentes elementos támbien se suministran por separado y con referencias (Perfil, Difusor y Kit de Accesorios)."
              }
+            },
+            "pdf": {
+             "00PSFB15S2020": "fichas/00PSFB15S2020.pdf"
             }
            },
            {
@@ -28659,6 +28968,9 @@
               ],
               "descripcion": "Perfil de Aluminio de superficie, apto para Tiras LED diversos anchos, con posibilidad de montar difusor transparente u opal. Se suministra en tramos de 2 metros tanto el perfil de aluminio como los difusores. Los diferentes elementos Támbien se suministran por separado y con referencias (Perfil, Difusor y Kit de Accesorios)."
              }
+            },
+            "pdf": {
+             "00PSFB16S2065": "fichas/00PSFB16S2065.pdf"
             }
            },
            {
@@ -28773,6 +29085,9 @@
               ],
               "descripcion": "Perfil de Aluminio de superficie, apto para Tiras LED diversos anchos, con posibilidad de montar difusor transparente u opal. Se suministra en tramos de 2 metros tanto el perfil de aluminio como los difusores. Los diferentes elementos támbien se suministran por separado y con referencias (Perfil, Difusor y Kit de Accesorios)."
              }
+            },
+            "pdf": {
+             "00PSFB17S2020": "fichas/00PSFB17S2020.pdf"
             }
            },
            {
@@ -28887,6 +29202,9 @@
               ],
               "descripcion": "Perfil de Aluminio para superficie, apto para Tiras LED diversos anchos, con posibilidad de montar difusor transparente u opal. Se suministra en tramos de 2 metros tanto el perfil de aluminio como los difusores. Los diferentes elementos támbien se suministran por separado y con referencias (Perfil, Difusor y Kit de Accesorios)."
              }
+            },
+            "pdf": {
+             "00PSFB2S2020": "fichas/00PSFB2S2020.pdf"
             }
            },
            {
@@ -29001,6 +29319,9 @@
               ],
               "descripcion": "Perfil de Aluminio de superficie, apto para Tiras LED diversos anchos, con posibilidad de montar difusor transparente u opal. Se suministra en tramos de 2 metros tanto el perfil de aluminio como los difusores. Los diferentes elementos támbien se suministran por separado y con referencias (Perfil, Difusor y Kit de Accesorios)."
              }
+            },
+            "pdf": {
+             "00PSFB3S2020": "fichas/00PSFB3S2020.pdf"
             }
            },
            {
@@ -29115,6 +29436,9 @@
               ],
               "descripcion": "Perfil de Aluminio de superficie, apto para Tiras LED diversos anchos, con posibilidad de montar difusor transparente u opal. Se suministra en tramos de 2 metros tanto el perfil de aluminio como los difusores. Los diferentes elementos támbien se suministran por separado y con referencias (Perfil, Difusor y Kit de Accesorios)."
              }
+            },
+            "pdf": {
+             "00PSFB4S2020": "fichas/00PSFB4S2020.pdf"
             }
            },
            {
@@ -29229,6 +29553,9 @@
               ],
               "descripcion": "Perfil de Aluminio de superficie, apto para Tiras LED diversos anchos, con posibilidad de montar difusor transparente u opal. Se suministra en tramos de 2 metros tanto el perfil de aluminio como los difusores. Los diferentes elementos támbien se suministran por separado y con referencias (Perfil, Difusor y Kit de Accesorios)."
              }
+            },
+            "pdf": {
+             "00PSFB5S2020": "fichas/00PSFB5S2020.pdf"
             }
            },
            {
@@ -29343,6 +29670,9 @@
               ],
               "descripcion": "Perfil de Aluminio de superficie, apto para Tiras LED diversos anchos, con posibilidad de montar difusor transparente u opal. Se suministra en tramos de 2 metros tanto el perfil de aluminio como los difusores. Los diferentes elementos támbien se suministran por separado y con referencias (Perfil, Difusor y Kit de Accesorios)."
              }
+            },
+            "pdf": {
+             "00PSFB6S2020": "fichas/00PSFB6S2020.pdf"
             }
            },
            {
@@ -29665,6 +29995,13 @@
               ],
               "descripcion": "Perfil de Aluminio de superficie, apto para Tiras LED diversos anchos, con posibilidad de montar difusor transparente u opal. Se suministra en tramos de 2 metros tanto el perfil de aluminio como los difusores. Los diferentes elementos támbien se suministran por separado y con referencias (Perfil, Difusor y Kit de Accesorios)."
              }
+            },
+            "pdf": {
+             "00PSFB7S2020": "fichas/00PSFB7S2020.pdf",
+             "0PSFB7S2020B": "fichas/0PSFB7S2020B.pdf",
+             "0PSFB7S2020N": "fichas/0PSFB7S2020N.pdf",
+             "0PSFB8S2020B": "fichas/0PSFB8S2020B.pdf",
+             "0PSFB8S2020N": "fichas/0PSFB8S2020N.pdf"
             }
            },
            {
@@ -29779,6 +30116,9 @@
               ],
               "descripcion": "Perfil de Aluminio de superficie, apto para Tiras LED diversos anchos, con posibilidad de montar difusor transparente u opal. Se suministra en tramos de 2 metros tanto el perfil de aluminio como los difusores. Los diferentes elementos támbien se suministran por separado y con referencias (Perfil, Difusor y Kit de Accesorios)."
              }
+            },
+            "pdf": {
+             "00PSFB8S2020": "fichas/00PSFB8S2020.pdf"
             }
            },
            {
@@ -29893,6 +30233,9 @@
               ],
               "descripcion": "Perfil de Aluminio de superficie, apto para Tiras LED diversos anchos, con posibilidad de montar difusor transparente u opal. Se suministra en tramos de 2 metros tanto el perfil de aluminio como los difusores. Los diferentes elementos támbien se suministran por separado y con referencias (Perfil, Difusor y Kit de Accesorios)."
              }
+            },
+            "pdf": {
+             "00PSFB9S2020": "fichas/00PSFB9S2020.pdf"
             }
            }
           ]
@@ -30008,6 +30351,9 @@
                 ],
                 "descripcion": "Perfil Flexible de Acero Inoxidable 15 x 13H mm - 20 Metros apto para Tiras LED, Neones O Fundas de Silicona."
                }
+              },
+              "pdf": {
+               "00PERFLEXACER": "fichas/00PERFLEXACER.pdf"
               }
              }
             ]
@@ -30126,6 +30472,9 @@
               ],
               "descripcion": "Perfil de Aluminio para empotrar, apto para Tiras LED diversos anchos, con posibilidad de montar difusor transparente u opal. Se suministra en tramos de 2 metros tanto el perfil de aluminio como los difusores. Los diferentes elementos támbien se suministran por separado y con referencias (Perfil, Difusor y Kit de Accesorios)."
              }
+            },
+            "pdf": {
+             "00PEFA1E2020": "fichas/00PEFA1E2020.pdf"
             }
            },
            {
@@ -30240,6 +30589,9 @@
               ],
               "descripcion": "Perfil de Aluminio para empotrar, apto para Tiras LED diversos anchos, con posibilidad de montar difusor transparente u opal. Se suministra en tramos de 2 metros tanto el perfil de aluminio como los difusores. Los diferentes elementos támbien se suministran por separado y con referencias (Perfil, Difusor y Kit de Accesorios)."
              }
+            },
+            "pdf": {
+             "00PEFA10E2020": "fichas/00PEFA10E2020.pdf"
             }
            },
            {
@@ -30458,6 +30810,11 @@
               ],
               "descripcion": "Perfil de Aluminio para empotrar, apto para Tiras LED diversos anchos, con posibilidad de montar difusor transparente u opal. Se suministra en tramos de 2 metros tanto el perfil de aluminio como los difusores. Los diferentes elementos támbien se suministran por separado y con referencias (Perfil, Difusor y Kit de Accesorios)."
              }
+            },
+            "pdf": {
+             "00PEFA11E2020": "fichas/00PEFA11E2020.pdf",
+             "0PEFA11E2020B": "fichas/0PEFA11E2020B.pdf",
+             "0PEFA11E2020N": "fichas/0PEFA11E2020N.pdf"
             }
            },
            {
@@ -30572,6 +30929,9 @@
               ],
               "descripcion": "Perfil de Aluminio para empotrar, apto para Tiras LED diversos anchos, con posibilidad de montar difusor transparente u opal. Se suministra en tramos de 2 metros tanto el perfil de aluminio como los difusores. Los diferentes elementos se suministran por separado y con referencias (Perfil, Difusor y Kit de Accesorios)."
              }
+            },
+            "pdf": {
+             "00PEFA12E2020": "fichas/00PEFA12E2020.pdf"
             }
            },
            {
@@ -30686,6 +31046,9 @@
               ],
               "descripcion": "Perfil de Aluminio para empotrar, apto para Tiras LED diversos anchos, con posibilidad de montar difusor transparente u opal. Se suministra en tramos de 2 metros tanto el perfil de aluminio como los difusores. Los diferentes elementos támbien se suministran por separado y con referencias (Perfil, Difusor y Kit de Accesorios)."
              }
+            },
+            "pdf": {
+             "00PEFA13E2020": "fichas/00PEFA13E2020.pdf"
             }
            },
            {
@@ -30800,6 +31163,9 @@
               ],
               "descripcion": "Perfil de Aluminio para empotrar, apto para Tiras LED diversos anchos, con posibilidad de montar difusor transparente u opal. Se suministra en tramos de 2 metros tanto el perfil de aluminio como los difusores. Los diferentes elementos támbien se suministran por separado y con referencias (Perfil, Difusor y Kit de Accesorios)."
              }
+            },
+            "pdf": {
+             "00PEFA14E2020": "fichas/00PEFA14E2020.pdf"
             }
            },
            {
@@ -30922,6 +31288,9 @@
               ],
               "descripcion": "Perfil de Aluminio para empotrar, apto para Tiras LED diversos anchos, con posibilidad de montar difusor transparente u opal. Se suministra en tramos de 2 metros tanto el perfil de aluminio como los difusores. Los diferentes elementos támbien se suministran por separado y con referencias (Perfil, Difusor y Kit de Accesorios)."
              }
+            },
+            "pdf": {
+             "00PEFA15E2020": "fichas/00PEFA15E2020.pdf"
             }
            },
            {
@@ -31036,6 +31405,9 @@
               ],
               "descripcion": "Perfil de Aluminio para empotrar, apto para Tiras LED diversos anchos, con posibilidad de montar difusor transparente u opal. Se suministra en tramos de 2 metros tanto el perfil de aluminio como los difusores. Los diferentes elementos támbien se suministran por separado y con referencias (Perfil, Difusor y Kit de Accesorios)."
              }
+            },
+            "pdf": {
+             "00PEFA16E2020": "fichas/00PEFA16E2020.pdf"
             }
            },
            {
@@ -31150,6 +31522,9 @@
               ],
               "descripcion": "Perfil de Aluminio para empotrar, apto para Tiras LED diversos anchos, con posibilidad de montar difusor transparente u opal. Se suministra en tramos de 2 metros tanto el perfil de aluminio como los difusores. Los diferentes elementos se suministran por separado y con referencias (Perfil, Difusor y Kit de Accesorios)."
              }
+            },
+            "pdf": {
+             "00PEFA2E2020": "fichas/00PEFA2E2020.pdf"
             }
            },
            {
@@ -31264,6 +31639,9 @@
               ],
               "descripcion": "Perfil de Aluminio para empotrar, apto para Tiras LED diversos anchos, con posibilidad de montar difusor transparente u opal. Se suministra en tramos de 2 metros tanto el perfil de aluminio como los difusores. Los diferentes elementos támbien se suministran por separado y con referencias (Perfil, Difusor y Kit de Accesorios)."
              }
+            },
+            "pdf": {
+             "00PEFA3E2020": "fichas/00PEFA3E2020.pdf"
             }
            },
            {
@@ -31482,6 +31860,11 @@
               ],
               "descripcion": "Perfil de Aluminio para empotrar, apto para Tiras LED diversos anchos, con posibilidad de montar difusor transparente u opal. Se suministra en tramos de 2 metros tanto el perfil de aluminio como los difusores. Los diferentes elementos támbien se suministran por separado y con referencias (Perfil, Difusor y Kit de Accesorios)."
              }
+            },
+            "pdf": {
+             "00PEFA4E2020": "fichas/00PEFA4E2020.pdf",
+             "00PEFA4E2020B": "fichas/00PEFA4E2020B.pdf",
+             "00PEFA4E2020N": "fichas/00PEFA4E2020N.pdf"
             }
            },
            {
@@ -31700,6 +32083,11 @@
               ],
               "descripcion": "Perfil de Aluminio para empotrar, apto para Tiras LED diversos anchos, con posibilidad de montar difusor transparente u opal. Se suministra en tramos de 2 metros tanto el perfil de aluminio como los difusores. Los diferentes elementos támbien se suministran por separado y con referencias (Perfil, Difusor y Kit de Accesorios)."
              }
+            },
+            "pdf": {
+             "00PEFA5E2020": "fichas/00PEFA5E2020.pdf",
+             "00PEFA5E2020B": "fichas/00PEFA5E2020B.pdf",
+             "00PEFA5E2020N": "fichas/00PEFA5E2020N.pdf"
             }
            },
            {
@@ -31814,6 +32202,9 @@
               ],
               "descripcion": "Perfil de Aluminio para empotrar, apto para Tiras LED diversos anchos, con posibilidad de montar difusor transparente u opal. Se suministra en tramos de 2 metros tanto el perfil de aluminio como los difusores. Los diferentes elementos támbien se suministran por separado y con referencias (Perfil, Difusor y Kit de Accesorios)."
              }
+            },
+            "pdf": {
+             "00PEFA6E2020": "fichas/00PEFA6E2020.pdf"
             }
            },
            {
@@ -31928,6 +32319,9 @@
               ],
               "descripcion": "Perfil de Aluminio para empotrar, apto para Tiras LED diversos anchos, con posibilidad de montar difusor transparente u opal. Se suministra en tramos de 2 metros tanto el perfil de aluminio como los difusores. Los diferentes elementos támbien se suministran por separado y con referencias (Perfil, Difusor y Kit de Accesorios)."
              }
+            },
+            "pdf": {
+             "00PEFA7E2020": "fichas/00PEFA7E2020.pdf"
             }
            },
            {
@@ -32042,6 +32436,9 @@
               ],
               "descripcion": "Perfil de Aluminio para empotrar, apto para Tiras LED diversos anchos, con posibilidad de montar difusor transparente u opal. Se suministra en tramos de 2 metros tanto el perfil de aluminio como los difusores. Los diferentes elementos támbien se suministran por separado y con referencias (Perfil, Difusor y Kit de Accesorios)."
              }
+            },
+            "pdf": {
+             "00PEFA8E2020": "fichas/00PEFA8E2020.pdf"
             }
            },
            {
@@ -32156,6 +32553,9 @@
               ],
               "descripcion": "Perfil de Aluminio para empotrar, apto para Tiras LED diversos anchos, con posibilidad de montar difusor transparente u opal. Se suministra en tramos de 2 metros tanto el perfil de aluminio como los difusores. Los diferentes elementos támbien se suministran por separado y con referencias (Perfil, Difusor y Kit de Accesorios)."
              }
+            },
+            "pdf": {
+             "00PEFA9E2020": "fichas/00PEFA9E2020.pdf"
             }
            }
           ]
@@ -32200,7 +32600,10 @@
           },
           "tabla": [],
           "notas": [],
-          "descripcion": []
+          "descripcion": [],
+          "pdf": {
+           "00MANDOCOTR": "fichas/00MANDOCOTR.pdf"
+          }
          },
          {
           "nombre": "CONTROLADOR SMART RF433+ TUYA WIFI MONOCOLOR",
@@ -32233,7 +32636,10 @@
           },
           "tabla": [],
           "notas": [],
-          "descripcion": []
+          "descripcion": [],
+          "pdf": {
+           "00CONTROLADOR": "fichas/00CONTROLADOR.pdf"
+          }
          },
          {
           "nombre": "Controlador Regulador Led Monocolor",
@@ -32343,6 +32749,9 @@
             ],
             "descripcion": "Controlador regulador LED Monocolor/CCT dispositivo esencial para personalizar y gestionar la iluminación LED en sistemas de 12-24V"
            }
+          },
+          "pdf": {
+           "00ACREGMONCTT": "fichas/00ACREGMONCTT.pdf"
           }
          }
         ]
@@ -32613,6 +33022,9 @@
             "notas": [],
             "descripcion": "Proyector de carril con driver integrado en el adaptador trifásico de 20W. Ópticas y lentes 15°, 24° y 36° con distribución de luz simétrica."
            }
+          },
+          "pdf": {
+           "00PROCA20W30N": "fichas/00PROCA20W30N.pdf"
           }
          },
          {
@@ -33599,6 +34011,15 @@
             "notas": [],
             "descripcion": "Proyector de carril con driver integrado en el adaptador trifásico de 30W. Ópticas y lentes 15°, 24° y 36° con distribución de luz simétrica."
            }
+          },
+          "pdf": {
+           "00PROCA10W30B": "fichas/00PROCA10W30B.pdf",
+           "00PROCA20W30B": "fichas/00PROCA20W30B.pdf",
+           "00PROCA20W40B": "fichas/00PROCA20W40B.pdf",
+           "00PROCA20W40N": "fichas/00PROCA20W40N.pdf",
+           "00PROCA30W30B": "fichas/00PROCA30W30B.pdf",
+           "00PROCA30W30N": "fichas/00PROCA30W30N.pdf",
+           "00PROCA30W40B": "fichas/00PROCA30W40B.pdf"
           }
          },
          {
@@ -33853,6 +34274,9 @@
             "notas": [],
             "descripcion": "Proyector de carril con driver integrado en el adaptador trifásico de 30W. Ópticas y lentes 15°, 24° y 36° con distribución de luz simétrica."
            }
+          },
+          "pdf": {
+           "00PROCA30W40N": "fichas/00PROCA30W40N.pdf"
           }
          }
         ]
@@ -34481,6 +34905,12 @@
             "notas": [],
             "descripcion": "Proyector de carril en 25W de potencia, con óptica compuesta por lente especial regulable mediante zoom de 6º a 60º de apertura con bajo nivel de deslumbramiento. Dimer manual."
            }
+          },
+          "pdf": {
+           "00PROYZOOM20B": "fichas/00PROYZOOM20B.pdf",
+           "00PROYZOOM20N": "fichas/00PROYZOOM20N.pdf",
+           "00PROYZOOM25B": "fichas/00PROYZOOM25B.pdf",
+           "00PROYZOOM25N": "fichas/00PROYZOOM25N.pdf"
           }
          }
         ]
@@ -35109,6 +35539,12 @@
             "notas": [],
             "descripcion": "Proyector de carril diseño minimalista y delicado para interiores, con driver integrado en el adaptador trifásico de 15W. Ópticas y lentes 15º,24º,36°,50º con distribución de luz simétrica."
            }
+          },
+          "pdf": {
+           "000PRPIC10W30B": "fichas/000PRPIC10W30B.pdf",
+           "00PRPIC10W30N": "fichas/00PRPIC10W30N.pdf",
+           "00PRPIC15W30B": "fichas/00PRPIC15W30B.pdf",
+           "00PRPIC15W30N": "fichas/00PRPIC15W30N.pdf"
           }
          }
         ]
@@ -35493,6 +35929,10 @@
             "notas": [],
             "descripcion": "Proyector LED para su instalación en carril trifásico (Global), de gran rendimiento lumínico,selector de apertura (20-50) y de temperatura de color mediante switch, Regulador incorporado en driver para control de la intensidad de luz."
            }
+          },
+          "pdf": {
+           "00PRCLIP2730B": "fichas/00PRCLIP2730B.pdf",
+           "00PRCLIP2730N": "fichas/00PRCLIP2730N.pdf"
           }
          }
         ]
@@ -36121,6 +36561,12 @@
             "notas": [],
             "descripcion": "Proyector de carril 28W con driver integrado, con adaptador para carril trifasico. Óptica 36° con distribución de luz simétrica."
            }
+          },
+          "pdf": {
+           "00PRGR284KBL4": "fichas/00PRGR284KBL4.pdf",
+           "00PRYGR283KNG": "fichas/00PRYGR283KNG.pdf",
+           "00PRYGR284KNG": "fichas/00PRYGR284KNG.pdf",
+           "00PRYGR28W3KB": "fichas/00PRYGR28W3KB.pdf"
           }
          }
         ]
@@ -36505,6 +36951,10 @@
             "notas": [],
             "descripcion": "Proyector de carril con driver integrado en el adaptador trifásico de 40W. - Variedad de ópticas y lentes 17°, 18°, 24°, 36º, 40º Y 60º de apertura. - Bajo nivel de deslumbramiento. - Variedad de temperaturas de color 2200K, 2700K, 3000K, 3200K, 3500K, 4000K, 5000K a elegir."
            }
+          },
+          "pdf": {
+           "00PRMOD30W40K": "fichas/00PRMOD30W40K.pdf",
+           "00PRMOD40W40K": "fichas/00PRMOD40W40K.pdf"
           }
          }
         ]
@@ -36775,6 +37225,9 @@
             "notas": [],
             "descripcion": "Baliza de iluminación exterior de paso IP54 6W - 3CCT. Diseñado para aplicaciones de iluminación general y señalización en entornos exteriores, como jardines, terrazas o fachadas."
            }
+          },
+          "pdf": {
+           "0APACU06WCCTX": "fichas/0APACU06WCCTX.pdf"
           }
          },
          {
@@ -37013,6 +37466,9 @@
             "notas": [],
             "descripcion": "Aplique decorativo de luz directa-indirecta para exterior, iluminación de zonas exteriores. 3CCT SWITCH"
            }
+          },
+          "pdf": {
+           "0ASIT14WCCTIP": "fichas/0ASIT14WCCTIP.pdf"
           }
          },
          {
@@ -37259,6 +37715,9 @@
             "notas": [],
             "descripcion": "Aplique decorativo de luz directa-indirecta para exterior, iluminación de zonas exteriores como: pasillos, escaleras y zonas de tránsito, creando un ambiente agradable y elegante."
            }
+          },
+          "pdf": {
+           "00APL12WCCTIP": "fichas/00APL12WCCTIP.pdf"
           }
          },
          {
@@ -37497,6 +37956,9 @@
             "notas": [],
             "descripcion": "Aplique pared tipo cubo 9W 3000K IP67"
            }
+          },
+          "pdf": {
+           "00APLCUB093KB": "fichas/00APLCUB093KB.pdf"
           }
          }
         ]
@@ -37754,6 +38216,9 @@
           "notas": [],
           "descripcion": "Baliza de iluminación exterior de paso IP65 3W de potencia en 3 temperaturas de color para elegir 3000K-4000K-6000K. Diseñado para aplicaciones de iluminación general y señalización en entornos exteriores, como jardines, terrazas o fachadas."
          }
+        },
+        "pdf": {
+         "0BAPGO03WXXKX": "fichas/0BAPGO03WXXKX.pdf"
         }
        },
        {
@@ -38000,6 +38465,9 @@
           "notas": [],
           "descripcion": "Baliza de iluminación exterior de paso IP65 3W de potencia en 3 temperaturas de color para elegir 3000K-4000K-6000K. Diseñado para aplicaciones de iluminación general y señalización en entornos exteriores, como jardines, terrazas o fachadas."
          }
+        },
+        "pdf": {
+         "0BARGO03WXXKX": "fichas/0BARGO03WXXKX.pdf"
         }
        },
        {
@@ -38246,6 +38714,9 @@
           "notas": [],
           "descripcion": "Baliza de iluminación exterior de paso IP54 5W de potencia en 2 temperaturas de color para elegir 3000K-4000K. Diseñado para aplicaciones de iluminación general y señalización en entornos exteriores, como jardines, terrazas o fachadas."
          }
+        },
+        "pdf": {
+         "0BAALA05WXXKX": "fichas/0BAALA05WXXKX.pdf"
         }
        },
        {
@@ -38610,6 +39081,10 @@
           "notas": [],
           "descripcion": "Iluminación exterior de alto rendimiento lumínico. IP65. 12W de potencia. Diseñado para aplicaciones de iluminación general y señalización en entornos exteriores, como jardines, terrazas o fachadas"
          }
+        },
+        "pdf": {
+         "0BETE3012W30K": "fichas/0BETE3012W30K.pdf",
+         "0BETE5012W30K": "fichas/0BETE5012W30K.pdf"
         }
        },
        {
@@ -39092,6 +39567,11 @@
           "notas": [],
           "descripcion": "Iluminación exterior de alto rendimiento lumínico. IP65. 48W de potencia. Diseñado para aplicaciones de iluminación general y señalización en entornos exteriores, como jardines, terrazas o fachadas."
          }
+        },
+        "pdf": {
+         "00BE6TI20W30K": "fichas/00BE6TI20W30K.pdf",
+         "00BE8TI24W30K": "fichas/00BE8TI24W30K.pdf",
+         "0BE20TI48W30K": "fichas/0BE20TI48W30K.pdf"
         }
        },
        {
@@ -39330,6 +39810,9 @@
           "notas": [],
           "descripcion": "Bolardos y apliques en acabado RAL9005 Cabezal de luminaria intercambiable. Interruptor CCT integrado para selección de color (3000K-4000K) Regulable mediante Regulación triac estándar, 1000mm."
          }
+        },
+        "pdf": {
+         "00BALIZ8W3KIP": "fichas/00BALIZ8W3KIP.pdf"
         }
        }
       ]
@@ -39576,6 +40059,9 @@
           "notas": [],
           "descripcion": "Proyector LED Orientable decorativo para exterior IP-54. Distintas opciones de montaje, ideal para señalizar y enfatizar plantas, caminos, pasillos, escaleras, etc..."
          }
+        },
+        "pdf": {
+         "00PINCHOGU10": "fichas/00PINCHOGU10.pdf"
         }
        }
       ]
@@ -39830,6 +40316,9 @@
           "notas": [],
           "descripcion": "Luminaria circular de luz directapara adosar, con difusor opal flexible de alto rendimiento. La combinación del formato reducido y su diseño circular hace que esta luminaria sea ideal para iluminar cualquier espacio interior o exterior con gran versatilidad. IP65"
          }
+        },
+        "pdf": {
+         "0070211540": "fichas/0070211540.pdf"
         }
        },
        {
@@ -40076,6 +40565,9 @@
           "notas": [],
           "descripcion": "Luminaria LED sólida, IP65 Interruptor CCT integrado para selección de color (3000K-4000K). Cableado fácil y posibilidad de cable pasante.Para aplicaciones de interior y exterior"
          }
+        },
+        "pdf": {
+         "00AP19W30KDIP": "fichas/00AP19W30KDIP.pdf"
         }
        },
        {
@@ -40314,6 +40806,9 @@
           "notas": [],
           "descripcion": "Luminaria slim decorativa circular de luz directapara adosar o suspender, con difusor opal flexible de alto rendimiento. La combinación del formato reducido y su diseño circular hace que esta luminaria sea ideal para iluminar cualquier interior con estilo y versatilidad."
          }
+        },
+        "pdf": {
+         "0043814440": "fichas/0043814440.pdf"
         }
        },
        {
@@ -40552,6 +41047,9 @@
           "notas": [],
           "descripcion": "Luminaria LED sólida, IP44 Interruptor CCT integrado para selección de color (3000K-6000K). Cableado fácil y posibilidad de cable pasante.Para aplicaciones de interior y exterior"
          }
+        },
+        "pdf": {
+         "00PLAFON500DA": "fichas/00PLAFON500DA.pdf"
         }
        },
        {
@@ -40782,6 +41280,9 @@
           "notas": [],
           "descripcion": "Luminaria LED sólida, IP65 Interruptor CCT integrado para selección de color (3000K-4000K). Cableado fácil y posibilidad de cable pasante.Para aplicaciones de interior y exterior"
          }
+        },
+        "pdf": {
+         "00PLAFIP6512W": "fichas/00PLAFIP6512W.pdf"
         }
        },
        {
@@ -41147,6 +41648,10 @@
           "notas": [],
           "descripcion": "Luminaria LED sólida, IP65 Interruptor CCT integrado para selección de color 3000K-4000K-6000K). IP65 Para aplicaciones de interior y exterior"
          }
+        },
+        "pdf": {
+         "00PML12WIP65N": "fichas/00PML12WIP65N.pdf",
+         "00PML20WIP65N": "fichas/00PML20WIP65N.pdf"
         }
        }
       ]
@@ -41409,6 +41914,9 @@
           "notas": [],
           "descripcion": "Lámpara empotrable mod. CIRCULO decorativa circular 37W 3286lm 4000K negra, con difusor opal flexible de alto rendimiento."
          }
+        },
+        "pdf": {
+         "00LCEP6437WXXX": "fichas/00LCEP6437WXXX.pdf"
         }
        }
       ]
@@ -41655,6 +42163,9 @@
           "notas": [],
           "descripcion": "Luminaria slim decorativa circular de luz directa para adosar o suspender, con difusor opal flexible de alto rendimiento. La combinación del formato reducido y su diseño circular hace que esta luminaria sea ideal para iluminar cualquier interior con estilo y versatilidad."
          }
+        },
+        "pdf": {
+         "APLCCIRULO500": "fichas/APLCCIRULO500.pdf"
         }
        },
        {
@@ -41893,6 +42404,9 @@
           "notas": [],
           "descripcion": "Luminaria slim decorativa circular de luz directa para adosar o suspender, con difusor opal flexible de alto rendimiento. La combinación del formato reducido y su diseño circular hace que esta luminaria sea ideal para iluminar cualquier interior con estilo y versatilidad."
          }
+        },
+        "pdf": {
+         "APLCCIRULO1500": "fichas/APLCCIRULO1500.pdf"
         }
        },
        {
@@ -42139,6 +42653,9 @@
           "notas": [],
           "descripcion": "Lámpara de techo negro o blanco con reflector basculante antideslumbramiento incluido con bombilla LED profesional Grado de protección IP20."
          }
+        },
+        "pdf": {
+         "00LSLB24WXXX": "fichas/00LSLB24WXXX.pdf"
         }
        },
        {
@@ -42393,6 +42910,9 @@
           "notas": [],
           "descripcion": "Moo luminaria circular de montaje en superficie o suspendida en cualquier tipo de techo o pared. 200 mA No dimable. Colores de acabado blanco o negro a elección."
          }
+        },
+        "pdf": {
+         "0LSMO4920W30K": "fichas/0LSMO4920W30K.pdf"
         }
        },
        {
@@ -42631,6 +43151,9 @@
           "notas": [],
           "descripcion": "Luminaria suspendida circular LED, iluminación general con máxima eficiencia. • Óptica SV0. Difusor Frost White Special LED proporciona un alumbrado suave. • Driver externo • CCT SWITCH"
          }
+        },
+        "pdf": {
+         "00LSG51714800": "fichas/00LSG51714800.pdf"
         }
        },
        {
@@ -42845,6 +43368,9 @@
           "notas": [],
           "descripcion": "Luminaria suspendida de E27.Con 300mm de diámetro. Alto confort visual. Óptica de 234° de apertura con bajo nivel de deslumbramiento Diseñado para aplicaciones de iluminación general de acento para todo tipo de espacios Grado de protección IP20."
          }
+        },
+        "pdf": {
+         "00LAMSP300NG": "fichas/00LAMSP300NG.pdf"
         }
        },
        {
@@ -43083,6 +43609,9 @@
           "notas": [],
           "descripcion": "Lámpara colgante mod. CIRCULO decorativa circular 37W 3286lm 4000K negra. Para suspender, con difusor opal flexible de alto rendimiento."
          }
+        },
+        "pdf": {
+         "0LSCR64037W4K": "fichas/0LSCR64037W4K.pdf"
         }
        },
        {
@@ -43315,6 +43844,9 @@
           "notas": [],
           "descripcion": "VENICE GOLD Luminaria suspendida de 8W de diseño retro. Reflector fabricado en policarbonato con acabado oro mate y difusor de cristal transparente. Óptica de 24°de apertura con bajo nivel de deslumbramiento UGR<16 y distribución de luz simétrica, con Índice de Reproducción Cromática 95 (CRI)"
          }
+        },
+        "pdf": {
+         "00VENIC8WG30K": "fichas/00VENIC8WG30K.pdf"
         }
        }
       ]
@@ -43555,6 +44087,9 @@
           "notas": [],
           "descripcion": "NEO luminaria circular de montaje en superficie en cualquier tipo de techo o pared. Diseñado para aplicaciones de iluminación exterior decorativa en todo tipo de espacios de uso doméstico, comercial, hoteles, restaurantes, tiendas y viviendas. No dimable."
          }
+        },
+        "pdf": {
+         "0CSNEO24W3CCT": "fichas/0CSNEO24W3CCT.pdf"
         }
        }
       ]
@@ -43940,6 +44475,10 @@
             "notas": [],
             "descripcion": "Campana grandes alturas, para suspender mod. CAM IP65, negro. - Regulable 1-10V. - Temperaturas de color a elegir 4000K-5000K - Con switch selector de potencia. - Fácil instalación."
            }
+          },
+          "pdf": {
+           "OOCAMP100W4KA": "fichas/OOCAMP100W4KA.pdf",
+           "OOCAMP100W5KA": "fichas/OOCAMP100W5KA.pdf"
           }
          },
          {
@@ -44304,6 +44843,10 @@
             "notas": [],
             "descripcion": "Campana grandes alturas, para suspender mod. CAM IP65,negro. - Regulable 1-10V. - Temperaturas de color a elegir 4000K-5000K - Con switch selector de potencia. - Fácil instalación."
            }
+          },
+          "pdf": {
+           "OOCAMP150W4KA": "fichas/OOCAMP150W4KA.pdf",
+           "OOCAMP150W5KA": "fichas/OOCAMP150W5KA.pdf"
           }
          },
          {
@@ -44668,6 +45211,10 @@
             "notas": [],
             "descripcion": "Campana grandes alturas, para suspender mod. CAM IP65,negro. - Regulable 1-10V. - Temperaturas de color a elegir 4000K-5000K - Fácil instalación."
            }
+          },
+          "pdf": {
+           "OOCAMP300W4KA": "fichas/OOCAMP300W4KA.pdf",
+           "OOCAMP300W5KA": "fichas/OOCAMP300W5KA.pdf"
           }
          },
          {
@@ -45032,6 +45579,10 @@
             "notas": [],
             "descripcion": "Campana grandes alturas, para suspender mod. CAM IP65,negro. - Regulable 1-10V. - Temperaturas de color a elegir 4000K-5000K - Con switch selector de potencia. - Fácil instalación."
            }
+          },
+          "pdf": {
+           "OOCAMP200W4KA": "fichas/OOCAMP200W4KA.pdf",
+           "OOCAMP200W5KA": "fichas/OOCAMP200W5KA.pdf"
           }
          }
         ]
@@ -45286,6 +45837,9 @@
             "notas": [],
             "descripcion": "Campana grandes alturas, para suspender mod. CAM IP65, negro. Regulable 1-10V. Sustitución directa de alumbrado convencional Ahorros energéticos por encima de 50% Fácil instalación."
            }
+          },
+          "pdf": {
+           "OOCAMP120W5KB": "fichas/OOCAMP120W5KB.pdf"
           }
          }
         ]
@@ -45659,6 +46213,10 @@
             "notas": [],
             "descripcion": "Campana grandes alturas, para suspender mod. SOL IP65,negro. - Regulable 1-10V. - Temperaturas de color a elegir 4000K-5000K - Con switch selector de potencia. - Fácil instalación."
            }
+          },
+          "pdf": {
+           "OOCAMP100W5KS": "fichas/OOCAMP100W5KS.pdf",
+           "OOCAMP200W5KS": "fichas/OOCAMP200W5KS.pdf"
           }
          }
         ]
@@ -45913,6 +46471,9 @@
             "notas": [],
             "descripcion": "Campana grandes alturas, para suspender mod. CAM IP65,negro. DALI - Temperaturas de color a elegir 4500K"
            }
+          },
+          "pdf": {
+           "OOCAMU200W4KD": "fichas/OOCAMU200W4KD.pdf"
           }
          },
          {
@@ -46159,6 +46720,9 @@
             "notas": [],
             "descripcion": "Campana grandes alturas, para suspender mod. CAM IP65,negro. - Temperaturas de color a elegir 4000K - Con switch selector de potencia. - Fácil instalación."
            }
+          },
+          "pdf": {
+           "00CAMP200W4K": "fichas/00CAMP200W4K.pdf"
           }
          }
         ]
@@ -46421,6 +46985,9 @@
             "notas": [],
             "descripcion": "Luminaria LED estanca para condiciones adversas e iluminación exterior. Excelente control de haz luminoso,difusor opal en policarbonato anti vandálico con filtro UV, Módulo lineal LED de alta luminancia y driver integrado."
            }
+          },
+          "pdf": {
+           "0030511740": "fichas/0030511740.pdf"
           }
          },
          {
@@ -47041,6 +47608,12 @@
             "notas": [],
             "descripcion": "Pantalla estanca de policarbonato con LED integrado para iluminación exterior. Switch integrado para selección de potencia. Fuente Lumínica módulo LED SMD alta calidad driver integrado. Óptica de policarbonato opal para una difusión uniforme de la luz"
            }
+          },
+          "pdf": {
+           "00PAES12W4K60": "fichas/00PAES12W4K60.pdf",
+           "00PAES12W6K60": "fichas/00PAES12W6K60.pdf",
+           "00PAES17W4K60": "fichas/00PAES17W4K60.pdf",
+           "00PAES17W6K60": "fichas/00PAES17W6K60.pdf"
           }
          }
         ]
@@ -47287,6 +47860,9 @@
             "notas": [],
             "descripcion": "Luminaria LED estanca para condiciones adversas e iluminación exterior. Excelente control de haz luminoso,difusor opal en policarbonato anti vandálico con filtro UV, Módulo lineal LED de alta luminancia y driver integrado. Switch integrado para selección de potencia."
            }
+          },
+          "pdf": {
+           "00PAN18": "fichas/00PAN18.pdf"
           }
          },
          {
@@ -47533,6 +48109,9 @@
             "notas": [],
             "descripcion": "Luminaria LED estanca para condiciones adversas e iluminación exterior. Excelente control de haz luminoso,difusor opal en policarbonato anti vandálico con filtro UV, Módulo lineal LED de alta luminancia y driver integrado."
            }
+          },
+          "pdf": {
+           "0031413540": "fichas/0031413540.pdf"
           }
          },
          {
@@ -47885,6 +48464,10 @@
             "notas": [],
             "descripcion": "Luminaria LED estanca para condiciones adversas e iluminación exterior. Posibilidad de cableado trasero o lateral Se suministra con tornillos antivandálicos de acero inoxidable.Kits pasacables disponibles como accesorio integrado"
            }
+          },
+          "pdf": {
+           "00PANST36W4KD": "fichas/00PANST36W4KD.pdf",
+           "00PANST44W4KD": "fichas/00PANST44W4KD.pdf"
           }
          },
          {
@@ -48376,6 +48959,11 @@
             "notas": [],
             "descripcion": "Pantalla estanca de policarbonato con LED integrado para iluminación exterior. Switch integrado para selección de potencia. Fuente Lumínica módulo LED SMD alta calidad driver integrado. Óptica de policarbonato opal para una difusión uniforme de la luz"
            }
+          },
+          "pdf": {
+           "00PAEST24W4K": "fichas/00PAEST24W4K.pdf",
+           "00PANEST19W4K": "fichas/00PANEST19W4K.pdf",
+           "00PANEST30W4K": "fichas/00PANEST30W4K.pdf"
           }
          },
          {
@@ -48741,6 +49329,10 @@
             "notas": [],
             "descripcion": "Luminaria LED estanca para condiciones adversas e iluminación exterior. Excelente control de haz luminoso,difusor opal en policarbonato anti vandálico con filtro UV, Módulo lineal LED de alta luminancia y driver integrado."
            }
+          },
+          "pdf": {
+           "0030512440": "fichas/0030512440.pdf",
+           "0030513440": "fichas/0030513440.pdf"
           }
          }
         ]
@@ -49003,6 +49595,9 @@
             "notas": [],
             "descripcion": "Pantalla estanca de policarbonato con LED integrado para iluminación exterior. Switch integrado para selección de potencia. Fuente Lumínica módulo LED SMD alta calidad driver integrado. Óptica de policarbonato opal para una difusión uniforme de la luz"
            }
+          },
+          "pdf": {
+           "00PANST40WCCT": "fichas/00PANST40WCCT.pdf"
           }
          }
         ]
@@ -49249,6 +49844,9 @@
             "notas": [],
             "descripcion": "Luminaria LED estanca para condiciones adversas e iluminación exterior. Equipada de serie con interruptor de encendido/apagado Suministrada con clips de techo y suspensión de acero inoxidable antivandálicos Equipada con cableado pasante de 3x2,5 mm²"
            }
+          },
+          "pdf": {
+           "00PAN23": "fichas/00PAN23.pdf"
           }
          },
          {
@@ -49487,6 +50085,9 @@
             "notas": [],
             "descripcion": "Luminaria LED estanca para condiciones adversas e iluminación exterior. Luminaria con interruptor CCT integrado para selección de color (4000K-5700K) Driver con interruptor de encendido/apagado integrado. Switch integrado para selección de potencia."
            }
+          },
+          "pdf": {
+           "00PAN36": "fichas/00PAN36.pdf"
           }
          },
          {
@@ -49851,6 +50452,10 @@
             "notas": [],
             "descripcion": "Pantalla estanca de policarbonato con LED integrado para iluminación exterior. Switch integrado para selección de potencia. Fuente Lumínica módulo LED SMD alta calidad driver integrado. Óptica de policarbonato opal para una difusión uniforme de la luz"
            }
+          },
+          "pdf": {
+           "00PANE30W4K16": "fichas/00PANE30W4K16.pdf",
+           "00PANEST45W4K": "fichas/00PANEST45W4K.pdf"
           }
          }
         ]
@@ -50230,6 +50835,10 @@
           "notas": [],
           "descripcion": "Luminaria LED de luz reflejada para empotrar en diferentes tipos de techos con optica indirecta central. SMD 350mA"
          }
+        },
+        "pdf": {
+         "00LINC3160040": "fichas/00LINC3160040.pdf",
+         "0LINC3160040D": "fichas/0LINC3160040D.pdf"
         }
        },
        {
@@ -50484,6 +51093,9 @@
           "notas": [],
           "descripcion": "Panel de LED apto para empotrar y suspender. NO FLICKER. Bajo UGR <19"
          }
+        },
+        "pdf": {
+         "00PANEL42W45K": "fichas/00PANEL42W45K.pdf"
         }
        },
        {
@@ -50738,6 +51350,9 @@
           "notas": [],
           "descripcion": "Panel de LED apto para empotrar y suspender. NO FLICKER. Bajo UGR <19 Temperatura de color a elegir 3000K-4000K-6500K"
          }
+        },
+        "pdf": {
+         "00PANEL40W60K": "fichas/00PANEL40W60K.pdf"
         }
        },
        {
@@ -51118,6 +51733,10 @@
           "notas": [],
           "descripcion": "Panel de LED apto para empotrar y suspender. NO FLICKER. Bajo UGR <19 Temperatura de color a elegir 3CCT"
          }
+        },
+        "pdf": {
+         "00PANEL42WXXX": "fichas/00PANEL42WXXX.pdf",
+         "00PANER42W3CCT": "fichas/00PANER42W3CCT.pdf"
         }
        },
        {
@@ -51494,6 +52113,10 @@
           "notas": [],
           "descripcion": "Panel de LED apto para empotrar y suspender. NO FLICKER. Bajo UGR <19 Temperatura de color a elegir 3000K-4000K-6500K"
          }
+        },
+        "pdf": {
+         "00PANEL25W40K": "fichas/00PANEL25W40K.pdf",
+         "00PANEL25WXXX": "fichas/00PANEL25WXXX.pdf"
         }
        },
        {
@@ -51740,6 +52363,9 @@
           "notas": [],
           "descripcion": "Panel de LED Slim con marco de techo empotrado y kit de módulo de superficie disponibles como accesorio. Apto para aplicaciones empotradas y suspendidas, bajo UGR (<19), Switch integrado para selección de potencia."
          }
+        },
+        "pdf": {
+         "00PANEL34W4KD": "fichas/00PANEL34W4KD.pdf"
         }
        },
        {
@@ -51994,6 +52620,9 @@
           "notas": [],
           "descripcion": "Panel de LED apto para empotrar y suspender. NO FLICKER. Bajo UGR <19 Temperatura de color a elegir 4000K-6000K"
          }
+        },
+        "pdf": {
+         "00PANEL60WXXX": "fichas/00PANEL60WXXX.pdf"
         }
        },
        {
@@ -52240,6 +52869,9 @@
           "notas": [],
           "descripcion": "Panel de LED Slim con marco de techo empotrado y kit de módulo de superficie disponibles como accesorio. Apto para aplicaciones empotradas y suspendidas, bajo UGR (<19), Switch integrado para selección de potencia."
          }
+        },
+        "pdf": {
+         "00PANEL23344K": "fichas/00PANEL23344K.pdf"
         }
        },
        {
@@ -52486,6 +53118,9 @@
           "notas": [],
           "descripcion": "Luminaria LED de luz reflejada para empotrar en diferentes tipos de techos con Pantalla Eco ABAX Dali 31,4W 2C 5900lm 180lm_W 120º UGR 19, difusor microprisma blanco L80B10."
          }
+        },
+        "pdf": {
+         "OPANABAX344KD": "fichas/OPANABAX344KD.pdf"
         }
        },
        {
@@ -52740,6 +53375,9 @@
           "notas": [],
           "descripcion": "Pantalla empotrable 1 calle x 24W 4000K rectangular 1197x297mm. Blanco. Luminaria de empotrar en cualquier tipo de techo del mercado por medio de marco adaptable. Módulo lineal LED de alta luminancia y driver. No flicker. Bajo UGR <22"
          }
+        },
+        "pdf": {
+         "0PE1C24W4KIP4": "fichas/0PE1C24W4KIP4.pdf"
         }
        },
        {
@@ -53244,6 +53882,11 @@
           "notas": [],
           "descripcion": "Pantalla empotrable 2 calleS x 48W 4000K 2x24W 4000K 1197x297mm IP40 Regulable DALI blanco. Luminaria de empotrar en cualquier tipo de techo del mercado por medio de marco adaptable. Módulo lineal LED de alta luminancia y driver. No flicker. Bajo UGR <19"
          }
+        },
+        "pdf": {
+         "0PE2C24W4KIP4": "fichas/0PE2C24W4KIP4.pdf",
+         "0PE2C48W4KIP4": "fichas/0PE2C48W4KIP4.pdf",
+         "0PE2C48W4KIPD": "fichas/0PE2C48W4KIPD.pdf"
         }
        },
        {
@@ -53462,6 +54105,9 @@
           "notas": [],
           "descripcion": "Luminarias de luz indirecta con apantallamiento lateral, para empotrar en cualquier techo de perfilería vista y en techos de escayola, con marco adaptable."
          }
+        },
+        "pdf": {
+         "00PSLI21740KB": "fichas/00PSLI21740KB.pdf"
         }
        },
        {
@@ -53814,6 +54460,10 @@
           "notas": [],
           "descripcion": "Pantalla superficie mod. CJV 625 54W 4935 4000K difusor opal - 350mA. DALI. Bajo UGR <19 IP20 Temperatura de color 4000K"
          }
+        },
+        "pdf": {
+         "00PANSP544K": "fichas/00PANSP544K.pdf",
+         "00PANSP544KDL": "fichas/00PANSP544KDL.pdf"
         }
        }
       ]
@@ -55017,6 +55667,17 @@
             "notas": [],
             "descripcion": "Proyector para exteriores IP65 con diferentes temperaturas de color 3000K | 4000K | 6000K, para elegir."
            }
+          },
+          "pdf": {
+           "00PREX100W3KB": "fichas/00PREX100W3KB.pdf",
+           "00PREX100W4KB": "fichas/00PREX100W4KB.pdf",
+           "00PREX100W6KB": "fichas/00PREX100W6KB.pdf",
+           "00PREX150W3KB": "fichas/00PREX150W3KB.pdf",
+           "00PREX150W4KB": "fichas/00PREX150W4KB.pdf",
+           "00PREX150W6KB": "fichas/00PREX150W6KB.pdf",
+           "00PREX50W3KB": "fichas/00PREX50W3KB.pdf",
+           "00PREX50W4KB": "fichas/00PREX50W4KB.pdf",
+           "00PREX50W6KB": "fichas/00PREX50W6KB.pdf"
           }
          }
         ]
@@ -55743,6 +56404,13 @@
             "notas": [],
             "descripcion": "Proyector para exteriores IP66 con temperaturas de color correlacionadas 2CCT 4000K | 5000K. Regulable 1-10V."
            }
+          },
+          "pdf": {
+           "00PROEX100XK": "fichas/00PROEX100XK.pdf",
+           "00PROEX150XK": "fichas/00PROEX150XK.pdf",
+           "00PROEX200XK": "fichas/00PROEX200XK.pdf",
+           "00PROEX300XK": "fichas/00PROEX300XK.pdf",
+           "00PROEX50XK": "fichas/00PROEX50XK.pdf"
           }
          }
         ]
@@ -56823,6 +57491,16 @@
             "notas": [],
             "descripcion": "Proyector para exteriores IP65 Slim con 2 diferentes temperaturas de color 4000K | 5000K para elegir, regulable 1-10V."
            }
+          },
+          "pdf": {
+           "00PREX100W4KS": "fichas/00PREX100W4KS.pdf",
+           "00PREX100W5KS": "fichas/00PREX100W5KS.pdf",
+           "00PREX150W4KS": "fichas/00PREX150W4KS.pdf",
+           "00PREX150W5KS": "fichas/00PREX150W5KS.pdf",
+           "00PREX200W4KS": "fichas/00PREX200W4KS.pdf",
+           "00PREX200W5KS": "fichas/00PREX200W5KS.pdf",
+           "00PREX300W4KS": "fichas/00PREX300W4KS.pdf",
+           "00PREX300W5KS": "fichas/00PREX300W5KS.pdf"
           }
          }
         ]
@@ -57073,6 +57751,9 @@
           "notas": [],
           "descripcion": "Proyector para exteriores IP65 con diferentes temperaturas de color CCT con switch. IP65 IK08"
          }
+        },
+        "pdf": {
+         "0072701500": "fichas/0072701500.pdf"
         }
        },
        {
@@ -57319,6 +58000,9 @@
           "notas": [],
           "descripcion": "Proyector para exteriores con diferentes temperaturas de color CCT con switch. IP66 IK08"
          }
+        },
+        "pdf": {
+         "00PROEX200W4K": "fichas/00PROEX200W4K.pdf"
         }
        },
        {
@@ -57565,6 +58249,9 @@
           "notas": [],
           "descripcion": "Equipo LED para aplicaciones de alto montaje y elevado flujo luminoso. Sistema Nano-Óptico de alta eficiencia. con fijación tipo ¨T¨ mod. AC80 IP65,negro. - Regulable DALI 2"
          }
+        },
+        "pdf": {
+         "OPROACL80W4KD": "fichas/OPROACL80W4KD.pdf"
         }
        }
       ]
@@ -57824,6 +58511,9 @@
             "notas": [],
             "descripcion": "Farola para alumbrado público Led MN IP65 IK08 - Temperaturas de color a elegir 2700K-4000K- 5000K - 0% Montaje a 0º de inclinación."
            }
+          },
+          "pdf": {
+           "0FAMN100WXXK": "fichas/0FAMN100WXXK.pdf"
           }
          },
          {
@@ -58070,6 +58760,9 @@
             "notas": [],
             "descripcion": "Farola para alumbrado público Led VA IP65 IK08 - Temperaturas de color a elegir 2700K-4000K- 5000K - Diámetro de fijación 76 mm - 0% Montaje a 0º de inclinación."
            }
+          },
+          "pdf": {
+           "00FAVA60WXXXK": "fichas/00FAVA60WXXXK.pdf"
           }
          },
          {
@@ -58117,7 +58810,10 @@
           },
           "tabla": [],
           "notas": [],
-          "descripcion": []
+          "descripcion": [],
+          "pdf": {
+           "00FAROLVILLAN": "fichas/00FAROLVILLAN.pdf"
+          }
          },
          {
           "nombre": "Módulo LED Villa - 50w_6500lm_4000K-6000K_IP65 _90º",
@@ -58164,7 +58860,10 @@
           },
           "tabla": [],
           "notas": [],
-          "descripcion": []
+          "descripcion": [],
+          "pdf": {
+           "00MDVILLA50W4": "fichas/00MDVILLA50W4.pdf"
+          }
          }
         ]
        },
@@ -58654,6 +59353,11 @@
             "notas": [],
             "descripcion": "Farola Led ST IP65 IK08 regulable. - Regulable 1-10V. - Temperaturas de color a elegir 2700K-4000K-5000K - Diámetro de fijación 60 mm - 0% Montaje a 0º de inclinación."
            }
+          },
+          "pdf": {
+           "00FALI30WXXXK": "fichas/00FALI30WXXXK.pdf",
+           "00FALI60WXXXK": "fichas/00FALI60WXXXK.pdf",
+           "00FALI90WXXXK": "fichas/00FALI90WXXXK.pdf"
           }
          }
         ]
@@ -58709,7 +59413,10 @@
           },
           "tabla": [],
           "notas": [],
-          "descripcion": []
+          "descripcion": [],
+          "pdf": {
+           "00FASO16WCCTK": "fichas/00FASO16WCCTK.pdf"
+          }
          },
          {
           "nombre": "Farola Led SOLAR HIBRÍDA",
@@ -58961,6 +59668,9 @@
             ],
             "descripcion": "Farola Led Solar IP65 IK08 regulable. - Temperaturas de color 3CTT - Sensor Crepuscular, Sensor de movimiento - Incluye: Control remoto, soporte pared, brazo de fijación"
            }
+          },
+          "pdf": {
+           "00FASOH20WCCT": "fichas/00FASOH20WCCT.pdf"
           }
          },
          {
@@ -59213,6 +59923,9 @@
             ],
             "descripcion": "Farola Led Solar IP65 IK08 regulable. - Temperaturas de color 4000K - 5000K - Sensor Crepuscular, Sensor de movimiento"
            }
+          },
+          "pdf": {
+           "0FASOJY20WXXK": "fichas/0FASOJY20WXXK.pdf"
           }
          }
         ]
@@ -59467,6 +60180,9 @@
             "notas": [],
             "descripcion": "Farola Led ST IP65 IK08 regulable. - Regulable 1-10V. - Temperaturas de color a elegir 2700K-4000K-5000K - Diámetro de fijación 60 mm - 0% Montaje a 0º de inclinación."
            }
+          },
+          "pdf": {
+           "00FAST30WXXXK": "fichas/00FAST30WXXXK.pdf"
           }
          },
          {
@@ -59831,6 +60547,10 @@
             "notas": [],
             "descripcion": "Farola Led ST IP65 IK08 regulable. - Regulable 1-10V. - Temperaturas de color a elegir 2700K-4000K-5000K - Diámetro de fijación 60 mm. 0% Montaje a 0º de inclinación."
            }
+          },
+          "pdf": {
+           "00FAST60WXXXK": "fichas/00FAST60WXXXK.pdf",
+           "00FAST90WXXXK": "fichas/00FAST90WXXXK.pdf"
           }
          }
         ]
@@ -60353,6 +61073,11 @@
             "notas": [],
             "descripcion": "Luminaria IP65, para ambientes estériles, (quirófanos, hospitales, barcos o laboratorios) disponible en difusor opal o de lamas. No flicker. Bajo UGR <22"
            }
+          },
+          "pdf": {
+           "0PHIP6E45W30K": "fichas/0PHIP6E45W30K.pdf",
+           "0PHIP6E45W3KD": "fichas/0PHIP6E45W3KD.pdf",
+           "0PHIP6E45W40K": "fichas/0PHIP6E45W40K.pdf"
           }
          },
          {
@@ -60723,6 +61448,10 @@
             "notas": [],
             "descripcion": "Luminarias de empotrar en techos de perfilería vista o superficie. 350 mA Registrable por la parte superior de la luminaria. Óptica SVO. Difusor Frost White Special LED Bajo UGR <19 No flicker."
            }
+          },
+          "pdf": {
+           "0PHE27WICIP6D": "fichas/0PHE27WICIP6D.pdf",
+           "0PHE45W4KIP6D": "fichas/0PHE45W4KIP6D.pdf"
           }
          },
          {
@@ -60977,6 +61706,9 @@
             "notas": [],
             "descripcion": "luminarias de empotrar en techos de panel sándwich, pladur o escayola con fuentes lumínicas especialmente diseñadas para conseguir una mayor uniformidad y no crear sombras. El cuerpo y el difusor del panel están preparados para soportar agentes químicos Registrable por la parte inferior de la luminaria. 500 mA. Óptica SVO. Difusor Frost White Special LED Bajo UGR <19 No flicker."
            }
+          },
+          "pdf": {
+           "0PHE60W4KIP6D": "fichas/0PHE60W4KIP6D.pdf"
           }
          },
          {
@@ -61590,6 +62322,12 @@
             "notas": [],
             "descripcion": "Pantalla hospitalaría empotrable acceso superior, para ambientes estériles,de salas blancas para ambientes limpios, hospitales y laboratorios, donde se requiere un elevado nivel de estanqueidad y resistencia mecanica. IP65 Registrable parte superior. Para paneles tipo sandwich de 60, 80 y 100mm Bajo UGR <19"
            }
+          },
+          "pdf": {
+           "0PHEIPAS41W30KD": "fichas/0PHEIPAS41W30KD.pdf",
+           "0PHEIPAS41W40KD": "fichas/0PHEIPAS41W40KD.pdf",
+           "0PHEIPAS65W30KD": "fichas/0PHEIPAS65W30KD.pdf",
+           "0PHEIPAS65W40KD": "fichas/0PHEIPAS65W40KD.pdf"
           }
          }
         ]
@@ -62096,6 +62834,11 @@
             "notas": [],
             "descripcion": "Luminaria IP65, para ambientes estériles, (quirófanos, hospitales, barcos o laboratorios) disponible en difusor opal o de lamas. No flicker. Bajo UGR <22"
            }
+          },
+          "pdf": {
+           "00PHIPE45W30K": "fichas/00PHIPE45W30K.pdf",
+           "00PHIPE45W40K": "fichas/00PHIPE45W40K.pdf",
+           "0PHIPE45W30KD": "fichas/0PHIPE45W30KD.pdf"
           }
          },
          {
@@ -62336,6 +63079,9 @@
             "notas": [],
             "descripcion": "Luminaria LED de salas blancas para ambientes limpios, hospitales y laboratorios, donde se requiere un elevado nivel de estanqueidad y resistencia mecanica con opción de cambio de temperatura de color IC(intelligent colors). Registrable parte inferior. Bajo UGR <19 - No flicker."
            }
+          },
+          "pdf": {
+           "0PHE36WICIP1D": "fichas/0PHE36WICIP1D.pdf"
           }
          },
          {
@@ -62716,6 +63462,10 @@
             "notas": [],
             "descripcion": "Luminaria IP65, para ambientes estériles, (quirófanos, hospitales, barcos o laboratorios) disponible en difusor opal o de lamas. No flicker. Bajo UGR <22"
            }
+          },
+          "pdf": {
+           "00PHIPA45W40K": "fichas/00PHIPA45W40K.pdf",
+           "0PHIPE45W40KD": "fichas/0PHIPE45W40KD.pdf"
           }
          }
         ]
@@ -62981,6 +63731,9 @@
           "notas": [],
           "descripcion": "Spot de empotrar redondo, para iluminación de evacuación de emergencia. • Diodo LED que señaliza la presencia de la tensión y la recarga del acumulador, protección contra descarga profunda."
          }
+        },
+        "pdf": {
+         "0081920002": "fichas/0081920002.pdf"
         }
        },
        {
@@ -63211,6 +63964,9 @@
           "notas": [],
           "descripcion": "Spot de empotrar redondo, para iluminación de evacuación de emergencia. • Diodo LED que señaliza la presencia de la tensión y la recarga del acumulador, protección contra descarga profunda."
          }
+        },
+        "pdf": {
+         "0081320001": "fichas/0081320001.pdf"
         }
        },
        {
@@ -63441,6 +64197,9 @@
           "notas": [],
           "descripcion": "Luz de emergencia LED EXIT S Superficie en techo o pared, Incorpora diodo LED que señaliza la presencia de la tensión y la recarga del acumulador, protección contra descarga profunda. Batería de alta calidad con 1 hora de autonomía, tiempo de recarga: Máximo hasta 12 horas."
          }
+        },
+        "pdf": {
+         "00EMER270IP42": "fichas/00EMER270IP42.pdf"
         }
        },
        {
@@ -63781,6 +64540,10 @@
           "notas": [],
           "descripcion": "·Luminarias de evacuación para montaje en superficie. · Diodo LED que señaliza la presencia de la tensión y la recarga del acumulador, protección contra descarga profunda."
          }
+        },
+        "pdf": {
+         "0080123000": "fichas/0080123000.pdf",
+         "0080140000": "fichas/0080140000.pdf"
         }
        },
        {
@@ -64011,6 +64774,9 @@
           "notas": [],
           "descripcion": "·Luminarias de evacuación para montaje en superficie. · Diodo LED que señaliza la presencia de la tensión y la recarga del acumulador, protección contra descarga profunda."
          }
+        },
+        "pdf": {
+         "0080115000": "fichas/0080115000.pdf"
         }
        },
        {
@@ -64241,6 +65007,9 @@
           "notas": [],
           "descripcion": "·Luminarias de evacuación para montaje en superficie. · Diodo LED que señaliza la presencia de la tensión y la recarga del acumulador, protección contra descarga profunda."
          }
+        },
+        "pdf": {
+         "0080132000": "fichas/0080132000.pdf"
         }
        },
        {
@@ -64479,6 +65248,9 @@
           "notas": [],
           "descripcion": "Luminaria emergencia AXP 3.0 Espacios abiertos 1W LED 250 lm_ PREMIUM IP20 1h no permanente Autotest blanco"
          }
+        },
+        "pdf": {
+         "00EMEAXP3.0AT": "fichas/00EMEAXP3.0AT.pdf"
         }
        },
        {
@@ -64717,6 +65489,9 @@
           "notas": [],
           "descripcion": "Luminaria emergencia AXP 3.0 optica reccorido de evacuacion 1W LED 250 lm PREMIUM IP20 1h no permanente blanco."
          }
+        },
+        "pdf": {
+         "00EMEAXP3.0RE": "fichas/00EMEAXP3.0RE.pdf"
         }
        },
        {
@@ -64955,6 +65730,9 @@
           "notas": [],
           "descripcion": "Luminaria emergencia AXP 3.0 optica espacios abiertos 1W LED 250 lm PREMIUM IP20 1h no permanente blanco."
          }
+        },
+        "pdf": {
+         "00EMEAXP3.01W": "fichas/00EMEAXP3.01W.pdf"
         }
        },
        {
@@ -65535,6 +66313,12 @@
           "notas": [],
           "descripcion": "Luz de emergencia LED EXIT S Instalación en superficie Instalación en superficie (empotrada con accesorio)en techo o pared, Luminaria construida según normativa UNE-EN60.598-2-22 LED que señaliza la presencia de tensión y la recarga de batería. Protección contra descarga profunda."
          }
+        },
+        "pdf": {
+         "00EMEEXITS250": "fichas/00EMEEXITS250.pdf",
+         "00EMEEXITS350": "fichas/00EMEEXITS350.pdf",
+         "00EMEEXITS450": "fichas/00EMEEXITS450.pdf",
+         "00EMGEXITS200": "fichas/00EMGEXITS200.pdf"
         }
        },
        {
@@ -65773,6 +66557,9 @@
           "notas": [],
           "descripcion": "Luminaria emergencia Microspot empotrable 1W LED 250 lm_ versión Eco IP20_Optica U."
          }
+        },
+        "pdf": {
+         "00EMEMCSPO25": "fichas/00EMEMCSPO25.pdf"
         }
        },
        {
@@ -66003,6 +66790,9 @@
           "notas": [],
           "descripcion": "·Luminarias de evacuación para montaje en superficie. · Diodo LED que señaliza la presencia de la tensión y la recarga del acumulador, protección contra descarga profunda."
          }
+        },
+        "pdf": {
+         "0080223000": "fichas/0080223000.pdf"
         }
        },
        {
@@ -66241,6 +67031,9 @@
           "notas": [],
           "descripcion": "Luz de emergencia LED EXIT S Instalación en superficie Instalación en superficie (empotrada con accesorio)en techo o pared, Luminaria construida según normativa UNE-EN60.598-2-22 LED que señaliza la presencia de tensión y la recarga de batería. Protección contra descarga profunda."
          }
+        },
+        "pdf": {
+         "00EMEEXITS150": "fichas/00EMEEXITS150.pdf"
         }
        },
        {
@@ -66471,6 +67264,9 @@
           "notas": [],
           "descripcion": "Proyector de emergencia orientable 360º con montaje de superficie a pared o techo. • LED SMD indicador de presencia de red, batería o fallo."
          }
+        },
+        "pdf": {
+         "0081518000": "fichas/0081518000.pdf"
         }
        }
       ]
@@ -66728,6 +67524,9 @@
         "notas": [],
         "descripcion": "Tubo LED T8 1500 mm 24W Cristal Conexión Un Lateral, casquillo G13. Driver encapsulado. Alto aislamiento y resistencia. Sin efecto estroboscópico."
        }
+      },
+      "pdf": {
+       "00TLT824W60K": "fichas/00TLT824W60K.pdf"
       }
      }
     ]
@@ -66960,6 +67759,10 @@
           "notas": [],
           "descripcion": "·Fuente de alimentación LED de voltaje constante aislado. Voltaje de entrada 220, 240 V CA; voltaje de salida 24 V; · Con carcasa metálica estanca IP67, para aplicaciones de iluminación pública, arquitectónica, de exterior, interior"
          }
+        },
+        "pdf": {
+         "00FUAL20024IP": "fichas/00FUAL20024IP.pdf",
+         "00LHV6024IP67": "fichas/00LHV6024IP67.pdf"
         }
        },
        {
@@ -67021,7 +67824,10 @@
         },
         "tabla": [],
         "notas": [],
-        "descripcion": []
+        "descripcion": [],
+        "pdf": {
+         "EMS61000": "fichas/EMS61000.pdf"
+        }
        }
       ]
      },
@@ -67183,6 +67989,9 @@
           "notas": [],
           "descripcion": "·Fuente de alimentación LED de voltaje constante con toma a tierra.Voltaje de entrada 200-240v ac; voltaje de salida 12V; · Con carcasa metálica estanca IP65, para aplicaciones de iluminación pública, arquitectónica, de exterior, interior"
          }
+        },
+        "pdf": {
+         "00FA36W12VIP2": "fichas/00FA36W12VIP2.pdf"
         }
        }
       ]
