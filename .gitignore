@@ -44,3 +44,7 @@ DESPLIEGUE.md
 
 # Hojas de revisión internas: listan rutas de fuentes/ y marcas de proveedor
 docs/catalogo/
+
+# El catálogo en PDF, hasta que se decida publicarlo. El archivo sigue en catalogo/
+# y vuelve a la web quitando esta línea y rehaciendo el enlace de catalogo.html.
+catalogo/catalogo-apheloria.pdf
