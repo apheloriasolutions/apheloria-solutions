@@ -7,7 +7,8 @@
  "interiores": {
   "texto": "Iluminación de interior para oficina, comercio y vivienda: downlights empotrados y de superficie, perfiles lineales, tiras y perfiles LED, proyectores de carril y la colección Retro Gold.",
   "borrador": true,
-  "portada": "images/productos/portadas/interiores.jpg"
+  "portada": "images/productos/portadas/interiores.jpg",
+  "hero": "images/productos/portadas/interiores.jpg"
  },
  "interiores/downlights-empotrados": {
   "texto": "Gama completa de downlights empotrados: cardanes orientables, trimless sin marco, modelos simples, de luz difusa y de temperatura ajustable, y las líneas NEX, ZEN, SLIM, MIN, MIX y OCU. Acabados en blanco y negro, CRI90-95.",

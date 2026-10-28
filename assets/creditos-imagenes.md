@@ -13,7 +13,7 @@ volviendo a ejecutar `scripts/catalogo/construir_web.py`.
 
 | Sección | Título original | Banco | Licencia | Publicada |
 |---|---|---|---|---|
-| interiores | Vestíbulo de madera con luz cálida | Pixabay | Pixabay Content License | 1280×853 |
+| interiores | Plafón de superficie encendido en un salón | aportada por el cliente | — | 1196×824 |
 | exteriores | Escalera de acceso iluminada de noche | Pixabay | Pixabay Content License | 1280×720 |
 | decorativas | Esferas suspendidas | Pixabay | Pixabay Content License | 1280×853 |
 | industriales | Nave industrial con luminarias lineales | Pixabay | Pixabay Content License | 1280×762 |
@@ -21,7 +21,7 @@ volviendo a ejecutar `scripts/catalogo/construir_web.py`.
 | emergencia | Señal de salida en techo perforado | Pixabay | Pixabay Content License | 1280×849 |
 | bombillas-y-accesorios | Bombilla de filamento LED | Pixabay | Pixabay Content License | 1280×853 |
 | salas-blancas | Sala limpia de montaje | Pixabay | Pixabay Content License | 1280×960 |
-- **interiores**: https://pixabay.com/photos/building-door-architecture-entrance-8246152/
+- **interiores**: foto aportada por Apheloria (28-10-2026), sustituye a la de Pixabay
 - **exteriores**: https://pixabay.com/photos/evening-building-illuminated-stairs-4579176/
 - **decorativas**: https://pixabay.com/photos/light-bulbs-lights-spheres-lamps-407239/
 - **industriales**: https://pixabay.com/photos/lost-places-empty-factory-building-1801660/
