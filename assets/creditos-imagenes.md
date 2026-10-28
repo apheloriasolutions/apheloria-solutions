@@ -21,6 +21,7 @@ volviendo a ejecutar `scripts/catalogo/construir_web.py`.
 | emergencia | Señal de salida en techo perforado | Pixabay | Pixabay Content License | 1280×849 |
 | bombillas-y-accesorios | Bombilla de filamento LED | Pixabay | Pixabay Content License | 1280×853 |
 | salas-blancas | Pasillo hospitalario con paneles empotrados | aportada por el cliente | — | 918×690 |
+| interiores/downlights-empotrados (cabecera) | Salón con downlights empotrados | aportada por el cliente | — | 1150×822 |
 - **interiores**: foto aportada por Apheloria (28-10-2026), sustituye a la de Pixabay
 - **exteriores**: https://pixabay.com/photos/evening-building-illuminated-stairs-4579176/
 - **decorativas**: https://pixabay.com/photos/light-bulbs-lights-spheres-lamps-407239/
@@ -29,6 +30,9 @@ volviendo a ejecutar `scripts/catalogo/construir_web.py`.
 - **emergencia**: https://pixabay.com/photos/emergency-exit-escape-fire-4168808/
 - **bombillas-y-accesorios**: https://pixabay.com/photos/light-bulb-light-led-lighting-1358917/
 - **salas-blancas**: foto aportada por Apheloria (28-10-2026), mismo pasillo con otro encuadre
+- **downlights-empotrados**: foto aportada por Apheloria (28-10-2026). Es la cabecera de la
+  sección (`hero` en `data/textos.json`), no una portada de gran familia; sustituye a la foto
+  de ambiente de los cardanes, un bar con el rótulo del local a la vista
 - **Fuentes de Alimentación 24V IP20 ON-OFF**: no hay nada decente en los bancos libres
 
 ## Fotos de ambiente que no salen de la ficha
