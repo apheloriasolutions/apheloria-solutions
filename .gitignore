@@ -22,6 +22,10 @@ docs/catalogo/catalogo-apheloria-correo.pdf
 # Material de revisión interno: no se publica
 _revision/
 
+# La carpeta lista para el FTP. Es una copia de lo que ya está en el repositorio,
+# la rehace scripts/preparar_publicacion.py cada vez que haga falta.
+_publicar/
+
 # El catálogo completo también se genera (scripts/catalogo/construir_catalogo_completo.py)
 docs/catalogo/catalogo-completo.pdf
 docs/catalogo/catalogo-completo-correo.pdf
@@ -41,6 +45,10 @@ Fichas_tecnicas_faltantes.xlsx
 Claude.md
 auditoria-web.md
 DESPLIEGUE.md
+INVENTARIO.md
+
+# Capturas y hojas de contactos de trabajo: 165 MB que no son parte del sitio
+Claude outputs/
 
 # Hojas de revisión internas: listan rutas de fuentes/ y marcas de proveedor
 docs/catalogo/
