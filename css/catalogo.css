@@ -57,10 +57,16 @@
 .cat-btn    { align-self: flex-start; }
 
 @media (max-width: 900px) {
-  .pagina-catalogo { flex-direction: column; }
-  .cat-visual { padding: 2.5rem 1.5rem; }
-  .cat-visual { flex: 0 0 auto; }
-  .cat-panel { width: 100%; padding: 2.5rem 1.5rem; }
+  /* Mismo caso que Contacto: en escritorio las dos columnas se clavan al alto de la
+     pantalla con position: absolute. Apiladas en móvil el contenido es más alto, así
+     que hay que soltarlo o la página no crece y el botón de descarga queda fuera de
+     alcance: no se puede desplazar hasta él. */
+  .pagina-catalogo {
+    position: static; transform: none; left: auto; top: auto; bottom: auto;
+    flex-direction: column; height: auto; margin: 0 auto;
+  }
+  .cat-visual { padding: 2.5rem 1.5rem; flex: 0 0 auto; overflow: visible; }
+  .cat-panel { width: 100%; padding: 2.5rem 1.5rem; overflow: visible; justify-content: flex-start; }
 }
 @media (max-width: 640px) {
   .cat-books { transform: scale(0.85); }
