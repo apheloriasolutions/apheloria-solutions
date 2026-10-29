@@ -42,6 +42,18 @@ function verFondo(i) {
   ds[i].classList.add('active');
 }
 
+// Las diapositivas 2 a 5 traen la ruta en data-foto y se cargan cuando la página ya ha
+// terminado, para que no compitan con la primera, que es la que se ve. Van sobradas de
+// tiempo: la primera no cambia hasta los 6 s.
+function cargarFondosEnDiferido() {
+  document.querySelectorAll('.hero-bg-img[data-foto]').forEach(el => {
+    el.style.backgroundImage = `var(--velo), url('${el.dataset.foto}')`;
+    delete el.dataset.foto;
+  });
+}
+if (document.readyState === 'complete') cargarFondosEnDiferido();
+else window.addEventListener('load', cargarFondosEnDiferido);
+
 const sinMovimiento = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 if (fondos.length > 0 && !sinMovimiento) {
   // 6 s: el acercamiento de css/inicio.css dura 9 s, así nunca llega al final ni se para

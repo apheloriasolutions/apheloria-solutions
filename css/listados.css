@@ -18,7 +18,7 @@
 }
 .projects-eyebrow {
   font-family: 'Raleway', sans-serif;
-  font-size: 0.62rem; letter-spacing: 0.4em; text-transform: uppercase;
+  font-size: 0.6875rem; letter-spacing: 0.317em; text-transform: uppercase;
   color: var(--accent-text); font-weight: 400;
 }
 .projects-title {
@@ -52,7 +52,7 @@
 }
 .project-detail-eyebrow {
   font-family: 'Raleway', sans-serif;
-  font-size: 0.62rem; letter-spacing: 0.38em; text-transform: uppercase;
+  font-size: 0.6875rem; letter-spacing: 0.302em; text-transform: uppercase;
   color: var(--accent-text); font-weight: 400;
 }
 .project-detail-title {
@@ -106,7 +106,7 @@
 }
 .products-eyebrow {
   font-family: 'Raleway', sans-serif;
-  font-size: 0.62rem; letter-spacing: 0.4em; text-transform: uppercase;
+  font-size: 0.6875rem; letter-spacing: 0.317em; text-transform: uppercase;
   color: var(--accent-text); font-weight: 400;
 }
 .products-title {
@@ -129,7 +129,7 @@
 }
 .filter-btn {
   font-family: 'Inter', sans-serif;
-  font-size: 0.68rem; font-weight: 400; letter-spacing: 0.1em;
+  font-size: 0.6875rem; font-weight: 400; letter-spacing: 0.087em;
   text-transform: uppercase; color: var(--accent-text); background: none;
   border: none; border-radius: 999px;
   padding: 0.55rem 1.15rem; cursor: pointer;
@@ -219,7 +219,7 @@
 }
 .project-card-meta {
   font-family: 'Raleway', sans-serif;
-  font-size: 0.62rem; letter-spacing: 0.18em; text-transform: uppercase;
+  font-size: 0.6875rem; letter-spacing: 0.143em; text-transform: uppercase;
   color: rgba(var(--bg-rgb),0.75); margin-top: 0.35rem; font-weight: 300;
 }
 .product-card-name {
@@ -229,7 +229,7 @@
 }
 .product-card-meta {
   font-family: 'Raleway', sans-serif;
-  font-size: 0.62rem; letter-spacing: 0.18em; text-transform: uppercase;
+  font-size: 0.6875rem; letter-spacing: 0.143em; text-transform: uppercase;
   color: rgba(var(--bg-rgb),0.75); margin-top: 0.35rem; font-weight: 300;
 }
 /* Cards dentro de las vistas de detalle: fondo claro → texto oscuro */
@@ -291,7 +291,7 @@
 }
 .product-detail-hero-eyebrow {
   display: block; font-family: 'Raleway', sans-serif;
-  font-size: 0.62rem; letter-spacing: 0.38em;
+  font-size: 0.6875rem; letter-spacing: 0.302em;
   text-transform: uppercase; color: var(--accent-text); font-weight: 400; margin-bottom: 0.55rem;
 }
 .product-detail-hero-title {
@@ -316,7 +316,7 @@
 .product-detail-section-label {
   display: flex; align-items: center; gap: 1.5rem;
   font-family: 'Raleway', sans-serif;
-  font-size: 0.66rem; letter-spacing: 0.4em; text-transform: uppercase;
+  font-size: 0.6875rem; letter-spacing: 0.338em; text-transform: uppercase;
   color: var(--accent-text); font-weight: 400;
   padding: 0 2.5rem; margin: 0 auto 1.5rem;
   max-width: 1800px;
@@ -359,7 +359,7 @@
 .product-variant-group:hover .product-variant-photo { transform: scale(1.045); }
 .product-variant-kicker {
   display: block; font-family: 'Raleway', sans-serif;
-  font-size: 0.66rem; letter-spacing: 0.32em; text-transform: uppercase;
+  font-size: 0.6875rem; letter-spacing: 0.27em; text-transform: uppercase;
   color: var(--accent-text); font-weight: 400; margin-bottom: 1.1rem;
 }
 .product-variant-list { display: flex; flex-direction: column; }
@@ -379,7 +379,7 @@
 }
 .product-variant-item:hover .product-variant-item-name { color: var(--accent-text); }
 .product-variant-item-meta {
-  font-family: 'Raleway', sans-serif; font-size: 0.66rem;
+  font-family: 'Raleway', sans-serif; font-size: 0.6875rem;
   letter-spacing: 0.1em; text-transform: uppercase;
   color: var(--accent-text); flex: 1; text-align: right;
 }

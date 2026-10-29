@@ -21,7 +21,7 @@
   position: relative; overflow: hidden;
 }
 .con-deco { position: absolute; bottom: -2rem; right: -2rem; font-size: 13rem; font-weight: 200; color: rgba(var(--ink-rgb),0.04); line-height: 1; pointer-events: none; user-select: none; }
-.con-eye  { font-size: 0.62rem; letter-spacing: 0.45em; text-transform: uppercase; color: var(--accent-text); font-weight: 300; margin-bottom: 0.5rem; display: block; }
+.con-eye  { font-size: 0.6875rem; letter-spacing: 0.357em; text-transform: uppercase; color: var(--accent-text); font-weight: 300; margin-bottom: 0.5rem; display: block; }
 .con-h2   { font-family: 'Inter',sans-serif; font-size: clamp(1.2rem, 1.8vw, 1.8rem); font-weight: 300; color: var(--ink); line-height: 1.25; margin-bottom: 1.6rem; }
 .con-h2 em { font-family: 'Cormorant Garamond', serif; font-style: italic; color: var(--accent-text); }
 .con-form { display: flex; flex-direction: column; gap: 0.65rem; }
@@ -64,7 +64,7 @@
 .con-ip   { font-size: 0.76rem; line-height: 1.85; color: rgba(var(--ink-rgb),0.6); font-weight: 300; max-width: 340px; }
 .con-list { padding-left: 1.2rem; border-left: 1px solid var(--accent-soft); display: flex; flex-direction: column; gap: 0.55rem; }
 .con-item { display: flex; flex-direction: column; gap: 0.15rem; }
-.con-ilbl { font-size: 0.6rem; letter-spacing: 0.32em; text-transform: uppercase; color: var(--accent-text); font-weight: 400; }
+.con-ilbl { font-size: 0.6875rem; letter-spacing: 0.246em; text-transform: uppercase; color: var(--accent-text); font-weight: 400; }
 .con-ival { font-size: 0.8rem; color: var(--ink); font-weight: 300; letter-spacing: 0.03em; text-decoration: none; transition: color 0.2s; }
 a.con-ival:hover { color: var(--accent); }
 

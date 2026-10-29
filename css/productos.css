@@ -51,7 +51,7 @@
                                object-fit: contain; }
 .cat-hero-eyebrow {
   display: block; font-family: 'Raleway', sans-serif;
-  font-size: 0.62rem; letter-spacing: 0.38em; text-transform: uppercase;
+  font-size: 0.6875rem; letter-spacing: 0.302em; text-transform: uppercase;
   color: var(--accent-text); font-weight: 400; margin-bottom: 0.7rem;
 }
 .cat-hero-titulo {
@@ -72,7 +72,7 @@
 .cat-apartado {
   display: flex; align-items: center; gap: 1.5rem;
   font-family: 'Raleway', sans-serif;
-  font-size: 0.66rem; letter-spacing: 0.4em; text-transform: uppercase;
+  font-size: 0.6875rem; letter-spacing: 0.338em; text-transform: uppercase;
   color: var(--accent-text); font-weight: 400;
   padding: 0 3rem; margin-bottom: 0.9rem;
 }
@@ -120,7 +120,7 @@
 }
 .cat-card:hover .cat-card-nombre { color: var(--accent-text); }
 .cat-card-meta {
-  font-family: 'Raleway', sans-serif; font-size: 0.64rem; font-weight: 300;
+  font-family: 'Raleway', sans-serif; font-size: 0.6875rem; font-weight: 300;
   letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent-text);
 }
 
@@ -134,14 +134,14 @@
 }
 .ficha-refs {
   display: block; font-family: 'Raleway', sans-serif;
-  font-size: 0.66rem; letter-spacing: 0.18em; text-transform: uppercase;
+  font-size: 0.6875rem; letter-spacing: 0.152em; text-transform: uppercase;
   color: var(--accent-text); font-weight: 300; margin-top: 0.7rem;
 }
 /* Con muchas referencias el listado ocupaba tres líneas: se repliega */
 .ficha-refs-desplegable { margin-top: 0.7rem; }
 .ficha-refs-desplegable summary {
   display: inline-block; cursor: pointer; list-style: none;
-  font-family: 'Raleway', sans-serif; font-size: 0.66rem; font-weight: 400;
+  font-family: 'Raleway', sans-serif; font-size: 0.6875rem; font-weight: 400;
   letter-spacing: 0.18em; text-transform: uppercase; color: var(--accent-text);
   border-bottom: 1px solid var(--accent-soft); padding-bottom: 0.15rem;
   transition: color 0.25s;
@@ -178,7 +178,7 @@
 .ficha-mini:hover { transform: translateY(-3px); border-color: var(--accent); }
 .ficha-mini.activa { border-color: var(--ink); }
 .ficha-mini-pie {
-  display: block; font-family: 'Raleway', sans-serif; font-size: 0.6rem;
+  display: block; font-family: 'Raleway', sans-serif; font-size: 0.6875rem;
   letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent-text);
   margin-top: 0.75rem;
 }
@@ -205,7 +205,7 @@
 .ficha-pie { padding: 2.6rem 3rem 0; }
 .ficha-rotulo {
   display: block; font-family: 'Raleway', sans-serif;
-  font-size: 0.66rem; letter-spacing: 0.4em; text-transform: uppercase;
+  font-size: 0.6875rem; letter-spacing: 0.338em; text-transform: uppercase;
   color: var(--accent-text); font-weight: 400; margin-bottom: 0.9rem;
 }
 .ficha-desc {
@@ -247,7 +247,7 @@
 .ficha-refs-desplegable { margin-top: 0.7rem; }
 .ficha-refs-desplegable summary {
   display: inline-block; cursor: pointer; list-style: none;
-  font-family: 'Raleway', sans-serif; font-size: 0.66rem; font-weight: 400;
+  font-family: 'Raleway', sans-serif; font-size: 0.6875rem; font-weight: 400;
   letter-spacing: 0.18em; text-transform: uppercase; color: var(--accent-text);
   border-bottom: 1px solid var(--accent-soft); padding-bottom: 0.15rem;
   transition: color 0.25s;

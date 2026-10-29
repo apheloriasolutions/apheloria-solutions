@@ -37,23 +37,23 @@
 .cat-pronto {
   position: absolute; top: 50%; left: 0; right: 0;
   transform: translateY(-50%); text-align: center;
-  font-family: 'Raleway', sans-serif; font-size: 0.58rem; font-weight: 400;
+  font-family: 'Raleway', sans-serif; font-size: 0.6875rem; font-weight: 400;
   letter-spacing: 0.24em; text-transform: uppercase;
   color: #555;
 }
 .cat-brand  { font-size: 0.9rem; font-weight: 400; letter-spacing: 0.22em; text-transform: uppercase; color: var(--ink); }
-.cat-sub    { font-size: 0.6rem; letter-spacing: 0.28em; text-transform: uppercase; color: var(--accent-text); font-weight: 300; margin-top: 0.15rem; display: block; }
-.cat-year   { font-size: 0.6rem; letter-spacing: 0.2em; color: rgba(var(--ink-rgb),0.4); text-transform: uppercase; }
+.cat-sub    { font-size: 0.6875rem; letter-spacing: 0.215em; text-transform: uppercase; color: var(--accent-text); font-weight: 300; margin-top: 0.15rem; display: block; }
+.cat-year   { font-size: 0.6875rem; letter-spacing: 0.154em; color: rgba(var(--ink-rgb),0.4); text-transform: uppercase; }
 .cat-tags   { display: flex; gap: 0.5rem; flex-wrap: wrap; justify-content: center; max-width: 460px; }
-.cat-tag    { font-size: 0.6rem; letter-spacing: 0.2em; text-transform: uppercase; font-weight: 400; color: rgba(var(--ink-rgb),0.55); border: 1px solid rgba(var(--ink-rgb),0.15); padding: 0.35rem 0.8rem; }
-.cat-eye    { font-size: 0.62rem; letter-spacing: 0.45em; text-transform: uppercase; color: var(--accent); font-weight: 300; }
+.cat-tag    { font-size: 0.6875rem; letter-spacing: 0.154em; text-transform: uppercase; font-weight: 400; color: rgba(var(--ink-rgb),0.55); border: 1px solid rgba(var(--ink-rgb),0.15); padding: 0.35rem 0.8rem; }
+.cat-eye    { font-size: 0.6875rem; letter-spacing: 0.357em; text-transform: uppercase; color: var(--accent); font-weight: 300; }
 .cat-h2     { font-family: 'Inter',sans-serif; font-size: clamp(1.6rem, 2.9vw, 3.1rem); font-weight: 300; color: #fff; line-height: 1.15; }
 .cat-h2 em  { font-family: 'Cormorant Garamond', serif; font-style: italic; color: var(--accent); }
 .cat-p      { font-size: 0.8rem; line-height: 1.85; color: rgba(var(--white-rgb),0.55); font-weight: 300; max-width: 46ch; }
 .cat-stats  { display: flex; flex-wrap: wrap; gap: 2rem 2.6rem; padding: 1.4rem 0; border-top: 1px solid rgba(var(--white-rgb),0.07); border-bottom: 1px solid rgba(var(--white-rgb),0.07); }
 .cat-num    { display: block; font-size: 1.5rem; font-weight: 200; color: #fff; }
-.cat-lbl    { display: block; font-size: 0.6rem; letter-spacing: 0.25em; text-transform: uppercase; color: var(--accent); font-weight: 300; margin-top: 0.15rem; }
-.cat-note   { font-size: 0.64rem; letter-spacing: 0.1em; color: rgba(var(--white-rgb),0.28); font-weight: 300; }
+.cat-lbl    { display: block; font-size: 0.6875rem; letter-spacing: 0.192em; text-transform: uppercase; color: var(--accent); font-weight: 300; margin-top: 0.15rem; }
+.cat-note   { font-size: 0.6875rem; letter-spacing: 0.082em; color: rgba(var(--white-rgb),0.28); font-weight: 300; }
 .cat-btn    { align-self: flex-start; }
 
 @media (max-width: 900px) {

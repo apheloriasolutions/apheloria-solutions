@@ -27,11 +27,15 @@
    El velo oscuro tiene que ser fuerte para que el título blanco se lea sobre todas.
    --foco es el punto al que se acerca la cámara, en coordenadas del hueco del hero (no de
    la foto): hay que mirar el encuadre ya recortado para ponerlo encima de las luminarias. */
+/* Solo la primera trae la foto desde el CSS: es la que se ve al abrir y no puede esperar.
+   Las otras cuatro llevan la ruta en data-foto dentro de index.html y se las pone
+   js/inicio.js cuando la página ha terminado de cargar. Si fueran por CSS se bajarían las
+   cinco de golpe —estar en opacity:0 no evita la descarga— y retrasarían a la primera. */
 .hero-bg-img.bg-1 { --foco: 36% 66%; background-image: var(--velo), url('../images/inicio/hero-1-escalera-espiral.webp'); }
-.hero-bg-img.bg-2 { --foco: 48% 45%; background-image: var(--velo), url('../images/inicio/hero-2-noria-led.webp'); }
-.hero-bg-img.bg-3 { --foco: 47% 45%; background-image: var(--velo), url('../images/inicio/hero-3-bombillas.webp'); }
-.hero-bg-img.bg-4 { --foco: 45% 50%; background-image: var(--velo), url('../images/inicio/hero-4-lampara-mano.webp'); }
-.hero-bg-img.bg-5 { --foco: 45% 24%; background-image: var(--velo), url('../images/inicio/hero-5-ciudad-justicia.webp'); }
+.hero-bg-img.bg-2 { --foco: 48% 45%; }
+.hero-bg-img.bg-3 { --foco: 47% 45%; }
+.hero-bg-img.bg-4 { --foco: 45% 50%; }
+.hero-bg-img.bg-5 { --foco: 45% 24%; }
 /* Un solo acercamiento continuo, sin frenada: dura más que la diapositiva a propósito, así
    sigue avanzando mientras entra la siguiente y no se ve parar la imagen. */
 .hero-bg-img.active,
@@ -40,7 +44,7 @@
 @keyframes zoomFoco { from { transform: scale(1); } to { transform: scale(1.22); } }
 
 .hero-eyebrow {
-  font-size: 0.58rem; letter-spacing: 0.4em; text-transform: uppercase;
+  font-size: 0.6875rem; letter-spacing: 0.297em; text-transform: uppercase;
   color: rgba(var(--white-rgb),0.65); margin-bottom: 1.8rem;
   opacity: 0; transform: translateX(-20px);
   transition: opacity 0.7s ease 0.1s, transform 0.7s ease 0.1s;
@@ -107,7 +111,7 @@
 }
 .connector-text {           /* misma tipografía que el "Más de 20 años…" del hero */
   font-family: 'Inter', sans-serif;
-  font-size: 0.58rem; letter-spacing: 0.4em; text-transform: uppercase;
+  font-size: 0.6875rem; letter-spacing: 0.297em; text-transform: uppercase;
   font-weight: 300; color: rgba(var(--white-rgb),0.65);
   line-height: 2.6;
 }
@@ -189,7 +193,7 @@ body.lista .hero-title-line:nth-child(2) { transition-delay: 0.28s; }
   width: 100%; max-width: 640px; gap: 1.15rem;
 }
 .nosotros-eyebrow {
-  font-size: 0.55rem; letter-spacing: 0.45em; text-transform: uppercase;
+  font-size: 0.6875rem; letter-spacing: 0.317em; text-transform: uppercase;
   color: rgba(var(--white-rgb),0.5); font-weight: 300;
 }
 .nosotros-title {
@@ -205,7 +209,7 @@ body.lista .hero-title-line:nth-child(2) { transition-delay: 0.28s; }
 }
 .nosotros-botones { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.7rem; }
 .nosotros-values {
-  font-size: 0.52rem; letter-spacing: 0.32em; text-transform: uppercase;
+  font-size: 0.6875rem; letter-spacing: 0.213em; text-transform: uppercase;
   color: rgba(var(--accent-rgb),0.65); font-weight: 300;
 }
 
@@ -229,7 +233,9 @@ body.lista .hero-title-line:nth-child(2) { transition-delay: 0.28s; }
   /* los saltos de línea de la frase están pensados para pantalla ancha:
      en móvil dejan líneas sueltas, mejor que fluya */
   .connector-text br { display: none; }
-  .hero-title { font-size: clamp(2.6rem, 13vw, 4rem); }
+  /* 13vw + 0.18em de espaciado se salía de la pantalla y cortaba la última A de
+     APHELORIA. Con 11vw y menos espaciado cabe entero hasta en un móvil pequeño. */
+  .hero-title { font-size: clamp(1.9rem, 10vw, 4rem); letter-spacing: 0.06em; }
   .intro-nosotros .intro-inner { padding: 4rem 1.5rem 0; }
   .nosotros-content { width: 100%; }
 }
