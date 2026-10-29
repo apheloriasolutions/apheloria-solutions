@@ -22,17 +22,16 @@
   filter: saturate(0.85);
   --velo: linear-gradient(180deg, rgba(var(--ink-rgb),0.44), rgba(var(--ink-rgb),0.62));
 }
-/* Tres son proyectos nuestros; la del hormigón sale de la ficha del TAC y la de la escalera
-   es de banco (ver assets/creditos-imagenes.md). Las copias viven en images/inicio/ porque
-   las carpetas de producto se regeneran.
+/* Cinco fotos aportadas por el cliente, en images/inicio/ y en WebP (las cinco juntas pesan
+   289 KB; en JPEG eran 980). Las anteriores están en _revision/hero-anteriores/.
    El velo oscuro tiene que ser fuerte para que el título blanco se lea sobre todas.
    --foco es el punto al que se acerca la cámara, en coordenadas del hueco del hero (no de
    la foto): hay que mirar el encuadre ya recortado para ponerlo encima de las luminarias. */
-.hero-bg-img.bg-1 { --foco: 45% 24%; background-image: var(--velo), url('../images/inicio/hero-1-ciudad-justicia.jpg'); }
-.hero-bg-img.bg-2 { --foco: 38% 48%; background-image: var(--velo), url('../images/inicio/hero-2-santalucia.jpg'); }
-.hero-bg-img.bg-3 { --foco: 64% 22%; background-image: var(--velo), url('../images/inicio/hero-3-tac-hormigon.jpg'); }
-.hero-bg-img.bg-4 { --foco: 50% 46%; background-image: var(--velo), url('../images/inicio/hero-4-escalera-luz.jpg'); }
-.hero-bg-img.bg-5 { --foco: 55% 26%; background-image: var(--velo), url('../images/inicio/hero-5-sala-paneles.jpg'); }
+.hero-bg-img.bg-1 { --foco: 36% 66%; background-image: var(--velo), url('../images/inicio/hero-1-escalera-espiral.webp'); }
+.hero-bg-img.bg-2 { --foco: 48% 45%; background-image: var(--velo), url('../images/inicio/hero-2-noria-led.webp'); }
+.hero-bg-img.bg-3 { --foco: 47% 45%; background-image: var(--velo), url('../images/inicio/hero-3-bombillas.webp'); }
+.hero-bg-img.bg-4 { --foco: 45% 50%; background-image: var(--velo), url('../images/inicio/hero-4-lampara-mano.webp'); }
+.hero-bg-img.bg-5 { --foco: 45% 24%; background-image: var(--velo), url('../images/inicio/hero-5-ciudad-justicia.webp'); }
 /* Un solo acercamiento continuo, sin frenada: dura más que la diapositiva a propósito, así
    sigue avanzando mientras entra la siguiente y no se ve parar la imagen. */
 .hero-bg-img.active,

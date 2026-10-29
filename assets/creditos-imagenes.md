@@ -54,23 +54,25 @@ md5 de la imagen del Excel que sustituyen; alcanzan a todas las fichas que la co
 
 ## Fotos de la portada (Inicio)
 
-El carrusel del hero son cuatro fotos, en `images/inicio/`, que se cambian en
-`css/inicio.css` (`.hero-bg-img.bg-1` … `bg-4`):
+El carrusel del hero son cinco fotos, en `images/inicio/`, que se cambian en
+`css/inicio.css` (`.hero-bg-img.bg-1` … `bg-5`). **Las cinco las aportó el cliente**, así
+que no hay nada de bancos de imágenes en la portada.
 
 | | Qué es | Origen | Licencia | Publicada |
 |---|---|---|---|---|
-| 1 | Ciudad de la Justicia, el anillo suspendido | proyecto de Apheloria | — | 1700×1130 |
-| 2 | Santalucía, la fachada | proyecto de Apheloria | — | 1599×1200 |
-| 3 | Hormigón con los haces del downlight TAC | ficha técnica del TAC | — | 1326×831 |
-| 4 | Escalera simétrica con la luz al fondo | Pixabay | Pixabay Content License | 1280×720 |
-| 5 | Sala de vistas con la retícula de paneles | proyecto de Apheloria | — | 1400×931 |
+| 1 | Escalera de caracol vista desde abajo | aportada por el cliente | — | 1200×1600 |
+| 2 | Noria con la tira de LED en la estructura | aportada por el cliente | — | 1600×1066 |
+| 3 | Bombillas de filamento colgadas | aportada por el cliente | — | 1062×1600 |
+| 4 | Lámpara de jaula ajustándose a mano | aportada por el cliente | — | 1537×1023 |
+| 5 | Ciudad de la Justicia, el anillo suspendido | proyecto de Apheloria | — | 1700×1130 |
 
-Cada una lleva en `css/inicio.css` un `--foco`: el punto, en coordenadas del hueco del hero,
-al que se acerca la cámara durante los 9 s que dura el acercamiento. Hay que ponerlo encima
-de las luminarias mirando el encuadre ya recortado, no la foto original.
+Van en **WebP**: las cinco juntas pesan 289 KB, donde en JPEG eran 980.
 
-- **hero 4**: https://pixabay.com/photos/stairs-handrails-illuminated-1868423/
-- Las fotos que había antes quedan en `_revision/hero-anteriores/`.
+Cada una lleva un `--foco`: el punto, en coordenadas del hueco del hero, al que se acerca la
+cámara durante los 9 s que dura el acercamiento. Hay que ponerlo encima de las luminarias
+mirando el encuadre ya recortado, no la foto original.
+
+Las fotos que había antes quedan en `_revision/hero-anteriores/`.
 
 La cabecera de Nosotros usa fotos de las propias fichas técnicas, y la foto del conector
 (la Apheloria que brilla) la aportó el cliente.
