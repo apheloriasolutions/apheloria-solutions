@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Si la web no acaba en www.apheloria.es, hay que cambiar el dominio en las 8 URL. -->
+<!-- Dominio canónico: apheloria.es, sin www (lo fuerza el .htaccess). -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://www.apheloria.es/</loc><priority>1.0</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.apheloria.es/productos.html</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.apheloria.es/proyectos.html</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.apheloria.es/catalogo.html</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.apheloria.es/contacto.html</loc><priority>0.7</priority><changefreq>yearly</changefreq></url>
-  <url><loc>https://www.apheloria.es/aviso-legal.html</loc><priority>0.2</priority><changefreq>yearly</changefreq></url>
-  <url><loc>https://www.apheloria.es/politica-privacidad.html</loc><priority>0.2</priority><changefreq>yearly</changefreq></url>
-  <url><loc>https://www.apheloria.es/politica-cookies.html</loc><priority>0.2</priority><changefreq>yearly</changefreq></url>
+  <url><loc>https://apheloria.es/</loc><priority>1.0</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://apheloria.es/productos.html</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://apheloria.es/proyectos.html</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://apheloria.es/catalogo.html</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://apheloria.es/contacto.html</loc><priority>0.7</priority><changefreq>yearly</changefreq></url>
+  <url><loc>https://apheloria.es/aviso-legal.html</loc><priority>0.2</priority><changefreq>yearly</changefreq></url>
+  <url><loc>https://apheloria.es/politica-privacidad.html</loc><priority>0.2</priority><changefreq>yearly</changefreq></url>
+  <url><loc>https://apheloria.es/politica-cookies.html</loc><priority>0.2</priority><changefreq>yearly</changefreq></url>
 </urlset>

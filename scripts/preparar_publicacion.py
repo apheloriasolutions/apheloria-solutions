@@ -25,7 +25,8 @@ SALIDA = os.path.join(RAIZ, '_publicar')
 PAGINAS = ['index.html', 'proyectos.html', 'productos.html', 'catalogo.html', 'contacto.html',
            'aviso-legal.html', 'politica-privacidad.html', 'politica-cookies.html', '404.html']
 CONFIGURACION = ['.htaccess', 'robots.txt', 'sitemap.xml']
-ICONOS = ['favicon.png', 'apple-touch-icon.png', 'logo.png', 'logo-icon.png']
+ICONOS = ['favicon.png', 'apple-touch-icon.png', 'logo.png', 'logo-icon.png',
+          'og-apheloria.jpg']   # la vista previa al compartir en redes
 CARPETAS = ['css', 'js', 'images', 'fonts']
 
 # ── qué no se sube aunque esté dentro de una carpeta que sí ───────────────────
@@ -40,6 +41,8 @@ def rutas_que_pide_la_web():
     for p in PAGINAS:
         s = open(os.path.join(RAIZ, p), encoding='utf-8').read()
         for _, v in re.findall(r'(href|src|data-foto)="([^"]+)"', s):
+            pedidas.add(html.unescape(v))
+        for v in re.findall(r'<meta property="og:image" content="([^"]+)"', s):
             pedidas.add(html.unescape(v))
         pedidas |= {html.unescape(u) for u in re.findall(r"url\('([^']+)'\)", s)}
     for carpeta, patron in (('css', r"url\(['\"]?([^'\")]+)['\"]?\)"),):
@@ -72,6 +75,10 @@ def rutas_que_pide_la_web():
     limpias = set()
     for r in pedidas:
         r = urllib.parse.unquote(r.split('#')[0].split('?')[0])
+        # las etiquetas og: llevan la URL entera: se comprueban igual que las demás
+        for dominio in ('https://apheloria.es/', 'https://www.apheloria.es/'):
+            if r.startswith(dominio):
+                r = r[len(dominio):] or 'index.html'
         if r and not r.startswith(('http', 'mailto:', 'tel:', 'javascript:', 'data:')):
             limpias.add(r)
     return limpias

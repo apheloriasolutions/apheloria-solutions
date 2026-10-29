@@ -16,17 +16,12 @@
   RewriteCond %{HTTP:X-Forwarded-Proto} !https
   RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
 
-  # Una sola dirección buena. Descomenta UNO de los dos bloques según prefieras
-  # que la web viva en www.apheloria.es o en apheloria.es. Tener las dos activas
-  # sin redirección penaliza en Google por contenido duplicado.
-
-  # --- con www (recomendado si el certificado cubre el dominio y el www) ---
-  # RewriteCond %{HTTP_HOST} ^apheloria\.es$ [NC]
-  # RewriteRule ^(.*)$ https://www.apheloria.es/$1 [R=301,L]
-
-  # --- sin www ---
-  # RewriteCond %{HTTP_HOST} ^www\.apheloria\.es$ [NC]
-  # RewriteRule ^(.*)$ https://apheloria.es/$1 [R=301,L]
+  # Una sola dirección buena: apheloria.es, sin www. Quien entre por www acaba aquí.
+  # Tener las dos vivas sin redirección penaliza en Google por contenido duplicado,
+  # y es la dirección que llevan el canonical de las 8 páginas, el sitemap y las
+  # etiquetas para compartir en redes.
+  RewriteCond %{HTTP_HOST} ^www\.apheloria\.es$ [NC]
+  RewriteRule ^(.*)$ https://apheloria.es/$1 [R=301,L]
 </IfModule>
 
 # ── 2. Página de error propia ────────────────────────────────────────────────
