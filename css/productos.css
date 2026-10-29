@@ -237,7 +237,11 @@
   .cat-grid { grid-template-columns: repeat(3, 1fr); }
 }
 @media (max-width: 900px) {
-  .cat-ruta { padding: 0.9rem 1.5rem; }
+  /* La ruta se queda pegada bajo el menú en escritorio, donde ocupa una línea. En
+     móvil se parte en tres y se come 70 px de pantalla para siempre; además el
+     contenido pasa por detrás y parece que la foto se corta. Aquí se desplaza con
+     el resto: para volver atrás se sube, como en cualquier sitio. */
+  .cat-ruta { padding: 0.9rem 1.5rem; position: static; }
   .cat-hero { grid-template-columns: 1fr; gap: 1.6rem; padding: 1.8rem 1.5rem; }
   .cat-apartado { padding: 0 1.5rem; }
   .cat-grid { grid-template-columns: repeat(2, 1fr); gap: 1.5rem 1rem; padding: 0 1.5rem 2rem; }

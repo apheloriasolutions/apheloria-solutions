@@ -394,6 +394,10 @@
 /* ═══ RESPONSIVE ═══ */
 
 @media (max-width: 900px) {
+  /* Igual que en Productos: pegada abajo en móvil se come pantalla y el
+     contenido le pasa por detrás. */
+  .product-detail-back { position: static; padding: 0.9rem 1.5rem; }
+
   .pagina-proyectos, .pagina-productos { padding: 1.5rem; }
   .product-detail-subgrid, .product-detail-subgrid--4col { grid-template-columns: repeat(2, 1fr); padding: 0 1.5rem 2.5rem; }
   .product-detail-hero, .product-detail-desc, .product-detail-section-label { padding-left: 1.5rem; padding-right: 1.5rem; }
