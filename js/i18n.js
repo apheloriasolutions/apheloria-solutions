@@ -14,6 +14,144 @@
   translations.ar['Esa dirección ya no existe.'] = 'هذا الرابط غير موجود.';
   translations.ar['Volver a Productos'] = 'العودة إلى المنتجات';
 
+  // ── Estudios Lumínicos (estudios.html) ──
+  Object.assign(translations.en, {
+    'Estudios Lumínicos':'Lighting Studies','Estudios Lumínicos — Apheloria Solutions':'Lighting Studies — Apheloria Solutions',
+    'Estudios lumínicos a medida con DIALux evo: cálculos de iluminancia y uniformidad, cumplimiento de la UNE-EN 12464-1, eficiencia energética, renders 3D y planos de implantación.':'Bespoke lighting studies with DIALux evo: illuminance and uniformity calculations, EN 12464-1 compliance, energy efficiency, 3D renders and layout plans.',
+    'Modelo 3D de un edificio calculado en DIALux evo':'3D model of a building calculated in DIALux evo',
+    'Ingeniería de iluminación':'Lighting engineering',
+    'Antes de instalar una sola luminaria, calculamos cómo se comportará la luz en tu espacio. Proyectos de iluminación a medida, con resultados verificables y el acompañamiento de un equipo con más de 20 años en el sector.':'Before a single luminaire is installed, we calculate how light will behave in your space. Tailor-made lighting projects with verifiable results, backed by a team with more than 20 years in the industry.',
+    'Solicitar un estudio':'Request a study','Ver un caso real':'See a real case',
+    'Software de cálculo':'Calculation software','UNE-EN 12464-1':'EN 12464-1','Normativa aplicada':'Applied standard','Años de experiencia':'Years of experience',
+    'La diferencia':'The difference','Un catálogo te ofrece luminarias.':'A catalogue offers you luminaires.','Un estudio te garantiza el resultado.':'A study guarantees the result.',
+    'Cualquiera puede venderte una lámpara. Lo que nos diferencia es todo lo que ocurre antes: analizar el uso de cada espacio, calcular niveles y uniformidades, comprobar la normativa y ajustar la solución a tu presupuesto. Así sabes lo que vas a obtener antes de comprar, sin sorpresas en obra.':'Anyone can sell you a lamp. What sets us apart is everything that happens beforehand: analysing how each space is used, calculating light levels and uniformity, checking the standards and adapting the solution to your budget. That way you know what you will get before you buy, with no surprises on site.',
+    'Venta de producto':'Product sale','La luminaria se elige por catálogo':'The luminaire is picked from a catalogue','La cantidad se estima a ojo':'Quantities are estimated by eye','El resultado se descubre al encender':'The result is only seen when switched on','Si falta luz, se corrige en obra':'If light is lacking, it is fixed on site',
+    'Estudio Apheloria':'Apheloria study','La luminaria se elige según el uso del espacio':'The luminaire is chosen for how the space is used','Cada punto de luz está calculado':'Every light point is calculated','El resultado se verifica antes de comprar':'The result is verified before you buy','El cumplimiento normativo queda documentado':'Compliance with standards is documented',
+    'Qué incluye':'What it includes','Todo lo que necesita tu proyecto,':'Everything your project needs,','en un solo informe':'in a single report',
+    'Cálculo de iluminancias':'Illuminance calculations','Niveles de luz en cada plano de trabajo, con mapas de isolíneas y valores punto a punto.':'Light levels on every working plane, with isoline maps and point-by-point values.',
+    'Uniformidad y confort visual':'Uniformity and visual comfort','Control de la uniformidad (Uo) y del deslumbramiento (UGR) para que la luz sea cómoda, no solo suficiente.':'Control of uniformity (Uo) and glare (UGR) so the light is comfortable, not just sufficient.',
+    'Cumplimiento normativo':'Compliance with standards','Verificación según la UNE-EN 12464-1, el CTE DB HE-3 y la UNE-EN 1838 de alumbrado de emergencia, documentada en el informe.':'Verification against EN 12464-1, the Spanish Building Code (CTE DB HE-3) and EN 1838 for emergency lighting, documented in the report.',
+    'Eficiencia energética':'Energy efficiency','Potencia instalada, VEEI, consumo anual y LENI, para justificar el ahorro y dimensionar bien la instalación.':'Installed power, energy efficiency value (VEEI), annual consumption and LENI, to justify the savings and size the installation correctly.',
+    'Renders y modelo 3D':'Renders and 3D model','Visualiza el espacio iluminado antes de construirlo y decide con imágenes, no con suposiciones.':'See the lit space before it is built and decide with images, not assumptions.',
+    'Planos de implantación':'Layout plans','La posición de cada luminaria en AutoCAD, con su referencia y el listado de cantidades listo para obra.':'The position of every luminaire in AutoCAD, with its reference and a bill of quantities ready for site.',
+    'Cómo trabajamos':'How we work','Te acompañamos':'We support you','de principio a fin':'from start to finish',
+    'Escuchamos':'We listen','Nos cuentas el proyecto: planos, uso de cada espacio, estética buscada, plazos y presupuesto.':'You tell us about the project: plans, how each space is used, the look you want, timings and budget.',
+    'Modelamos':'We model','Reproducimos el espacio en DIALux evo con su geometría real, sus materiales y sus reflectancias.':'We recreate the space in DIALux evo with its real geometry, materials and reflectances.',
+    'Calculamos y ajustamos':'We calculate and fine-tune','Probamos distintas soluciones hasta dar con el equilibrio entre luz, consumo y coste.':'We test different solutions until we find the right balance of light, consumption and cost.',
+    'Entregamos':'We deliver','Recibes el informe técnico, los renders y los planos, y lo revisamos juntos.':'You receive the technical report, renders and plans, and we go through them together.',
+    'Acompañamos en obra':'We support you on site','Suministramos el material, resolvemos las dudas de la instalación y verificamos el resultado.':'We supply the materials, answer installation questions and verify the result.',
+    'Caso real':'Real case','Centro deportivo municipal':'Municipal sports centre',
+    'Estudio lumínico completo de un polideportivo: salas de actividades, piscinas, vestuarios y zonas de paso. Debajo, el resultado de una de sus salas.':'A complete lighting study for a sports centre: activity rooms, swimming pools, changing rooms and circulation areas. Below are the results for one of its rooms.',
+    'Documentación del estudio':'Study documentation','Modelo 3D':'3D model','Plano AutoCAD':'AutoCAD plan','Mapa de iluminancias':'Illuminance map','Render de sala':'Room render','Render de pasillo':'Corridor render',
+    'Modelo 3D del edificio completo en DIALux evo':'3D model of the whole building in DIALux evo',
+    'Modelo 3D del edificio completo en DIALux evo, con todas las estancias calculadas.':'3D model of the whole building in DIALux evo, with every room calculated.',
+    'Plano de implantación en AutoCAD con el cuadro de luminarias':'AutoCAD layout plan with the luminaire schedule',
+    'Plano de implantación en AutoCAD: posición, referencia y cantidad de cada luminaria.':'AutoCAD layout plan: position, reference and quantity of every luminaire.',
+    'Mapa de isolíneas de iluminancia de la sala de actividades':'Illuminance isoline map of the activity room',
+    'Mapa de isolíneas de la sala de actividades: valores en lux sobre el plano útil.':'Isoline map of the activity room: lux values on the working plane.',
+    'Render de la sala de actividades con perfiles lineales':'Render of the activity room with linear profiles',
+    'Render de la sala de actividades con perfiles lineales SMCS Mini.':'Render of the activity room with SMCS Mini linear profiles.',
+    'Render de una zona de paso con luminarias circulares suspendidas':'Render of a circulation area with suspended circular luminaires',
+    'Render de una zona de paso con luminarias circulares suspendidas.':'Render of a circulation area with suspended circular luminaires.',
+    'Sala de actividades · resultados':'Activity room · results','Parámetro':'Parameter','Calculado':'Calculated','Exigido':'Required',
+    'Iluminancia media':'Average illuminance','Uniformidad (Uo)':'Uniformity (Uo)','Consumo anual':'Annual consumption',
+    '0,63':'0.63','≥ 0,60':'≥ 0.60','máx. 4050 kWh/a':'max. 4050 kWh/a','13,8 kWh/m²·a':'13.8 kWh/m²·a','máx. 35 kWh/m²·a':'max. 35 kWh/m²·a',
+    'Perfil de uso: aula, actividades generales. Valores exigidos según la UNE-EN 12464-1.':'Usage profile: classroom, general activities. Required values according to EN 12464-1.',
+    'Superficie':'Area','115,26 m²':'115.26 m²','Altura de montaje':'Mounting height','3,65 m':'3.65 m','Luminarias':'Luminaires','Eficacia':'Efficacy','139,9 lm/W':'139.9 lm/W',
+    'Descargar el resumen (PDF)':'Download the summary (PDF)','Ver la luminaria utilizada →':'See the luminaire used →',
+    'Del cálculo a la realidad':'From calculation to reality','La luz, diseñada':'Light, designed','para cada espacio':'for every space',
+    'Comercio, hostelería, oficinas, vivienda o exterior: cada espacio pide una luz distinta. Estos son algunos de los proyectos en los que hemos trabajado.':'Retail, hospitality, offices, homes or outdoor areas: every space calls for a different light. These are some of the projects we have worked on.',
+    'Fachada iluminada de noche':'Façade lit at night','Fachada y exterior':'Façade and exterior',
+    'Pasillo con jardín interior y luz rasante':'Corridor with indoor garden and grazing light','Pasillo con jardín interior':'Corridor with indoor garden',
+    'Salón con iluminación integrada en el mobiliario':'Living room with lighting built into the furniture','Interiorismo residencial':'Residential interiors',
+    'Tienda iluminada con proyectores de carril y líneas de luz':'Shop lit with track spotlights and light lines','Comercio':'Retail',
+    'Baño con espejo retroiluminado y jardín vertical':'Bathroom with backlit mirror and vertical garden','Iluminación indirecta':'Indirect lighting',
+    'Vestidor con tiras LED integradas en los estantes':'Dressing room with LED strips built into the shelves','Iluminación integrada en mobiliario':'Lighting built into furniture',
+    'Vestíbulo de ascensores con líneas de luz en techo y suelo':'Lift lobby with light lines in the ceiling and floor','Vestíbulo de oficinas':'Office lobby',
+    'Techo con marcos de luz lineal en dos rectángulos':'Ceiling with two rectangular linear light frames','Líneas de luz a medida':'Custom light lines',
+    'Oficina con perfiles empotrados y luminaria lineal suspendida':'Office with recessed profiles and a suspended linear luminaire','Oficinas':'Offices',
+    'Por qué Apheloria':'Why Apheloria','Experiencia técnica,':'Technical expertise,','trato cercano':'a personal approach',
+    'Más de 20 años en el sector':'More than 20 years in the industry','Hemos resuelto proyectos de todas las escalas: comercio, oficinas, industria, intercambiadores de transporte y edificios públicos.':'We have delivered projects of every scale: retail, offices, industry, transport interchanges and public buildings.',
+    'Soluciones a medida':'Tailor-made solutions','Si el proyecto lo pide, adaptamos la luminaria: medidas, potencias, ópticas o acabados especiales.':'If the project calls for it, we adapt the luminaire: dimensions, wattages, optics or special finishes.',
+    'Un único interlocutor':'A single point of contact','El mismo equipo hace el estudio, suministra el material y te acompaña en obra. Sin intermediarios.':'The same team carries out the study, supplies the materials and supports you on site. No middlemen.',
+    'Nos ajustamos a tu presupuesto':'We work to your budget','Proponemos alternativas y comparamos opciones para que decidas con datos: luz, consumo y coste.':'We propose alternatives and compare options so you can decide with data: light, consumption and cost.',
+    'Un estudio pensado para cada perfil':'A study designed for every profile',
+    'Ingenierías':'Engineering firms','Cálculos justificativos y documentación lista para incorporar al proyecto.':'Supporting calculations and documentation ready to include in the project.',
+    'Arquitectura e interiorismo':'Architecture and interior design','Luz que acompaña al diseño, con renders para presentar y validar con el cliente.':'Light that complements the design, with renders to present and sign off with the client.',
+    'Instaladores':'Installers','Cantidades cerradas, planos de implantación y soporte técnico durante la obra.':'Fixed quantities, layout plans and technical support throughout the works.',
+    'Promotores y propiedad':'Developers and owners','Certeza de cumplimiento, consumo controlado y una inversión bien dimensionada.':'Assured compliance, controlled consumption and a well-sized investment.',
+    'Hablemos':'Let’s talk','¿Tienes un proyecto en marcha?':'Do you have a project under way?',
+    'Envíanos los planos y cuéntanos qué necesitas. Estudiamos tu caso y te proponemos la mejor solución, sin compromiso.':'Send us the plans and tell us what you need. We will study your case and propose the best solution, with no obligation.'
+  });
+  Object.assign(translations.ar, {
+    'Estudios Lumínicos':'الدراسات الضوئية','Estudios Lumínicos — Apheloria Solutions':'الدراسات الضوئية — Apheloria Solutions',
+    'Estudios lumínicos a medida con DIALux evo: cálculos de iluminancia y uniformidad, cumplimiento de la UNE-EN 12464-1, eficiencia energética, renders 3D y planos de implantación.':'دراسات إضاءة مصممة حسب كل مشروع باستخدام DIALux evo: حسابات شدة الإضاءة والتجانس، والتوافق مع المعيار EN 12464-1، وكفاءة الطاقة، ورندرات ثلاثية الأبعاد ومخططات توزيع الوحدات.',
+    'Modelo 3D de un edificio calculado en DIALux evo':'نموذج ثلاثي الأبعاد لمبنى محسوب على DIALux evo',
+    'Ingeniería de iluminación':'هندسة الإضاءة',
+    'Antes de instalar una sola luminaria, calculamos cómo se comportará la luz en tu espacio. Proyectos de iluminación a medida, con resultados verificables y el acompañamiento de un equipo con más de 20 años en el sector.':'قبل ما نركّب أي وحدة إنارة، نحسب كيف راح يتصرف الضوء في مساحتك. مشاريع إضاءة مصممة على مقاس مشروعك، بنتائج تقدر تتحقق منها، ومع فريق عنده خبرة أكثر من 20 سنة في القطاع.',
+    'Solicitar un estudio':'اطلب دراسة','Ver un caso real':'شوف مشروع حقيقي',
+    'Software de cálculo':'برنامج الحساب','UNE-EN 12464-1':'EN 12464-1','Normativa aplicada':'المعيار المطبّق','Años de experiencia':'سنة من الخبرة',
+    'La diferencia':'الفرق','Un catálogo te ofrece luminarias.':'الكتالوج يعطيك وحدات إنارة.','Un estudio te garantiza el resultado.':'والدراسة تضمن لك النتيجة.',
+    'Cualquiera puede venderte una lámpara. Lo que nos diferencia es todo lo que ocurre antes: analizar el uso de cada espacio, calcular niveles y uniformidades, comprobar la normativa y ajustar la solución a tu presupuesto. Así sabes lo que vas a obtener antes de comprar, sin sorpresas en obra.':'أي أحد يقدر يبيعك لمبة. اللي يميزنا هو كل شي يصير قبل: نحلل استخدام كل مساحة، ونحسب مستويات الإضاءة والتجانس، ونتأكد من المعايير، ونعدّل الحل حسب ميزانيتك. وبكذا تعرف شنو راح تحصل عليه قبل لا تشتري، وبدون مفاجآت في الموقع.',
+    'Venta de producto':'بيع منتج','La luminaria se elige por catálogo':'وحدة الإنارة تنختار من الكتالوج','La cantidad se estima a ojo':'الكمية تنحسب بالتقدير','El resultado se descubre al encender':'النتيجة ما تبين إلا لما تشغّل الإنارة','Si falta luz, se corrige en obra':'وإذا الإضاءة ناقصة، تنصلّح في الموقع',
+    'Estudio Apheloria':'دراسة Apheloria','La luminaria se elige según el uso del espacio':'وحدة الإنارة تنختار حسب استخدام المساحة','Cada punto de luz está calculado':'كل نقطة إنارة محسوبة','El resultado se verifica antes de comprar':'النتيجة تتأكد منها قبل الشراء','El cumplimiento normativo queda documentado':'التوافق مع المعايير موثّق',
+    'Qué incluye':'محتوى الدراسة','Todo lo que necesita tu proyecto,':'كل اللي يحتاجه مشروعك،','en un solo informe':'في تقرير واحد',
+    'Cálculo de iluminancias':'حساب شدة الإضاءة','Niveles de luz en cada plano de trabajo, con mapas de isolíneas y valores punto a punto.':'مستويات الإضاءة على كل سطح عمل، مع خرائط خطوط تساوي الإضاءة وقيم نقطة بنقطة.',
+    'Uniformidad y confort visual':'التجانس والراحة البصرية','Control de la uniformidad (Uo) y del deslumbramiento (UGR) para que la luz sea cómoda, no solo suficiente.':'نضبط التجانس (Uo) والتوهج (UGR) عشان تكون الإضاءة مريحة، مو بس كافية.',
+    'Cumplimiento normativo':'التوافق مع المعايير','Verificación según la UNE-EN 12464-1, el CTE DB HE-3 y la UNE-EN 1838 de alumbrado de emergencia, documentada en el informe.':'تحقق حسب المعيار EN 12464-1 وكود البناء الإسباني (CTE DB HE-3) والمعيار EN 1838 لإنارة الطوارئ، وكله موثّق في التقرير.',
+    'Eficiencia energética':'كفاءة الطاقة','Potencia instalada, VEEI, consumo anual y LENI, para justificar el ahorro y dimensionar bien la instalación.':'القدرة المركّبة، ومؤشر كفاءة الطاقة (VEEI)، والاستهلاك السنوي وLENI، عشان نثبت التوفير ونحدد حجم التركيبات صح.',
+    'Renders y modelo 3D':'رندرات ونموذج ثلاثي الأبعاد','Visualiza el espacio iluminado antes de construirlo y decide con imágenes, no con suposiciones.':'شوف المساحة مضاءة قبل لا تنبني، وقرّر بالصور مو بالتوقعات.',
+    'Planos de implantación':'مخططات التوزيع','La posición de cada luminaria en AutoCAD, con su referencia y el listado de cantidades listo para obra.':'موقع كل وحدة إنارة على AutoCAD، مع رقمها المرجعي وجدول الكميات جاهز للتنفيذ.',
+    'Cómo trabajamos':'طريقة شغلنا','Te acompañamos':'نرافقك','de principio a fin':'من البداية إلى النهاية',
+    'Escuchamos':'نسمعك','Nos cuentas el proyecto: planos, uso de cada espacio, estética buscada, plazos y presupuesto.':'تشرح لنا مشروعك: المخططات، واستخدام كل مساحة، والشكل اللي تبيه، والمواعيد والميزانية.',
+    'Modelamos':'نبني النموذج','Reproducimos el espacio en DIALux evo con su geometría real, sus materiales y sus reflectancias.':'نعيد بناء المساحة على DIALux evo بأبعادها الحقيقية وموادها ونسب انعكاسها.',
+    'Calculamos y ajustamos':'نحسب ونعدّل','Probamos distintas soluciones hasta dar con el equilibrio entre luz, consumo y coste.':'نجرب حلول مختلفة لين نوصل للتوازن الصح بين الإضاءة والاستهلاك والتكلفة.',
+    'Entregamos':'نسلّمك','Recibes el informe técnico, los renders y los planos, y lo revisamos juntos.':'يوصلك التقرير الفني والرندرات والمخططات، ونراجعها مع بعض.',
+    'Acompañamos en obra':'نتابع معاك في الموقع','Suministramos el material, resolvemos las dudas de la instalación y verificamos el resultado.':'نورّد المواد، ونرد على استفسارات التركيب، ونتأكد من النتيجة.',
+    'Caso real':'مشروع حقيقي','Centro deportivo municipal':'مركز رياضي بلدي',
+    'Estudio lumínico completo de un polideportivo: salas de actividades, piscinas, vestuarios y zonas de paso. Debajo, el resultado de una de sus salas.':'دراسة إضاءة كاملة لمجمع رياضي: صالات الأنشطة، والمسابح، وغرف تبديل الملابس، والممرات. وتحت تشوف نتائج وحدة من صالاته.',
+    'Documentación del estudio':'مستندات الدراسة','Modelo 3D':'النموذج ثلاثي الأبعاد','Plano AutoCAD':'مخطط AutoCAD','Mapa de iluminancias':'خريطة شدة الإضاءة','Render de sala':'رندر الصالة','Render de pasillo':'رندر الممر',
+    'Modelo 3D del edificio completo en DIALux evo':'نموذج ثلاثي الأبعاد للمبنى كامل على DIALux evo',
+    'Modelo 3D del edificio completo en DIALux evo, con todas las estancias calculadas.':'نموذج ثلاثي الأبعاد للمبنى كامل على DIALux evo، وكل غرفه محسوبة.',
+    'Plano de implantación en AutoCAD con el cuadro de luminarias':'مخطط توزيع على AutoCAD مع جدول وحدات الإنارة',
+    'Plano de implantación en AutoCAD: posición, referencia y cantidad de cada luminaria.':'مخطط التوزيع على AutoCAD: موقع كل وحدة إنارة ورقمها المرجعي وكميتها.',
+    'Mapa de isolíneas de iluminancia de la sala de actividades':'خريطة خطوط تساوي الإضاءة لصالة الأنشطة',
+    'Mapa de isolíneas de la sala de actividades: valores en lux sobre el plano útil.':'خريطة خطوط تساوي الإضاءة لصالة الأنشطة: القيم باللوكس على سطح العمل.',
+    'Render de la sala de actividades con perfiles lineales':'رندر لصالة الأنشطة مع بروفايلات خطية',
+    'Render de la sala de actividades con perfiles lineales SMCS Mini.':'رندر لصالة الأنشطة مع بروفايلات خطية SMCS Mini.',
+    'Render de una zona de paso con luminarias circulares suspendidas':'رندر لممر مع وحدات إنارة دائرية معلّقة',
+    'Render de una zona de paso con luminarias circulares suspendidas.':'رندر لممر مع وحدات إنارة دائرية معلّقة.',
+    'Sala de actividades · resultados':'صالة الأنشطة · النتائج','Parámetro':'المؤشر','Calculado':'المحسوب','Exigido':'المطلوب',
+    'Iluminancia media':'متوسط شدة الإضاءة','Uniformidad (Uo)':'التجانس (Uo)','Consumo anual':'الاستهلاك السنوي',
+    '0,63':'0.63','≥ 0,60':'≥ 0.60','máx. 4050 kWh/a':'حد أقصى 4050 kWh/a','13,8 kWh/m²·a':'13.8 kWh/m²·a','máx. 35 kWh/m²·a':'حد أقصى 35 kWh/m²·a',
+    'Perfil de uso: aula, actividades generales. Valores exigidos según la UNE-EN 12464-1.':'نمط الاستخدام: فصل دراسي، أنشطة عامة. القيم المطلوبة حسب المعيار EN 12464-1.',
+    'Superficie':'المساحة','115,26 m²':'115.26 m²','Altura de montaje':'ارتفاع التركيب','3,65 m':'3.65 m','Luminarias':'وحدات الإنارة','Eficacia':'الكفاءة الضوئية','139,9 lm/W':'139.9 lm/W',
+    'Descargar el resumen (PDF)':'تحميل الملخص (PDF)','Ver la luminaria utilizada →':'شوف وحدة الإنارة المستخدمة ←',
+    'Del cálculo a la realidad':'من الحساب إلى الواقع','La luz, diseñada':'الإضاءة، مصممة','para cada espacio':'لكل مساحة',
+    'Comercio, hostelería, oficinas, vivienda o exterior: cada espacio pide una luz distinta. Estos son algunos de los proyectos en los que hemos trabajado.':'محلات، وضيافة، ومكاتب، وبيوت أو مساحات خارجية: كل مساحة تحتاج إضاءة مختلفة. هذي بعض المشاريع اللي اشتغلنا عليها.',
+    'Fachada iluminada de noche':'واجهة مضاءة بالليل','Fachada y exterior':'الواجهة والمساحات الخارجية',
+    'Pasillo con jardín interior y luz rasante':'ممر مع حديقة داخلية وإضاءة جانبية قريبة من الأرض','Pasillo con jardín interior':'ممر مع حديقة داخلية',
+    'Salón con iluminación integrada en el mobiliario':'صالة مع إضاءة مدمجة في الأثاث','Interiorismo residencial':'تصميم داخلي سكني',
+    'Tienda iluminada con proyectores de carril y líneas de luz':'محل مضاء بكشافات على مسارات وخطوط إضاءة','Comercio':'المحلات التجارية',
+    'Baño con espejo retroiluminado y jardín vertical':'حمّام مع مراية بإضاءة خلفية وحديقة عمودية','Iluminación indirecta':'إضاءة غير مباشرة',
+    'Vestidor con tiras LED integradas en los estantes':'غرفة ملابس مع شرائط LED مدمجة في الرفوف','Iluminación integrada en mobiliario':'إضاءة مدمجة في الأثاث',
+    'Vestíbulo de ascensores con líneas de luz en techo y suelo':'ردهة مصاعد مع خطوط إضاءة في السقف والأرضية','Vestíbulo de oficinas':'ردهة مكاتب',
+    'Techo con marcos de luz lineal en dos rectángulos':'سقف بإطارين مستطيلين من الإضاءة الخطية','Líneas de luz a medida':'خطوط إضاءة حسب الطلب',
+    'Oficina con perfiles empotrados y luminaria lineal suspendida':'مكتب مع بروفايلات غاطسة ووحدة إنارة خطية معلّقة','Oficinas':'المكاتب',
+    'Por qué Apheloria':'ليش Apheloria','Experiencia técnica,':'خبرة فنية،','trato cercano':'وتعامل قريب',
+    'Más de 20 años en el sector':'أكثر من 20 سنة في القطاع','Hemos resuelto proyectos de todas las escalas: comercio, oficinas, industria, intercambiadores de transporte y edificios públicos.':'نفّذنا مشاريع بكل الأحجام: محلات، ومكاتب، ومصانع، ومحطات نقل، ومباني عامة.',
+    'Soluciones a medida':'حلول حسب الطلب','Si el proyecto lo pide, adaptamos la luminaria: medidas, potencias, ópticas o acabados especiales.':'إذا المشروع يحتاج، نعدّل وحدة الإنارة: المقاسات، والقدرات، والعدسات أو التشطيبات الخاصة.',
+    'Un único interlocutor':'جهة تواصل وحدة','El mismo equipo hace el estudio, suministra el material y te acompaña en obra. Sin intermediarios.':'نفس الفريق يسوّي الدراسة، ويورّد المواد، ويتابع معاك في الموقع. بدون وسطاء.',
+    'Nos ajustamos a tu presupuesto':'نمشي حسب ميزانيتك','Proponemos alternativas y comparamos opciones para que decidas con datos: luz, consumo y coste.':'نقترح بدائل ونقارن الخيارات عشان تقرر بالأرقام: الإضاءة، والاستهلاك، والتكلفة.',
+    'Un estudio pensado para cada perfil':'دراسة تناسب كل عميل',
+    'Ingenierías':'المكاتب الهندسية','Cálculos justificativos y documentación lista para incorporar al proyecto.':'حسابات تبرر الحل ومستندات جاهزة تنضاف للمشروع.',
+    'Arquitectura e interiorismo':'العمارة والتصميم الداخلي','Luz que acompaña al diseño, con renders para presentar y validar con el cliente.':'إضاءة تكمّل التصميم، مع رندرات للعرض والاعتماد مع العميل.',
+    'Instaladores':'المقاولين والفنيين','Cantidades cerradas, planos de implantación y soporte técnico durante la obra.':'كميات محددة، ومخططات توزيع، ودعم فني طول فترة التنفيذ.',
+    'Promotores y propiedad':'المطورين والملّاك','Certeza de cumplimiento, consumo controlado y una inversión bien dimensionada.':'ضمان التوافق مع المعايير، واستهلاك تحت السيطرة، واستثمار محسوب صح.',
+    'Hablemos':'خلنا نتكلم','¿Tienes un proyecto en marcha?':'عندك مشروع شغّال عليه؟',
+    'Envíanos los planos y cuéntanos qué necesitas. Estudiamos tu caso y te proponemos la mejor solución, sin compromiso.':'أرسل لنا المخططات وقول لنا شنو تحتاج. ندرس حالتك ونقترح عليك أفضل حل، بدون أي التزام.'
+  });
+
   const projectTranslations = {
     en: {
       'proj-tienda-1': ['Retail','Tienda 1','Lighting for retail, combining two systems. Linear luminaires provide general light and uniformity throughout the sales area, while track spotlights illuminate the perimeter shelving, giving the products their own accent.'],
@@ -130,6 +268,7 @@
         const key = node.getAttribute('aria-label');
         node.setAttribute('aria-label', tr(key));
       }
+      if (node.tagName === 'IMG' && node.alt) node.alt = tr(node.alt);
       if (node.tagName === 'TITLE') node.textContent = tr(node.textContent);
       Array.from(node.childNodes).forEach(translateNode);
     }
@@ -187,7 +326,9 @@
   function applyCatalogLabels() {
     if (lang === 'es') return;
     const map = catalogTranslations[lang];
-    document.querySelectorAll('.cat-hero-titulo, .cat-hero-eyebrow, .cat-card-nombre, .cat-ruta a, .cat-ruta-actual, .ficha-titulo, img[alt], .ficha-mini[title]').forEach(el => {
+    // img[alt] solo dentro del catálogo de Productos: la traducción palabra por palabra
+    // de translateProductName estropearía los textos alternativos de otras páginas.
+    document.querySelectorAll('.cat-hero-titulo, .cat-hero-eyebrow, .cat-card-nombre, .cat-ruta a, .cat-ruta-actual, .ficha-titulo, #catalogo img[alt], .ficha-mini[title]').forEach(el => {
       const attribute = el.matches('img[alt]') ? 'alt' : el.matches('.ficha-mini[title]') ? 'title' : null;
       const source = (attribute ? el.getAttribute(attribute) : el.textContent).trim();
       const translation = source.split(/( · )/).map(part => part === ' · ' ? part : map?.[part.trim()] || translateProductName(part)).join('');

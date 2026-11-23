@@ -24,12 +24,13 @@ RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SALIDA = os.path.join(RAIZ, '_publicar')
 
 # ── qué se sube ───────────────────────────────────────────────────────────────
-PAGINAS = ['index.html', 'proyectos.html', 'productos.html', 'catalogo.html', 'contacto.html',
+PAGINAS = ['index.html', 'proyectos.html', 'productos.html', 'estudios.html', 'catalogo.html',
+           'contacto.html',
            'aviso-legal.html', 'politica-privacidad.html', 'politica-cookies.html', '404.html']
 CONFIGURACION = ['.htaccess', 'robots.txt', 'sitemap.xml']
 ICONOS = ['favicon.png', 'apple-touch-icon.png', 'logo.png', 'logo-icon.png',
           'og-apheloria.jpg']   # la vista previa al compartir en redes
-CARPETAS = ['css', 'js', 'images', 'fonts']
+CARPETAS = ['css', 'js', 'images', 'fonts', 'documentos']   # documentos: PDF de Estudios Lumínicos
 # los diccionarios de traducción, empaquetados desde data/*.json (i18n.js los carga
 # desde JavaScript, así que no aparecen enlazados en ningún HTML)
 ARCHIVOS_I18N = ['js/i18n-datos-en.js', 'js/i18n-datos-ar.js']

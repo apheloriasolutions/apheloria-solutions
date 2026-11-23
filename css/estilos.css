@@ -119,6 +119,12 @@ nav {
 }
 .nav-links a:hover { background: rgba(var(--ink-rgb),0.06); color: var(--ink); }
 .nav-links a.active { background: var(--beige); color: var(--ink); }
+/* Con «Estudios Lumínicos» el menú tiene cinco apartados: en pantallas medianas
+   se aprieta un poco para que no choque con el logo ni con Contacto. */
+@media (min-width: 901px) and (max-width: 1300px) {
+  .nav-links a { padding: 0.6rem 0.75rem; letter-spacing: 0.1em; font-size: 0.66rem; }
+  .nav-brand-text { font-size: 1.15rem; letter-spacing: 0.12em; }
+}
 .nav-item { position: relative; }
 .nav-dropdown {
   position: absolute;
