@@ -18,6 +18,8 @@ import sys
 import unicodedata
 import urllib.parse
 
+import empaquetar_traducciones
+
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SALIDA = os.path.join(RAIZ, '_publicar')
 
@@ -28,6 +30,9 @@ CONFIGURACION = ['.htaccess', 'robots.txt', 'sitemap.xml']
 ICONOS = ['favicon.png', 'apple-touch-icon.png', 'logo.png', 'logo-icon.png',
           'og-apheloria.jpg']   # la vista previa al compartir en redes
 CARPETAS = ['css', 'js', 'images', 'fonts']
+# los diccionarios de traducción, empaquetados desde data/*.json (i18n.js los carga
+# desde JavaScript, así que no aparecen enlazados en ningún HTML)
+ARCHIVOS_I18N = ['js/i18n-datos-en.js', 'js/i18n-datos-ar.js']
 
 # ── qué no se sube aunque esté dentro de una carpeta que sí ───────────────────
 NUNCA = re.compile(r'(^|/)\.|\.(md|xlsx|xls|docx|zip|rar|py|log|bak|sql)$', re.I)
@@ -37,7 +42,7 @@ FICHAS_FUERA = {'resumidas'}
 
 def rutas_que_pide_la_web():
     """Todo lo que el sitio enlaza: páginas, hojas, imágenes y PDF."""
-    pedidas = set()
+    pedidas = set(ARCHIVOS_I18N)
     for p in PAGINAS:
         s = open(os.path.join(RAIZ, p), encoding='utf-8').read()
         for _, v in re.findall(r'(href|src|data-foto)="([^"]+)"', s):
@@ -134,7 +139,63 @@ def comprobar(copiados):
     return sorted(faltan), nfd, sobran
 
 
+def comprobar_cobertura_traducciones():
+    """Verifica que los textos del catálogo tengan mapas para EN y AR."""
+    s = open(os.path.join(RAIZ, 'js', 'catalogo-web.js'), encoding='utf-8').read()
+    catalogo = json.loads(s[s.index('=', s.index('window.CATALOGO')) + 1:s.rindex(';')])
+    secciones, textos, resumenes, etiquetas, valores = set(), set(), set(), set(), set()
+
+    def recorrer(nodo):
+        if nodo.get('texto'):
+            secciones.add(nodo['texto'])
+        if nodo.get('resumen'):
+            resumenes.add(nodo['resumen'])
+        for hijo in nodo.get('hijos', []):
+            recorrer(hijo)
+        for producto in nodo.get('productos', []):
+            textos.update(producto.get('descripcion', []))
+            textos.update(producto.get('notas', []))
+            if producto.get('resumen'):
+                resumenes.add(producto['resumen'])
+            for etiqueta, valor in producto.get('tabla', []):
+                etiquetas.add(etiqueta)
+                valores.add(valor)
+
+    recorrer(catalogo)
+
+    def mapa(nombre):
+        with open(os.path.join(RAIZ, 'data', nombre), encoding='utf-8') as archivo:
+            return json.load(archivo)
+
+    faltantes = []
+    for idioma in ('en', 'ar'):
+        secciones_map = mapa(f'catalogo-traducciones-{idioma}.json')
+        secciones_map.update(mapa(f'catalogo-secciones-{idioma}-overrides.json'))
+        if idioma == 'ar':
+            secciones_map.update(mapa('catalogo-secciones-ar-quality-overrides.json'))
+        textos_map = mapa(f'catalogo-traducciones-{idioma}.json')
+        textos_map.update(mapa(f'productos-traducciones-{idioma}.json'))
+        if idioma == 'ar':
+            textos_map.update(mapa('productos-ar-overrides.json'))
+        resumenes_map = mapa(f'catalogo-resumenes-{idioma}.json')
+        etiquetas_map = mapa(f'tablas-traducciones-{idioma}-labels.json')
+        valores_map = mapa(f'tablas-traducciones-{idioma}-values.json')
+        faltantes.extend((idioma, 'sección', x) for x in secciones - secciones_map.keys())
+        faltantes.extend((idioma, 'descripción/nota', x) for x in textos - textos_map.keys())
+        faltantes.extend((idioma, 'resumen', x) for x in resumenes - resumenes_map.keys())
+        faltantes.extend((idioma, 'etiqueta de tabla', x) for x in etiquetas - etiquetas_map.keys())
+        faltantes.extend((idioma, 'valor de tabla', x) for x in valores if any(c.isalpha() for c in x) and x not in valores_map)
+
+    if faltantes:
+        muestra = '\n'.join(f'     {idioma} · {tipo}: {texto}' for idioma, tipo, texto in faltantes[:10])
+        raise ValueError(f'Faltan {len(faltantes)} traducciones:\n{muestra}')
+    print(f'  ✓ traducciones completas: {len(secciones)} secciones, {len(textos)} textos de ficha, '
+          f'{len(resumenes)} resúmenes y tablas en EN/AR')
+
+
 if __name__ == '__main__':
+    comprobar_cobertura_traducciones()
+    empaquetar_traducciones.main()
     copiados, saltados = copiar(rutas_que_pide_la_web())
     faltan, nfd, sobran = comprobar(copiados)
     peso = sum(os.path.getsize(os.path.join(SALIDA, f))

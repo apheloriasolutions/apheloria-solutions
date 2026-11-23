@@ -199,9 +199,9 @@ function pintar() {
   lienzo.innerHTML = sitio.producto
     ? pintarFicha(sitio.producto, sitio.cadena)
     : pintarNavegacion(sitio.nodo, sitio.cadena, ruta);
-  document.title = (sitio.producto ? sitio.producto.nombre
-                                   : sitio.cadena[sitio.cadena.length - 1].nombre)
-                   + ' — Apheloria Solutions';
+  if (typeof window.APHELORIA_TRANSLATE_COMPLETE === 'function') {
+    window.APHELORIA_TRANSLATE_COMPLETE();
+  }
 }
 
 // Cambiar la foto grande desde las miniaturas
@@ -219,4 +219,5 @@ lienzo.addEventListener('click', e => {
 });
 
 window.addEventListener('hashchange', () => { pintar(); window.scrollTo({ top: 0 }); });
+window.addEventListener('apheloria-i18n-ready', () => pintar());
 pintar();
